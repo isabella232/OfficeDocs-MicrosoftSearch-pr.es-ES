@@ -1,4 +1,4 @@
-# [Microsoft Search](microsoft-search.md)
+# Microsoft Search
 # [Información general](why-microsoft-search.md)
 ## [Características](features.md)
 ## [Seguridad](security.md)
@@ -18,7 +18,7 @@
 ## [Establecer explorador predeterminado](set-default-browser.md)
 ## [Agregar un cuadro de búsqueda a su sitio de intranet](add-a-search-box-to-your-intranet-site.md)
 ## [Planear el contenido](plan-your-content.md)
-# [Marcadores](create-and-manage-bookmarks.md)
+# Marcadores
 ## [Crear marcadores](create-bookmarks.md)
 ## [Administrar marcadores](manage-bookmarks.md)
 ## [Publicar los marcadores de forma predeterminada](publish-default-bookmarks.md)
@@ -29,17 +29,17 @@
 ## [Crear Q&As](create-qas.md)
 ## [Administrar Q&As](manage-qas.md)
 ## [Crear de forma masiva Q&As](bulk-create-qas.md)
-# [Ubicaciones](locations.md)
+# Ubicaciones
 ## [Agregar una ubicación](add-a-location.md)
 ## [Administración de ubicaciones](manage-locations.md)
 ## [Masiva crear ubicaciones](bulk-create-locations.md)
 # [Guía del usuario de adopción](user-adoption-guide.md)
 # [Obtenga conocimientos](get-insights.md)
-# [Preguntas más frecuentes](faqs.md)
-# [Obtener soporte técnico](get-support.md)
+# Preguntas más frecuentes
+# Obtener soporte técnico
 # [Finalidad](use/about-microsoft-search.md)
 ## [Cómo Microsoft Search mantiene su información de seguros](use/how-microsoft-search-keeps-your-info-secure.md)
-## [Iniciar sesión](use/sign-in.md)
+## Iniciar sesión
 ## [¿Por qué estoy conectan automáticamente?](use/why-am-i-automatically-signed-in.md)
 ## [Búsquedas sugeridas](use/suggested-searches.md)
 ## [Buscar personas y grupos](use/find-people-and-groups.md)
@@ -48,4 +48,4 @@
 ## [Buscar archivos](use/find-files.md)
 ## [Buscar conversaciones](use/find-conversations.md)
 ## [Búsqueda de ubicaciones](use/find-locations.md)
-## [Enviar comentario](use/send-feedback.md)
+## Enviar comentario
