@@ -1,12 +1,4 @@
----
-ms.openlocfilehash: 195160e7208366f761fa1dc17b28d0e5b100b090
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379266"
----
-# [Microsoft Search](microsoft-search.md)
+# Microsoft Search
 # [Información general](why-microsoft-search.md)
 ## [Características](features.md)
 ## [Seguridad](security.md)
@@ -26,7 +18,7 @@ ms.locfileid: "29379266"
 ## [Establecer explorador predeterminado](set-default-browser.md)
 ## [Agregar un cuadro de búsqueda a su sitio de intranet](add-a-search-box-to-your-intranet-site.md)
 ## [Planear el contenido](plan-your-content.md)
-# [Marcadores](create-and-manage-bookmarks.md)
+# Marcadores
 ## [Crear marcadores](create-bookmarks.md)
 ## [Administrar marcadores](manage-bookmarks.md)
 ## [Publicar los marcadores de forma predeterminada](publish-default-bookmarks.md)
@@ -37,17 +29,17 @@ ms.locfileid: "29379266"
 ## [Crear Q&As](create-qas.md)
 ## [Administrar Q&As](manage-qas.md)
 ## [Crear de forma masiva Q&As](bulk-create-qas.md)
-# [Ubicaciones](locations.md)
+# Ubicaciones
 ## [Agregar una ubicación](add-a-location.md)
 ## [Administración de ubicaciones](manage-locations.md)
 ## [Masiva crear ubicaciones](bulk-create-locations.md)
 # [Guía del usuario de adopción](user-adoption-guide.md)
 # [Obtenga conocimientos](get-insights.md)
-# [Preguntas más frecuentes](faqs.md)
-# [Obtener soporte técnico](get-support.md)
+# Preguntas más frecuentes
+# Obtener soporte técnico
 # [Finalidad](use/about-microsoft-search.md)
 ## [Cómo Microsoft Search mantiene su información de seguros](use/how-microsoft-search-keeps-your-info-secure.md)
-## [Iniciar sesión](use/sign-in.md)
+## Iniciar sesión
 ## [¿Por qué estoy conectan automáticamente?](use/why-am-i-automatically-signed-in.md)
 ## [Búsquedas sugeridas](use/suggested-searches.md)
 ## [Buscar personas y grupos](use/find-people-and-groups.md)
@@ -56,4 +48,4 @@ ms.locfileid: "29379266"
 ## [Buscar archivos](use/find-files.md)
 ## [Buscar conversaciones](use/find-conversations.md)
 ## [Búsqueda de ubicaciones](use/find-locations.md)
-## [Enviar comentario](use/send-feedback.md)
+## Enviar comentario
