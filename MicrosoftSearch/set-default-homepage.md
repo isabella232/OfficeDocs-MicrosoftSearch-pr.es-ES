@@ -1,5 +1,5 @@
 ---
-title: Página principal predeterminada de conjunto
+title: Establecer página de inicio predeterminada
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -7,21 +7,21 @@ ms.date: 12/20/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: c020bd72-9906-4dfd-bc77-57287f5927ce
 description: Obtenga información sobre cómo establecer a Bing como la página principal predeterminada para su empresa con Microsoft Search.
-ms.openlocfilehash: 9190e607f5e17a0b898ab131886de12cb300a74c
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.openlocfilehash: db0611ebd7f4a8344664825bbb42025f3bb36486
+ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379243"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29612493"
 ---
-# <a name="set-default-homepage"></a>Página principal predeterminada de conjunto
+# <a name="set-default-homepage"></a>Establecer página de inicio predeterminada
 
 Configurar el explorador predeterminado, el motor de búsqueda predeterminado y la página principal predeterminada le ayudará a los usuarios a descubrir las capacidades de Microsoft Search, fomentar el uso más y proporcionar una experiencia más suave.
   

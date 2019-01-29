@@ -7,19 +7,19 @@ ms.date: 09/12/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: 41723aec-435c-400e-a818-6b1e8a1324c0
 description: Asignar funciones y permisos a los administradores, los editores y los usuarios en el portal de administración de búsqueda de Microsoft
-ms.openlocfilehash: a5bbf35748a8720376650acbb4116934abd5ebea
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.openlocfilehash: c6c842a4337d218764c1969939e77e4abe91915c
+ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379251"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29612398"
 ---
 # <a name="add-users"></a>Add users
 

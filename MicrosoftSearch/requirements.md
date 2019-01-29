@@ -7,19 +7,19 @@ ms.date: 10/17/2018
 ms.audience: Admin
 ms.topic: get-started-article
 ms.service: mssearch
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: 41b9b33d-fcc4-470c-90ec-068211fbbb16
 description: Los requisitos de Office 365 y las suscripciones que son necesarios para habilitación Microsoft Search
-ms.openlocfilehash: 1cab7b7617eb965e1130f6b56c3a0169259f5b8e
-ms.sourcegitcommit: 4e04137c6ca05b64157561bd14ead89485bafe1e
+ms.openlocfilehash: e90013eb2b76a4a4f4fff2e8b91f3bc6e48a4f2b
+ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29442284"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29612469"
 ---
 # <a name="requirements-for-microsoft-search"></a>Requisitos para la búsqueda de Microsoft
 

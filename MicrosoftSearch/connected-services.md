@@ -7,19 +7,19 @@ ms.date: 9/12/2018
 ms.audience: Admin
 ms.topic: reference
 ms.service: mssearch
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: 161ea667-9b27-4695-b7a8-e8e063141795
 description: Obtenga información sobre cómo personalizar los resultados del trabajo que aparecen cuando se usa Microsoft Search.
-ms.openlocfilehash: dda6f52931a0d3b3e76f038a91bfaf1d09264849
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.openlocfilehash: 0990b8362b01a2173f87e541bc1ea86aadcbb506
+ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379239"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29612442"
 ---
 # <a name="connected-services"></a>Servicios conectados
 

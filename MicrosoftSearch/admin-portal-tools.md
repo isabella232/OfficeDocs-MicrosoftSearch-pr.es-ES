@@ -1,5 +1,5 @@
 ---
-title: Herramientas de administración del portal
+title: Herramientas del portal de administración
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -7,21 +7,21 @@ ms.date: 12/18/2018
 ms.audience: Admin
 ms.topic: reference
 ms.service: mssearch
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: 4a824483-2407-4bbd-8f7f-5ebb47817c7e
 description: Información general de herramientas de Microsoft Search para crear e importar resultados, iniciar sesión automáticamente y de búsqueda desde cualquier lugar
-ms.openlocfilehash: e885760a85ebacecb2987fc1ec4e125115f00f5d
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.openlocfilehash: 3b7064fbd0d8f66149a91057be00611e23928ccc
+ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379280"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29612388"
 ---
-# <a name="admin-portal-tools"></a>Herramientas de administración del portal
+# <a name="admin-portal-tools"></a>Herramientas del portal de administración
 
 El portal de administración de búsqueda de Microsoft incluye herramientas y recursos diseñados para los administradores, los editores y los usuarios, incluidos:
   

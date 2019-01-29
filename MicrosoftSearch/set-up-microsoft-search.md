@@ -7,19 +7,19 @@ ms.date: 12/20/2018
 ms.audience: Admin
 ms.topic: hub-page
 ms.service: mssearch
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: c989562e-525f-4922-b436-a885e7bf36ee
 description: Toda la información que necesita para implementar Microsoft Search en la organización
-ms.openlocfilehash: 0a9a37577d4c5cda98c51499994dc402e9ac8953
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.openlocfilehash: 7e58d6df8d2ae35aab7d24c05b487f626b5f5c1c
+ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379260"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29612405"
 ---
 # <a name="set-up-microsoft-search"></a>Configurar Microsoft Search
 
@@ -37,7 +37,7 @@ Como parte de Office 365, Microsoft Search se implementa fácilmente habilitando
     
     Administrar el acceso del portal para los administradores y los editores y proporcionar o restringir el acceso a Microsoft Search dentro de la organización
     
-- [Herramientas de administración del portal](admin-portal-tools.md)
+- [Herramientas del portal de administración](admin-portal-tools.md)
     
     Utilizar las extensiones de explorador y otras herramientas para crear e importar contenido, minimizar el número de veces que se solicita a los usuarios a iniciar sesión y encuentre los resultados del trabajo en Bing
     
