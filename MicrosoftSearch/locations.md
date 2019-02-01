@@ -13,13 +13,13 @@ search.appverid:
 - MOE150
 - MED150
 ms.assetid: 2379e72c-a7da-4e3f-932a-12d431a0a284
-description: Información general de todas las formas que puede incluir resultados de trabajo de Microsoft Searc de ubicaciones de su organización
-ms.openlocfilehash: 6b96fd405fc78d77f9b61408909b380cc45ec95e
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+description: Información general de todas las formas que puede incluir ubicaciones de su organización en los resultados de trabajo de Microsoft Search
+ms.openlocfilehash: 4ff30d7e346d609e9fddaca70caa1a85652fad3c
+ms.sourcegitcommit: 98fd5dd37a5b753cfa2fb81fc4bd6497ecc8ed30
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379237"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690662"
 ---
 # <a name="locations"></a>Ubicaciones
 
@@ -31,11 +31,11 @@ Ubicaciones de ayudar a los usuarios buscar direcciones y localice los edificios
     
     Agregar un edificio, office, campus u otro espacio de trabajo
     
-- [Masiva crear ubicaciones](bulk-create-locations.md)
+- [Crear ubicaciones de forma masiva](bulk-create-locations.md)
     
     Agregar ubicaciones a un archivo .csv e importarlos de forma masiva
     
-## <a name="manage-locations"></a>Administración de ubicaciones
+## <a name="manage-locations"></a>Administrar ubicaciones
 
 Utilizar el estado de ubicación, herramientas, el filtrado y las herramientas de exportación e importación para [encontrar y actualizar las ubicaciones](manage-locations.md), incluido el nombre de la dirección y la ubicación de forma masiva
   
