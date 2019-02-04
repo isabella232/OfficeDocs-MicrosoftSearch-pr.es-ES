@@ -13,76 +13,76 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 40a556e1-61c2-4bd3-b80e-5ad62af77454
-description: Crear marcadores o usuario una extensión de explorador para agregarlos a los resultados del trabajo de Microsoft Search
+description: Cree marcadores o use una extensión de explorador para agregarlos a los resultados de trabajo de Microsoft Search
 ms.openlocfilehash: 71e5ae48bb8812e5222a4d6075292f3b85bed441
 ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/29/2019
 ms.locfileid: "29612413"
 ---
 # <a name="create-bookmarks"></a>Crear marcadores
 
-Marcadores ayudar a las personas a encontrar rápidamente las herramientas, sitios y recursos importantes. Cada marcador incluye un título, una dirección URL y un conjunto de palabras clave que se activan.
+Los marcadores ayudan a las personas a encontrar rápidamente las herramientas, sitios y recursos importantes. Cada marcador incluye un título, una dirección URL y un conjunto de palabras clave que lo desencadena.
   
 ## <a name="create-a-bookmark"></a>Crear un marcador
 
-Para obtener información acerca de cómo crear eficaces títulos, descripciones, palabras clave y más información, vea [Planning su contenido](plan-your-content.md).
+Para obtener información sobre cómo crear títulos, descripciones y palabras clave eficaces entre otros, vea [Planear el contenido](plan-your-content.md).
   
-1. Vaya al portal de administración de búsqueda de Microsoft
+1. Vaya al portal de administración de Microsoft Search
     
-2. En el panel de navegación, haga clic en **marcadores**
+2. En el panel de navegación, haga clic en **Marcadores**
     
 3. En la parte superior de la página, haga clic en **Agregar marcador**
     
-    Aparece la página de marcador de edición, con una vista previa del aspecto que tendrá el marcador en Bing. Al agregar la información necesaria, se actualizará automáticamente la vista previa.
+    Aparece la página de Editar marcador, con una vista previa del aspecto que tendrá el marcador en Bing. Al agregar la información necesaria, la vista previa se actualizará automáticamente.
     
 4. Escriba un **título de marcador**
     
-    El título es el encabezado que aparece en el resultado. Puede tener hasta 60 caracteres.
+    El título es el encabezado que aparece en el resultado. Puede tener un máximo de 60 caracteres de longitud.
     
-5. Escriba la **dirección URL** de la página, el sitio o la ubicación que el marcador se vinculará al 
+5. Escriba la **URL** de la página, sitio o ubicación al que llevará el marcador 
     
-6. Escriba una **Descripción de marcador**
+6. Escriba una **descripción de marcador**
     
-    Una descripción ayuda a los usuarios a comprender lo que se vincula el marcador a. Puede tener hasta 300 caracteres.
+    Una descripción que ayuda a los usuarios a comprender a qué está vinculado el marcador. Puede tener hasta 300 caracteres.
     
-7. **Las palabras clave** que desea desencadenar este marcador clave que introduzca 
+7. Escriba las **palabras clave** que quiere que desencadenen este marcador 
     
-    Cuando un usuario busca cualquiera de las palabras clave que ha incluido, este marcador se incluirá en los resultados de su trabajo.
+    Cuando un usuario busque las palabras clave que ha incluido, este marcador se incluirá en los resultados de trabajo.
     
-8. Seleccione **asignar automáticamente las palabras clave similares** para expandir el conjunto de palabras clave 
+8. Seleccione **Hacer coincidir automáticamente palabras clave similares** para expandir el conjunto de palabras clave 
     
-    Esto permite que una coincidencia más amplio de términos de búsqueda y ayuda a garantiza que este marcador se incluye en los resultados de trabajo relevantes.
+    Esto permite una mayor coincidencia de términos de búsqueda y ayuda a garantizar que este marcador se incluye en los resultados relevantes.
     
 9. Escriba **palabras clave reservadas**
     
-    Si una palabra clave desencadena varios marcadores, Microsoft Search colocar el uno de los más popular en la parte superior y mostrar los demás como vínculos relacionados. Use uno o más palabras reservadas para asegurarse de que un marcador siempre aparece como el resultado de la superior. Palabras clave reservadas no se puede compartir a través de marcadores.
+    Si una palabra clave desencadena varios marcadores, Microsoft Search colocará el más popular en la parte superior y mostrará los demás como vínculos relacionados. Use una o varias palabras clave reservadas para asegurarse de que un marcador aparece como resultado principal. Las palabras clave reservadas no se pueden compartir entre marcadores.
     
-## <a name="add-bookmark-settings"></a>Agregar la configuración de marcador
+## <a name="add-bookmark-settings"></a>Agregar la configuración del marcador
 
-Configuración de marcador proporciona un control adicional a través de cuando se encuentra un marcador y quién la ve.
+La configuración del marcador ofrece más control sobre cuándo aparece un marcador y quién lo ve.
   
 - Fechas
     
-    Establecer una fecha de inicio, así como una fecha de finalización opcional para controlar cuándo se publicará un marcador ni de caducidad. 
+    Establezca una fecha de inicio, así como una fecha de finalización opcional para controlar cuándo se publicará o expirará un marcador. 
     
 - País o región
     
-    Si selecciona países o regiones, sólo los usuarios de esas ubicaciones se verán ese marcador.
+    Si selecciona países o regiones, solo los usuarios en esas ubicaciones verán ese marcador.
     
 - Grupos
     
-    Use los grupos de configuración que se debe disponer de un resultado de marcador sólo a los miembros de un grupo seleccionado. Por ejemplo, si está creando marcadores que pertenecen únicamente a los empleados del departamento de recursos humanos, puede asignar esta configuración para el grupo de seguridad de recursos humanos adecuado.
+    Use la configuración de Grupos para hacer que un resultado de marcador esté disponible únicamente para los miembros de un grupo seleccionado. Por ejemplo, si va a crear marcadores que solo conciernen a los empleados del departamento de recursos humanos, puede asignar esta configuración al grupo de seguridad de recursos humanos adecuado.
     
-- Dispositivo &amp; OS
+- Dispositivo y sistema operativo
     
-    Si selecciona tipos de dispositivos o sistemas operativos, sólo los usuarios buscar en esos dispositivos o mediante esos sistemas verán ese marcador.
+    Si selecciona sistemas operativos o tipos de dispositivos, solo los usuarios que busquen en dichos dispositivos o usen esos sistemas verán ese marcador.
     
-- Variantes de destinadas
+- Variaciones dirigidas
     
-    Use esta configuración para variar el contenido del marcador en función de dispositivo y la ubicación de un usuario.
+    Use esta opción para variar el contenido del marcador en función del dispositivo y la ubicación de un usuario.
     
 ## <a name="use-a-browser-extension-to-create-content"></a>Usar una extensión de explorador para crear contenido
 
-En la sección Herramientas del portal de administración, descargue e instale la extensión de explorador creador del contenido para el borde o Chrome. Para usar la extensión, inicie sesión en y vaya a un sitio o una página que desea agregar como un marcador. Revisar y cambiar el contenido sugerido, incluidas las palabras clave, agregar cualquier contenido adicional y guarde el marcador.
+Desde la sección Herramientas del portal de administración, descargue e instale la extensión del navegador para creadores de contenido para Microsoft Edge o Chrome. Para usar la extensión, inicie sesión y vaya a un sitio o página que quiera agregar como marcador. Revise y cambie el contenido sugerido, como las palabras clave, agregue contenido adicional y guarde el marcador.
