@@ -1,5 +1,5 @@
 ---
-title: Requisitos para la búsqueda de Microsoft
+title: Requisitos de Microsoft Search
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,17 +13,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 41b9b33d-fcc4-470c-90ec-068211fbbb16
-description: Los requisitos de Office 365 y las suscripciones que son necesarios para habilitación Microsoft Search
+description: Los requisitos y suscripciones necesarios de Office 365 para habilitar Microsoft Search
 ms.openlocfilehash: e90013eb2b76a4a4f4fff2e8b91f3bc6e48a4f2b
 ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/29/2019
 ms.locfileid: "29612469"
 ---
-# <a name="requirements-for-microsoft-search"></a>Requisitos para la búsqueda de Microsoft
+# <a name="requirements-for-microsoft-search"></a>Requisitos de Microsoft Search
 
-Estos son los requisitos del inquilino de Office 365 para habilitar Microsoft Search: 
+Estos son los requisitos de espacio empresarial de Office 365 para habilitar Microsoft Search: 
   
 - Azure Active Directory
     
@@ -31,29 +31,29 @@ Estos son los requisitos del inquilino de Office 365 para habilitar Microsoft Se
     
 - Exchange Online
     
-- Suscripción de Office 365 para una de las SKU compatibles que aparece a continuación. Sólo las cuentas de usuario activo con una de estas suscripciones pueden usar Microsoft Search:
+- Suscripción a Office 365 para una de las siguientes SKU admitidas. Solo las cuentas de usuarios activos con una de estas suscripciones pueden usar Microsoft Search:
     
-  - Business Essentials
+  - Empresa Essentials
     
   - Empresa Premium
     
-  - F1 de Office 365
+  - Office 365 F1
     
-  - Office 365 E1 y E2/E3/E5
+  - Office 365 E1/E2/E3/E5
     
   - Microsoft 365 Empresa
     
   - Microsoft 365 Enterprise F1/E3/E5
     
-  - Microsoft 365 educación para profesores A3/A5
+  - Microsoft 365 Educación para profesores A3/A5
     
-  - Formación de Office 365 para profesores A1/A1 A3/Plus/A5
+  - Office 365 Educación para profesores A1/A1 Plus/A3/A5
     
-  - Formación de Office 365 para profesores E1 o E3
+  - Office 365 Educación para profesores E1/E3
     
-  - Office 365 para profesionales de beneficios que no sean NPBE/NPBP/NPE1/NPE3/NPE5
+  - Office 365 para ONG NPBE/NPBP/NPE1/NPE3/NPE5
     
-Para habilitar Microsoft Search para su organización, el inquilino de Office 365 y el administrador Global deben estar en una de estas ubicaciones:
+Para habilitar Microsoft Search para su organización, el inquilino de Office 365 y el administrador global deben estar en una de estas ubicaciones:
   
 - Estados Unidos
     
@@ -85,9 +85,9 @@ Para habilitar Microsoft Search para su organización, el inquilino de Office 36
 
 - China
  
-En la actualidad, Microsoft Search está optimizado para inglés. Compatibilidad total con otros idiomas estará disponible próximamente.
+Actualmente, Microsoft Search está optimizado en inglés. El soporte completo para otros idiomas estará disponible próximamente.
 
-Una vez que el producto está habilitado, no hay ningún requisito de ubicación para los administradores de Microsoft Search o usuarios. Vea [rápido configurar para la búsqueda de Microsoft](quick-set-up.md) para obtener información detallada acerca de cómo habilitarlo. 
+Una vez que el producto esté habilitado, no hay requisitos de ubicación para los administradores y usuarios de Microsoft Search. Vea [Configuración rápida de Microsoft Search](quick-set-up.md) para obtener más información acerca de cómo activarlo. 
 
   
 

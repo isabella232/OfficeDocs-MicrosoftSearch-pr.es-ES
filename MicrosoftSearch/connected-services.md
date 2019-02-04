@@ -13,41 +13,41 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 161ea667-9b27-4695-b7a8-e8e063141795
-description: Obtenga información sobre cómo personalizar los resultados del trabajo que aparecen cuando se usa Microsoft Search.
+description: Aprenda a personalizar los resultados de trabajo que aparecen al usar Microsoft Search.
 ms.openlocfilehash: 0990b8362b01a2173f87e541bc1ea86aadcbb506
 ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/29/2019
 ms.locfileid: "29612442"
 ---
 # <a name="connected-services"></a>Servicios conectados
 
-Microsoft Search le permite usar el motor de búsqueda de Bing eficaces para buscar archivos de SharePoint de su organización de Office 365, sitios Web internos con marcador, personas en la lista global de direcciones y los grupos de Office 365.
+Microsoft Search le permite utilizar el potente motor de búsqueda de Bing para buscar archivos de SharePoint de su organización de Office 365, sitios web internos marcados, personas en la lista global de direcciones y grupos de Office 365.
   
-## <a name="search-for-sites-and-documents"></a>Búsqueda de sitios y documentos
+## <a name="search-for-sites-and-documents"></a>Buscar sitios y documentos
 
-Búsqueda de sitios, páginas, archivos y documentos de SharePoint y OneDrive para la empresa. Examinar los archivos que han compartido personas dentro de la organización y dentro de los grupos de Office 365. Por ejemplo, la búsqueda para archivos, como 'nuevo empleado aprendizaje cubierta' o para un usuario y, a continuación, en el resultado de personas, haga clic en la ficha archivos para ver los archivos que se han compartido. También puede buscar los sitios de SharePoint a través de los equipos y la organización.
+Busque sitios, páginas, archivos y documentos de SharePoint y OneDrive para la Empresa. Examine los archivos que otros usuarios comparten dentro de su organización y en grupos de Office 365. Por ejemplo, busque archivos como "lote de aprendizaje para nuevos empleados" o busque un usuario y, en el resultado de personas, simplemente haga clic en la pestaña archivos para ver los archivos que ha compartido. También puede buscar sitios de SharePoint en distintos equipos y en su organización.
   
-Permitir el acceso de usuario a la búsqueda de documentos y sitios de SharePoint al activar **Permitir documentos y sitios de búsqueda en Bing.com** en el portal de administración de búsqueda de Microsoft. 
+Permita el acceso de usuarios a la búsqueda de documentos y sitios de SharePoint activando la opción **Permitir la búsqueda de documentos y sitios en Bing.com** en el portal de administración de Microsoft Search. 
   
-## <a name="search-for-people"></a>Buscar personas
+## <a name="search-for-people"></a>Busque personas
 
-Búsqueda de personas extrae toda la información acerca de una persona de su organización, por lo que no tiene que buscar en varios lugares para obtener la historia completa. Por ejemplo, si desea buscar 'Megan Fry', puede ver que la técnica informa a, que trabaja con, sus archivos compartidos públicamente, su estructura de la organización y los grupos que pertenece.
+La búsqueda de personas extrae toda la información sobre una persona de su organización para que no tenga que buscar en varios lugares para obtener la historia completa. Por ejemplo, si busca "Naiara Padilla", verá quién es su superior, con quién trabaja, sus archivos compartidos públicamente, la estructura de su organización y los grupos a los que pertenece.
   
-Permitir el acceso de usuario a la búsqueda de personas mediante la activación en **Permitir la búsqueda de personas en Bing.com** en el portal de administración de búsqueda de Microsoft. 
+Permita el acceso de usuarios a la búsqueda de personas activando **Permitir la búsqueda de personas en Bing.com** en el portal de administración de Microsoft Search. 
   
-## <a name="search-for-groups"></a>Búsqueda de grupos
+## <a name="search-for-groups"></a>Buscar grupos
 
-Buscar grupos de Office 365 obtener información sobre el grupo, su propietarios, (miembros), los archivos y las conversaciones. Si hace clic en un título de la conversación, abrirá en Outlook en el web, y puede responder a o revisarlo.
+Busque grupos de Office 365 para obtener información sobre el grupo, sus propietarios, miembros, archivos y conversaciones. Si hace clic en el título de una conversación, se abrirá Outlook en la web y podrá responder o revisar la conversación.
   
-Permitir el acceso de usuario a búsqueda de grupo mediante la activación en **búsqueda de grupo permitir en Bing.com** en el portal de administración de búsqueda de Microsoft. 
+Permita el acceso de usuarios a la búsqueda de grupos activando **Permitir la búsqueda de grupos en Bing.com** en el portal de administración de Microsoft Search. 
   
-## <a name="search-for-conversations"></a>Búsqueda de conversaciones
+## <a name="search-for-conversations"></a>Buscar conversaciones
 
-Para buscar su privada conversaciones Teams Microsoft o Microsoft Yammer o las conversaciones entre los compañeros de trabajo que tienen permiso para ver. Por ejemplo, puede buscar 'Guía' y vea las conversaciones relevantes 30 superiores acerca de él.
+Busque sus conversaciones privadas de Microsoft Teams o Microsoft Yammer o las conversaciones entre sus compañeros de trabajo que tiene permiso para ver. Por ejemplo, puede buscar "plan" y ver las 30 conversaciones más relevantes al respecto.
   
-Permitir el acceso de usuario a la búsqueda de conversación mediante la activación en **Permitir la búsqueda de conversación en Bing.com** para Microsoft Teams, Yammer o ambos en el portal de administración de búsqueda de Microsoft. 
+Permita el acceso de usuarios a la búsqueda de conversaciones activando **Permitir la búsqueda de conversaciones en Bing.com** para Microsoft Teams, Yammer o ambos en el portal de administración de Microsoft Search. 
 
   
 
