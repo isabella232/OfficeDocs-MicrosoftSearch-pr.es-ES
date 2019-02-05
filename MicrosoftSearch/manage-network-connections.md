@@ -13,19 +13,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 8ad58820-69e0-4ee0-88a7-d207ffa790b7
-description: Agregar estas direcciones URL y dominios a firewall de su lista de permitidos para los usuarios obtener acceso fácilmente a Microsoft Search
+description: Agregue estas direcciones URL y dominios a la lista de permitidos de su firewall para que los usuarios puedan acceder fácilmente a Microsoft Search
 ms.openlocfilehash: 87a650bd0db17fbede2483c5e117cb03841f6378
 ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/29/2019
 ms.locfileid: "29612549"
 ---
 # <a name="manage-network-connections"></a>Administrar conexiones de red
 
-Para asegurarse de que usted y los usuarios pueden conectarse a los extremos de Microsoft Search, agregue que estas direcciones URL para el servidor de seguridad permiten listas.
+Para asegurarse de que usted y sus usuarios pueden conectarse a puntos de conexión de Microsoft Search, agregue estas URL a la lista de permitidos de su firewall.
   
-## <a name="for-the-microsoft-search-admin-portal"></a>Para el portal de administración de búsqueda de Microsoft:
+## <a name="for-the-microsoft-search-admin-portal"></a>Para el portal de administración de Microsoft Search:
 
 - `www.bingatwork.com`
     
@@ -39,7 +39,7 @@ Para asegurarse de que usted y los usuarios pueden conectarse a los extremos de 
     
 - `\*.bingforbusiness.com`
     
-## <a name="for-microsoft-search-in-bing"></a>Para la búsqueda de Microsoft en Bing:
+## <a name="for-microsoft-search-in-bing"></a>Para Microsoft Search en Bing:
 
 - `business.bing.com`
     
