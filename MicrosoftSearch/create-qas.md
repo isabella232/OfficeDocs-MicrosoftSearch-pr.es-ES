@@ -1,5 +1,5 @@
 ---
-title: Crear Q&As
+title: Crear preguntas y respuestas
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,127 +13,127 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: d432b9d9-3792-47a0-9a13-30a1a83caabc
-description: Formas de crear respuestas a las preguntas más frecuentes para su Microsoft Search funcionan los resultados
+description: Formas de crear respuestas a las preguntas más frecuentes para los resultados de trabajo de Microsoft Search
 ms.openlocfilehash: 9713608450688a0841aa64d1f3198183b10e05ee
 ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/29/2019
 ms.locfileid: "29612501"
 ---
-# <a name="create-qas"></a>Crear Q&As
+# <a name="create-qas"></a>Crear preguntas y respuestas
 
-Q&As proporcionar una respuesta o información a los usuarios incluidos en un vínculo opcional. Idealmente, un Q&A incluye todos los detalles de que los usuarios están buscando por lo que no necesitan ir al origen. Puede dar formato al contenido de Q&A e incluir imágenes, listas y tablas.
+Las preguntas más frecuentes proporcionan una respuesta o información a los usuarios incluyendo un vínculo opcional. Lo ideal es que en las preguntas y respuestas se incluyan todos los detalles que los usuarios están buscando para que no tengan que ir al origen. Puede dar formato al contenido de sus preguntas y respuestas e incluir imágenes, listas y tablas.
   
-## <a name="create-a-qa"></a>Crear un Q&A
+## <a name="create-a-qa"></a>Crear un Preguntas y respuestas
 
-Para obtener información acerca de cómo crear eficaces títulos, descripciones, palabras clave y más información, vea [planificar el contenido.](plan-your-content.md)
+Para obtener información sobre cómo crear títulos, descripciones y palabras clave eficaces entre otros, vea [Planear el contenido](plan-your-content.md).
   
-1. Vaya al portal de administración de búsqueda de Microsoft
+1. Vaya al portal de administración de Microsoft Search
     
-2. En el panel de navegación, haga clic en **Q&As**
+2. En el panel de navegación, haga clic en **Preguntas y respuestas**
     
-3. En la parte superior de la página, haga clic en **Agregar Q&A**
+3. En la parte superior de la página, haga clic en **Agregar preguntas y respuestas**.
     
-    Aparece la página Editar Q&A, con una vista previa del aspecto de la Q&A en Bing. Al agregar la información necesaria, se actualizará automáticamente la vista previa.
+    Aparece la página de Editar preguntas y respuestas, con una vista previa del aspecto que tendrán en Bing. Al agregar la información necesaria, la vista previa se actualizará automáticamente.
     
-4. Escriba un **título**
+4. Escriba un **Título**
     
-    El título es el encabezado que aparece en el resultado. Pueden tener una longitud de hasta 120 caracteres y se recomienda usar un formato de pregunta.
+    El título es el encabezado que aparece en el resultado. Puede tener un máximo de 120 caracteres de longitud y recomendamos utilizar un formato de pregunta.
     
-5. Si es necesario, escriba la **dirección URL** de la página, el sitio o la ubicación que el marcador se vinculará al 
+5. Si es necesario, escriba la **URL** de la página, sitio o ubicación al que llevará el marcador 
     
-    Obtienen este permite a los usuarios que necesitan fácilmente información adicional en el origen para obtener más información.
+    Esto permite que los usuarios que necesitan información adicional puedan acceder más fácilmente al origen para obtener más información.
     
-6. Escriba una **Descripción de respuesta**
+6. Escriba una **descripción de respuesta**
     
-    Esto debe responder a la pregunta que se le pida en el título. Puede copiar el contenido HTML existente y péguela aquí. Se pasará por alto cualquier etiquetas no admitidas.
+    Debería responder a la pregunta que se hace en el título. Puede copiar el contenido HTML existente y pegarlo aquí. Las etiquetas no compatibles se omitirán.
     
-7. Usar etiquetas HTML y las opciones integradas para dar formato al texto, agregar imágenes, listas, tablas etc.
+7. Use las opciones integradas y etiquetas HTML para dar formato al texto, agregar imágenes, listas, tablas, etc.
     
-    Usar la vista previa en la parte superior de la página para ver cómo su etiquetas y formato aparecen en Bing. Para obtener información acerca de:
+    Usar la vista previa en la parte superior de la página para ver cómo aparecerán sus etiquetas y formato en Bing. Para obtener información sobre:
     
-  - Etiquetas HTML, vea la lista de etiquetas HTML compatible que aparece a continuación
+  - Etiquetas HTML, consulte la siguiente lista de etiquetas HTML compatibles
     
-  - Opciones integradas, haga clic en **Guía de descuento** (icono de signo de interrogación) 
+  - Opciones integradas, haga clic en **Guía de markdown** (icono con el signo de interrogación) 
     
-8. **Las palabras clave** que desea desencadenar este Q&A clave que introduzca 
+8. Escriba las **palabras clave** que quiere que lleven a esta pregunta 
     
-    Al igual que un marcador, cuando un usuario busca cualquiera de las palabras clave que ha incluido, este Q&A se incluirá en los resultados de su trabajo. Intente agregar variantes tantos como sea posible, incluidos el título de la Q&A.
+    Al igual que un marcador, cuando un usuario busca cualquiera de las palabras clave que se han incluido, esta preguntas y su respuesta se incluirá en los resultados de trabajo. Intente agregar tantas variantes como sea posible, incluyendo el título de la pregunta.
     
-9. Seleccione **asignar automáticamente las palabras clave similares** para expandir el conjunto de palabras clave 
+9. Seleccione **Hacer coincidir automáticamente palabras clave similares** para expandir el conjunto de palabras clave 
     
-    Esto permite que una coincidencia más amplio de términos de búsqueda y ayuda a garantiza que este Q&A se incluye en los resultados de trabajo relevantes.
+    Esto permite una mayor coincidencia de términos de búsqueda y ayuda a garantizar que esta pregunta se incluya en los resultados relevantes.
     
-10. Escriba **palabras clave reservadas**
+10. Escriba las **palabras clave reservadas**
     
-    Si una palabra clave desencadena varios Q&As, Microsoft Search colocar el uno de los más popular en la parte superior y mostrar los demás como vínculos relacionados. Usar uno o más palabras reservadas para garantizar que un Q&A siempre aparece como el resultado de la superior. Palabras clave reservadas no se puede compartir a través de Q&As. Además, no se recomienda el uso compartido de palabras clave reservadas a través de Q&As y marcadores. Si un marcador y un Q&A comparten una palabra clave o una palabra clave reservada, el marcador siempre tendrán prioridad y el Q&A no aparecerá.
+    Si una palabra clave desencadena varias preguntas, Microsoft Search colocará la más popular en la parte superior y mostrará las demás como vínculos relacionados. Use una o varias palabras clave reservadas para asegurarse de que una pregunta aparece como resultado principal. Las palabras clave reservadas no se pueden compartir entre marcadores. Además, no se recomienda compartir palabras reservadas entre marcadores y preguntas. Si un marcador y una preguntas comparten una palabra clave o una palabra clave reservada, el marcador siempre tendrá prioridad y no se mostrará la pregunta.
     
-## <a name="add-qa-settings"></a>Agregar la configuración de Q&A
+## <a name="add-qa-settings"></a>Agregar la configuración de preguntas y respuestas
 
-Configuración de Q&A proporciona un control adicional sobre cuando aparece una Q&A y quién la ve.
+La configuración de las preguntas ofrece más control sobre cuándo aparece una preguntas y quién la ve.
   
 - Fechas
     
-    Establecer una fecha de inicio, así como una fecha de finalización opcional para controlar cuándo se publicará un Q&A ni de caducidad.
+    Establezca una fecha de inicio, así como una fecha de finalización opcional para controlar cuándo se publicará o expirará una pregunta.
     
 - País o región
     
-    Si selecciona países o regiones, sólo los usuarios de dichas ubicaciones verán que Q&A.
+    Si selecciona países o regiones, solo los usuarios en esas ubicaciones verán esa pregunta.
     
 - Grupos
     
-    Use los grupos de configuración que se debe realizar un resultado de Q&A disponibles únicamente a los miembros de un grupo seleccionado. Por ejemplo, si está creando Q&As que pertenecen únicamente a los empleados del departamento de recursos humanos, puede asignar esta configuración para el grupo de seguridad de recursos humanos adecuado.
+    Use la configuración de Grupos para hacer que un resultado de pregunta esté disponible únicamente para los miembros de un grupo seleccionado. Por ejemplo, si va a crear preguntas que solo conciernen a los empleados del departamento de recursos humanos, puede asignar esta configuración al grupo de seguridad de recursos humanos adecuado.
     
-- Dispositivo &amp; OS
+- Dispositivo y sistema operativo
     
-    Si selecciona tipos de dispositivos o sistemas operativos, verá sólo a los usuarios buscar en esos dispositivos o uso de los sistemas que Q&A.
+    Si selecciona sistemas operativos o tipos de dispositivos, solo los usuarios que busquen en dichos dispositivos o usen esos sistemas verán esa pregunta.
     
-- Variantes de destinadas
+- Variaciones dirigidas
     
-    Use esta configuración para variar el contenido de la Q&A en función de dispositivo y la ubicación de un usuario.
+    Use esta opción para variar el contenido de la pregunta en función del dispositivo y la ubicación de un usuario.
     
 ## <a name="use-a-browser-extension-to-create-content"></a>Usar una extensión de explorador para crear contenido
 
-En la sección Herramientas del portal de administración, descargue e instale la extensión de explorador creador del contenido para el borde o Chrome. Para usar la extensión, inicie sesión en y vaya a un sitio o una página que desea agregar como una revisión Q&A. y cambiar el contenido sugerido, incluidas las palabras clave, agregue cualquier contenido adicional y guarde el Q&A.
+Desde la sección Herramientas del portal de administración, descargue e instale la extensión del navegador para creadores de contenido para Microsoft Edge o Chrome. Para usar la extensión, inicie sesión y vaya a un sitio o página que quiera agregar como pregunta. Revise y cambie el contenido sugerido, como las palabras clave, agregue contenido adicional y guarde la pregunta.
   
-Si se encuentran varios Q&As, revise cada uno de ellos y determinar si desea publicar, guardar como borrador o guardar todo a Borrador.
+Si se encuentran varias preguntas y respuestas, revise cada una y determine si desea publicarla, guardarla como borrador o guardar todo como borrador.
   
 ## <a name="supported-html-tags"></a>Etiquetas HTML compatibles
 
-Puede usar el contenido HTML existente o agregar etiquetas HTML a la descripción de la respuesta. Se omiten las etiquetas no admitidas.
+Puede usar el contenido HTML existente o agregar etiquetas HTML a la descripción de la respuesta. Las etiquetas no compatibles se ignorarán.
   
-- BLOCKQUOTE
+- blockquote
     
 - div
     
-- MT
+- em
     
-- H1, h2, h3 y h4
+- h1, h2, h3 y h4
     
 - ol, ul y li
     
 - p
     
-- anteriores a
+- pre
     
-- intervalo de
+- span
     
-- seguro
+- strong
     
-- tabla, thead, tbody, tr, ésimo y td
+- table, thead, tbody, tr, th y td
     
 - u
     
 - a
     
-- código
+- code
     
 - br
     
 - hr
     
-- IMG
+- img
 
   
 
