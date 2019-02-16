@@ -1,5 +1,5 @@
 ---
-title: Crear de forma masiva Q&As
+title: Creación masiva de Q&As
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,40 +13,51 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7bada218-8908-4956-aae3-6ffaeef384ca
-description: Agregar rápidamente las respuestas a las preguntas más frecuentes con herramientas de importación en el portal de administración de búsqueda de Microsoft
-ms.openlocfilehash: 84cca87eada0c31f9c39a16b364fb399014a6a5b
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+description: Agregue rápidamente respuestas a las preguntas más frecuentes con herramientas de importación en el portal de administración de Microsoft Search
+ms.openlocfilehash: 53f1d167948f6b621ad139620553df51b0cb91c2
+ms.sourcegitcommit: 61b4b84e581d3df6045851fe6c9c1291853dea06
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379240"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30068398"
 ---
-# <a name="bulk-create-qas"></a>Crear de forma masiva Q&As
+# <a name="bulk-create-qas"></a>Creación masiva de Q&As
 
-Descarga y uso de la plantilla de .csv a masiva crear o de forma masiva editar Q&As. También es una forma sencilla de Guardar borrador Q&As que necesitan modificaciones adicionales o actualizaciones de forma masiva. Si necesita editar los existentes Q&As en masa, exportarlos desde el portal de administración, realice las modificaciones necesarias y, a continuación, impórtelos.
+Descargue y use la plantilla. csv para crear o editar en masa Q&As. También es una forma sencilla de guardar de forma masiva borradores de Q&As que necesitan ediciones o actualizaciones adicionales. Si necesita editar en masa Q&As existentes, expórtelo del portal de administración, realice las modificaciones necesarias y, a continuación, impórtelas.
   
-1. En la esquina superior derecha de la sección Q&As, haga clic en **Importar**
+1. En la esquina superior derecha de la sección Q&As, haga clic en **importar**
     
-2. Haga clic en **Descargar Q&A plantilla (.csv)**
+2. Haga clic en **Descargar plantilla de Q&A (. csv)**
     
-3. Guardar y abrir el archivo .csv
+3. Guardar y abrir el archivo. csv
     
-4. Agregar el contenido de Q&A y la configuración y guarde el archivo
+4. Agregar el contenido y la configuración de Q&A y guardar el archivo
     
-5. En la esquina superior derecha de la sección Q&As, haga clic en **Importar**
+5. En la esquina superior derecha de la sección Q&As, haga clic en **importar**
     
-6. En el panel Q&As importar, haga clic en **Examinar** y navegue hasta el archivo .csv que desea importar 
+6. En el panel de Q&As de importación, haga clic en **examinar** y navegue hasta el archivo. csv que desea importar. 
     
-7. Haga clic en **Importar**
-    
-Obtendrá un error si los datos necesarios están ausente o no válido. Dependiendo del error, se puede generar un archivo de registro con más información acerca de las filas y columnas que deben corregirse. Realice las modificaciones necesarias y, intente importar de nuevo el archivo.
-  
+7. Haga clic en **importar**
+
+# <a name="prevent-import-errors"></a>Impedir errores de importación      
+Recibirá un error si faltan datos necesarios o no son válidos. Según el error, es posible que se genere un archivo de registro con más información sobre las filas y las columnas que deben corregirse. Realice las modificaciones necesarias e intente importar el archivo de nuevo.
+
 > [!NOTE]
-> Hasta que se resuelvan todos los errores, no se puede crear o editar cualquier Q&As. 
-  
-Los campos de las plantillas de Q&A de importación y exportación son los mismos. Se puede exportar, editar en masa e importar las modificaciones o inicio con una plantilla vacía para masiva crear nuevo Q&As.
-  
-No todos los campos son obligatorios y campos obligatorios varían según el estado de Q&A. Según el campo de estado, Q&As se va a guardar como borrador, sugerida, programado, o se publicará automáticamente. Obtenga más información acerca de los campos necesarios y recomendados de [crear Q&As](create-qas.md).
+> Hasta que se resuelvan todos los errores, no puede crear ni editar ninguna Q&As. 
+
+Para ayudar a evitar errores, asegúrese de que el archivo de importación tiene el formato correcto:
+- Incluye la fila de encabezado que estaba en la plantilla de importación
+- Incluye todas las columnas que estaban en la plantilla de importación
+- El orden de las columnas es el mismo que el de la plantilla de importación
+- Estas columnas pueden estar vacías: ID, última modificación y última modificación por
+- La columna Estado no puede estar vacía, se requiere esta información  
+Según el campo de estado, Q&As se guardará como borrador, sugerido, programado o se publicará automáticamente.
+
+Además, si incluye el identificador de un Q&A existente, se reemplazará con la información en el archivo de importación.
+
+Para organizaciones con varios inquilinos, puede exportar su Q&As de un inquilino e importarlo en otro. Sin embargo, debe quitar todos los datos de la columna ID antes de importar.
+
+Para obtener más información acerca de los campos obligatorios y recomendados, consulte [Create Q&As](create-qas.md).
 
   
 
