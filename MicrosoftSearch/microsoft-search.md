@@ -14,13 +14,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 90d3190d-1add-490f-bef2-10b528252a2e
-description: Microsoft Search es una experiencia de búsqueda de empresa que aumenta la productividad y ahorra tiempo, ya que proporciona resultados de búsqueda más relevantes para su organización
-ms.openlocfilehash: 9ef8153979a31bbcb2ed6014055e99dc8dbc793a
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+description: Microsoft Search es una experiencia de búsqueda empresarial que aumenta la productividad y ahorra tiempo al ofrecer resultados de búsqueda más relevantes para la organización.
+ms.openlocfilehash: 4d3e3edd64d527121c1e4aee30376b15ca0c2e60
+ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379252"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31746402"
 ---
 # <a name="microsoft-search"></a>Microsoft Search
 
@@ -45,8 +45,8 @@ ms.locfileid: "29379252"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h2>¿Por qué Microsoft de búsqueda</h2>
-                        <p>Obtener una experiencia de búsqueda de empresa que aumenta la productividad y ahorra tiempo, ya que proporciona resultados de búsqueda más relevantes para su organización</p>
+                        <h2>¿Por qué Microsoft Search?</h2>
+                        <p>Obtenga una experiencia de búsqueda empresarial que aumenta la productividad y ahorra tiempo al ofrecer resultados de búsqueda más relevantes para su organización.</p>
                         <p><a href="why-microsoft-search.md">Descubrir cómo</a></p>
                     </div>
                 </div>
@@ -69,7 +69,7 @@ ms.locfileid: "29379252"
                     </div>
                     <div class="cardText">
                         <h3>Características clave</h3>
-                        <p>Ver las características que están disponibles para administradores y usuarios, incluido lo que podrá encontrar al buscar</p>
+                        <p>Ver qué características están disponibles para administradores y usuarios, incluido lo que encontrará al buscar</p>
                         <p><a href="features.md">Más información</a></p>
                     </div>
                 </div>
@@ -86,9 +86,9 @@ ms.locfileid: "29379252"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Configurar rápida de administración</h3>
-                        <p>Obtenga información acerca de cómo activar Microsoft Search y configurarlo para su organización en cuatro sencillos pasos</p>
-                        <p><a href="quick-set-up.md">Iniciar ahora</a></p>
+                        <h3>Configuración rápida del administrador</h3>
+                        <p>Descubra cómo activar Microsoft Search y configurarlo para su organización en cuatro pasos sencillos</p>
+                        <p><a href="quick-set-up.md">Empezar ahora</a></p>
                     </div>
                 </div>
             </div>
@@ -105,8 +105,8 @@ ms.locfileid: "29379252"
                     </div>
                     <div class="cardText">
                         <h3>Preguntas más frecuentes</h3>
-                        <p>Obtenga respuestas a algunas de las preguntas más frecuentes acerca de Microsoft Search</p>
-                        <p><a href="faqs.md">Busque las preguntas más frecuentes</a></p>
+                        <p>Obtenga respuestas a algunas de las preguntas más comunes sobre Microsoft Search</p>
+                        <p><a href="faqs.md">Consulte las preguntas más frecuentes</a></p>
                     </div>
                 </div>
             </div>
@@ -120,8 +120,8 @@ ms.locfileid: "29379252"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h2>Usar la búsqueda de Microsoft</h2>
-                        <p>Microsoft Search es una forma más segura, rápida y simple de encontrar información, ser más productivos y trabajar de manera más eficaz</p>
+                        <h2>Usar Microsoft Search</h2>
+                        <p>Microsoft Search es una forma sencilla, rápida y segura de buscar información, ser más productiva y trabajar de forma más inteligente.</p>
                         <p><a href="use/about-microsoft-search.md">Descubrir cómo</a></p>
                     </div>
                 </div>
@@ -154,7 +154,7 @@ ms.locfileid: "29379252"
                     <div class="cardText">
                         <p><a href="security.md">Seguridad</a></p>
                         <p><a href="requirements.md">Requisitos</a></p>  
-                        <p><a href="about-the-admin-portal.md">Sobre el portal de administración</a></p>
+                        <p><a href="about-the-admin-portal.md">Acerca del centro de administración</a></p>
                     </div>
                 </div>
             </div>
@@ -179,8 +179,8 @@ ms.locfileid: "29379252"
                 <div class="card">
                     <div class="cardText">
                         <p><a href="create-bookmarks.md">Crear marcadores</a></p>
-                        <p><a href="create-qas.md">Crear Q&As</a></p>
-                        <p><a href="add-users.md">Agregar usuarios</a></p>
+                        <p><a href="create-qas.md">Crear preguntas y respuestas</a></p>
+                        <p><a href="add-users.md">Administración de usuarios</a></p>
                     </div>
                 </div>
             </div>
