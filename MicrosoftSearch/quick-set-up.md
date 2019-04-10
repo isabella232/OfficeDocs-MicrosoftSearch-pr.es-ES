@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: bc3d1d2a-a4d9-4a02-9d7d-deb492e79cd0
 description: Obtenga información sobre los cuatro sencillos pasos necesarios para habilitar y usar Microsoft Search.
-ms.openlocfilehash: fb5677a0acc896e593eae42c35111e0f744ef45d
-ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
+ms.openlocfilehash: 2a113cf10d944aea54d3fe6342599934e4b5ac45
+ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29612364"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31746370"
 ---
 # <a name="quick-set-up-for-microsoft-search"></a>Configuración rápida de Microsoft Search
 
@@ -73,7 +73,7 @@ Si su organización tiene Resultados más probables configurado en SharePoint, p
     
 3. Para más información, vea [Herramientas del portal de administración](admin-portal-tools.md)
     
-Después de completar esta configuración rápida y [agregar usuarios](add-users.md), pueden ir a Bing.com y buscar resultados de trabajo. 
+Después de completar esta configuración rápida, los usuarios pueden ir a Bing.com y buscar resultados de trabajo. 
   
 ## <a name="how-do-i-get-to-the-microsoft-search-admin-portal"></a>¿Cómo accedo al portal de administración de Microsoft Search?
 

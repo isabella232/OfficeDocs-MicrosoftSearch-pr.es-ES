@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4a824483-2407-4bbd-8f7f-5ebb47817c7e
 description: Introducción a las herramientas de Microsoft Search para crear e importar resultados, iniciar sesión automáticamente y buscar desde cualquier lugar
-ms.openlocfilehash: 3b7064fbd0d8f66149a91057be00611e23928ccc
-ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
+ms.openlocfilehash: cae2612979673e086820fec78e4c1e085e38a749
+ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29612388"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31746394"
 ---
 # <a name="admin-portal-tools"></a>Herramientas del portal de administración
 
@@ -31,11 +31,11 @@ El portal de administración de Microsoft Search incluye herramientas y recursos
     
 - Extensión de búsqueda de Microsoft Search en Bing
     
-    Disponible para los usuarios autorizados, use la extensión de Chrome o Microsoft Edge para tener acceso rápidamente a la búsqueda empresarial de Microsoft Search sin salir de la página o sitio que está usando.
+    Use la extensión de Chrome o Microsoft Edge para obtener acceso rápidamente a la búsqueda empresarial de Microsoft Search sin salir de la página o sitio en el que se encuentre.
     
 - Extensión de inicio de sesión de Windows 10 y AAD para Chrome
     
-    Disponible para los usuarios autorizados, use la extensión de Chrome para autenticarse fácilmente con Azure Active Directory al iniciar sesión en sitios admitidos, incluidos Office 365 y Bing. Se recomienda implementar esta extensión al [probar el inicio de sesión único](test-single-sign-on.md).
+    Use la extensión de Chrome para autenticar fácilmente con Azure Active Directory al iniciar sesión en sitios compatibles, incluidos Office 365 y Bing. Le recomendamos que implemente esta extensión cuando vaya a [probar el inicio de sesión único](test-single-sign-on.md).
     
 - Importar las consultas principales de SharePoint como marcadores
     

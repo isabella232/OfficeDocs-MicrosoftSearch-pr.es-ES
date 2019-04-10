@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 38569f03-db18-49ab-96ef-213a1f410935
 description: Obtenga información sobre por qué Microsoft Search es una búsqueda empresarial inteligente para el lugar de trabajo moderno.
-ms.openlocfilehash: f00622643aac867a83614fe613f8c8ef4bdb116b
-ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
+ms.openlocfilehash: f7c65e13f18f6ea4fd38bc406653a37f85659d3e
+ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29612390"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31746418"
 ---
 # <a name="why-microsoft-search"></a>¿Por qué Microsoft Search?
 
@@ -39,7 +39,7 @@ Microsoft Search requiere autenticación de Azure Active Directory para tener ac
   
 ## <a name="easy-to-administer-and-available-everywhere"></a>Fácil de administrar y disponible en todas partes
 
-Implementar Microsoft Search es sencillo: solo tiene que habilitarlo en el Centro de administración de Microsoft 365 y personalice la configuración, incluyendo logotipo, nombre, colores y mucho más. Los usuarios autorizados pueden acceder desde cualquier dispositivo simplemente iniciando sesión en Bing.
+Implementar Microsoft Search es sencillo: solo deberá habilitarla desde el Centro de administración de Microsoft 365 y personalizar la configuración, incluido el logotipo, el nombre, el color, etc. Los usuarios pueden obtener acceso a la herramienta desde cualquier dispositivo simplemente iniciando sesión en Bing.
   
 ## <a name="one-place-to-search-across-office-365-apps"></a>Un solo lugar para buscar en todas las aplicaciones de Office 365
 
