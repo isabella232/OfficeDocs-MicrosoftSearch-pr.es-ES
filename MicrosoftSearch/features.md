@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5861e462-faed-4c3d-824d-ed3aafd80714
 description: Las características principales de Microsoft Search para administradores y usuarios finales incluyen marcadores, preguntas y respuestas e información detallada de administración y datos
-ms.openlocfilehash: ca2c0de9fbed075a822989ab8b3bf881d5626cee
-ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
+ms.openlocfilehash: 983a882fd42ae6f76a4b3db4f0f87dd8fbe7974d
+ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29612439"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31746378"
 ---
 # <a name="features-of-microsoft-search"></a>Características de Microsoft Search
 
@@ -43,11 +43,11 @@ ms.locfileid: "29612439"
     
 - [Administración](set-up-microsoft-search.md)
     
-    Configure y cree contenido o defina palabras clave y frases
+    Configure, cree contenido y defina palabras clave y frases
     
 - [Usuarios y permisos](add-users.md)
     
-    El administrador Global o el administrador de Microsoft Search autoriza administradores adicionales que administran la configuración de Microsoft Search, editores que crean contenido y usuarios finales que tienen acceso a Microsoft Search
+    El administrador global o el administrador de Búsqueda de Microsoft autoriza administradores adicionales que administran la configuración de Búsqueda de Microsoft, y editores que crean contenido
     
 - [Análisis ](get-insights.md) 
     
@@ -59,13 +59,13 @@ ms.locfileid: "29612439"
     
     Busque personas y conozca su función dentro de la compañía, en qué están trabajando y formas de ponerse en contacto con ellos
     
-- [Diagramas de organización](use/find-people-and-groups.md)
+- [Gráficos de organización](use/find-people-and-groups.md)
     
-    Comprenda la posición de una persona en la compañía y vea fácilmente sus compañeros, superiores y subordinados directos
+    Comprenda la posición de una persona en la compañía y vea fácilmente a sus compañeros, superiores y subordinados directos
     
 - [Archivos](use/find-files.md)
     
-    Encontrar archivos contextuales y relevantes guardados en SharePoint y OneDrive para la Empresa
+    Busque archivos contextuales y relevantes guardados en SharePoint y OneDrive para la Empresa
     
 - [Grupos de Office 365](use/find-people-and-groups.md)
     
