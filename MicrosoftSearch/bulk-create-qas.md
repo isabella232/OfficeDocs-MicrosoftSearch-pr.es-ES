@@ -1,5 +1,5 @@
 ---
-title: Creación masiva de Q&As
+title: Crear preguntas y respuestas de forma masiva
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -14,14 +14,14 @@ search.appverid:
 - MOE150
 ms.assetid: 7bada218-8908-4956-aae3-6ffaeef384ca
 description: Agregue rápidamente respuestas a las preguntas más frecuentes con herramientas de importación en el portal de administración de Microsoft Search
-ms.openlocfilehash: 53f1d167948f6b621ad139620553df51b0cb91c2
-ms.sourcegitcommit: 61b4b84e581d3df6045851fe6c9c1291853dea06
+ms.openlocfilehash: 28fcf57c44f809e7f9b0c1b27042f4549067a0f8
+ms.sourcegitcommit: c70dd5eae43abb775acc6fc4522c2e6be4f0bb67
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30068398"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "31901820"
 ---
-# <a name="bulk-create-qas"></a>Creación masiva de Q&As
+# <a name="bulk-create-qas"></a>Crear preguntas y respuestas de forma masiva
 
 Descargue y use la plantilla. csv para crear o editar en masa Q&As. También es una forma sencilla de guardar de forma masiva borradores de Q&As que necesitan ediciones o actualizaciones adicionales. Si necesita editar en masa Q&As existentes, expórtelo del portal de administración, realice las modificaciones necesarias y, a continuación, impórtelas.
   
@@ -32,6 +32,8 @@ Descargue y use la plantilla. csv para crear o editar en masa Q&As. También es 
 3. Guardar y abrir el archivo. csv
     
 4. Agregar el contenido y la configuración de Q&A y guardar el archivo
+
+    El archivo. csv se debe guardar como archivo CSV UTF-8, otros tipos de archivo o codificaciones pueden provocar errores de importación
     
 5. En la esquina superior derecha de la sección Q&As, haga clic en **importar**
     

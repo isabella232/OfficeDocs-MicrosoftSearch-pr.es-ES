@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 15c9fada-f7a6-4210-aa6b-028b32217830
 description: Agregar muchas ubicaciones a la vez con herramientas de importación para el portal de administración de Microsoft Search
-ms.openlocfilehash: eb51b93ceaa560e5142ac46d316ba745c614fe34
-ms.sourcegitcommit: 61b4b84e581d3df6045851fe6c9c1291853dea06
+ms.openlocfilehash: 3c7e43b03b97b46769d5e73f20ddae47b3459b59
+ms.sourcegitcommit: c70dd5eae43abb775acc6fc4522c2e6be4f0bb67
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30068414"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "31901812"
 ---
 # <a name="bulk-create-locations"></a>Crear ubicaciones de forma masiva
 
@@ -32,6 +32,8 @@ Descargue y use la plantilla. csv para crear, editar y guardar ubicaciones en ma
 3. Guardar y abrir el archivo. csv
     
 4. Agregar el contenido de ubicación y guardar el archivo
+
+    El archivo. csv se debe guardar como archivo CSV UTF-8, otros tipos de archivo o codificaciones pueden provocar errores de importación
     
 5. En la esquina superior derecha de la sección ubicaciones, haga clic en **importar** .
     

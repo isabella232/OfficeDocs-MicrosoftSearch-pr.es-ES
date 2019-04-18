@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: def300e7-103c-4e92-a062-28ffa27561d7
 description: Crear muchos marcadores a la vez con herramientas de importación para el portal de administración de Microsoft Search
-ms.openlocfilehash: 07694de1f546a1431f371fa24ffc5721ea66337c
-ms.sourcegitcommit: 61b4b84e581d3df6045851fe6c9c1291853dea06
+ms.openlocfilehash: 7c134784f0ca0d4cc84d5bce3a98f7e75aa6f441
+ms.sourcegitcommit: c70dd5eae43abb775acc6fc4522c2e6be4f0bb67
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30068406"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "31901796"
 ---
 # <a name="bulk-create-bookmarks"></a>Crear marcadores en masa
 
@@ -32,6 +32,8 @@ Descargue y use la plantilla. csv para crear, editar y guardar marcadores de for
 3. Guardar y abrir el archivo. csv
     
 4. Agregar el contenido y la configuración del marcador y guardar el archivo
+
+    El archivo. csv se debe guardar como archivo CSV UTF-8, otros tipos de archivo o codificaciones pueden provocar errores de importación
     
 5. En la esquina superior derecha de la sección Marcadores, haga clic en **importar**
     
