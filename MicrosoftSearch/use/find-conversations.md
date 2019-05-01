@@ -12,41 +12,41 @@ search.appverid:
 - BFB160
 - MET150
 ms.assetid: ecd31803-0b32-4ba3-8bb8-a0d1dfb8b856
-description: Utilizar Microsoft Search para buscar los equipos y las conversaciones de Yammer y los detalles que verá
+description: Usar Microsoft Search para buscar equipos y conversaciones de Yammer y los detalles que verá
 ms.openlocfilehash: b339242fbafc4cff0f6fe5960cb90b0d05493105
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379264"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508863"
 ---
 # <a name="find-conversations"></a>Buscar conversaciones
 
-Para buscar su propio conversaciones Teams Microsoft o Microsoft Yammer o las conversaciones entre los compañeros de trabajo que tienen acceso a privada.
+Busque sus propias conversaciones o conversaciones privadas de Microsoft Teams o Microsoft Yammer entre los compañeros a los que tiene acceso.
   
-Los resultados de la conversación se incluyen:
+Los resultados de la conversación incluyen:
   
-- El nombre de la persona que lo envió
+- Nombre de la persona que lo envió
     
-- Si se trata de los equipos de una conversación de Yammer o
+- Si es una conversación de Microsoft Teams o Yammer
     
 - Un fragmento de código del mensaje
     
 - La fecha de conversación
     
-- Datos adjuntos que tienen acceso a
+- Datos adJuntos a los que tiene acceso
     
-Los primeros resultados de 30 conversación aparecen en los resultados del trabajo. Para obtener más información o los resultados, haga clic en el mensaje. En los resultados de trabajo, las conversaciones Yammer se ordenan por fecha, pero en el cliente Yammer, son ordenar por relevancia.
+Los primeros 30 resultados de la conversación aparecen en los resultados de trabajo. Para obtener más información o resultados, solo tiene que hacer clic en el mensaje. En los resultados de trabajo, las conversaciones de Yammer se ordenan por fecha, pero en el cliente de Yammer, se ordenan por relevancia.
   
-Si su organización no usa los equipos o Yammer o el departamento de TI no activa estos resultados, no podrá ver los resultados de la conversación.
+No verá los resultados de la conversación si su organización no usa Teams o Yammer o el Departamento de ti no activa estos resultados.
   
-1. Inicie sesión su cuenta de trabajo o escuela en Bing
+1. Iniciar sesión en su cuenta profesional o educativa en Bing
     
-2. Para buscar un tema o nombre de una persona y haga clic en la pestaña **conversaciones** 
+2. Busque un tema o el nombre de una persona y haga clic en la pestaña **conversaciones** . 
     
-    Por ejemplo, 'Enviarme la cubierta' o 'Amy Turner'.
+    Por ejemplo, "enviarme la baraja" o "Ana Turner".
     
-3. Conversaciones aparecen en la parte superior de la página de resultados
+3. Las conversaciones aparecen en la parte superior de la página de resultados
     
     Otros resultados web aparecen debajo de él. No son específicos de la organización.
     

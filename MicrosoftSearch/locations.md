@@ -13,55 +13,55 @@ search.appverid:
 - MOE150
 - MED150
 ms.assetid: 2379e72c-a7da-4e3f-932a-12d431a0a284
-description: Información general de todas las formas que puede incluir ubicaciones de su organización en los resultados de trabajo de Microsoft Search
+description: Información general de todas las formas en que puede incluir las ubicaciones de su organización en los resultados de trabajo de Microsoft Search
 ms.openlocfilehash: 4ff30d7e346d609e9fddaca70caa1a85652fad3c
-ms.sourcegitcommit: 98fd5dd37a5b753cfa2fb81fc4bd6497ecc8ed30
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690662"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508813"
 ---
 # <a name="locations"></a>Ubicaciones
 
 ## <a name="add-locations"></a>Agregar ubicaciones
 
-Ubicaciones de ayudar a los usuarios buscar direcciones y localice los edificios de la organización, las oficinas y otras áreas de trabajo en un mapa. También pueden utilizar mapas de Bing para obtener instrucciones, vea ¿Qué es cercano y mucho más.
+Las ubicaciones ayudan a los usuarios a encontrar las direcciones y localizar los edificios, las oficinas y otras áreas de trabajo de su organización en un mapa. También pueden usar mapas de Bing para obtener indicaciones, ver lo próximos y mucho más.
   
 - [Agregar una ubicación](add-a-location.md)
     
-    Agregar un edificio, office, campus u otro espacio de trabajo
+    Agregar un edificio, oficina, Campus u otro espacio de trabajo
     
 - [Crear ubicaciones de forma masiva](bulk-create-locations.md)
     
-    Agregar ubicaciones a un archivo .csv e importarlos de forma masiva
+    Agregar ubicaciones a un archivo. csv y importarlas en bloque
     
 ## <a name="manage-locations"></a>Administrar ubicaciones
 
-Utilizar el estado de ubicación, herramientas, el filtrado y las herramientas de exportación e importación para [encontrar y actualizar las ubicaciones](manage-locations.md), incluido el nombre de la dirección y la ubicación de forma masiva
+Usar el estado de la ubicación, las herramientas de filtrado y las herramientas de importación y exportación en masa para [Buscar y actualizar ubicaciones](manage-locations.md), incluido el nombre de la dirección y la ubicación
   
-## <a name="location-status"></a>Estado de ubicación
+## <a name="location-status"></a>Estado de la ubicación
 
-En el portal de administración, puede ver las ubicaciones según su estado actual:
+En el portal de administración, puede ver las ubicaciones por su estado actual:
   
-- Publicada 
+- Published
     
-    Ubicaciones publicadas aparecen en los resultados de búsqueda de Bing cuando un usuario autorizado busca una palabra clave.
+    Las ubicaciones publicadas aparecen en los resultados de la búsqueda de Bing cuando un usuario autorizado busca una palabra clave.
     
-- Borrador 
+- Draft
     
-    Si una ubicación no está lista para publicar, guardar como borrador. Ubicaciones de borrador no aparecerá en Bing.
+    Si una ubicación no está lista para publicarla, guárdela como borrador. Las ubicaciones de borrador no se mostrarán en Bing.
     
-- Programado
+- Scheduled
     
-    Ubicaciones programadas se publican automáticamente en una fecha futura.
+    Las ubicaciones programadas se publican automáticamente en una fecha futura.
     
 - Expirada
     
-    Ubicaciones que han expirado automáticamente se quitaron del contenido publicado en función de sus fechas de caducidad.
+    Las ubicaciones expiradas se quitaron automáticamente del contenido publicado en función de su fecha de expiración.
     
-- Sugeridas
+- Propuesto
     
-    Ubicaciones sugeridas se basan en los comentarios de los usuarios. También puede ver sugerencias de forma predeterminada de Microsoft.
+    Las ubicaciones sugeridas se basan en los comentarios de los usuarios. También puede ver sugerencias predeterminadas de Microsoft.
 
   
 

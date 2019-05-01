@@ -1,5 +1,5 @@
 ---
-title: Buscar los sitios de SharePoint
+title: Buscar sitios de SharePoint
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -12,27 +12,27 @@ search.appverid:
 - BFB160
 - MET150
 ms.assetid: 3388bdc7-1ee0-497e-b110-fba4a082eb08
-description: Usar Microsoft Search para buscar los sitios de SharePoint y los detalles que verá
+description: Usar Microsoft Search para buscar sitios de SharePoint y los detalles que verá
 ms.openlocfilehash: 926f53e8c0eceffae6c506e8f4e7233629c8415c
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379238"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508901"
 ---
-# <a name="find-sharepoint-sites"></a>Buscar los sitios de SharePoint
+# <a name="find-sharepoint-sites"></a>Buscar sitios de SharePoint
 
-Búsqueda de propietario o busque los creados por grupos o compañeros de trabajo que tienen acceso a los sitios de SharePoint. En Bing, pero las páginas no individuales dentro de un sitio, verá los resultados de sitio. Los resultados de sitio de SharePoint incluyen el nombre del sitio y la ubicación.
+Buscar sitios de SharePoint que son de su propiedad o buscar unos creados por grupos o compañeros a los que tiene acceso. Verá los resultados del sitio en Bing, pero no las páginas individuales dentro de un sitio. Los resultados del sitio de SharePoint incluyen el nombre y la ubicación del sitio.
   
-1. Inicie sesión su cuenta de trabajo o escuela en Bing
+1. Iniciar sesión en su cuenta profesional o educativa en Bing
     
-2. Buscar un nombre de sitio o un tema
+2. Buscar un nombre de sitio o tema
     
-3. Resultados de sitio aparecen en la parte superior de la página de resultados
+3. El resultado del sitio aparece en la parte superior de la página de resultados
     
-    Para ver sólo los resultados del sitio, haga clic en la ficha de **sitios** . 
+    Para ver solo los resultados del sitio, haga clic en la pestaña **sitios** . 
     
-Los resultados de la Web aparecen en los resultados del trabajo. No son específicos de la organización.
+Los resultados web aparecen en los resultados de trabajo. No son específicos de la organización.
 
   
 

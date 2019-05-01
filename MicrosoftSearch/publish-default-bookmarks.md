@@ -1,5 +1,5 @@
 ---
-title: Publicar los marcadores de forma predeterminada
+title: Publicar marcadores predeterminados
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,47 +13,47 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: d49a0b97-e4ca-47cf-ad52-6113787b8402
-description: De forma predeterminada los marcadores que están disponibles en el portal de administración de búsqueda de Microsoft
+description: Marcadores preDeterminados disponibles en el portal de administración de Microsoft Search
 ms.openlocfilehash: 0105cf33fdf274a6a856615b992e5bc0e0cc02e8
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379261"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508686"
 ---
-# <a name="publish-default-bookmarks"></a>Publicar los marcadores de forma predeterminada
+# <a name="publish-default-bookmarks"></a>Publicar marcadores predeterminados
 
-Para ver rápidamente el modo en que aparecen en Bing marcadores, publique los valores predeterminados proporcionados. Use como una referencia a comprender cómo nombre marcadores y crear palabras clave buena.
+Para ver rápidamente cómo aparecen los marcadores en Bing, publique los valores predeterminados proporcionados. Úselas como referencia para comprender cómo asignar nombres a los marcadores y crear buenas palabras clave.
   
-Es recomendable que revise los dos conjuntos de marcadores de forma predeterminada:
+Le sugerimos que revise los dos conjuntos de marcadores predeterminados:
   
-- Valor predeterminado de marcadores publicados
+- Marcadores publicados preDeterminados
     
-    Éstas incluyen los resultados de Microsoft Search y ayuda para aplicaciones de Windows y Office. Después de que Microsoft Search está habilitado en el centro de administración de Microsoft 365, estos se publican automáticamente y aparecerán en Bing. Puede editar o eliminarlos en cualquier momento.
+    Entre estos se incluyen resultados sobre la búsqueda y la ayuda de Microsoft para Windows y aplicaciones de Office. Después de habilitar Microsoft Search en el centro de administración de Microsoft 365, estos se publican automáticamente y aparecerán en Bing. Puede editarlas o eliminarlas en cualquier momento.
     
-- Valor predeterminado de marcadores sugeridos
+- Marcadores preDeterminados sugeridos
     
-    Éstas incluyen los resultados de búsquedas comunes relacionadas con el trabajo, incluidos los beneficios de los empleados, tiempo y gastos de informes, envío de pedidos de compra y obtención de Ayuda de servicios de TI.
+    Entre estos se incluyen resultados para búsquedas comunes relacionadas con el trabajo, incluidas las prestaciones de los empleados, informes de gastos y tiempo, envío de pedidos de compra y obtención de ayuda de los servicios de ti.
     
-Si se encuentra un marcador existente con el mismo título o dirección URL como un marcador de forma predeterminada, el valor predeterminado se descartarán. No modificar el marcador existente en modo alguno, publicar el marcador predeterminado o incluir el marcador de forma predeterminada en la lista que se sugiere.
+Si encontramos un marcador existente con el mismo título o dirección URL que un marcador predeterminado, se descartará el valor predeterminado. No se modifica el marcador existente de ningún modo, se publica el marcador predeterminado o se incluye el marcador predeterminado en la lista sugerida.
   
-## <a name="update-and-publish-a-default-suggested-bookmark"></a>Actualizar y publicar un marcador sugerida predeterminada
+## <a name="update-and-publish-a-default-suggested-bookmark"></a>Actualizar y publicar un marcador sugerido predeterminado
 
-1. Vaya al portal de administración de búsqueda de Microsoft
+1. Vaya al portal de administración de Microsoft Search
     
-2. En el panel de navegación, haga clic en **marcadores**
+2. En el panel de navegación, haga clic en **Marcadores**
     
-3. En el Bookmarkspage, haga clic en el **que se sugiere**
+3. En la Bookmarkspage, haga clic en **sugerido**
     
-4. Selecciona un marcador sugerido y haga clic en **Editar**
+4. Seleccionado un marcador sugerido y haga clic en **Editar**
     
-5. Revisar el contenido del marcador y realice las modificaciones necesarias
+5. Revisar el contenido del marcador y realizar las modificaciones necesarias
     
-6. Agregar la información que falta, como una dirección URL o la descripción
+6. Agregar información que falta, como una dirección URL o una descripción
     
-7. Haga clic en **Publicar**
+7. Haga clic en **publicar**
     
-Actualmente, los marcadores de forma predeterminada sólo están disponibles en inglés. 
+Actualmente, los marcadores predeterminados solo están disponibles en inglés. 
 
   
 

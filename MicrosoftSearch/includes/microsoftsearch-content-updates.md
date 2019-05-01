@@ -31,4 +31,17 @@
 | 4/9/2019 | [Microsoft Search](/MicrosoftSearch/microsoft-search) | modificado |
 | 4/9/2019 | [Configuración rápida de Microsoft Search](/MicrosoftSearch/quick-set-up) | modificado |
 | 4/9/2019 | [Configurar Microsoft Search](/MicrosoftSearch/set-up-microsoft-search) | modificado |
-| 4/9/2019 | [¿Por qué Microsoft Search?](/MicrosoftSearch/why-microsoft-search) | Fecha de modificación |
+| 4/9/2019 | [¿Por qué Microsoft Search?](/MicrosoftSearch/why-microsoft-search) | modificado |
+
+
+## <a name="week-of-april-15-2019"></a>Semana del 15 de abril de 2019
+
+
+| Fecha de publicación |Título del tema | Cambio |
+|------|------------|--------|
+| 4/16/2019 | [Crear marcadores en masa](/MicrosoftSearch/bulk-create-bookmarks) | modificado |
+| 4/16/2019 | [Crear ubicaciones de forma masiva](/MicrosoftSearch/bulk-create-locations) | modificado |
+| 4/16/2019 | [Creación masiva de Q&As](/MicrosoftSearch/bulk-create-qas) | modificado |
+| 4/16/2019 | [Administrar marcadores](/MicrosoftSearch/manage-bookmarks) | modificado |
+| 4/16/2019 | [Administrar ubicaciones](/MicrosoftSearch/manage-locations) | modificado |
+| 4/16/2019 | [Administrar Q&As](/MicrosoftSearch/manage-qas) | modificado |

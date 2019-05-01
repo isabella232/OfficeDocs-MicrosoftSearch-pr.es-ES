@@ -1,5 +1,5 @@
 ---
-title: Aquí encontrará recursos, herramientas y mucho más
+title: Buscar recursos, herramientas y más
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -12,29 +12,29 @@ search.appverid:
 - BFB160
 - MET150
 ms.assetid: a67e015a-e10a-442a-b1c9-511136d54d1f
-description: Usar Microsoft Search para sitios de intranet, recursos, herramientas y vínculos a información interna
+description: Usar Microsoft Search para buscar sitios, recursos, herramientas y vínculos a la información interna de la intranet
 ms.openlocfilehash: 4d484b832db07532d678af1f1c0f9f3348166e79
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379254"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508845"
 ---
-# <a name="find-resources-tools-and-more"></a>Aquí encontrará recursos, herramientas y mucho más
+# <a name="find-resources-tools-and-more"></a>Buscar recursos, herramientas y más
 
-El departamento de TI crea y publica los marcadores a los recursos internos y externos, herramientas, páginas y más información para ayudarle a encontrar la información que necesita.
+El Departamento de ti crea y publica marcadores en recursos internos y externos, herramientas, páginas y más para ayudarle a encontrar la información que necesita.
   
-Los resultados de marcador incluyen una breve descripción del sitio o del recurso junto con un vínculo a ella. Por ejemplo, la mayoría de las organizaciones creará marcadores de beneficios, recursos humanos, información de empleo, soporte de TI y tiempo de creación de informes.
+Los resultados de los marcadores incluyen una breve descripción del sitio o recurso junto con un vínculo al mismo. Por ejemplo, la mayoría de las organizaciones crearán marcadores para obtener beneficios, recursos humanos, información sobre profesiones, soporte técnico de ti y informes de tiempo no laborable.
   
-Los resultados de la Q&A suelen incluir esta información misma, así como una breve respuesta que puede tener la información que necesita y un vínculo si desea obtener más información.
+Por lo general, los resultados de Q&A incluirán esta misma información, así como una breve respuesta que puede tener la información que necesita y un vínculo si desea obtener más información.
   
-1. Inicie sesión su cuenta de trabajo o escuela en Bing 
+1. Iniciar sesión en su cuenta profesional o educativa en Bing 
     
-2. Búsqueda para algo
+2. Buscar algo
     
-    Por ejemplo, intente buscar para 'ventajas', 'Recursos humanos', 'empleo info,' 'Soporte de TI' o 'notificar la hora '.
+    Por ejemplo, intente buscar ' ventajas ', ' HR ', ' ' información sobre la carrera ', ' ' asistencia de ti ' o ' tiempo de informe desactivado '.
     
-3. Un marcador o un resultado de Q&A aparece en la parte superior de la página o columna a la derecha
+3. Un marcador o resultado de Q&A aparece en la parte superior de la página o columna derecha
     
     Otros resultados web aparecen debajo de él. No son específicos de la organización.
 

@@ -1,5 +1,5 @@
 ---
-title: ¿Por qué estoy conectan automáticamente?
+title: ¿Por qué se inicia la sesión de manera automática?
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -12,43 +12,43 @@ search.appverid:
 - BFB160
 - MET150
 ms.assetid: 94f6fa41-0570-4668-b2fe-d51ed177716c
-description: Obtenga información sobre cómo automáticamente inicio de sesión para Microsoft Search puede ayudarle rápidamente y encontrar fácilmente los resultados del trabajo
+description: Obtenga información sobre cómo el inicio de sesión automático en Microsoft Search puede ayudarle a encontrar los resultados de trabajo de forma rápida y sencilla.
 ms.openlocfilehash: 999341f10c0b75009246451f7e48f9fc4706d86a
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379269"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508837"
 ---
-# <a name="why-am-i-automatically-signed-in"></a>¿Por qué estoy conectan automáticamente?
+# <a name="why-am-i-automatically-signed-in"></a>¿Por qué se inicia la sesión de manera automática?
 
-Para ayudarle a encontrar la información que necesita de forma rápida y sencilla, la organización está configurada para iniciar sesión en Microsoft Search automáticamente.
+Para ayudarle a encontrar la información que necesita de forma rápida y sencilla, su organización está configurada para iniciar sesión automáticamente en Microsoft Search.
   
-## <a name="about-microsoft-search"></a>Acerca de la búsqueda de Microsoft
+## <a name="about-microsoft-search"></a>Acerca de Microsoft Search
 
-Microsoft Search aporta el contenido que necesita desde su escuela o área de trabajo en Bing. Aprender más [Acerca de la búsqueda de Microsoft](about-microsoft-search.md).
+Microsoft Search incorpora el contenido que necesita desde su centro educativo o el área de trabajo a Bing. Obtenga más información [sobre Microsoft Search](about-microsoft-search.md).
   
 ## <a name="privacy-and-security"></a>Privacidad y seguridad
 
-Con Microsoft Search, sólo se le ha concedido acceso a los usuarios verán los archivos compartidos. Otros resultados como organigramas e información de personas sólo aparecerá a otras personas de la organización.
+Con Microsoft Search, solo las personas a las que haya concedido acceso verán los archivos compartidos. Otros resultados, como organigrama y información de personas, solo aparecerán para los demás usuarios de la organización.
   
-Microsoft Search ayuda a proteger su privacidad protegiendo el historial de búsqueda. El historial de búsqueda no se comparte con otras personas en su organización, incluso cuando haya iniciado sesión y búsqueda de información relacionada con trabajo o escuela.
+Microsoft Search le ayuda a proteger su privacidad protegiendo su historial de búsqueda. El historial de búsqueda no se comparte con otras personas de la organización, incluso si ha iniciado sesión y busca información relacionada con el trabajo o la escuela.
   
-Para mejorar su experiencia de búsqueda, Bing informes frecuentes búsquedas realizadas por varios usuarios a los administradores de la organización. Sólo los administradores pueden ver estos datos, no está vinculada a usuarios específicos y sólo aparece cuando varios usuarios han buscado lo mismo.
+Para mejorar la experiencia de búsqueda, Bing informa a los administradores de su organización de búsquedas frecuentes realizadas por varios usuarios. Solo los administradores pueden ver estos datos, no están vinculados a usuarios específicos y solo aparecen cuando varios usuarios han buscado lo mismo.
   
-Cada organización es diferente, y Microsoft no garantiza cómo suyo controla las búsquedas y otros datos fuera de Microsoft Search.
+Cada organización es diferente y Microsoft no puede garantizar la forma en que se encarga de las búsquedas y otros datos externos a Microsoft Search.
   
-## <a name="sign-out-of-microsoft-search"></a>Cerrar la sesión de Microsoft Search
+## <a name="sign-out-of-microsoft-search"></a>Cerrar sesión en Microsoft Search
 
-Puede cerrar la sesión de Bing en cualquier momento: en la esquina superior derecha de cualquier página de Bing, haga clic en su perfil y haga clic en **Cerrar sesión**.
+Puede cerrar la sesión de Bing en cualquier momento: en la esquina superior derecha de las páginas de Bing, haga clic en su perfil y haga clic en **Cerrar sesión**.
   
-Que no se ha iniciado automáticamente nuevo en este dispositivo. Si ha utilizado otros exploradores o dispositivos para iniciar sesión en Microsoft Search, debe iniciar sesión por allí también. 
+No volverá a iniciar sesión automáticamente en este dispositivo. Si ha usado otros exploradores o dispositivos para iniciar sesión en Microsoft Search, tendrá que cerrar la sesión también. 
   
-Cuando haya iniciado sesión, las búsquedas no reciben protección adicional. Puedan ser tratados como búsquedas de consumidor de Bing estándares y se regirán por la [Declaración de privacidad de Microsoft](https://privacy.microsoft.com/en-us/privacystatement).
+Cuando haya cerrado la sesión, las búsquedas no recibirán protección adicional. Se tratan como búsquedas de consumidor de Bing estándar y se rigen por la [declaración de privacidad de Microsoft](https://privacy.microsoft.com/en-us/privacystatement).
   
 ## <a name="view-your-search-history"></a>Ver el historial de búsqueda
 
-Para ver el historial de Microsoft Search de los últimos 30 días, vaya a su [historial de búsqueda](https://ssl.bing.com/profile/history)y en Microsoft Search en Bing, haga clic en **Exportar**. Las búsquedas de más de 30 días se borrarán automáticamente de su historial.
+Para ver el historial de Microsoft Search en los últimos 30 días, vaya a su [historial de búsqueda](https://ssl.bing.com/profile/history)y, en Microsoft Search en Bing, haga clic en **exportar**. Las búsquedas con una antigüedad superior a 30 días se borran automáticamente del historial.
 
   
 

@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: def300e7-103c-4e92-a062-28ffa27561d7
 description: Crear muchos marcadores a la vez con herramientas de importación para el portal de administración de Microsoft Search
 ms.openlocfilehash: 7c134784f0ca0d4cc84d5bce3a98f7e75aa6f441
-ms.sourcegitcommit: c70dd5eae43abb775acc6fc4522c2e6be4f0bb67
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31901796"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508623"
 ---
 # <a name="bulk-create-bookmarks"></a>Crear marcadores en masa
 

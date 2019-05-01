@@ -12,39 +12,39 @@ search.appverid:
 - BFB160
 - MET150
 ms.assetid: 17c9982a-0fd9-4cf1-b010-69ae3440b41f
-description: Usar Microsoft Search para encontrar a cualquier persona en su compañía y la información que verá
+description: Usar Microsoft Search para buscar a cualquier persona de su empresa y la información que verá
 ms.openlocfilehash: c9b71b8353e5ebc6e876a837424de8b74a7c20d5
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379256"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508925"
 ---
 # <a name="find-people-and-groups"></a>Buscar personas y grupos
 
-Es fácil de encontrar información acerca de sus compañeros mediante Microsoft Search. Acaba de búsqueda de Bing para su nombre o alias para buscar información de contacto, las próximas reuniones tiene juntos, detalles de gráfico org, pertenencias a grupo y los archivos que han compartido con usted.
+Es fácil encontrar información sobre sus compañeros de trabajo con Microsoft Search. Solo tiene que buscar en Bing su nombre o alias para buscar información de contacto, reuniones próximas que haya en su conjunto, detalles de organigrama, pertenencia a grupos y archivos que haya compartido con usted.
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2AuTv?autoplay=false]
   
 ## <a name="find-people"></a>Buscar personas
 
-El departamento de TI determina el contenido que aparece en los resultados de Microsoft Search.
+El Departamento de ti determina el contenido que aparece en los resultados de la búsqueda de Microsoft.
   
-1. Inicie sesión su cuenta de trabajo o escuela en Bing
+1. Iniciar sesión en su cuenta profesional o educativa en Bing
     
-2. Buscar 'me', su nombre o alias, o nombre o alias de un compañero de trabajo de trabajo
+2. Buscar "me", su nombre o alias de trabajo, o el nombre o el alias de un compañero de trabajo
     
-    Incluidos tanto un nombre y el apellido devolverá el mejor resultado, pero, si sólo conoce parte de su nombre, Microsoft Search muestra el resultado que mejor coincida con la búsqueda y, si es posible, se ofrecen mostrar los resultados más.
+    Incluir un nombre y un apellido devolverán el mejor resultado, pero si sólo conoce parte del nombre, Microsoft Search le mostrará el resultado que mejor se ajusta a su búsqueda y, si es posible, ofrecerá más resultados.
     
-3. Una tarjeta de personas aparece en la parte superior de la página de resultados o en la parte superior de la columna a la derecha
+3. Aparece una tarjeta de contactos en la parte superior de la página de resultados o en la parte superior de la columna derecha.
     
-    Desproteger los detalles y las acciones en la tarjeta y haga clic en a través de para obtener más información.
+    Consulte los detalles y las acciones de la tarjeta y haga clic para obtener más información.
     
-Los resultados de la Web aparecen en los resultados del trabajo. Estos resultados no son específicos de la organización. En algunos casos, por ejemplo, cuando una búsqueda web muy común, es de un nombre de la tarjeta de personas puede no aparecer automáticamente. Para ver los resultados del trabajo, puede que tenga que hacer clic en el vínculo **Mostrar los resultados de** junto al logotipo de su organización. 
+Los resultados web aparecen en los resultados de trabajo. Estos resultados no son específicos de la organización. En algunos casos, por ejemplo, cuando un nombre es una búsqueda web muy común, es posible que la tarjeta de contactos no aparezca automáticamente. Para ver los resultados de su trabajo, es posible que deba hacer clic en el vínculo **Mostrar resultados desde** junto al logotipo de la organización. 
   
 ## <a name="find-groups"></a>Buscar grupos
 
-Al igual que para buscar a usted o a un compañero de trabajo, escriba el nombre de un grupo o alias de grupo para ver los detalles de contacto, los propietarios del grupo, los miembros, archivos han compartido con usted y las conversaciones.
+Al igual que usted o un compañero de trabajo, escriba el nombre de un grupo o un alias de grupo para ver los detalles de contacto, los propietarios del grupo, los miembros, los archivos que han compartido con usted y las conversaciones.
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2AA2V?autoplay=false]
   

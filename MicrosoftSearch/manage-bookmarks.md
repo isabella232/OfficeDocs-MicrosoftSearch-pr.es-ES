@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Buscar marcadores que se deben actualizar y maneras de realizar cambios en masa de los resultados de marcadores para Microsoft Search
 ms.openlocfilehash: f87176c645e127e20edd9e70a74efe05dd381236
-ms.sourcegitcommit: c70dd5eae43abb775acc6fc4522c2e6be4f0bb67
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31901804"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508613"
 ---
 # <a name="manage-bookmarks"></a>Administrar marcadores
 
@@ -62,7 +62,7 @@ ID es un identificador único para cada marcador y no se debe editar nunca. Los 
 3. Guardar o abrir el archivo. csv
     
 4. Edite los datos en cualquiera de estos campos:
-   - Title
+   - El título
     
    - URL
     
