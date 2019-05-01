@@ -14,38 +14,38 @@ search.appverid:
 ms.assetid: ff42d668-f721-4ada-b130-77e38508197c
 description: Usar Microsoft Search para buscar archivos de Office y archivos PDF y la información que verá
 ms.openlocfilehash: f46796c015137a5bc1a24a52f7eb35cd2675a09d
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379247"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508943"
 ---
-# <a name="find-files"></a><span data-ttu-id="ce0f9-103">Buscar archivos</span><span class="sxs-lookup"><span data-stu-id="ce0f9-103">Find files</span></span>
+# <a name="find-files"></a><span data-ttu-id="c7058-103">Buscar archivos</span><span class="sxs-lookup"><span data-stu-id="c7058-103">Find files</span></span>
 
-<span data-ttu-id="ce0f9-p101">Buscar sus propios archivos o busque el contenido creado por los compañeros de trabajo que tienen acceso a. Los resultados incluyen el nombre de archivo y la ubicación y también es posible que vea un breve fragmento de código del contenido, que se modificó por última vez y cuándo.</span><span class="sxs-lookup"><span data-stu-id="ce0f9-p101">Search for your own files or look for content created by co-workers that you have access to. Results include the file name and location and you may also see a brief snippet of the content, who modified it last, and when.</span></span>
+<span data-ttu-id="c7058-104">Busque sus propios archivos o busque contenido creado por compañeros de trabajo a los que tiene acceso.</span><span class="sxs-lookup"><span data-stu-id="c7058-104">Search for your own files or look for content created by co-workers that you have access to.</span></span> <span data-ttu-id="c7058-105">Los resultados incluyen el nombre de archivo y la ubicación, y es posible que también vea un breve fragmento de código del contenido, quién lo modificó en último lugar y cuándo.</span><span class="sxs-lookup"><span data-stu-id="c7058-105">Results include the file name and location and you may also see a brief snippet of the content, who modified it last, and when.</span></span>
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2AsoN?autoplay=false]
   
-<span data-ttu-id="ce0f9-106">Puede encontrar SharePoint y OneDrive para archivos de negocio, incluidos:</span><span class="sxs-lookup"><span data-stu-id="ce0f9-106">You can find SharePoint and OneDrive for Business files, including:</span></span>
+<span data-ttu-id="c7058-106">Puede encontrar archivos de SharePoint y OneDrive para la empresa, entre los que se incluyen:</span><span class="sxs-lookup"><span data-stu-id="c7058-106">You can find SharePoint and OneDrive for Business files, including:</span></span>
   
-- <span data-ttu-id="ce0f9-107">Documentos de Word</span><span class="sxs-lookup"><span data-stu-id="ce0f9-107">Word documents</span></span>
+- <span data-ttu-id="c7058-107">Documentos de Word</span><span class="sxs-lookup"><span data-stu-id="c7058-107">Word documents</span></span>
     
-- <span data-ttu-id="ce0f9-108">Hojas de cálculo de Excel</span><span class="sxs-lookup"><span data-stu-id="ce0f9-108">Excel spreadsheets</span></span>
+- <span data-ttu-id="c7058-108">Hojas de cálculo de Excel</span><span class="sxs-lookup"><span data-stu-id="c7058-108">Excel spreadsheets</span></span>
     
-- <span data-ttu-id="ce0f9-109">Presentaciones de PowerPoint</span><span class="sxs-lookup"><span data-stu-id="ce0f9-109">PowerPoint presentations</span></span>
+- <span data-ttu-id="c7058-109">Presentación de PowerPoint</span><span class="sxs-lookup"><span data-stu-id="c7058-109">PowerPoint presentations</span></span>
     
-- <span data-ttu-id="ce0f9-110">Blocs de notas de OneNote</span><span class="sxs-lookup"><span data-stu-id="ce0f9-110">OneNote notebooks</span></span>
+- <span data-ttu-id="c7058-110">Blocs de notas de OneNote</span><span class="sxs-lookup"><span data-stu-id="c7058-110">OneNote notebooks</span></span>
     
-- <span data-ttu-id="ce0f9-111">Archivos PDF</span><span class="sxs-lookup"><span data-stu-id="ce0f9-111">PDFs</span></span>
+- <span data-ttu-id="c7058-111">PDF</span><span class="sxs-lookup"><span data-stu-id="c7058-111">PDFs</span></span>
     
-1. <span data-ttu-id="ce0f9-112">Inicie sesión su cuenta de trabajo o escuela en Bing</span><span class="sxs-lookup"><span data-stu-id="ce0f9-112">Sign in to your work or school account on Bing</span></span>
+1. <span data-ttu-id="c7058-112">Iniciar sesión en su cuenta profesional o educativa en Bing</span><span class="sxs-lookup"><span data-stu-id="c7058-112">Sign in to your work or school account on Bing</span></span>
     
-2. <span data-ttu-id="ce0f9-113">Buscar 'Mis documentos,' 'Mis presentaciones', o incluir un tema o el nombre de otra persona</span><span class="sxs-lookup"><span data-stu-id="ce0f9-113">Search for 'my documents,' 'my presentations,' or include a topic or someone's name</span></span>
+2. <span data-ttu-id="c7058-113">Buscar ' mis documentos, ' ' mis presentaciones ' o incluir un tema o el nombre de una persona</span><span class="sxs-lookup"><span data-stu-id="c7058-113">Search for 'my documents,' 'my presentations,' or include a topic or someone's name</span></span>
     
-    <span data-ttu-id="ce0f9-114">Por ejemplo, 'documentos acerca de los códigos de impuestos' o 'archivos por John'.</span><span class="sxs-lookup"><span data-stu-id="ce0f9-114">For example, 'docs about tax codes' or 'files by John.'</span></span>
+    <span data-ttu-id="c7058-114">Por ejemplo, "docs about tax codes" o "files by John".</span><span class="sxs-lookup"><span data-stu-id="c7058-114">For example, 'docs about tax codes' or 'files by John.'</span></span>
     
-3. <span data-ttu-id="ce0f9-115">Los resultados de archivo aparece en la parte superior de la página de resultados</span><span class="sxs-lookup"><span data-stu-id="ce0f9-115">File results appears at the top of the results page</span></span>
+3. <span data-ttu-id="c7058-115">Los resultados del archivo aparecen en la parte superior de la página de resultados</span><span class="sxs-lookup"><span data-stu-id="c7058-115">File results appears at the top of the results page</span></span>
     
-    <span data-ttu-id="ce0f9-p102">Otros resultados web aparecen debajo de él. No son específicos de la organización.</span><span class="sxs-lookup"><span data-stu-id="ce0f9-p102">Other web results appear under it. They aren't specific to your organization.</span></span>
+    <span data-ttu-id="c7058-116">Otros resultados web aparecen debajo de él.</span><span class="sxs-lookup"><span data-stu-id="c7058-116">Other web results appear under it.</span></span> <span data-ttu-id="c7058-117">No son específicos de la organización.</span><span class="sxs-lookup"><span data-stu-id="c7058-117">They aren't specific to your organization.</span></span>
 
 
