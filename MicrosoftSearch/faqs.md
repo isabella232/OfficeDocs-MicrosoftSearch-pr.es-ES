@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: cd3ee09d-58ab-4b8a-8822-fa11a1399672
 description: Obtenga respuestas a las preguntas más frecuentes acerca de la búsqueda empresarial y Microsoft Search
 ms.openlocfilehash: ed4179262dc20a441ce5e3acadc895bacb271fa9
-ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29612516"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508701"
 ---
 # <a name="faqs"></a>Preguntas más frecuentes
 

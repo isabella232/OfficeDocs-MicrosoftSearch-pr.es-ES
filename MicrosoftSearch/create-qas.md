@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: d432b9d9-3792-47a0-9a13-30a1a83caabc
 description: Formas de crear respuestas a las preguntas más frecuentes para los resultados de trabajo de Microsoft Search
 ms.openlocfilehash: 9713608450688a0841aa64d1f3198183b10e05ee
-ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29612501"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508629"
 ---
 # <a name="create-qas"></a>Crear preguntas y respuestas
 

@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: 5861e462-faed-4c3d-824d-ed3aafd80714
 description: Las características principales de Microsoft Search para administradores y usuarios finales incluyen marcadores, preguntas y respuestas e información detallada de administración y datos
 ms.openlocfilehash: 983a882fd42ae6f76a4b3db4f0f87dd8fbe7974d
-ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31746378"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508597"
 ---
 # <a name="features-of-microsoft-search"></a>Características de Microsoft Search
 
@@ -43,7 +43,7 @@ ms.locfileid: "31746378"
     
 - [Administración](set-up-microsoft-search.md)
     
-    Configure, cree contenido y defina palabras clave y frases
+    Configure y cree contenido o defina palabras clave y frases
     
 - [Usuarios y permisos](add-users.md)
     
@@ -59,13 +59,13 @@ ms.locfileid: "31746378"
     
     Busque personas y conozca su función dentro de la compañía, en qué están trabajando y formas de ponerse en contacto con ellos
     
-- [Gráficos de organización](use/find-people-and-groups.md)
+- [Diagramas de organización](use/find-people-and-groups.md)
     
-    Comprenda la posición de una persona en la compañía y vea fácilmente a sus compañeros, superiores y subordinados directos
+    Comprenda la posición de una persona en la compañía y vea fácilmente sus compañeros, superiores y subordinados directos
     
 - [Archivos](use/find-files.md)
     
-    Busque archivos contextuales y relevantes guardados en SharePoint y OneDrive para la Empresa
+    Encontrar archivos contextuales y relevantes guardados en SharePoint y OneDrive para la Empresa
     
 - [Grupos de Office 365](use/find-people-and-groups.md)
     

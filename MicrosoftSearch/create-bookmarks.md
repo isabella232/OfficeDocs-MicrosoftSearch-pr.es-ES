@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: 40a556e1-61c2-4bd3-b80e-5ad62af77454
 description: Cree marcadores o use una extensión de explorador para agregarlos a los resultados de trabajo de Microsoft Search
 ms.openlocfilehash: 71e5ae48bb8812e5222a4d6075292f3b85bed441
-ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29612413"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508736"
 ---
 # <a name="create-bookmarks"></a>Crear marcadores
 

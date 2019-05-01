@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: fee131cf-c82f-4f4b-b288-6fa98a99b793
 description: Obtenga información general sobre las características del portal de administración y los permisos de acceso disponibles en Microsoft Search
 ms.openlocfilehash: 28706ada22b1523c8a89101d673fdbea8f752cb2
-ms.sourcegitcommit: e88ba533b4d6c623bda5953c49f7082b13b4d114
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30800218"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508533"
 ---
 # <a name="about-the-admin-portal"></a>Acerca del centro de administración
 

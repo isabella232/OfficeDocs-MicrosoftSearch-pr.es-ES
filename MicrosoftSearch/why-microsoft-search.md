@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: 38569f03-db18-49ab-96ef-213a1f410935
 description: Obtenga información sobre por qué Microsoft Search es una búsqueda empresarial inteligente para el lugar de trabajo moderno.
 ms.openlocfilehash: f7c65e13f18f6ea4fd38bc406653a37f85659d3e
-ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31746418"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508884"
 ---
 # <a name="why-microsoft-search"></a>¿Por qué Microsoft Search?
 
