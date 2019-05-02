@@ -1,8 +1,8 @@
 ---
 title: Microsoft Search
-ms.author: dawholl
-author: dawholl
-manager: kellis
+ms.author: anfowler
+author: adefowler
+manager: mnirkhe
 ms.date: 09/20/2018
 ms.audience: Admin
 ms.topic: landing-page
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: 90d3190d-1add-490f-bef2-10b528252a2e
 description: Microsoft Search es una experiencia de búsqueda empresarial que aumenta la productividad y ahorra tiempo al aportar resultados más relevantes para su organización
-ms.openlocfilehash: b9937dd91d6101386a781884917dab131ddc85e9
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: 37ee14c4d594f45e502a39b2c50d9cd4e283c88e
+ms.sourcegitcommit: b9ec3d10b3df3bf07c40c60c3ed580194ed445a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/01/2019
-ms.locfileid: "33509053"
+ms.locfileid: "33513945"
 ---
 # <a name="microsoft-search"></a>Microsoft Search
 
@@ -122,7 +122,7 @@ ms.locfileid: "33509053"
                     <div class="cardText">
                         <h2>Usar Microsoft Search</h2>
                         <p>Ver artículos y vídeos para ayudar a los usuarios a entrenar a los usuarios para que sean más productivos con Microsoft Search </p>
-                        <p><a href="https://go.microsoft.com/fwlink/?linkid=2090946">DesProteger</a></p>
+                        <p><a href="https://go.microsoft.com/fwlink/?linkid=2090946">Desproteger</a></p>
                     </div>
                 </div>
             </div>
