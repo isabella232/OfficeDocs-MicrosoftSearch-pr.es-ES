@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: c989562e-525f-4922-b436-a885e7bf36ee
 description: Toda la información que necesita para implementar Microsoft Search en su organización
 ms.openlocfilehash: f4a6a5c6fa3765cd08935970178af8ac0d46421c
-ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31746354"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508957"
 ---
 # <a name="set-up-microsoft-search"></a>Configurar Microsoft Search
 
@@ -27,7 +27,7 @@ Como parte de Office 365, Búsqueda de Microsoft se implementa fácilmente al ha
 
 - [Configuración rápida](quick-set-up.md)
     
-    Siga cuatro pasos para habilitar fácilmente Búsqueda de Microsoft
+    Siga cuatro pasos para habilitar fácilmente Microsoft Search
 
 - [Configuración de contenido](content-settings.md)
     
@@ -39,9 +39,9 @@ Como parte de Office 365, Búsqueda de Microsoft se implementa fácilmente al ha
     
 - [Herramientas del portal de administración](admin-portal-tools.md)
     
-    Use las extensiones del explorador y otras herramientas para crear e importar contenido, minimizar el número de veces que se pide a los usuarios que inicien sesión y encontrar resultados de trabajo en Bing
+    Usar las extensiones del explorador y otras herramientas para crear e importar contenido, minimizar el número de veces que se pide a los usuarios que inicien sesión y encontrar resultados de trabajo en Bing
     
-- [Prueba del inicio de sesión único](test-single-sign-on.md)
+- [Probar el inicio de sesión único](test-single-sign-on.md)
     
     Reduzca el número de veces que se solicita a los usuarios que inicien sesión
     
@@ -53,11 +53,11 @@ Como parte de Office 365, Búsqueda de Microsoft se implementa fácilmente al ha
     
     Asegúrese de que los usuarios pueden conectarse a Microsoft Search y de que Bing puede identificarles e iniciar la sesión
 
-- [Agregación de un cuadro de búsqueda a su intranet](add-a-search-box-to-your-intranet-site.md)
+- [Agregar un cuadro de búsqueda a su intranet](add-a-search-box-to-your-intranet-site.md)
 
-    Proporcione a los usuarios acceso rápido a resultados y sugerencias de búsqueda relevantes
+    Proporcione a los usuarios acceso rápido a los resultados y sugerencias de búsqueda relevantes
 
-- [Planeamiento del contenido](plan-your-content.md)
+- [Planear el contenido](plan-your-content.md)
     
     Descubra qué sitios, herramientas y recursos se buscan con más frecuencia y determine los mejores tipos de resultados para ellos
 

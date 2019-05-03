@@ -16,11 +16,11 @@ search.appverid:
 ms.assetid: 90d3190d-1add-490f-bef2-10b528252a2e
 description: Microsoft Search es una experiencia de búsqueda empresarial que aumenta la productividad y ahorra tiempo al aportar resultados más relevantes para su organización
 ms.openlocfilehash: 904a54998900e1c702d273dc71ceb605929269ed
-ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31746386"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33509104"
 ---
 # <a name="microsoft-search"></a>Microsoft Search
 
@@ -47,7 +47,7 @@ ms.locfileid: "31746386"
                     <div class="cardText">
                         <h2>¿Por qué Microsoft Search?</h2>
                         <p>Obtenga una experiencia de búsqueda empresarial que aumenta la productividad y ahorra tiempo al aportar resultados más relevantes para su organización</p>
-                        <p><a href="why-microsoft-search.md">Descubra cómo hacerlo</a></p>
+                        <p><a href="why-microsoft-search.md">Descubra cómo</a></p>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@ ms.locfileid: "31746386"
                     <div class="cardText">
                         <h3>Características principales</h3>
                         <p>Vea qué características están disponibles para los administradores y usuarios, incluido lo que puede encontrar al buscar</p>
-                        <p><a href="features.md">Obtenga más información</a></p>
+                        <p><a href="features.md">Más información</a></p>
                     </div>
                 </div>
             </div>
@@ -87,7 +87,7 @@ ms.locfileid: "31746386"
                     </div>
                     <div class="cardText">
                         <h3>Configuración rápida de administración</h3>
-                        <p>Obtenga información sobre cómo activar Microsoft Search y configúrela para su organización en cuatro sencillos pasos</p>
+                        <p>Obtenga información sobre cómo activar Microsoft Search y configurarlo para su organización en cuatro sencillos pasos</p>
                         <p><a href="quick-set-up.md">Empezar ahora</a></p>
                     </div>
                 </div>
@@ -121,8 +121,8 @@ ms.locfileid: "31746386"
                 <div class="card">
                     <div class="cardText">
                         <h2>Usar Microsoft Search</h2>
-                        <p>Microsoft Search es una forma más segura, rápida y sencilla de buscar información, ser más productivo y trabajar de forma más inteligente</p>
-                        <p><a href="use/about-microsoft-search.md">Descubra cómo hacerlo</a></p>
+                        <p>Microsoft Search es una forma más segura, rápida y sencilla para buscar información, ser más productivo y trabajar de forma más inteligente</p>
+                        <p><a href="use/about-microsoft-search.md">Descubra cómo</a></p>
                     </div>
                 </div>
             </div>
@@ -153,8 +153,8 @@ ms.locfileid: "31746386"
                 <div class="card">
                     <div class="cardText">
                         <p><a href="security.md">Seguridad</a></p>
-                        <p><a href="requirements.md">Requisitos</a></p>  
-                        <p><a href="about-the-admin-portal.md">Acerca del portal de administración</a></p>
+                        <p><a href="requirements.md">Requisitos</a> </p>  
+                        <p><a href="about-the-admin-portal.md">Acerca del centro de administración</a></p>
                     </div>
                 </div>
             </div>
@@ -180,7 +180,7 @@ ms.locfileid: "31746386"
                     <div class="cardText">
                         <p><a href="create-bookmarks.md">Crear marcadores</a></p>
                         <p><a href="create-qas.md">Crear preguntas y respuestas</a></p>
-                        <p><a href="add-users.md">Administrar usuarios</a></p>
+                        <p><a href="add-users.md">Administración de usuarios</a></p>
                     </div>
                 </div>
             </div>
