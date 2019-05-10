@@ -3,22 +3,6 @@
 
 
 
-## <a name="week-of-march-18-2019"></a>Semana del 18 de marzo de 2019
-
-
-| Fecha de publicación |Título del tema | Cambio |
-|------|------------|--------|
-| 3/22/2019 | [Agregar un cuadro de búsqueda a su sitio de intranet](/MicrosoftSearch/add-a-search-box-to-your-intranet-site) | modificado |
-
-
-## <a name="week-of-march-25-2019"></a>Semana del 25 de marzo de 2019
-
-
-| Fecha de publicación |Título del tema | Cambio |
-|------|------------|--------|
-| 3/25/2019 | [Acerca del portal de administración](/MicrosoftSearch/about-the-admin-portal) | modificado |
-
-
 ## <a name="week-of-april-08-2019"></a>Semana del 8 de abril de 2019
 
 
@@ -30,7 +14,7 @@
 | 4/9/2019 | [Microsoft Search](/MicrosoftSearch/index) | modificado |
 | 4/9/2019 | [Microsoft Search](/MicrosoftSearch/microsoft-search) | modificado |
 | 4/9/2019 | [Configuración rápida de Microsoft Search](/MicrosoftSearch/quick-set-up) | modificado |
-| 4/9/2019 | [Configurar Microsoft Search](/MicrosoftSearch/set-up-microsoft-search) | modificado |
+| 4/9/2019 | [Configurar Búsqueda de Microsoft](/MicrosoftSearch/set-up-microsoft-search) | modificado |
 | 4/9/2019 | [¿Por qué Microsoft Search?](/MicrosoftSearch/why-microsoft-search) | modificado |
 
 
@@ -41,7 +25,18 @@
 |------|------------|--------|
 | 4/16/2019 | [Crear marcadores en masa](/MicrosoftSearch/bulk-create-bookmarks) | modificado |
 | 4/16/2019 | [Crear ubicaciones de forma masiva](/MicrosoftSearch/bulk-create-locations) | modificado |
-| 4/16/2019 | [Creación masiva de Q&As](/MicrosoftSearch/bulk-create-qas) | modificado |
+| 4/16/2019 | [Crear preguntas y respuestas de forma masiva](/MicrosoftSearch/bulk-create-qas) | modificado |
 | 4/16/2019 | [Administrar marcadores](/MicrosoftSearch/manage-bookmarks) | modificado |
 | 4/16/2019 | [Administrar ubicaciones](/MicrosoftSearch/manage-locations) | modificado |
-| 4/16/2019 | [Administrar Q&As](/MicrosoftSearch/manage-qas) | modificado |
+| 4/16/2019 | [Administrar preguntas y respuestas](/MicrosoftSearch/manage-qas) | modificado |
+
+
+## <a name="week-of-april-29-2019"></a>Semana del 29 de abril de 2019
+
+
+| Fecha de publicación |Título del tema | Cambio |
+|------|------------|--------|
+| 30/4/2019 | [Microsoft Search](/MicrosoftSearch/microsoft-search) | modificado |
+| 30/4/2019 | [Guía de adopción del usuario](/MicrosoftSearch/user-adoption-guide) | modificado |
+| 5/1/2019 | [Microsoft Search](/MicrosoftSearch/microsoft-search) | modificado |
+| 5/1/2019 | [Introducción a Búsqueda de Microsoft](/MicrosoftSearch/overview-microsoft-search) | modificado |
