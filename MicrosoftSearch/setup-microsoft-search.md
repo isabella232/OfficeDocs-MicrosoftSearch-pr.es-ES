@@ -3,7 +3,7 @@ title: Configurar **Búsqueda de Microsoft**
 ms.author: anfowler
 author: adefowler
 manager: mnirkhe
-ms.date: 12/11/2018
+ms.date: 04/30/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar Búsqueda de Microsoft por primera vez.
-ms.openlocfilehash: a83950f89258a0b3b376dac075684338552253b2
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: f4648988563245f6a61169d7e62b48c456dfa8fa
+ms.sourcegitcommit: 06f995ae7696a8cafcd12d19ed16a35d059b6abb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33511088"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33858276"
 ---
 # <a name="set-up-microsoft-search"></a>Configurar Búsqueda de Microsoft
 
@@ -38,13 +38,17 @@ Sin embargo, como administrador debe considerar algunas cosas que pueden hacer q
 
 Obtenga más información sobre [planificación de permisos](https://docs.microsoft.com/es-ES/sharepoint/plan-your-permissions-strategy) y [crear niveles de permisos](https://docs.microsoft.com/es-ES/sharepoint/how-to-create-and-edit-permission-levels).
 
-### <a name="step-2-assign-search-administrator-and-search-editor"></a>Paso 2: Asignar el Administrador de búsqueda y el Editor de búsqueda
+### <a name="step-2-assign-search-admin-and-search-editor"></a>Paso 2: Asigne el Administrador de búsqueda y el Editor de búsqueda
+
+Hay dos nuevos roles en el **Centro de administración de Microsoft**: el Administrador de búsqueda y el Editor de búsqueda.  El Administrador global, que tiene todos los privilegios, asigna roles de administrador a los usuarios, incluido el rol de Administrador de búsqueda. Los Administradores de búsqueda pueden delegar los roles de Administrador de búsqueda y Editor de búsqueda a otros usuarios. Para obtener más información sobre los varios roles de administrador, vea [Roles de administrador de Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles?view=o365-worldwide).
 
 Los administradores de búsqueda influyen directamente en la experiencia de búsqueda para los usuarios finales. Esto incluye la elección de los tipos de resultados que quiere que se muestren a los usuarios. Puede resultar difícil para una sola persona elegir y crear contenido relevante para los muchos y diferentes temas que los usuarios buscan en una organización. Le recomendamos que aproveche la experiencia y los conocimientos de otros usuarios agregándolos como editores. 
 
 En **Búsqueda de Microsoft**, puede administrar la configuración de búsqueda de su organización y contenido con dos nuevas funciones:
-1. **Administrador de búsqueda:** este rol puede crear y administrar el contenido de los resultados de búsqueda y definir la configuración de consulta para mejorar los resultados de búsqueda en la organización. El administrador de búsqueda controla la configuración de **Búsqueda de Microsoft** y designa a los editores de búsqueda, que crean contenido.
-2. **Editor de búsqueda:** crea, administra y elimina el contenido de **Búsqueda de Microsoft** en el centro de administración de Microsoft 365. Este rol puede crear y administrar contenido editorial como preguntas más frecuentes, lugares y ubicaciones importantes, lugares y ubicaciones frecuentemente buscados, sitios y aplicaciones frecuentemente buscados y usados, etc. Sin embargo, no tiene acceso a la administración de la configuración de búsqueda.
+1. **Administrador de búsqueda:** este rol puede crear y administrar el contenido de los resultados de búsqueda y definir la configuración de consulta para mejorar los resultados de búsqueda en la organización. El administrador de búsqueda controla la configuración de **Búsqueda de Microsoft** y designa a los Editores de búsqueda, que crean contenido.
+2. **Editor de búsqueda:** crea, administra y elimina el contenido de **Búsqueda de Microsoft** en el Centro de administración de Microsoft 365. Este rol puede crear y administrar contenido editorial como preguntas más frecuentes, lugares y ubicaciones importantes, lugares y ubicaciones frecuentemente buscados, sitios y aplicaciones frecuentemente buscados y usados, etc. Sin embargo, no tiene acceso a la administración de la configuración de búsqueda.
+
+**Nota:** estos dos roles nuevos, el Administrador de búsqueda y el Editor de búsqueda, están disponibles solo en el **Centro de administración de Microsoft 365**, no en el portal de administración antiguo.
 
 Para asignar roles de administrador, consulte [Asignar derechos de administrador en Office 365 para empresas](https://docs.microsoft.com/en-us/office365/admin/add-users/assign-admin-roles?view=o365-worldwide).
 
