@@ -13,25 +13,24 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenga una visión general de lo que es Búsqueda de Microsoft, ventajas y las aplicaciones actuales de Búsqueda de Microsoft.
-ms.openlocfilehash: d8445ac414920588c9b253e8640b1707c9fd2626
-ms.sourcegitcommit: b9ec3d10b3df3bf07c40c60c3ed580194ed445a6
+ms.openlocfilehash: cbf372e9fa7ced4a5e23e7d80d566192ab703a49
+ms.sourcegitcommit: aeb44797427bd39c133fa899ab77277dd90fe47b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33513937"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970142"
 ---
 # <a name="overview-of-microsoft-search"></a>Introducción a Búsqueda de Microsoft
 
 Búsqueda de Microsoft es la característica de búsqueda unificada en las aplicaciones de productividad de Microsoft 365 y en el más amplio ecosistema de Microsoft. Con el tiempo, Búsqueda de Microsoft estará disponible en más aplicaciones de Microsoft 365.
 
-
-Búsqueda de Microsoft ayuda a los usuarios a encontrar respuestas correctas, personas y contenido para completar sus tareas en la aplicación en la que están trabajando. Con Búsqueda de Microsoft: 
+Búsqueda de Microsoft ayuda a los usuarios a encontrar respuestas correctas, personas y contenido para completar sus tareas en la aplicación en la que están trabajando. Con Búsqueda de Microsoft:
 - Los usuarios obtienen resultados pertinentes en el **contexto** de la aplicación desde la que buscan. Por ejemplo, cuando buscan en Outlook, encuentran mensajes de correo electrónico, no sitios de SharePoint. Cuando buscan en SharePoint, encuentran sitios, páginas y archivos, no mensajes.
 - Independientemente de la aplicación con la que trabajan, Búsqueda de Microsoft es **personal**.  Búsqueda de Microsoft usa la información de Microsoft Graph para mostrar resultados relevantes para cada usuario. Usuarios diferentes pueden ver resultados diferentes, aunque busquen las mismas palabras. Solo verán resultados a los que ya tienen acceso, Búsqueda de Microsoft no cambia los permisos.   
 - Los usuarios no necesitan recordar dónde se encuentra la información. Por ejemplo, un usuario está trabajando en Word y desea volver a usar la información de una presentación que un compañero ha compartido en su OneDrive. No es necesario cambiar a OneDrive y buscar esa presentación, simplemente pueden buscar desde Word.  
 - En Bing, los usuarios pueden recibir resultados de la web pública y del interior de su organización. 
 
-Los usuarios encuentran el cuadro de Búsqueda de Microsoft en la barra de encabezado:
+Los usuarios pueden encontrar el cuadro de Búsqueda de Microsoft en la barra de encabezado. Tiene este aspecto:
 
 ![Capturas de pantalla de aplicaciones con la barra de Búsqueda de Microsoft en el encabezado](media/Headings_400.png)
 
@@ -72,7 +71,6 @@ Las siguientes aplicaciones de Office 365 ofrecen actualmente Búsqueda de Micro
 
 Además, los usuarios disponen de Búsqueda de Microsoft en:
 - Bing 
-- Windows
 - Office.com
 - Las páginas de inicio de Word, Excel y PowerPoint Online
 
@@ -94,9 +92,9 @@ Solo los usuarios con cuentas activas pueden usar Búsqueda de Microsoft y deben
 ## <a name="what-can-users-find-with-microsoft-search"></a>¿Qué pueden encontrar los usuarios con Búsqueda de Microsoft? 
 Búsqueda de Microsoft busca en el contenido que se almacena en Outlook, OneDrive y SharePoint Online, incluidas las personas de la lista global de direcciones y los grupos de Office 365. Si usa búsqueda híbrida en la nube para configurar un entorno híbrido de SharePoint, los usuarios de Búsqueda de Microsoft pueden obtener resultados de contenido de SharePoint local, incluido cualquier contenido externo que haya conectado a su entorno de SharePoint Server. [Más información sobre los entornos híbridos de búsqueda](https://docs.microsoft.com/es-ES/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint).
 
-Cuando los usuarios buscan desde la [página de inicio de SharePoint](https://microsoft.sharepoint.com/_layouts/15/sharepoint.aspx) o desde office.com, Búsqueda de Microsoft busca en su organización y presenta todos los resultados de la organización que encuentra. Esto se conoce como ámbito de búsqueda global.
+Cuando los usuarios buscan desde la página de inicio de SharePoint o desde Office.com, Búsqueda de Microsoft busca en su organización y presenta todos los resultados de la organización que encuentra. Esto se conoce como ámbito de búsqueda global.
 
-Cuando los usuarios buscan desde Bing, Búsqueda de Microsoft busca tanto en la web pública y como en la de su organización. Reciben una amplia variedad de los resultados más relevantes de su organización insertados en la lista de resultados. Si necesitan ver todos los resultados de la organización, el ámbito universal de búsqueda está a un solo clic de distancia.
+Cuando los usuarios buscan desde Bing, Búsqueda de Microsoft busca tanto en la web pública y como en la de su organización. Reciben una amplia variedad de los resultados más relevantes de su organización insertados en la lista de resultados. Si necesitan ver todos los resultados de la organización, el ámbito global de búsqueda está a un solo clic de distancia.
 
 Cuando los usuarios buscan desde una aplicación, reciben resultados relacionados con el contexto en el que están trabajando. Por ejemplo, si buscan en Outlook encontrarán mensajes de correo electrónico, si buscan en SharePoint encontrarán noticias y contenido en listas, así como acciones o palabras de la presentación en la que están trabajando si hacen la búsqueda desde PowerPoint..
 
@@ -112,22 +110,17 @@ Aquí le presentamos información general del tipo de resultados que los usuario
 
 **Bing**: contenido en la web pública, archivos, grupos de Office 365, personas, conversaciones de Yammer y Teams, organigramas, sitios de SharePoint. Si se han definido, respuestas a preguntas comunes, marcadores que llevan a información relevante, ubicaciones de mapa y herramientas.  Se pueden encontrar archivos de Word, Excel, PowerPoint, OneNote y PDF.
 
-**Windows**: archivos y personas.
-
 **Páginas de inicio de Office.com y Word, Excel y PowerPoint Online**: aplicaciones, archivos, carpetas, personas, organigramas, sitios de SharePoint, páginas de sitios, listas y elementos de lista. Si se han definido, respuestas a preguntas comunes, marcadores que llevan a información relevante, ubicaciones de mapa y herramientas. Los mismos tipos de archivo que se pueden encontrar en SharePoint.
 
 ## <a name="tailoring-microsoft-search-to-your-organization"></a>Personalizar Búsqueda de Microsoft para su organización
 
-Como administrador, puede facilitar a los usuarios obtener resultados adecuados específicos para la organización cuando buscan desde su página de inicio de SharePoint, office.com o Bing.
+Como administrador, puede facilitar a los usuarios obtener resultados adecuados específicos para la organización cuando buscan desde su página de inicio de SharePoint, Office.com o Bing. Usted administra Búsqueda de Microsoft desde la sección Búsqueda de Microsoft en el Centro de administración de Microsoft 365.
 
 **Mostrar contenido útil**: ayude a los usuarios a buscar herramientas y recursos importantes de la organización mediante marcadores. Al igual que puede crear un marcador en una página web pública, puede crear un marcador para cualquier página web interna que sus usuarios puedan buscar. También puede integrar una Power App en el marcador para que los usuarios puedan completar su tarea directamente desde el marcador.
 
 **Ofrecer respuestas a preguntas comunes**: proporcione la mejor respuesta para las preguntas que se le formulan con mayor frecuencia. Cuando los usuarios escriben una pregunta frecuente en el cuadro de búsqueda, Búsqueda de Microsoft muestra como resultado la respuesta en lugar de limitarse a proporcionar un vínculo a la página web.
 
 **Mostrar ubicaciones útiles**: muestre resultados de mapa y la información de direcciones de oficinas, edificios y otras áreas de trabajo de su organización sobre un mapa. Los usuarios pueden usar los mapas para obtener instrucciones, consultar qué hay cerca y mucho más.
-
-Usted administra Búsqueda de Microsoft desde el Centro de Administración de Búsqueda de Microsoft para todas las aplicaciones que incorporan el cuadro de Búsqueda de Microsoft. 
-
 
 ## <a name="how-does-microsoft-search-work"></a>¿Cómo funciona Búsqueda de Microsoft?
 Búsqueda de Microsoft busca automáticamente el contenido en SharePoint Online, OneDrive para la Empresa y Exchange. Si ha configurado un entorno híbrido de SharePoint Server y SharePoint Online, mediante una búsqueda híbrida en la nube, Búsqueda de Microsoft también puede encontrar contenido local de SharePoint, incluido el contenido de los conectores locales.
@@ -139,10 +132,10 @@ Los resultados de búsqueda para los que el usuario tiene permisos se muestran e
 ## <a name="microsoft-search-in-sharepoint"></a>Búsqueda de Microsoft en SharePoint Online 
 Búsqueda de Microsoft es la moderna experiencia de búsqueda en SharePoint Online. SharePoint Online también ofrece una experiencia de búsqueda clásica. Como administrador de búsqueda no puede activar o desactivar las búsquedas modernas o clásicas. Ambas se encuentran de forma predeterminada. La experiencia que obtendrán los usuarios depende de desde dónde hacen la búsqueda:
 
-- Los usuarios acceden al cuadro de Búsqueda de Microsoft en la página principal de SharePoint, sitios de concentrador, sitios de comunicación y sitios de grupo modernos.
+- Los usuarios acceden al cuadro de Búsqueda de Microsoft en la página de inicio de SharePoint, sitios de concentrador, sitios de comunicación y sitios de grupo modernos.
 - Los usuarios acceden al cuadro de búsqueda clásica en sitios de publicación, sitios de grupo clásicos y el centro de búsqueda.
 
-Ambas experiencias de búsqueda encuentran resultados en contenido en SharePoint y OneDrive para la Empresa, y encuentran personas en Office 365. 
+Ambas experiencias de búsqueda encuentran resultados en contenido en SharePoint y OneDrive para la Empresa, y encuentran personas en Office 365.
 
 Si sigue utilizando la búsqueda clásica en SharePoint, [obtenga información sobre cómo evitar que afecte a la experiencia de Búsqueda de Microsoft en SharePoint](https://docs.microsoft.com/es-ES/sharepoint/differences-classic-modern-search).  
 
