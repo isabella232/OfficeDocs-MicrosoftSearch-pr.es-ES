@@ -13,39 +13,42 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
-description: Buscar marcadores que se deben actualizar y maneras de realizar cambios en masa de los resultados de marcadores para Microsoft Search
-ms.openlocfilehash: f87176c645e127e20edd9e70a74efe05dd381236
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
-ms.translationtype: MT
+description: Busque marcadores que necesiten actualizarse y formas de editar en masa los resultados de marcadores en Búsqueda de Microsoft
+ms.openlocfilehash: d5cebbfd5779bc8a6aa25cdbcdedb6e9b18f242e
+ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508613"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "33968487"
 ---
 # <a name="manage-bookmarks"></a>Administrar marcadores
 
-Con el tiempo, es posible que deba actualizar el contenido y el estado de un marcador para mantenerlo relevante. 
+> [!IMPORTANT]
+> Búsqueda de Microsoft en la configuración de Bing ya está disponible en el Centro de administración de Microsoft 365. Empiece por [asignar administradores de búsqueda](https://docs.microsoft.com/es-ES/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) en el centro de administración.
+    
+Con el tiempo, es posible que deba actualizar el estado y el contenido de un marcador para que siga siendo relevante. 
   
 ## <a name="filter-bookmarks"></a>Filtrar marcadores
 
-Use la opción de filtro en la esquina superior derecha de la página marcadores para buscar marcadores por fecha y quién los modificó. Por ejemplo, establezca el control deslizante de fecha en 30 días y seleccione un administrador o un editor para ver la lista de marcadores que ha creado o modificado en ese momento.
+Use la opción de filtro situada en la esquina superior derecha de la página Marcadores para buscar marcadores por fecha y por el usuario que los haya modificado. Por ejemplo, puede establecer el control deslizante de fecha en 30 días y seleccionar un administrador o editor para ver la lista de marcadores que se han creado o editado en ese período de tiempo.
   
-## <a name="change-bookmark-content-or-settings"></a>Cambiar la configuración o el contenido de los marcadores
+## <a name="change-bookmark-content-or-settings"></a>Cambiar el contenido o la configuración de un marcador
 
 1. Vaya al portal de administración de Microsoft Search
     
 2. En el panel de navegación, haga clic en **Marcadores**
     
-3. Para buscar un marcador, buscar, filtrar o hacer clic en el estado de un marcador para restringir los resultados
+3. Para buscar un marcador, puede buscar, filtrar o hacer clic en el estado de un marcador para restringir los resultados
     
-4. Para cambiar o actualizar un marcador, haga clic en el título.
+4. Para cambiar o actualizar un marcador, haga clic en el título
     
-5. Realizar los cambios o actualizaciones del contenido o la configuración y obtener una vista previa del modo en que aparecerán 
+5. Realice los cambios o actualizaciones que desee en el contenido o la configuración y obtenga una vista previa de cómo aparecerán 
     
 6. Haga clic en **Guardar**
     
-## <a name="bulk-export-and-edit-bookmarks"></a>Exportar y editar marcadores en masa
+## <a name="bulk-export-and-edit-bookmarks"></a>Editar y exportar en masa marcadores
 
-Nunca modifique datos en estos campos:
+No edite nunca los datos de estos campos:
   
 - Id
     
@@ -53,16 +56,16 @@ Nunca modifique datos en estos campos:
     
 - Última modificación realizada por
     
-ID es un identificador único para cada marcador y no se debe editar nunca. Los campos última modificación y última modificación por sólo deben usarse para ordenar y buscar marcadores.
+El Id. es un identificador único de cada marcador y nunca debe editarse. Los campos Última modificación y Última modificación realizada por deben usarse solamente para ordenar y buscar marcadores.
   
-1. Si desea exportar un subconjunto de los marcadores, filtre
+1. Si quiere exportar un subconjunto de marcadores, fíltrelos
     
-2. En la esquina superior derecha de la página marcadores, haga clic en **exportar** .
+2. En la esquina superior derecha de la página Marcadores, haga clic en **Exportar**
     
-3. Guardar o abrir el archivo. csv
+3. Guarde o abra el archivo .csv
     
-4. Edite los datos en cualquiera de estos campos:
-   - El título
+4. Edite los datos de cualquiera de estos campos:
+   - Título
     
    - URL
     
@@ -82,16 +85,16 @@ ID es un identificador único para cada marcador y no se debe editar nunca. Los 
     
    - Grupos
     
-   - Sistema&amp;operativo del dispositivo
+   - Dispositivo&amp;OS
     
    - Variaciones de destino
     
-5. Guardar el archivo. csv
+5. Guarde el archivo .csv
 
-    El archivo. csv se debe guardar como archivo CSV UTF-8, otros tipos de archivo o codificaciones pueden provocar errores de importación
+    El archivo .csv debe guardarse como un archivo CSV UTF-8, otros tipos de archivo o codificaciones pueden causar errores de importación
     
-6. En la esquina superior derecha de la página marcadores, haga clic en **importar**
+6. En la esquina superior derecha de la página Marcadores, haga clic en **Importar**
     
-7. En el panel importar marcadores, haga clic en **examinar** y seleccione el archivo. csv editado. 
+7. En el panel Importar marcadores, haga clic en **Examinar** y seleccione el archivo .csv editado 
     
-8. Haga clic en **importar**
+8. Haga clic en **Importar**

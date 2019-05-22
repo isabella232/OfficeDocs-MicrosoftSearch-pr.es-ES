@@ -12,29 +12,29 @@ search.appverid:
 - BFB160
 - MET150
 ms.assetid: 3d34bfbc-d4a3-4ef2-85d3-cf92835382ac
-description: Usar Microsoft Search para buscar Office, edificio y otras ubicaciones del área de trabajo, obtener instrucciones y mucho más
+description: Use Búsqueda de Microsoft para buscar oficinas, edificios y otras ubicaciones de área de trabajo, obtener indicaciones y mucho más
 ms.openlocfilehash: 8264f223808750cab6c5117b3b3fa1adbee5a40a
 ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/01/2019
 ms.locfileid: "33508965"
 ---
 # <a name="find-locations"></a>Buscar ubicaciones
 
-Busque edificios, oficinas, campus, etc para ver un resultado de mapa y una dirección. Puede obtener fácilmente indicaciones y ver lo cerca en mapas de Bing.
+Busque edificios, oficinas, instalaciones y más para ver un resultado en el mapa y la dirección. Puede obtener indicaciones fácilmente y ver qué hay cerca en las Mapas de Bing.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2ACDW?autoplay=false]
   
-1. Iniciar sesión en su cuenta profesional o educativa en Bing
+1. Inicie sesión en Bing con su cuenta profesional o educativa
     
-2. Buscar el nombre de la ubicación
+2. Busque el nombre de la ubicación
     
-    Por ejemplo, "Building 9" o "West Cafe".
+    Por ejemplo, "Edificio 9" o "Café Oeste".
     
-3. Un mapa aparece en la parte superior de la página de resultados que muestra la ubicación y la dirección postal
+3. Un mapa aparece en la parte superior de la página de resultados y muestra la ubicación y la calle
     
-    Otros resultados web aparecen debajo de él. No son específicos de la organización.
+    Otros resultados web aparecerán debajo. No son específicos de su organización.
 
   
 

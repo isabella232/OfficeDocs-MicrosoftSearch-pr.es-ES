@@ -1,5 +1,5 @@
 ---
-title: Importar resultados de SharePoint promocionados y consultas principales
+title: Importar resultados y consultas principales promocionados de SharePoint
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,33 +13,36 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 3d2a1498-174e-4214-9cf1-8b58cce5a872
-description: Usar consultas de búsqueda de SharePoint para crear resultados de trabajo para Microsoft Search
-ms.openlocfilehash: f4fa4354fed667800c1cdcf63c86f59d736c342a
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
-ms.translationtype: MT
+description: Use consultas de búsqueda de SharePoint para crear resultados de trabajo para Búsqueda de Microsoft
+ms.openlocfilehash: 6e55e2000792bdb576a18a0efeb353dc3ea13605
+ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508757"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "33968455"
 ---
-# <a name="import-sharepoint-promoted-results-and-top-queries"></a>Importar resultados de SharePoint promocionados y consultas principales
+# <a name="import-sharepoint-promoted-results-and-top-queries"></a>Importar resultados y consultas principales promocionados de SharePoint
 
-Para aprovechar las consultas de los usuarios y los resultados más probables que haya creado en SharePoint, Microsoft Search incluye dos herramientas para importar esta información como marcadores sugeridos: 
+> [!IMPORTANT]
+> Búsqueda de Microsoft en la configuración de Bing ya está disponible en el Centro de administración de Microsoft 365. Empiece por [asignar administradores de búsqueda](https://docs.microsoft.com/es-ES/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) en el centro de administración.
+    
+Para sacar provecho de las consultas de los usuarios y los resultados más probables que haya creado en SharePoint, Búsqueda de Microsoft incluye dos herramientas para importar esta información como marcadores sugeridos:  
   
 ## <a name="import-sharepoint-promoted-result-query-rules"></a>Importar reglas de consulta de resultados promocionados de SharePoint
 
-Importe estas reglas, denominadas más probables anteriormente, como marcadores sugeridos. Para que estén disponibles para los usuarios, publíquelos. El tiempo de publicación varía en función del número de marcadores que seleccione.
+Importe estas reglas, anteriormente denominadas resultados más probables, como marcadores sugeridos. Para que estén disponibles para los usuarios, publíquelas. El tiempo de publicación varía según el número de marcadores que seleccione.
   
 ## <a name="import-top-sharepoint-queries-using-powershell"></a>Importar las consultas principales de SharePoint con PowerShell
 
-- Descargue las consultas principales desde SharePoint. El script de PowerShell le pedirá sus credenciales de administrador de SharePoint.
+- Descargue las consultas principales de SharePoint. El script de PowerShell le pedirá sus credenciales de administrador de SharePoint.
     
-- Ejecute una búsqueda de SharePoint para cada una de las consultas principales para obtener el resultado de la búsqueda más arriba.
+- Ejecute una búsqueda de SharePoint para cada una de las consultas principales para obtener el resultado de búsqueda superior.
     
-- Agregue marcadores sugeridos al portal de administración.
+- Agregar marcadores sugeridos al portal de administración.
     
-- Las consultas más importantes de SharePoint son candidatas excelentes para los marcadores. Use el script de PowerShell para importarlos como marcadores sugeridos. Este script hará lo siguiente:
+- Las consultas principales de SharePoint son excelentes candidatos para los marcadores. Use el script de PowerShell para importarlos como marcadores sugeridos. Este script hará lo siguiente:
     
-Para obtener información acerca de los requisitos, ejemplos y parámetros disponibles, descargue el script y revise el archivo Léame. Una vez ejecutado el script de PowerShell, un administrador o editor debe revisar los marcadores sugeridos y realizar las modificaciones necesarias antes de que se publiquen.
+Descargue el script y abra el archivo Léame para obtener información sobre los requisitos, ejemplos y parámetros disponibles. Después que se ejecute el script de PowerShell, un administrador o editor debe revisar los marcadores sugeridos y realizar los cambios necesarios antes de que se publiquen.
 
   
 

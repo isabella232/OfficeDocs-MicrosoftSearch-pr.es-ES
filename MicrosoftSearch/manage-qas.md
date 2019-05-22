@@ -13,39 +13,42 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7e3432e6-5317-4d63-90b0-52da6fddd343
-description: Buscar y actualizar respuestas de forma individual o usar las herramientas de búsqueda de Microsoft disponibles para editarlas todas a la vez
-ms.openlocfilehash: 47882deeb95133cfc19f4eec6417fc20fb7203de
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
-ms.translationtype: MT
+description: Busque y actualice respuestas individualmente o use las herramientas disponibles de Búsqueda de Microsoft para editarlas todas a la vez
+ms.openlocfilehash: ee239aa73d4e650289f39d33c63c3e2df4f100cc
+ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508821"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "33968471"
 ---
 # <a name="manage-qas"></a>Administrar preguntas y respuestas
 
-Con el tiempo, es posible que deba actualizar el contenido y el estado de un Q&A's para mantenerlo relevante.
+> [!IMPORTANT]
+> Búsqueda de Microsoft en la configuración de Bing ya está disponible en el Centro de administración de Microsoft 365. Empiece por [asignar administradores de búsqueda](https://docs.microsoft.com/es-ES/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) en el centro de administración.
+    
+Con el tiempo, es posible que deba actualizar el estado y el contenido de preguntas y respuestas para que sigan siendo relevantes.
   
-## <a name="filter-qas"></a>Filtrar Q&As
+## <a name="filter-qas"></a>Filtrar preguntas y respuestas
 
-Use la opción de filtro en la esquina superior derecha de la página Q&As para buscar Q&As por fecha y quién los modificó. Por ejemplo, establezca el control deslizante fecha en 30 días y seleccione un administrador o un editor para ver la lista de Q&As que han creado o modificado en ese momento.
+Use la opción de filtro situada en la esquina superior derecha de la página Preguntas y respuestas para buscar preguntas y respuestas por fecha y por el usuario que las haya modificado. Por ejemplo, puede establecer el control deslizante de fecha en 30 días y seleccionar un administrador o editor para ver la lista de preguntas y respuestas que se han creado o editado en ese período de tiempo.
   
-## <a name="change-qa-content-or-settings"></a>Cambiar el contenido o la configuración de Q&A
+## <a name="change-qa-content-or-settings"></a>Cambiar el contenido o la configuración de preguntas y respuestas
 
 1. Vaya al portal de administración de Microsoft Search
     
 2. En el panel de navegación, haga clic en **Preguntas y respuestas**
     
-3. Para buscar un Q&A, buscar, filtrar o hacer clic en un estado de Q&A para restringir los resultados
+3. Para buscar una pregunta y su respuesta, puede buscar, filtrar o hacer clic en el estado de la pregunta y su respuesta para restringir los resultados.
     
-4. Para cambiar o actualizar una Q&A, haga clic en el título.
+4. Para cambiar o actualizar una pregunta y su respuesta, haga clic en el título
     
-5. Realizar los cambios o actualizaciones del contenido o la configuración y obtener una vista previa del modo en que aparecerán
+5. Realice los cambios o actualizaciones que desee en el contenido o la configuración y obtenga una vista previa de cómo aparecerán
     
 6. Haga clic en **Guardar**
     
-## <a name="bulk-export-and-edit-qas"></a>Exportación en masa y edición Q&As
+## <a name="bulk-export-and-edit-qas"></a>Editar y exportar en masa preguntas y respuestas
 
-Nunca modifique datos en estos campos:
+No edite nunca los datos de estos campos:
   
 - Id
     
@@ -53,17 +56,17 @@ Nunca modifique datos en estos campos:
     
 - Última modificación realizada por
     
-ID es un identificador único para cada Q&A y no se debe editar nunca. Los campos última modificación y última modificación por sólo deben usarse para ordenar y buscar Q&As.
+El Id. es un identificador único de cada pregunta y respuesta y nunca debe editarse. Los campos Última modificación y Última modificación realizada por deben usarse solamente para ordenar y buscar preguntas y respuestas.
   
-1. Si desea exportar un subconjunto de sus Q&As, filtre
+1. Si quiere exportar un subconjunto de preguntas y respuestas, puede filtrarlas
     
-2. En la esquina superior derecha de la página Q&As, haga clic en **exportar** .
+2. En la esquina superior derecha de la página Preguntas y respuestas, haga clic en **Exportar**
     
-3. Guardar o abrir el archivo. csv
+3. Guarde o abra el archivo .csv
     
-4. Edite los datos en cualquiera de estos campos:
+4. Edite los datos de cualquiera de estos campos:
     
-   - Question
+   - Pregunta
     
    - URL
       
@@ -71,7 +74,7 @@ ID es un identificador único para cada Q&A y no se debe editar nunca. Los campo
     
    - Estado
     
-   - Descripción de la respuesta
+   - Descripción de respuesta
     
    - Palabras clave reservadas
     
@@ -83,26 +86,26 @@ ID es un identificador único para cada Q&A y no se debe editar nunca. Los campo
     
    - Grupos
     
-   - Sistema&amp;operativo del dispositivo
+   - Dispositivo&amp;OS
     
    - Variaciones de destino
     
-5. Guardar el archivo. csv
+5. Guarde el archivo .csv
 
-    El archivo. csv se debe guardar como archivo CSV UTF-8, otros tipos de archivo o codificaciones pueden provocar errores de importación
+    El archivo .csv debe guardarse como un archivo CSV UTF-8, otros tipos de archivo o codificaciones pueden causar errores de importación
     
-6. En la esquina superior derecha de la página Q&As, haga clic en **importar**
+6. En la esquina superior derecha de la página Preguntas y respuestas, haga clic en **Importar**
     
-7. En el panel de Q&As de importación, haga clic en **examinar** y seleccione el archivo. csv editado. 
+7. En el panel Importar preguntas y respuestas, haga clic en **Examinar** y seleccione el archivo .csv editado 
     
-8. Haga clic en **importar**
+8. Haga clic en **Importar**
     
-Recibirá un error si faltan datos necesarios o no son válidos. Según el error, es posible que se genere un archivo de registro con más información sobre las filas y las columnas que deben corregirse. Realice las modificaciones necesarias e intente importar el archivo de nuevo.
+Recibirá un mensaje de error si faltan datos necesarios o si estos no son válidos. Según el error, puede generarse un archivo de registro con más información sobre las filas y columnas que deben corregirse. Realice los cambios necesarios e intente importar de nuevo el archivo.
   
 > [!NOTE]
-> Hasta que se resuelvan todos los errores, no puede crear ni editar ninguna Q&As. 
+> Hasta que se resuelvan todos los errores, no puede crear o editar las preguntas y respuestas. 
   
-No todos los campos son obligatorios y los campos obligatorios varían en función del estado Q&A. Según el campo de estado, Q&As se guardará como borrador, sugerido, programado o se publicará automáticamente. Obtenga más información sobre los campos obligatorios y recomendados en [Create Q&As](create-qas.md).
+No todos los campos son necesarios y hay campos obligatorios que varían según el estado de las preguntas y respuestas. Según el campo de estado, las preguntas y respuestas se guardarán como borradores, sugeridas o programadas, o se publicarán automáticamente. Para obtener más información sobre los campos necesarios y recomendados, vea [Crear preguntas y respuestas](create-qas.md).
 
   
 

@@ -1,5 +1,5 @@
 ---
-title: Crear y administrar Q&As
+title: Crear y administrar preguntas y respuestas
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,55 +13,58 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b40a575d-7727-4bb0-80da-e25131315790
-description: Información general de todas las formas de crear respuestas a las preguntas más frecuentes en el portal de administración de Microsoft Search
-ms.openlocfilehash: f30693b0943a34786c9e52859c8c5c680dc6e141
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
-ms.translationtype: MT
+description: Información general sobre todas las formas de crear respuestas a las preguntas más frecuentes en el portal de administración de Búsqueda de Microsoft
+ms.openlocfilehash: 09c6747dafd5d2cf029f75fec210d308356c54fe
+ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508749"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "33968439"
 ---
-# <a name="create-and-manage-qas"></a>Crear y administrar Q&As
+# <a name="create-and-manage-qas"></a>Crear y administrar preguntas y respuestas
 
+> [!IMPORTANT]
+> Búsqueda de Microsoft en la configuración de Bing ya está disponible en el Centro de administración de Microsoft 365. Empiece por [asignar administradores de búsqueda](https://docs.microsoft.com/es-ES/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) en el centro de administración.
+    
 ## <a name="create-qas"></a>Crear preguntas y respuestas
 
-Q&As proporcionan la mejor respuesta posible para las preguntas relacionadas con el trabajo del usuario. Los usuarios pueden detectarlos fácilmente cuando escriben palabras clave que haya asociado a ellos en Bing.
+Las preguntas y respuestas proporcionan la mejor respuesta posible a las preguntas de los usuarios relacionadas con el trabajo. Los usuarios pueden descubrirlas fácilmente con palabras clave que usted ha asociado a ellas en Bing.
   
-- [Crear Q&As](create-qas.md)
+- [Crear preguntas y respuestas](create-qas.md)
     
-    Agregar Q&As individuales.
+    Agregue preguntas y respuestas individuales.
     
-- [Creación y importación en masa Q&As](bulk-create-qas.md)
+- [Crear e importar preguntas y respuestas en masa](bulk-create-qas.md)
     
-    Cree Q&As en un archivo. csv para importarlos en bloque.
+    Cree preguntas y respuestas en un archivo .csv e impórtelas en masa.
     
 ## <a name="manage-qas"></a>Administrar preguntas y respuestas
 
-Use el estado Q&A, las herramientas de filtrado y las herramientas de importación y exportación en masa para [Buscar y actualizar contenido de Q&A](manage-qas.md), incluidos el título, la respuesta, las palabras clave y las direcciones URL.
+Usar el estado, las herramientas de filtrado y las herramientas para exportar o importar en masa de las preguntas y respuestas para [buscar y actualizar contenido de preguntas y respuestas](manage-qas.md), incluido el título, la respuesta, palabras clave y direcciones URL.
   
-## <a name="qa-status"></a>Estado de Q&A
+## <a name="qa-status"></a>Estado de preguntas y respuestas
 
-En el portal de administración, puede ver Q&As por su estado actual:
+En el portal de administración, puede ver preguntas y respuestas según su estado actual:
   
-- Published
+- Publicados
     
-    Las Q&As publicadas aparecen en los resultados de la búsqueda de Bing cuando un usuario autorizado busca una palabra clave.
+    Las preguntas y respuestas publicadas aparecen en los resultados de búsqueda de Bing cuando un usuario autorizado busca una palabra clave.
     
-- Draft
+- Borrador
     
-    Si un Q&A no está listo para publicarlo, guárdelo como borrador. La Q&As borrador no aparecerá en Bing.
+    Si no quiere publicar una pregunta y su respuesta, guárdelas como un borrador. Los borradores de preguntas y respuestas no aparecerán en Bing.
     
-- Scheduled
+- Programadas
     
-    Los Q&As programados se publican automáticamente en una fecha futura.
+    Las preguntas y respuestas programadas se publican automáticamente en una fecha futura.
     
-- Expirada
+- Expiradas
     
-    Los Q&As expirados se quitaron automáticamente del contenido publicado en función de la fecha de expiración.
+    Las preguntas y respuestas expiradas se eliminan automáticamente del contenido publicado según la fecha de expiración.
     
-- Propuesto
+- Sugeridas
     
-    Los Q&As sugeridos se basan en los comentarios de los usuarios.
+    Las preguntas y respuestas sugeridas se basan en los comentarios de los usuarios.
 
   
 

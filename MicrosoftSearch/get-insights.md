@@ -13,61 +13,64 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ebce7fdc-e89b-473c-8131-67e659bb3f73
-description: Analice las métricas y administre el contenido desde el panel de administración de Microsoft Search de fácil uso.
-ms.openlocfilehash: 3bbdfade7d28d3dddafb651371f462bb37e53a1d
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
-ms.translationtype: MT
+description: Analice métricas y administre el contenido desde el sencillo panel en el portal de administración de Búsqueda de Microsoft
+ms.openlocfilehash: a5fbbcde8d500adc0f4e9bc8f3e3e10846f34136
+ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508573"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "33968503"
 ---
 # <a name="use-the-insights-dashboard"></a>Usar el panel de información
 
-Obtenga información de datos y vea cómo los usuarios intervienen con los resultados. Usuario el panel del portal de administración para:
+> [!IMPORTANT]
+> Búsqueda de Microsoft en la configuración de Bing ya está disponible en el Centro de administración de Microsoft 365. Empiece por [asignar administradores de búsqueda](https://docs.microsoft.com/es-ES/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) en el centro de administración.
+    
+Obtenga información sobre datos para saber cómo interactúan los usuarios con los resultados. Use el Panel del Portal de administración de usuario para:
   
-- Ver cuántos marcadores y Q&As se han publicado, programado o sugerido
+- Ver cuántos marcadores y preguntas y respuestas se han publicado, programado o sugerido
     
-- Ver impresiones para las consultas de búsqueda principales que muestran los resultados de trabajo
+- Ver las impresiones para las consultas de búsqueda más populares que muestran resultados del trabajo
     
-- Analizar distribuciones de impresiones para marcadores y Q&As
+- Analizar las distribuciones de impresiones para marcadores y preguntas y respuestas
     
-## <a name="get-details-about-bookmarks-and-qas"></a>Obtener información sobre marcadores y Q&As
+## <a name="get-details-about-bookmarks-and-qas"></a>Obtener información sobre los marcadores y preguntas y respuestas
 
-Use el panel para ver los totales de marcador o Q&A por estado:
+Usar el panel para ver el total de marcadores o preguntas y respuestas por estado:
   
-- Publicado: el número de resultados publicados que están disponibles para los usuarios
+- Publicados: El número de resultados publicados que están disponibles para los usuarios
     
-- Programado: el número de resultados programados en la canalización de publicación
+- Programados: el número de resultados programados en el proceso de publicación
     
-- Sugerido: el número de sugerencias de los usuarios
+- Sugeridos: el número de sugerencias de los usuarios
     
-Los marcadores y las tarjetas de Q&A Insight del panel también proporcionan acceso sencillo a tareas comunes:
+Las tarjetas de información de los marcadores y de preguntas y respuestas del panel también proporcionan fácil acceso a tareas comunes:
   
-- Para ver los resultados de los marcadores o de Q&A, haga clic en marcadores o Q&As en el título de la tarjeta.
+- Para ver resultados de marcadores o de preguntas y respuestas, haga clic en Marcadores o preguntas y respuestas en el título de la tarjeta
     
-- Para agregar un marcador o Q&A, haga clic en la opción crear
+- Para agregar marcadores o preguntas y respuestas, haga clic en la opción crear
     
-- Para agregar marcadores o Q&As de forma masiva, haga clic en la opción de importación
+- Para agregar marcadores o preguntas y respuestas en masa, haga clic en la opción importar
     
-## <a name="review-top-search-queries"></a>Revisar las principales consultas de búsqueda
+## <a name="review-top-search-queries"></a>Revise las consultas de búsqueda más populares
 
-Averigüe qué búsquedas generaron la mayor cantidad de impresiones durante los últimos 90 días. Las 25 principales búsquedas de usuario para cada tipo de resultado se muestran junto con el número total de impresiones y su tasa de clics (CTR). En la tarjeta de consultas de búsqueda superior puede:
+Descubra las búsquedas que han generado más impresiones durante los últimos 90 días. Se muestran las 25 búsquedas principales de los usuarios por cada tipo de resultado, junto con el número total de impresiones y su tasa de clics (CTR). En la tarjeta de consultas de búsquedas más populares puede:
   
-- Para filtrar por tipo de resultado, haga clic en todos los resultados en el menú y seleccione un tipo de resultado diferente.
+- Filtrar por tipo de resultado. Para ello, haga clic en Todos los resultados en el menú y seleccione un tipo de resultados diferente.
     
-- Para ver cómo aparece un resultado en Bing, haga clic en una consulta y se abre la página de resultados de la búsqueda en una pestaña nueva
+- Ver cómo se mostrará un resultado en Bing. Para ello, haga clic en una consulta y se abrirá la página de los resultados de búsqueda en una nueva pestaña.
     
-- Para ver otras consultas de búsqueda, haga clic en las flechas izquierda o derecha de la parte inferior de la tarjeta.
+- Ver las consultas de búsqueda adicionales. Para ello, haga clic en la flecha izquierda o derecha en la parte inferior de la tarjeta.
     
-## <a name="analyze-impressions-by-result-type"></a>Analizar impresiones por tipo de resultado
+## <a name="analyze-impressions-by-result-type"></a>Analizar impresiones por tipo de resultado.
 
-Los gráficos de fácil lectura en la distribución de impresiones por tarjeta de tipo de resultado muestran datos en varios intervalos de tiempo. El resumen muestra el número de impresiones con un cálculo porcentual de la distribución (número de impresiones de tipo de resultado x 100/número total de impresiones). La escala de tiempo muestra el número diario de impresiones para un tipo de resultado. También puede cambiar el intervalo de tiempo para ambas vistas y obtener más detalles:
+Los gráficos de fácil lectura en la tarjeta de la distribución de impresiones por tipo de resultado muestran datos de intervalos de tiempo diferentes. El resumen muestra el número de impresiones con un cálculo de porcentaje de distribución (número de impresiones por tipo de resultado x 100 / número total de impresiones). La escala de tiempo muestra el número diario de impresiones para un tipo de resultado. También puede cambiar el intervalo de tiempo para ambas vistas y obtener más información:
   
-- En la parte superior de la tarjeta, haga clic en 7 días, 30 días o 90 días.
+- En la parte superior de la tarjeta, haga clic en 7 días, 30 días o 90 días
     
-- Para ver un intervalo personalizado entre 0 y 90 días, haga clic en intervalo personalizado y escriba las fechas de inicio y finalización.
+- Para ver un rango personalizado entre 0 y 90 días, haga clic en Intervalo personalizado y especifique las fechas de inicio y finalización
     
-- En la escala de tiempo, desplace el puntero en un punto de datos para impresiones por tipo de resultado para un solo día.
+- En la escala de tiempo, mueva el puntero sobre un punto de datos para impresiones por tipo de resultado de un solo día
 
   
 

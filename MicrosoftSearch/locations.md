@@ -13,53 +13,56 @@ search.appverid:
 - MOE150
 - MED150
 ms.assetid: 2379e72c-a7da-4e3f-932a-12d431a0a284
-description: Información general de todas las formas en que puede incluir las ubicaciones de su organización en los resultados de trabajo de Microsoft Search
-ms.openlocfilehash: 4ff30d7e346d609e9fddaca70caa1a85652fad3c
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
-ms.translationtype: MT
+description: Información general de todas las formas en que puede incluir las ubicaciones de su organización en los resultados de trabajo de Búsqueda de Microsoft
+ms.openlocfilehash: bcda64315f85b9770f47d1b6c08fd90296063487
+ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508813"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "33968463"
 ---
 # <a name="locations"></a>Ubicaciones
 
+> [!IMPORTANT]
+> Búsqueda de Microsoft en la configuración de Bing ya está disponible en el Centro de administración de Microsoft 365. Empiece por [asignar administradores de búsqueda](https://docs.microsoft.com/es-ES/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) en el centro de administración.
+    
 ## <a name="add-locations"></a>Agregar ubicaciones
 
-Las ubicaciones ayudan a los usuarios a encontrar las direcciones y localizar los edificios, las oficinas y otras áreas de trabajo de su organización en un mapa. También pueden usar mapas de Bing para obtener indicaciones, ver lo próximos y mucho más.
+Las ubicaciones ayudan a los usuarios a buscar direcciones y localizar edificios, oficinas y otras áreas de trabajo de su organización en un mapa. También pueden usar las Mapas de Bing para obtener indicaciones, consultar lo que está cerca y mucho más.
   
 - [Agregar una ubicación](add-a-location.md)
     
-    Agregar un edificio, oficina, Campus u otro espacio de trabajo
+    Agregue un edificio, una oficina, una instalación u otra área de trabajo
     
-- [Crear ubicaciones de forma masiva](bulk-create-locations.md)
+- [Crear ubicaciones en masa](bulk-create-locations.md)
     
-    Agregar ubicaciones a un archivo. csv y importarlas en bloque
+    Agregue ubicaciones a un archivo. csv para importarlas en masa
     
 ## <a name="manage-locations"></a>Administrar ubicaciones
 
-Usar el estado de la ubicación, las herramientas de filtrado y las herramientas de importación y exportación en masa para [Buscar y actualizar ubicaciones](manage-locations.md), incluido el nombre de la dirección y la ubicación
+Use el estado de la ubicación, las herramientas de filtrado y las herramientas de exportación e importación en masa para [buscar y actualizar las ubicaciones](manage-locations.md), incluido el nombre de la ubicación y su dirección
   
 ## <a name="location-status"></a>Estado de la ubicación
 
-En el portal de administración, puede ver las ubicaciones por su estado actual:
+En el Portal de administración, puede ver las ubicaciones según su estado actual:
   
-- Published
+- Publicadas
     
-    Las ubicaciones publicadas aparecen en los resultados de la búsqueda de Bing cuando un usuario autorizado busca una palabra clave.
+    Las ubicaciones publicadas aparecen en los resultados de búsqueda de Bing cuando un usuario autorizado busca una palabra clave.
     
-- Draft
+- Borrador
     
-    Si una ubicación no está lista para publicarla, guárdela como borrador. Las ubicaciones de borrador no se mostrarán en Bing.
+    Si no está listo para publicar una ubicación, guárdela como un borrador. Las ubicaciones del borrador no aparecerán en Bing.
     
-- Scheduled
+- Programadas
     
     Las ubicaciones programadas se publican automáticamente en una fecha futura.
     
-- Expirada
+- Expiradas
     
-    Las ubicaciones expiradas se quitaron automáticamente del contenido publicado en función de su fecha de expiración.
+    Las ubicaciones expiradas se eliminan automáticamente del contenido publicado según la fecha de expiración.
     
-- Propuesto
+- Sugeridas
     
     Las ubicaciones sugeridas se basan en los comentarios de los usuarios. También puede ver sugerencias predeterminadas de Microsoft.
 
