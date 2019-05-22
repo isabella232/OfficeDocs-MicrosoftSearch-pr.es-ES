@@ -1,5 +1,5 @@
 ---
-title: Crear preguntas y respuestas de forma masiva
+title: Crear preguntas y respuestas en masa
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,53 +13,56 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7bada218-8908-4956-aae3-6ffaeef384ca
-description: Agregue rápidamente respuestas a las preguntas más frecuentes con herramientas de importación en el portal de administración de Microsoft Search
-ms.openlocfilehash: 28fcf57c44f809e7f9b0c1b27042f4549067a0f8
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
-ms.translationtype: MT
+description: Agregue rápidamente respuestas a las preguntas más frecuentes con herramientas de importación en el portal de administración de Búsqueda de Microsoft
+ms.openlocfilehash: f535cb7ae843def536976cb1f05c8601de592cbb
+ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508677"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "33968316"
 ---
-# <a name="bulk-create-qas"></a><span data-ttu-id="85622-103">Crear preguntas y respuestas de forma masiva</span><span class="sxs-lookup"><span data-stu-id="85622-103">Bulk create Q&As</span></span>
+# <a name="bulk-create-qas"></a><span data-ttu-id="fa4e9-103">Crear preguntas y respuestas en masa</span><span class="sxs-lookup"><span data-stu-id="fa4e9-103">Bulk create Q&As</span></span>
 
-<span data-ttu-id="85622-104">Descargue y use la plantilla. csv para crear o editar en masa Q&As.</span><span class="sxs-lookup"><span data-stu-id="85622-104">Download and use the .csv template to bulk create or bulk edit Q&As.</span></span> <span data-ttu-id="85622-105">También es una forma sencilla de guardar de forma masiva borradores de Q&As que necesitan ediciones o actualizaciones adicionales.</span><span class="sxs-lookup"><span data-stu-id="85622-105">It's also a simple way to bulk save draft Q&As that need additional edits or updates.</span></span> <span data-ttu-id="85622-106">Si necesita editar en masa Q&As existentes, expórtelo del portal de administración, realice las modificaciones necesarias y, a continuación, impórtelas.</span><span class="sxs-lookup"><span data-stu-id="85622-106">If you need to bulk edit existing Q&As, export them from the Admin portal, make the necessary edits, and then import them.</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="fa4e9-104">Búsqueda de Microsoft en la configuración de Bing ya está disponible en el Centro de administración de Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="fa4e9-104">Microsoft Search in Bing settings are now available in the Microsoft 365 admin center.</span></span> <span data-ttu-id="fa4e9-105">Empiece por [asignar administradores de búsqueda](https://docs.microsoft.com/es-ES/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) en el centro de administración.</span><span class="sxs-lookup"><span data-stu-id="fa4e9-105">Get started by [assigning search admins](https://docs.microsoft.com/en-us/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) in your admin center.</span></span>
+    
+<span data-ttu-id="fa4e9-106">Descargue y use la plantilla .csv para crear o editar preguntas y respuestas en masa.</span><span class="sxs-lookup"><span data-stu-id="fa4e9-106">Download and use the .csv template to bulk create or bulk edit Q&As.</span></span> <span data-ttu-id="fa4e9-107">También es una forma sencilla de guardar en masa los borradores de preguntas y respuestas que necesitan modificaciones adicionales o actualizaciones.</span><span class="sxs-lookup"><span data-stu-id="fa4e9-107">It's also a simple way to bulk save draft Q&As that need additional edits or updates.</span></span> <span data-ttu-id="fa4e9-108">Si necesita editar en masa preguntas y respuestas existentes, expórtelas desde el Portal de administración, haga los cambios necesarios y, luego, impórtelas.</span><span class="sxs-lookup"><span data-stu-id="fa4e9-108">If you need to bulk edit existing Q&As, export them from the Admin portal, make the necessary edits, and then import them.</span></span>
   
-1. <span data-ttu-id="85622-107">En la esquina superior derecha de la sección Q&As, haga clic en **importar**</span><span class="sxs-lookup"><span data-stu-id="85622-107">In the upper-right corner of the Q&As section, click **Import**</span></span>
+1. <span data-ttu-id="fa4e9-109">En la esquina superior derecha de la sección de preguntas y respuestas, haga clic en **Importar**</span><span class="sxs-lookup"><span data-stu-id="fa4e9-109">In the upper-right corner of the Q&As section, click **Import**</span></span>
     
-2. <span data-ttu-id="85622-108">Haga clic en **Descargar plantilla de Q&A (. csv)**</span><span class="sxs-lookup"><span data-stu-id="85622-108">Click **Download Q&A template (.csv)**</span></span>
+2. <span data-ttu-id="fa4e9-110">Haga clic en **Descargar plantilla de preguntas y respuestas (.csv)**</span><span class="sxs-lookup"><span data-stu-id="fa4e9-110">Click **Download Q&A template (.csv)**</span></span>
     
-3. <span data-ttu-id="85622-109">Guardar y abrir el archivo. csv</span><span class="sxs-lookup"><span data-stu-id="85622-109">Save and open the .csv file</span></span>
+3. <span data-ttu-id="fa4e9-111">Guarde y abra el archivo .csv</span><span class="sxs-lookup"><span data-stu-id="fa4e9-111">Save and open the .csv file</span></span>
     
-4. <span data-ttu-id="85622-110">Agregar el contenido y la configuración de Q&A y guardar el archivo</span><span class="sxs-lookup"><span data-stu-id="85622-110">Add the Q&A content and settings and save the file</span></span>
+4. <span data-ttu-id="fa4e9-112">Agregue el contenido y la configuración de preguntas y respuestas y guarde el archivo</span><span class="sxs-lookup"><span data-stu-id="fa4e9-112">Add the Q&A content and settings and save the file</span></span>
 
-    <span data-ttu-id="85622-111">El archivo. csv se debe guardar como archivo CSV UTF-8, otros tipos de archivo o codificaciones pueden provocar errores de importación</span><span class="sxs-lookup"><span data-stu-id="85622-111">The .csv file should be saved as a CSV UTF-8 file, other file types and or encodings may cause import errors</span></span>
+    <span data-ttu-id="fa4e9-113">El archivo .csv debe guardarse como un archivo CSV UTF-8, otros tipos de archivo o codificaciones pueden causar errores de importación</span><span class="sxs-lookup"><span data-stu-id="fa4e9-113">The .csv file should be saved as a CSV UTF-8 file, other file types and or encodings may cause import errors</span></span>
     
-5. <span data-ttu-id="85622-112">En la esquina superior derecha de la sección Q&As, haga clic en **importar**</span><span class="sxs-lookup"><span data-stu-id="85622-112">In the upper-right corner of the Q&As section, click **Import**</span></span>
+5. <span data-ttu-id="fa4e9-114">En la esquina superior derecha de la sección de preguntas y respuestas, haga clic en **Importar**</span><span class="sxs-lookup"><span data-stu-id="fa4e9-114">In the upper-right corner of the Q&As section, click **Import**</span></span>
     
-6. <span data-ttu-id="85622-113">En el panel de Q&As de importación, haga clic en **examinar** y navegue hasta el archivo. csv que desea importar.</span><span class="sxs-lookup"><span data-stu-id="85622-113">In the Import Q&As pane, click **Browse** and navigate to the .csv file you want to import</span></span> 
+6. <span data-ttu-id="fa4e9-115">En el panel Importar preguntas y respuestas, haga clic en **Examinar** y vaya al archivo .csv que quiere importar</span><span class="sxs-lookup"><span data-stu-id="fa4e9-115">In the Import locations pane, select **Browse**, and then the .csv file that you want to import.</span></span> 
     
-7. <span data-ttu-id="85622-114">Haga clic en **importar**</span><span class="sxs-lookup"><span data-stu-id="85622-114">Click **Import**</span></span>
+7. <span data-ttu-id="fa4e9-116">Haga clic en **Importar**</span><span class="sxs-lookup"><span data-stu-id="fa4e9-116">Click **Import**.</span></span>
 
-# <a name="prevent-import-errors"></a><span data-ttu-id="85622-115">Impedir errores de importación</span><span class="sxs-lookup"><span data-stu-id="85622-115">Prevent import errors</span></span>      
-<span data-ttu-id="85622-116">Recibirá un error si faltan datos necesarios o no son válidos.</span><span class="sxs-lookup"><span data-stu-id="85622-116">You'll get an error if any required data is missing or invalid.</span></span> <span data-ttu-id="85622-117">Según el error, es posible que se genere un archivo de registro con más información sobre las filas y las columnas que deben corregirse.</span><span class="sxs-lookup"><span data-stu-id="85622-117">Depending on the error, a log file may be generated with more information about the rows and columns that need to be corrected.</span></span> <span data-ttu-id="85622-118">Realice las modificaciones necesarias e intente importar el archivo de nuevo.</span><span class="sxs-lookup"><span data-stu-id="85622-118">Make any necessary edits, and try importing the file again.</span></span>
+# <a name="prevent-import-errors"></a><span data-ttu-id="fa4e9-117">Evitar errores de importación</span><span class="sxs-lookup"><span data-stu-id="fa4e9-117">Prevent import errors</span></span>      
+<span data-ttu-id="fa4e9-118">Recibirá un mensaje de error si faltan datos necesarios o si estos no son válidos.</span><span class="sxs-lookup"><span data-stu-id="fa4e9-118">You'll get an error if any required data is missing or invalid.</span></span> <span data-ttu-id="fa4e9-119">Según el error, puede generarse un archivo de registro con más información sobre las filas y columnas que deben corregirse.</span><span class="sxs-lookup"><span data-stu-id="fa4e9-119">Depending on the error, a log file may be generated with more information about the rows and columns that need to be corrected.</span></span> <span data-ttu-id="fa4e9-120">Realice los cambios necesarios e intente importar de nuevo el archivo.</span><span class="sxs-lookup"><span data-stu-id="fa4e9-120">Make necessary edits and try importing the file again.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="85622-119">Hasta que se resuelvan todos los errores, no puede crear ni editar ninguna Q&As.</span><span class="sxs-lookup"><span data-stu-id="85622-119">Until all errors are resolved, you can't create or edit any Q&As.</span></span> 
+> <span data-ttu-id="fa4e9-121">Hasta que se resuelvan todos los errores, no puede crear o editar las preguntas y respuestas.</span><span class="sxs-lookup"><span data-stu-id="fa4e9-121">Until all errors are resolved, you can't create or edit any Q&As.</span></span> 
 
-<span data-ttu-id="85622-120">Para ayudar a evitar errores, asegúrese de que el archivo de importación tiene el formato correcto:</span><span class="sxs-lookup"><span data-stu-id="85622-120">To help prevent errors, make sure your import file is properly formatted:</span></span>
-- <span data-ttu-id="85622-121">Incluye la fila de encabezado que estaba en la plantilla de importación</span><span class="sxs-lookup"><span data-stu-id="85622-121">Includes the header row that was in the import template</span></span>
-- <span data-ttu-id="85622-122">Incluye todas las columnas que estaban en la plantilla de importación</span><span class="sxs-lookup"><span data-stu-id="85622-122">Includes all columns that were in the import template</span></span>
-- <span data-ttu-id="85622-123">El orden de las columnas es el mismo que el de la plantilla de importación</span><span class="sxs-lookup"><span data-stu-id="85622-123">The column order is the same as the import template</span></span>
-- <span data-ttu-id="85622-124">Estas columnas pueden estar vacías: ID, última modificación y última modificación por</span><span class="sxs-lookup"><span data-stu-id="85622-124">These columns can be empty: Id, Last Modified, and Last Modified By</span></span>
-- <span data-ttu-id="85622-125">La columna Estado no puede estar vacía, se requiere esta información</span><span class="sxs-lookup"><span data-stu-id="85622-125">The State column can't be empty, this information is required</span></span>  
-<span data-ttu-id="85622-126">Según el campo de estado, Q&As se guardará como borrador, sugerido, programado o se publicará automáticamente.</span><span class="sxs-lookup"><span data-stu-id="85622-126">Based on the State field, Q&As will be saved as draft, suggested, scheduled, or they will be published automatically.</span></span>
+<span data-ttu-id="fa4e9-122">Para evitar errores, asegúrese de que el archivo de importación tiene el formato adecuado y de que:</span><span class="sxs-lookup"><span data-stu-id="fa4e9-122">To prevent errors, make sure your import file is properly formatted and:</span></span>
+- <span data-ttu-id="fa4e9-123">Incluye la fila de encabezado que se encontraba en la plantilla de importación</span><span class="sxs-lookup"><span data-stu-id="fa4e9-123">Includes the header row and all the columns that were in the import template</span></span>
+- <span data-ttu-id="fa4e9-124">Incluye todas las columnas que se encontraban en la plantilla de importación</span><span class="sxs-lookup"><span data-stu-id="fa4e9-124">Includes the header row and all the columns that were in the import template</span></span>
+- <span data-ttu-id="fa4e9-125">El orden de las columnas es el mismo que el orden en la plantilla de importación</span><span class="sxs-lookup"><span data-stu-id="fa4e9-125">The column order is the same as the import template</span></span>
+- <span data-ttu-id="fa4e9-126">Estas columnas pueden estar vacías: Id., Última modificación y Última modificación realizada por</span><span class="sxs-lookup"><span data-stu-id="fa4e9-126">All columns have values, except the three that can be empty: Id, Last Modified, and Last Modified By</span></span>
+- <span data-ttu-id="fa4e9-127">La columna Estado no puede estar vacía, puesto que esta información es necesaria</span><span class="sxs-lookup"><span data-stu-id="fa4e9-127">The State column is not empty, as this information is required</span></span>  
+<span data-ttu-id="fa4e9-128">Según el campo Estado, las preguntas y respuestas se guardarán como borradores, sugeridas o programadas o se publicarán automáticamente.</span><span class="sxs-lookup"><span data-stu-id="fa4e9-128">Based on the State field, bookmarks will be saved as draft, suggested, scheduled, or they will be published automatically.</span></span>
 
-<span data-ttu-id="85622-127">Además, si incluye el identificador de un Q&A existente, se reemplazará con la información en el archivo de importación.</span><span class="sxs-lookup"><span data-stu-id="85622-127">Also, if you include the Id of an existing Q&A, it will be replaced with the information in the import file.</span></span>
+<span data-ttu-id="fa4e9-129">Además, si incluye el Id. de preguntas y respuestas existentes, este se reemplazará con la información del archivo de importación.</span><span class="sxs-lookup"><span data-stu-id="fa4e9-129">If you include the Id of an existing bookmark, it will be replaced with the information in the import file.</span></span>
 
-<span data-ttu-id="85622-128">Para organizaciones con varios inquilinos, puede exportar su Q&As de un inquilino e importarlo en otro.</span><span class="sxs-lookup"><span data-stu-id="85622-128">For organizations with mulitple tenants, you can export your Q&As from one tenant and import it into another.</span></span> <span data-ttu-id="85622-129">Sin embargo, debe quitar todos los datos de la columna ID antes de importar.</span><span class="sxs-lookup"><span data-stu-id="85622-129">But you must remove all of the data in the Id column before you import.</span></span>
+<span data-ttu-id="fa4e9-130">Para organizaciones con múltiples espacios empresariales, se pueden exportar preguntas y respuestas de un espacio empresarial e importarlas en otro.</span><span class="sxs-lookup"><span data-stu-id="fa4e9-130">For organizations with multiple tenants, you can export your bookmarks from one tenant and import it into another.</span></span> <span data-ttu-id="fa4e9-131">Pero, debe eliminar todos los datos de la columna Id. antes de la importación.</span><span class="sxs-lookup"><span data-stu-id="fa4e9-131">But you must remove the data in the Id column before you import.</span></span>
 
-<span data-ttu-id="85622-130">Para obtener más información acerca de los campos obligatorios y recomendados, consulte [Create Q&As](create-qas.md).</span><span class="sxs-lookup"><span data-stu-id="85622-130">To find out more about required and recommended fields, see [Create Q&As](create-qas.md).</span></span>
+<span data-ttu-id="fa4e9-132">Para obtener más información sobre los campos necesarios y recomendados, vea [Crear preguntas y respuestas](create-qas.md).</span><span class="sxs-lookup"><span data-stu-id="fa4e9-132">To find out more about required and recommended fields, see [Create Q&As](create-qas.md).</span></span>
 
   
 

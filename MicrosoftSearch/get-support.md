@@ -13,17 +13,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 8a294807-bb40-474d-bbe5-c5b03b2fb2c8
-description: Hable con otros administradores y expertos de Microsoft Search en la comunidad tecnológica
+description: Hable con otros administradores de Búsqueda de Microsoft y expertos en la comunidad técnica
 ms.openlocfilehash: a1bed1441657b891339b83ec34f4c276146e8ca4
 ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/01/2019
 ms.locfileid: "33508637"
 ---
-# <a name="get-support"></a><span data-ttu-id="91dc8-103">Obtener soporte técnico</span><span class="sxs-lookup"><span data-stu-id="91dc8-103">Get support</span></span>
+# <a name="get-support"></a><span data-ttu-id="566c4-103">Obtener soporte técnico</span><span class="sxs-lookup"><span data-stu-id="566c4-103">Get support</span></span>
 
-<span data-ttu-id="91dc8-104">Aproveche la experiencia colectiva de otros administradores de Microsoft Search, aprenda entre ellos y expertos, y comparta sus experiencias en la sección de Microsoft Search del sitio de [Microsoft Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Search/ct-p/MicrosoftSearch).</span><span class="sxs-lookup"><span data-stu-id="91dc8-104">Tap into the collective wisdom of other Microsoft Search admins, learn from each other and experts, and share your experiences on the Microsoft Search section of the [Microsoft Tech Community site](https://techcommunity.microsoft.com/t5/Microsoft-Search/ct-p/MicrosoftSearch).</span></span>
+<span data-ttu-id="566c4-104">Aproveche la sabiduría colectiva de otros administradores de la Búsqueda de Microsoft, aprenda de los expertos, intercambie conocimientos y comparta sus experiencias en la sección Búsqueda de Microsoft del [sitio de la Microsoft Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Search/ct-p/MicrosoftSearch).</span><span class="sxs-lookup"><span data-stu-id="566c4-104">Tap into the collective wisdom of other Microsoft Search admins, learn from each other and experts, and share your experiences on the Microsoft Search section of the [Microsoft Tech Community site](https://techcommunity.microsoft.com/t5/Microsoft-Search/ct-p/MicrosoftSearch).</span></span>
 
   
 
