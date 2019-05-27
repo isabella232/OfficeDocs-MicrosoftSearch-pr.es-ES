@@ -12,27 +12,27 @@ search.appverid:
 - BFB160
 - MET150
 ms.assetid: 3388bdc7-1ee0-497e-b110-fba4a082eb08
-description: Usar Microsoft Search para buscar sitios de SharePoint y los detalles que verá
+description: Usar Búsqueda de Microsoft para buscar sitios de SharePoint y los detalles que verá
 ms.openlocfilehash: 926f53e8c0eceffae6c506e8f4e7233629c8415c
 ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/01/2019
 ms.locfileid: "33508901"
 ---
 # <a name="find-sharepoint-sites"></a>Buscar sitios de SharePoint
 
-Buscar sitios de SharePoint que son de su propiedad o buscar unos creados por grupos o compañeros a los que tiene acceso. Verá los resultados del sitio en Bing, pero no las páginas individuales dentro de un sitio. Los resultados del sitio de SharePoint incluyen el nombre y la ubicación del sitio.
+Busque sitios de SharePoint de los que es propietario o los sitios creados por grupos o compañeros de trabajo a los que tiene acceso. Verá los resultados de sitio en Bing, pero no las páginas individuales dentro de un sitio. Los resultados de sitio de SharePoint incluyen el nombre y la ubicación.
   
-1. Iniciar sesión en su cuenta profesional o educativa en Bing
+1. Inicie sesión en Bing con su cuenta profesional o educativa
     
 2. Buscar un nombre de sitio o tema
     
-3. El resultado del sitio aparece en la parte superior de la página de resultados
+3. El resultado del sitio aparece en la parte superior de la página de resultados.
     
-    Para ver solo los resultados del sitio, haga clic en la pestaña **sitios** . 
+    Para ver solo los resultados del sitio, haga clic en la pestaña **Sitios**. 
     
-Los resultados web aparecen en los resultados de trabajo. No son específicos de la organización.
+Los resultados web aparecerán en los resultados del trabajo. No son específicos de su organización.
 
   
 

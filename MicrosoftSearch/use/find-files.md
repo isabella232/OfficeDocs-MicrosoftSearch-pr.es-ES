@@ -12,21 +12,21 @@ search.appverid:
 - BFB160
 - MET150
 ms.assetid: ff42d668-f721-4ada-b130-77e38508197c
-description: Usar Microsoft Search para buscar archivos de Office y archivos PDF y la información que verá
+description: Usar Búsqueda de Microsoft para buscar los archivos de Office y archivos PDF y la información que se muestra
 ms.openlocfilehash: f46796c015137a5bc1a24a52f7eb35cd2675a09d
 ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/01/2019
 ms.locfileid: "33508943"
 ---
 # <a name="find-files"></a>Buscar archivos
 
-Busque sus propios archivos o busque contenido creado por compañeros de trabajo a los que tiene acceso. Los resultados incluyen el nombre de archivo y la ubicación, y es posible que también vea un breve fragmento de código del contenido, quién lo modificó en último lugar y cuándo.
+Busque sus propios archivos o busque el contenido creado por sus compañeros al que tiene acceso. Los resultados incluyen el nombre del archivo y la ubicación, es posible que vea un breve fragmento del contenido, quién ha realizado la última modificación y cuándo se ha realizado.
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2AsoN?autoplay=false]
   
-Puede encontrar archivos de SharePoint y OneDrive para la empresa, entre los que se incluyen:
+Encontrará archivos de SharePoint y OneDrive para la Empresa, incluidos:
   
 - Documentos de Word
     
@@ -36,16 +36,16 @@ Puede encontrar archivos de SharePoint y OneDrive para la empresa, entre los que
     
 - Blocs de notas de OneNote
     
-- PDF
+- Archivos PDF
     
-1. Iniciar sesión en su cuenta profesional o educativa en Bing
+1. Inicie sesión en Bing con su cuenta profesional o educativa
     
-2. Buscar ' mis documentos, ' ' mis presentaciones ' o incluir un tema o el nombre de una persona
+2. Busque "Mis documentos", "Mis presentaciones", o incluya un tema o el nombre de alguien
     
-    Por ejemplo, "docs about tax codes" o "files by John".
+    Por ejemplo, 'documentos sobre códigos de impuestos' o 'archivos de Pedro'.
     
-3. Los resultados del archivo aparecen en la parte superior de la página de resultados
+3. Los resultados del archivo aparecen en la parte superior de la página de resultados.
     
-    Otros resultados web aparecen debajo de él. No son específicos de la organización.
+    Otros resultados web aparecerán debajo. No son específicos de su organización.
 
 
