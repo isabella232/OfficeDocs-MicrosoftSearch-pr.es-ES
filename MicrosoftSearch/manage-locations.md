@@ -13,91 +13,94 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 8ab9aa00-cd74-405f-8410-9a1c3cfacdb9
-description: Con el tiempo, es posible que deba actualizar el contenido y el estado de una ubicación para mantenerla relevante.
-ms.openlocfilehash: 69fa4fc86d80adf76aa2a5788bdde433dd827a4d
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
-ms.translationtype: MT
+description: Con el tiempo, es posible que deba actualizar el estado y el contenido de una ubicación para que siga siendo relevante.
+ms.openlocfilehash: 0e23cf3d3d3d05fe86cdc3e09ce808e54242d670
+ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508670"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "33968438"
 ---
-# <a name="manage-locations"></a><span data-ttu-id="72361-103">Administrar ubicaciones</span><span class="sxs-lookup"><span data-stu-id="72361-103">Manage locations</span></span>
+# <a name="manage-locations"></a><span data-ttu-id="9366e-103">Administrar ubicaciones</span><span class="sxs-lookup"><span data-stu-id="9366e-103">Manage locations</span></span>
 
-<span data-ttu-id="72361-104">Con el tiempo, es posible que deba actualizar el contenido y el estado de una ubicación para mantenerla relevante.</span><span class="sxs-lookup"><span data-stu-id="72361-104">Over time, you may need to update a location's status and content to keep it relevant.</span></span> 
+> [!IMPORTANT]
+> <span data-ttu-id="9366e-104">Búsqueda de Microsoft en la configuración de Bing ya está disponible en el Centro de administración de Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="9366e-104">Microsoft Search in Bing settings are now available in the Microsoft 365 admin center.</span></span> <span data-ttu-id="9366e-105">Empiece por [asignar administradores de búsqueda](https://docs.microsoft.com/es-ES/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) en el centro de administración.</span><span class="sxs-lookup"><span data-stu-id="9366e-105">Get started by [assigning search admins](https://docs.microsoft.com/en-us/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) in your admin center.</span></span>
+    
+<span data-ttu-id="9366e-106">Con el tiempo, es posible que deba actualizar el estado y el contenido de una ubicación para que siga siendo relevante.</span><span class="sxs-lookup"><span data-stu-id="9366e-106">Over time, you may need to update a location's status and content to keep it relevant.</span></span> 
   
-## <a name="filter-locations"></a><span data-ttu-id="72361-105">Ubicaciones de filtros</span><span class="sxs-lookup"><span data-stu-id="72361-105">Filter locations</span></span>
+## <a name="filter-locations"></a><span data-ttu-id="9366e-107">Filtrar ubicaciones</span><span class="sxs-lookup"><span data-stu-id="9366e-107">Filter locations</span></span>
 
-<span data-ttu-id="72361-106">Use la opción filtro en la esquina superior derecha de la página ubicaciones para buscar ubicaciones por fecha y ver quién las modificó.</span><span class="sxs-lookup"><span data-stu-id="72361-106">Use the filter option in the upper-right corner of the Locations page to find locations by date and see who modified them.</span></span> <span data-ttu-id="72361-107">Por ejemplo, establezca el control deslizante fecha en 30 días y seleccione un administrador o un editor para ver la lista de ubicaciones que han creado o modificado durante ese tiempo.</span><span class="sxs-lookup"><span data-stu-id="72361-107">For example, set the date slider to 30 days and select an admin or editor to see the list of locations they've created or changed during that time.</span></span>
+<span data-ttu-id="9366e-108">Use la opción de filtro situada en la esquina superior derecha de la página Ubicaciones para buscar ubicaciones por fecha y ver quién las ha editado.</span><span class="sxs-lookup"><span data-stu-id="9366e-108">Use the filter option in the upper-right corner of the Locations page to find locations by date and see who modified them.</span></span> <span data-ttu-id="9366e-109">Por ejemplo, puede establecer el control deslizante de fecha en 30 días y seleccionar un administrador o editor para ver la lista de ubicaciones que se han creado o editado en ese período de tiempo.</span><span class="sxs-lookup"><span data-stu-id="9366e-109">For example, set the date slider to 30 days and select an admin or editor to see the list of locations they've created or changed during that time.</span></span>
   
-## <a name="change-location-content"></a><span data-ttu-id="72361-108">Cambiar el contenido de la ubicación</span><span class="sxs-lookup"><span data-stu-id="72361-108">Change location content</span></span>
+## <a name="change-location-content"></a><span data-ttu-id="9366e-110">Cambiar el contenido de la ubicación</span><span class="sxs-lookup"><span data-stu-id="9366e-110">Change location content</span></span>
 
-1. <span data-ttu-id="72361-109">Vaya al portal de administración de Microsoft Search</span><span class="sxs-lookup"><span data-stu-id="72361-109">Go to the Microsoft Search Admin portal</span></span>
+1. <span data-ttu-id="9366e-111">Vaya al portal de administración de Búsqueda de Microsoft</span><span class="sxs-lookup"><span data-stu-id="9366e-111">Go to the Microsoft Search Admin portal</span></span>
     
-2. <span data-ttu-id="72361-110">En el panel de navegación, haga clic en **ubicaciones**</span><span class="sxs-lookup"><span data-stu-id="72361-110">In the navigation pane, click **Locations**</span></span>
+2. <span data-ttu-id="9366e-112">En el panel de navegación, haga clic en **Ubicaciones**</span><span class="sxs-lookup"><span data-stu-id="9366e-112">In the navigation pane, click **Tools**</span></span>
     
-3. <span data-ttu-id="72361-111">Para buscar una ubicación, buscar, filtrar o hacer clic en el estado de una ubicación para restringir los resultados</span><span class="sxs-lookup"><span data-stu-id="72361-111">To find a location, search, filter, or click a location status to narrow your results</span></span>
+3. <span data-ttu-id="9366e-113">Para buscar una ubicación, busque, filtre o haga clic en un estado de ubicación para restringir los resultados</span><span class="sxs-lookup"><span data-stu-id="9366e-113">To find a location, search, filter, or click a location status to narrow your results</span></span>
     
-4. <span data-ttu-id="72361-112">Para cambiar o actualizar una ubicación, haga clic en el nombre de la ubicación.</span><span class="sxs-lookup"><span data-stu-id="72361-112">To change or update a location, click the location name</span></span>
+4. <span data-ttu-id="9366e-114">Para cambiar o actualizar una ubicación, haga clic en el nombre de la ubicación</span><span class="sxs-lookup"><span data-stu-id="9366e-114">To change or update a location, click the location name</span></span>
     
-5. <span data-ttu-id="72361-113">Realizar los cambios o actualizaciones del contenido y obtener una vista previa de cómo aparecerán</span><span class="sxs-lookup"><span data-stu-id="72361-113">Make any changes or updates to the content and preview how they'll appear</span></span> 
+5. <span data-ttu-id="9366e-115">Realice los cambios o actualizaciones que quiera en el contenido y obtenga una vista previa de cómo aparecerán</span><span class="sxs-lookup"><span data-stu-id="9366e-115">Make any changes or updates to the content and preview how they'll appear</span></span> 
     
-6. <span data-ttu-id="72361-114">Haga clic en **Guardar**</span><span class="sxs-lookup"><span data-stu-id="72361-114">Click **Save**</span></span>
+6. <span data-ttu-id="9366e-116">Haga clic en **Guardar**</span><span class="sxs-lookup"><span data-stu-id="9366e-116">Click **Save**</span></span>
     
-## <a name="bulk-export-and-edit-locations"></a><span data-ttu-id="72361-115">Ubicación de exportación y edición en masa</span><span class="sxs-lookup"><span data-stu-id="72361-115">Bulk export and edit locations</span></span>
+## <a name="bulk-export-and-edit-locations"></a><span data-ttu-id="9366e-117">Exportar y editar ubicaciones en masa</span><span class="sxs-lookup"><span data-stu-id="9366e-117">Bulk export and edit locations</span></span>
 
-<span data-ttu-id="72361-116">Nunca modifique datos en estos campos:</span><span class="sxs-lookup"><span data-stu-id="72361-116">Never edit data in these fields:</span></span>
+<span data-ttu-id="9366e-118">No edite nunca los datos de estos campos:</span><span class="sxs-lookup"><span data-stu-id="9366e-118">Never edit data in these fields: Id, Last Modified, and Last Modified By</span></span>
   
-- <span data-ttu-id="72361-117">Id</span><span class="sxs-lookup"><span data-stu-id="72361-117">Id</span></span>
+- <span data-ttu-id="9366e-119">Id</span><span class="sxs-lookup"><span data-stu-id="9366e-119">Id</span></span>
     
-- <span data-ttu-id="72361-118">Última modificación</span><span class="sxs-lookup"><span data-stu-id="72361-118">Last Modified</span></span>
+- <span data-ttu-id="9366e-120">Última modificación</span><span class="sxs-lookup"><span data-stu-id="9366e-120">Last modified</span></span>
     
-- <span data-ttu-id="72361-119">Última modificación realizada por</span><span class="sxs-lookup"><span data-stu-id="72361-119">Last Modified By</span></span>
+- <span data-ttu-id="9366e-121">Última modificación realizada por</span><span class="sxs-lookup"><span data-stu-id="9366e-121">Last modified by</span></span>
     
-<span data-ttu-id="72361-120">ID es un identificador único para cada ubicación y nunca debe editarse.</span><span class="sxs-lookup"><span data-stu-id="72361-120">Id is a unique identifier for each location and should never be edited.</span></span> <span data-ttu-id="72361-121">Los campos última modificación y última modificación realizada por solo deben usarse para ordenar y buscar ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="72361-121">The Last Modified and Last Modified By fields should only be used to sort and find locations.</span></span>
+<span data-ttu-id="9366e-122">El Id. es un identificador único de cada ubicación y nunca debe editarse.</span><span class="sxs-lookup"><span data-stu-id="9366e-122">Id is a unique identifier for each location and should never be edited.</span></span> <span data-ttu-id="9366e-123">Los campos Última modificación y Última modificación realizada por deben usarse solamente para ordenar y buscar ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="9366e-123">The Last Modified and Last Modified By fields should only be used to sort and find locations.</span></span>
   
-1. <span data-ttu-id="72361-122">Si desea exportar un subconjunto de sus ubicaciones, filtre</span><span class="sxs-lookup"><span data-stu-id="72361-122">If you want to export a subset of your locations, filter them</span></span>
+1. <span data-ttu-id="9366e-124">Si quiere exportar un subconjunto de ubicaciones, puede filtrarlas</span><span class="sxs-lookup"><span data-stu-id="9366e-124">If you want to export a subset of your locations, filter them</span></span>
     
-2. <span data-ttu-id="72361-123">En la esquina superior derecha de la página ubicaciones, haga clic en **exportar** .</span><span class="sxs-lookup"><span data-stu-id="72361-123">In the upper-right corner of the Locations page, click **Export**</span></span>
+2. <span data-ttu-id="9366e-125">En la esquina superior derecha de la página Ubicaciones, haga clic en **Exportar**</span><span class="sxs-lookup"><span data-stu-id="9366e-125">In the upper-right corner of the Locations page, click **Export**</span></span>
     
-3. <span data-ttu-id="72361-124">Guardar o abrir el archivo. csv</span><span class="sxs-lookup"><span data-stu-id="72361-124">Save or open the .csv file</span></span>
+3. <span data-ttu-id="9366e-126">Guarde o abra el archivo .csv</span><span class="sxs-lookup"><span data-stu-id="9366e-126">Save or open the .csv file</span></span>
     
-4. <span data-ttu-id="72361-125">Edite los datos en cualquiera de estos campos:</span><span class="sxs-lookup"><span data-stu-id="72361-125">Edit data in any of these fields:</span></span>
+4. <span data-ttu-id="9366e-127">Edite los datos de cualquiera de estos campos:</span><span class="sxs-lookup"><span data-stu-id="9366e-127">Edit data in any of these fields:</span></span>
     
-   - <span data-ttu-id="72361-126">Nombre</span><span class="sxs-lookup"><span data-stu-id="72361-126">Name</span></span>
+   - <span data-ttu-id="9366e-128">Nombre</span><span class="sxs-lookup"><span data-stu-id="9366e-128">Name</span></span>
     
-   - <span data-ttu-id="72361-127">Línea 1 de dirección</span><span class="sxs-lookup"><span data-stu-id="72361-127">Address Line 1</span></span>
+   - <span data-ttu-id="9366e-129">Línea de dirección 1</span><span class="sxs-lookup"><span data-stu-id="9366e-129">Street Address Line 1</span></span>
     
-   - <span data-ttu-id="72361-128">Línea 2 de dirección</span><span class="sxs-lookup"><span data-stu-id="72361-128">Address Line 2</span></span>
+   - <span data-ttu-id="9366e-130">Línea de dirección 2</span><span class="sxs-lookup"><span data-stu-id="9366e-130">Street Address Line 2</span></span>
     
-   - <span data-ttu-id="72361-129">Población</span><span class="sxs-lookup"><span data-stu-id="72361-129">City</span></span>
+   - <span data-ttu-id="9366e-131">Ciudad</span><span class="sxs-lookup"><span data-stu-id="9366e-131">City</span></span>
     
-   - <span data-ttu-id="72361-130">Estado de la dirección</span><span class="sxs-lookup"><span data-stu-id="72361-130">Address State</span></span>
+   - <span data-ttu-id="9366e-132">Comunidad</span><span class="sxs-lookup"><span data-stu-id="9366e-132">Other Address State</span></span>
     
-   - <span data-ttu-id="72361-131">Código postal</span><span class="sxs-lookup"><span data-stu-id="72361-131">Zip Code</span></span>
+   - <span data-ttu-id="9366e-133">Código postal</span><span class="sxs-lookup"><span data-stu-id="9366e-133">ZIP Code</span></span>
     
-   - <span data-ttu-id="72361-132">País</span><span class="sxs-lookup"><span data-stu-id="72361-132">Country</span></span>
+   - <span data-ttu-id="9366e-134">País</span><span class="sxs-lookup"><span data-stu-id="9366e-134">Country</span></span>
     
-   - <span data-ttu-id="72361-133">Dirección completa</span><span class="sxs-lookup"><span data-stu-id="72361-133">Full Address</span></span>
+   - <span data-ttu-id="9366e-135">Dirección completa</span><span class="sxs-lookup"><span data-stu-id="9366e-135">Full Address</span></span>
     
-   - <span data-ttu-id="72361-134">Latitude</span><span class="sxs-lookup"><span data-stu-id="72361-134">Latitude</span></span>
+   - <span data-ttu-id="9366e-136">Latitud</span><span class="sxs-lookup"><span data-stu-id="9366e-136">Latitude</span></span>
     
-   - <span data-ttu-id="72361-135">Longitude</span><span class="sxs-lookup"><span data-stu-id="72361-135">Longitude</span></span>
+   - <span data-ttu-id="9366e-137">Longitud</span><span class="sxs-lookup"><span data-stu-id="9366e-137">Longitude</span></span>
     
-   - <span data-ttu-id="72361-136">Palabras clave</span><span class="sxs-lookup"><span data-stu-id="72361-136">Keywords</span></span>
+   - <span data-ttu-id="9366e-138">Palabras clave</span><span class="sxs-lookup"><span data-stu-id="9366e-138">Keywords</span></span>
     
-   - <span data-ttu-id="72361-137">Palabras clave reservadas</span><span class="sxs-lookup"><span data-stu-id="72361-137">Reserved Keywords</span></span>
+   - <span data-ttu-id="9366e-139">Palabras clave reservadas</span><span class="sxs-lookup"><span data-stu-id="9366e-139">Reserved keywords</span></span>
     
-   - <span data-ttu-id="72361-138">Estado</span><span class="sxs-lookup"><span data-stu-id="72361-138">State</span></span>
+   - <span data-ttu-id="9366e-140">Estado</span><span class="sxs-lookup"><span data-stu-id="9366e-140">State</span></span>
     
-5. <span data-ttu-id="72361-139">Guardar el archivo. csv</span><span class="sxs-lookup"><span data-stu-id="72361-139">Save the .csv file</span></span>
+5. <span data-ttu-id="9366e-141">Guarde el archivo .csv</span><span class="sxs-lookup"><span data-stu-id="9366e-141">Save the file as a .csv or .txt file.</span></span>
 
-    <span data-ttu-id="72361-140">El archivo. csv se debe guardar como archivo CSV UTF-8, otros tipos de archivo o codificaciones pueden provocar errores de importación</span><span class="sxs-lookup"><span data-stu-id="72361-140">The .csv file should be saved as a CSV UTF-8 file, other file types and or encodings may cause import errors</span></span>
+    <span data-ttu-id="9366e-142">El archivo .csv debe guardarse como un archivo CSV UTF-8, otros tipos de archivo o codificaciones pueden causar errores de importación</span><span class="sxs-lookup"><span data-stu-id="9366e-142">The .csv file should be saved as a CSV UTF-8 file, other file types and or encodings may cause import errors</span></span>
     
-6. <span data-ttu-id="72361-141">En la esquina superior derecha de la página ubicaciones, haga clic en **importar** .</span><span class="sxs-lookup"><span data-stu-id="72361-141">In the upper-right corner of the Locations page, click **Import**</span></span>
+6. <span data-ttu-id="9366e-143">En la esquina superior derecha de la página Ubicaciones, haga clic en **Importar**</span><span class="sxs-lookup"><span data-stu-id="9366e-143">In the upper-right corner of the Locations tab, select **Import**.</span></span>
     
-7. <span data-ttu-id="72361-142">En el panel ubicaciones de importación, haga clic en **examinar** y seleccione el archivo. csv editado.</span><span class="sxs-lookup"><span data-stu-id="72361-142">In the Import locations pane, click **Browse** and select the edited .csv file</span></span> 
+7. <span data-ttu-id="9366e-144">En el panel Importar ubicaciones, haga clic en **Examinar** y seleccione el archivo .csv editado</span><span class="sxs-lookup"><span data-stu-id="9366e-144">In the Import locations pane, click **Browse** and select the edited .csv file</span></span> 
     
-8. <span data-ttu-id="72361-143">Haga clic en **importar**</span><span class="sxs-lookup"><span data-stu-id="72361-143">Click **Import**</span></span>
+8. <span data-ttu-id="9366e-145">Haga clic en **Importar**</span><span class="sxs-lookup"><span data-stu-id="9366e-145">Click **Import**.</span></span>
 
   
 
