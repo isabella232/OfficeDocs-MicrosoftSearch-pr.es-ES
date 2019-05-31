@@ -12,31 +12,32 @@ search.appverid:
 - BFB160
 - MET150
 ms.assetid: a67e015a-e10a-442a-b1c9-511136d54d1f
-description: Use Búsqueda de Microsoft para buscar sitios de intranet, herramientas, recursos y vínculos a información interna
-ms.openlocfilehash: 4d484b832db07532d678af1f1c0f9f3348166e79
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
-ms.translationtype: HT
+ROBOTS: NOINDEX
+description: Usar Microsoft Search para buscar sitios, recursos, herramientas y vínculos a la información interna de la intranet
+ms.openlocfilehash: 986da96bd0d3964bd0ceff839d015e83df927fd2
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508845"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34590868"
 ---
 # <a name="find-resources-tools-and-more"></a>Buscar recursos, herramientas y más
 
-El departamento de TI crea y publica marcadores a recursos internos y externos, herramientas, páginas y más para ayudarle a encontrar la información que necesita.
+El Departamento de ti crea y publica marcadores en recursos internos y externos, herramientas, páginas y más para ayudarle a encontrar la información que necesita.
   
-Los resultados de marcadores incluyen una breve descripción del sitio o recurso con un vínculo a él. Por ejemplo, la mayoría de las organizaciones creará marcadores para beneficios, recursos humanos, información profesional, soporte técnico de IT y las informes de permisos.
+Los resultados de los marcadores incluyen una breve descripción del sitio o recurso junto con un vínculo al mismo. Por ejemplo, la mayoría de las organizaciones crearán marcadores para obtener beneficios, recursos humanos, información sobre profesiones, soporte técnico de ti y informes de tiempo no laborable.
   
-Los resultados de preguntas y respuestas generalmente incluirán esta misma información, así como una respuesta breve y un vínculo para obtener más información.
+Por lo general, los resultados de Q&A incluirán esta misma información, así como una breve respuesta que puede tener la información que necesita y un vínculo si desea obtener más información.
   
-1. Inicie sesión en Bing con su cuenta profesional o educativa 
+1. Iniciar sesión en su cuenta profesional o educativa en Bing 
     
-2. Busque algo
+2. Buscar algo
     
-    Por ejemplo, pruebe a buscar "beneficios", "recursos humanos", "información profesional", "Soporte técnico de IT" o "informes de permisos".
+    Por ejemplo, intente buscar ' ventajas ', ' HR ', ' ' información sobre la carrera ', ' ' asistencia de ti ' o ' tiempo de informe desactivado '.
     
-3. Un resultado de preguntas y respuestas o marcador aparece en la parte superior de la página o en la columna de la derecha
+3. Un marcador o resultado de Q&A aparece en la parte superior de la página o columna derecha
     
-    Otros resultados web aparecerán debajo. No son específicos de su organización.
+    Otros resultados web aparecen debajo de él. No son específicos de la organización.
 
   
 
