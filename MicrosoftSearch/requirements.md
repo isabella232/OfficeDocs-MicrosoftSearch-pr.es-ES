@@ -13,15 +13,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 41b9b33d-fcc4-470c-90ec-068211fbbb16
+ROBOTS: NOINDEX
 description: Los requisitos y suscripciones necesarios de Office 365 para habilitar Microsoft Search
-ms.openlocfilehash: e90013eb2b76a4a4f4fff2e8b91f3bc6e48a4f2b
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: 029bab5b88a800786f137941df1077b28d4398b7
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508653"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591219"
 ---
 # <a name="requirements-for-microsoft-search"></a>Requisitos de Microsoft Search
+
+> [!IMPORTANT]
+> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se eliminará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).
 
 Estos son los requisitos de espacio empresarial de Office 365 para habilitar Microsoft Search: 
   

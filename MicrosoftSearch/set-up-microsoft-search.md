@@ -13,16 +13,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c989562e-525f-4922-b436-a885e7bf36ee
+ROBOTS: NOINDEX
 description: Toda la información que necesita para implementar Microsoft Search en su organización
-ms.openlocfilehash: f4a6a5c6fa3765cd08935970178af8ac0d46421c
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: d375f67045a04341dedc699856f631c5c41e5896
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508957"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591093"
 ---
-# <a name="set-up-microsoft-search"></a>Configurar Microsoft Search
+# <a name="set-up-microsoft-search"></a>Configurar Búsqueda de Microsoft
 
+> [!IMPORTANT]
+> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se eliminará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).
+    
 Como parte de Office 365, Búsqueda de Microsoft se implementa fácilmente al habilitarse en el Centro de administración de Microsoft 365. Una vez habilitado, una configuración rápida para establecer un logotipo, nombre y color y dar a los administradores y editores acceso es todo lo que necesita para completar la configuración. Desde allí, los usuarios pueden iniciar sesión en Bing con una cuenta profesional o educativa y obtener resultados de trabajo cuando realizan búsquedas.
 
 - [Configuración rápida](quick-set-up.md)

@@ -13,17 +13,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 38569f03-db18-49ab-96ef-213a1f410935
+ROBOTS: NOINDEX
 description: Obtenga información sobre por qué Microsoft Search es una búsqueda empresarial inteligente para el lugar de trabajo moderno.
-ms.openlocfilehash: f7c65e13f18f6ea4fd38bc406653a37f85659d3e
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: f2cf9c3e4d80bc17fd74bf0ae34b7886b4b69d33
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508884"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34590751"
 ---
 # <a name="why-microsoft-search"></a>¿Por qué Microsoft Search?
 
 Cambie la forma en que la gente de su organización busca información con Microsoft Search. 
+
+> [!IMPORTANT]
+> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se eliminará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).
   
 Esta experiencia de búsqueda empresarial aumenta la productividad y ahorra tiempo al entregar resultados más relevantes para el lugar de trabajo. Microsoft Search recupera de forma segura la información de su empresa, escuela u organización (como archivos, datos de la compañía, información de usuarios y sitios), así como los resultados de la web pública y los muestra en una experiencia única.
 

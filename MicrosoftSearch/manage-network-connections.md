@@ -13,16 +13,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 8ad58820-69e0-4ee0-88a7-d207ffa790b7
+ROBOTS: NOINDEX
 description: Agregue estas direcciones URL y dominios a la lista de permitidos de su firewall para que los usuarios puedan acceder fácilmente a Microsoft Search
-ms.openlocfilehash: 87a650bd0db17fbede2483c5e117cb03841f6378
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: 08e98dbde4d9a32827ac000b0b922aab53abc681
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508741"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591534"
 ---
 # <a name="manage-network-connections"></a>Administrar conexiones de red
 
+> [!IMPORTANT]
+> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se eliminará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).
+    
 Para asegurarse de que usted y sus usuarios pueden conectarse a puntos de conexión de Microsoft Search, agregue estas URL a la lista de permitidos de su firewall.
   
 ## <a name="for-the-microsoft-search-admin-portal"></a>Para el portal de administración de Microsoft Search:

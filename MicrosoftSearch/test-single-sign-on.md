@@ -13,16 +13,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: a220c1bf-7cee-448a-90a3-310284d03e81
+ROBOTS: NOINDEX
 description: Reduzca el número de veces que se solicita a los usuarios de Windows 10 que inicien sesión en Microsoft Search y Office 365
-ms.openlocfilehash: 55d359edac36020ec8cf2aad6b64ca9737ee1066
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: c05a8ffcc973926add551bdbb20273b41ea23bc0
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508933"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591048"
 ---
 # <a name="test-single-sign-on"></a>Probar el inicio de sesión único
 
+> [!IMPORTANT]
+> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se eliminará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).
+    
 El inicio de sesión único reduce el número de veces que se pide a los usuarios que inicien sesión. Las pruebas de inicio de sesión único con un pequeño grupo de usuarios le ayudará a identificar los problemas de configuración de bloqueo. 
   
 Para los usuarios de Chrome en Windows 10, el inicio de sesión único solo funcionará si la extensión de inicio de sesión de Windows 10 y AAD para Chrome está instalada. 

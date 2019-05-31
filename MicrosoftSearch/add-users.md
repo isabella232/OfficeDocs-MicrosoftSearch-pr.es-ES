@@ -13,16 +13,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 41723aec-435c-400e-a818-6b1e8a1324c0
+ROBOTS: NoIndex
 description: Asignación de roles y permisos a los editores y administradores de Búsqueda de Microsoft
-ms.openlocfilehash: 7fa32c008fcbc1bb436f4e90ff0621ed87df8fc6
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: e29de1b38c0014d282168b4771f8400b2deb6ee3
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508485"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591381"
 ---
 # <a name="manage-users"></a>Administración de usuarios
 
+> [!IMPORTANT]
+> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se eliminará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).
+    
 Los editores pueden agregar contenido, pero no pueden cambiar la configuración
   
 ## <a name="add-admins-and-editors"></a>Agregar administradores y editores
