@@ -13,18 +13,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ebce7fdc-e89b-473c-8131-67e659bb3f73
+ROBOTS: NOINDEX
 description: Analice métricas y administre el contenido desde el sencillo panel en el portal de administración de Búsqueda de Microsoft
-ms.openlocfilehash: a5fbbcde8d500adc0f4e9bc8f3e3e10846f34136
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.openlocfilehash: a01b79dfc71218862da07270171da95e699ed7f2
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968503"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591516"
 ---
-# <a name="use-the-insights-dashboard"></a>Usar el panel de información
+# <a name="use-the-insights-dashboard"></a>Usar el panel de información 
 
 > [!IMPORTANT]
-> Búsqueda de Microsoft en la configuración de Bing ya está disponible en el Centro de administración de Microsoft 365. Empiece por [asignar administradores de búsqueda](https://docs.microsoft.com/es-ES/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) en el centro de administración.
+> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se quitará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Búsqueda de Microsoft](overview-microsoft-search.md).
     
 Obtenga información sobre datos para saber cómo interactúan los usuarios con los resultados. Use el Panel del Portal de administración de usuario para:
   

@@ -3,7 +3,7 @@ title: Administrar ubicaciones
 ms.author: dawholl
 author: dawholl
 manager: kellis
-ms.date: 11/08/2018
+ms.date: 05/30/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -14,93 +14,51 @@ search.appverid:
 - MOE150
 ms.assetid: 8ab9aa00-cd74-405f-8410-9a1c3cfacdb9
 description: Con el tiempo, es posible que deba actualizar el estado y el contenido de una ubicación para que siga siendo relevante.
-ms.openlocfilehash: 0e23cf3d3d3d05fe86cdc3e09ce808e54242d670
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.openlocfilehash: d026e518011f3b3739beb2b6aaa044f8a5e9c0d4
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968438"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591561"
 ---
 # <a name="manage-locations"></a>Administrar ubicaciones
 
-> [!IMPORTANT]
-> Búsqueda de Microsoft en la configuración de Bing ya está disponible en el Centro de administración de Microsoft 365. Empiece por [asignar administradores de búsqueda](https://docs.microsoft.com/es-ES/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) en el centro de administración.
-    
-Con el tiempo, es posible que deba actualizar el estado y el contenido de una ubicación para que siga siendo relevante. 
-  
-## <a name="filter-locations"></a>Filtrar ubicaciones
+## <a name="location"></a>Ubicación
+La ubicación permite a los usuarios buscar direcciones y localizar edificios de su organización proporcionando una ubicación exacta de oficinas, campus y edificios, junto con indicaciones para llegar a ellos. Los administradores deben agregar todas las ubicaciones importantes de su organización. A diferencia de los marcadores y las preguntas y respuestas, el índice no se actualiza inmediatamente y pueden transcurrir varias horas hasta que las ubicaciones nuevas o modificadas aparezcan en los resultados de búsqueda.
 
-Use la opción de filtro situada en la esquina superior derecha de la página Ubicaciones para buscar ubicaciones por fecha y ver quién las ha editado. Por ejemplo, puede establecer el control deslizante de fecha en 30 días y seleccionar un administrador o editor para ver la lista de ubicaciones que se han creado o editado en ese período de tiempo.
-  
-## <a name="change-location-content"></a>Cambiar el contenido de la ubicación
+### <a name="add-or-edit-a-single-location"></a>Agregar o modificar una ubicación única
+1. Vaya al **Centro de administración de Microsoft 365**.
+1. En el panel de navegación, vaya a **Configuración** y seleccione **Búsqueda de Microsoft**.
+1. Seleccione la ficha **Ubicaciones**. De forma predeterminada, está seleccionada la ficha **Marcadores** en la página de **Búsqueda de Microsoft**.
+1. Para agregar una nueva ubicación, seleccione **Agregar nueva**.
+1. Para editar una ubicación, selecciónela en la lista de ubicaciones correspondiente.
+1. Al agregar o editar la información, la vista previa se actualizará automáticamente.
+1. Guarde los cambios.
 
-1. Vaya al portal de administración de Búsqueda de Microsoft
-    
-2. En el panel de navegación, haga clic en **Ubicaciones**
-    
-3. Para buscar una ubicación, busque, filtre o haga clic en un estado de ubicación para restringir los resultados
-    
-4. Para cambiar o actualizar una ubicación, haga clic en el nombre de la ubicación
-    
-5. Realice los cambios o actualizaciones que quiera en el contenido y obtenga una vista previa de cómo aparecerán 
-    
-6. Haga clic en **Guardar**
-    
-## <a name="bulk-export-and-edit-locations"></a>Exportar y editar ubicaciones en masa
+### <a name="bulk-add-or-edit-locations"></a>Agregar o editar ubicaciones en bloque
+Los administradores pueden usar las características de Importar o Exportar para crear o editar ubicaciones en bloque. 
 
-No edite nunca los datos de estos campos:
-  
-- Id
-    
-- Última modificación
-    
-- Última modificación realizada por
-    
-El Id. es un identificador único de cada ubicación y nunca debe editarse. Los campos Última modificación y Última modificación realizada por deben usarse solamente para ordenar y buscar ubicaciones.
-  
-1. Si quiere exportar un subconjunto de ubicaciones, puede filtrarlas
-    
-2. En la esquina superior derecha de la página Ubicaciones, haga clic en **Exportar**
-    
-3. Guarde o abra el archivo .csv
-    
-4. Edite los datos de cualquiera de estos campos:
-    
-   - Nombre
-    
-   - Línea de dirección 1
-    
-   - Línea de dirección 2
-    
-   - Ciudad
-    
-   - Comunidad
-    
-   - Código postal
-    
-   - País
-    
-   - Dirección completa
-    
-   - Latitud
-    
-   - Longitud
-    
-   - Palabras clave
-    
-   - Palabras clave reservadas
-    
-   - Estado
-    
-5. Guarde el archivo .csv
+Use la característica importar o exportar para:
+1. Agregar ubicaciones en bloque: introduzca la información en el archivo de plantilla de ubicaciones y, a continuación, impórtelo. 
+1. Editar ubicaciones en bloque: exporte las ubicaciones a un archivo CSV; a continuación, edite la información de las ubicaciones en el archivo CSV exportado e importe el archivo CSV actualizado.
+1. Copia de seguridad de las ubicaciones: exporte las ubicaciones existentes a un archivo CSV.
 
-    El archivo .csv debe guardarse como un archivo CSV UTF-8, otros tipos de archivo o codificaciones pueden causar errores de importación
-    
-6. En la esquina superior derecha de la página Ubicaciones, haga clic en **Importar**
-    
-7. En el panel Importar ubicaciones, haga clic en **Examinar** y seleccione el archivo .csv editado 
-    
-8. Haga clic en **Importar**
+Para exportar o importar ubicaciones:
+1. En la esquina superior derecha de la pestaña **Ubicaciones**, seleccione **Importar**.
+Seleccione **Exportar** para descargar todas las ubicaciones existentes en un archivo CSV.
+1. En el panel derecho, elija la opción Importar mediante archivo CSV. Descargue el archivo de plantilla para obtener una lista de la información y los campos requeridos.
+1. Agregue o edite la información de las ubicaciones en el archivo de plantilla y, a continuación, guárdelo en su equipo. 
+1. En el panel **Importar** ubicaciones, haga clic en **Examinar** y, a continuación, en el archivo CSV que desea importar.
+1. Seleccione **Importar**.
 
-  
+Estos son algunos puntos importantes en relación con el archivo de plantilla:
+- Nunca modifique los datos de los campos: *Id*, *última modificación* y *modificado por*
+- Si incluye el *Id* de un marcador, este se reemplazará con la información del archivo de importación.
+- Si ya existe un marcador con el mismo título o dirección URL, el marcador se actualizará con la información del archivo de importación.
+- No todos los campos del archivo de plantilla son necesarios y hay campos obligatorios que varían según el estado del marcador.
+- En función del campo *Estado*, los marcadores se guardarán como borradores, sugeridos o programados, o se publicarán automáticamente.
+- Para organizaciones con múltiples cuentas empresariales, se pueden exportar los marcadores de una cuenta empresarial e importarlos en otra. Sin embargo, debe eliminar los datos de la columna *Id* antes de la importación.
 
+**Nota:** no puede importar ubicaciones si hay cualquier error en el archivo de plantilla. Para evitar errores, asegúrese de que el archivo de importación está correctamente formateado y contiene toda la información necesaria. 
+
+Para obtener más información sobre cómo evitar errores, consulte [Evitar errores de importación](manage-bookmarks.md#prevent-import-errors).

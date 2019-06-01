@@ -13,16 +13,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 40a556e1-61c2-4bd3-b80e-5ad62af77454
+ROBOTS: NoIndex
 description: Cree marcadores o use una extensión de explorador para agregarlos a los resultados de trabajo de Microsoft Search
-ms.openlocfilehash: 71e5ae48bb8812e5222a4d6075292f3b85bed441
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: 6f6efd10b360547bb0cde47f35510433bf6f90cc
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508736"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34590715"
 ---
 # <a name="create-bookmarks"></a>Crear marcadores
 
+> [!IMPORTANT]
+> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se quitará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Búsqueda de Microsoft](overview-microsoft-search.md).
+    
 Los marcadores ayudan a las personas a encontrar rápidamente las herramientas, sitios y recursos importantes. Cada marcador incluye un título, una dirección URL y un conjunto de palabras clave que lo desencadena.
   
 ## <a name="create-a-bookmark"></a>Crear un marcador

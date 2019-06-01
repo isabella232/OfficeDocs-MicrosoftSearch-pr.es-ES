@@ -3,7 +3,7 @@ title: Configurar **Búsqueda de Microsoft**
 ms.author: anfowler
 author: adefowler
 manager: mnirkhe
-ms.date: 04/30/2019
+ms.date: 05/30/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar Búsqueda de Microsoft por primera vez.
-ms.openlocfilehash: 703b9c6ab1213fa06f3d959a0e29a9b757e2b2c9
-ms.sourcegitcommit: aeb44797427bd39c133fa899ab77277dd90fe47b
+ms.openlocfilehash: 3b872370dc2058c56637b836f8f78b7ed8e6680e
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970134"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591057"
 ---
 # <a name="set-up-microsoft-search"></a>Configurar Búsqueda de Microsoft
 
@@ -30,9 +30,9 @@ Para obtener más información sobre las características de **Búsqueda de Micr
 
 **Búsqueda de Microsoft** está activado de forma predeterminada para todas las aplicaciones de Microsoft compatibles, como parte de Microsoft 365. Todo lo que un usuario debe hacer es iniciar sesión con una cuenta profesional o educativa y usar un explorador con Bing como proveedor de búsquedas predeterminado.
 
-Usted administra **Búsqueda de Microsoft** desde el **Centro de administración de Microsoft 365**. Inicie sesión con las credenciales de administrador, seleccione el icono **Administrador** en **Iniciador de aplicaciones**. En el **Centro de administración de Microsoft 365**, seleccione **Búsqueda de Microsoft** en **Configuración** en el panel de navegación izquierdo. 
+Usted administra **Búsqueda de Microsoft** desde el **Centro de administración de Microsoft 365**. Inicie sesión con su nombre de usuario con credenciales de administrador y seleccione el icono de **Administrador** de la lista de aplicaciones de Office 365 (haga clic en el icono del **Iniciador de aplicaciones** en la esquina superior izquierda de la lista de aplicaciones). En el **Centro de administración de Microsoft 365**, seleccione **Búsqueda de Microsoft** en **Configuración** en el panel de navegación izquierdo. 
 
-**Nota:** si se muestra el portal de administración antiguo y quiere cambiar al nuevo centro de administración, active la opción **Probar la versión preliminar** en la esquina superior derecha del centro de administración. 
+**Nota:** si ve **Búsqueda de Microsoft** en **Configuración** en el **Centro de administración de Microsoft 365**, active el interruptor **Probar la vista previa** en la esquina superior derecha del centro de administración. 
 
 Como administrador debe considerar algunas cosas que pueden hacer que la experiencia de **Búsqueda de Microsoft** en su organización sea eficiente e intuitiva.
 
@@ -54,7 +54,7 @@ En **Búsqueda de Microsoft**, puede administrar la configuración de búsqueda 
 1. **Administrador de búsqueda:** este rol puede crear y administrar el contenido de los resultados de búsqueda y definir la configuración de consulta para mejorar los resultados de búsqueda en la organización. El administrador de búsqueda controla la configuración de **Búsqueda de Microsoft** y designa a los Editores de búsqueda, que crean contenido.
 2. **Editor de búsqueda:** crea, administra y elimina el contenido de **Búsqueda de Microsoft** en el Centro de administración de Microsoft 365. Este rol puede crear y administrar contenido editorial como preguntas más frecuentes, lugares y ubicaciones importantes, lugares y ubicaciones frecuentemente buscados, sitios y aplicaciones frecuentemente buscados y usados, etc. Sin embargo, no tiene acceso a la administración de la configuración de búsqueda.
 
-Para asignar roles de administrador, consulte [Asignar derechos de administrador en Office 365 para empresas](https://docs.microsoft.com/en-us/office365/admin/add-users/assign-admin-roles?view=o365-worldwide).
+Para asignar roles de administrador, consulte [Asignar derechos de administrador en Office 365 para empresas](https://docs.microsoft.com/es-ES/office365/admin/add-users/assign-admin-roles?view=o365-worldwide).
 
 ### <a name="step-3-make-content-easy-to-find"></a>Paso 3: Haga el contenido fácil de encontrar 
 
@@ -86,7 +86,7 @@ Establezca recursos de autoservicio a los que los empleados puedan acceder fáci
 - [Encuentre lo que necesita con Búsqueda de Microsoft en Office](https://support.office.com/article/find-what-you-need-with-microsoft-search-in-office-2457d4d8-48a8-4ad4-ab89-5a0657aa8446?ui=en-US&rs=en-US&ad=US)
 - [Centro de aprendizaje de Office 365](https://support.office.com/office-training-center)
 - 
-  [Búsqueda de Microsoft Center](https://support.office.com/en-us/article/-working-title-microsoft-search-center-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc?ui=en-US&rs=en-US&ad=US)
+  [Búsqueda de Microsoft Center](https://support.office.com/es-ES/article/-working-title-microsoft-search-center-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc?ui=en-US&rs=en-US&ad=US)
 
 ### <a name="trying-out-microsoft-search-in-bing"></a>Probar **Búsqueda de Microsoft** en Bing 
 El administrador de **Búsqueda de Microsoft** puede desactivar **Búsqueda de Microsoft** en Bing. Si lo desactiva, los usuarios no verán el contenido de la organización en las búsquedas de Bing. De forma predeterminada, **Búsqueda de Microsoft** está activado en Bing. Le recomendamos que mantenga **Búsqueda de Microsoft** activado en Bing para una mejor experiencia de usuario. 

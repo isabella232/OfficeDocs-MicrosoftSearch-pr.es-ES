@@ -13,18 +13,19 @@ search.appverid:
 - MOE150
 - MED150
 ms.assetid: 2379e72c-a7da-4e3f-932a-12d431a0a284
+ROBOTS: NOINDEX
 description: Información general de todas las formas en que puede incluir las ubicaciones de su organización en los resultados de trabajo de Búsqueda de Microsoft
-ms.openlocfilehash: bcda64315f85b9770f47d1b6c08fd90296063487
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.openlocfilehash: 9eb61d206852759ade3cb668a3d9c0dee83c424f
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968463"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591579"
 ---
 # <a name="locations"></a>Ubicaciones
 
 > [!IMPORTANT]
-> Búsqueda de Microsoft en la configuración de Bing ya está disponible en el Centro de administración de Microsoft 365. Empiece por [asignar administradores de búsqueda](https://docs.microsoft.com/es-ES/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) en el centro de administración.
+> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se quitará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Búsqueda de Microsoft](overview-microsoft-search.md).
     
 ## <a name="add-locations"></a>Agregar ubicaciones
 

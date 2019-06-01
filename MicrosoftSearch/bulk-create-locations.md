@@ -13,18 +13,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 15c9fada-f7a6-4210-aa6b-028b32217830
+ROBOTS: NoIndex
 description: Agregue varias ubicaciones a la vez con las herramientas de importación para el portal de administración de Búsqueda de Microsoft
-ms.openlocfilehash: 1d360fda2851083def0bcbd8fcffd77cfa15240e
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.openlocfilehash: 186f6973de1ff87b62b5f07a47eb41acdd842010
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968295"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591399"
 ---
 # <a name="bulk-create-locations"></a>Crear ubicaciones en masa
 
 > [!IMPORTANT]
-> Búsqueda de Microsoft en la configuración de Bing ya está disponible en el Centro de administración de Microsoft 365. Empiece por [asignar administradores de búsqueda](https://docs.microsoft.com/es-ES/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) en el centro de administración.
+> Este artículo se aplica al portal de administración de Búsqueda de Microsoft in Bing. Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se quitará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Búsqueda de Microsoft](overview-microsoft-search.md).
     
 Descargue y use la plantilla .csv para crear, editar y guardar ubicaciones en masa. 
   

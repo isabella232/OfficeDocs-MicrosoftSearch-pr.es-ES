@@ -13,18 +13,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5479dc34-3de0-41c5-94a7-ba87069e6b43
+ROBOTS: NoIndex
 description: Información general sobre todas las formas de agregar y crear marcadores para los resultados de trabajo de Búsqueda de Microsoft
-ms.openlocfilehash: a7243d43eb5132c8096115852a4ebd8bd4dc3305
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.openlocfilehash: 5e79fdb892e02673c08c62402e6fa0fea25f70f7
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968385"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591462"
 ---
 # <a name="create-and-manage-bookmarks"></a>Crear y administrar marcadores
 
 > [!IMPORTANT]
-> Búsqueda de Microsoft en la configuración de Bing ya está disponible en el Centro de administración de Microsoft 365. Empiece por [asignar administradores de búsqueda](https://docs.microsoft.com/es-ES/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) en el centro de administración.
+> Este artículo se aplica al portal de administración de Búsqueda de Microsoft in Bing. Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se quitará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Búsqueda de Microsoft](overview-microsoft-search.md).
     
 ## <a name="create-bookmarks"></a>Crear marcadores
 

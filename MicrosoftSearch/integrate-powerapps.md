@@ -13,18 +13,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 1fadcba3-4a7f-4a55-8476-d4e64d49a15f
+ROBOTS: NOINDEX
 description: Incluya aplicaciones basadas en navegador en los resultados de marcadores de Búsqueda de Microsoft
-ms.openlocfilehash: 96b409274e3fa06cef7dcc6f1c43360a3e6b9d34
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.openlocfilehash: 655b8c8c6f4a9729461447112b21ca7c6c7864f9
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968390"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591615"
 ---
 # <a name="integrate-powerapps"></a>Integrar PowerApps
 
 > [!IMPORTANT]
-> Búsqueda de Microsoft en la configuración de Bing ya está disponible en el Centro de administración de Microsoft 365. Empiece por [asignar administradores de búsqueda](https://docs.microsoft.com/es-ES/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) en el centro de administración.
+> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se quitará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Búsqueda de Microsoft](overview-microsoft-search.md).
     
 Ayude a los usuarios a realizar tareas, como marcar las fechas de las vacaciones o registrar informes de gastos, integrando PowerApps existentes con los marcadores. Las PowerApps integradas aparecen en un resultado de marcador, por lo que no es necesario ir a otro sitio o abrir otra herramienta, lo que ahorra tiempo y esfuerzo.
   

@@ -13,18 +13,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: def300e7-103c-4e92-a062-28ffa27561d7
+ROBOTS: NoIndex
 description: Cree varios marcadores a la vez con las herramientas de importación para el portal de administración de Búsqueda de Microsoft
-ms.openlocfilehash: 560cda6f94060d428f2d18cc61bd2430cb31b474
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.openlocfilehash: 1b3922215534391c65547a4ece22310261626036
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968356"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591426"
 ---
 # <a name="bulk-create-bookmarks"></a>Crear marcadores en masa
 
 > [!IMPORTANT]
-> Búsqueda de Microsoft en la configuración de Bing ya está disponible en el Centro de administración de Microsoft 365. Empiece por [asignar administradores de búsqueda](https://docs.microsoft.com/es-ES/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) en el centro de administración.
+> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se quitará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Búsqueda de Microsoft](overview-microsoft-search.md).
     
 Descargue y use la plantilla .csv para crear, editar y guardar marcadores en masa. Si necesita editar en masa marcadores existentes, expórtelos desde el Portal de administración, haga los cambios necesarios y, luego, impórtelos.
   

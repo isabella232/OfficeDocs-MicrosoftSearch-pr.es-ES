@@ -13,18 +13,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b40a575d-7727-4bb0-80da-e25131315790
+ROBOTS: NoIndex
 description: Información general sobre todas las formas de crear respuestas a las preguntas más frecuentes en el portal de administración de Búsqueda de Microsoft
-ms.openlocfilehash: 09c6747dafd5d2cf029f75fec210d308356c54fe
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.openlocfilehash: 2d58d8b7bdec69f2f1d5078283ee1fb939e84e32
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968439"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591453"
 ---
 # <a name="create-and-manage-qas"></a>Crear y administrar preguntas y respuestas
 
 > [!IMPORTANT]
-> Búsqueda de Microsoft en la configuración de Bing ya está disponible en el Centro de administración de Microsoft 365. Empiece por [asignar administradores de búsqueda](https://docs.microsoft.com/es-ES/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) en el centro de administración.
+> Este artículo se aplica al portal de administración de Búsqueda de Microsoft in Bing. Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se quitará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Búsqueda de Microsoft](overview-microsoft-search.md).
     
 ## <a name="create-qas"></a>Crear preguntas y respuestas
 

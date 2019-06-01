@@ -13,18 +13,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7bada218-8908-4956-aae3-6ffaeef384ca
+ROBOTS: NoIndex
 description: Agregue rápidamente respuestas a las preguntas más frecuentes con herramientas de importación en el portal de administración de Búsqueda de Microsoft
-ms.openlocfilehash: f535cb7ae843def536976cb1f05c8601de592cbb
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.openlocfilehash: 7368014f3bc2f21a788625f0bf826af963366e1b
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968316"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591372"
 ---
 # <a name="bulk-create-qas"></a>Crear preguntas y respuestas en masa
 
 > [!IMPORTANT]
-> Búsqueda de Microsoft en la configuración de Bing ya está disponible en el Centro de administración de Microsoft 365. Empiece por [asignar administradores de búsqueda](https://docs.microsoft.com/es-ES/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) en el centro de administración.
+> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se quitará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Búsqueda de Microsoft](overview-microsoft-search.md).
     
 Descargue y use la plantilla .csv para crear o editar preguntas y respuestas en masa. También es una forma sencilla de guardar en masa los borradores de preguntas y respuestas que necesitan modificaciones adicionales o actualizaciones. Si necesita editar en masa preguntas y respuestas existentes, expórtelas desde el Portal de administración, haga los cambios necesarios y, luego, impórtelas.
   
