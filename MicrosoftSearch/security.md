@@ -15,20 +15,18 @@ search.appverid:
 ms.assetid: 50461cb9-8707-46c1-935a-1b9608a98800
 ROBOTS: NOINDEX
 description: Proteja los datos empresariales y a los usuarios mientras proporciona información a los usuarios autorizados con Microsoft Search
-ms.openlocfilehash: c8444c5c265e109d379fdfffbb033c703040a74c
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 4e5e23e5e1389c95d28ede66e06707f9856a3770
+ms.sourcegitcommit: fe7f3dae4edba97071a4d127e8a27bdf4fa00d81
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591201"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "34727946"
 ---
 # <a name="security-for-microsoft-search"></a>Seguridad de Microsoft Search
 
 Con la seguridad de nivel empresarial, Microsoft Search siempre mantiene los usuarios y los datos protegidos.
 
-> [!IMPORTANT]
-> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se eliminará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).
-  
+
 ## <a name="secure-by-default"></a>Seguro por defecto
 
 Microsoft Search siempre garantiza que las solicitudes se realizan a través de HTTPS. Esta protección garantiza que la conexión está cifrada de un extremo a otro para mejorar la seguridad.

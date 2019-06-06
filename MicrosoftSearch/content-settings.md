@@ -15,18 +15,16 @@ search.appverid:
 ms.assetid: d1432d64-7a97-4b1b-a99f-11291814d361
 ROBOTS: NoIndex
 description: Agregue un logotipo, el nombre de la compañía y más a sus resultados de trabajo de Microsoft Search
-ms.openlocfilehash: d3989422c4bd38236241984c1f9beb67d12a0847
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 0ae26acd0e0114b83c022e0a0b4ad082d495cd1c
+ms.sourcegitcommit: fe7f3dae4edba97071a4d127e8a27bdf4fa00d81
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591246"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "34727982"
 ---
 # <a name="content-settings"></a>Configuración de contenido
 
-> [!IMPORTANT]
-> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se eliminará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).
-    
+ 
 Con Microsoft Search, puede garantizar una apariencia familiar para los resultados que proceden de orígenes de contenido de su organización, como SharePoint, OneDrive para la Empresa o la intranet de su organización. 
   
 - Nombre de la organización

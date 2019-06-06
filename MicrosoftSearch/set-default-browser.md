@@ -15,18 +15,16 @@ search.appverid:
 ms.assetid: 53e2b71a-348b-4dfe-a504-6e97d573effe
 ROBOTS: NOINDEX
 description: Obtenga información sobre cómo configurar un explorador predeterminado para su empresa con Microsoft Search.
-ms.openlocfilehash: daff7f66bd38bdd56179e44c36092a2c4fd42b42
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 08c61bf6dd68f8044f3f79a0b22829a8f7f6b8ef
+ms.sourcegitcommit: fe7f3dae4edba97071a4d127e8a27bdf4fa00d81
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591165"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "34727847"
 ---
 # <a name="set-default-browser"></a>Establecer explorador predeterminado
 
-> [!IMPORTANT]
-> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se eliminará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).
-    
+  
 La configuración de la página principal, motor de búsqueda y explorador predeterminados ayudará a los usuarios a descubrir las funciones de Microsoft Search, fomentar su uso y proporcionar una experiencia más fluida.
   
 Para establecer el explorador predeterminado para su organización, siga los pasos siguientes.

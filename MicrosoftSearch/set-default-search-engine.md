@@ -15,18 +15,16 @@ search.appverid:
 ms.assetid: ee40010e-5d7f-4ba8-a3f8-d240dab3af6d
 ROBOTS: NOINDEX
 description: Obtenga información sobre cómo configurar Bing como motor de búsqueda predeterminado de su empresa con Microsoft Search.
-ms.openlocfilehash: 77a8ea884f4df26fc8f7661fb9a9b8791b2f0f18
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 36e8a50a7b6acda553b82d4b95a57a378818f7ec
+ms.sourcegitcommit: fe7f3dae4edba97071a4d127e8a27bdf4fa00d81
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591120"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "34727991"
 ---
 # <a name="set-default-search-engine"></a>Establecer motor de búsqueda predeterminado
 
-> [!IMPORTANT]
-> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se eliminará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).
-    
+  
 La configuración de la página principal, motor de búsqueda y explorador predeterminados ayudará a los usuarios a descubrir las funciones de Microsoft Search, fomentar su uso y proporcionar una experiencia más fluida.
   
 Para establecer el motor de búsqueda predeterminado para su organización, siga los pasos siguientes.
