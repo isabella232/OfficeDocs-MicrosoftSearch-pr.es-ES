@@ -15,17 +15,14 @@ search.appverid:
 ms.assetid: 9e8c9323-4ff9-42dd-8052-2bc9e0d6d0e7
 ROBOTS: NOINDEX
 description: Obtenga información acerca de los métodos y procesos que le ayudarán a implementar correctamente Microsoft Search en su organización
-ms.openlocfilehash: 967c5876fe1a559041ec88d5d038d5739fd77280
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 8fd7003426ad10e105ef427db5688b2a459d4f01
+ms.sourcegitcommit: fe7f3dae4edba97071a4d127e8a27bdf4fa00d81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34590841"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "34727910"
 ---
 # <a name="user-adoption-guide"></a>Guía de adopción del usuario
-
-> [!IMPORTANT]
-> Este artículo se aplica a la búsqueda de Microsoft en el portal de administración de Bing. Estamos moviendo el portal al centro de administración de 365 de Microsoft y, a continuación, se quitará. Le recomendamos que use el centro de administración de Microsoft 365 para empezar. [Información general de Microsoft Search](overview-microsoft-search.md).
 
 Esta información está dirigida a los administradores de Microsoft Search, los responsables de administración de cambios y los propietarios de empresas.
   
@@ -88,9 +85,9 @@ Dedicar tiempo a prepararse para el lanzamiento de Microsoft Search tendrá como
   
 Los administradores afectan directamente a la experiencia de búsqueda de los usuarios finales y determinan el modo en que Microsoft Search busca la organización. Esto incluye la elección de los tipos de resultados que quiere que se muestren a los usuarios. Controlar esto activando o desactivando los resultados de documentos, sitios, personas, grupos o conversaciones.
   
-Para obtener más información, vea [set up Microsoft Search](set-up-microsoft-search.md).
+Para obtener más información, vea [set up Microsoft Search](setup-microsoft-search.md).
   
-Los editores son expertos en la materia que ayudan a administrar marcadores y Q&As dentro de sus áreas de especialización. Los editores deben crear contenido que se redirige a los escenarios de usuario identificados anteriormente.
+Los editores son expertos en la materia que ayudan a administrar marcadores y Q&como en sus áreas de especialización. Los editores deben crear contenido que se redirige a los escenarios de usuario identificados anteriormente.
   
 Para obtener más información, vea [planear el contenido](plan-your-content.md).
   
@@ -188,7 +185,7 @@ Envíe comunicaciones continuas que resaltan las características y las búsqued
   
 Dar soporte técnico a los usuarios y informarles de que le interesan escucharlos y actuar sobre sus comentarios.
   
-Use el panel de información para ver cómo funciona el producto y el contenido. Aproveche esta información para actualizar marcadores, Q&As y otras comunicaciones. Esto también le ayudará a:
+Use el panel de información para ver cómo funciona el producto y el contenido. Aproveche esta información para actualizar marcadores, Q&as y otras comunicaciones. Esto también le ayudará a:
   
 1. Mejorar la calidad del contenido: revisar los títulos, las descripciones y las direcciones URL, optimizar las palabras clave, quitar la información obsoleta y agregar nueva información
     
@@ -196,7 +193,4 @@ Use el panel de información para ver cómo funciona el producto y el contenido.
     
 3. Realizar encuestas, grupos de enfoque y sesiones de comentarios para comprender qué opinan los usuarios de Microsoft Search, aumentar la adopción e identificar las áreas de mejora.
     
-La educación y los comentarios son un proceso iterativo. Puede que sea necesario realizar cambios en el contenido y las comunicaciones a medida que los usuarios adopten Microsoft Search. 
-
-  
-
+La educación y los comentarios son un proceso iterativo. Puede que sea necesario realizar cambios en el contenido y las comunicaciones a medida que los usuarios adopten Microsoft Search.
