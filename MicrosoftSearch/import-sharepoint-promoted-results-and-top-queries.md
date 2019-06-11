@@ -1,5 +1,5 @@
 ---
-title: Importar resultados y consultas principales promocionados de SharePoint
+title: Importar resultados de SharePoint promocionados y consultas principales
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -14,36 +14,39 @@ search.appverid:
 - MOE150
 ms.assetid: 3d2a1498-174e-4214-9cf1-8b58cce5a872
 ROBOTS: NOINDEX
-description: Use consultas de búsqueda de SharePoint para crear resultados de trabajo para Búsqueda de Microsoft
-ms.openlocfilehash: 1538c57a7b4138b36fe62e3076feb58d746b2b3e
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
-ms.translationtype: HT
+description: Usar consultas de búsqueda de SharePoint para crear resultados de trabajo para Microsoft Search
+ms.openlocfilehash: 59d133aceb15c8f1fa75ecc3f35522def4201d0a
+ms.sourcegitcommit: 9a9d24b4b7a6f3e80b89086d29fd369ebded0619
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591606"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "34810650"
 ---
-# <a name="import-sharepoint-promoted-results-and-top-queries"></a>Importar resultados promocionados y consultas principales de SharePoint
+# <a name="import-sharepoint-promoted-results-and-top-queries"></a>Importar resultados de SharePoint promocionados y consultas principales
 
 > [!IMPORTANT]
-> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se quitará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Búsqueda de Microsoft](overview-microsoft-search.md).
+> Este artículo se aplica a la búsqueda de Microsoft en el portal de administración de Bing. Estamos moviendo el portal al centro de administración de 365 de Microsoft y, a continuación, se quitará. Le recomendamos que use el centro de administración de Microsoft 365 para empezar. [Información general de Microsoft Search](overview-microsoft-search.md).
     
-Para sacar provecho de las consultas de los usuarios y los resultados más probables que haya creado en SharePoint, Búsqueda de Microsoft incluye dos herramientas para importar esta información como marcadores sugeridos:  
+Para aprovechar las consultas de los usuarios y los resultados más probables que haya creado en SharePoint, Microsoft Search incluye dos herramientas para importar esta información como marcadores sugeridos: 
   
 ## <a name="import-sharepoint-promoted-result-query-rules"></a>Importar reglas de consulta de resultados promocionados de SharePoint
 
-Importe estas reglas, anteriormente denominadas resultados más probables, como marcadores sugeridos. Para que estén disponibles para los usuarios, publíquelas. El tiempo de publicación varía según el número de marcadores que seleccione.
+Importe estas reglas, denominadas más probables anteriormente, como marcadores sugeridos. Para que estén disponibles para los usuarios, publíquelos. El tiempo de publicación varía en función del número de marcadores que seleccione.
   
 ## <a name="import-top-sharepoint-queries-using-powershell"></a>Importar las consultas principales de SharePoint con PowerShell
 
-- Descargue las consultas principales de SharePoint. El script de PowerShell le pedirá sus credenciales de administrador de SharePoint.
+- Descargue las consultas principales desde SharePoint. El script de PowerShell le pedirá sus credenciales de administrador de SharePoint.
     
-- Ejecute una búsqueda de SharePoint para cada una de las consultas principales para obtener el resultado de búsqueda superior.
+- Ejecute una búsqueda de SharePoint para cada una de las consultas principales para obtener el resultado de la búsqueda más arriba.
     
-- Agregar marcadores sugeridos al portal de administración.
+- Agregue marcadores sugeridos al portal de administración.
     
-- Las consultas principales de SharePoint son excelentes candidatos para los marcadores. Use el script de PowerShell para importarlos como marcadores sugeridos. Este script hará lo siguiente:
-    
-Descargue el script y abra el archivo Léame para obtener información sobre los requisitos, ejemplos y parámetros disponibles. Después que se ejecute el script de PowerShell, un administrador o editor debe revisar los marcadores sugeridos y realizar los cambios necesarios antes de que se publiquen.
+- Las consultas más importantes de SharePoint son candidatas excelentes para los marcadores. Use el script de PowerShell para importarlos como marcadores sugeridos. Este script hace el siguiente trabajo:
+    - Agrega marcadores sugeridos basados en consultas Top de SharePoint para mejorar la cobertura de marcadores de Microsoft Search. Este script descarga las consultas principales accesibles desde el portal de administración de SharePoint y, a continuación, las carga como marcadores sugeridos para que un administrador los Revise en el portal de administración de Microsoft Search.
+    - De forma predeterminada, el script agrega marcadores sugeridos al inquilino determinado para todos los meses disponibles. Obtiene las consultas principales de un sitio web de administración de SharePoint determinado y las agrega a Microsoft Search como marcadores sugeridos. Los marcadores sugeridos necesitan un administrador/editor para aprobarlos en el portal de administración antes de publicarlos. Al ejecutar este script, se le pedirán las credenciales para obtener acceso al portal de administración de Microsoft Search.
+    - El script permite especificar parámetros adicionales. Por ejemplo, puede agregar marcadores sugeridos a un inquilino determinado para las N principales consultas en cada uno de los meses disponibles.
+    - Opcionalmente, puede agregar marcadores sugeridos a un inquilino determinado para los meses del año en cuestión. Este comando obtiene las consultas principales para el período de tiempo determinado desde el sitio web de administración de SharePoint y las agrega a Microsoft Search como marcadores sugeridos.
+    - Además, hay muchas otras opciones y modos de comando: descargar las consultas principales de SharePoint en una carpeta específica, ejecutar el script en modo seguro, ejecutar el script en modo detallado y un modo de depuración.
+    - Descargue el script [aquí](https://www.bingforbusiness.com/distribution/SharepointTopQueryBookmarks.zip). 
 
-  
-
+Para obtener información acerca de los requisitos, ejemplos y parámetros disponibles, descargue el script y revise el archivo Léame. Una vez ejecutado el script de PowerShell, un administrador o editor debe revisar los marcadores sugeridos y realizar las modificaciones necesarias antes de que se publiquen.
