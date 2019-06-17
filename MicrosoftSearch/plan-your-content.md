@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: bb9d90b6-6c86-4b19-9235-3bd9b19826ab
 description: Proporcione contenido de calidad sin necesidad de recursos adicionales al usar Microsoft Search
-ms.openlocfilehash: 88c2af543be02f8e17937e36a81fd28d862e8fb0
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 90774f8606f5582338c12b4f123153b6f3f4de74
+ms.sourcegitcommit: 9df9b1a5f83c9fbe62900df183bee239a8ea6d91
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591210"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "34947756"
 ---
 # <a name="plan-your-content"></a>Planear el contenido
 
@@ -91,7 +91,7 @@ Una vez que haya creado marcadores y preguntas y respuestas, es importante compr
 
 Los usuarios y expertos que han colaborado en la creación de contenido pueden ayudar a probar y validar los resultados de búsqueda.
 
-## <a name="step-5-review-and-update-periodically"></a>Paso 5: Revise y actualice periódicamente
+## <a name="step-5-use-insights-to-review-and-update-periodically"></a>Paso 5: usar la información para revisar y actualizar periódicamente
 Es importante que la información relevante como marcadores y preguntas y respuestas estén actualizados. De forma periódica:
 - Corrija o elimine URL rotas o no válidas.
 - Elimine marcadores o preguntas y respuestas que ya no son relevantes.
