@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 1fadcba3-4a7f-4a55-8476-d4e64d49a15f
 ROBOTS: NOINDEX
 description: Incluya aplicaciones basadas en navegador en los resultados de marcadores de Búsqueda de Microsoft
-ms.openlocfilehash: 1f4cf7512ee176015537be2fbe2f59429cde6578
-ms.sourcegitcommit: fe7f3dae4edba97071a4d127e8a27bdf4fa00d81
+ms.openlocfilehash: d818ab8149032b4664adb90098700d4432a6fbb7
+ms.sourcegitcommit: a7ca4c38d37fbdec58e002e42d865188939d0483
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "34727973"
+ms.lasthandoff: 06/15/2019
+ms.locfileid: "35003123"
 ---
 # <a name="integrate-powerapps"></a>Integrar PowerApps
 
@@ -63,6 +63,3 @@ Las PowerApps funcionan en cualquier explorador y en cualquier dispositivo, y se
 7. Haga clic en **Publicar**
     
 Cuando un usuario de Búsqueda de Microsoft autorizado busca cualquiera de las palabras clave o palabras clave reservadas del marcador en Bing, la PowerApp aparecerá en el resultado del marcador.
-
-  
-
