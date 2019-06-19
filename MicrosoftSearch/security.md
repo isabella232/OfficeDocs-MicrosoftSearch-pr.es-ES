@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 50461cb9-8707-46c1-935a-1b9608a98800
 ROBOTS: NOINDEX
 description: Proteja los datos empresariales y a los usuarios mientras proporciona información a los usuarios autorizados con Microsoft Search
-ms.openlocfilehash: 4e5e23e5e1389c95d28ede66e06707f9856a3770
-ms.sourcegitcommit: fe7f3dae4edba97071a4d127e8a27bdf4fa00d81
+ms.openlocfilehash: b079a693f7289977c9f7545ec049828f76939ee0
+ms.sourcegitcommit: 6f4756d2887c66030c5e7b81fb936d673bb594a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "34727946"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35009099"
 ---
 # <a name="security-for-microsoft-search"></a>Seguridad de Microsoft Search
 
@@ -33,7 +33,7 @@ Microsoft Search siempre garantiza que las solicitudes se realizan a través de 
   
 ## <a name="authentication-and-authorization-with-azure-active-directory"></a>Autenticación y autorización con Azure Active Directory
 
-La autenticación de Microsoft Search está ligada a Azure Active Directory. Cuando los usuarios de Microsoft Search acceden a Bing, el encabezado de Bing mostrará las opciones de inicio de sesión para una cuenta de Microsoft así como para una cuenta profesional o educativa. Si Bing no puede determinar si un usuario es un participante válido, los usuarios pueden ir a la página [Explorar Microsoft Search](https://www.bing.com/business/explore), donde se les redirigirá automáticamente a la página de inicio de sesión de su organización. 
+La autenticación de Microsoft Search está ligada a Azure Active Directory. Cuando los usuarios de Microsoft Search acceden a Bing, el encabezado de Bing mostrará las opciones de inicio de sesión para una cuenta de Microsoft así como para una cuenta profesional o educativa. Si Bing no puede determinar si un usuario es un participante válido, los usuarios pueden ir a la página [Explorar Microsoft Search](https://www.bing.com/business/explore), donde se les redirigirá automáticamente a la página de inicio de sesión de su organización.
   
 Los usuarios pueden acceder a Microsoft Search solo a través de una cuenta profesional o educativa. Deben iniciar sesión con las mismas credenciales que usan para acceder a los servicios de Office 365, como Outlook o SharePoint. No puede usarse una cuenta personal de Microsoft para iniciar sesión en Microsoft Search.
   
@@ -57,28 +57,17 @@ Como las búsquedas relacionadas con el trabajo pueden ser confidenciales, Micro
   
 Independientemente de si una consulta de usuario contiene uno o varios resultados de trabajo en la respuesta devuelta, se toman las siguientes medidas:
   
-- Registro
-    
-  - Todos los registros de búsqueda que pertenezcan a tráfico de Microsoft Search son anonimizados y se almacenan por separado del tráfico público y ajeno a Microsoft Search. Se conservan durante 18 meses y el acceso está restringido únicamente para fines de depuración.
-    
-  - Las consultas de estos registros no se usan para mejorar características públicas como las sugerencias automáticas o las búsquedas relacionadas para la web pública.
-    
+- Registro 
+  - Todos los registros de búsqueda correspondientes al tráfico de Microsoft Search se anonimizan. Se conservan durante 18 meses.
+  - Las consultas almacenadas en estos registros del sistema solo se usarán para modelar y probar características públicas como sugerencias automáticas u otras funciones relativas a búsquedas para resultados cuando se cumplan una serie de restricciones y umbrales de frecuencia, a fin de proporcionarnos la seguridad de que estas consultas son comunes y no específicas para una organización concreta. La consulta debe aparecer un número de veces significativo en datos correlativos que no procedan de usuarios de Microsoft Search y no debe activar únicamente resultados de búsqueda corporativos. Las consultas que no cumplan estos requisitos se almacenarán separadas del tráfico público no relativo a Microsoft Search.
   - El acceso restringido se administra a través de diferentes mecanismos seguros, incluyendo grupos de seguridad y otras capas dentro del sistema de ingeniería.
-    
-- Historial de búsqueda
-    
+- Historial de búsqueda    
   - Cuando haya iniciado sesión con una cuenta profesional o educativa, el historial de búsqueda de un usuario no estará disponible en otros equipos o dispositivos.
-    
-- Publicidad
-    
+ 
+- Publicidad   
   - Las consultas de búsqueda empresariales nunca se comparten o sugieren a los anunciantes.
-    
-  - Los registros de anuncios de búsquedas que pertenezcan a Microsoft Search se almacenan por separado del tráfico público.
-    
   - Los anuncios nunca están dirigidos a un usuario en función de su identidad de trabajo u organización.
     
 ## <a name="gdpr"></a>RGPD
 
 La [entrada de blog del 21 de mayo de 2018](https://blogs.microsoft.com/on-the-issues/2018/05/21/microsofts-commitment-to-gdpr-privacy-and-putting-customers-in-control-of-their-own-data/) de Microsoft refleja nuestro compromiso con el cumplimiento de RGPD y cómo Microsoft ayuda a las empresas y organizaciones con sus propias obligaciones de cumplimiento RGPD. Puede encontrar detalles adicionales en las [preguntas más frecuentes del centro de confianza](https://www.microsoft.com/en-us/trustcenter/privacy/gdpr/gdpr-faqs) de Microsoft. Las consultas de Microsoft Search que funcionan con datos de clientes de la organización dentro de los servicios en línea también cumplen con los compromisos del procesador indicados en el artículo 28 como se refleja en las [preguntas más frecuentes del centro de confianza](https://www.microsoft.com/en-us/trustcenter/privacy/gdpr/gdpr-faqs). Con respecto a las consultas de Microsoft Search que vayan a la parte pública de Bing, Microsoft es un controlador de datos y ha implementado medidas para anonimizar las consultas como se describe en la RGPD.
-
-

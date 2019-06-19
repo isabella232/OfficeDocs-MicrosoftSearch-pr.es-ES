@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenga una visión general de lo que es Búsqueda de Microsoft, sus ventajas y las aplicaciones que tienen Búsqueda de Microsoft en la actualidad.
-ms.openlocfilehash: c60ece3778db4696437d8ed0c5cefd0bfaa39142
-ms.sourcegitcommit: 9345523f0143f613c702cd3dcc084b5f7bd6a0b5
+ms.openlocfilehash: d16066c941bb5c3619d7fd50e9cf33952216fb87
+ms.sourcegitcommit: a7ca4c38d37fbdec58e002e42d865188939d0483
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "34767194"
+ms.lasthandoff: 06/15/2019
+ms.locfileid: "35003141"
 ---
 # <a name="overview-of-microsoft-search"></a>Introducción a Búsqueda de Microsoft
 
@@ -145,14 +145,13 @@ La experiencia de búsqueda clásica se puede personalizar. Un ejemplo es agrega
 
 Como las búsquedas relacionadas con el trabajo pueden ser confidenciales, Búsqueda de Microsoft utiliza un conjunto de medidas de confianza sobre cómo la parte de resultados web públicos de Bing maneja estas búsquedas.
 
-Independientemente de si una consulta de usuario contiene uno o varios resultados relacionados con el trabajo en la respuesta devuelta, se toman las siguientes medidas:
+Independientemente de si una consulta de usuario contiene uno o varios resultados relacionados con el trabajo en la respuesta devuelta, se toman las medidas siguientes:
 
-**Registro**: todos los registros que pertenecen al tráfico de Búsqueda de Microsoft son anonimizados y se almacenan por separado del tráfico público no asociado y ajeno al tráfico de Búsqueda de Microsoft. Se conservan durante 18 meses y solo se permite el acceso con fines de depuración. Las consultas de estos registros no se usan para mejorar características públicas como las sugerencias automáticas o las búsquedas relacionadas para la web pública. El acceso restringido se administra a través de diferentes mecanismos seguros, incluyendo grupos de seguridad y otras capas dentro del sistema de ingeniería.
+**Registro**: Todos los registros de búsqueda correspondientes al tráfico de Microsoft Search se anonimizan. Se conservan durante 18 meses. Las consultas almacenadas en estos registros del sistema solo se usarán para modelar y probar características públicas como sugerencias automáticas u otras funciones relativas a búsquedas para resultados cuando se cumplan una serie de restricciones y umbrales de frecuencia, a fin de proporcionarnos la seguridad de que estas consultas son comunes y no específicas para una organización concreta. La consulta debe aparecer un número de veces significativo en datos correlativos que no procedan de usuarios de Microsoft Search y no debe activar únicamente resultados de búsqueda corporativos. Las consultas que no cumplan estos requisitos se almacenarán separadas del tráfico público no relativo a Microsoft Search. El acceso restringido se administra a través de diferentes mecanismos seguros, incluyendo grupos de seguridad y otras capas dentro del sistema de ingeniería.
 
 **Historial de búsqueda**: cuando haya iniciado sesión con una cuenta profesional o educativa, el historial de búsqueda de un usuario no estará disponible en otros equipos o dispositivos.
 
 **Publicidad**: las consultas de búsqueda empresariales nunca se comparten o se sugieren a anunciantes.
-Los registros de anuncios de búsquedas que pertenezcan a Microsoft Search se almacenan por separado del tráfico público.
 Los anuncios nunca están dirigidos a un usuario en función de su identidad de trabajo u organización.
 
 ## <a name="see-also"></a>Vea también
