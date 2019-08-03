@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 9e8c9323-4ff9-42dd-8052-2bc9e0d6d0e7
 ROBOTS: NOINDEX
 description: Obtenga información acerca de los métodos y procesos que le ayudarán a implementar correctamente Microsoft Search en su organización
-ms.openlocfilehash: 8fd7003426ad10e105ef427db5688b2a459d4f01
-ms.sourcegitcommit: fe7f3dae4edba97071a4d127e8a27bdf4fa00d81
+ms.openlocfilehash: 2b4dafa4168dfd4c3bbb78ba40e860186ff3d9e3
+ms.sourcegitcommit: f9760d027637cc0d2e5c3a9e47928422cb6e452a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "34727910"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36170315"
 ---
 # <a name="user-adoption-guide"></a>Guía de adopción del usuario
 
@@ -79,11 +79,11 @@ Para ayudarle a cumplir los objetivos de distribución y mostrar un impacto posi
     
 ## <a name="stage-3-readiness"></a>Fase 3: preparación
 
-Dedicar tiempo a prepararse para el lanzamiento de Microsoft Search tendrá como resultado un impacto positivo para su organización. 
+Dedicar tiempo a prepararse para el lanzamiento de Microsoft Search tendrá como resultado un impacto positivo para su organización. Microsoft proporciona un <a href="https://aka.ms/MicrosoftSearch/Adoption">Kit de adopción</a> que contiene instrucciones de planeación, anuncios de correo electrónico personalizables, plantillas de encuestas, presentaciones ejecutivas y mucho más. También hay un <a href="https://resources.techcommunity.microsoft.com/microsoft-search/#adoption">centro de recursos de Microsoft Search</a> donde los implementadores de TI pueden encontrar otros recursos de aprendizaje y adopción diseñados para ayudar a que el lanzamiento de Microsoft Search sea correcto.
   
  **Preparación de productos y contenido**
   
-Los administradores afectan directamente a la experiencia de búsqueda de los usuarios finales y determinan el modo en que Microsoft Search busca la organización. Esto incluye la elección de los tipos de resultados que quiere que se muestren a los usuarios. Controlar esto activando o desactivando los resultados de documentos, sitios, personas, grupos o conversaciones.
+Los administradores afectan directamente a la experiencia de búsqueda de los usuarios finales y determinan el modo en que Microsoft Search busca la organización. Esto incluye la elección de los tipos de resultados que quiere que se muestren a los usuarios. Estos resultados pueden incluir vínculos (también conocidos como marcadores) a documentos, sitios, personas, grupos, ubicaciones, conversaciones y otros recursos del área de trabajo.
   
 Para obtener más información, vea [set up Microsoft Search](setup-microsoft-search.md).
   
