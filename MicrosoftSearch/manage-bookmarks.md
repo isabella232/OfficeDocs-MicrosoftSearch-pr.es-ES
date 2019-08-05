@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Crear y actualizar marcadores y formas de editar en masa los resultados de marcadores en Búsqueda de Microsoft
-ms.openlocfilehash: fb1be0bc137891a54e370fef1e4b5628963c5ad9
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 0cd37ebcd7cd3ea7bbe55064fd41a3c42b2e4725
+ms.sourcegitcommit: f9760d027637cc0d2e5c3a9e47928422cb6e452a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591624"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36170324"
 ---
 # <a name="manage-bookmarks"></a>Administrar marcadores
 
@@ -29,7 +29,7 @@ Si su organización tiene resultados promocionados configurados en SharePoint, p
 
 ## <a name="add-or-edit-a-single-bookmark"></a>Agregar o modificar un marcador único
 1. Vaya al **Centro de administración de Microsoft 365**.
-1. En el panel de navegación, vaya a **Configuración** y, a continuación, seleccione ****Búsqueda de Microsoft****.
+1. En el panel de navegación, vaya a **Configuración** y, a continuación, seleccione **Búsqueda de Microsoft**.
 De forma predeterminada, la ficha **Marcadores** aparece seleccionada.
 1. Para agregar un marcador, seleccione **Agregar nuevo**. Para modificar un marcador, seleccione el marcador en la lista de marcadores relevantes. 
 1. Al agregar o editar la información, la vista previa se actualizará automáticamente.
