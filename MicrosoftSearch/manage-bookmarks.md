@@ -25,7 +25,7 @@ ms.locfileid: "36170324"
 
 Puede crear un marcador en unos pocos pasos. Cada marcador incluye un título, una dirección URL y un conjunto de palabras clave que lo desencadenan. Un marcador puede contener varias palabras clave y distintos marcadores pueden compartir la misma palabra clave, pero no se pueden compartir las palabras clave reservadas. Al crear o modificar un marcador, el índice de búsqueda se actualiza inmediatamente y el marcador está inmediatamente disponible para los usuarios.
 
-Si su organización tiene resultados promocionados configurados en SharePoint, puede importar los resultados promocionados en**Búsqueda de Microsoft** y hacer que el contenido importado esté disponible para los usuarios. Esta es una forma sencilla de rellenar rápidamente los resultados de búsqueda tan pronto como **Búsqueda de Microsoft** esté configurado y hacerlo más eficaz para los usuarios. Le recomendamos que use los resultados promocionados de SharePoint como referencia para comprender cómo nombrar y crear resultados de búsqueda relevantes. 
+Si su organización tiene resultados promocionados configurados en SharePoint, puede importar los resultados promocionados en **Búsqueda de Microsoft** y hacer que el contenido importado esté disponible para los usuarios. Esta es una forma sencilla de rellenar rápidamente los resultados de búsqueda tan pronto como **Búsqueda de Microsoft** esté configurado y hacerlo más eficaz para los usuarios. Le recomendamos que use los resultados promocionados de SharePoint como referencia para comprender cómo nombrar y crear resultados de búsqueda relevantes. 
 
 ## <a name="add-or-edit-a-single-bookmark"></a>Agregar o modificar un marcador único
 1. Vaya al **Centro de administración de Microsoft 365**.
