@@ -13,19 +13,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: d49a0b97-e4ca-47cf-ad52-6113787b8402
+ROBOTS: NOINDEX
 description: Marcadores predeterminados están disponibles en el portal de administración de Búsqueda de Microsoft
-ms.openlocfilehash: 03cc7030498558fd23375297504b0a33012e9b7d
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.openlocfilehash: 06d4ee1eccacc288982d3824c5c0aab7bcfdbe55
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968359"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591192"
 ---
 # <a name="publish-default-bookmarks"></a>Publicar marcadores predeterminados
 
 > [!IMPORTANT]
-> Búsqueda de Microsoft en la configuración de Bing ya está disponible en el Centro de administración de Microsoft 365. Empiece por [asignar administradores de búsqueda](https://docs.microsoft.com/es-ES/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) en el centro de administración.
-    
+> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se quitará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Búsqueda de Microsoft](overview-microsoft-search.md).
+
 Para ver rápidamente cómo aparecen los marcadores en Bing, publique los valores predeterminados proporcionados. Úselos como referencia para comprender cómo nombrar marcadores y crear palabras clave eficaces.
   
 Le recomendamos que revise los dos conjuntos de marcadores predeterminados:

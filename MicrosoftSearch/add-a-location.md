@@ -13,18 +13,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c37cf1b1-5915-4eb1-9f78-72c48cad3b4b
+ROBOTS: NoIndex
 description: Agregue ubicaciones para que las oficinas, los edificios y otras áreas de trabajo de su organización aparezcan en los resultados de trabajo de Búsqueda de Microsoft
-ms.openlocfilehash: 37cc56a733bb6395325ab4baf7885084d956938b
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.openlocfilehash: be55112453289a3cb10736750ecdf1c706fe5458
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968183"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591345"
 ---
 # <a name="add-a-location"></a>Agregar una ubicación
 
 > [!IMPORTANT]
-> Búsqueda de Microsoft en la configuración de Bing ya está disponible en el Centro de administración de Microsoft 365. Empiece por [asignar administradores de búsqueda](https://docs.microsoft.com/es-ES/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) en el centro de administración.
+> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se quitará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Búsqueda de Microsoft](overview-microsoft-search.md).
     
 Agregue una ubicación para que, cuando los usuarios busquen, verán la dirección del edificio, la oficina o el lugar y su ubicación en un mapa. También pueden usar las Mapas de Bing para obtener indicaciones, consultar lo que está cerca y mucho más.
   
