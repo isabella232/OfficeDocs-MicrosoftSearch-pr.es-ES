@@ -3,7 +3,7 @@ title: Configurar Búsqueda de Microsoft
 ms.author: anfowler
 author: adefowler
 manager: mnirkhe
-ms.date: 05/30/2019
+ms.date: 08/06/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar Búsqueda de Microsoft por primera vez.
-ms.openlocfilehash: 55ff009a17f63bfdaa1edf1e14fddfe132e20000
-ms.sourcegitcommit: 4eeb78066fd13e906daed3add003398bd9d0f6ca
+ms.openlocfilehash: 7c80701e83fea7b9b93e4e01f98fd1eeedbfa749
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "35917582"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639509"
 ---
 # <a name="set-up-microsoft-search"></a>Configurar Búsqueda de Microsoft
 
@@ -56,19 +56,14 @@ La Búsqueda de Microsoft respeta la configuración de seguridad del origen de c
 
 ## <a name="step-2-assign-search-admin-and-search-editor"></a>Paso 2: Asignar el administrador de búsqueda y el editor de búsqueda
 
-Hay dos roles de administrador limitados que pueden ayudarle a admitir la Búsqueda de Microsoft: **administrador de búsqueda** y **editor de búsqueda**.
-
-> [!NOTE]
-> Los roles de administrador de búsqueda y de editor de búsqueda solo conceden permisos en el Centro de administración de Microsoft 365, no en el **portal de administración heredado de Búsqueda de Microsoft en Bing**. Debe ser administrador global para administrar la Búsqueda de Microsoft en el portal heredado.
-
-Los administradores de búsqueda influyen directamente en la experiencia de búsqueda de los usuarios finales. Esto incluye la elección de los tipos de resultados que quiere que se muestren a los usuarios. Puede resultar difícil para una sola persona elegir y crear contenido relevante para los muchos y diferentes temas que los usuarios buscan en una organización. Le recomendamos que aproveche la experiencia y los conocimientos de los expertos en la materia (SME) y de otros usuarios agregándolos como editores de búsqueda.
-
 En la Búsqueda de Microsoft, puede administrar la configuración de búsqueda de su organización y el contenido con la asignación de los siguientes roles a los usuarios:
 
 1. **Administrador de búsqueda:** este rol puede crear y administrar el contenido de los resultados de búsqueda y definir la configuración de consulta para mejorar los resultados de búsqueda en la organización. El administrador de búsqueda administra la configuración de la Búsqueda de Microsoft y puede realizar todas las tareas de administración de contenido que pueda llevar a cabo un editor de búsqueda.
 2. **Editor de búsqueda:** crea, administra y elimina el contenido de la Búsqueda de Microsoft en el Centro de administración de Microsoft 365. Este rol puede crear y administrar contenido editorial, como las preguntas más frecuentes, respuestas, lugares y ubicaciones importantes, sitios y aplicaciones frecuentemente buscados y usados, entre otras cosas.
 
 Actualmente, el administrador global debe asignar los roles de administrador de búsqueda y editor de búsqueda. Para obtener más información, vea [Asignar roles de administrador](https://docs.microsoft.com/es-ES/office365/admin/add-users/assign-admin-roles?view=o365-worldwide).
+
+Los administradores de búsqueda influyen directamente en la experiencia de búsqueda para los usuarios finales. Esto incluye la elección de los tipos de resultados que quiere que se muestren a los usuarios. Puede resultar difícil para una sola persona elegir y crear contenido relevante para los muchos y diferentes temas que los usuarios buscan en una organización. Le recomendamos que aproveche la experiencia y los conocimientos de los expertos en la materia (SME) y de otros usuarios agregándolos como editores de búsqueda.
 
 ## <a name="step-3-make-content-easy-to-find"></a>Paso 3: Hacer que el contenido sea fácil de encontrar
 
@@ -88,17 +83,7 @@ Estos son algunos ejemplos de contenido que debería considerar como marcadores 
 
 Para crear y administrar el contenido de la búsqueda, vea [Hacer que el contenido sea fácil de encontrar](make-content-easy-to-find.md).
 
-## <a name="step-4-test-single-sign-on"></a>Paso 4: Probar el inicio de sesión único
-
-La Búsqueda de Microsoft usa Azure Active Directory (AAD) para autenticar y autorizar el acceso a datos de su organización. Esto significa que sus usuarios inician sesión automáticamente en su cuenta profesional o educativa cuando usted ha iniciado sesión en una aplicación de Office 365 o en Windows 10.
-
-Se recomienda que los usuarios de la Búsqueda de Microsoft usen el inicio de sesión único, ya que reduce el número de veces que se pide a los usuarios que inicien sesión. Los administradores deben probar el inicio de sesión único con un grupo pequeño de usuarios, lo que les ayudará a identificar cualquier problema de configuración que genere bloqueos.
-
-Para los usuarios de Chrome en Windows 10, el inicio de sesión único solo funcionará si la extensión de inicio de sesión de Windows 10 y AAD para Chrome están instalados. Una vez instalados, use la extensión de Chrome para autenticar fácilmente con AAD al iniciar sesión en sitios compatibles, incluidos Office 365 y Bing. Esta función está disponible solo para usuarios autorizados.
-
-Para descargar e instalar Windows 10 y la extensión de inicio de sesión de AAD para Chrome, vaya a la [Chrome Web Store](https://go.microsoft.com/fwlink/?linkid=2090961).
-
-## <a name="step-5-training-and-communication"></a>Paso 5: Formación y comunicación
+## <a name="step-4-training-and-communication"></a>Paso 4: Formación y comunicación
 
 Establezca recursos de autoservicio a los que los empleados puedan acceder fácilmente por sí mismos. Esto le ayudará a reducir la carga general sobre usted y sobre su equipo distribuyendo constantemente comunicaciones y asistiendo a la autoformación de los empleados. Proporcione a sus usuarios comunicaciones, preguntas frecuentes, vídeos y formación en vídeo o seminarios web. Estos son algunos vínculos útiles para empezar:
 
@@ -106,9 +91,3 @@ Establezca recursos de autoservicio a los que los empleados puedan acceder fáci
 - [Centro de aprendizaje de Office 365](https://support.office.com/office-training-center)
 - 
   [Búsqueda de Microsoft Center](https://support.office.com/es-ES/article/-working-title-microsoft-search-center-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc?ui=en-US&rs=en-US&ad=US)
-
-## <a name="trying-out-microsoft-search-in-bing"></a>Probar la Búsqueda de Microsoft en Bing
-
-Puede activar la **Búsqueda de Microsoft en Bing**. Si la desactiva, los usuarios no verán el contenido de la organización en las búsquedas de Bing. De forma predeterminada, la Búsqueda de Microsoft en Bing está activada. Se recomienda mantenerla activada para una mejor experiencia del usuario.
-
-Vaya a **Configuración** > **Servicios y complementos** > **Búsqueda de Microsoft en Bing** para activarla o desactivarla.
