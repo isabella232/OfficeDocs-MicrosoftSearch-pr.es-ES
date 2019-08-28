@@ -1,8 +1,8 @@
 ---
 title: Preguntas más frecuentes
-ms.author: dawholl
-author: dawholl
-manager: kellis
+ms.author: anfowler
+author: adefowler
+manager: shohara
 ms.date: 10/19/2018
 ms.audience: Admin
 ms.topic: reference
@@ -15,135 +15,47 @@ search.appverid:
 ms.assetid: cd3ee09d-58ab-4b8a-8822-fa11a1399672
 ROBOTS: NoIndex
 description: Obtenga respuestas a las preguntas más frecuentes acerca de la búsqueda empresarial y Microsoft Search
-ms.openlocfilehash: 58fb45eec5cc354a6228fb552a3dcda28c2b2367
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 3b30980c76915405767381fb3b6397468bdd1b68
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591507"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639508"
 ---
-# <a name="faqs"></a><span data-ttu-id="37713-103">Preguntas más frecuentes</span><span class="sxs-lookup"><span data-stu-id="37713-103">FAQs</span></span>
+# <a name="frequently-asked-questions"></a><span data-ttu-id="e384c-103">Preguntas más frecuentes</span><span class="sxs-lookup"><span data-stu-id="e384c-103">Frequently asked questions</span></span>
 
-<span data-ttu-id="37713-104">Estas son las preguntas más frecuentes que las organizaciones y los usuarios tienen sobre cómo administrar y usar Microsoft Search.</span><span class="sxs-lookup"><span data-stu-id="37713-104">These are the frequently asked questions that organizations and users have about administering and using Microsoft Search.</span></span>
+<span data-ttu-id="e384c-104">Aquí tiene una lista de las preguntas más frecuentes.</span><span class="sxs-lookup"><span data-stu-id="e384c-104">Here's a list of the most common questions.</span></span>
 
-> [!IMPORTANT]
-> <span data-ttu-id="37713-105">Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing</span><span class="sxs-lookup"><span data-stu-id="37713-105">This article applies to the Microsoft Search in Bing admin portal.</span></span> <span data-ttu-id="37713-106">Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se eliminará.</span><span class="sxs-lookup"><span data-stu-id="37713-106">We’re moving the portal to the Microsoft 365 admin center, and then it will be removed.</span></span> <span data-ttu-id="37713-107">Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar.</span><span class="sxs-lookup"><span data-stu-id="37713-107">We recommend that you use the Microsoft 365 admin center to get started.</span></span> <span data-ttu-id="37713-108">[Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).</span><span class="sxs-lookup"><span data-stu-id="37713-108">Overview of Microsoft Search</span></span>
-  
-## <a name="whats-the-value-proposition-for-microsoft-search"></a><span data-ttu-id="37713-109">¿Cuál es la propuesta de valor para Microsoft Search?</span><span class="sxs-lookup"><span data-stu-id="37713-109">What's the value proposition for Microsoft Search?</span></span>
+> [!TIP]
+> <span data-ttu-id="e384c-105">¿No encuentra aquí una respuesta a su pregunta?</span><span class="sxs-lookup"><span data-stu-id="e384c-105">Don't see your question answered here?</span></span> <span data-ttu-id="e384c-106">Formule su pregunta en el comentario de este artículo.</span><span class="sxs-lookup"><span data-stu-id="e384c-106">Ask your question in this article's feedback.</span></span>
 
-<span data-ttu-id="37713-p102">Microsoft Search es una forma segura para buscar contenido en la web y su trabajo. Este tipo de integración con la web y la empresa solo está disponible con Microsoft. Para obtener información relacionada con el cumplimiento, consulte [Seguridad de Microsoft Search](security.md).</span><span class="sxs-lookup"><span data-stu-id="37713-p102">Microsoft Search is a secure way to search both your work and web content. This kind of integration across web and enterprise is only available with Microsoft. For compliance-related information, see [Security for Microsoft Search](security.md).</span></span>
-  
-## <a name="what-microsoft-search-features-are-available-now"></a><span data-ttu-id="37713-113">¿Qué características de Microsoft Search están disponibles en este momento?</span><span class="sxs-lookup"><span data-stu-id="37713-113">What Microsoft Search features are available now?</span></span>
+## <a name="is-advanced-query-understanding-supported"></a><span data-ttu-id="e384c-107">¿Se ofrece la comprensión de consultas avanzadas?</span><span class="sxs-lookup"><span data-stu-id="e384c-107">Is advanced query understanding supported?</span></span>
 
-<span data-ttu-id="37713-114">Para obtener una lista completa, vea [Características de Microsoft Search](features.md).</span><span class="sxs-lookup"><span data-stu-id="37713-114">For a complete list, see [Features of Microsoft Search](features.md).</span></span>
+<span data-ttu-id="e384c-p102">Sí, Microsoft Search analiza el objetivo de la consulta de frases más grandes. Esta característica usa inteligencia artificial para aprender frases superfluas y comunes que los usuarios agregan a sus consultas y que no afectan a su intención de búsqueda. Por ejemplo, cuando un usuario busca "más información sobre cómo cambiar la contraseña" se extraen las palabras menos importantes de la consulta y se busca con las palabras relevantes como "Cambiar contraseña".</span><span class="sxs-lookup"><span data-stu-id="e384c-p102">Yes, Microsoft Search parses query intent from larger phrases. This feature uses AI to learn common superfluous phrases users add to their queries that don't impact their search intent. For example, when a user searches for 'tell me more about how to change my password please' we extract the less important words from the query and trigger based on the relevant ones like 'change password.'</span></span>
   
-## <a name="does-microsoft-search-support-advanced-query-understanding"></a><span data-ttu-id="37713-115">¿Admite Microsoft Search la descripción de consultas avanzadas?</span><span class="sxs-lookup"><span data-stu-id="37713-115">Does Microsoft Search support advanced query understanding?</span></span>
+<span data-ttu-id="e384c-111">Esta característica no reemplazará el conjunto de palabras clave en el centro de administración.</span><span class="sxs-lookup"><span data-stu-id="e384c-111">This feature will not override keywords set in the Admin portal.</span></span>
+  
+## <a name="can-you-search-for-files-on-premises"></a><span data-ttu-id="e384c-112">¿Puedo buscar archivos locales?</span><span class="sxs-lookup"><span data-stu-id="e384c-112">Can you search for files on-premises?</span></span>
 
-<span data-ttu-id="37713-p103">Sí, Microsoft Search analiza el objetivo de la consulta de frases más grandes. Esta característica usa inteligencia artificial para aprender frases superfluas y comunes que los usuarios agregan a sus consultas y que no afectan a su intención de búsqueda. Por ejemplo, cuando un usuario busca "más información sobre cómo cambiar la contraseña" se extraen las palabras menos importantes de la consulta y se busca con las palabras relevantes como "Cambiar contraseña".</span><span class="sxs-lookup"><span data-stu-id="37713-p103">Yes, Microsoft Search parses query intent from larger phrases. This feature uses AI to learn common superfluous phrases users add to their queries that don't impact their search intent. For example, when a user searches for 'tell me more about how to change my password please' we extract the less important words from the query and trigger based on the relevant ones like 'change password.'</span></span>
+<span data-ttu-id="e384c-113">Sí.</span><span class="sxs-lookup"><span data-stu-id="e384c-113">Yes.</span></span> <span data-ttu-id="e384c-114">Puede buscar archivos locales de SharePoint si tiene una implementación híbrida de SharePoint.</span><span class="sxs-lookup"><span data-stu-id="e384c-114">You can search on-premises SharePoint files if you have a hybrid deployment of SharePoint.</span></span>
   
-<span data-ttu-id="37713-119">Esta característica no reemplazará el conjunto de palabras clave en el portal de administración.</span><span class="sxs-lookup"><span data-stu-id="37713-119">This feature will not override keywords set in the Admin portal.</span></span>
-  
-## <a name="does-microsoft-search-search-for-files-on-premises-as-well-as-the-cloud"></a><span data-ttu-id="37713-120">¿Microsoft Search busca archivos locales además de en la nube?</span><span class="sxs-lookup"><span data-stu-id="37713-120">Does Microsoft Search search for files on-premises as well as the cloud?</span></span>
+## <a name="how-do-i-make-bing-the-default-search-engine-for-people-in-my-org"></a><span data-ttu-id="e384c-115">¿Cómo hago que Bing sea el motor de búsqueda predeterminado para los usuarios de mi organización?</span><span class="sxs-lookup"><span data-stu-id="e384c-115">How do I make Bing the default search engine for people in my org?</span></span>
 
-<span data-ttu-id="37713-p104">Microsoft Search permite buscar documentos que residan en SharePoint Online y OneDrive para la Empresa, así como en SharePoint híbrido local y SharePoint Online para los tipos de archivo más comunes de Office. Si puede buscar contenido local de SharePoint Online, debería poder encontrar contenido local con Microsoft Search.</span><span class="sxs-lookup"><span data-stu-id="37713-p104">Microsoft Search supports searching for documents that live on SharePoint Online, OneDrive for Business, as well as over hybrid on-premises SharePoint and SharePoint Online for the most common Office file types. If you can search on-premises content in SharePoint Online, you should be able to find on-premises content using Microsoft Search.</span></span> 
-  
-## <a name="does-microsoft-search-replace-other-enterprise-search-experiences"></a><span data-ttu-id="37713-123">¿Microsoft Search reemplaza otras experiencias de búsqueda empresarial?</span><span class="sxs-lookup"><span data-stu-id="37713-123">Does Microsoft Search replace other enterprise search experiences?</span></span>
+<span data-ttu-id="e384c-116">Estas instrucciones le guiarán para establecer de forma predeterminada el motor de búsqueda, la página principal y el explorador que ofrezcan a sus usuarios la mejor experiencia con Microsoft Search en Bing:</span><span class="sxs-lookup"><span data-stu-id="e384c-116">Here's the instructions for setting the default search engine, default homepage, and default browser to give your users the best experience with Microsoft Search in Bing:</span></span>
 
-<span data-ttu-id="37713-p105">Microsoft Search es una oferta complementaria que reúne los resultados de varios orígenes. Para más información sobre los orígenes y tipos de archivo admitidos, consulte las preguntas más frecuentes siguientes.</span><span class="sxs-lookup"><span data-stu-id="37713-p105">Microsoft Search is a complementary offering that brings together results from multiple sources. For more information about supported file types and sources, see the next FAQ.</span></span>
-  
-## <a name="what-file-types-and-sources-does-microsoft-search-support"></a><span data-ttu-id="37713-126">¿Qué tipos de archivos y orígenes admite Microsoft Search?</span><span class="sxs-lookup"><span data-stu-id="37713-126">What file types and sources does Microsoft Search support?</span></span>
-
-<span data-ttu-id="37713-127">Se admiten los siguientes orígenes de contenido:</span><span class="sxs-lookup"><span data-stu-id="37713-127">We support the following content sources:</span></span>
-  
-- <span data-ttu-id="37713-128">SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="37713-128">SharePoint Online</span></span>
-    
-- <span data-ttu-id="37713-129">SharePoint híbrido (local y SPO)</span><span class="sxs-lookup"><span data-stu-id="37713-129">Hybrid SharePoint (on-premises + SPO)</span></span>
-    
-- <span data-ttu-id="37713-130">OneDrive para la Empresa</span><span class="sxs-lookup"><span data-stu-id="37713-130">OneDrive for Business</span></span>
-    
-<span data-ttu-id="37713-131">Los siguientes tipos de archivo se muestran en la búsqueda de archivos y aparecen en la pestaña de archivos para usuarios y grupos:</span><span class="sxs-lookup"><span data-stu-id="37713-131">The following file types are surfaced in file search and appear on the Files tab for People and Groups:</span></span>
-  
-- <span data-ttu-id="37713-132">Word</span><span class="sxs-lookup"><span data-stu-id="37713-132">Word</span></span>
-    
-- <span data-ttu-id="37713-133">Excel</span><span class="sxs-lookup"><span data-stu-id="37713-133">Excel</span></span>
-    
-- <span data-ttu-id="37713-134">PowerPoint</span><span class="sxs-lookup"><span data-stu-id="37713-134">PowerPoint</span></span>
-    
-- <span data-ttu-id="37713-135">OneNote</span><span class="sxs-lookup"><span data-stu-id="37713-135">OneNote</span></span>
-    
-- <span data-ttu-id="37713-136">PDF</span><span class="sxs-lookup"><span data-stu-id="37713-136">PDF</span></span>
-    
-## <a name="what-compliance-and-trust-measures-are-in-place-for-microsoft-search"></a><span data-ttu-id="37713-137">¿Cuáles son las medidas de cumplimiento y confianza existentes en Microsoft Search?</span><span class="sxs-lookup"><span data-stu-id="37713-137">What compliance and trust measures are in place for Microsoft Search?</span></span>
-
-<span data-ttu-id="37713-138">Para obtener información sobre las medidas de cumplimiento y confianza, vea [Seguridad de Microsoft Search](security.md).</span><span class="sxs-lookup"><span data-stu-id="37713-138">For information about compliance and trust measures, see [Security for Microsoft Search](security.md).</span></span>
-  
-## <a name="where-can-i-get-info-about-office-365-compliance-tierscategories"></a><span data-ttu-id="37713-139">¿Dónde puedo obtener información sobre los niveles o categorías de cumplimiento de Office 365?</span><span class="sxs-lookup"><span data-stu-id="37713-139">Where can I get info about Office 365 compliance tiers/categories?</span></span>
-
-<span data-ttu-id="37713-140">Encontrará más detalles en el [Marco de cumplimiento para las regulaciones y estándares del sector](https://download.microsoft.com/download/B/2/7/B27B3EF3-8849-4C18-8BA4-5AD755728620/Compliance%20Framework_customer%20guidance.pdf) (descargar PDF).</span><span class="sxs-lookup"><span data-stu-id="37713-140">Details can be found in the [Compliance Framework for Industry Standards and Regulations](https://download.microsoft.com/download/B/2/7/B27B3EF3-8849-4C18-8BA4-5AD755728620/Compliance%20Framework_customer%20guidance.pdf) (PDF download).</span></span> 
-  
-## <a name="how-does-microsoft-search-keep-results-secure"></a><span data-ttu-id="37713-141">¿Cómo protege Microsoft Search los resultados?</span><span class="sxs-lookup"><span data-stu-id="37713-141">How does Microsoft Search keep results secure?</span></span>
-
-<span data-ttu-id="37713-142">Para obtener información sobre cómo Microsoft Search mantiene la seguridad de los resultados, consulte [Seguridad de Microsoft Search](security.md).</span><span class="sxs-lookup"><span data-stu-id="37713-142">For information about how Microsoft Search keeps your results secure, see [Security for Microsoft Search](security.md).</span></span>
-  
-## <a name="what-are-the-content-sources-for-the-people-card"></a><span data-ttu-id="37713-143">¿Cuáles son los orígenes de contenido de la tarjeta de contactos?</span><span class="sxs-lookup"><span data-stu-id="37713-143">What are the content sources for the people card?</span></span>
-
-<span data-ttu-id="37713-144">La tarjeta de contactos deriva información de Azure Active Directory, Exchange Online y SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="37713-144">The people card derives information from Azure Active Directory, Exchange Online, and SharePoint Online.</span></span>
-  
-## <a name="do-microsoft-search-users-earn-microsoft-rewards"></a><span data-ttu-id="37713-145">¿Los usuarios de Microsoft Search ganan Microsoft Rewards?</span><span class="sxs-lookup"><span data-stu-id="37713-145">Do Microsoft Search users earn Microsoft Rewards?</span></span>
-
-<span data-ttu-id="37713-146">Las búsquedas de Microsoft Search no otorgan puntos de Microsoft Rewards y no están asociadas con la cuenta de Microsoft del usuario.</span><span class="sxs-lookup"><span data-stu-id="37713-146">Microsoft Search searches do not earn Rewards points and are never associated with a user's Microsoft account.</span></span>
-  
-## <a name="does-microsoft-search-respect-existing-file-permissions"></a><span data-ttu-id="37713-147">¿Respeta Microsoft Search los permisos de archivo existentes?</span><span class="sxs-lookup"><span data-stu-id="37713-147">Does Microsoft Search respect existing file permissions?</span></span>
-
-<span data-ttu-id="37713-p106">Microsoft Search respeta la restricción de seguridad establecida en el origen. Los usuarios solo pueden ver la información a la que tienen acceso.</span><span class="sxs-lookup"><span data-stu-id="37713-p106">Microsoft Search respects security trimming from the source. Users can only see information they have access to.</span></span>
-  
-## <a name="how-are-user-queries-protected-from-sharing-on-the-web"></a><span data-ttu-id="37713-150">¿Cómo se protegen las consultas de los usuarios de ser compartidas en la web?</span><span class="sxs-lookup"><span data-stu-id="37713-150">How are user queries protected from sharing on the web?</span></span>
-
-<span data-ttu-id="37713-151">Para obtener información sobre cómo se protegen las consultas de usuarios, vea [Seguridad de Microsoft Search](security.md).</span><span class="sxs-lookup"><span data-stu-id="37713-151">For information about how user queries are protected, see [Security for Microsoft Search](security.md).</span></span>
-  
-## <a name="what-types-of-advertising-do-microsoft-search-users-see"></a><span data-ttu-id="37713-152">¿Qué tipo de publicidad ven los usuarios de Microsoft Search?</span><span class="sxs-lookup"><span data-stu-id="37713-152">What types of advertising do Microsoft Search users see?</span></span>
-
-<span data-ttu-id="37713-153">Para obtener información acerca de la publicidad, consulte [Seguridad de Microsoft Search](security.md).</span><span class="sxs-lookup"><span data-stu-id="37713-153">For information about advertising, see [Security for Microsoft Search](security.md).</span></span>
-  
-## <a name="what-are-the-minimum-requirements-to-enable-microsoft-search"></a><span data-ttu-id="37713-154">¿Cuáles son los requisitos mínimos para habilitar Microsoft Search?</span><span class="sxs-lookup"><span data-stu-id="37713-154">What are the minimum requirements to enable Microsoft Search?</span></span>
-
-<span data-ttu-id="37713-155">Para obtener información sobre los requisitos, consulte [Requisitos de Microsoft Search](requirements.md).</span><span class="sxs-lookup"><span data-stu-id="37713-155">For information about requirements, see [Requirements for Microsoft Search](requirements.md).</span></span>
-  
-## <a name="how-does-microsoft-search-use-azure-active-directory"></a><span data-ttu-id="37713-156">¿Cómo usa Microsoft Search Azure Active Directory?</span><span class="sxs-lookup"><span data-stu-id="37713-156">How does Microsoft Search use Azure Active Directory?</span></span>
-
-<span data-ttu-id="37713-p107">Microsoft Search usa Azure Active Directory para autenticar y autorizar el acceso a los datos de su empresa. Microsoft Search cumple con los estándares sobre los procedimientos de control de identidades de todos los productos de Microsoft. Esto significa que los usuarios pueden iniciar sesión automáticamente con el inicio de sesión único.</span><span class="sxs-lookup"><span data-stu-id="37713-p107">Microsoft Search uses Azure Active Directory to authenticate and authorize access to your company's data. Microsoft Search conforms to the identity handling practices standard across all Microsoft products. This means your users may be automatically signed in through single sign-on.</span></span> 
-  
-## <a name="how-do-i-set-bing-as-the-default-search-provider-for-my-users"></a><span data-ttu-id="37713-160">¿Cómo configuro Bing como el proveedor de búsqueda predeterminado para mis usuarios?</span><span class="sxs-lookup"><span data-stu-id="37713-160">How do I set Bing as the default search provider for my users?</span></span>
-
-<span data-ttu-id="37713-161">Para obtener información sobre esto, vea [Establecer motor de búsqueda predeterminado](set-default-search-engine.md), [Establecer página principal predeterminada](set-default-homepage.md), y [Establecer explorador predeterminado](set-default-browser.md).</span><span class="sxs-lookup"><span data-stu-id="37713-161">For information about this, see [Set default search engine](set-default-search-engine.md), [Set default homepage](set-default-homepage.md), and [Set default browser](set-default-browser.md).</span></span>
-  
-## <a name="does-microsoft-search-provide-search-results-across-tenants"></a><span data-ttu-id="37713-162">¿Proporciona Microsoft Search resultados de búsqueda entre distintos espacios empresariales?</span><span class="sxs-lookup"><span data-stu-id="37713-162">Does Microsoft Search provide search results across tenants?</span></span>
-
-<span data-ttu-id="37713-163">No, no se admite el acceso compartido entre espacios empresariales distintos.</span><span class="sxs-lookup"><span data-stu-id="37713-163">No, cross tenant or shared tenant access is not supported.</span></span> 
-  
-## <a name="where-can-i-get-help-with-keywords-and-reserved-keywords"></a><span data-ttu-id="37713-164">¿Dónde puedo obtener ayuda sobre las palabras clave y las palabras clave reservadas?</span><span class="sxs-lookup"><span data-stu-id="37713-164">Where can I get help with keywords and reserved keywords?</span></span>
-
-<span data-ttu-id="37713-165">Para obtener información sobre el uso de las palabras clave y las palabras clave reservadas, vea [Planear el contenido](plan-your-content.md).</span><span class="sxs-lookup"><span data-stu-id="37713-165">For information about using keywords and reserved keywords, see [Plan your content](plan-your-content.md).</span></span>
-  
-## <a name="which-office-365-skus-are-supported"></a><span data-ttu-id="37713-166">¿Qué SKU de Office 365 se admiten?</span><span class="sxs-lookup"><span data-stu-id="37713-166">Which Office 365 SKUs are supported?</span></span>
-
-<span data-ttu-id="37713-167">Para obtener información sobre las SKU compatibles, consulte [Requisitos de Microsoft Search](requirements.md).</span><span class="sxs-lookup"><span data-stu-id="37713-167">For information about supported SKUs, see [Requirements for Microsoft Search](requirements.md).</span></span>
-  
-## <a name="is-microsoft-search-gdpr-compliant"></a><span data-ttu-id="37713-168">¿Cumple Microsoft Search con el RGPD?</span><span class="sxs-lookup"><span data-stu-id="37713-168">Is Microsoft Search GDPR compliant?</span></span>
-
-<span data-ttu-id="37713-169">Encontrará información sobre el cumplimiento del RGPD en [Seguridad de Microsoft Search](security.md).</span><span class="sxs-lookup"><span data-stu-id="37713-169">For information about GDPR compliance, see [Security for Microsoft Search](security.md).</span></span>
-  
-## <a name="why-am-i-signed-into-bing-automatically"></a><span data-ttu-id="37713-170">¿Por qué se inicia mi sesión en Bing automáticamente?</span><span class="sxs-lookup"><span data-stu-id="37713-170">Why am I signed into Bing automatically?</span></span>
-
-<span data-ttu-id="37713-p108">Microsoft Search usa el inicio de sesión único de AAD para iniciar sesión automáticamente con su cuenta profesional o educativa cuando haya iniciado sesión en Windows 10 o una aplicación de Office 365. Puede cerrar sesión en cualquier momento.</span><span class="sxs-lookup"><span data-stu-id="37713-p108">Microsoft Search uses AAD single sign-on to automatically sign you in with your work or school account when you've signed in to an Office 365 app, or Windows 10. You can sign out at any time.</span></span>
-  
-## <a name="what-is-bing-for-business"></a><span data-ttu-id="37713-173">¿Qué es Bing para la Empresa?</span><span class="sxs-lookup"><span data-stu-id="37713-173">What is Bing for business?</span></span>
-
-<span data-ttu-id="37713-174">Microsoft Search anteriormente se llamaba Bing para la Empresa.</span><span class="sxs-lookup"><span data-stu-id="37713-174">Microsoft Search was previously called Bing for business.</span></span>
-  
-## <a name="how-does-microsoft-search-order-result-cards-in-the-all-results-carousel"></a><span data-ttu-id="37713-175">¿Cómo ordena Microsoft Search las tarjetas de resultados en el carrusel de Todos los resultados?</span><span class="sxs-lookup"><span data-stu-id="37713-175">How does Microsoft Search order result cards in the All results carousel?</span></span>
-
-<span data-ttu-id="37713-176">Microsoft Search utiliza algoritmos de clasificación inteligente para ordenar las tarjetas de resultados según su relevancia.</span><span class="sxs-lookup"><span data-stu-id="37713-176">Microsoft Search uses intelligent ranking algorithms to order result cards based on relevance.</span></span>
+- [<span data-ttu-id="e384c-117">Establezca Edge como el navegador predeterminado</span><span class="sxs-lookup"><span data-stu-id="e384c-117">Set Edge as your default browser</span></span>](set-default-browser.md)
+- [<span data-ttu-id="e384c-118">Establezca Bing como el motor de búsqueda predeterminado</span><span class="sxs-lookup"><span data-stu-id="e384c-118">Make Bing your default search engine</span></span>](set-default-search-engine.md)
+- [<span data-ttu-id="e384c-119">Establezca Bing.com como la página principal de la empresa</span><span class="sxs-lookup"><span data-stu-id="e384c-119">Set Bing.com as your enterprise homepage</span></span>](set-default-homepage.md)
 
   
+## <a name="how-are-my-search-results-protected"></a><span data-ttu-id="e384c-120">¿Cómo se protegen mis resultados de búsqueda?</span><span class="sxs-lookup"><span data-stu-id="e384c-120">How are my search results protected?</span></span>
 
+<span data-ttu-id="e384c-121">Para poder acceder a los resultados de la nube de confianza, se requiere la autenticación de Azure Active Directory (ADD).</span><span class="sxs-lookup"><span data-stu-id="e384c-121">We require Azure Active Directory (AAD) authentication to access results from the Trusted Cloud.</span></span> <span data-ttu-id="e384c-122">Los usuarios autenticados solo verán el contenido al que tengan acceso.</span><span class="sxs-lookup"><span data-stu-id="e384c-122">Authenticated users only see content they have access to.</span></span> <span data-ttu-id="e384c-123">Las consultas de búsqueda son no identificables y los registros se separan del tráfico de búsqueda público de Bing.</span><span class="sxs-lookup"><span data-stu-id="e384c-123">Search queries are de-identified and logs are separated from public Bing search traffic.</span></span> <span data-ttu-id="e384c-124">Este nivel de protección no está disponible en ningún otro lugar del sector.</span><span class="sxs-lookup"><span data-stu-id="e384c-124">This level of protection is unavailable anywhere else in the industry.</span></span>
+
+## <a name="can-i-search-across-federated-organizations"></a><span data-ttu-id="e384c-125">¿Puedo buscar en organizaciones federadas?</span><span class="sxs-lookup"><span data-stu-id="e384c-125">Can I search across federated organizations?</span></span>
+
+<span data-ttu-id="e384c-126">No.</span><span class="sxs-lookup"><span data-stu-id="e384c-126">No.</span></span>
+
+## <a name="where-can-i-get-info-about-office-365-and-microsoft-365-compliance-tiers-and-categories"></a><span data-ttu-id="e384c-127">¿Dónde puedo obtener información sobre los niveles o categorías de cumplimiento de Office 365 y Microsoft 365?</span><span class="sxs-lookup"><span data-stu-id="e384c-127">Where can I get info about Office 365 and Microsoft 365 compliance tiers and categories?</span></span>
+
+<span data-ttu-id="e384c-128">Encontrará más detalles en el [Marco de cumplimiento para las regulaciones y estándares del sector](https://download.microsoft.com/download/B/2/7/B27B3EF3-8849-4C18-8BA4-5AD755728620/Compliance%20Framework_customer%20guidance.pdf) (descargar PDF).</span><span class="sxs-lookup"><span data-stu-id="e384c-128">Details can be found in the [Compliance Framework for Industry Standards and Regulations](https://download.microsoft.com/download/B/2/7/B27B3EF3-8849-4C18-8BA4-5AD755728620/Compliance%20Framework_customer%20guidance.pdf) (PDF download).</span></span>
