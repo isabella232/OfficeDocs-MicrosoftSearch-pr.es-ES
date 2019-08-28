@@ -14,20 +14,22 @@ search.appverid:
 - MET150
 - MOE150
 description: Cree marcadores, ubicaciones y preguntas y respuestas para hacer fácil de encontrar el contenido de su organización.
-ms.openlocfilehash: 851f88206d7f8e0330497c9706b02ad98e0f8e6c
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: a2f8018a85d792473f268a735abb368babfc582c
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591570"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639860"
 ---
 # <a name="make-content-easy-to-find"></a>Haga el contenido fácil de encontrar
-****Búsqueda de Microsoft**** ayuda a los usuarios a encontrar contenido relevante. **Búsqueda de Microsoft** es una forma segura de realizar búsquedas de contenido en su intranet y en la web. Este tipo de integración a través de la web y la organización está disponible únicamente con Microsoft. 
+
+Búsqueda de Microsoft ayuda a los usuarios a encontrar contenido relevante. Búsqueda de Microsoft es una forma segura de realizar búsquedas de contenido en su intranet y en la web. Este tipo de integración a través de la web y la organización está disponible únicamente con Microsoft. 
 
 Los administradores de búsqueda usan sus conocimientos sobre la organización y sus usuarios para facilitar a los usuarios encontrar contenido relevante. 
 
 ## <a name="step-1-identify-information-your-users-need"></a>Paso 1: Identifique la información que los usuarios necesitan
 Descubra lo que los usuarios buscan y haga que sea fácil de descubrir. Aquí tiene algunas ideas para averiguar la información que los usuarios necesitan: 
+
 - Use los registros de búsqueda de intranet para determinar los sitios y páginas que obtienen la mayor parte del tráfico.
 - Determine las herramientas, sitios y aplicaciones que se usan de forma diaria o semanal.
 - Busque vínculos directos a prestaciones para empleados.
@@ -49,13 +51,13 @@ Recurra a los expertos disponibles en la organización, en áreas como recursos 
 Pida a los usuarios que sugieran recursos para los marcadores. Además de sugerir contenido, pueden informar sobre errores, como vínculos perdidos o no válidos, así como proporcionar otros comentarios
 
 ## <a name="step-3-improve-findability-of-content"></a>Paso 3: Mejorar la facilidad de búsqueda del contenido 
-En **Búsqueda de Microsoft**, el administrador de búsqueda crea marcadores, preguntas y respuestas, ubicaciones y PowerApps para mejorar la facilidad de búsqueda del contenido. Cada uno de estos componentes incluye un título, una dirección URL y un conjunto de palabras clave que lo activan.
+En Búsqueda de Microsoft, el administrador de búsqueda crea marcadores, preguntas y respuestas, ubicaciones y PowerApps para mejorar la facilidad de búsqueda del contenido. Cada uno de estos componentes incluye un título, una dirección URL y un conjunto de palabras clave que lo activan.
 
 ### <a name="titles-and-descriptions"></a>Títulos y descripciones
 Las personas usan los títulos y descripciones para determinar si los resultados responden a su consulta o si es necesario probar una búsqueda diferente. Los títulos y descripciones deben reflejar la finalidad principal del resultado. Un buen ejemplo de un título podría ser "Beneficios de guardería", con una descripción de "Más información sobre los beneficios para ayudar con los gastos de guardería". Esto informa a los usuarios que buscan "guardería" que existen beneficios de soporte económico disponibles y les proporciona un vínculo para obtener más información. 
 
 ### <a name="keywords"></a>Palabras clave
-Las palabras clave son los términos que usan las personas de su organización para buscar contenido relevante. Asociar las palabras clave adecuadas a los resultados de búsqueda facilita encontrar el contenido relevante. **Búsqueda de Microsoft** sugiere palabras clave a partir del título y la dirección URL de su contenido. Para identificar palabras clave adicionales, empiece respondiendo a estas preguntas:
+Las palabras clave son los términos que usan las personas de su organización para buscar contenido relevante. Asociar las palabras clave adecuadas a los resultados de búsqueda facilita encontrar el contenido relevante. Búsqueda de Microsoft sugiere palabras clave a partir del título y la dirección URL de su contenido. Para identificar palabras clave adicionales, empiece respondiendo a estas preguntas:
 
 1. ¿Qué términos de búsqueda se usan para encontrar la información que ha identificado?
 1. Aproveche las taxonomías existentes de su organización, así como los temas, acrónimos y variaciones relacionados.
@@ -65,15 +67,15 @@ Las palabras clave son los términos que usan las personas de su organización p
 Por ejemplo, si está creando un resultado que se vincula a una herramienta para enviar solicitudes de vacaciones, palabras clave como "vacaciones" y "enviar la solicitud de vacaciones" son buenas opciones para incluirlas. También es posible que los usuarios de su organización usar "vacación" o "tiempo libre" para describir o buscar información relacionada con vacaciones. Agregar palabras como "vacaciones", "permiso", "enviar solicitud de vacaciones" y "solicitar permiso" facilita que más usuarios encuentren el contenido relevante.
 
 ### <a name="reserved-keywords"></a>Palabras clave reservadas
- Una palabra reservada es un término único o una frase que desencadena un resultado. A diferencia de otras palabras clave, una palabra clave se puede asociar con un único resultado. Use las palabras reservadas con moderación para permitir que **Búsqueda de Microsoft** aprenda en función del uso.
+ Una palabra reservada es un término único o una frase que desencadena un resultado. A diferencia de otras palabras clave, una palabra clave se puede asociar con un único resultado. Use las palabras reservadas con moderación para permitir que Búsqueda de Microsoft aprenda en función del uso.
 
-Por ejemplo, si crea un marcador para un sitio para enviar sus horas y agrega "registro" como palabra clave, los usuarios de su organización que busquen "registro de tiempo" verán el sitio para enviar sus horas como el único marcador en el cuadro de **Búsqueda de Microsoft**. 
+Por ejemplo, si crea un marcador para un sitio para enviar sus horas y agrega "registro" como palabra clave, los usuarios de su organización que busquen "registro de tiempo" verán el sitio para enviar sus horas como el único marcador en el cuadro de Búsqueda de Microsoft. 
 
 ### <a name="using-keyword-to-group-related-content"></a>Usar la palabra clave para grupos contenido relacionado
 Si desea que los usuarios encuentren conjuntos de contenido relacionado cuando busquen un término, pruebe a usar la misma palabra clave para todo el contenido relacionado. Por ejemplo, si va a agregar resultados acerca de procesos y herramientas de cambios de estado de vida, podría incluir una palabra clave como "matrimonio" para agrupar los resultados sobre las actualizaciones de beneficios, información de impuestos y cambios de nombre y alias.
 
 ### <a name="search-settings"></a>Configuración de búsqueda
-Use la configuración de búsqueda para ajustar el contenido y los grupos de usuarios destinatarios específicos. **Búsqueda de Microsoft** tiene los siguientes ajustes que proporcionan más control sobre cuándo se muestra un resultado de búsqueda y quién lo ve.
+Use la configuración de búsqueda para ajustar el contenido y los grupos de usuarios destinatarios específicos. Búsqueda de Microsoft tiene los siguientes ajustes que proporcionan más control sobre cuándo se muestra un resultado de búsqueda y quién lo ve.
 
 - **Fechas:** establezca una fecha de inicio y una fecha de finalización para controlar cuándo el contenido estará disponible o no disponible. Por ejemplo, el tiempo durante el cual el material confidencial aparecerá en los resultados de búsqueda cuando sea relevante.
 - **País/región:** Seleccione los países o regiones, de modo que solo los usuarios en estas ubicaciones puedan ver el contenido. Por ejemplo, la información específica de país aparecerá solo en los resultados de búsqueda en estos países.
@@ -100,11 +102,11 @@ Es importante que la información relevante como marcadores y preguntas y respue
 ## <a name="bookmarks"></a>Marcadores
 Puede crear un marcador en unos pocos pasos. Cada marcador incluye un título, una dirección URL y un conjunto de palabras clave que lo desencadenan. Un marcador puede contener varias palabras clave y distintos marcadores pueden compartir la misma palabra clave, pero no se pueden compartir las palabras clave reservadas. Al crear o modificar un marcador, el índice de búsqueda se actualiza inmediatamente y el marcador está inmediatamente disponible para los usuarios.
 
-Si su organización tiene resultados promocionados configurados en SharePoint, puede importar los resultados promocionados en**Búsqueda de Microsoft** y hacer que el contenido importado esté disponible para los usuarios. Esta es una forma sencilla de rellenar rápidamente los resultados de búsqueda tan pronto como **Búsqueda de Microsoft** esté configurado y hacerlo más eficaz para los usuarios. Le recomendamos que use los resultados promocionados de SharePoint como referencia para comprender cómo nombrar y crear resultados de búsqueda relevantes. 
+Si su organización tiene resultados promocionados configurados en SharePoint, puede importar los resultados promocionados en Búsqueda de Microsoft y hacer que el contenido importado esté disponible para los usuarios. Esta es una forma sencilla de rellenar rápidamente los resultados de búsqueda tan pronto como Búsqueda de Microsoft esté configurado y hacerlo más eficaz para los usuarios. Le recomendamos que use los resultados promocionados de SharePoint como referencia para comprender cómo nombrar y crear resultados de búsqueda relevantes. 
 
 ### <a name="add-or-edit-a-single-bookmark"></a>Agregar o modificar un marcador único
 1. Vaya al **Centro de administración de Microsoft 365**.
-1. En el panel de navegación, vaya a **Configuración** y, a continuación, seleccione ****Búsqueda de Microsoft****.
+1. En el panel de navegación, vaya a **Configuración** y, a continuación, seleccione **Búsqueda de Microsoft**.
 De forma predeterminada, la ficha **Marcadores** aparece seleccionada.
 1. Para agregar un marcador, seleccione **Agregar nuevo**. Para modificar un marcador, seleccione el marcador en la lista de marcadores relevantes. 
 1. Al agregar o editar la información, la vista previa se actualizará automáticamente.
@@ -143,6 +145,7 @@ Estos son algunos puntos importantes a tener en cuenta en relación con el archi
 - Para organizaciones con múltiples cuentas empresariales, se pueden exportar los marcadores de una cuenta empresarial e importarlos en otra. Sin embargo, debe eliminar los datos de la columna *Id* antes de la importación.
 
 #### <a name="prevent-import-errors"></a>Evitar errores de importación
+
 Si hay datos obligatorios que faltan o no son válidos, recibirá un mensaje de error y se generará un archivo de registro con información adicional acerca de las filas y columnas que se deben corregir. Realice cualquier cambio necesario y pruebe a importar de nuevo el archivo. No puede importar o guardar los marcadores hasta que se hayan solucionado todos los errores.
 
 Para evitar errores, asegúrese de que el archivo de importación tiene el formato adecuado y de que:
@@ -152,9 +155,11 @@ Para evitar errores, asegúrese de que el archivo de importación tiene el forma
 - La columna *Estado* no está vacía, puesto que esta información es necesaria
 
 ### <a name="powerapps"></a>PowerApps
+
 Ayude a los usuarios a realizar tareas, como marcar las fechas de las vacaciones o registrar informes de gastos, añadiendo PowerApps existentes a los marcadores. 
 
 #### <a name="what-are-powerapps"></a>¿Qué son las PowerApps?
+
 PowerApps es un servicio que le permite crear aplicaciones empresariales que funcionan en un explorador o en una tableta o teléfono sin necesidad de tener conocimientos de programación. Las PowerApps funcionan en cualquier explorador y en cualquier dispositivo y se agregan en menos de un minuto. Para obtener más información sobre PowerApps, consulte:
 - 
   [Aprendizaje guiado](https://docs.microsoft.com/es-ES/learn/browse/?products=powerapps)
@@ -163,6 +168,7 @@ PowerApps es un servicio que le permite crear aplicaciones empresariales que fun
 - [Inicio de PowerApps](https://make.preview.powerapps.com/environments/839eace6-59ab-4243-97ec-a5b8fcc104e4/home)
 
 #### <a name="add-a-powerapp-to-a-bookmark"></a>Agregar una PowerApp a un marcador
+
 1. Busque el [ID de la PowerApp](https://docs.microsoft.com/es-ES/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) que desea agregar.
 1. Inicie sesión en el **Centro de administración de Microsoft 365**.
 1. En el panel de navegación, vaya a **Configuración** y, a continuación, seleccione **Búsqueda de Microsoft**.
@@ -173,9 +179,11 @@ PowerApps es un servicio que le permite crear aplicaciones empresariales que fun
 1. Seleccione **Publicar** o **Guardar como borrador**.
 
 ## <a name="qa"></a>Preguntas y respuestas
+
 Crear un preguntas y respuestas es similar a crear marcadores. Preguntas y respuestas le permiten responder a la pregunta del usuario en lugar de limitarse a proporcionar un vínculo a una página web. Puede dar formato a la respuesta con texto enriquecido mediante las herramientas disponibles. Si un marcador y una pregunta y respuesta comparten la misma palabra clave, se mostrará primero el resultado del marcador. Al igual que los marcadores, el índice de preguntas y respuestas se actualiza inmediatamente después de añadir o modificar una pregunta y respuesta. 
 
 ### <a name="add-or-edit-a-single-qa"></a>Agregar o modificar una pregunta y respuesta única
+
 1. Vaya al **Centro de administración de Microsoft 365**.
 1. En el panel de navegación, vaya a **Configuración** y seleccione **Búsqueda de Microsoft**.
 1. Seleccione la ficha de **preguntas y respuestas**. De forma predeterminada, aparece seleccionada la primera ficha (**Marcadores**)
@@ -185,8 +193,9 @@ Para editar una pregunta y respuesta, selecciónela en la lista de preguntas y r
 1. Guarde los cambios.
 
 #### <a name="supported-html-tags"></a>Etiquetas HTML compatibles
-Puede usar el contenido HTML existente o agregar etiquetas HTML a la respuesta (descripción). Las etiquetas no compatibles se ignoran.  
-Se admiten las siguientes etiquetas HTML:
+
+Puede usar el contenido HTML existente o agregar etiquetas HTML a la respuesta (descripción). Admitimos estas etiquetas HTML:
+ 
 - blockquote
 - div
 - em
@@ -204,15 +213,20 @@ Se admiten las siguientes etiquetas HTML:
 - hr
 - img
 
+Las etiquetas que no se admiten se omitirán o se mostrarán como texto. Asegúrese de que obtiene una vista previa de las tarjetas.
+
 ### <a name="bulk-add-or-edit-qa"></a>Agregar o editar preguntas y respuestas en bloque
+
 Los administradores pueden usar las características de Importar o Exportar para crear o editar preguntas y respuestas en bloque. Esta es una característica muy útil cuando los administradores deben agregar o editar un gran número de preguntas y respuestas. 
 
-Use la característica importar o exportar para:
-1. Agregar preguntas y respuestas en bloque: introduzca la información en el archivo de plantilla de preguntas y respuestas y, a continuación, impórtelo.
-1. Editar preguntas y respuestas en bloque: exporte las preguntas y respuestas a un archivo CSV; a continuación, edite la información de las preguntas y respuestas en el archivo CSV exportado e importe el archivo CSV.
-1. Copia de seguridad de preguntas y respuestas: exporte las preguntas y respuestas a un archivo CSV.
+Use las características de importación y exportación para:
+
+- Agregar elementos de preguntas y respuestas en bloque: agregue la información en el archivo de plantilla de preguntas y respuestas y, después, impórtelo.
+- Editar elementos de preguntas y respuestas en bloque: exporte las preguntas y respuestas a un archivo .csv. Luego, edite la información de preguntas y respuestas en el archivo exportado e impórtelo.
+- Realizar una copia de seguridad de elementos de preguntas y respuestas: exporte las preguntas y respuestas a un archivo .csv.
 
 Para importar o exportar preguntas y respuestas:
+
 1. En la esquina superior derecha de la pestaña Preguntas y respuestas, seleccione **Importar**. Seleccione **Exportar** para descargar todas las preguntas y respuestas existentes en un archivo CSV.
 1. En el panel derecho, elija la opción Importar mediante archivo CSV.
 Descargue el archivo de plantilla para obtener una lista de la información y los campos requeridos. 
@@ -221,6 +235,7 @@ Descargue el archivo de plantilla para obtener una lista de la información y lo
 1. Seleccione **Importar**.
 
 Estos son algunos puntos importantes en relación con el archivo de plantilla:
+
 - Nunca modifique los datos de los campos: *Id*, *última modificación* y *modificado por*
 - Si incluye el *Id* de un marcador, este se reemplazará con la información del archivo de importación.
 - Si ya existe un marcador con el mismo título o dirección URL, el marcador se actualizará con la información del archivo de importación.
@@ -228,14 +243,16 @@ Estos son algunos puntos importantes en relación con el archivo de plantilla:
 - En función del campo Estado, los marcadores se guardarán como borradores, sugeridos o programados, o se publicarán automáticamente.
 - Para organizaciones con múltiples cuentas empresariales, se pueden exportar los marcadores de una cuenta empresarial e importarlos en otra. Sin embargo, debe eliminar los datos de la columna *Id* antes de la importación.
 
-**Nota:** no puede importar preguntas y respuestas si hay cualquier error en el archivo de plantilla. Para evitar errores, asegúrese de que el archivo de importación está correctamente formateado y contiene toda la información necesaria. 
+**Nota:** no puede importar elementos de preguntas y respuestas si hay cualquier error en el archivo de plantilla. Para evitar errores, asegúrese de que el archivo de importación está correctamente formateado y contiene toda la información necesaria. 
 
 Para obtener más información sobre cómo evitar errores, consulte [Evitar errores de importación](#prevent-import-errors).
 
-## <a name="location"></a>Ubicación
-La ubicación permite a los usuarios buscar direcciones y localizar edificios de su organización proporcionando una ubicación exacta de oficinas, campus y edificios, junto con indicaciones para llegar a ellos. Los administradores deben agregar todas las ubicaciones importantes de su organización. A diferencia de los marcadores y las preguntas y respuestas, el índice no se actualiza inmediatamente y pueden transcurrir varias horas hasta que las ubicaciones nuevas o modificadas aparezcan en los resultados de búsqueda.
+## <a name="locations"></a>Ubicaciones
+
+Ubicaciones permiten a los usuarios buscar direcciones y localizar edificios de su organización proporcionando una ubicación exacta de oficinas, campus y edificios, junto con indicaciones para llegar a ellos. Los administradores deben agregar todas las ubicaciones importantes de su organización. A diferencia de los marcadores y las preguntas y respuestas, el índice no se actualiza inmediatamente y pueden transcurrir varias horas hasta que las ubicaciones nuevas o modificadas aparezcan en los resultados de búsqueda.
 
 ### <a name="add-or-edit-a-single-location"></a>Agregar o modificar una ubicación única
+
 1. Vaya al **Centro de administración de Microsoft 365**.
 1. En el panel de navegación, vaya a **Configuración** y seleccione **Búsqueda de Microsoft**.
 1. Seleccione la ficha **Ubicaciones**. De forma predeterminada, está seleccionada la ficha **Marcadores** en la página de **Búsqueda de Microsoft**.
@@ -245,14 +262,17 @@ La ubicación permite a los usuarios buscar direcciones y localizar edificios de
 1. Guarde los cambios.
 
 ### <a name="bulk-add-or-edit-locations"></a>Agregar o editar ubicaciones en bloque
+
 Los administradores pueden usar las características de Importar o Exportar para crear o editar ubicaciones en bloque. 
 
 Use la característica importar o exportar para:
-1. Agregar ubicaciones en bloque: introduzca la información en el archivo de plantilla de ubicaciones y, a continuación, impórtelo. 
-1. Editar ubicaciones en bloque: exporte las ubicaciones a un archivo CSV; a continuación, edite la información de las ubicaciones en el archivo CSV exportado e importe el archivo CSV actualizado.
-1. Copia de seguridad de las ubicaciones: exporte las ubicaciones existentes a un archivo CSV.
+
+- Agregar ubicaciones en bloque: introduzca la información en el archivo de plantilla de ubicaciones y, a continuación, impórtelo. 
+- Editar ubicaciones en bloque: exporte las ubicaciones a un archivo CSV; a continuación, edite la información de las ubicaciones en el archivo CSV exportado e importe el archivo CSV actualizado.
+- Copia de seguridad de las ubicaciones: exporte las ubicaciones existentes a un archivo CSV.
 
 Para exportar o importar ubicaciones:
+
 1. En la esquina superior derecha de la pestaña **Ubicaciones**, seleccione **Importar**.
 Seleccione **Exportar** para descargar todas las ubicaciones existentes en un archivo CSV.
 1. En el panel derecho, elija la opción Importar mediante archivo CSV. Descargue el archivo de plantilla para obtener una lista de la información y los campos requeridos.
@@ -261,6 +281,7 @@ Seleccione **Exportar** para descargar todas las ubicaciones existentes en un ar
 1. Seleccione **Importar**.
 
 Estos son algunos puntos importantes en relación con el archivo de plantilla:
+
 - Nunca modifique los datos de los campos: *Id*, *última modificación* y *modificado por*
 - Si incluye el *Id* de un marcador, este se reemplazará con la información del archivo de importación.
 - Si ya existe un marcador con el mismo título o dirección URL, el marcador se actualizará con la información del archivo de importación.
@@ -273,10 +294,13 @@ Estos son algunos puntos importantes en relación con el archivo de plantilla:
 Para obtener más información sobre cómo evitar errores, consulte [Evitar errores de importación.](#prevent-import-errors)
 
 ## <a name="review-and-update-bookmarks-qa-and-locations"></a>Revisar y actualizar marcadores, preguntas y respuestas, y ubicaciones
-**Búsqueda de Microsoft** proporciona estadísticas de uso de marcadores, preguntas y respuestas, y ubicaciones. Las estadísticas de uso muestran las interacciones de los usuarios con sus resultados de búsqueda, así como si han encontrado lo que buscaban o ha habido lagunas en el contenido disponible. Esto ayuda al administrador a la hora de supervisar el rendimiento y emprender las acciones necesarias para ajustar los resultados de búsqueda. 
+
+ Búsqueda de Microsoft proporciona estadísticas de uso de marcadores, preguntas y respuestas, y ubicaciones. Las estadísticas de uso muestran las interacciones de los usuarios con sus resultados de búsqueda, así como si han encontrado lo que buscaban o ha habido lagunas en el contenido disponible. Esto ayuda al administrador a la hora de supervisar el rendimiento y emprender las acciones necesarias para ajustar los resultados de búsqueda. 
 
 ### <a name="get-details-about-bookmarks-qa-and-locations"></a>Obtener información acerca de marcadores, preguntas y respuestas, y ubicaciones
+
 Consulte cuántos marcadores, preguntas y respuestas, y ubicaciones se han publicado, programado o sugerido. Utilice el panel de control para ver los totales de marcadores, preguntas y respuestas o ubicaciones por estado:
+
 - **Publicados**: el número de resultados publicados que están disponibles para los usuarios
 - **Programados**: el número de resultados programados en el proceso de publicación
 - **Sugeridos**: el número de sugerencias de los usuarios
@@ -284,11 +308,13 @@ Consulte cuántos marcadores, preguntas y respuestas, y ubicaciones se han publi
 Los marcadores, preguntas y respuestas, y ubicaciones sugeridos son un buen indicador de la existencia de lagunas en su contenido. Le ayudarán a comprender lo que buscan los usuarios y lo que no encuentran. Esto podría indicar que necesita crear más marcadores, preguntas y respuestas o ubicaciones, o que necesita actualizar su contenido actual mediante mejores palabras clave, palabras clave reservadas y cadenas de búsqueda para mejorar la facilidad de encontrar el contenido.
 
 ### <a name="review-top-search-queries"></a>Revise las consultas de búsqueda más populares
+
 Descubra las búsquedas que han generado más impresiones durante los últimos 90 días. Las impresiones hacen referencia al número de veces que se muestra una página en el resultado de búsqueda. La tarjeta **Consultas principales** muestra las 25 búsquedas principales para cada tipo de resultado, junto con el número total de impresiones y su tasa de clics (CTR). Utilice este informe para identificar volúmenes de consultas y para identificar las consultas con niveles altos y bajos de actividad. 
 
 Un bajo recuento de búsquedas puede indicar insatisfacción del usuario porque no busca ese contenido o porque utiliza palabras clave diferentes para encontrar ese contenido. La CTR muestra la frecuencia con la que los usuarios seleccionan los resultados promovidos y el nivel de utilidad de sus reglas de consulta y sus resultados para los usuarios. Una baja CTR indica que los usuarios encuentran el contenido, pero deciden que el contenido no se ajusta a sus búsquedas. En estos casos, los administradores pueden revisar el contenido y asegurarse de que se corresponde con las búsquedas del usuario, así como actualizar títulos, descripciones y palabras clave para coincidir con las consultas de búsqueda de los usuarios. 
 
 ### <a name="analyze-impressions-by-result-type"></a>Analizar impresiones por tipo de resultado.
-Los gráficos de fácil lectura de la tarjeta **Distribución de impresiones por tipo de resultado** muestran los datos de impresiones en distintos intervalos de tiempo. Los intervalos de tiempo muestran el número diario de impresiones para un tipo de resultado. Identifique el tipo de resultado que se usa con mayor o con menor frecuencia. Un uso poco frecuente de un tipo de resultado concreto no significa necesariamente que los tipos de resultado no sean apropiados. Únicamente indica cómo utilizan los usuarios los resultados de búsqueda.
+
+Los gráficos de fácil lectura de la tarjeta **Distribución de impresiones por tipo de resultado** muestran los datos de impresiones en distintos intervalos de tiempo. La escala de tiempo muestra el número diario de impresiones para un tipo de resultado. Identifique el tipo de resultado que se usa con mayor o con menor frecuencia. Un uso poco frecuente de un tipo de resultado concreto no significa necesariamente que los tipos de resultado no sean apropiados. Únicamente indica cómo utilizan los usuarios los resultados de búsqueda.
 
 Utilice este informe para comprender qué tipos de resultado utilizan los usuarios, así como eventuales cambios en el comportamiento de los usuarios durante un determinado período de tiempo. Si un tipo de resultado concreto es preferido por los usuarios, los administradores pueden decidir crear más resultados de búsqueda de los mismos tipos o revisar las palabras clave de tipos de resultados no utilizados por los usuarios para asegurarse de que dichas palabras clave son adecuadas.
