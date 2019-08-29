@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: 5861e462-faed-4c3d-824d-ed3aafd80714
 ROBOTS: NoIndex
 description: Las características principales de Microsoft Search para administradores y usuarios finales incluyen marcadores, preguntas y respuestas e información detallada de administración y datos
-ms.openlocfilehash: a0c9dc773ce7e11c446437cbcbcdc56014a4fe5e
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 2bcc922e6f9915494434098d6418dcceea264354
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591489"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639644"
 ---
 # <a name="features-of-microsoft-search"></a>Características de Microsoft Search
 
 > [!IMPORTANT]
-> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se eliminará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).
+> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos pasando el portal al Centro de administración de Microsoft 365. Luego, se quitará el portal de Búsqueda de Microsoft en Bing. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).
 
 ## <a name="key-admin-features-include"></a>Las características de administración principales incluyen:
 
