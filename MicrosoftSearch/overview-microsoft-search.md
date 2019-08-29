@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenga una visión general de lo que es Búsqueda de Microsoft, sus ventajas y las aplicaciones que tienen Búsqueda de Microsoft en la actualidad.
-ms.openlocfilehash: d16066c941bb5c3619d7fd50e9cf33952216fb87
-ms.sourcegitcommit: a7ca4c38d37fbdec58e002e42d865188939d0483
+ms.openlocfilehash: 339b3d6350fa059ddc4dc24685e18739777bf932
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2019
-ms.locfileid: "35003141"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639590"
 ---
 # <a name="overview-of-microsoft-search"></a>Introducción a Búsqueda de Microsoft
 
@@ -62,8 +62,9 @@ Si las sugerencias del cuadro de búsqueda no son lo que se está buscando, **En
 
 ## <a name="apps-that-currently-have-microsoft-search"></a>Aplicaciones que cuentan actualmente con Búsqueda de Microsoft
 
- Las siguientes aplicaciones de Office 365 ofrecen actualmente Búsqueda de Microsoft:
+ La Búsqueda de Microsoft está activada de forma predeterminada para todas las aplicaciones de Microsoft compatibles. Todo lo que necesita hacer el usuario es iniciar sesión con una cuenta profesional o educativa.
 
+Las siguientes aplicaciones ofrecen actualmente Búsqueda de Microsoft:
 - SharePoint Online
 - OneDrive para la Empresa
 - Outlook en la Web
@@ -71,15 +72,15 @@ Si las sugerencias del cuadro de búsqueda no son lo que se está buscando, **En
 
 Además, los usuarios disponen de Búsqueda de Microsoft en:
 
-- Bing
+- Página principal de Bing
 - Office.com
 - Las páginas de inicio de Word, Excel y PowerPoint Online
 
-Los usuarios también pueden iniciar una búsqueda en Bing desde la barra de direcciones de Edge.
+Los usuarios también pueden iniciar una búsqueda en Bing desde la barra de direcciones perimetral, si usan Bing como motor de búsqueda predeterminado.
 
 ## <a name="requirements"></a>Requisitos
 
-Su organización debe tener un inquilino de Office 365 con una de las siguientes suscripciones:
+Debe tener uno de los siguientes suscripciones de Office 365 o Microsoft 365:
 
 - Office 365 Empresa Essentials o Empresa Premium
 - Office 365 A1/A3/A5
@@ -90,11 +91,11 @@ Su organización debe tener un inquilino de Office 365 con una de las siguientes
 - Microsoft 365 A3/A5
 - Microsoft 365 F1/E3/E5
 
-Tanto los usuarios y como los administradores de búsqueda deben tener una licencia con una de estas suscripciones. Solo los usuarios con cuentas activas pueden usar Búsqueda de Microsoft y deben haber **iniciado sesión**.
+Los usuarios y los administradores de búsqueda deben tener asignada esta licencia. Solo los usuarios con cuentas activas pueden usar Búsqueda de Microsoft y deben haber **Iniciado sesión**, ya que Microsoft Search requiere Azure Active Directory
 
 ## <a name="tailoring-microsoft-search-to-your-organization"></a>Personalizar Búsqueda de Microsoft para su organización
 
-Como administrador, puede facilitar a los usuarios obtener resultados adecuados específicos para la organización cuando buscan desde su página de inicio de SharePoint, Office.com o Bing. Búsqueda de Microsoft se administra en el Centro de administración de Microsoft 365.
+Como administrador, puede facilitar a los usuarios obtener resultados adecuados específicos para la organización cuando buscan desde su página de inicio de SharePoint, Office.com o Bing. Para ello, debe definir las respuestas que Búsqueda de Microsoft mostrará en respuesta a determinadas palabras clave en las consultas. Hay varios tipos de respuestas entre las que puede elegir. 
 
 **Mostrar contenido útil**: ayude a los usuarios a buscar herramientas y recursos importantes de la organización mediante marcadores. Al igual que puede crear un marcador en una página web pública, puede crear un marcador para cualquier página web interna que sus usuarios puedan buscar. También puede integrar una Power App en el marcador para que los usuarios puedan completar su tarea directamente desde el marcador.
 
@@ -102,9 +103,13 @@ Como administrador, puede facilitar a los usuarios obtener resultados adecuados 
 
 **Mostrar ubicaciones útiles**: muestre resultados de mapa y la información de direcciones de oficinas, edificios y otras áreas de trabajo de su organización sobre un mapa. Los usuarios pueden usar los mapas para obtener instrucciones, consultar qué hay cerca y mucho más.
 
+Puede ver las estadísticas de uso que muestran el modo en que los usuarios intervienen con las respuestas y si los usuarios encuentran lo que buscan. Basándose en esto, puede ajustar las respuestas o agregar nuevas.
+
+Para obtener información sobre el uso de las palabras clave y las palabras clave reservadas, vea [Planear el contenido](make-content-easy-to-find.md).
+
 ## <a name="what-content-is-searched"></a>¿Qué contenido se busca?
 
-Búsqueda de Microsoft busca en el contenido que se almacena en SharePoint Online, OneDrive para la Empresa y Exchange, incluidas las personas de la lista global de direcciones y los grupos de Office 365. Si su organización ha configurado un entorno híbrido de SharePoint con la búsqueda híbrida en la nube, Búsqueda de Microsoft devuelve resultados de contenido de SharePoint local y de la web, incluido cualquier contenido externo que haya conectado a su entorno de SharePoint Server. [Más información sobre los entornos híbridos de búsqueda](https://docs.microsoft.com/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint).
+Búsqueda de Microsoft busca en el contenido que se almacena en SharePoint Online, OneDrive para la Empresa y Exchange, incluidas las personas de la lista global de direcciones y los grupos de Office 365. Búsqueda de Microsoft no realiza búsquedas en espacios empresariales ni muestra resultados del contenido que comparten las organizaciones. Si su organización ha configurado un entorno híbrido de SharePoint con la búsqueda híbrida en la nube, Búsqueda de Microsoft devuelve resultados de contenido de SharePoint local y de la web, incluido cualquier contenido externo que haya conectado a su entorno de SharePoint Server. [Más información sobre los entornos híbridos de búsqueda](https://docs.microsoft.com/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint).
 
 Cuando los usuarios buscan desde la página de inicio de SharePoint o desde Office.com, Búsqueda de Microsoft busca en todo el contenido de su organización y presenta todos los resultados que encuentra. Esto se conoce como **ámbito de búsqueda global**.
 
@@ -130,6 +135,8 @@ Los usuarios encuentran los siguientes tipos de resultados al buscar desde:
 
 Cuando un usuario realiza una búsqueda, Búsqueda de Microsoft procesa la consulta y analiza el objetivo de búsqueda en frases más grandes mediante Inteligencia Artificial (IA) para obtener información sobre las frases superfluas comunes que los usuarios añaden a sus consultas, pero que no afectan a su intención de búsqueda. Por ejemplo, cuando un usuario busca "más información sobre cómo cambiar la contraseña", se extraen las palabras menos importantes de la consulta y se activa la búsqueda basándose en las más relevantes, como "cambiar contraseña".  
 
+La Búsqueda de Microsoft no crea un índice nuevo, busca los índices existentes de SharePoint Online, OneDrive para la Empresa y el contenido de Exchange.
+
 Los resultados de búsqueda para los que el usuario tiene **permisos** se muestran en la página de resultados de la búsqueda. Búsqueda de Microsoft utiliza algoritmos de clasificación inteligente para ordenar los resultados según su relevancia.
 
 ## <a name="microsoft-search-in-sharepoint"></a>Búsqueda de Microsoft en SharePoint Online
@@ -144,6 +151,8 @@ La experiencia de búsqueda clásica se puede personalizar. Un ejemplo es agrega
 ## <a name="microsoft-search-in-bing"></a>Búsqueda de Microsoft en Bing
 
 Como las búsquedas relacionadas con el trabajo pueden ser confidenciales, Búsqueda de Microsoft utiliza un conjunto de medidas de confianza sobre cómo la parte de resultados web públicos de Bing maneja estas búsquedas.
+
+Las solicitudes de Búsqueda de Microsoft se realizan a través de HTTPS. Esta protección garantiza que la conexión esté cifrada de principio a fin para mejorar la seguridad. Adicionalmente, todos los registros que pertenecen al tráfico de Búsqueda de Microsoft son anonimizados y se almacenan por separado del tráfico público no asociado y ajeno al tráfico de Búsqueda de Microsoft.
 
 Independientemente de si una consulta de usuario contiene uno o varios resultados relacionados con el trabajo en la respuesta devuelta, se toman las medidas siguientes:
 

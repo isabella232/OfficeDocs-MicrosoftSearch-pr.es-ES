@@ -14,14 +14,17 @@ search.appverid:
 - MOE150
 ms.assetid: 50461cb9-8707-46c1-935a-1b9608a98800
 description: Proteja los datos empresariales y a los usuarios mientras proporciona información a los usuarios autorizados con Microsoft Search
-ms.openlocfilehash: b7b62173dc61d271a4953adbf20a6cf48b122694
-ms.sourcegitcommit: 4eeb78066fd13e906daed3add003398bd9d0f6ca
+ms.openlocfilehash: 7aef4acad9f387e50fb03478a7c00d57fa451c00
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "35917573"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639625"
 ---
 # <a name="security-for-microsoft-search"></a>Seguridad de Microsoft Search
+
+> [!IMPORTANT]
+> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos pasando el portal al Centro de administración de Microsoft 365. Luego, se quitará el portal de Búsqueda de Microsoft en Bing. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Búsqueda de Microsoft](overview-microsoft-search.md).
 
 Con la seguridad de nivel empresarial, Microsoft Search siempre mantiene los usuarios y los datos protegidos.
 
@@ -57,7 +60,7 @@ Como las búsquedas relacionadas con el trabajo pueden ser confidenciales, Micro
 Independientemente de si una consulta de usuario contiene uno o varios resultados de trabajo en la respuesta devuelta, se toman las siguientes medidas:
   
 - Registro 
-  - Todos los registros de búsqueda correspondientes al tráfico de Microsoft Search se anonimizan. Se conservan durante 18 meses.
+  - Todos los registros de búsqueda correspondientes al tráfico de Búsqueda Microsoft se anonimizan.  Se conservan durante 18 meses.
   - Las consultas almacenadas en estos registros del sistema solo se usarán para modelar y probar características públicas como sugerencias automáticas u otras funciones relativas a búsquedas para resultados cuando se cumplan una serie de restricciones y umbrales de frecuencia, a fin de proporcionarnos la seguridad de que estas consultas son comunes y no específicas para una organización concreta. La consulta debe aparecer un número de veces significativo en datos correlativos que no procedan de usuarios de Microsoft Search y no debe activar únicamente resultados de búsqueda corporativos. Las consultas que no cumplan estos requisitos se almacenarán separadas del tráfico público no relativo a Microsoft Search.
   - El acceso restringido se administra a través de diferentes mecanismos seguros, incluyendo grupos de seguridad y otras capas dentro del sistema de ingeniería.
 - Historial de búsqueda    
