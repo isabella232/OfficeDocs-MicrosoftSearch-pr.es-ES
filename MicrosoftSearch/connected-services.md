@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: 161ea667-9b27-4695-b7a8-e8e063141795
 ROBOTS: NoIndex
 description: Aprenda a personalizar los resultados de trabajo que aparecen al usar Microsoft Search.
-ms.openlocfilehash: 9054febab2626097762a80f093affb1e3351fe1a
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 0d49d3051112bb9b63060e8ee7d4c85328c2d695
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591264"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639699"
 ---
 # <a name="connected-services"></a>Servicios conectados
 
 > [!IMPORTANT]
-> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se eliminará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).
+> Este artículo se aplica al portal de administración de Búsqueda de Microsoft en Bing Estamos pasando el portal al Centro de administración de Microsoft 365. Luego, se quitará el portal de Búsqueda de Microsoft en Bing. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).
      
      
 Microsoft Search le permite utilizar el potente motor de búsqueda de Bing para buscar archivos de SharePoint de su organización de Office 365, sitios web internos marcados, personas en la lista global de direcciones y grupos de Office 365.

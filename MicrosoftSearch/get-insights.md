@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: ebce7fdc-e89b-473c-8131-67e659bb3f73
 ROBOTS: NOINDEX
 description: Analice métricas y administre el contenido desde el sencillo panel en el portal de administración de Búsqueda de Microsoft
-ms.openlocfilehash: a01b79dfc71218862da07270171da95e699ed7f2
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 9323ad97a2baffc3bdc1794049f6933335b298b2
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591516"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639824"
 ---
 # <a name="use-the-insights-dashboard"></a>Usar el panel de información 
 
 > [!IMPORTANT]
-> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se quitará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Búsqueda de Microsoft](overview-microsoft-search.md).
+> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos pasando el portal al Centro de administración de Microsoft 365. Luego, se quitará el portal de Búsqueda de Microsoft en Bing. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Búsqueda de Microsoft](overview-microsoft-search.md).
     
 Obtenga información sobre datos para saber cómo interactúan los usuarios con los resultados. Use el Panel del Portal de administración de usuario para:
   

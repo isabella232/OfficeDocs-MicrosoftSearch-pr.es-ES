@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: d432b9d9-3792-47a0-9a13-30a1a83caabc
 ROBOTS: NoIndex
 description: Formas de crear respuestas a las preguntas más frecuentes para los resultados de trabajo de Microsoft Search
-ms.openlocfilehash: 9b4d63490c95ec9d5468abbae281c9cc84ab25ca
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 78bbd6aa64c9bc2e1890e33beee645b0a9c61ef3
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591498"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639788"
 ---
 # <a name="create-qas"></a>Crear preguntas y respuestas
 
 > [!IMPORTANT]
-> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se eliminará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).
+> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos pasando el portal al Centro de administración de Microsoft 365. Luego, se quitará el portal de Búsqueda de Microsoft en Bing. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).
 
 Las preguntas más frecuentes proporcionan una respuesta o información a los usuarios incluyendo un vínculo opcional. Lo ideal es que en las preguntas y respuestas se incluyan todos los detalles que los usuarios están buscando para que no tengan que ir al origen. Puede dar formato al contenido de sus preguntas y respuestas e incluir imágenes, listas y tablas.
   

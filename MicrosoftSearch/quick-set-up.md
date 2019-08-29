@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: bc3d1d2a-a4d9-4a02-9d7d-deb492e79cd0
 ROBOTS: NOINDEX
 description: Obtenga información sobre los cuatro sencillos pasos necesarios para habilitar y usar Microsoft Search.
-ms.openlocfilehash: fe6e01c866ca99357ce8bdd5e9cb1b6cee1a2333
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 170f798273dae51f447d32f98f458d0154ea9c86
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591543"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639761"
 ---
 # <a name="quick-set-up-for-microsoft-search"></a>Configuración rápida de Microsoft Search
 
 > [!IMPORTANT]
-> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos moviendo el portal al Centro de administración de Microsoft 365 y después se eliminará. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).
+> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos pasando el portal al Centro de administración de Microsoft 365. Luego, se quitará el portal de Búsqueda de Microsoft en Bing. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).
     
 Ahorre tiempo aportando lo mejor de la web y del trabajo en su organización.
   
