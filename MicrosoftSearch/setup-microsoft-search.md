@@ -48,9 +48,7 @@ La Búsqueda de Microsoft respeta la configuración de seguridad del origen de c
 | Contactos          | Puede ocultar determinados usuarios para que no se busquen en la lista de direcciones al establecer el parámetro `HiddenFromAddressListEnabled` en `true` con el cmdlet [Set-User](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-user). |
 | Microsoft Teams | [Administrar el acceso de los usuarios a Microsoft Teams](https://docs.microsoft.com/microsoftteams/user-access)                                                                                                                                                      |
 | OneDrive        | [Administrar el uso compartido](https://docs.microsoft.com/OneDrive/manage-sharing)                                                                                                                                                                                |
-| SharePoint      | 
-  [Planificación de permisos](https://docs.microsoft.com/es-ES/sharepoint/plan-your-permissions-strategy)<br> 
-  [Crear niveles de permisos](https://docs.microsoft.com/es-ES/sharepoint/how-to-create-and-edit-permission-levels)                          |
+| SharePoint      | [Planificación de permisos](https://docs.microsoft.com/es-ES/sharepoint/plan-your-permissions-strategy)<br> [Crear niveles de permisos](https://docs.microsoft.com/es-ES/sharepoint/how-to-create-and-edit-permission-levels)                          |
 | OneNote         | No se pueden buscar archivos que estén incrustados en OneNote. [Cambiar los permisos de un bloc de notas de OneDrive](https://support.office.com/article/B9600CCF-045A-40E6-9913-4A7EB02869A5)                                                                    |
 | Yammer          | [Configuración de seguridad de Yammer](https://docs.microsoft.com/Yammer/manage-security-and-compliance/yammer-security-settings)                                                                                                                               |
 
@@ -89,5 +87,4 @@ Establezca recursos de autoservicio a los que los empleados puedan acceder fáci
 
 - [Encuentre lo que necesita con Búsqueda de Microsoft en Office](https://support.office.com/article/find-what-you-need-with-microsoft-search-in-office-2457d4d8-48a8-4ad4-ab89-5a0657aa8446?ui=en-US&rs=en-US&ad=US)
 - [Centro de aprendizaje de Office 365](https://support.office.com/office-training-center)
-- 
-  [Búsqueda de Microsoft Center](https://support.office.com/es-ES/article/-working-title-microsoft-search-center-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc?ui=en-US&rs=en-US&ad=US)
+- [Búsqueda de Microsoft Center](https://support.office.com/es-ES/article/-working-title-microsoft-search-center-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc?ui=en-US&rs=en-US&ad=US)

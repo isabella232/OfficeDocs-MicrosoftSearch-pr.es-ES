@@ -81,10 +81,8 @@ Ayude a los usuarios a realizar tareas, como marcar las fechas de las vacaciones
 
 ### <a name="what-are-powerapps"></a>¿Qué son las PowerApps?
 PowerApps es un servicio que le permite crear aplicaciones empresariales que funcionan en un explorador o en una tableta o teléfono sin necesidad de tener conocimientos de programación. Las PowerApps funcionan en cualquier explorador y en cualquier dispositivo y se agregan en menos de un minuto. Para obtener más información sobre PowerApps, consulte:
-- 
-  [Aprendizaje guiado](https://docs.microsoft.com/es-ES/learn/browse/?products=powerapps)
-- 
-  [Documentación](https://docs.microsoft.com/es-ES/powerapps/maker/canvas-apps/get-sessionid)
+- [Aprendizaje guiado](https://docs.microsoft.com/es-ES/learn/browse/?products=powerapps)
+- [Documentación](https://docs.microsoft.com/es-ES/powerapps/maker/canvas-apps/get-sessionid)
 - [Inicio de PowerApps](https://make.preview.powerapps.com/environments/839eace6-59ab-4243-97ec-a5b8fcc104e4/home)
 
 ### <a name="add-a-powerapp-to-a-bookmark"></a>Agregar una PowerApp a un marcador
