@@ -47,7 +47,6 @@ Enseñe a los usuarios a buscar desde la página de inicio de SharePoint en luga
 ## <a name="see-also"></a>Vea también
 [Introducción a Búsqueda de Microsoft](overview-microsoft-search.md)
 
-
-  [Obtenga más información sobre las experiencias de búsqueda en SharePoint](https://docs.microsoft.com/es-ES/sharepoint/overview-of-search)
+[Obtenga más información sobre las experiencias de búsqueda en SharePoint](https://docs.microsoft.com/es-ES/sharepoint/overview-of-search)
 
 [¿Cuándo usar cada experiencia de búsqueda en SharePoint?](https://docs.microsoft.com/sharepoint/get-started-with-modern-search-experience)
