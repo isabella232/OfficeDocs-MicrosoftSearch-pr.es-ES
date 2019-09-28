@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar Búsqueda de Microsoft por primera vez.
-ms.openlocfilehash: 7c80701e83fea7b9b93e4e01f98fd1eeedbfa749
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
+ms.openlocfilehash: 3b3df3e3b3cb3e94abdf57bbb2c7e2db5f174898
+ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639509"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288995"
 ---
 # <a name="set-up-microsoft-search"></a>Configurar Búsqueda de Microsoft
 
@@ -32,9 +32,9 @@ La Búsqueda de Microsoft está activada de forma predeterminada para todas las 
 
 Puede administrar la Búsqueda de Microsoft desde el Centro de administración de Microsoft 365.
 
-1. En el Centro de administración de Microsoft 365 vaya a **Configuración** > **Microsoft**.
+1. En el Centro de administración de Microsoft 365, vaya a **Configuración** > **Búsqueda de Microsoft**.
 
-**Nota:** si NO ve la Búsqueda de Microsoft en **Configuración**, active el interruptor **Probar la versión preliminar** en la esquina superior derecha de cualquier página del centro de administración.
+**Nota:** si no ve la Búsqueda de Microsoft en **Configuración**, active el interruptor para**Probar la versión preliminar** en la esquina superior derecha de cualquier página del centro de administración.
 
 Como administrador debe considerar algunos aspectos que pueden hacer que la experiencia de Búsqueda de Microsoft en su organización sea eficiente e intuitiva.
 
@@ -48,7 +48,7 @@ La Búsqueda de Microsoft respeta la configuración de seguridad del origen de c
 | Contactos          | Puede ocultar determinados usuarios para que no se busquen en la lista de direcciones al establecer el parámetro `HiddenFromAddressListEnabled` en `true` con el cmdlet [Set-User](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-user). |
 | Microsoft Teams | [Administrar el acceso de los usuarios a Microsoft Teams](https://docs.microsoft.com/microsoftteams/user-access)                                                                                                                                                      |
 | OneDrive        | [Administrar el uso compartido](https://docs.microsoft.com/OneDrive/manage-sharing)                                                                                                                                                                                |
-| SharePoint      | [Planificación de permisos](https://docs.microsoft.com/es-ES/sharepoint/plan-your-permissions-strategy)<br> [Crear niveles de permisos](https://docs.microsoft.com/es-ES/sharepoint/how-to-create-and-edit-permission-levels)                          |
+| SharePoint      | [Planificación de permisos](https://docs.microsoft.com/sharepoint/plan-your-permissions-strategy)<br> [Crear niveles de permisos](https://docs.microsoft.com/sharepoint/how-to-create-and-edit-permission-levels)                          |
 | OneNote         | No se pueden buscar archivos que estén incrustados en OneNote. [Cambiar los permisos de un bloc de notas de OneDrive](https://support.office.com/article/B9600CCF-045A-40E6-9913-4A7EB02869A5)                                                                    |
 | Yammer          | [Configuración de seguridad de Yammer](https://docs.microsoft.com/Yammer/manage-security-and-compliance/yammer-security-settings)                                                                                                                               |
 
@@ -59,7 +59,7 @@ En la Búsqueda de Microsoft, puede administrar la configuración de búsqueda d
 1. **Administrador de búsqueda:** este rol puede crear y administrar el contenido de los resultados de búsqueda y definir la configuración de consulta para mejorar los resultados de búsqueda en la organización. El administrador de búsqueda administra la configuración de la Búsqueda de Microsoft y puede realizar todas las tareas de administración de contenido que pueda llevar a cabo un editor de búsqueda.
 2. **Editor de búsqueda:** crea, administra y elimina el contenido de la Búsqueda de Microsoft en el Centro de administración de Microsoft 365. Este rol puede crear y administrar contenido editorial, como las preguntas más frecuentes, respuestas, lugares y ubicaciones importantes, sitios y aplicaciones frecuentemente buscados y usados, entre otras cosas.
 
-Actualmente, el administrador global debe asignar los roles de administrador de búsqueda y editor de búsqueda. Para obtener más información, vea [Asignar roles de administrador](https://docs.microsoft.com/es-ES/office365/admin/add-users/assign-admin-roles?view=o365-worldwide).
+Actualmente, el administrador global debe asignar los roles de administrador de búsqueda y editor de búsqueda. Para obtener más información, vea [Asignar roles de administrador](https://docs.microsoft.com/office365/admin/add-users/assign-admin-roles?view=o365-worldwide).
 
 Los administradores de búsqueda influyen directamente en la experiencia de búsqueda para los usuarios finales. Esto incluye la elección de los tipos de resultados que quiere que se muestren a los usuarios. Puede resultar difícil para una sola persona elegir y crear contenido relevante para los muchos y diferentes temas que los usuarios buscan en una organización. Le recomendamos que aproveche la experiencia y los conocimientos de los expertos en la materia (SME) y de otros usuarios agregándolos como editores de búsqueda.
 
@@ -85,6 +85,6 @@ Para crear y administrar el contenido de la búsqueda, vea [Hacer que el conteni
 
 Establezca recursos de autoservicio a los que los empleados puedan acceder fácilmente por sí mismos. Esto le ayudará a reducir la carga general sobre usted y sobre su equipo distribuyendo constantemente comunicaciones y asistiendo a la autoformación de los empleados. Proporcione a sus usuarios comunicaciones, preguntas frecuentes, vídeos y formación en vídeo o seminarios web. Estos son algunos vínculos útiles para empezar:
 
-- [Encuentre lo que necesita con Búsqueda de Microsoft en Office](https://support.office.com/article/find-what-you-need-with-microsoft-search-in-office-2457d4d8-48a8-4ad4-ab89-5a0657aa8446?ui=en-US&rs=en-US&ad=US)
+- [Encuentre lo que necesita con Búsqueda de Microsoft en Office](https://support.office.com/article/find-what-you-need-with-microsoft-search-in-office-2457d4d8-48a8-4ad4-ab89-5a0657aa8446)
 - [Centro de aprendizaje de Office 365](https://support.office.com/office-training-center)
-- [Búsqueda de Microsoft Center](https://support.office.com/es-ES/article/-working-title-microsoft-search-center-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc?ui=en-US&rs=en-US&ad=US)
+- [Búsqueda de Microsoft Center](https://support.office.com/article/-working-title-microsoft-search-center-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc)
