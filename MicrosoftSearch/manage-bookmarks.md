@@ -13,19 +13,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
-description: Crear y actualizar marcadores y formas de editar en masa los resultados de marcadores en Búsqueda de Microsoft
-ms.openlocfilehash: 0cd37ebcd7cd3ea7bbe55064fd41a3c42b2e4725
-ms.sourcegitcommit: f9760d027637cc0d2e5c3a9e47928422cb6e452a
-ms.translationtype: HT
+description: Crear y actualizar marcadores y formas de editar en masa los resultados de marcadores para Microsoft Search
+ms.openlocfilehash: 02b9bfecd97210ba8cd5b46bf3bc108bf66b6f01
+ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "36170324"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288977"
 ---
 # <a name="manage-bookmarks"></a>Administrar marcadores
 
 Puede crear un marcador en unos pocos pasos. Cada marcador incluye un título, una dirección URL y un conjunto de palabras clave que lo desencadenan. Un marcador puede contener varias palabras clave y distintos marcadores pueden compartir la misma palabra clave, pero no se pueden compartir las palabras clave reservadas. Al crear o modificar un marcador, el índice de búsqueda se actualiza inmediatamente y el marcador está inmediatamente disponible para los usuarios.
 
-Si su organización tiene resultados promocionados configurados en SharePoint, puede importar los resultados promocionados en **Búsqueda de Microsoft** y hacer que el contenido importado esté disponible para los usuarios. Esta es una forma sencilla de rellenar rápidamente los resultados de búsqueda tan pronto como **Búsqueda de Microsoft** esté configurado y hacerlo más eficaz para los usuarios. Le recomendamos que use los resultados promocionados de SharePoint como referencia para comprender cómo nombrar y crear resultados de búsqueda relevantes. 
+Si su organización ha promovido resultados configurados en SharePoint, puede importar los resultados promocionados a **Microsoft Search** y hacer que el contenido importado esté disponible para los usuarios. Esta es una forma sencilla de rellenar rápidamente los resultados de búsqueda tan pronto como **Búsqueda de Microsoft** esté configurado y hacerlo más eficaz para los usuarios. Le recomendamos que use los resultados promocionados de SharePoint como referencia para comprender cómo nombrar y crear resultados de búsqueda relevantes. 
 
 ## <a name="add-or-edit-a-single-bookmark"></a>Agregar o modificar un marcador único
 1. Vaya al **Centro de administración de Microsoft 365**.
@@ -39,7 +39,7 @@ De forma predeterminada, la ficha **Marcadores** aparece seleccionada.
 Los administradores de búsqueda pueden crear fácilmente búsquedas de contenido mediante las extensiones del navegador. Instale la extensión del explorador y, a continuación, vaya al sitio que desee agregar como marcador y agréguelo como marcador.
 
 Actualmente, las extensiones del navegador están disponibles para Edge y Chrome. 
-- Para descargar la extensión de Edge, vaya a [Microsoft Store](https://www.microsoft.com/en-us/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) y descargue la aplicación.
+- Para descargar la extensión de Edge, vaya a [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) y descargue la aplicación.
 - Para descargar la extensión de Chrome, vaya a [Chrome web store](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) y descargue la aplicación.
 
 ## <a name="bulk-add-or-edit-bookmarks"></a>Agregar o editar marcadores en bloque
@@ -81,12 +81,13 @@ Ayude a los usuarios a realizar tareas, como marcar las fechas de las vacaciones
 
 ### <a name="what-are-powerapps"></a>¿Qué son las PowerApps?
 PowerApps es un servicio que le permite crear aplicaciones empresariales que funcionan en un explorador o en una tableta o teléfono sin necesidad de tener conocimientos de programación. Las PowerApps funcionan en cualquier explorador y en cualquier dispositivo y se agregan en menos de un minuto. Para obtener más información sobre PowerApps, consulte:
-- [Aprendizaje guiado](https://docs.microsoft.com/es-ES/learn/browse/?products=powerapps)
-- [Documentación](https://docs.microsoft.com/es-ES/powerapps/maker/canvas-apps/get-sessionid)
+- 
+  [Aprendizaje guiado](https://docs.microsoft.com/learn/browse/?products=powerapps)
+- [Documentación](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid)
 - [Inicio de PowerApps](https://make.preview.powerapps.com/environments/839eace6-59ab-4243-97ec-a5b8fcc104e4/home)
 
 ### <a name="add-a-powerapp-to-a-bookmark"></a>Agregar una PowerApp a un marcador
-1. Busque el [ID de la PowerApp](https://docs.microsoft.com/es-ES/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) que desea agregar.
+1. Busque el [ID de la PowerApp](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) que desea agregar.
 1. Inicie sesión en el **Centro de administración de Microsoft 365**.
 1. En el panel de navegación, vaya a **Configuración** y, a continuación, seleccione **Búsqueda de Microsoft**.
 1. Agregue un marcador o busque un marcador al que desee agregar una **PowerApp**.

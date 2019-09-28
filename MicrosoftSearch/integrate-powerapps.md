@@ -14,46 +14,47 @@ search.appverid:
 - MOE150
 ms.assetid: 1fadcba3-4a7f-4a55-8476-d4e64d49a15f
 ROBOTS: NOINDEX
-description: Incluya aplicaciones basadas en navegador en los resultados de marcadores de Búsqueda de Microsoft
-ms.openlocfilehash: f68b3c2b74f0a5c1712f0e86e86826e1f2c94b58
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
-ms.translationtype: HT
+description: Resultados de la inclusión de aplicaciones basadas en explorador en marcadores resultados de Microsoft Search
+ms.openlocfilehash: 36389a8b53390c7dd18cf98285b0faa6df73c8b4
+ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639851"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288932"
 ---
 # <a name="integrate-powerapps"></a>Integrar PowerApps
    
-Ayude a los usuarios a realizar tareas, como escribir las fechas de las vacaciones o registrar informes de gastos, integrando PowerApps existentes con los marcadores. Las PowerApps integradas aparecen en un resultado de marcador, por lo que no es necesario ir a otro sitio o abrir otra herramienta, lo que ahorra tiempo y esfuerzo.
+Ayude a los usuarios a completar tareas, como especificar el tiempo de vacaciones o los gastos de informes mediante la integración de PowerApps existentes en los marcadores. PowerApps integrado aparece en un resultado de marcador, lo que elimina la necesidad de ir a un sitio diferente o abrir una herramienta independiente, que ahorra tiempo y esfuerzo.
   
 ## <a name="what-are-powerapps"></a>¿Qué son las PowerApps?
 
 PowerApps es un servicio que le permite crear aplicaciones empresariales que funcionan en un explorador o en una tableta o teléfono sin necesidad de tener conocimientos de programación. Más información:
   
-- [Aprendizaje guiado](https://docs.microsoft.com/learn/browse/?products=powerapps)
+- 
+  [Aprendizaje guiado](https://docs.microsoft.com/learn/browse/?products=powerapps)
     
 - [Documentación](https://docs.microsoft.com/powerapps/)
     
 ## <a name="add-a-powerapp-to-a-bookmark"></a>Agregar una PowerApp a un marcador
 
-Las PowerApps funcionan en cualquier explorador y en cualquier dispositivo, y se agregan en menos de un minuto.
+Las PowerApps funcionan en cualquier explorador y en cualquier dispositivo y se agregan en menos de un minuto.
   
-1. [Busque el Id. de aplicación para la PowerApp](https://docs.microsoft.com/es-ES/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) que quiere integrar 
+1. [Busque el identificador de la aplicación PowerApp](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) que desea integrar.
     
-2. En el portal de administración de Búsqueda de Microsoft, vaya a **Marcadores**
+2. En el portal de administración de Microsoft Search, vaya a **marcadores** .
     
-3. Agregue un marcador o busque un marcador existente al que quiere agregar una PowerApp
+3. Agregar un marcador o buscar un marcador existente al que desee agregar una PowerApp
     
-4. En la configuración del marcador, haga clic en **PowerApp** y, después, haga clic en **Agregar una PowerApp**
+4. En la configuración del marcador, haga clic en **Power App**y, a continuación, haga clic en **Agregar una aplicación de energía**
     
-5. Escriba o pegue el Id. de la aplicación
+5. Escriba o pegue el identificador de aplicación
     
-    Se agregan automáticamente el alto y ancho. Los marcadores admiten la orientación vertical y horizontal, pero, de momento, no se puede cambiar el tamaño.
+    El alto y el ancho se agregan automáticamente. Los marcadores admite la orientación vertical y horizontal, pero, de momento, no se puede cambiar el tamaño.
     
-6. La vista previa del marcador indica cómo se mostrará la PowerApp en el resultado de marcador
+6. La vista previa del marcador muestra cómo aparecerá la PowerApp en el resultado del marcador
     
-    La PowerApp en la vista previa es completamente funcional para que sea fácil de probar y usar.
+    PowerApp en la vista previa es totalmente funcional para que sea fácil de probar y usar.
     
-7. Haga clic en **Publicar**
+7. Haga clic en **publicar**
     
-Cuando un usuario de Búsqueda de Microsoft autorizado busca cualquiera de las palabras clave o palabras clave reservadas del marcador en Bing, la PowerApp aparecerá en el resultado del marcador.
+Cuando un usuario autorizado de Microsoft Search busca en Bing las palabras clave reservadas del marcador o las palabras clave reservadas, la PowerApp aparecerá en el resultado del marcador.

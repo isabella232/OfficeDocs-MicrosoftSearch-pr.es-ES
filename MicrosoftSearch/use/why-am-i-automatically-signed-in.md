@@ -14,12 +14,12 @@ search.appverid:
 ms.assetid: 94f6fa41-0570-4668-b2fe-d51ed177716c
 ROBOTS: NOINDEX
 description: Obtenga información sobre cómo el inicio de sesión automático en Microsoft Search puede ayudarle a encontrar los resultados de trabajo de forma rápida y sencilla.
-ms.openlocfilehash: a52cc9c88202e662b8598efa451b2bb964a861dc
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 31177e8a6c565cbb002a69ac50e16de3056008b4
+ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591039"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288969"
 ---
 # <a name="why-am-i-automatically-signed-in"></a>¿Por qué se inicia la sesión de manera automática?
 
@@ -45,7 +45,7 @@ Puede cerrar la sesión de Bing en cualquier momento: en la esquina superior der
   
 No volverá a iniciar sesión automáticamente en este dispositivo. Si ha usado otros exploradores o dispositivos para iniciar sesión en Microsoft Search, tendrá que cerrar la sesión también. 
   
-Cuando haya cerrado la sesión, las búsquedas no recibirán protección adicional. Se tratan como búsquedas de consumidor de Bing estándar y se rigen por la [declaración de privacidad de Microsoft](https://privacy.microsoft.com/en-us/privacystatement).
+Cuando haya cerrado la sesión, las búsquedas no recibirán protección adicional. Se tratan como búsquedas de consumidor de Bing estándar y se rigen por la [declaración de privacidad de Microsoft](https://privacy.microsoft.com/privacystatement).
   
 ## <a name="view-your-search-history"></a>Ver el historial de búsqueda
 
