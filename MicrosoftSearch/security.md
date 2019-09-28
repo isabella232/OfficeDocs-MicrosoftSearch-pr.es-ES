@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 50461cb9-8707-46c1-935a-1b9608a98800
 description: Proteja los datos empresariales y a los usuarios mientras proporciona información a los usuarios autorizados con Microsoft Search
-ms.openlocfilehash: 7aef4acad9f387e50fb03478a7c00d57fa451c00
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
+ms.openlocfilehash: 759fc49a4196e336d3a6016a91aa588fa1278b4d
+ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639625"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37289004"
 ---
 # <a name="security-for-microsoft-search"></a>Seguridad de Microsoft Search
 
@@ -72,4 +72,4 @@ Independientemente de si una consulta de usuario contiene uno o varios resultado
     
 ## <a name="gdpr"></a>RGPD
 
-La [entrada de blog del 21 de mayo de 2018](https://blogs.microsoft.com/on-the-issues/2018/05/21/microsofts-commitment-to-gdpr-privacy-and-putting-customers-in-control-of-their-own-data/) de Microsoft refleja nuestro compromiso con el cumplimiento de RGPD y cómo Microsoft ayuda a las empresas y organizaciones con sus propias obligaciones de cumplimiento RGPD. Puede encontrar detalles adicionales en las [preguntas más frecuentes del centro de confianza](https://www.microsoft.com/en-us/trustcenter/privacy/gdpr/gdpr-faqs) de Microsoft. Las consultas de Microsoft Search que funcionan con datos de clientes de la organización dentro de los servicios en línea también cumplen con los compromisos del procesador indicados en el artículo 28 como se refleja en las [preguntas más frecuentes del centro de confianza](https://www.microsoft.com/en-us/trustcenter/privacy/gdpr/gdpr-faqs). Con respecto a las consultas de Microsoft Search que vayan a la parte pública de Bing, Microsoft es un controlador de datos y ha implementado medidas para anonimizar las consultas como se describe en la RGPD.
+La [entrada de blog del 21 de mayo de 2018](https://blogs.microsoft.com/on-the-issues/2018/05/21/microsofts-commitment-to-gdpr-privacy-and-putting-customers-in-control-of-their-own-data/) de Microsoft refleja nuestro compromiso con el cumplimiento de RGPD y cómo Microsoft ayuda a las empresas y organizaciones con sus propias obligaciones de cumplimiento RGPD. Puede encontrar detalles adicionales en las [preguntas más frecuentes del centro de confianza](https://www.microsoft.com/trustcenter/privacy/gdpr/gdpr-faqs) de Microsoft. Las consultas de Microsoft Search que funcionan con datos de clientes de la organización dentro de los servicios en línea también cumplen con los compromisos del procesador indicados en el artículo 28 como se refleja en las [preguntas más frecuentes del centro de confianza](https://www.microsoft.com/trustcenter/privacy/gdpr/gdpr-faqs). Con respecto a las consultas de Microsoft Search que vayan a la parte pública de Bing, Microsoft es un controlador de datos y ha implementado medidas para anonimizar las consultas como se describe en la RGPD.

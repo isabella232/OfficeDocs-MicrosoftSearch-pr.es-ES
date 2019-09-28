@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: 41723aec-435c-400e-a818-6b1e8a1324c0
 ROBOTS: NoIndex
 description: Asignación de roles y permisos a los editores y administradores de Búsqueda de Microsoft
-ms.openlocfilehash: af89aa2d536baa64f16b0c2b2ff316200c83cbc0
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
+ms.openlocfilehash: b0a6d6db5c36bc12d4371e10d703e95bd3cd7731
+ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639653"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288959"
 ---
 # <a name="manage-users"></a>Administración de usuarios
 
 > [!IMPORTANT]
-> Este artículo se aplica al portal de administración de Búsqueda de Microsoft en Bing. Estamos pasando el portal al Centro de administración de Microsoft 365. A continuación, se retirará el portal de Búsqueda de Microsoft en Bing. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).
+> Este artículo se aplica al portal de administración de Búsqueda de Microsoft en Bing. Estamos pasando el portal al Centro de administración de Microsoft 365. Luego, se quitará el portal de Búsqueda de Microsoft en Bing. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).
     
 Los editores pueden agregar contenido, pero no pueden cambiar la configuración
   
@@ -45,4 +45,4 @@ Los editores pueden agregar contenido, pero no pueden cambiar la configuración
     
 ## <a name="add-users"></a>Agregue usuarios
 
-De forma predeterminada, Búsqueda de Microsoft está disponible para todos los usuarios de su organización. Para modificar el acceso, use [Acceso condicional en Azure Active Directory](https://docs.microsoft.com/es-ES/azure/active-directory/conditional-access/overview).
+De forma predeterminada, Búsqueda de Microsoft está disponible para todos los usuarios de su organización. Para modificar el acceso, use [Acceso condicional en Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/overview).

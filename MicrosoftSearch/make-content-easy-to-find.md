@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Cree marcadores, ubicaciones y preguntas y respuestas para hacer fácil de encontrar el contenido de su organización.
-ms.openlocfilehash: a2f8018a85d792473f268a735abb368babfc582c
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
+ms.openlocfilehash: 2ed18cf8dcb855725a7cf3d51737e767000e9e83
+ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639860"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288923"
 ---
 # <a name="make-content-easy-to-find"></a>Haga el contenido fácil de encontrar
 
@@ -116,7 +116,7 @@ De forma predeterminada, la ficha **Marcadores** aparece seleccionada.
 Los administradores de búsqueda pueden crear fácilmente búsquedas de contenido mediante las extensiones del navegador. Instale la extensión del explorador y, a continuación, vaya al sitio que desee agregar como marcador y agréguelo como marcador.
 
 Actualmente, las extensiones del navegador están disponibles para Edge y Chrome. 
-- Para descargar la extensión de Edge, vaya a [Microsoft Store](https://www.microsoft.com/en-us/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) y descargue la aplicación.
+- Para descargar la extensión de Edge, vaya a [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) y descargue la aplicación.
 - Para descargar la extensión de Chrome, vaya a [Chrome web store](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) y descargue la aplicación.
 
 ### <a name="bulk-add-or-edit-bookmarks"></a>Agregar o editar marcadores en bloque
@@ -161,13 +161,13 @@ Ayude a los usuarios a realizar tareas, como marcar las fechas de las vacaciones
 #### <a name="what-are-powerapps"></a>¿Qué son las PowerApps?
 
 PowerApps es un servicio que le permite crear aplicaciones empresariales que funcionan en un explorador o en una tableta o teléfono sin necesidad de tener conocimientos de programación. Las PowerApps funcionan en cualquier explorador y en cualquier dispositivo y se agregan en menos de un minuto. Para obtener más información sobre PowerApps, consulte:
-- [Aprendizaje guiado](https://docs.microsoft.com/es-ES/learn/browse/?products=powerapps)
-- [Documentación](https://docs.microsoft.com/es-ES/powerapps/maker/canvas-apps/get-sessionid)
+- [Aprendizaje guiado](https://docs.microsoft.com/learn/browse/?products=powerapps)
+- [Documentación](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid)
 - [Inicio de PowerApps](https://make.preview.powerapps.com/environments/839eace6-59ab-4243-97ec-a5b8fcc104e4/home)
 
 #### <a name="add-a-powerapp-to-a-bookmark"></a>Agregar una PowerApp a un marcador
 
-1. Busque el [ID de la PowerApp](https://docs.microsoft.com/es-ES/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) que desea agregar.
+1. Busque el [ID de la PowerApp](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) que desea agregar.
 1. Inicie sesión en el **Centro de administración de Microsoft 365**.
 1. En el panel de navegación, vaya a **Configuración** y, a continuación, seleccione **Búsqueda de Microsoft**.
 1. Agregue un marcador o busque un marcador al que desee agregar una **PowerApp**.

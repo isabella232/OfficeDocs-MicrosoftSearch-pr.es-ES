@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: ee40010e-5d7f-4ba8-a3f8-d240dab3af6d
 ROBOTS: NOINDEX
 description: Obtenga información sobre cómo configurar Bing como motor de búsqueda predeterminado de su empresa con Microsoft Search.
-ms.openlocfilehash: cc03e3aa280ea621702ce99c2cc8eb530b310251
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
+ms.openlocfilehash: 7c7ec8be726f2ac12a0e07f3d70c4b6515366bf3
+ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639842"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37289022"
 ---
 # <a name="make-bing-the-default-search-engine"></a>Establezca Bing como el motor de búsqueda predeterminado
   
@@ -30,9 +30,9 @@ Este artículo explica cómo establecer Bing como motor de búsqueda predetermin
 
 Aunque usted va a configurar Bing como motor de búsqueda predeterminado, Microsoft Edge permite a los usuarios cambiar su configuración para usar un motor de búsqueda diferente.
   
-Para los archivos ADMX más recientes para diferentes versiones de Windows, vea [Cómo crear y administrar el almacén central de plantillas administrativas de directiva de grupo en Windows](https://support.microsoft.com/es-ES/help/3087759/how-to-create-and-manage-the-central-store-for-group-policy-administra).
+Para los archivos ADMX más recientes para diferentes versiones de Windows, vea [Cómo crear y administrar el almacén central de plantillas administrativas de directiva de grupo en Windows](https://support.microsoft.com/help/3087759/how-to-create-and-manage-the-central-store-for-group-policy-administra).
   
-Si la configuración descrita en esta sección no se encuentra dentro de la GPMC, descargue los ADMX adecuados y cópielos en el almacén central. Para obtener más información, vea [Editar GPO basados en dominios mediante archivos ADMX](https://docs.microsoft.com/es-ES/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). El almacén central en el controlador es una carpeta con la convención de nomenclatura siguiente:
+Si la configuración descrita en esta sección no se encuentra dentro de la GPMC, descargue los ADMX adecuados y cópielos en el almacén central. Para obtener más información, vea [Editar GPO basados en dominios mediante archivos ADMX](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). El almacén central en el controlador es una carpeta con la convención de nomenclatura siguiente:
   
  **%systemroot%\sysvol\\<domain\>\policies\PolicyDefinitions**
   
@@ -55,7 +55,7 @@ Los usuarios no podrán cambiar el motor de búsqueda predeterminado después de
   
 Chrome incluye su propio conjunto de configuración de directiva de grupo, que puede descargarse en forma de archivo ADMX desde Chrome [Ayuda de Google Chrome Enterprise](https://support.google.com/chrome/a/answer/187202). Si se usan los sistemas operativos Windows Vista/Server 2008 o versiones posteriores para administrar los GPO del dominio, el archivo ADMX proporcionado en este paquete se encarga de la configuración de Chrome en Windows XP SP2 o versiones posteriores.
   
-Copie el archivo de plantilla en un almacén central para archivos ADMX en el controlador del dominio. Para obtener más información, vea [Editar GPO basados en dominios mediante archivos ADMX](https://docs.microsoft.com/es-ES/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). El almacén central en el controlador es una carpeta con la convención de nomenclatura siguiente:
+Copie el archivo de plantilla en un almacén central para archivos ADMX en el controlador del dominio. Para obtener más información, vea [Editar GPO basados en dominios mediante archivos ADMX](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). El almacén central en el controlador es una carpeta con la convención de nomenclatura siguiente:
   
  **%systemroot%\sysvol\\<domain\>\policies\PolicyDefinitions**
   
