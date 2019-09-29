@@ -10,6 +10,7 @@
 ##[Administrar marcadores](manage-bookmarks.md)
 ##[Administrar preguntas y respuestas](manage-qas.md)
 ##[Administrar ubicaciones](manage-locations.md)
+##[Administrar planos](manage-floorplans.md)
 #[Guía de adopción del usuario](user-adoption-guide.md)
 #[Preguntas más frecuentes](faqs.md)
 #[Usar Búsqueda de Microsoft](use/about-microsoft-search.md)
