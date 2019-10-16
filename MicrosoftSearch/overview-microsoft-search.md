@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenga un resumen de lo que es Búsqueda de Microsoft, sus ventajas y las aplicaciones que tienen Búsqueda de Microsoft en la actualidad.
-ms.openlocfilehash: 55b6cad9f871eb1eb8d103c51e7cfeda02e6a452
-ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
+ms.openlocfilehash: c0599a09b2018062b1181762c2ce3c93cb16367a
+ms.sourcegitcommit: 5204b3c85e2fc190a8807d5268fb87145624a969
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37289049"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "37502942"
 ---
 # <a name="overview-of-microsoft-search"></a>Introducción a Búsqueda de Microsoft
 
@@ -29,7 +29,7 @@ Búsqueda de Microsoft ayuda a los usuarios a encontrar respuestas correctas, pe
 - Los usuarios obtienen resultados pertinentes en el **contexto** de la aplicación desde la que buscan. Por ejemplo, cuando buscan en Outlook, encuentran mensajes de correo electrónico, no sitios de SharePoint. Cuando buscan en SharePoint, encuentran sitios, páginas y archivos.
 - Independientemente de la aplicación con la que trabajan, Búsqueda de Microsoft es **personal**.  Búsqueda de Microsoft usa la información de Microsoft Graph para mostrar resultados relevantes para cada usuario. Usuarios diferentes pueden ver resultados diferentes, aunque busquen las mismas palabras. Solo verán resultados a los que ya tienen acceso, Búsqueda de Microsoft no cambia los permisos.
 - Los usuarios no necesitan recordar dónde se encuentra la información. Por ejemplo, un usuario está trabajando en Word y desea volver a usar la información de una presentación que un compañero ha compartido en su OneDrive. No es necesario cambiar a OneDrive y buscar esa presentación, simplemente pueden buscar desde Word.  
-- Cuando en Bing, los usuarios obtienen resultados desde su organización además de.los resultados públicos de la web.
+- Cuando en [Bing](https://bing.com), los usuarios obtienen resultados desde su organización además de los resultados públicos de la Web.
 
 ## <a name="what-users-see"></a>Qué ven los usuarios
 
@@ -147,20 +147,14 @@ Búsqueda de Microsoft en SharePoint es la experiencia moderna de búsqueda en S
 
 La experiencia de búsqueda clásica se puede personalizar. Un ejemplo es agregar refinadores personalizados a la página de resultados de búsqueda, otro ejemplo es mostrar un determinado tipo de resultado de otra manera. No se puede personalizar la experiencia de Búsqueda de Microsoft en SharePoint de esa manera. Algunas de las personalizaciones creadas para la búsqueda clásica pueden afectar a la Búsqueda de Microsoft en SharePoint. Si su organización va a usar las dos experiencias de búsqueda en SharePoint, [obtenga información sobre las diferencias y cómo evitar que afecte a la experiencia de Búsqueda de Microsoft en SharePoint](https://docs.microsoft.com/sharepoint/differences-classic-modern-search).
 
-## <a name="microsoft-search-in-bing"></a>Búsqueda de Microsoft en Bing
-
-Como las búsquedas relacionadas con el trabajo pueden ser confidenciales, Búsqueda de Microsoft utiliza un conjunto de medidas de confianza sobre cómo la parte de resultados web públicos de Bing maneja estas búsquedas.
-
-Las solicitudes de Búsqueda de Microsoft se realizan a través de HTTPS. Esta protección garantiza que la conexión esté cifrada de principio a fin para mejorar la seguridad. Adicionalmente, todos los registros que pertenecen al tráfico de Búsqueda de Microsoft son anonimizados y se almacenan por separado del tráfico público no asociado y ajeno al tráfico de Búsqueda de Microsoft.
-
-Independientemente de si una consulta de usuario contiene uno o varios resultados relacionados con el trabajo en la respuesta devuelta, se toman las siguientes medidas:
-
-**Registro**: A todos los registros de búsqueda correspondientes al tráfico de Búsqueda de Microsoft se le oculta la identidad, y se conservan durante 18 meses. Las consultas almacenadas en estos registros del sistema solo se usarán para modelar y probar características públicas como sugerencias automáticas o búsquedas relacionadas para resultados públicos de la web, cuando se cumplan una serie de restricciones y umbrales de frecuencia, a fin de proporcionarnos la seguridad de que estas consultas son comunes y no específicas para una organización particular. La consulta debe aparecer un número de veces significativo en datos correlativos que no procedan de usuarios de Microsoft Search y no debe activar únicamente resultados de búsqueda corporativos. Las consultas que no cumplan estos requisitos se almacenarán separadas del tráfico público no relativo a Microsoft Search. El acceso restringido se administra a través de diferentes mecanismos seguros, incluyendo grupos de seguridad y otras capas dentro del sistema de ingeniería.
-
-**Historial de búsqueda**: Cuando haya iniciado sesión con una cuenta de trabajo o educativa, el historial de búsqueda de un usuario no estará disponible en otros ordenadores o dispositivos.
-
-**Publicidad**: Las consultas de búsqueda empresariales nunca se comparten o se sugieren a anunciantes.
-Los anuncios nunca están dirigidos a un usuario en función de su identidad de trabajo u organización.
+## <a name="microsoft-search-in-bing-protects-enterprise-searches"></a>Búsqueda de Microsoft en Bing protege las búsquedas empresariales 
+Cuando un usuario escribe una consulta de búsqueda empresarial en Búsqueda de Microsoft, se producen dos solicitudes de búsqueda simultáneas: (1) una búsqueda de los recursos internos de la empresa y (2) una búsqueda independiente de resultados públicos de Bing.com. Como las búsquedas empresariales pueden ser confidenciales, Búsqueda de Microsoft ha implementado un conjunto de medidas de confianza que describen cómo se maneja la búsqueda separada de resultados públicos de Bing.com. 
+-   **Registro**
+    - Todos los registros de búsqueda que pertenecen al tráfico de Búsqueda de Microsoft se desvinculan de la identidad de su lugar de trabajo.
+    - Si se alcanza un conjunto de restricciones o umbrales de frecuencia que nos garantiza que la consulta no es específica para una organización determinada, la consulta se considerará como se describe en la sección servicios de Bing de la [declaración de privacidad](https://privacy.microsoft.com/privacystatement). Por ejemplo, estas consultas se usarán para moldear y entrenar características públicas como la sugerencia automática o búsquedas relacionadas. 
+    - Las consultas que no cumplan el conjunto de restricciones o umbrales de frecuencia se almacenarán por separado del tráfico público que no sea de Búsqueda de Microsoft.
+-   **Publicidad**
+    - La publicidad que se muestra en Bing.com en conexión con las búsquedas empresariales está relacionada únicamente con el contenido de las consultas de búsqueda. Los anuncios nunca se dirigen a los usuarios en función de su identidad laboral.
 
 ## <a name="see-also"></a>Vea también
 

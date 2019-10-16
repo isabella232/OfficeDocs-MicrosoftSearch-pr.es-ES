@@ -15,16 +15,16 @@ search.appverid:
 ms.assetid: ee40010e-5d7f-4ba8-a3f8-d240dab3af6d
 ROBOTS: NOINDEX
 description: Obtenga información sobre cómo configurar Bing como motor de búsqueda predeterminado de su empresa con Microsoft Search.
-ms.openlocfilehash: 7c7ec8be726f2ac12a0e07f3d70c4b6515366bf3
-ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
+ms.openlocfilehash: 0106799b4307e979c5fbafc4ed8c1ddb55098b14
+ms.sourcegitcommit: 5204b3c85e2fc190a8807d5268fb87145624a969
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37289022"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "37502951"
 ---
 # <a name="make-bing-the-default-search-engine"></a>Establezca Bing como el motor de búsqueda predeterminado
   
-Este artículo explica cómo establecer Bing como motor de búsqueda predeterminado para Microsoft Edge, Google Chrome e Internet Explorer. 
+Este artículo explica cómo puede hacer de Bing el motor de búsqueda predeterminado para Microsoft Edge, Google Chrome e Internet Explorer. 
   
 ## <a name="microsoft-edge-on-windows-10-version-1703-or-later"></a>Microsoft Edge en Windows 10, versión 1703 o posterior
 
