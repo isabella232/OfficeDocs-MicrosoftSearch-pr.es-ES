@@ -22,13 +22,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/05/2019
 ms.locfileid: "34727928"
 ---
-# <a name="add-a-search-box-to-your-intranet-site"></a><span data-ttu-id="f0076-103">Agregar un cuadro de búsqueda a su sitio de intranet</span><span class="sxs-lookup"><span data-stu-id="f0076-103">Add a search box to your intranet site</span></span>
+# <a name="add-a-search-box-to-your-intranet-site"></a><span data-ttu-id="411b3-103">Agregar un cuadro de búsqueda a su sitio de intranet</span><span class="sxs-lookup"><span data-stu-id="411b3-103">Add a search box to your intranet site</span></span>
 
-<span data-ttu-id="f0076-104">Para acceder rápidamente a las sugerencias de búsqueda y resultados de trabajo relevantes, agregue un cuadro de búsqueda de Microsoft Search a cualquier página o sitio de intranet.</span><span class="sxs-lookup"><span data-stu-id="f0076-104">For fast access to relevant search suggestions and work results, add a Microsoft Search search box to any intranet site or page.</span></span>
+<span data-ttu-id="411b3-104">Para acceder rápidamente a las sugerencias de búsqueda y resultados de trabajo relevantes, agregue un cuadro de búsqueda de Microsoft Search a cualquier página o sitio de intranet.</span><span class="sxs-lookup"><span data-stu-id="411b3-104">For fast access to relevant search suggestions and work results, add a Microsoft Search search box to any intranet site or page.</span></span>
   
-## <a name="add-a-search-box-to-an-intranet-page"></a><span data-ttu-id="f0076-105">Agregar un cuadro de búsqueda a una página de intranet</span><span class="sxs-lookup"><span data-stu-id="f0076-105">Add a search box to an intranet page</span></span>
+## <a name="add-a-search-box-to-an-intranet-page"></a><span data-ttu-id="411b3-105">Agregar un cuadro de búsqueda a una página de intranet</span><span class="sxs-lookup"><span data-stu-id="411b3-105">Add a search box to an intranet page</span></span>
 
-<span data-ttu-id="f0076-106">Necesita agregar dos elementos a la página: un contenedor para el cuadro de búsqueda y la secuencia de comandos que la potencia.</span><span class="sxs-lookup"><span data-stu-id="f0076-106">You need to add two elements to the page: a container for the search box and the script that powers it.</span></span>
+<span data-ttu-id="411b3-106">Necesita agregar dos elementos a la página: un contenedor para el cuadro de búsqueda y la secuencia de comandos que la potencia.</span><span class="sxs-lookup"><span data-stu-id="411b3-106">You need to add two elements to the page: a container for the search box and the script that powers it.</span></span>
   
 ```html
 <div id="bfb_searchbox"></div>
@@ -40,11 +40,11 @@ ms.locfileid: "34727928"
 <script async src="https://www.bing.com/business/s?k=sb"></script>
 ```
 
-<span data-ttu-id="f0076-107">En un sitio de SharePoint clásico, agregue un elemento web de Script Editor y coloque el script en él.</span><span class="sxs-lookup"><span data-stu-id="f0076-107">On a SharePoint classic site, add a Script Editor Web Part and drop the script in it.</span></span>
+<span data-ttu-id="411b3-107">En un sitio de SharePoint clásico, agregue un elemento web de Script Editor y coloque el script en él.</span><span class="sxs-lookup"><span data-stu-id="411b3-107">On a SharePoint classic site, add a Script Editor Web Part and drop the script in it.</span></span>
   
-## <a name="enable-the-search-box-for-mobile"></a><span data-ttu-id="f0076-108">Habilitar el cuadro de búsqueda para dispositivos móviles</span><span class="sxs-lookup"><span data-stu-id="f0076-108">Enable the search box for mobile</span></span>
+## <a name="enable-the-search-box-for-mobile"></a><span data-ttu-id="411b3-108">Habilitar el cuadro de búsqueda para dispositivos móviles</span><span class="sxs-lookup"><span data-stu-id="411b3-108">Enable the search box for mobile</span></span>
 
-<span data-ttu-id="f0076-109">Para sitios o páginas de intranet disponibles para usuarios móviles, agregue isMobile: true al objeto de configuración:</span><span class="sxs-lookup"><span data-stu-id="f0076-109">For intranet sites or pages available to mobile users, add isMobile: true to the settings object:</span></span>
+<span data-ttu-id="411b3-109">Para sitios o páginas de intranet disponibles para usuarios móviles, agregue isMobile: true al objeto de configuración:</span><span class="sxs-lookup"><span data-stu-id="411b3-109">For intranet sites or pages available to mobile users, add isMobile: true to the settings object:</span></span>
   
 ```html
 <div id="bfb_searchbox"></div>
@@ -57,9 +57,9 @@ ms.locfileid: "34727928"
 <script async src="https://www.bing.com/business/s?k=sb"></script>
 ```
 
-## <a name="put-focus-on-the-search-box-by-default"></a><span data-ttu-id="f0076-110">Colocar el foco en el cuadro de búsqueda de forma predeterminada</span><span class="sxs-lookup"><span data-stu-id="f0076-110">Put focus on the search box by default</span></span>
+## <a name="put-focus-on-the-search-box-by-default"></a><span data-ttu-id="411b3-110">Colocar el foco en el cuadro de búsqueda de forma predeterminada</span><span class="sxs-lookup"><span data-stu-id="411b3-110">Put focus on the search box by default</span></span>
 
-<span data-ttu-id="f0076-111">Para ayudar a los usuarios a buscar con mayor rapidez, coloque el cursor en el cuadro de búsqueda cuando se cargue la página o sitio agregando focus: true al objeto de configuración:</span><span class="sxs-lookup"><span data-stu-id="f0076-111">To help users search faster, when the page or site loads place the cursor in the search box by adding focus: true to the settings object:</span></span>
+<span data-ttu-id="411b3-111">Para ayudar a los usuarios a buscar con mayor rapidez, coloque el cursor en el cuadro de búsqueda cuando se cargue la página o sitio agregando focus: true al objeto de configuración:</span><span class="sxs-lookup"><span data-stu-id="411b3-111">To help users search faster, when the page or site loads place the cursor in the search box by adding focus: true to the settings object:</span></span>
   
 ```html
 <div id="bfb_searchbox"></div>
@@ -72,9 +72,9 @@ ms.locfileid: "34727928"
 <script async src="https://www.bing.com/business/s?k=sb"></script>
 ```
 
-## <a name="customize-the-appearance-of-the-search-box"></a><span data-ttu-id="f0076-112">Personalizar la apariencia del cuadro de búsqueda</span><span class="sxs-lookup"><span data-stu-id="f0076-112">Customize the appearance of the search box</span></span> 
+## <a name="customize-the-appearance-of-the-search-box"></a><span data-ttu-id="411b3-112">Personalizar la apariencia del cuadro de búsqueda</span><span class="sxs-lookup"><span data-stu-id="411b3-112">Customize the appearance of the search box</span></span> 
 
-<span data-ttu-id="f0076-113">Para ayudar a que el cuadro de búsqueda se adapte mejor con el estilo de su intranet, hay una gran variedad de opciones de configuración que puede usar.</span><span class="sxs-lookup"><span data-stu-id="f0076-113">To help the search box better fit with the style of your intranet, there are a variety of configuration options you can use.</span></span> <span data-ttu-id="f0076-114">Mezcle y combine opciones para satisfacer sus necesidades.</span><span class="sxs-lookup"><span data-stu-id="f0076-114">Mix and match options to suit your needs.</span></span>
+<span data-ttu-id="411b3-113">Para ayudar a que el cuadro de búsqueda se adapte mejor con el estilo de su intranet, hay una gran variedad de opciones de configuración que puede usar.</span><span class="sxs-lookup"><span data-stu-id="411b3-113">To help the search box better fit with the style of your intranet, there are a variety of configuration options you can use.</span></span> <span data-ttu-id="411b3-114">Mezcle y combine opciones para satisfacer sus necesidades.</span><span class="sxs-lookup"><span data-stu-id="411b3-114">Mix and match options to suit your needs.</span></span>
 
 ```html
 <div id="bfb_searchbox"></div>
@@ -95,9 +95,9 @@ ms.locfileid: "34727928"
 <script async src="https://www.bing.com/business/s?k=sb"></script>
 ```
 
-## <a name="use-an-iframe-to-embed-a-search-box"></a><span data-ttu-id="f0076-115">Use un iFrame para insertar un cuadro de búsqueda</span><span class="sxs-lookup"><span data-stu-id="f0076-115">Use an iFrame to embed a search box</span></span>
+## <a name="use-an-iframe-to-embed-a-search-box"></a><span data-ttu-id="411b3-115">Use un iFrame para insertar un cuadro de búsqueda</span><span class="sxs-lookup"><span data-stu-id="411b3-115">Use an iFrame to embed a search box</span></span>
 
-<span data-ttu-id="f0076-116">Si incrustar una secuencia de comandos no es una opción para el sitio, use un iFrame para agregar el cuadro de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="f0076-116">If embedding a script isn't an option for the site, use an iFrame to add the search box.</span></span> <span data-ttu-id="f0076-117">No podrá personalizar la apariencia del cuadro de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="f0076-117">You won't be able to customize the appearance of the search box.</span></span>
+<span data-ttu-id="411b3-116">Si incrustar una secuencia de comandos no es una opción para el sitio, use un iFrame para agregar el cuadro de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="411b3-116">If embedding a script isn't an option for the site, use an iFrame to add the search box.</span></span> <span data-ttu-id="411b3-117">No podrá personalizar la apariencia del cuadro de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="411b3-117">You won't be able to customize the appearance of the search box.</span></span>
   
 ```html
 <iframe width="564" height="400" src="https://www.bing.com/business/searchbox"></iframe>
