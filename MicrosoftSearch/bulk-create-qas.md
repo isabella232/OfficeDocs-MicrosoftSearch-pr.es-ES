@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 7bada218-8908-4956-aae3-6ffaeef384ca
 ROBOTS: NoIndex
 description: Agregue rápidamente respuestas a las preguntas más frecuentes con herramientas de importación en el portal de administración de Búsqueda de Microsoft
-ms.openlocfilehash: c0ec4aaa0ee93e94c8569dc383456018ccc6679d
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
-ms.translationtype: HT
+ms.openlocfilehash: 660f5663ff6238f4ab59dab36d51f1311d5c7260
+ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639779"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37949036"
 ---
 # <a name="bulk-create-qas"></a>Crear preguntas y respuestas en masa
 
@@ -45,7 +45,7 @@ Descargue y use la plantilla .csv para crear o editar preguntas y respuestas en 
     
 7. Haga clic en **Importar**
 
-# <a name="prevent-import-errors"></a>Evitar errores de importación      
+## <a name="prevent-import-errors"></a>Evitar errores de importación      
 Recibirá un mensaje de error si faltan datos necesarios o si estos no son válidos. Según el error, puede generarse un archivo de registro con más información sobre las filas y columnas que deben corregirse. Realice los cambios necesarios e intente importar de nuevo el archivo.
 
 > [!NOTE]
@@ -61,7 +61,7 @@ Según el campo Estado, las preguntas y respuestas se guardarán como borradores
 
 Además, si incluye el Id. de preguntas y respuestas existentes, este se reemplazará con la información del archivo de importación.
 
-Para organizaciones con múltiples espacios empresariales, se pueden exportar preguntas y respuestas de un espacio empresarial e importarlas en otro. Pero, debe eliminar todos los datos de la columna Id. antes de la importación.
+En el caso de los socios que administran varias organizaciones, puede exportar su&Q como de una organización e importarla a otra. Pero, debe eliminar todos los datos de la columna Id. antes de la importación.
 
 Para obtener más información sobre los campos necesarios y recomendados, vea [Crear preguntas y respuestas](create-qas.md).
 

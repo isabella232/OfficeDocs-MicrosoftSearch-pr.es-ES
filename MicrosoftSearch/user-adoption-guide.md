@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 9e8c9323-4ff9-42dd-8052-2bc9e0d6d0e7
 ROBOTS: NOINDEX
 description: Obtenga información acerca de los métodos y procesos que le ayudarán a implementar correctamente Microsoft Search en su organización
-ms.openlocfilehash: 3bca460fe4d764fd1fee1eac16faa467c66cd4b9
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
+ms.openlocfilehash: 439c7a8e9fbfdeb5b2bc42276dccb2377f3f0dac
+ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639889"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37949360"
 ---
 # <a name="user-adoption-guide"></a>Guía de adopción del usuario
 
@@ -43,7 +43,7 @@ La tabla muestra la jerarquía del equipo y lo que contribuye cada persona.
 |Equipo de administración de cambios  <br/> |Garantizar que el valor del producto es fácil de entender  <br/> Crear un plan para la implementación  <br/> |TI  <br/> |
 |Campeones  <br/> |Distribuya el producto a los colegas y a los equipos.  <br/> |Any (personal)  <br/> |
 |Administrador de búsqueda  <br/> |Identificar a los miembros principales del equipo de adopción del usuario  <br/> Administrar Microsoft Search, incluida la apariencia de la experiencia y la administración continuada  <br/> Impulsar discusiones para mostrar el valor de Microsoft Search  <br/> |TI  <br/> |
-|Editors  <br/> |Crear contenido en el portal de administración  <br/> |TI/any  <br/> |
+|Editors  <br/> |Crear contenido en el centro de administración  <br/> |TI/any  <br/> |
    
 ## <a name="stage-2-scenarios"></a>Fase 2: escenarios
 
@@ -121,7 +121,7 @@ Todas las comunicaciones deben instruir a los usuarios sobre cómo pueden inicia
   
  **Participar en los equipos de asociados**
   
-Como parte integral de Microsoft 365, Microsoft Search cumple con las directrices de RGPD y Tier-C. En función de la organización, puede que sea necesario compartir información sobre Microsoft Search con los equipos de privacidad y seguridad. Para obtener más información, vea [Security for Microsoft Search](security.md).
+Como parte integral de Microsoft 365, Microsoft Search cumple con las directrices de RGPD y Tier-C. En función de la organización, puede que sea necesario compartir información sobre Microsoft Search con los equipos de privacidad y seguridad. Para obtener más información, vea [Security for Microsoft Search](overview-microsoft-search.md#microsoft-search-in-bing-protects-enterprise-searches).
   
 Asegúrese de que el servicio de asistencia técnica sepa sobre las características y funciones de Microsoft Search, así como los requisitos de usuario para iniciar sesión, de modo que puedan admitir a los usuarios con mayor eficacia. Para obtener más información, vea [usar Microsoft Search](use/about-microsoft-search.md) y [FAQ](faqs.md).
   

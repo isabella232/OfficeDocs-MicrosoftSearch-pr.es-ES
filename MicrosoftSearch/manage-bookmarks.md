@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Crear y actualizar marcadores y formas de editar en masa los resultados de marcadores para Microsoft Search
-ms.openlocfilehash: 02b9bfecd97210ba8cd5b46bf3bc108bf66b6f01
-ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
+ms.openlocfilehash: fa1da7d120522ea76d68c1a84f7bee7590701c88
+ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288977"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37949225"
 ---
 # <a name="manage-bookmarks"></a>Administrar marcadores
 
@@ -65,7 +65,7 @@ Estos son algunos puntos importantes a tener en cuenta en relación con el archi
 - Si ya existe un marcador con el mismo título o dirección URL, el marcador se actualizará con la información del archivo de importación.
 - No todos los campos del archivo de plantilla son necesarios y hay campos obligatorios que varían según el estado del marcador.
 - En función del campo *Estado*, los marcadores se guardarán como borradores, sugeridos o programados, o se publicarán automáticamente.
-- Para organizaciones con múltiples cuentas empresariales, se pueden exportar los marcadores de una cuenta empresarial e importarlos en otra. Sin embargo, debe eliminar los datos de la columna *Id* antes de la importación.
+- Para los socios que administran varias organizaciones, puede exportar sus marcadores de una organización e importarlos en otro. Sin embargo, debe eliminar los datos de la columna *Id* antes de la importación.
 
 ### <a name="prevent-import-errors"></a>Evitar errores de importación
 Si hay datos obligatorios que faltan o no son válidos, recibirá un mensaje de error y se generará un archivo de registro con información adicional acerca de las filas y columnas que se deben corregir. Realice cualquier cambio necesario y pruebe a importar de nuevo el archivo. No puede importar o guardar los marcadores hasta que se hayan solucionado todos los errores.
@@ -81,8 +81,7 @@ Ayude a los usuarios a realizar tareas, como marcar las fechas de las vacaciones
 
 ### <a name="what-are-powerapps"></a>¿Qué son las PowerApps?
 PowerApps es un servicio que le permite crear aplicaciones empresariales que funcionan en un explorador o en una tableta o teléfono sin necesidad de tener conocimientos de programación. Las PowerApps funcionan en cualquier explorador y en cualquier dispositivo y se agregan en menos de un minuto. Para obtener más información sobre PowerApps, consulte:
-- 
-  [Aprendizaje guiado](https://docs.microsoft.com/learn/browse/?products=powerapps)
+- [Aprendizaje guiado](https://docs.microsoft.com/learn/browse/?products=powerapps)
 - [Documentación](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid)
 - [Inicio de PowerApps](https://make.preview.powerapps.com/environments/839eace6-59ab-4243-97ec-a5b8fcc104e4/home)
 
