@@ -3,7 +3,6 @@ title: Conector de recurso compartido de archivos para Microsoft Search
 ms.author: v-pamcn
 author: TrishaMc1
 manager: mnirkhe
-ms.date: 10/08/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de recursos compartidos de archivos para Microsoft Search.
-ms.openlocfilehash: d5fbc1af2868ce7baa70017f617a9731340fb19a
-ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+ms.openlocfilehash: 9791ee3460eb174fd7a478baa6a9beb45f1b1aab
+ms.sourcegitcommit: 6b531b2ce7253c16251c7089795dedf1d2f3fc33
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37950031"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38310720"
 ---
 # <a name="file-share-connector"></a>Conector de uso compartido de archivos
 
@@ -27,13 +26,15 @@ Con el conector de recursos compartidos de archivos, los usuarios de la organiza
 Este artículo está destinado a los administradores de Microsoft 365 o a cualquiera que configure, ejecute y supervise un conector de recursos compartidos de archivos. Se explica cómo configurar las capacidades del conector y el conector, las limitaciones y las técnicas de solución de problemas.
 
 ## <a name="install-a-data-gateway"></a>Instalar una puerta de enlace de datos
-Para obtener acceso a los datos de terceros, debe instalar y configurar una puerta de enlace de Microsoft Power BI. Consulte [instalar y la puerta de enlace local](https://docs.microsoft.com/data-integration/gateway/service-gateway-install) para obtener más información.  
+Para obtener acceso a los datos de terceros, debe instalar y configurar una puerta de enlace de Microsoft Power BI. Consulte [instalar una puerta de enlace local](https://docs.microsoft.com/data-integration/gateway/service-gateway-install) para obtener más información.  
+
+## <a name="content-requirements"></a>Requisitos de contenido
+**Tipos de archivo**. Solo se pueden indizar y buscar los archivos en estos formatos: DOC, DOCM, DOCX, DOT, DOTX, EML, GIF, HTML, JPEG, MHT, MHTML, MSG, NWS, DAB, OBT, ODP, ODS, ODT, ONE, PDF, POT, PPS, PPT, PPTM, PPTX, TXT, XLB, XLC, XLSB, XLS, XLSX, XLT, XLXM, XML, XPS y ZIP. Solo se indiza el contenido textual de estos formatos. Se omite todo el contenido multimedia.
+ 
+**Límites de tamaño de archivo**. El tamaño máximo de archivo admitido es 100 MB. Los archivos que superan los 100 MB se omiten de la indización. El límite de tamaño posterior al proceso es de 4 MB. El procesamiento se detiene cuando el tamaño de un archivo alcanza 4 MB. Como resultado, es posible que algunas frases presentes en el archivo no funcionen para la búsqueda.
 
 ## <a name="connect-to-a-data-source"></a>Conectarse a un origen de datos
-En la página **conectar a origen de datos** , cree una carpeta y proporcione una ruta de acceso al recurso compartido de archivos. A continuación, seleccione la puerta de enlace instalada previamente. Escriba las credenciales de una cuenta de usuario de Windows con **acceso de lectura** a todos los archivos en el recurso compartido. A continuación, puede comprobar los archivos presentes en el recurso compartido y ver todos los metadatos recuperados.
-
-## <a name="manage-search-permissions"></a>Administrar permisos de búsqueda
-El conector de recursos compartidos de archivos solo admite permisos de búsqueda visibles para **todos los usuarios**. Los datos indizados aparecen en los resultados de la búsqueda y son visibles para todos los usuarios de la organización.
+En la página **conectar con origen de datos** , seleccione **recurso compartido de archivos** y proporcione el nombre, el identificador de conexión y la descripción. En la página siguiente, especifique la ruta de acceso al recurso compartido de archivos y seleccione la puerta de enlace instalada previamente. Escriba las credenciales de una cuenta de usuario de Windows con acceso de lectura a todos los archivos en el recurso compartido. Recorra el resto de la configuración y publique la conexión.
 
 ## <a name="set-the-refresh-schedule"></a>Establecer la programación de actualización
 El intervalo de programación de actualización predeterminada recomendado es de 15 minutos, pero puede cambiarlo a otro intervalo que prefiera.
@@ -111,5 +112,5 @@ Si algo es muy incorrecto en una conexión, su estado indica que **ha fallado**.
 ## <a name="limitations"></a>Limitaciones
 El conector de recursos compartidos de archivos tiene estas limitaciones en la versión preliminar:
 * Solo se pueden Indizar archivos con propiedades fijas, no con propiedades personalizadas.
-* Actualmente no se admiten las listas de control de acceso (ACL) del recurso compartido de archivos.
+* Actualmente no se admiten las listas de control de acceso (ACL) del recurso compartido de archivos. Solo se admiten las ACL de archivos NTFS.
 * Las identidades externas no son compatibles. Deben estar asignados a identidades de Azure Active Directory.
