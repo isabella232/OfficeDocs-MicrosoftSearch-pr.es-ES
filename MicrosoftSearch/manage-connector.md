@@ -1,9 +1,8 @@
 ---
 title: Administrar conectores de Microsoft Graph para Microsoft Search
-ms.author: v-pamcn
+ms.author: mounika.narayanan
 author: monaray
 manager: mnirkhe
-ms.date: 11/04/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Administrar conectores de Microsoft Graph para Microsoft Search.
-ms.openlocfilehash: 5aab310a05d073221918a8aaa80ea1e06c818e51
-ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+ms.openlocfilehash: c74dc8f6d08519860e757b0ebe19e83dcf42159b
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37950071"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626805"
 ---
 # <a name="manage-your-connector-for-microsoft-search"></a>Administrar el conector para Microsoft Search
 
@@ -34,9 +33,9 @@ Para cada tipo de conector, el [centro de administración de Microsoft 365](http
 **Operación** | **Conector creado por Microsoft** | **Asociado o conector personalizado**
 --- | --- | ---
 Agregar una conexión | : heavy_check_mark: (vea [configurar el conector creado por Microsoft](configure-connector.md)) | : x: (consulte a su partner o a la experiencia del administrador del conector integrado personalizado)
-Eliminar una conexión | :heavy_check_mark: | :heavy_check_mark:
+Eliminar una conexión | : heavy_check_mark: | : heavy_check_mark:
 Editar una conexión Publicada | : heavy_check_mark: nombre<br></br> : heavy_check_mark: Descripción<br></br> : heavy_check_mark: credenciales de autenticación para el origen de datos externo<br></br> : heavy_check_mark: credenciales de puerta de enlace para el origen de datos local<br></br> : heavy_check_mark: actualizar programación<br></br> | : heavy_check_mark: nombre<br></br> : heavy_check_mark: Descripción
-Edición de una conexión de borrador | :heavy_check_mark: | días
+Edición de una conexión de borrador | : heavy_check_mark: | días
 
 ## <a name="monitor-your-connection-status"></a>Supervisar el estado de conexión
 Después de crear una conexión, el número de elementos procesados se muestra en la ficha **conectores** de la página de **Microsoft Search** . Una vez finalizado correctamente el rastreo completo inicial, se muestra el progreso de los rastreos incrementales periódicos. Esta página proporciona información sobre las operaciones cotidianas del conector y una introducción a los registros y el historial de errores.

@@ -3,23 +3,21 @@ title: Preguntas más frecuentes
 ms.author: anfowler
 author: adefowler
 manager: shohara
-ms.date: 10/19/2018
 ms.audience: Admin
 ms.topic: reference
 ms.service: mssearch
-localization_priority: Priority
+localization_priority: Normal
 search.appverid:
 - BFB160
 - MET150
 - MOE150
-ROBOTS: NoIndex
 description: Obtenga respuestas a las preguntas más frecuentes acerca de la búsqueda empresarial y Microsoft Search
-ms.openlocfilehash: d3cf7e4a6f252711f94e90a4e6561c8f25769c27
-ms.sourcegitcommit: 5204b3c85e2fc190a8807d5268fb87145624a969
-ms.translationtype: HT
+ms.openlocfilehash: 3ff2aabae4e09170b6b0380d520bfc620d5de5d8
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "37502933"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626259"
 ---
 # <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 

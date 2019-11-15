@@ -1,9 +1,8 @@
 ---
 title: Conector de sitios web de empresa para Microsoft Search
-ms.author: v-pamcn
+ms.author: mounika.narayanan
 author: monaray
 manager: mnirkhe
-ms.date: 11/04/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de sitios web de empresa para Microsoft Search
-ms.openlocfilehash: 3caca53204bfb2cca4209e048a21173f550e3d39
-ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+ms.openlocfilehash: c2495487b24b11512a182434f72a90044a439d5d
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37950064"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626277"
 ---
 # <a name="enterprise-websites-connector"></a>Conector de sitios web de empresa
 
@@ -40,7 +39,7 @@ Para obtener más información, vea [autorizar el acceso a aplicaciones Web de A
 * **Name:** Búsqueda de Microsoft
 * **Redirect_URI:**`https://gcs.office.com/v1.0/admin/oauth/callback`
 
-Para obtener los valores de tenant, Resource, client_id y client_secret con nombre, vaya a **usar el código de autorización para solicitar un token de acceso** en la Página Web de la dirección URL de redireccionamiento.
+Para obtener los valores de inquilino, recurso, client_id y client_secret con nombre, vaya a **usar el código de autorización para solicitar un token de acceso** en la Página Web de dirección URL de redireccionamiento.
 
 Para obtener más información, consulte [QuickStart: registrar una aplicación con la plataforma de identidad de Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
 

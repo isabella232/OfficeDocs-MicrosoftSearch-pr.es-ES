@@ -1,9 +1,8 @@
 ---
 title: 'Vista previa pública de Microsoft Search: condiciones de uso'
-ms.author: monaray97
+ms.author: anfowler
 author: adefowler
 manager: shohara
-ms.date: 11/04/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,13 +11,13 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: términos y condiciones legales para la versión preliminar pública de conectores de Microsoft Graph para Microsoft Search
-ms.openlocfilehash: 7d4f399a49d8f88a9b89c722d8bcd5a86a740d26
-ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+description: Términos y condiciones legales para la versión preliminar pública de conectores de Microsoft Graph para Microsoft Search
+ms.openlocfilehash: ee70ae9b747d6f0558426fd568a63abc6d2142f1
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37950082"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626904"
 ---
 # <a name="microsoft-graph-connectors-public-preview-terms-of-use"></a>Vista previa pública de conectores de Microsoft Graph: condiciones de uso
 

@@ -3,7 +3,6 @@ title: Administrar ubicaciones
 ms.author: dawholl
 author: dawholl
 manager: kellis
-ms.date: 05/30/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -14,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8ab9aa00-cd74-405f-8410-9a1c3cfacdb9
 description: Con el tiempo, es posible que deba actualizar el estado y el contenido de una ubicación para que siga siendo relevante.
-ms.openlocfilehash: d026e518011f3b3739beb2b6aaa044f8a5e9c0d4
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
-ms.translationtype: HT
+ms.openlocfilehash: 25fa6fdb8f95c04332e8df16c7589286ecaefdb0
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591561"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626787"
 ---
 # <a name="manage-locations"></a>Administrar ubicaciones
 
@@ -57,7 +56,7 @@ Estos son algunos puntos importantes en relación con el archivo de plantilla:
 - Si ya existe un marcador con el mismo título o dirección URL, el marcador se actualizará con la información del archivo de importación.
 - No todos los campos del archivo de plantilla son necesarios y hay campos obligatorios que varían según el estado del marcador.
 - En función del campo *Estado*, los marcadores se guardarán como borradores, sugeridos o programados, o se publicarán automáticamente.
-- Para organizaciones con múltiples cuentas empresariales, se pueden exportar los marcadores de una cuenta empresarial e importarlos en otra. Sin embargo, debe eliminar los datos de la columna *Id* antes de la importación.
+- Para los socios que administran varias organizaciones, puede exportar sus marcadores de una organización e importarlos en otro. Sin embargo, debe eliminar los datos de la columna *Id* antes de la importación.
 
 **Nota:** no puede importar ubicaciones si hay cualquier error en el archivo de plantilla. Para evitar errores, asegúrese de que el archivo de importación está correctamente formateado y contiene toda la información necesaria. 
 

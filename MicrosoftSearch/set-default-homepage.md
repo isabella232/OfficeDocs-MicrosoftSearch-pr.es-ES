@@ -3,24 +3,22 @@ title: Establecer página de inicio predeterminada
 ms.author: anfowler
 author: adefowler
 manager: shohara
-ms.date: 12/20/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Priority
+localization_priority: Normal
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: c020bd72-9906-4dfd-bc77-57287f5927ce
-ROBOTS: NOINDEX
 description: Obtenga información sobre cómo establecer Bing como página principal predeterminada para su empresa con Microsoft Search.
-ms.openlocfilehash: c3302863fab8888b8304b909c2c74ce71b391ade
-ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
-ms.translationtype: HT
+ms.openlocfilehash: 2b88d92d02261ec1756b811e5078206301229cbd
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37289013"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626931"
 ---
 # <a name="make-bingcom-the-default-home-page"></a>Convertir Bing.com en la Página principal predeterminada
 

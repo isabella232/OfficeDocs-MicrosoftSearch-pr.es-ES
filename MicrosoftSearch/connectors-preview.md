@@ -1,6 +1,6 @@
 ---
 title: Vista previa de conectores
-ms.author: v-pamcn
+ms.author: mounika.narayanan
 author: monaray
 manager: shohara
 ms.audience: Admin
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenga información sobre la vista previa de conectores de Microsoft Graph para Microsoft Search.
-ms.openlocfilehash: 025b4f0d7ad4ecae2909f02687c66938d931a2fc
-ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+ms.openlocfilehash: 3ac27bd1e859f9ffc825e5e77d96f0de56b13647
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37950060"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626268"
 ---
 # <a name="microsoft-graph-connectors-preview"></a>Vista previa de conectores de Microsoft Graph
 

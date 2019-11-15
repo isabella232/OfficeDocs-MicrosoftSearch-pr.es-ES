@@ -3,7 +3,6 @@ title: Prácticas recomendadas para los planes de planta de Microsoft Search
 ms.author: anfowler
 author: adefowler
 manager: shohara
-ms.date: 10/30/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Prácticas recomendadas para los planes de planta de Microsoft Search
-ms.openlocfilehash: 93e06663524195188ca790f4cf5b853526bc7798
-ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+ms.openlocfilehash: 62c7122dd9fddfe41edb6841187e9974f222e62b
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37950069"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626868"
 ---
 # <a name="best-practices"></a>Procedimientos recomendados
 

@@ -1,6 +1,6 @@
 ---
 title: Introducción a los conectores
-ms.author: v-pamcn
+ms.author: mounika.narayanan
 author: monaray
 manager: shohara
 ms.audience: Admin
@@ -11,13 +11,13 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Información general sobre los conectores de Microsoft Graph para la búsqueda de Microsfot
-ms.openlocfilehash: c372d4750c6644f0f98054a2531b6431fb8cd334
-ms.sourcegitcommit: 90f82efc3671c477536cbe8d8846132910b64600
+description: Introducción a los conectores de Microsoft Graph para Microsoft Search
+ms.openlocfilehash: 8b46dc5150fa7f302f2d8abe98018465f2e4e1c3
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37961961"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626322"
 ---
 # <a name="overview-of-microsoft-graph-connectors"></a>Información general sobre los conectores de Microsoft Graph
 

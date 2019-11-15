@@ -3,24 +3,22 @@ title: Probar el inicio de sesión único
 ms.author: dawholl
 author: dawholl
 manager: kellis
-ms.date: 09/11/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Priority
+localization_priority: Normal
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: a220c1bf-7cee-448a-90a3-310284d03e81
-ROBOTS: NOINDEX
 description: Reduzca el número de veces que se solicita a los usuarios de Windows 10 que inicien sesión en Microsoft Search y Office 365
-ms.openlocfilehash: 5dbceb070a469d1a8b3808a07a0972978a909f8a
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
-ms.translationtype: HT
+ms.openlocfilehash: 9fa7e067a5d72b7044981491f8526e6de727cfae
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639382"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626895"
 ---
 # <a name="test-single-sign-on"></a>Probar el inicio de sesión único
 

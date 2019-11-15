@@ -3,24 +3,22 @@ title: Establecer explorador predeterminado
 ms.author: anfowler
 author: adefowler
 manager: shohara
-ms.date: 12/20/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Priority
+localization_priority: Normal
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: 53e2b71a-348b-4dfe-a504-6e97d573effe
-ROBOTS: NOINDEX
 description: Configure Microsoft Edge o Internet Explorer como explorador predeterminado para los usuarios de Búsqueda de Microsoft.
-ms.openlocfilehash: ed145a1811aba0b58158ed04dd3bf8dc089a0682
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
-ms.translationtype: HT
+ms.openlocfilehash: b99127411d070b37fe34a4f8468449f2354cb6be
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639743"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626940"
 ---
 # <a name="make-microsoft-edge-the-default-browser"></a>Hacer de Microsoft Edge el explorador predeterminado
   

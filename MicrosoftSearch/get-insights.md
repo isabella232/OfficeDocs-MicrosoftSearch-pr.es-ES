@@ -1,9 +1,8 @@
 ---
-title: Usar el panel de información
-ms.author: dawholl
-author: dawholl
-manager: kellis
-ms.date: 9/11/2018
+title: Informes del panel de información de Microsoft Search
+ms.author: anfowler
+author: adefowler
+manager: shohara
 ms.audience: Admin
 ms.topic: reference
 ms.service: mssearch
@@ -13,65 +12,43 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ebce7fdc-e89b-473c-8131-67e659bb3f73
-ROBOTS: NOINDEX
-description: Analice métricas y administre el contenido desde el sencillo panel en el portal de administración de Búsqueda de Microsoft
-ms.openlocfilehash: 9323ad97a2baffc3bdc1794049f6933335b298b2
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
-ms.translationtype: HT
+description: Analizar métricas y administrar contenido desde el panel de información de Microsoft Search
+ms.openlocfilehash: d75622ad8c414f225615ea14082c8197e2947dd4
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639824"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626877"
 ---
-# <a name="use-the-insights-dashboard"></a>Usar el panel de información 
+# <a name="microsoft-search-insights-dashboard-reports"></a>Informes del panel de información de Microsoft Search
 
-> [!IMPORTANT]
-> Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing Estamos pasando el portal al Centro de administración de Microsoft 365. Luego, se quitará el portal de Búsqueda de Microsoft en Bing. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Búsqueda de Microsoft](overview-microsoft-search.md).
-    
-Obtenga información sobre datos para saber cómo interactúan los usuarios con los resultados. Use el Panel del Portal de administración de usuario para:
-  
-- Ver cuántos marcadores y preguntas y respuestas se han publicado, programado o sugerido
-    
-- Ver las impresiones para las consultas de búsqueda más populares que muestran resultados del trabajo
-    
-- Analizar las distribuciones de impresiones para marcadores y preguntas y respuestas
-    
-## <a name="get-details-about-bookmarks-and-qas"></a>Obtener información sobre los marcadores y preguntas y respuestas
+Puede usar el panel de información de Microsoft Search para administrar los datos de Bing para las respuestas publicadas. Esto es tan solo uno de los pasos necesarios para que el [contenido sea fácil de encontrar](make-content-easy-to-find.md) para los usuarios.
 
-Usar el panel para ver el total de marcadores o preguntas y respuestas por estado:
-  
-- Publicados: El número de resultados publicados que están disponibles para los usuarios
-    
-- Programados: el número de resultados programados en el proceso de publicación
-    
-- Sugeridos: el número de sugerencias de los usuarios
-    
-Las tarjetas de información de los marcadores y de preguntas y respuestas del panel también proporcionan fácil acceso a tareas comunes:
-  
-- Para ver resultados de marcadores o de preguntas y respuestas, haga clic en Marcadores o preguntas y respuestas en el título de la tarjeta
-    
-- Para agregar marcadores o preguntas y respuestas, haga clic en la opción crear
-    
-- Para agregar marcadores o preguntas y respuestas en masa, haga clic en la opción importar
-    
-## <a name="review-top-search-queries"></a>Revise las consultas de búsqueda más populares
+La primera vez que se dirige a Microsoft Search en el centro de administración de 365 de Microsoft, se especificará en el panel de información.
 
-Descubra las búsquedas que han generado más impresiones durante los últimos 90 días. Se muestran las 25 búsquedas principales de los usuarios por cada tipo de resultado, junto con el número total de impresiones y su tasa de clics (CTR). En la tarjeta de consultas de búsquedas más populares puede:
-  
-- Filtrar por tipo de resultado. Para ello, haga clic en Todos los resultados en el menú y seleccione un tipo de resultados diferente.
-    
-- Ver cómo se mostrará un resultado en Bing. Para ello, haga clic en una consulta y se abrirá la página de los resultados de búsqueda en una nueva pestaña.
-    
-- Ver las consultas de búsqueda adicionales. Para ello, haga clic en la flecha izquierda o derecha en la parte inferior de la tarjeta.
-    
-## <a name="analyze-impressions-by-result-type"></a>Analizar impresiones por tipo de resultado.
+![Insights-Dashboard. png](media/Insights-dashboard.png)
 
-Los gráficos de fácil lectura en la tarjeta de la distribución de impresiones por tipo de resultado muestran datos de intervalos de tiempo diferentes. El resumen muestra el número de impresiones con un cálculo de porcentaje de distribución (número de impresiones por tipo de resultado x 100 / número total de impresiones). La escala de tiempo muestra el número diario de impresiones para un tipo de resultado. También puede cambiar el intervalo de tiempo para ambas vistas y obtener más información:
-  
-- En la parte superior de la tarjeta, haga clic en 7 días, 30 días o 90 días
-    
-- Para ver un rango personalizado entre 0 y 90 días, haga clic en Intervalo personalizado y especifique las fechas de inicio y finalización
-    
-- En la escala de tiempo, mueva el puntero sobre un punto de datos para impresiones por tipo de resultado de un solo día
+Estos son los informes que están disponibles en el panel de información.
 
-  
+> [!NOTE]
+> Los datos de los informes solo representan datos de Bing.
 
+## <a name="top-queries"></a>Consultas principales
+
+Este informe proporciona detalles sobre las 2000 principales consultas de búsqueda de Bing que los usuarios ejecutan. Para que una consulta aparezca en **las principales consultas**, la consulta debe obtener al menos tres clics.
+
+![Principales consultas informe con los encabezados de tabla: consulta, total de consultas y hacer clic hasta la velocidad.](media/Insights-topqueries.png)
+
+Una tasa de clics bajas (CTR) significa que los usuarios no encuentran lo que están buscando.
+
+Puede elegir distintas vistas del informe filtrando según el tipo de respuesta. Por ejemplo, si solo quiere ver las consultas principales para marcadores, seleccione la lista desplegable situada en la esquina superior derecha del informe y, a continuación, seleccione **marcadores**. De forma predeterminada, se muestran **todos los** tipos de respuesta.
+
+![Filtrar el informe de consultas principales por marcadores, personas, Q&A, archivos, grupos, ubicaciones, conversaciones y sitios](media/Insights-topqueries-dropdown.png)
+
+## <a name="impression-distribution"></a>Distribución de impresiones
+
+Este informe muestra la distribución de impresiones en Bing a lo largo del tiempo para varias respuestas. Algunos ejemplos son bookmarks, People, Q&A, files, locations, File sites, Groups, and Conversations. 
+
+![Informe de impresiones con 90 días seleccionados como período de tiempo.](media/Insights-impressions.png)
+
+La distribución de impresiones puede ayudar a los administradores a comprender qué ven los usuarios durante un período especificado.

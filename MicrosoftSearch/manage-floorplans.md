@@ -3,7 +3,6 @@ title: Administrar planos de planta
 ms.author: rasrivas
 author: rasrivas
 manager: tonytha
-ms.date: 11/01/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: La característica de planos de planta de Microsoft Search ayuda a los usuarios a encontrar personas, oficinas y otras amenities en un edificio.
-ms.openlocfilehash: 68912a8f440443c14cbc27019c7b30dc2d7a34c6
-ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+ms.openlocfilehash: 9871cda3790f210dc0c406d1d29abe2c571c1085
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37950052"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626796"
 ---
 # <a name="manage-floor-plans"></a>Administrar planos de planta
 
@@ -90,12 +89,12 @@ Para asignarlos a planos de planta, todas las ubicaciones de oficina y los datos
 
 ## <a name="troubleshoot-errors"></a>Solucionar errores
 
-No puedes ir al paso siguiente para definir la información sobre el suelo, el ala y la habitación hasta que se corrijan todos los errores. El siguiente archivo de tabla carga los mensajes de error y las acciones para corregir los problemas.
+No puedes ir al paso siguiente para definir la información sobre el suelo, el ala y la habitación hasta que se corrijan todos los errores. En la siguiente tabla se muestran los mensajes de error de carga de archivos y las acciones para solucionar los problemas.
 
 | Mensaje de error   | Tipo    | Action       |
 |:----------------| :--------- | :-------------- |
 | No se puede leer CC_1. dwg. Vuelva a cargar o eliminar el plano de planta. | Error |  Intente cargar el archivo de nuevo. Si esto no funciona, elimine el archivo y vuelva a intentarlo. |
-| Hay dos archivos con el nombre CC_1. dwg. Elimine uno de ellos o vuelva a cargarlo con otro nombre.| Error | Si el nombre de archivo es incorrecto, haga que el nombre del archivo sea único agregando información de suelos o alas y, a continuación, vuelva a cargar el archivo. <br><br>Si agregó por accidente el mismo archivo dos veces, simplemente elimínelo. |
+| Hay dos archivos denominados CC_1. dwg. Elimine uno de ellos o vuelva a cargarlo con otro nombre.| Error | Si el nombre de archivo es incorrecto, haga que el nombre del archivo sea único agregando información de suelos o alas y, a continuación, vuelva a cargar el archivo. <br><br>Si agregó por accidente el mismo archivo dos veces, simplemente elimínelo. |
 | No se encontraron datos. | Error | Compruebe el archivo para asegurarse de que es el correcto y, a continuación, cárguelo de nuevo o elimínelo. |
 | Faltan referencias externas en este archivo. Cargue "CC_1_furniture. DWG" o elimine este archivo. | Advertencia | Cargar archivos de referencia externos o eliminar.|
 | No se pudieron leer los números o las etiquetas del salón en el archivo DWG. Elimine este archivo. | Advertencia | Compruebe el archivo DWG para asegurarse de que se incluyen los datos y, a continuación, elimine el archivo y vuelva a intentarlo. |

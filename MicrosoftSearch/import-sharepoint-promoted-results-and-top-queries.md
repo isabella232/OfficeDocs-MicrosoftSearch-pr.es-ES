@@ -3,7 +3,6 @@ title: Importar resultados de SharePoint promocionados y consultas principales
 ms.author: dawholl
 author: dawholl
 manager: kellis
-ms.date: 9/8/2018
 ms.audience: Admin
 ms.topic: reference
 ms.service: mssearch
@@ -15,17 +14,17 @@ search.appverid:
 ms.assetid: 3d2a1498-174e-4214-9cf1-8b58cce5a872
 ROBOTS: NOINDEX
 description: Usar consultas de búsqueda de SharePoint para crear resultados de trabajo para Microsoft Search
-ms.openlocfilehash: ebfd10f8705ce5b9a36b9c13d549e28a3f1c6b91
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
+ms.openlocfilehash: c69203ce2138a7609e1b52614f8bfccc98bc9616
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639806"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626850"
 ---
 # <a name="import-sharepoint-promoted-results-and-top-queries"></a>Importar resultados de SharePoint promocionados y consultas principales
 
 > [!IMPORTANT]
-> Este artículo se aplica a la búsqueda de Microsoft en el portal de administración de Bing. Estamos moviendo el portal al centro de administración de 365 de Microsoft y, a continuación, se quitará el portal de Microsoft Search en Bing. Le recomendamos que use el centro de administración de Microsoft 365 para empezar. [Información general de Microsoft Search](overview-microsoft-search.md).
+> Este artículo se aplica al portal de administración de Búsqueda de Microsoft en Bing Estamos pasando el portal al Centro de administración de Microsoft 365. Luego, se quitará el portal de Búsqueda de Microsoft en Bing. Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar. [Introducción a Microsoft Search (Búsqueda de Microsoft)](overview-microsoft-search.md).
     
 Para aprovechar las consultas de los usuarios y los resultados más probables que haya creado en SharePoint, Microsoft Search incluye dos herramientas para importar esta información como marcadores sugeridos: 
   

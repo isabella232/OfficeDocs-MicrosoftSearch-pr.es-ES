@@ -3,50 +3,51 @@ title: Introducción a Búsqueda de Microsoft en Sharepoint Online
 ms.author: tlarsen
 author: tlarsen
 manager: mnirkhe
-ms.date: 12/11/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Priority
+localization_priority: Normal
 search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Haga que su organización empiece a usar Búsqueda de Microsoft en SharePoint Online
-ms.openlocfilehash: 7651339d4c531139522d844cef238d6dc90a2496
-ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
-ms.translationtype: HT
+description: Obtener la organización iniciada con Microsoft Search en SharePoint Online
+ms.openlocfilehash: 662dc2b69f02857327cd95b0f7c162e92800ce1c
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288986"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626859"
 ---
 # <a name="get-started-with-microsoft-search-in-sharepoint"></a>Introducción a Búsqueda de Microsoft en Sharepoint
 
-Búsqueda de Microsoft en SharePoint es la experiencia moderna de búsqueda en SharePoint Online. SharePoint Online también ofrece una experiencia de búsqueda clásica. Como administrador de búsqueda, no puede activar o desactivar ninguna de estas experiencias de búsqueda. Ambas se encuentran de forma predeterminada. La experiencia que obtendrán los usuarios depende de desde dónde hacen la búsqueda:
+Microsoft Search en SharePoint es la experiencia de búsqueda moderna en [SharePoint Online](https://products.office.com/sharepoint/collaboration). SharePoint Online también ofrece una experiencia de búsqueda clásica. Como administrador de búsqueda, no puede activar ni desactivar ninguna de estas experiencias de búsqueda. Ambos están activados de forma predeterminada. La experiencia que obtendrán los usuarios depende de desde dónde hacen la búsqueda:
 
-- Los usuarios acceden al cuadro de Búsqueda de Microsoft en la página de inicio de SharePoint, sitios de concentrador, sitios de comunicación y sitios de grupo modernos.
-- Los usuarios acceden al cuadro de búsqueda clásica en sitios de publicación, sitios de grupo clásicos y el centro de búsqueda.
+- Los usuarios obtienen el cuadro de búsqueda de Microsoft en la página de inicio de [SharePoint](http://sharepoint.com/) , los sitios de concentradores, los sitios de comunicación y los sitios de grupo modernos.
+- Los usuarios obtienen el cuadro de búsqueda clásico en los sitios de publicación, los sitios de grupo clásicos y en el [centro de búsqueda de SharePoint](https://docs.microsoft.com/sharepoint/manage-search-center).
 
-Siga estos pasos para que su organización empiece a usar Búsqueda de Microsoft en SharePoint:
+Para que su organización pueda trabajar con Microsoft Search en SharePoint, siga los pasos que se indican en las secciones siguientes.
 
-## <a name="step-1-prepare-for-microsoft-search-in-sharepoint"></a>Paso 1: Prepare Búsqueda de Microsoft en SharePoint
+## <a name="prepare-for-microsoft-search-in-sharepoint"></a>Preparación para Microsoft Search en SharePoint
 
-Los usuarios solo pueden encontrar contenido indexado. Búsqueda de Microsoft usa el mismo índice para el contenido de SharePoint que la búsqueda clásica, y el contenido de SharePoint se rastrea y se indexa automáticamente. Si su organización va a usar las búsquedas clásicas y Búsqueda de Microsoft en SharePoint, [obtenga información sobre cómo evitar el impacto de la configuración de búsqueda clásica en Búsqueda de Microsoft en SharePoint](https://docs.microsoft.com/sharepoint/differences-classic-modern-search).
+Los usuarios solo pueden encontrar contenido indexado. Microsoft Search y la búsqueda clásica comparten el mismo índice para el contenido de SharePoint, que se rastrea e indiza automáticamente. 
 
-Siga las instrucciones para [configurar Búsqueda de Microsoft](set-up-microsoft-search.md) en general.
+Algunas organizaciones usan la búsqueda clásica y Microsoft Search en SharePoint. Para obtener información sobre cómo evitar el impacto de la configuración de búsqueda clásica en Microsoft Search en SharePoint, vea [diferencias entre las experiencias de búsqueda clásicas y modernas en SharePoint Online](https://docs.microsoft.com/sharepoint/differences-classic-modern-search).
+
+Siga las instrucciones para [configurar Microsoft Search](set-up-microsoft-search.md).
 
 
-## <a name="step-2-get-your-organization-to-adopt-modern-sites"></a>Paso 2: Configure su organización para adoptar sitios modernos
+## <a name="get-your-organization-to-adopt-modern-sites"></a>Conseguir que su organización adopte sitios modernos
 
-Convenza a su organización para empezar a usar sitios modernos en lugar de sitios clásicos. [Obtenga información sobre la experiencia moderna en SharePoint](https://support.office.com/article/SharePoint-classic-and-modern-experiences-5725c103-505d-4a6e-9350-300d3ec7d73f)
+Para mejorar la experiencia de búsqueda, influya en su organización para que pruebe modernas en lugar de sitios clásicos. Para obtener más información, vea [experiencias clásicas y modernas de SharePoint](https://support.office.com/article/SharePoint-classic-and-modern-experiences-5725c103-505d-4a6e-9350-300d3ec7d73f).
 
-## <a name="step-3-promote-searching-from-the-sharepoint-start-page"></a>Paso 3: Promueva las búsquedas desde la página de inicio de SharePoint
+## <a name="promote-searching-from-the-sharepoint-start-page"></a>Promover la búsqueda desde la página de inicio de SharePoint
 
-Enseñe a los usuarios a buscar desde la página de inicio de SharePoint en lugar de hacerlo desde el centro de búsqueda clásico. Considere ocultar su centro de búsqueda clásico de la vista de los usuarios.
+Enseñe a los usuarios a buscar desde la página de inicio de [SharePoint](http://sharepoint.com/) en lugar de desde el[centro de búsqueda](https://docs.microsoft.com/sharepoint/manage-search-center)clásico. Considere ocultar su centro de búsqueda clásico de la vista de los usuarios.
 
 ## <a name="see-also"></a>Vea también
 [Introducción a Búsqueda de Microsoft](overview-microsoft-search.md)
 
-[Obtenga más información sobre las experiencias de búsqueda en SharePoint](https://docs.microsoft.com/sharepoint/overview-of-search)
+[Información general sobre la búsqueda en SharePoint Online](https://docs.microsoft.com/sharepoint/overview-of-search)
 
-[¿Cuándo usar cada experiencia de búsqueda en SharePoint?](https://docs.microsoft.com/sharepoint/get-started-with-modern-search-experience)
+[Experiencias de búsqueda en SharePoint](https://docs.microsoft.com/sharepoint/get-started-with-modern-search-experience)

@@ -1,22 +1,23 @@
 ---
 title: Galería de conectores
-description: Enumera todos los conectores de Microsoft Graph para Microsoft Search
-services: microsoft-search
+ms.author: mounika.narayanan
 author: monaray
-manager: samanro
-layout: LandingPage
-ms.assetid: ''
-ms.service: mssearch
-ms.tgt_pltfrm: na
-ms.devlang: na
+manager: shohara
+ms.audience: Admin
 ms.topic: landing-page
-ms.author: samanro
-ms.openlocfilehash: 87fc858f702940afd5a943d05287aab15fd33d1e
-ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+ms.service: mssearch
+localization_priority: Normal
+search.appverid:
+- BFB160
+- MET150
+- MOE150
+description: Enumera todos los conectores de Microsoft Graph para Microsoft Search
+ms.openlocfilehash: 6ae3ef26fc80997c9698b3fc5bd47cfceef6a32a
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37950055"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626556"
 ---
 # <a name="microsoft-graph-connectors-gallery"></a>Galería de conectores de Microsoft Graph
 
@@ -32,7 +33,7 @@ ms.locfileid: "37950055"
             <div class="cardPadding">
                 <div class="card" style="overflow: hidden; height: 235px;">
                     <div class="cardText">
-                        <h3>Azure Data Lake Storage (en inglés)</h3>
+                        <h3>Azure Data Lake Storage Gen2</h3>
                         <p>por <a href="https://www.microsoft.com" target="_blank" data-linktype="external">Microsoft</a></p>
                         <p style="min-height: 100px; overflow: hidden; height: 100px;" onmouseover="this.style.height='auto'" onmouseout="this.style.height='100px'">Con este conector de Microsoft Graph, los usuarios de la organización pueden buscar archivos y contenido almacenados en contenedores de blobs de Azure. El conector de Azure Data Lake Storage) también indexa las carpetas habilitadas para jerarquías en las cuentas de Azure Data Lake Storage-lectura que especifique.</p>
                         <div style="margin-top:20px;bottom:15px;position:absolute;display:block">
@@ -55,7 +56,7 @@ ms.locfileid: "37950055"
             <div class="cardPadding">
                 <div class="card" style="overflow: hidden; height: 235px;">
                     <div class="cardText">
-                        <h3>Sitios web de empresa</h3>
+                        <h3>Sitios web de la empresa</h3>
                         <p>por <a href="https://www.microsoft.com">Microsoft</a></p>
                         <p onmouseover="this.style.height='auto'" onmouseout="this.style.height='100px'" style="height: 100px; overflow: hidden;">Con este conector de Microsoft Graph, los usuarios de la organización pueden buscar en las páginas de cualquier sitio web que no sea de SharePoint Enterprise.</p>
                         <div style="margin-top:20px;bottom:15px;position:absolute;display:block">
