@@ -1,9 +1,8 @@
 ---
-title: Usar el panel de información
-ms.author: dawholl
-author: dawholl
-manager: kellis
-ms.date: 9/11/2018
+title: Informes del panel de información de Microsoft Search
+ms.author: anfowler
+author: adefowler
+manager: shohara
 ms.audience: Admin
 ms.topic: reference
 ms.service: mssearch
@@ -13,65 +12,43 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ebce7fdc-e89b-473c-8131-67e659bb3f73
-ROBOTS: NOINDEX
-description: Analice métricas y administre el contenido desde el sencillo panel en el portal de administración de Búsqueda de Microsoft
-ms.openlocfilehash: 9323ad97a2baffc3bdc1794049f6933335b298b2
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
-ms.translationtype: HT
+description: Analizar métricas y administrar contenido desde el panel de información de Microsoft Search
+ms.openlocfilehash: d75622ad8c414f225615ea14082c8197e2947dd4
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639824"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626877"
 ---
-# <a name="use-the-insights-dashboard"></a><span data-ttu-id="495ea-103">Usar el panel de información </span><span class="sxs-lookup"><span data-stu-id="495ea-103">Use the Insights Dashboard</span></span>
+# <a name="microsoft-search-insights-dashboard-reports"></a><span data-ttu-id="a31a1-103">Informes del panel de información de Microsoft Search</span><span class="sxs-lookup"><span data-stu-id="a31a1-103">Microsoft Search Insights dashboard reports</span></span>
 
-> [!IMPORTANT]
-> <span data-ttu-id="495ea-104">Este artículo se aplica al portal de administración de Microsoft Search (Búsqueda de Microsoft) en Bing</span><span class="sxs-lookup"><span data-stu-id="495ea-104">This article applies to the Microsoft Search in Bing admin portal.</span></span> <span data-ttu-id="495ea-105">Estamos pasando el portal al Centro de administración de Microsoft 365. Luego, se quitará el portal de Búsqueda de Microsoft en Bing.</span><span class="sxs-lookup"><span data-stu-id="495ea-105">We’re moving the portal to the Microsoft 365 admin center, and then the Microsoft Search in Bing portal will be removed.</span></span> <span data-ttu-id="495ea-106">Se recomienda utilizar el Centro de administración de Microsoft 365 para empezar.</span><span class="sxs-lookup"><span data-stu-id="495ea-106">We recommend that you use the Microsoft 365 admin center to get started.</span></span> <span data-ttu-id="495ea-107">[Introducción a Búsqueda de Microsoft](overview-microsoft-search.md).</span><span class="sxs-lookup"><span data-stu-id="495ea-107">Overview of Microsoft Search</span></span>
-    
-<span data-ttu-id="495ea-108">Obtenga información sobre datos para saber cómo interactúan los usuarios con los resultados.</span><span class="sxs-lookup"><span data-stu-id="495ea-108">Get data insights and see how users are engaging with your results.</span></span> <span data-ttu-id="495ea-109">Use el Panel del Portal de administración de usuario para:</span><span class="sxs-lookup"><span data-stu-id="495ea-109">User the Admin portal Dashboard to:</span></span>
-  
-- <span data-ttu-id="495ea-110">Ver cuántos marcadores y preguntas y respuestas se han publicado, programado o sugerido</span><span class="sxs-lookup"><span data-stu-id="495ea-110">See how many Bookmarks, Q&A, and Locations have been published, scheduled, or suggested.</span></span>
-    
-- <span data-ttu-id="495ea-111">Ver las impresiones para las consultas de búsqueda más populares que muestran resultados del trabajo</span><span class="sxs-lookup"><span data-stu-id="495ea-111">See impressions for top search queries that show work results</span></span>
-    
-- <span data-ttu-id="495ea-112">Analizar las distribuciones de impresiones para marcadores y preguntas y respuestas</span><span class="sxs-lookup"><span data-stu-id="495ea-112">Analyze impression distributions for bookmarks and Q&As</span></span>
-    
-## <a name="get-details-about-bookmarks-and-qas"></a><span data-ttu-id="495ea-113">Obtener información sobre los marcadores y preguntas y respuestas</span><span class="sxs-lookup"><span data-stu-id="495ea-113">Get details about bookmarks and Q&As</span></span>
+<span data-ttu-id="a31a1-104">Puede usar el panel de información de Microsoft Search para administrar los datos de Bing para las respuestas publicadas.</span><span class="sxs-lookup"><span data-stu-id="a31a1-104">You can use the Microsoft Search insights dashboard to manage the Bing data for your published answers.</span></span> <span data-ttu-id="a31a1-105">Esto es tan solo uno de los pasos necesarios para que el [contenido sea fácil de encontrar](make-content-easy-to-find.md) para los usuarios.</span><span class="sxs-lookup"><span data-stu-id="a31a1-105">This is just one of the steps needed to [make content easy to find](make-content-easy-to-find.md) for your users.</span></span>
 
-<span data-ttu-id="495ea-114">Usar el panel para ver el total de marcadores o preguntas y respuestas por estado:</span><span class="sxs-lookup"><span data-stu-id="495ea-114">Use the Dashboard to see bookmark or Q&A totals by status:</span></span>
-  
-- <span data-ttu-id="495ea-115">Publicados: El número de resultados publicados que están disponibles para los usuarios</span><span class="sxs-lookup"><span data-stu-id="495ea-115">Published: The number of published results that are available to users.</span></span>
-    
-- <span data-ttu-id="495ea-116">Programados: el número de resultados programados en el proceso de publicación</span><span class="sxs-lookup"><span data-stu-id="495ea-116">Scheduled: The number of scheduled results in the publish pipeline.</span></span>
-    
-- <span data-ttu-id="495ea-117">Sugeridos: el número de sugerencias de los usuarios</span><span class="sxs-lookup"><span data-stu-id="495ea-117">Suggested: The number of suggestions from users.</span></span>
-    
-<span data-ttu-id="495ea-118">Las tarjetas de información de los marcadores y de preguntas y respuestas del panel también proporcionan fácil acceso a tareas comunes:</span><span class="sxs-lookup"><span data-stu-id="495ea-118">Bookmarks and Q&A insight cards in the Dashboard also provide easy access to common tasks:</span></span>
-  
-- <span data-ttu-id="495ea-119">Para ver resultados de marcadores o de preguntas y respuestas, haga clic en Marcadores o preguntas y respuestas en el título de la tarjeta</span><span class="sxs-lookup"><span data-stu-id="495ea-119">To view bookmark or Q&A results, click Bookmarks or Q&As on the card title</span></span>
-    
-- <span data-ttu-id="495ea-120">Para agregar marcadores o preguntas y respuestas, haga clic en la opción crear</span><span class="sxs-lookup"><span data-stu-id="495ea-120">To add a bookmark or Q&A, click the create option</span></span>
-    
-- <span data-ttu-id="495ea-121">Para agregar marcadores o preguntas y respuestas en masa, haga clic en la opción importar</span><span class="sxs-lookup"><span data-stu-id="495ea-121">To bulk add bookmarks or Q&As, click the import option</span></span>
-    
-## <a name="review-top-search-queries"></a><span data-ttu-id="495ea-122">Revise las consultas de búsqueda más populares</span><span class="sxs-lookup"><span data-stu-id="495ea-122">Review top search queries</span></span>
+<span data-ttu-id="a31a1-106">La primera vez que se dirige a Microsoft Search en el centro de administración de 365 de Microsoft, se especificará en el panel de información.</span><span class="sxs-lookup"><span data-stu-id="a31a1-106">When you first go to Microsoft Search in the Microsoft 365 admin center, you'll enter on the Insights dashboard.</span></span>
 
-<span data-ttu-id="495ea-123">Descubra las búsquedas que han generado más impresiones durante los últimos 90 días.</span><span class="sxs-lookup"><span data-stu-id="495ea-123">Find out which searches have generated the most impressions over the last 90 days.</span></span> <span data-ttu-id="495ea-124">Se muestran las 25 búsquedas principales de los usuarios por cada tipo de resultado, junto con el número total de impresiones y su tasa de clics (CTR).</span><span class="sxs-lookup"><span data-stu-id="495ea-124">The Top Queries card shows the top 25 user searches for each result type with the total number of searches and their click-through rate (CTR).</span></span> <span data-ttu-id="495ea-125">En la tarjeta de consultas de búsquedas más populares puede:</span><span class="sxs-lookup"><span data-stu-id="495ea-125">On the Top search queries card you can:</span></span>
-  
-- <span data-ttu-id="495ea-126">Filtrar por tipo de resultado. Para ello, haga clic en Todos los resultados en el menú y seleccione un tipo de resultados diferente.</span><span class="sxs-lookup"><span data-stu-id="495ea-126">To filter by result type, click All results on the menu and select a different result type</span></span>
-    
-- <span data-ttu-id="495ea-127">Ver cómo se mostrará un resultado en Bing. Para ello, haga clic en una consulta y se abrirá la página de los resultados de búsqueda en una nueva pestaña.</span><span class="sxs-lookup"><span data-stu-id="495ea-127">To see how a result appears on Bing, click a query and the search results page opens in a new tab</span></span>
-    
-- <span data-ttu-id="495ea-128">Ver las consultas de búsqueda adicionales. Para ello, haga clic en la flecha izquierda o derecha en la parte inferior de la tarjeta.</span><span class="sxs-lookup"><span data-stu-id="495ea-128">To see additional search queries, click the left or right arrows on the bottom of the card</span></span>
-    
-## <a name="analyze-impressions-by-result-type"></a><span data-ttu-id="495ea-129">Analizar impresiones por tipo de resultado.</span><span class="sxs-lookup"><span data-stu-id="495ea-129">Analyze impressions by result type</span></span>
+![Insights-Dashboard. png](media/Insights-dashboard.png)
 
-<span data-ttu-id="495ea-130">Los gráficos de fácil lectura en la tarjeta de la distribución de impresiones por tipo de resultado muestran datos de intervalos de tiempo diferentes.</span><span class="sxs-lookup"><span data-stu-id="495ea-130">Easy-to-read graphs in the Impression distribution by result type card show data over various time frames.</span></span> <span data-ttu-id="495ea-131">El resumen muestra el número de impresiones con un cálculo de porcentaje de distribución (número de impresiones por tipo de resultado x 100 / número total de impresiones).</span><span class="sxs-lookup"><span data-stu-id="495ea-131">The summary shows the number of impressions with a percentage calculation for the distribution (number of result type impressions x 100 / total number of impressions).</span></span> <span data-ttu-id="495ea-132">La escala de tiempo muestra el número diario de impresiones para un tipo de resultado.</span><span class="sxs-lookup"><span data-stu-id="495ea-132">The timeline shows the daily number of impressions for a result type.</span></span> <span data-ttu-id="495ea-133">También puede cambiar el intervalo de tiempo para ambas vistas y obtener más información:</span><span class="sxs-lookup"><span data-stu-id="495ea-133">You can also change the time range for both views and get more details:</span></span>
-  
-- <span data-ttu-id="495ea-134">En la parte superior de la tarjeta, haga clic en 7 días, 30 días o 90 días</span><span class="sxs-lookup"><span data-stu-id="495ea-134">On the top of the card, click 7 days, 30 days, or 90 days</span></span>
-    
-- <span data-ttu-id="495ea-135">Para ver un rango personalizado entre 0 y 90 días, haga clic en Intervalo personalizado y especifique las fechas de inicio y finalización</span><span class="sxs-lookup"><span data-stu-id="495ea-135">To see a custom range between 0 and 90 days, click Custom range and enter the start and end dates</span></span>
-    
-- <span data-ttu-id="495ea-136">En la escala de tiempo, mueva el puntero sobre un punto de datos para impresiones por tipo de resultado de un solo día</span><span class="sxs-lookup"><span data-stu-id="495ea-136">In the timeline, hover on a data point for impressions by result type for a single day</span></span>
+<span data-ttu-id="a31a1-108">Estos son los informes que están disponibles en el panel de información.</span><span class="sxs-lookup"><span data-stu-id="a31a1-108">Here are the reports that are available on the insights dashboard.</span></span>
 
-  
+> [!NOTE]
+> <span data-ttu-id="a31a1-109">Los datos de los informes solo representan datos de Bing.</span><span class="sxs-lookup"><span data-stu-id="a31a1-109">The data in the reports only represents Bing data.</span></span>
 
+## <a name="top-queries"></a><span data-ttu-id="a31a1-110">Consultas principales</span><span class="sxs-lookup"><span data-stu-id="a31a1-110">Top queries</span></span>
+
+<span data-ttu-id="a31a1-111">Este informe proporciona detalles sobre las 2000 principales consultas de búsqueda de Bing que los usuarios ejecutan.</span><span class="sxs-lookup"><span data-stu-id="a31a1-111">This report gives details about the top 2000 Bing search queries that users run.</span></span> <span data-ttu-id="a31a1-112">Para que una consulta aparezca en **las principales consultas**, la consulta debe obtener al menos tres clics.</span><span class="sxs-lookup"><span data-stu-id="a31a1-112">For a query to appear in **Top queries**, the query must get at least three clicks.</span></span>
+
+![Principales consultas informe con los encabezados de tabla: consulta, total de consultas y hacer clic hasta la velocidad.](media/Insights-topqueries.png)
+
+<span data-ttu-id="a31a1-114">Una tasa de clics bajas (CTR) significa que los usuarios no encuentran lo que están buscando.</span><span class="sxs-lookup"><span data-stu-id="a31a1-114">A low click-through rate (CTR) means that users aren’t finding what they’re looking for.</span></span>
+
+<span data-ttu-id="a31a1-115">Puede elegir distintas vistas del informe filtrando según el tipo de respuesta.</span><span class="sxs-lookup"><span data-stu-id="a31a1-115">You can choose different views of the report by filtering on the type of answer.</span></span> <span data-ttu-id="a31a1-116">Por ejemplo, si solo quiere ver las consultas principales para marcadores, seleccione la lista desplegable situada en la esquina superior derecha del informe y, a continuación, seleccione **marcadores**.</span><span class="sxs-lookup"><span data-stu-id="a31a1-116">For example if you just want to view the top queries for Bookmarks, select the drop-down in the upper-right corner of the report, and then select **Bookmarks**.</span></span> <span data-ttu-id="a31a1-117">De forma predeterminada, se muestran **todos los** tipos de respuesta.</span><span class="sxs-lookup"><span data-stu-id="a31a1-117">By default, **All** answer types are shown.</span></span>
+
+![Filtrar el informe de consultas principales por marcadores, personas, Q&A, archivos, grupos, ubicaciones, conversaciones y sitios](media/Insights-topqueries-dropdown.png)
+
+## <a name="impression-distribution"></a><span data-ttu-id="a31a1-119">Distribución de impresiones</span><span class="sxs-lookup"><span data-stu-id="a31a1-119">Impression distribution</span></span>
+
+<span data-ttu-id="a31a1-120">Este informe muestra la distribución de impresiones en Bing a lo largo del tiempo para varias respuestas.</span><span class="sxs-lookup"><span data-stu-id="a31a1-120">This report shows impression distribution in Bing over time for various answers.</span></span> <span data-ttu-id="a31a1-121">Algunos ejemplos son bookmarks, People, Q&A, files, locations, File sites, Groups, and Conversations.</span><span class="sxs-lookup"><span data-stu-id="a31a1-121">Examples are bookmarks, people, Q&A, files, locations, file sites, groups, and conversations.</span></span> 
+
+![Informe de impresiones con 90 días seleccionados como período de tiempo.](media/Insights-impressions.png)
+
+<span data-ttu-id="a31a1-123">La distribución de impresiones puede ayudar a los administradores a comprender qué ven los usuarios durante un período especificado.</span><span class="sxs-lookup"><span data-stu-id="a31a1-123">Impression Distribution can help admins understand what users look for during a specified period.</span></span>
