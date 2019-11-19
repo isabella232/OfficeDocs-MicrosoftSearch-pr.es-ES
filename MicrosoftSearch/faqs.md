@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenga respuestas a las preguntas más frecuentes acerca de la búsqueda empresarial y Microsoft Search
-ms.openlocfilehash: 3ff2aabae4e09170b6b0380d520bfc620d5de5d8
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: edfb8346263d60184d8655afa24118ed4b3e3bca
+ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626259"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38699797"
 ---
 # <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
@@ -28,26 +28,26 @@ Aquí tiene una lista de las preguntas más frecuentes.
 
 ## <a name="is-advanced-query-understanding-supported"></a>¿Se ofrece la comprensión de consultas avanzadas?
 
-Sí, Microsoft Search analiza el objetivo de la consulta de frases más grandes. Esta característica usa inteligencia artificial para aprender frases superfluas y comunes que los usuarios agregan a sus consultas y que no afectan a su intención de búsqueda. Por ejemplo, cuando un usuario busca "más información sobre cómo cambiar la contraseña" se extraen las palabras menos importantes de la consulta y se busca con las palabras relevantes como "Cambiar contraseña".
+Sí, Microsoft Search analiza el intento de consulta de frases más grandes. Esta característica utiliza AI para aprender frases superfluas comunes que los usuarios agregan a sus consultas que no afectan su intento de búsqueda. Por ejemplo, cuando un usuario busca información *más información sobre cómo cambiar mi contraseña*, extraemos las palabras menos importantes de la consulta y del desencadenador en función de los aspectos relevantes como *Cambiar contraseña*.
   
-Esta característica no reemplazará el conjunto de palabras clave en el centro de administración.
+Esta característica no reemplaza las palabras clave definidas en el [centro de administración](https://admin.microsoft.com)de Microsoft 365.
   
 ## <a name="can-you-search-for-files-on-premises"></a>¿Puedo buscar archivos locales?
 
-Sí. Puede buscar archivos locales de SharePoint si tiene una implementación híbrida de SharePoint.
+Sí. Puede buscar en los archivos de [SharePoint](http://sharepoint.com/) locales si tiene una implementación híbrida de SharePoint.
   
 ## <a name="how-do-i-make-bing-the-default-search-engine-for-people-in-my-org"></a>¿Cómo hago que Bing sea el motor de búsqueda predeterminado para los usuarios de mi organización?
 
-Estas instrucciones le guiarán para establecer de forma predeterminada el motor de búsqueda, la página principal y el explorador que ofrezcan a sus usuarios la mejor experiencia con Microsoft Search en Bing:
+Estas son las instrucciones para configurar el motor de búsqueda predeterminado, la Página principal predeterminada y el explorador predeterminado para proporcionar a los usuarios la mejor experiencia con Microsoft Search en [Bing](https://Bing.com):
 
-- [Establezca Edge como el navegador predeterminado](set-default-browser.md)
+- [Establecer Microsoft Edge como explorador predeterminado](set-default-browser.md)
 - [Establezca Bing como el motor de búsqueda predeterminado](set-default-search-engine.md)
 - [Establezca Bing.com como la página principal de la empresa](set-default-homepage.md)
 
   
 ## <a name="how-are-my-search-results-protected"></a>¿Cómo se protegen mis resultados de búsqueda?
 
-Para poder acceder a los resultados de la nube de confianza, se requiere la autenticación de Azure Active Directory (ADD). Los usuarios autenticados solo verán el contenido al que tengan acceso. Las consultas de búsqueda son no identificables y los registros se separan del tráfico de búsqueda público de Bing. Este nivel de protección no está disponible en ningún otro lugar del sector.
+Requerimos que la autenticación de [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/) obtenga acceso a los resultados de la nube de confianza. Los usuarios autenticados solo verán el contenido al que tengan acceso. Las consultas de búsqueda se identifican y los registros se separan del tráfico de búsqueda de [Bing](https://Bing.com) público. Este nivel de protección no está disponible en ningún otro lugar del sector.
 
 ## <a name="can-i-search-across-federated-organizations"></a>¿Puedo buscar en organizaciones federadas?
 
@@ -59,5 +59,5 @@ Encontrará más detalles en el [Marco de cumplimiento para las regulaciones y e
 
 ## <a name="can-users-earn-microsoft-rewards-points-with-their-work-or-school-account"></a>¿Los usuarios pueden ganar puntos de Microsoft Rewards con su cuenta profesional o educativa?
 
-Búsqueda de Microsoft necesita que los usuarios de la empresa inicien sesión con una cuenta profesional o educativa. Sin embargo, los usuarios no podrán unirse ni iniciar sesión en el programa Microsoft Rewards con esas cuentas. Sin embargo, hay una instancia en la que un usuario de la empresa puede ver puntos de recompensas. Esto puede suceder cuando un usuario de Búsqueda de Microsoft tiene una cuenta de recompensas que se creó con una <a href="https://www.microsoft.com/en-us/welcome?rtc=1">cuenta de Microsoft</a>. (La dirección de correo electrónico asociada a una cuenta de Microsoft puede ser de Outlook.com, Hotmail.com, Gmail, Yahoo u otros proveedores). Si los usuarios inician sesión alternadamente con su cuenta profesional y una cuenta de Microsoft en la misma sesión de navegador, podrían acumular puntos en su cuenta de recompensas. Los usuarios pueden dejar de acumular puntos mientras buscan con Búsqueda de Microsoft borrando sus cookies. 
+Búsqueda de Microsoft necesita que los usuarios de la empresa inicien sesión con una cuenta profesional o educativa. Sin embargo, los usuarios no podrán unirse ni iniciar sesión en el programa Microsoft Rewards con esas cuentas. Sin embargo, hay una instancia en la que un usuario de la empresa puede ver puntos de recompensas. Esto puede suceder cuando un usuario de Búsqueda de Microsoft tiene una cuenta de recompensas que se creó con una <a href="https://www.microsoft.com/welcome?rtc=1">cuenta de Microsoft</a>. (La dirección de correo electrónico asociada a una cuenta de Microsoft puede ser de Outlook.com, Hotmail.com, Gmail, Yahoo u otros proveedores). Si los usuarios inician sesión alternadamente con su cuenta profesional y una cuenta de Microsoft en la misma sesión de navegador, podrían acumular puntos en su cuenta de recompensas. Los usuarios pueden dejar de acumular puntos mientras buscan con Búsqueda de Microsoft borrando sus cookies. 
 

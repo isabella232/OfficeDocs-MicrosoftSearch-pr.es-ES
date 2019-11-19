@@ -12,30 +12,30 @@ search.appverid:
 - MET150
 - MOE150
 description: Mediante tarjetas adaptables, cree un diseño para ver los resultados de la búsqueda personalizados
-ms.openlocfilehash: 2ca53f2e2dc207acdf48542f39ee4f448bdeb90e
-ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+ms.openlocfilehash: 6f406bb32a18678f1ca0546e37edb8013e2ba450
+ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37950035"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38699570"
 ---
 # <a name="create-a-layout-to-customize-search-results"></a>Crear un diseño para personalizar los resultados de la búsqueda
 
-Puede diseñar el diseño de los resultados de una vertical personalizada mediante el diseñador de diseño de búsqueda. Puede empezar a diseñar el diseño si elige plantillas que se ofrecen en el diseñador de diseño y las usa si se ajustan a sus necesidades. También puede optar por editar estas plantillas de varias formas para ajustarse a sus necesidades. Por ejemplo, agregar o quitar imágenes, agregar o quitar texto, modificar texto. Si ninguna de las plantillas cumple los requisitos, puede optar por empezar a diseñar el diseño con una plantilla en blanco.  
+Puede diseñar el diseño de los resultados de una vertical personalizada mediante el diseñador de diseño de búsqueda. Puede empezar a diseñar el diseño si elige plantillas que se ofrecen en el diseñador de diseño y las usa si se ajustan a sus necesidades. También puede optar por editar estas plantillas de varias formas para ajustarse a sus necesidades. Por ejemplo, agregar o quitar imágenes, agregar o quitar texto y modificar texto. Si ninguna de las plantillas cumple los requisitos, puede optar por empezar a diseñar el diseño con una plantilla en blanco.  
 
  
 
-Una vez que el diseño esté listo, use el [lenguaje de plantilla tarjetas adaptables](https://docs.microsoft.com/adaptive-cards/templating/language) para crear un JSON de diseño de resultado de Thea que se usa para definir un tipo de resultado. Las propiedades de resultado se asignan al diseño mediante el paso de asignación del diseñador de diseño.  
+Una vez que el diseño esté listo, use el [lenguaje de plantilla tarjetas adaptables](https://docs.microsoft.com/adaptive-cards/templating/language) para crear una JSON de diseño de resultados que se usa para definir un tipo de resultado. Las propiedades de resultado se asignan al diseño mediante el paso de asignación del diseñador de diseño.  
 
 ## <a name="create-a-layout-on-your-own"></a>Crear un diseño por su cuenta
 La creación de un diseño propio requiere conocimientos de [tarjetas adaptables](https://docs.microsoft.com/adaptive-cards/authoring-cards/getting-started) y su [esquema](https://adaptivecards.io/explorer/). El diseño de resultados de búsqueda usa un subconjunto de los elementos ofrecidos por tarjetas adaptables y puede usar el diseñador de diseño para obtener información sobre el conjunto de elementos admitidos.  
 
-Al crear su propio diseño, cree el diseño de la tarjeta adaptable con los datos de su y, a continuación, finalice el diseño.
-Hay dos pasos principales para crear su propio diseño
-- Diseño del diseño
-- Separar los datos de la plantilla
+Al crear su propio diseño, cree el diseño de la tarjeta adaptable con los datos del conector y, a continuación, finalice el diseño.
+Existen dos pasos principales para crear su propio diseño:
+- Diseñar el diseño.
+- Separe los datos de la plantilla.
 
-#### <a name="designing-the-layout"></a>Diseño del diseño
+#### <a name="design-the-layout"></a>Edite el diseño.
 
 En este ejemplo, se muestra un diseño con un encabezado, un vínculo y un texto descriptivo.
 
@@ -98,7 +98,7 @@ Y este es el archivo JSON asociado al diseño:
 }
 ```
 
-#### <a name="separating-the-data-from-the-layout"></a>Separar los datos del diseño
+#### <a name="separate-the-data-from-the-layout"></a>Separar los datos del diseño
 
 Puede separar los datos del diseño y enlazar los datos. 
 
@@ -156,7 +156,7 @@ Este es el JSON de diseño después de enlazar los datos:
 }
 ```
 
-Datos de ejemplo: especifique datos de ejemplo en el **Editor de datos de ejemplo** para ver la tarjeta enlazada a datos en el modo de vista previa.
+Datos de ejemplo: especifique datos de ejemplo en el **Editor de datos de ejemplo** para ver la tarjeta enlazada a datos en modo de **vista previa**.
 
 ```json
 { 
@@ -173,7 +173,7 @@ Datos de ejemplo: especifique datos de ejemplo en el **Editor de datos de ejempl
 
 Debe asignar cada campo del diseño a una propiedad de resultado o a una propiedad de conector para generar el JSON del diseño de resultados.
 
-![Verts-SearchLayoutDesigner. png](media/Verts-SearchLayoutDesigner.png)
+![Captura de pantalla de un diseño de ejemplo en la página del diseñador de diseño de búsqueda con un campo seleccionado y el panel de propiedades abierto.](media/Verts-SearchLayoutDesigner.png)
 
 Seleccione un campo en el diseño para resaltar las variables que se deben asignar. Puede usar varias variables para un solo campo y todos los campos deben asignarse a las propiedades del resultado.
 
@@ -183,17 +183,17 @@ Antes de empezar, hay algunas cosas que debe hacer y algunas cosas que debe evit
 
 ### <a name="do"></a>Correcto
 
-- Edite una plantilla para proporcionar el vínculo del logotipo en el diseño si usa vínculos estáticos para los logotipos y no las propiedades de los resultados.   
-- Validar el diseño de los resultados de los escenarios en los que no se devuelven datos para una propiedad de resultado usada en el JSON del resultado. Use `$when` Condition para ocultar un elemento si la propiedad no contiene datos.  
-- Asegúrese de que los tipos de datos `$when` de la condición y la propiedad result coinciden. Por ejemplo, no compare `Number` con `Text` en `$when` condición.  
+- Edite una plantilla para proporcionar el vínculo del logotipo en el diseño si está usando vínculos estáticos para los logotipos y no las propiedades de los resultados.   
+- Validar el diseño de los resultados de los escenarios en los que no se devuelven datos para una propiedad de resultado usada en el JSON del resultado. Use la `$when` condición para ocultar un elemento si la propiedad no contiene datos.  
+- Asegúrese de que los tipos de datos `$when` de la condición y la propiedad result coinciden. Por ejemplo, no compare `Number` con `Text` en la `$when` condición.  
 - Piense en los requisitos de tema al diseñar un diseño de resultados.  
-- Asegúrese de que `Textblock`  el elemento puede controlar el contenido dinámico. Puede usar las propiedades `wrap` del `maxLines` elemento y para este propósito. 
+- Asegúrese de que el `Textblock`  elemento puede controlar el contenido dinámico. Puede usar las propiedades `wrap` del `maxLines` elemento y para este propósito. 
 - Dar formato adecuado a la fecha `{DATE()}` al usar en Markdown.  
 
 ### <a name="dont"></a>Incorrecto
 
-- No defina tipos de datos no válidos al enlazar valores. Para obtener más información acerca de los tipos de datos, consulte [administrar el esquema de búsqueda](https://docs.microsoft.com/sharepoint/search/manage-the-search-schema ).
-- Evite recortar el resultado en la página de resultados mediante el alto máximo de la JSON del diseño de resultados. Si supera el alto máximo del diseño de resultados, el resultado se recortará en la página de resultados.
+- No defina tipos de datos no válidos al enlazar valores. Para obtener más información acerca de los tipos de datos, consulte [administrar el esquema de búsqueda](https://docs.microsoft.com/sharepoint/search/manage-the-search-schema).
+- Evite recortar el resultado en la página de resultados mediante el alto máximo de la JSON del diseño de resultados. Si supera el alto máximo del diseño de los resultados, el resultado se recortará en la página de resultados.
 - No use `px` valores en las propiedades del elemento.
 
 

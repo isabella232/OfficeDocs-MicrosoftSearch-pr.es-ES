@@ -13,31 +13,31 @@ search.appverid:
 - MOE150
 ms.assetid: ebce7fdc-e89b-473c-8131-67e659bb3f73
 description: Analizar métricas y administrar contenido desde el panel de información de Microsoft Search
-ms.openlocfilehash: d75622ad8c414f225615ea14082c8197e2947dd4
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: bbfc8b230690eeef1f7a23d70d7af29b88924e7d
+ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626877"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38699866"
 ---
 # <a name="microsoft-search-insights-dashboard-reports"></a>Informes del panel de información de Microsoft Search
 
-Puede usar el panel de información de Microsoft Search para administrar los datos de Bing para las respuestas publicadas. Esto es tan solo uno de los pasos necesarios para que el [contenido sea fácil de encontrar](make-content-easy-to-find.md) para los usuarios.
+Puede usar el panel de información de Microsoft Search para administrar los datos de [Bing](https://Bing.com) para sus respuestas publicadas. Esto es tan solo uno de los pasos necesarios para que el [contenido sea fácil de encontrar](make-content-easy-to-find.md) para los usuarios.
 
-La primera vez que se dirige a Microsoft Search en el centro de administración de 365 de Microsoft, se especificará en el panel de información.
+La primera vez que se dirige a Microsoft Search en el [centro de administración](https://admin.microsoft.com)de 365 de Microsoft, se escribe en el panel de información.
 
 ![Insights-Dashboard. png](media/Insights-dashboard.png)
 
-Estos son los informes que están disponibles en el panel de información.
+Los siguientes informes están disponibles en el panel de información.
 
 > [!NOTE]
-> Los datos de los informes solo representan datos de Bing.
+> Los datos de los informes solo representan datos de [Bing](https://Bing.com) .
 
 ## <a name="top-queries"></a>Consultas principales
 
-Este informe proporciona detalles sobre las 2000 principales consultas de búsqueda de Bing que los usuarios ejecutan. Para que una consulta aparezca en **las principales consultas**, la consulta debe obtener al menos tres clics.
+Este informe proporciona detalles sobre las 2000 principales consultas de búsqueda de [Bing](https://Bing.com) que los usuarios ejecutan. Para que una consulta aparezca en **las principales consultas**, la consulta debe obtener al menos tres clics.
 
-![Principales consultas informe con los encabezados de tabla: consulta, total de consultas y hacer clic hasta la velocidad.](media/Insights-topqueries.png)
+![Principales consultas informe con los encabezados de tabla: consulta, total de consultas y tasa de clics.](media/Insights-topqueries.png)
 
 Una tasa de clics bajas (CTR) significa que los usuarios no encuentran lo que están buscando.
 
@@ -47,7 +47,7 @@ Puede elegir distintas vistas del informe filtrando según el tipo de respuesta.
 
 ## <a name="impression-distribution"></a>Distribución de impresiones
 
-Este informe muestra la distribución de impresiones en Bing a lo largo del tiempo para varias respuestas. Algunos ejemplos son bookmarks, People, Q&A, files, locations, File sites, Groups, and Conversations. 
+Este informe muestra la distribución de impresiones en [Bing](https://Bing.com) a lo largo del tiempo para varias respuestas. Algunos ejemplos son bookmarks, People, Q&A, files, locations, File sites, Groups, and Conversations. 
 
 ![Informe de impresiones con 90 días seleccionados como período de tiempo.](media/Insights-impressions.png)
 
