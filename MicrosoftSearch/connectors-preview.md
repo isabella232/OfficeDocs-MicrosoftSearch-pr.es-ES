@@ -12,16 +12,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenga información sobre la vista previa de conectores de Microsoft Graph para Microsoft Search.
-ms.openlocfilehash: 6080674e1a6b789cbe5b3492f93f5f932b536e53
-ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
+ms.openlocfilehash: 054dc00bcb5cc0c110858fd329fbf2dbf16fb38b
+ms.sourcegitcommit: 1255c2612aec290ae117bdc24c3b4dabd1e5ca11
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699372"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39205880"
 ---
 # <a name="microsoft-graph-connectors-preview"></a>Vista previa de conectores de Microsoft Graph
 
-Los conectores de Microsoft Graph, las API de indización y las API de búsqueda están actualmente en versión preliminar. Para obtener acceso a la funcionalidad de los conectores, debe solicitar participar en el programa de vista previa enviando el <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRxWYgu82J_RFnMMATAS6_chUNVYwNU1CMDNZUDBSSDZKWVo2RDJDRjRLQi4u" target="_blank">formulario de registro de vista previa de conectores de Microsoft Graph</a>. Se trata de una vista previa temprana y no hay garantía de nivel de servicio. Animamos a los clientes a probar la funcionalidad de los conectores y a proporcionar comentarios. No se recomienda usar conectores para fines de producción durante el período de versión preliminar.
+Los conectores de Microsoft Graph y las API de Microsoft Search (consulta e índice) están actualmente en estado de versión preliminar. Para obtener acceso a la funcionalidad de los conectores, debe solicitar participar en el programa de vista previa enviando el <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRxWYgu82J_RFnMMATAS6_chUNVYwNU1CMDNZUDBSSDZKWVo2RDJDRjRLQi4u" target="_blank">formulario de registro de vista previa de conectores de Microsoft Graph</a>. Se trata de una vista previa temprana y no hay garantía de nivel de servicio. Animamos a los clientes a probar la funcionalidad de los conectores y a proporcionar comentarios. No se recomienda usar conectores para fines de producción durante el período de versión preliminar.
 
 ## <a name="set-up-targeted-release"></a>Configurar versión de destino
 Para probar los conectores, debe tener establecida la opción **Release dirigida** para todos los usuarios de la organización. Los requisitos de la versión dirigida se aplican independientemente de los siguientes entornos de vista previa que elija.
