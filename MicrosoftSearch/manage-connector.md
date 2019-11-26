@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Administrar conectores de Microsoft Graph para Microsoft Search.
-ms.openlocfilehash: 962ceb488fa308eb31a98a8fad33d628f3590e89
-ms.sourcegitcommit: 1255c2612aec290ae117bdc24c3b4dabd1e5ca11
+ms.openlocfilehash: d7bd094fdc5cea521d1ee600eea3cd70067a0386
+ms.sourcegitcommit: 897b92bae1b905d7c47566e31c4c07cd16d44b17
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39205871"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39254725"
 ---
 # <a name="manage-your-connector-for-microsoft-search"></a>Administrar el conector para Microsoft Search
 
@@ -65,11 +65,11 @@ A continuación se muestra una lista de los distintos errores que pueden aparece
 1003 | La cuenta asociada con el conector no tiene permiso para obtener acceso al elemento. |  Asegúrese de que la cuenta correcta tiene acceso al elemento que desea indizar.
 1004 | No se puede tener acceso a la puerta de enlace de datos local. Asegúrese de que el servicio de puerta de enlace se esté ejecutando. | Vaya a la máquina que tiene la puerta de enlace y compruebe si se está ejecutando la puerta de enlace de Power BI; para ello, abra la aplicación de puerta de enlace de Power BI. Compruebe si la puerta de enlace está iniciada con la cuenta de administrador usada para Microsoft Search. 
 1005 | Las credenciales asociadas a este origen de datos han expirado. Renovar las credenciales y actualizar la conexión. | Haga clic en **Editar** para actualizar las credenciales de autenticación. 
-1006 | La versión de la puerta de enlace ya no está actualizada y no es compatible con este conector. Tendrá que actualizar la puerta de enlace. | Visite (Instale una puerta de enlace de datos local) [https://docs.microsoft.com/en-us/data-integration/gateway/service-gateway-install] para descargar e instalar la versión más reciente de la puerta de enlace de Power BI en el equipo que contiene la puerta de enlace.
+1006 | La versión de la puerta de enlace ya no está actualizada y no es compatible con este conector. Tendrá que actualizar la puerta de enlace. | Visite (Instale una puerta de enlace de datos local) [https://docs.microsoft.com/data-integration/gateway/service-gateway-install] para descargar e instalar la versión más reciente de la puerta de enlace de Power BI en el equipo que contiene la puerta de enlace.
 2001 | La indización se limita debido a un gran número de actualizaciones en la cola. Dependiendo de la cola, la actualización puede tardar algún tiempo en completarse. | Espere hasta que se borre la cola.
 2002 | Error de indización debido a un formato de elemento no admitido. | Consulte la documentación específica del conector para obtener más información.
 2003 | Error de indización debido a contenido de elemento no admitido. | Consulte la documentación específica del conector para obtener más información. 
-2004 | El [tamaño del archivo](https://docs.microsoft.com/en-us/microsoftsearch/file-share-connector#content-requirements) es demasiado grande para indizar. Debe tener 100 MB o menos antes del procesamiento y no más de 4 MB después del procesamiento. El archivo se indiza parcialmente en este caso. Es posible que algunas frases presentes en el archivo no devuelvan un resultado de búsqueda. |  
+2004 | El [tamaño del archivo](https://docs.microsoft.com/microsoftsearch/file-share-connector#content-requirements) es demasiado grande para indizar. Debe tener 100 MB o menos antes del procesamiento y no más de 4 MB después del procesamiento. El archivo se indiza parcialmente en este caso. Es posible que algunas frases presentes en el archivo no devuelvan un resultado de búsqueda. |  
 5000 | Se ha producido un error. Si el proceso sigue, póngase en contacto con el soporte técnico. | 
 
 ## <a name="preview-limitations"></a>Limitaciones de la vista previa
