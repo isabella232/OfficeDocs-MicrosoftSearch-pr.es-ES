@@ -12,16 +12,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar Búsqueda de Microsoft por primera vez.
-ms.openlocfilehash: 94ee7ece8a56d599778b151d5b836240d8832762
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: d8b796e0ff61972f3e244c1a5af98319884769dc
+ms.sourcegitcommit: ef1eb2bdf31dccd34f0fdc4aa7a0841ebd44f211
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626913"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "39663064"
 ---
 # <a name="set-up-microsoft-search"></a>Configurar Búsqueda de Microsoft
 
-Búsqueda de Microsoft ofrece una interfaz intuitiva para ayudar a los usuarios a encontrar información como archivos y documentos, sitios internos y herramientas empresariales, personas y grupos, ubicaciones y direcciones, conversaciones y respuestas mediante un acceso seguro a todas las fuentes de datos, incluidos correos electrónicos, archivos, archivos de SharePoint, contenidos de OneDrive y otros recursos compartidos, así como de internet en la organización del usuario.
+Microsoft Search proporciona una interfaz de fácil uso para ayudar a los usuarios a encontrar información como archivos y documentos, sitios internos y herramientas profesionales, personas y grupos, ubicaciones y direcciones, conversaciones y respuestas. Esto se realiza mediante el acceso seguro a todos los orígenes de datos, incluidos los mensajes de correo electrónico, archivos, archivos de SharePoint, el contenido de OneDrive y otros recursos compartidos, así como a Internet en la organización del usuario.
 
 Para obtener más información sobre las características de la Búsqueda de Microsoft, vea [Introducción a Búsqueda de Microsoft](overview-microsoft-search.md).
 
@@ -57,7 +57,7 @@ Contenido informativo que está disponible para todos los usuarios; por ejemplo,
 
 Para crear y administrar respuestas, consulte [planear el contenido](plan-your-content.md).
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 
 Si desea obtener más información sobre cómo usarán Microsoft Search los usuarios, vea los siguientes artículos:
 

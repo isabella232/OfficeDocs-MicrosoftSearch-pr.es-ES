@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Crear y actualizar marcadores y formas de editar en masa los resultados de marcadores para Microsoft Search
-ms.openlocfilehash: a50be90e9590086762df7c6b0fd2e0ad3349ec5d
-ms.sourcegitcommit: 897b92bae1b905d7c47566e31c4c07cd16d44b17
+ms.openlocfilehash: b65e61e4435e36fad5760f0a8d34bf444b51178b
+ms.sourcegitcommit: ef1eb2bdf31dccd34f0fdc4aa7a0841ebd44f211
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39254743"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "39663148"
 ---
 # <a name="manage-bookmarks"></a>Administrar marcadores
 
@@ -77,10 +77,8 @@ Para evitar errores, asegúrese de que el archivo de importación tiene el forma
 - La columna *Estado* no está vacía, puesto que esta información es necesaria
 
 Para evitar errores de duplicación de marcador a marcador, siga estos procedimientos recomendados:
-
 - No use direcciones URL duplicadas para marcadores diferentes. Si una dirección URL ya está asignada a otro marcador y se está agregando de nuevo desde un archivo de importación, se producirá un error. Esto también se aplica a las direcciones URL duplicadas para otros tipos de respuestas.
-- Use la columna identificador de marcador al actualizar los marcadores existentes. Puede actualizar cualquier otra propiedad de un marcador existente, como palabra clave o descripción, pero debe asegurarse de que el identificador de marcador en la columna adecuada del archivo de importación. Si el identificador de marcador está presente, el servicio no lo considerará una adición nueva y procesará un error.
-
+- Use la columna *identificador de marcador* al actualizar los marcadores existentes. Puede actualizar cualquier otra propiedad de un marcador existente, como palabra clave o descripción, pero debe asegurarse de que el *identificador del marcador* se encuentra en la columna correspondiente del archivo de importación. Si el *identificador de marcador* está presente, el servicio no lo considerará una adición nueva y no se procesará como un error.
 
 ## <a name="powerapps"></a>PowerApps
 Ayude a los usuarios a realizar tareas, como marcar las fechas de las vacaciones o registrar informes de gastos, añadiendo PowerApps existentes a los marcadores. 

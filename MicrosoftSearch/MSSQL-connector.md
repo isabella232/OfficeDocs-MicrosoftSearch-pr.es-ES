@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de Microsoft SQL para Microsoft Search.
-ms.openlocfilehash: a073a6d3f226e5f8b0ea297494a8889f1f50bab1
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: c31399e65bd4bfc154d10d2e6057fa23d11f030d
+ms.sourcegitcommit: ef1eb2bdf31dccd34f0fdc4aa7a0841ebd44f211
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626760"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "39663173"
 ---
 # <a name="microsoft-sql-server-connector"></a>Conector de Microsoft SQL Server
 
@@ -48,6 +48,16 @@ En este paso, configurará la consulta SQL que ejecuta un rastreo completo de la
 En el ejemplo se muestra la selección de cinco columnas de datos que contienen los datos de la búsqueda: IdPedido, OrderTitle, OrderDesc, CreatedDateTime y IsDeleted. Para establecer los permisos de vista para cada fila de datos, puede seleccionar opcionalmente estas columnas de ACL: AllowedUsers, AllowedGroups, DeniedUsers y DeniedGroups. Todas estas columnas de datos pueden **consultarse**, realizar **búsquedas**o **recuperarse**.
 
 Seleccione columnas de datos como se muestra en esta consulta de ejemplo:`SELECT OrderId, OrderTitle, OrderDesc, AllowedUsers, AllowedGroups, DeniedUsers, DeniedGroups, CreatedDateTime, IsDeleted`
+ 
+Para administrar el acceso a los resultados de la búsqueda, puede especificar una o más columnas de ACL en la consulta. SQL Connector permite controlar el acceso a nivel de registro. Puede elegir tener el mismo control de acceso para todos los registros de una tabla. Si la información de la ACL se almacena en una tabla independiente, es posible que tenga que realizar una combinación con esas tablas en la consulta.
+
+A continuación se describe el uso de cada una de las columnas de LCA en la consulta anterior. En la lista siguiente se explican los 4 **mecanismos de control de acceso**. 
+* **AllowedUsers**: especifica la lista de identificadores de usuario que podrán tener acceso a los resultados de la búsqueda. En el siguiente ejemplo, la lista de usuarios: john@contoso.com, keith@contoso.com y lisa@contoso.com solo tendría acceso a un registro con OrderId = 12. 
+* **AllowedGroups**: especifica el grupo de usuarios que podrán tener acceso a los resultados de la búsqueda. En el siguiente ejemplo, Group sales-team@contoso.com sólo tendría acceso a record con OrderId = 12.
+* **DeniedUsers**: especifica la lista de usuarios que **no** tienen acceso a los resultados de la búsqueda. En el siguiente ejemplo, los usuarios john@contoso.com y keith@contoso.com no tienen acceso a record with OrderId = 13, mientras que todos los demás tienen acceso a este registro. 
+* **DeniedGroups**: especifica el grupo de usuarios que **no** tienen acceso a los resultados de la búsqueda. En el ejemplo siguiente, los grupos engg-team@contoso.com y pm-team@contoso.com no tienen acceso al registro con OrderId = 15, mientras que todos los demás tienen acceso a este registro.  
+
+![](media/MSSQL-ACL1.png)
 
 ### <a name="watermark-required"></a>Marca de agua (obligatorio)
 Para evitar la sobrecarga de la base de datos, el conector procesa por lotes y reanuda las consultas de rastreo completo con una columna de marca de agua de rastreo completo. Mediante el valor de la columna marca de agua, se recopilan todos los lotes subsiguientes y la consulta se reanuda desde el último punto de control. Básicamente, se trata de un mecanismo para controlar la actualización de datos de rastreos completos.
@@ -67,6 +77,18 @@ Para excluir filas eliminadas temporalmente de la base de datos que se va a indi
 
 ![Configuración de eliminación temporal: "eliminar temporalmente la columna" y "valor de la columna eliminación temporal que indica una fila eliminada"](media/MSSQL-softdelete.png)
 
+### <a name="full-crawl-manage-search-permissions"></a>Rastreo completo: administrar permisos de búsqueda
+Haga clic en **administrar permisos** para seleccionar las distintas columnas de control de acceso (ACL) que especifican el mecanismo de control de acceso. Seleccione el nombre de columna que especificó en la consulta SQL de rastreo completo. 
+
+Se espera que cada una de las columnas de ACL sea una columna de varios valores. Estos valores de identificador múltiple pueden estar separados por separadores como punto y coma (;), coma (,), etc. Debe especificar este separador en el campo **separador de valores** .
+ 
+Se admiten los siguientes tipos de identificador para usar como ACL: 
+* **Nombre principal de usuario (UPN)**: un nombre principal de usuario (UPN) es el nombre de un usuario del sistema en un formato de dirección de correo electrónico. Un UPN (por ejemplo: john.doe@domain.com) consta del nombre de usuario (nombre de inicio de sesión), el separador (el símbolo @) y el nombre de dominio (sufijo UPN). 
+* **Identificador de Azure Active Directory (AAD)**: en AAD, cada usuario o grupo tiene un identificador de objeto que tiene un aspecto similar a ' e0d3ad3d-0000-1111-2222-3c5f5c52ab9b ' 
+* **Identificador de seguridad de Active Directory (ad)**: en una configuración de ad local, todos los usuarios y grupos tienen un identificador de seguridad único e inmutable con un aspecto similar a-1-5-21-3878594291-2115959936-132693609-65242 ".
+
+![](media/MSSQL-ACL2.png)
+
 ## <a name="incremental-crawl-optional"></a>Rastreo incremental (opcional)
 En este paso opcional, proporcione una consulta SQL para ejecutar un rastreo incremental de la base de datos. Con esta consulta, el conector de Microsoft SQL Server realiza todos los cambios en los datos desde el último rastreo incremental. Como en el rastreo completo, seleccione todas las columnas que desea que sean **consultables**, que se puedan **Buscar**o que se puedan **recuperar**. Especifique el mismo conjunto de columnas de ACL que especificó en la consulta de rastreo completo.
 
@@ -74,9 +96,11 @@ Los componentes de la imagen siguiente se parecen a los componentes de rastreo c
 
 ![Script de rastreo incremental que muestra las propiedades OrderTable, AclTable y example que se pueden usar.](media/MSSQL-incrcrawl.png)
 
+## <a name="manage-search-permissions"></a>Administrar permisos de búsqueda 
+Puede optar por usar las [ACL especificadas en la pantalla de rastreo completo](#full-crawl-manage-search-permissions) o reemplazarlas para que el contenido sea visible para todos los usuarios.
+
 ## <a name="limitations"></a>Limitaciones
 El conector de Microsoft SQL Server tiene estas limitaciones en la versión preliminar:
 * La base de datos local debe ejecutar SQL Server versión 2008 o posterior.
-* Las ACL solo se admiten con un nombre principal de usuario (UPN), Azure Active Directory (Azure AD) o seguridad de Active Directory.
+* Las ACL solo se admiten con un nombre principal de usuario (UPN), Azure Active Directory (Azure AD) o seguridad de Active Directory. 
 * No se admite la indización de contenido enriquecido dentro de las columnas de base de datos. Ejemplos de este tipo de contenido son HTML, JSON, XML, blobs y los analizadores de documentos que existen como vínculos dentro de las columnas de la base de datos.
-
