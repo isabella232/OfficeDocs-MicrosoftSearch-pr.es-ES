@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9e8c9323-4ff9-42dd-8052-2bc9e0d6d0e7
 description: Obtenga información acerca de los métodos y procesos que le ayudarán a implementar correctamente Microsoft Search en su organización
-ms.openlocfilehash: 135b07b7dd4e26eaaebd0c09d0d94689b83f2b16
-ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
+ms.openlocfilehash: 4c40013297b8b7a91e589137e70716bd8e4fd326
+ms.sourcegitcommit: f4cb37fdf85b895337caee827fb72b5b7fcaa8ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699534"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39995009"
 ---
 # <a name="user-adoption-guide"></a>Guía de adopción del usuario
 
@@ -119,7 +119,7 @@ Todas las comunicaciones deben instruir a los usuarios sobre cómo pueden inicia
   
 ### <a name="engage-partner-teams"></a>Participar en los equipos de asociados
   
-Como parte integral de [microsoft 365](https://www.microsoft.com/microsoft-365), Microsoft Search cumple con las directrices de RGPD y Tier-C. En función de la organización, es posible que sea necesario compartir información sobre Microsoft Search con los equipos de privacidad y seguridad. Para obtener más información, vea [Security for Microsoft Search](overview-microsoft-search.md#microsoft-search-in-bing-protects-enterprise-searches).
+Como parte integral de [microsoft 365](https://www.microsoft.com/microsoft-365), Microsoft Search cumple con las directrices de RGPD y Tier-C. En función de la organización, es posible que sea necesario compartir información sobre Microsoft Search con los equipos de privacidad y seguridad. Para obtener más información, vea [seguridad y privacidad de Microsoft Search en Bing](security-for-search.md).
   
 Asegúrese de que el servicio de asistencia técnica sepa sobre las características y funciones de Microsoft Search, así como los requisitos de usuario para iniciar sesión, de modo que puedan admitir a los usuarios con mayor eficacia. Para obtener más información, vea [información sobre Microsoft Search en microsoft 365](https://support.office.com/article/Learn-about-Microsoft-Search-in-Microsoft-365-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc) y [preguntas más frecuentes](faqs.md).
   

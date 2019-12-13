@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenga información general sobre lo que es Microsoft Search, sus ventajas y las aplicaciones compatibles con Microsoft Search.
-ms.openlocfilehash: 938cf8875d9cc707041b950c6c13bab27e366670
-ms.sourcegitcommit: ef1eb2bdf31dccd34f0fdc4aa7a0841ebd44f211
+ms.openlocfilehash: 4acc3b9fcb7453f84db256cc20e839066dc94af5
+ms.sourcegitcommit: f4cb37fdf85b895337caee827fb72b5b7fcaa8ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "39663073"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39995036"
 ---
 # <a name="overview-of-microsoft-search"></a>Introducción a Búsqueda de Microsoft
 
@@ -70,28 +70,16 @@ Como administrador, puede crear una sorprendente experiencia de búsqueda de Mic
 
 Microsoft Search muestra el contenido que su organización ha almacenado en Microsoft 365 o que se ha indizado mediante conectores. Microsoft Search no realiza búsquedas en espacios empresariales ni muestra resultados del contenido compartido por otras organizaciones. Si su organización ha configurado un entorno híbrido de SharePoint con la búsqueda híbrida en la nube, Búsqueda de Microsoft devuelve resultados de contenido de SharePoint local y de la web, incluido cualquier contenido externo que haya conectado a su entorno de SharePoint Server. [Más información sobre los entornos híbridos de búsqueda](https://docs.microsoft.com/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint).
 
-Los usuarios obtendrán los mismos resultados de búsqueda empresarial que obtienen de otras ubicaciones y también obtendrán resultados de Internet.
+Los usuarios obtendrán los mismos resultados de búsqueda que los que obtienen de otras ubicaciones y también obtendrán resultados de Internet.
 
 ## <a name="how-does-microsoft-search-work"></a>¿Cómo funciona Búsqueda de Microsoft?
 
 Cuando un usuario realiza una búsqueda, Búsqueda de Microsoft procesa la consulta y analiza el objetivo de búsqueda en frases más grandes mediante Inteligencia Artificial (IA) para obtener información sobre las frases superfluas comunes que los usuarios añaden a sus consultas, pero que no afectan a su intención de búsqueda. Por ejemplo, cuando un usuario busca "más información sobre cómo cambiar la contraseña", se extraen las palabras menos importantes de la consulta y se activa la búsqueda basándose en las más relevantes, como "cambiar contraseña".  
 Los resultados de búsqueda para los que el usuario tiene **permisos** se muestran en la página de resultados de la búsqueda. Búsqueda de Microsoft utiliza algoritmos de clasificación inteligente para ordenar los resultados según su relevancia.
 
-## <a name="microsoft-search-in-bing-protects-enterprise-searches"></a>Búsqueda de Microsoft en Bing protege las búsquedas empresariales
+## <a name="how-does-microsoft-search-in-bing-help-protect-my-company-data"></a>¿Cómo ayuda Microsoft Search en Bing a proteger mis datos de la compañía?
 
-Cuando un usuario escribe una consulta de búsqueda en Microsoft Search en Bing, se producen dos solicitudes de búsqueda simultáneas:
-
-- Una búsqueda de los recursos internos de la organización.
-- Una búsqueda independiente de resultados públicos de Bing.com. 
-
-Como las búsquedas empresariales pueden ser confidenciales, Microsoft Search ha implementado un conjunto de medidas de confianza que describen cómo `Bing.com` se controla la búsqueda independiente de resultados públicos.
-
-### <a name="logging"></a>Registro
-- Todos `Bing.com` los registros de búsqueda que pertenecen a Microsoft Search en el tráfico de Bing no se asocian a la identidad del lugar de trabajo.
-- Si se alcanza un conjunto de restricciones o umbrales de frecuencia que nos garantiza que la consulta no es específica para una organización determinada, la consulta se considerará como se describe en la sección servicios de Bing de la [declaración de privacidad](https://privacy.microsoft.com/privacystatement). Por ejemplo, estas consultas se usarán para modelar y entrenar características públicas, como la sugerencia autosugerir o las búsquedas relacionadas.
-- Las consultas que no cumplan el conjunto de restricciones o umbrales de frecuencia se almacenarán por separado del tráfico público que no sea de Búsqueda de Microsoft.
-### <a name="advertising"></a>Publicidad 
-La publicidad que `Bing.com` se muestra en relación con las búsquedas empresariales está relacionada únicamente con el contenido de las consultas de búsqueda. Los anuncios nunca se dirigen a los usuarios en función de su identidad laboral.
+[Seguridad y privacidad de Microsoft Search en Bing](security-for-search.md)
 
 ## <a name="see-also"></a>Vea también
 

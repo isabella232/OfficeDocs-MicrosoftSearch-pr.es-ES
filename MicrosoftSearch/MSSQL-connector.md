@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de Microsoft SQL para Microsoft Search.
-ms.openlocfilehash: c31399e65bd4bfc154d10d2e6057fa23d11f030d
-ms.sourcegitcommit: ef1eb2bdf31dccd34f0fdc4aa7a0841ebd44f211
+ms.openlocfilehash: b48fece5fccaf2a82ac343cd13130073ee6b3c21
+ms.sourcegitcommit: f4cb37fdf85b895337caee827fb72b5b7fcaa8ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "39663173"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39995054"
 ---
 # <a name="microsoft-sql-server-connector"></a>Conector de Microsoft SQL Server
 
@@ -26,7 +26,7 @@ Con un conector de Microsoft SQL Server, su organización puede detectar e indiz
 Este artículo está destinado a los administradores de Microsoft 365 o a cualquiera que configure, ejecute y supervise un conector de Microsoft SQL Server. Se explica cómo configurar las capacidades del conector y el conector, las limitaciones y las técnicas de solución de problemas.
 
 ## <a name="install-a-data-gateway"></a>Instalar una puerta de enlace de datos
-Para obtener acceso a los datos de terceros, debe instalar y configurar una puerta de enlace de Microsoft Power BI. Consulte [instalar y la puerta de enlace local](https://docs.microsoft.com/data-integration/gateway/service-gateway-install) para obtener más información.  
+Para obtener acceso a los datos de terceros, debe instalar y configurar una puerta de enlace de Microsoft Power BI. Consulte [instalar una puerta de enlace local](https://docs.microsoft.com/data-integration/gateway/service-gateway-install) para obtener más información.  
 
 ## <a name="connect-to-a-data-source"></a>Conectarse a un origen de datos
 Para conectar el conector de Microsoft SQL Server a un origen de datos, debe configurar el servidor de base de datos que desea rastrear y la puerta de enlace local. A continuación, puede conectarse a la base de datos con el método de autenticación necesario.

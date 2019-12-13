@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de ServiceNow para Microsoft Search
-ms.openlocfilehash: 78b2831e9a52b6bf0204b5a6b2aba147b529b3f5
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: 75e07eb82dd63e95ce17a0506f96c853a7bcea2f
+ms.sourcegitcommit: 398b9847e3041732c32af9e6087d8e6c2e96c1cf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626958"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39998570"
 ---
 # <a name="servicenow-connector"></a>Conector de ServiceNow
 
@@ -44,7 +44,7 @@ En la siguiente tabla se proporcionan instrucciones sobre cómo rellenar el form
 Nombre | Este valor único identifica la aplicación para la que requiere acceso de OAuth. | Microsoft Search
 Identificador de cliente | IDENTIFICADOR único de solo lectura y generado automáticamente para la aplicación. La instancia usa el identificador de cliente cuando solicita un token de acceso. | N/D
 Secreto de cliente | Con esta cadena secreta compartida, la instancia de ServiceNow y autorizar las comunicaciones de Microsoft Search entre sí. | Siga los procedimientos recomendados de seguridad tratando esto como una contraseña.
-Dirección URL de redireccionamiento | Una dirección URL de devolución de llamada obligatoria a la que redirige el servidor de autorización. | Consulte la [devolución de llamada de OAuth](https://gcs.office.com/v1.0/admin/oauth/callback).
+Dirección URL de redireccionamiento | Una dirección URL de devolución de llamada obligatoria a la que redirige el servidor de autorización. | https://gcs.office.com/v1.0/admin/oauth/callback
 Dirección URL del logotipo | Una dirección URL que contiene la imagen del logotipo de la aplicación. | N/D
 Activo | Active la casilla para activar el registro de aplicaciones. | Establecer en activo
 Duración del token de actualización | Número de segundos que un token de actualización es válido. De forma predeterminada, los tokens de actualización expiran en 100 días (8640000 segundos). | 31.536.000 (1 año)
