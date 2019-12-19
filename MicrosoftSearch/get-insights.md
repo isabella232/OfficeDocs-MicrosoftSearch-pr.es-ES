@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: ebce7fdc-e89b-473c-8131-67e659bb3f73
 description: Analizar métricas y administrar contenido desde el panel de información de Microsoft Search
-ms.openlocfilehash: bbfc8b230690eeef1f7a23d70d7af29b88924e7d
-ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
+ms.openlocfilehash: 8ed0e13b53f61c699e8cf5628341adba3b96be9c
+ms.sourcegitcommit: 26481c00963d836de4ed64a454fb6c5b49c5075d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699866"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40738057"
 ---
 # <a name="microsoft-search-insights-dashboard-reports"></a>Informes del panel de información de Microsoft Search
 
@@ -47,7 +47,7 @@ Puede elegir distintas vistas del informe filtrando según el tipo de respuesta.
 
 ## <a name="impression-distribution"></a>Distribución de impresiones
 
-Este informe muestra la distribución de impresiones en [Bing](https://Bing.com) a lo largo del tiempo para varias respuestas. Algunos ejemplos son bookmarks, People, Q&A, files, locations, File sites, Groups, and Conversations. 
+Este informe muestra la distribución de impresiones en [Bing](https://Bing.com) a lo largo del tiempo para varias respuestas. Algunos ejemplos son bookmarks, People, Q&A, files, locations, File sites, Groups, and Conversations.
 
 ![Informe de impresiones con 90 días seleccionados como período de tiempo.](media/Insights-impressions.png)
 
