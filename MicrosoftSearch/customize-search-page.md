@@ -12,14 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Agregar presentaciones verticales de búsqueda y personalizar los resultados de la búsqueda
-ms.openlocfilehash: 28e8fdc7fe7f08abe265c53772a161b8a7095503
-ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
+ms.openlocfilehash: 852622c0c66afb996f941c609980a0d792af7364
+ms.sourcegitcommit: c41334350654daef3a4cd45b5b18ea4401286997
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699561"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "40947030"
 ---
-# <a name="customize-the-microsoft-search-page"></a>Personalización de la página de búsqueda de Microsoft
+# <a name="customize-the-search-results-page"></a>Personalización de la página de resultados de búsqueda
 
 Mediante la creación de presentaciones verticales de búsqueda y los tipos de resultado, puede personalizar los resultados de la búsqueda que se muestran a los usuarios cuando buscan en [SharePoint](http://sharepoint.com/), [Microsoft Office](https://Office.com)y Microsoft Search en [Bing](https://Bing.com). Las verticales permiten a los usuarios encontrar más fácilmente la información que tienen permiso para ver. Por ejemplo, puede crear una presentación vertical de búsqueda para los datos de análisis de marketing de software de terceros para los usuarios del Departamento de marketing. También puede definir tipos de resultado y personalizar el diseño de estos datos.  
 

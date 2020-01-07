@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenga información sobre la vista previa de conectores de Microsoft Graph para Microsoft Search.
-ms.openlocfilehash: 054dc00bcb5cc0c110858fd329fbf2dbf16fb38b
-ms.sourcegitcommit: 1255c2612aec290ae117bdc24c3b4dabd1e5ca11
+ms.openlocfilehash: f95f6283fa875a1cfa84556640b16a902b2f2185
+ms.sourcegitcommit: c41334350654daef3a4cd45b5b18ea4401286997
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39205880"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "40947021"
 ---
 # <a name="microsoft-graph-connectors-preview"></a>Vista previa de conectores de Microsoft Graph
 
@@ -34,6 +34,7 @@ Para probar los conectores, las API de indización y las API de búsqueda, recom
 
 ## <a name="preview-limitations"></a>Limitaciones de la vista previa
 La versión preliminar tiene las siguientes limitaciones:
+* La versión preliminar pública para los conectores de Microsoft Graph solo está disponible para los inquilinos en las regiones de Estados Unidos y Europa. 
 * El rendimiento de la recopilación se limita a unos cuatro elementos por segundo.
 * No hay compatibilidad con las actualizaciones del esquema. Después de crear una configuración de conexión, no hay forma de actualizar el esquema. Solo puede eliminar y volver a crear la conexión.
 * El contenido indizado solo se muestra en la página de resultados de búsqueda bajo una vertical personalizada. Esta restricción se aplica al contenido con tipos personalizados.
