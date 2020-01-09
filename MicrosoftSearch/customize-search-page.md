@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Agregar presentaciones verticales de búsqueda y personalizar los resultados de la búsqueda
-ms.openlocfilehash: 852622c0c66afb996f941c609980a0d792af7364
-ms.sourcegitcommit: c41334350654daef3a4cd45b5b18ea4401286997
+ms.openlocfilehash: 198e5c85c1544b05cdc622f7b617e8bddbcd6a00
+ms.sourcegitcommit: 78dc72e99e148898455e016b4ccb110d16b3d81c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "40947030"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40987680"
 ---
 # <a name="customize-the-search-results-page"></a>Personalización de la página de resultados de búsqueda
 
@@ -101,7 +101,7 @@ Después de iniciar el asistente, se le guiará por los pasos para definir el no
 ### <a name="view-the-vertical-after-enabling"></a>Ver la vertical después de la habilitación
 
 Después de habilitar el vertical, puede tardar un rato antes de poder verlo.
-Si desea esperar después de habilitarla, puede anexar **cacheClear = true** a la dirección URL de [SharePoint](http://sharepoint.com/) y [Office](https://Office.com) para ver la vertical inmediatamente.
+Si no desea esperar después de habilitarla, puede anexar **cacheClear = true** a la dirección URL de [SharePoint](http://sharepoint.com/) y [Office](https://Office.com) para ver la vertical inmediatamente.
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
@@ -116,5 +116,5 @@ A continuación, se muestra una lista de problemas comunes que pueden surgir y l
 
 
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 [Paso 3: personalizar el diseño de los resultados](customize-results-layout.md)
