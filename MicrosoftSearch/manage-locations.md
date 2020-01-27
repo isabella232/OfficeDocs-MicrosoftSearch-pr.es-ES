@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8ab9aa00-cd74-405f-8410-9a1c3cfacdb9
 description: Con el tiempo, es posible que deba actualizar el estado y el contenido de una ubicación para que siga siendo relevante.
-ms.openlocfilehash: 25fa6fdb8f95c04332e8df16c7589286ecaefdb0
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: 44214cc1be22c5e9e49276c69c6c4132559f7c8d
+ms.sourcegitcommit: 9784c8a99138c2f333a9fed8b71df9c4f28b2bee
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626787"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41519139"
 ---
 # <a name="manage-locations"></a>Administrar ubicaciones
 
@@ -40,7 +40,7 @@ Los administradores pueden usar las características de Importar o Exportar para
 Use la característica importar o exportar para:
 1. Agregar ubicaciones en bloque: introduzca la información en el archivo de plantilla de ubicaciones y, a continuación, impórtelo. 
 1. Editar ubicaciones en bloque: exporte las ubicaciones a un archivo CSV; a continuación, edite la información de las ubicaciones en el archivo CSV exportado e importe el archivo CSV actualizado.
-1. Copia de seguridad de las ubicaciones: exporte las ubicaciones existentes a un archivo CSV.
+1. Ubicaciones de copia de seguridad: exporte las ubicaciones existentes a un archivo. csv.
 
 Para exportar o importar ubicaciones:
 1. En la esquina superior derecha de la pestaña **Ubicaciones**, seleccione **Importar**.
