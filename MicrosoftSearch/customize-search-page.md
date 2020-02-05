@@ -1,8 +1,8 @@
 ---
 title: Personalización de la página de búsqueda de Microsoft
-ms.author: anfowler
-author: adefowler
-manager: shohara
+ms.author: jypal6
+author: jypal
+manager: jeffkizn
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,23 +12,23 @@ search.appverid:
 - MET150
 - MOE150
 description: Agregar presentaciones verticales de búsqueda y personalizar los resultados de la búsqueda
-ms.openlocfilehash: 198e5c85c1544b05cdc622f7b617e8bddbcd6a00
-ms.sourcegitcommit: 78dc72e99e148898455e016b4ccb110d16b3d81c
+ms.openlocfilehash: 97a43e057297712baef3bf91ac8b3b2fa80975ac
+ms.sourcegitcommit: c22e8c3dcc53857da677db98a1a2b7d5ca2c6170
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40987680"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41721772"
 ---
 # <a name="customize-the-search-results-page"></a>Personalización de la página de resultados de búsqueda
 
 Mediante la creación de presentaciones verticales de búsqueda y los tipos de resultado, puede personalizar los resultados de la búsqueda que se muestran a los usuarios cuando buscan en [SharePoint](http://sharepoint.com/), [Microsoft Office](https://Office.com)y Microsoft Search en [Bing](https://Bing.com). Las verticales permiten a los usuarios encontrar más fácilmente la información que tienen permiso para ver. Por ejemplo, puede crear una presentación vertical de búsqueda para los datos de análisis de marketing de software de terceros para los usuarios del Departamento de marketing. También puede definir tipos de resultado y personalizar el diseño de estos datos.  
 
-Puede crear tipos verticales y resultados en estos niveles: 
+Puede crear tipos verticales y resultados en estos niveles:
 
-- **Nivel de organización** : cuando se agrega un vertical en el nivel de la organización, aparece en la página de resultados de búsqueda cuando los usuarios buscan desde su página de inicio de [SharePoint](http://sharepoint.com/) , en [Office](https://Office.com)y en [Bing](https://Bing.com). 
-- **Nivel de sitio** : por ejemplo, es posible que desee permitir a los empleados de servicio de atención al cliente buscar incidencias de **severidad 1** directamente desde el sitio de SharePoint de su departamento. 
+- **Nivel de organización** : cuando se agrega un vertical en el nivel de la organización, aparece en la página de resultados de búsqueda cuando los usuarios buscan desde su página de inicio de [SharePoint](http://sharepoint.com/) , en [Office](https://Office.com)y en [Bing](https://Bing.com).
+- **Nivel de sitio** : por ejemplo, es posible que desee permitir a los empleados de servicio de atención al cliente buscar incidencias de **severidad 1** directamente desde el sitio de SharePoint de su departamento.
 
-## <a name="whats-a-search-vertical"></a>¿Qué es una presentación vertical de búsqueda?
+## <a name="search-verticals-explained"></a>Explicación de las presentaciones verticales de búsqueda
 
 En la parte superior de la página de resultados de la búsqueda de Microsoft hay una fila de pestañas que son las presentaciones verticales de búsqueda. Una presentación vertical de búsqueda solo muestra los resultados de un tipo determinado o de determinados contenidos. Por ejemplo, solo son archivos o noticias. De forma predeterminada, Microsoft Search muestra los verticales **todos**, los **contactos**, **los archivos, los** **sitios**y las **noticias**.  
 
@@ -36,23 +36,23 @@ Puede Agregar presentaciones verticales de búsqueda que sean relevantes para su
 
 **Declinación de responsabilidades:** Los elementos verticales y los tipos de resultado están actualmente en versión preliminar como parte de la vista previa de conectores de Microsoft Graph. No puede crear un vertical para el contenido que reside en [SharePoint](http://sharepoint.com/) o en el contenido indizado por el [conector de uso compartido de archivos](file-share-connector.md). Para obtener más información acerca de la vista previa, consulte [conectores Preview](connectors-preview.md). Para participar en la vista previa, primero debe enviar el [formulario de suscripción de vista previa de conectores de Microsoft Graph](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRxWYgu82J_RFnMMATAS6_chUNVYwNU1CMDNZUDBSSDZKWVo2RDJDRjRLQi4u).
 
-## <a name="things-to-consider"></a>Aspectos que tener en cuenta...
+## <a name="things-to-consider"></a>Consideraciones que se deben tener en cuenta
 
 Antes de empezar, asegúrese de que el conector se haya indizado. Puede tardar hasta 48 horas, según el tamaño del archivo.
 
 No puede crear un vertical para el contenido que reside en [SharePoint](http://sharepoint.com/) o en el contenido indizado por el [conector de uso compartido de archivos](file-share-connector.md). Obtenga información sobre cómo [indizar contenido](configure-connector.md).
 
-En un nivel alto, hay tres pasos principales para agregar un vertical: 
+En un nivel alto, hay tres pasos principales para agregar un vertical:
 
-1. Cree el vertical. En este paso, se define el nombre de la vertical, el origen de contenido y el ámbito del contenido que se va a buscar. 
+1. Cree el vertical. En este paso, se define el nombre de la vertical, el origen de contenido y el ámbito del contenido que se va a buscar.
 2. Defina el aspecto que tendrán los resultados de esta vertical.  
-3. Habilite la vertical (para que se muestre) en la página de lista vertical.   
+3. Habilite la vertical (para que se muestre) en la página de lista vertical.
 
 ## <a name="step-1-create-the-search-vertical"></a>Paso 1: crear la presentación vertical de búsqueda
 
 Después de iniciar el asistente, se le guiará por los pasos necesarios para definir el nombre de la vertical, el origen de contenido y el ámbito del contenido en el que se realizará la búsqueda. El vertical se crea en un Estado deshabilitado. Habilitará el vertical más adelante.
 
-Puede usar un conjunto limitado del lenguaje de [consulta de palabras clave (KQL)](https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference) para restringir el ámbito y la página enumera las propiedades disponibles para usted. Se recomienda usar palabras clave de texto libres y restricciones de propiedad con operadores booleanos para crear KQL. 
+Puede usar un conjunto limitado del lenguaje de [consulta de palabras clave (KQL)](https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference) para restringir el ámbito y la página enumera las propiedades disponibles para usted. Se recomienda usar palabras clave de texto libres y restricciones de propiedad con operadores booleanos para crear KQL.
 
 ### <a name="create-a-vertical-at-the-organization-level"></a>Crear un vertical en el nivel de la organización
 
@@ -67,8 +67,9 @@ Para crear la vertical en Microsoft Search en [SharePoint](http://sharepoint.com
 1. Seleccione **información del sitio** y, a continuación, **ver toda la configuración del sitio**.
 1. Busque la sección de **Microsoft Search** y, a continuación, seleccione **configurar Microsoft Search para esta colección de sitios**.
 1. En el panel de navegación, vaya a **experiencia personalizada**y, a continuación, seleccione la pestaña **vertical** .
-1. Para agregar una vertical, seleccione **Agregar**. <br>
-O BIEN <br>Para editar una vertical, selecciónela en la lista.
+1. Para agregar una vertical, seleccione **Agregar**.  
+O BIEN  
+Para editar una vertical, selecciónela en la lista.
 
 Recuerde que los verticales se crean en un Estado deshabilitado. Todavía tiene que habilitarlos para que los usuarios puedan ver los verticales.
 
@@ -81,22 +82,24 @@ Un tipo de resultado de búsqueda es una regla que hace que diferentes tipos de 
 - **Una o más condiciones** con las que comparar cada resultado de búsqueda, como el origen de contenido de los resultados de la búsqueda.  
 - **Diseño de resultados** que se va a usar para los resultados de la búsqueda que cumplan las condiciones. El diseño de los resultados controla la forma en que todos los resultados que cumplen las condiciones aparecen y se comportan en una página de resultados de búsqueda.
 
-**Debe crear al menos un tipo de resultado para que los resultados se muestren en la vertical.** Puede crear varios tipos de resultado para cada vertical, lo que le permite usar distintos diseños para diferentes tipos de resultados. Por ejemplo, puede personalizar los incidentes de **gravedad 1** para tener colores más prominentes y una fuente más grande en comparación con los incidentes de **gravedad 3** . 
+**Debe crear al menos un tipo de resultado para que los resultados se muestren en la vertical.** Puede crear varios tipos de resultado para cada vertical, lo que le permite usar distintos diseños para diferentes tipos de resultados. Por ejemplo, puede personalizar los incidentes de **gravedad 1** para tener colores más prominentes y una fuente más grande en comparación con los incidentes de **gravedad 3** .
 
-Después de iniciar el asistente, se le guiará por los pasos para definir el nombre, el origen de contenido y las condiciones para el tipo de resultado. Puede definir la prioridad del tipo de resultado de la vista de lista. 
+Después de iniciar el asistente, se le guiará por los pasos para definir el nombre, el origen de contenido y las condiciones para el tipo de resultado. Puede definir la prioridad del tipo de resultado de la vista de lista.
   
 ### <a name="create-a-result-type-at-the-organization-level"></a>Crear un tipo de resultado en el nivel de organización
 
 1. En el [centro de administración](https://admin.microsoft.com), vaya a **configuración** > de**Microsoft Search**y, a continuación, seleccione **tipo de resultado**.
 1. Para agregar un **tipo de resultado**, seleccione **Agregar**. Para editar un tipo de resultado, seleccione el tipo de resultado en la lista correspondiente.
- 
+
 ### <a name="create-a-results-type-at-the-site-level"></a>Crear un tipo de resultados en el nivel de sitio
 
 1. En el sitio de [SharePoint](http://sharepoint.com/) en el que desea crear el tipo de resultado, vaya a **configuración**.
-1. Seleccione **información del sitio** y, a continuación, **ver toda la configuración del sitio**. 
+1. Seleccione **información del sitio** y, a continuación, **ver toda la configuración del sitio**.
 1. Busque la sección de Microsoft Search y, a continuación, seleccione **configurar Microsoft Search para esta colección de sitios**.
 1. En el panel de navegación, vaya a **experiencia personalizada**y, a continuación, seleccione la pestaña **tipo de resultado** .
-1. Para agregar un tipo de resultado, seleccione **Agregar**. <br> O BIEN <br>Para editar un tipo de resultado, seleccione el tipo de resultado en la lista.
+1. Para agregar un tipo de resultado, seleccione **Agregar**.  
+O BIEN  
+Para editar un tipo de resultado, seleccione el tipo de resultado en la lista.
 
 ### <a name="view-the-vertical-after-enabling"></a>Ver la vertical después de la habilitación
 
@@ -107,14 +110,12 @@ Si no desea esperar después de habilitarla, puede anexar **cacheClear = true** 
 
 A continuación, se muestra una lista de problemas comunes que pueden surgir y las acciones para corregirlos.
 
-
 |Error  |Action  |
 |---------|---------|
 |Aparece un error de *algo incorrecto* en la vertical. |   Los tipos de resultados y los verticales son necesarios para completar la configuración. Asegúrese de que ha creado ambos para el mismo origen de contenido.      |
 |¿Por qué no veo mi diseño de resultados, aunque he creado uno? | Los tipos de resultado tardan unos minutos en usarse, ya que esta configuración suele almacenarse en caché. Espere unos minutos y vuelva a intentarlo.        |
 |No veo ningún origen de contenido en la página tipo de resultado o vertical.     |      Asegúrese de que ha configurado los conectores y los datos indizados.   |
 
-
-
 ## <a name="next-steps"></a>Siguientes pasos
+
 [Paso 3: personalizar el diseño de los resultados](customize-results-layout.md)
