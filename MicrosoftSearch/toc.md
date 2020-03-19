@@ -8,7 +8,6 @@
 ## [Acrónimos](manage-acronyms.md)
 ## [Marcadores](manage-bookmarks.md)
 ## [Planos de planta](manage-floorplans.md)
-### [Procedimientos recomendados](floorplans-bestpractices.md)
 ## [Ubicaciones](manage-locations.md)
 ## [Preguntas y respuestas](manage-qas.md)
 # Conectores (vista previa)
