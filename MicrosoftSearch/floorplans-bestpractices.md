@@ -1,8 +1,8 @@
 ---
 title: Prácticas recomendadas para los planes de planta de Microsoft Search
-ms.author: anfowler
-author: adefowler
-manager: shohara
+ms.author: jeffkizn
+author: jeffkizn
+manager: parulm
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,13 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Prácticas recomendadas para los planes de planta de Microsoft Search
-ms.openlocfilehash: ddad671592ab3cf05400faa1261ee7258f3868bb
-ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
+ms.openlocfilehash: 47eb46df48f1871f6d34d4b00787cf11ccbac1ea
+ms.sourcegitcommit: 6b1c6a4e502d95b42a030a963f9452c387d8a5cd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699856"
+ms.lasthandoff: 04/20/2020
+ms.locfileid: "43571018"
 ---
+<!-- markdownlint-disable no-inline-html -->
 # <a name="best-practices-for-microsoft-search-floor-plans"></a>Prácticas recomendadas para los planes de planta de Microsoft Search
 
 Para implementar correctamente los planes de planta de Microsoft Search, debe coordinar tres datos:
@@ -30,6 +31,7 @@ Para implementar correctamente los planes de planta de Microsoft Search, debe co
 En las siguientes secciones también se describen los procedimientos recomendados para implementar planes de planta de Microsoft Search.
 
 ## <a name="building-location-data"></a>Creación de datos de ubicación
+
 Antes de agregar planes de planta, necesita agregar los edificios a las ubicaciones de búsqueda de Microsoft. Proporcione los siguientes datos de compilación necesarios:
 
 |Datos de compilación necesarios  |Ejemplo  |
@@ -42,7 +44,8 @@ Antes de agregar planes de planta, necesita agregar los edificios a las ubicacio
 Puede agregar varios edificios a la vez mediante la característica de **importación** en la ficha **ubicaciones** , en lugar de agregar ubicaciones de una en una. Con la característica de **importación** , puede especificar la latitud-longitud. Para obtener más información, vea [Manage locations](manage-locations.md).
 
 ## <a name="floor-plan-map-in-dwg-format"></a>Mapa del plano de planta en formato DWG
-Para compilar mapas en Microsoft Search, debe cargar planos de planta en formato DWG con información específica. Para obtener información sobre cómo crear y ver archivos con formato DWG, consulte [visores de DWG](https://www.autodesk.in/products/dwg). 
+
+Para compilar mapas en Microsoft Search, debe cargar planos de planta en formato DWG con información específica. Para obtener información sobre cómo crear y ver archivos con formato DWG, consulte [visores de DWG](https://www.autodesk.in/products/dwg).
 
 Los mapas de plano de planta muestran cuatro elementos:
 
@@ -60,6 +63,7 @@ En este diagrama, los números de sala son el elemento más importante. Están a
 Esta información se almacena en [Azure ad](https://azure.microsoft.com/services/active-directory/) en la propiedad **PhysicalDeliveryOfficeName** . En el centro de [Administración](https://admin.microsoft.com)de 365 de Microsoft, se denomina propiedad de **Office** y puede agregarse **a usuarios activos**.
 
 ### <a name="dwg-files"></a>Archivos DWG
+
 Microsoft Search necesita archivos de planeación de planta en DWG, que es un formato de dibujo de [AutoCAD](https://www.autodesk.com/autocad) . Los archivos deben contener datos de **diseño** y **etiqueta** . Los **números de sala** son las etiquetas más importantes para los planos de planta.
 
 Le recomendamos que cree el sistema de numeración de Office con el método de coincidencia exacta que se muestra en la siguiente tabla. Pero no está limitado a esa etiqueta. Por ejemplo, si la ubicación de la oficina del usuario en [Azure ad](https://azure.microsoft.com/services/active-directory/) es **B1 1001**, puede etiquetar el número de sala en el archivo DWG con cualquiera de las opciones siguientes.
@@ -71,6 +75,7 @@ Le recomendamos que cree el sistema de numeración de Office con el método de c
 |Asociar solo el número de sala <br> **1**<br>Número de sala: 1        |    ![Mapa de piso único de oficina con el número de oficina "1"](media/floorplans-layoutroomonly.png)     |
 
 ## <a name="user-account-office-location"></a>Ubicación de la oficina de cuentas de usuario
+
 Para asignar la ubicación de un empleado, los números de salas de los archivos DWG se asignan a ubicaciones de oficinas en la cuenta del usuario en [Azure ad](https://azure.microsoft.com/services/active-directory/). La propiedad ubicación de la **Oficina** tiene que coincidir con la información de la ubicación de la oficina en el archivo DWG.
 
 En la tabla siguiente se explican los procedimientos recomendados para asignar datos de Ubicación:
@@ -83,5 +88,6 @@ En la tabla siguiente se explican los procedimientos recomendados para asignar d
 |
 
 ## <a name="next-steps"></a>Pasos siguientes
+
 [Administrar ubicaciones](manage-locations.md)<br>
 [Administrar planos de planta](manage-floorplans.md)
