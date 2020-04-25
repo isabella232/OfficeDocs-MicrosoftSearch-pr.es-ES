@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de sitios web de empresa para Microsoft Search
-ms.openlocfilehash: de466d4cc1156f520bb6a5fe3117389bd29f3e78
-ms.sourcegitcommit: 8ccbf0ea4463d17f810c2f5b484882869a74a996
+ms.openlocfilehash: 4ed926cfdacca66d90854147afdc3c7932d1bd5f
+ms.sourcegitcommit: 49659ecd2ac47c85acc297b21e9e34701213862c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "43793553"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43803956"
 ---
 # <a name="enterprise-websites-connector"></a>Conector de sitios web de empresa
 
@@ -60,7 +60,7 @@ No hay compatibilidad con las listas de control de acceso (ACL). Por lo tanto, s
 El conector para sitios web de empresa solo admite un rastreo completo. Esto significa que el conector Lee todo el contenido del sitio web durante cada rastreo. Para asegurarse de que el conector obtiene tiempo suficiente para leer el contenido, se recomienda establecer un intervalo de actualización de gran tamaño. Se recomienda una actualización programada entre tres días y dos semanas. 
 
 ## <a name="troubleshooting"></a>Solución de problemas
-Si algo es muy incorrecto en una conexión, su estado indica que ha fallado. Para obtener más información sobre los tipos de errores, vaya a la página Detalles de error después de seleccionar la conexión con error.  Haga clic en el código de error para ver errores más detallados. Consulte también [administrar el conector](https://docs.microsoft.com/microsoftsearch/manage-connector) para obtener más información.
+Al leer el contenido del sitio web, el rastreo puede encontrar algunos errores de origen que están representados por los códigos de error detallados a continuación. Para obtener más información sobre los tipos de errores, vaya a la página **detalles de error** después de seleccionar la conexión. Haga clic en el **código de error** para ver errores más detallados. Consulte también [administrar el conector](https://docs.microsoft.com/microsoftsearch/manage-connector) para obtener más información.
 
  **Código de error detallado** | **Mensaje de error**
  --- | --- 
@@ -75,7 +75,7 @@ Si algo es muy incorrecto en una conexión, su estado indica que ha fallado. Par
  6024 | La página de origen que se está intentando indizar tiene contenido no admitido.
 
 * Los errores 6001-6013 se producen cuando no se puede obtener acceso al origen de datos debido a un problema de red o cuando el propio origen de datos se elimina, se mueve o se cambia de nombre. Compruebe si los detalles del origen de datos proporcionados siguen siendo válidos.
-* Error 6021-24 el error se produce cuando el origen de datos contiene contenido no textual en la página o cuando la página no es HTML. Compruebe el origen de datos y agregue esta página en la lista de exclusión o ignore el error.
+* Error 6021-6024 el error se produce cuando el origen de datos contiene contenido no textual en la página o cuando la página no es HTML. Compruebe el origen de datos y agregue esta página en la lista de exclusión o ignore el error.
 
 ## <a name="limitations"></a>Limitaciones
-El conector de sitios web de empresa no admite la búsqueda de datos en páginas web dinámicas. Algunos ejemplos de estas páginas web se activan en sistemas de administración de contenido como [Confluence](https://www.atlassian.com/software/confluence) y [Unily](https://www.unily.com/) o bases de datos que almacenan contenido de sitios Web.
+El conector de sitios web de empresa no admite la búsqueda de datos en **páginas web dinámicas**. Algunos ejemplos de estas páginas web se activan en sistemas de administración de contenido como [Confluence](https://www.atlassian.com/software/confluence) y [Unily](https://www.unily.com/) o bases de datos que almacenan contenido de sitios Web.
