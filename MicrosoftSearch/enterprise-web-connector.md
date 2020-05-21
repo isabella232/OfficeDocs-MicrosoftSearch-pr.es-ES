@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de sitios web de empresa para Microsoft Search
-ms.openlocfilehash: 4ed926cfdacca66d90854147afdc3c7932d1bd5f
-ms.sourcegitcommit: 49659ecd2ac47c85acc297b21e9e34701213862c
+ms.openlocfilehash: 66fd0804bf26d70208cdaca519f91dba3a1ba166
+ms.sourcegitcommit: 924bcf4dd1b4bfa5684d43a3f8e784d869c659e7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43803956"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326834"
 ---
 # <a name="enterprise-websites-connector"></a>Conector de sitios web de empresa
 
@@ -26,7 +26,7 @@ Con el conector para sitios web de la empresa, su organización puede indizar ar
 Este artículo está destinado a los administradores de [Microsoft 365](https://www.microsoft.com/microsoft-365) o a cualquiera que configure, ejecute y supervise un conector de sitios web de empresa. Se explica cómo configurar las capacidades del conector y el conector, las limitaciones y las técnicas de solución de problemas.  
 
 ## <a name="connect-to-a-data-source"></a>Conectarse a un origen de datos 
-Para conectarse a su origen de datos, necesita su dirección URL raíz y un formulario de autenticación: autenticación básica o OAuth 2,0 con [Azure Active Directory (Azure ad)](https://docs.microsoft.com/azure/active-directory/).
+Para conectarse a su origen de datos, necesita la dirección URL raíz y la autenticación básica.
 
 ### <a name="root-url"></a>Dirección URL raíz
 La dirección URL raíz es lo que inicia el rastreo y se usa para la autenticación. Puede obtener la dirección URL de la Página principal del sitio web que desea rastrear.
