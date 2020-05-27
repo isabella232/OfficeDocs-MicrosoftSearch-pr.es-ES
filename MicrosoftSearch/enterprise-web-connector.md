@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de sitios web de empresa para Microsoft Search
-ms.openlocfilehash: 66fd0804bf26d70208cdaca519f91dba3a1ba166
-ms.sourcegitcommit: 924bcf4dd1b4bfa5684d43a3f8e784d869c659e7
+ms.openlocfilehash: c4b799a3127a4a302e3f07953a59ea0319a09052
+ms.sourcegitcommit: c186be143164f21a3fecdb3037acd90a26c0fcf3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326834"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374339"
 ---
 # <a name="enterprise-websites-connector"></a>Conector de sitios web de empresa
 
@@ -33,22 +33,6 @@ La dirección URL raíz es lo que inicia el rastreo y se usa para la autenticaci
 
 ### <a name="authentication"></a>Autenticación 
 La autenticación básica requiere un nombre de usuario y una contraseña. Cree esta cuenta de bot mediante el centro de [Administración](https://admin.microsoft.com)de Microsoft 365.
-
-OAuth 2,0 con [Azure ad](https://docs.microsoft.com/azure/active-directory/) requiere un identificador de espacio empresarial, un identificador de recurso, un identificador de cliente y un secreto de cliente.
-Para obtener más información, vea [autorizar el acceso a aplicaciones Web de Azure Active Directory mediante el flujo de concesión de código de OAuth 2,0](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code). Regístrese con los siguientes valores:
-* **Name:** Búsqueda de Microsoft
-* **Redirect_URI:**`https://gcs.office.com/v1.0/admin/oauth/callback`
-
-Para obtener los valores de inquilino, recurso, client_id y client_secret con nombre, vaya a **usar el código de autorización para solicitar un token de acceso** en la Página Web de dirección URL de redireccionamiento.
-
-Para obtener más información, consulte [QuickStart: registrar una aplicación con la plataforma de identidad de Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
-
-### <a name="reverse-proxy-url"></a>Dirección URL de proxy inverso 
-El conector de sitios web de empresa está basado en la nube, por lo que no tiene acceso al contenido local. Para proporcionar ese acceso, instale un proxy inverso. Un proxy inverso proporciona un acceso seguro y confiable a los sitios web locales. Se recomienda el proxy de la [aplicación de Azure](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy).
-
-El requisito de proxy inverso para la dirección URL raíz y la autenticación es el mismo que para el contenido basado en la nube, excepto que la dirección URL raíz y la autenticación las proporciona el servidor proxy inverso.
-
-Consulte [consideraciones de seguridad para obtener acceso a aplicaciones de forma remota con el proxy de aplicación de Azure ad](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-security).
 
 ## <a name="select-the-source-properties"></a>Seleccionar las propiedades de origen 
 Las propiedades de origen se definen en función del formato de datos del sitio web de la empresa. Sin embargo, puede crear una **lista de exclusión** para excluir algunas direcciones URL de rastreo si el contenido es sensible o no merece el rastreo. Para crear una lista de exclusión, examine la dirección URL raíz. Tiene la opción de agregar las direcciones URL excluidas a la lista durante el proceso de configuración.
