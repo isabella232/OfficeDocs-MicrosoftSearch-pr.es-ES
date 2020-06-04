@@ -1,8 +1,8 @@
 ---
 title: Planear el contenido
-ms.author: anfowler
-author: adefowler
-manager: mnirkhe
+ms.author: jeffkizn
+author: jeffkizn
+manager: parulm
 ms.audience: Admin
 ms.topic: reference
 ms.service: mssearch
@@ -13,18 +13,18 @@ search.appverid:
 - MOE150
 ms.assetid: bb9d90b6-6c86-4b19-9235-3bd9b19826ab
 description: Proporcione contenido de calidad sin necesidad de recursos adicionales al usar Microsoft Search
-ms.openlocfilehash: d51fb15199a4c1aedd4af0932ce9bb5683d8abc6
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: 65cc9fbec655ec849e32d7b6e14c6947ab30bbc2
+ms.sourcegitcommit: 46303c60e905c89c133278fa41e87055f81a8637
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626949"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44535351"
 ---
 # <a name="plan-your-content"></a>Planear el contenido
 
-**Microsoft Search** ayuda a los usuarios a encontrar contenido relevante. **Búsqueda de Microsoft** es una forma segura de realizar búsquedas de contenido en su intranet y en la web. Este tipo de integración a través de la web y la organización está disponible únicamente con Microsoft. 
+**Microsoft Search** ayuda a los usuarios a encontrar contenido relevante. **Búsqueda de Microsoft** es una forma segura de realizar búsquedas de contenido en su intranet y en la web. Este tipo de integración a través de la web y la organización está disponible únicamente con Microsoft.
 
-Los administradores de búsqueda usan sus conocimientos sobre la organización y sus usuarios para facilitar a los usuarios encontrar contenido relevante. 
+Los administradores de búsqueda usan sus conocimientos sobre la organización y sus usuarios para facilitar a los usuarios encontrar contenido relevante.
 
 ## <a name="step-1-identify-information-your-users-need"></a>Paso 1: Identifique la información que los usuarios necesitan
 
@@ -47,19 +47,19 @@ En una organización, los usuarios buscan una amplia variedad de temas que abarc
 
 ### <a name="leverage-smes"></a>Recurra a los expertos en la materia
 
-Recurra a los expertos disponibles en la organización, en áreas como recursos humanos, soporte técnico, ventas o tecnología, entre otras áreas clave. Para permitir que los expertos puedan contribuir con contenido directamente, agréguelos como editores. 
+Recurra a los expertos disponibles en la organización, en áreas como recursos humanos, soporte técnico, ventas o tecnología, entre otras áreas clave. Para permitir que los expertos puedan contribuir con contenido directamente, agréguelos como editores.
 
 ### <a name="involve-your-users"></a>Implique a los usuarios
 
 Pida a los usuarios que sugieran recursos para los marcadores. Además de sugerir contenido, pueden informar sobre errores, como vínculos perdidos o no válidos, así como proporcionar otros comentarios
 
-## <a name="step-3-improve-findability-of-content"></a>Paso 3: Mejorar la facilidad de búsqueda del contenido 
+## <a name="step-3-improve-findability-of-content"></a>Paso 3: Mejorar la facilidad de búsqueda del contenido
 
 En **Búsqueda de Microsoft**, el administrador de búsqueda crea marcadores, preguntas y respuestas, ubicaciones y PowerApps para mejorar la facilidad de búsqueda del contenido. Cada uno de estos componentes incluye un título, una dirección URL y un conjunto de palabras clave que lo activan.
 
 ### <a name="titles-and-descriptions"></a>Títulos y descripciones
 
-Las personas usan los títulos y descripciones para determinar si los resultados responden a su consulta o si es necesario probar una búsqueda diferente. Los títulos y descripciones deben reflejar la finalidad principal del resultado. Un buen ejemplo de un título podría ser "Beneficios de guardería", con una descripción de "Más información sobre los beneficios para ayudar con los gastos de guardería". Esto informa a los usuarios que buscan "guardería" que existen beneficios de soporte económico disponibles y les proporciona un vínculo para obtener más información. 
+Las personas usan los títulos y descripciones para determinar si los resultados responden a su consulta o si es necesario probar una búsqueda diferente. Los títulos y descripciones deben reflejar la finalidad principal del resultado. Un buen ejemplo de un título podría ser "Beneficios de guardería", con una descripción de "Más información sobre los beneficios para ayudar con los gastos de guardería". Esto informa a los usuarios que buscan "guardería" que existen beneficios de soporte económico disponibles y les proporciona un vínculo para obtener más información.
 
 ### <a name="keywords"></a>Palabras clave
 
@@ -112,7 +112,7 @@ Es importante que la información relevante como marcadores y preguntas y respue
 - Compruebe si ha habido cambios en herramientas, nombres de sitios o nombres de equipos.
 - Estudie si el marcador o las preguntas y respuestas son lo suficientemente relevantes o se requiere una explicación más clara.
 
-**Búsqueda de Microsoft** proporciona estadísticas de uso de marcadores, preguntas y respuestas, y ubicaciones. Las estadísticas de uso muestran las interacciones de los usuarios con sus resultados de búsqueda, así como si han encontrado lo que buscaban o ha habido lagunas en el contenido disponible. Esto ayuda al administrador a la hora de supervisar el rendimiento y emprender las acciones necesarias para ajustar los resultados de búsqueda. 
+**Búsqueda de Microsoft** proporciona estadísticas de uso de marcadores, preguntas y respuestas, y ubicaciones. Las estadísticas de uso muestran las interacciones de los usuarios con sus resultados de búsqueda, así como si han encontrado lo que buscaban o ha habido lagunas en el contenido disponible. Esto ayuda al administrador a la hora de supervisar el rendimiento y emprender las acciones necesarias para ajustar los resultados de búsqueda.
 
 ### <a name="get-details-about-bookmarks-qa-and-locations"></a>Obtener información acerca de marcadores, preguntas y respuestas, y ubicaciones
 
@@ -126,9 +126,9 @@ Los marcadores, preguntas y respuestas, y ubicaciones sugeridos son un buen indi
 
 ### <a name="review-top-search-queries"></a>Revise las consultas de búsqueda más populares
 
-Descubra las búsquedas que han generado más impresiones durante los últimos 90 días. Las impresiones hacen referencia al número de veces que se muestra una página en el resultado de búsqueda. La tarjeta **Consultas principales** muestra las 25 búsquedas principales para cada tipo de resultado, junto con el número total de impresiones y su tasa de clics (CTR). Utilice este informe para identificar volúmenes de consultas y para identificar las consultas con niveles altos y bajos de actividad. 
+Descubra las búsquedas que han generado más impresiones durante los últimos 90 días. Las impresiones hacen referencia al número de veces que se muestra una página en el resultado de búsqueda. La tarjeta **Consultas principales** muestra las 25 búsquedas principales para cada tipo de resultado, junto con el número total de impresiones y su tasa de clics (CTR). Utilice este informe para identificar volúmenes de consultas y para identificar las consultas con niveles altos y bajos de actividad.
 
-Un bajo recuento de búsquedas puede indicar insatisfacción del usuario porque no busca ese contenido o porque utiliza palabras clave diferentes para encontrar ese contenido. La CTR muestra la frecuencia con la que los usuarios seleccionan los resultados promovidos y el nivel de utilidad de sus reglas de consulta y sus resultados para los usuarios. Una baja CTR indica que los usuarios encuentran el contenido, pero deciden que el contenido no se ajusta a sus búsquedas. En estos casos, los administradores pueden revisar el contenido y asegurarse de que se corresponde con las búsquedas del usuario, así como actualizar títulos, descripciones y palabras clave para coincidir con las consultas de búsqueda de los usuarios. 
+Un bajo recuento de búsquedas puede indicar insatisfacción del usuario porque no busca ese contenido o porque utiliza palabras clave diferentes para encontrar ese contenido. La CTR muestra la frecuencia con la que los usuarios seleccionan los resultados promovidos y el nivel de utilidad de sus reglas de consulta y sus resultados para los usuarios. Una baja CTR indica que los usuarios encuentran el contenido, pero deciden que el contenido no se ajusta a sus búsquedas. En estos casos, los administradores pueden revisar el contenido y asegurarse de que se corresponde con las búsquedas del usuario, así como actualizar títulos, descripciones y palabras clave para coincidir con las consultas de búsqueda de los usuarios.
 
 ### <a name="analyze-impressions-by-result-type"></a>Analizar impresiones por tipo de resultado.
 

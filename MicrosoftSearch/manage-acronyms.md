@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Respuestas de crear y actualizar acrónimos en Microsoft Search
-ms.openlocfilehash: af5b82aa2c578fde67a36980cfceef131f605b4e
-ms.sourcegitcommit: d4f49d51fa7d07b3bfd9ba93ed14f4c46d310154
+ms.openlocfilehash: cd9e1a48288e6df8f5746d937684a3f2eedd65df
+ms.sourcegitcommit: 46303c60e905c89c133278fa41e87055f81a8637
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412679"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44535360"
 ---
 # <a name="manage-acronyms-answers-in-microsoft-search"></a>La administración de acrónimos responde en Microsoft Search
 
@@ -26,6 +26,7 @@ Los usuarios a menudo se encontraban con acrónimos y abreviaturas desconocidos 
 Las organizaciones no siempre tienen una referencia única para su terminología estándar. La ausencia de una sola referencia hace que sea difícil encontrar definiciones o expansiones para estos acrónimos. Microsoft Search resuelve ese problema con acrónimos.
 
 ## <a name="what-users-experience"></a>Qué experiencia tienen los usuarios
+
 Microsoft Search los usuarios pueden obtener definiciones con acrónimos en [Bing](https://Bing.com). En el cuadro de **búsqueda** , los usuarios escriben consultas como estos ejemplos:
 
 - *Qué es* DNN
@@ -39,17 +40,19 @@ Microsoft Search los usuarios pueden obtener definiciones con acrónimos en [Bin
 El resultado incluye todos los significados de DNN que están presentes en la organización del usuario.
 
 > [!NOTE]
-> Los usuarios deben escribir una consulta que incluya las *palabras clave* especificadas en el acrónimo para activar sus respuestas correspondientes. Las consultas de acrónimo no distinguen entre mayúsculas y minúsculas. 
+> Los usuarios deben escribir una consulta que incluya las *palabras clave* especificadas en el acrónimo para activar sus respuestas correspondientes. Las consultas de acrónimo no distinguen entre mayúsculas y minúsculas.
 
 ## <a name="set-up-acronyms-answers"></a>Configurar las respuestas de los acrónimos
-En el centro de [Administración](https://admin.microsoft.com)de Microsoft 365, vaya a **configuración**  >  **Microsoft Search**  > **acrónimos**de Microsoft Search y, a continuación, seleccione **Agregar acrónimos**. 
+
+En el centro de [Administración](https://admin.microsoft.com)de Microsoft 365, vaya a **configuración**  >  **Microsoft Search**  > **acrónimos**de Microsoft Search y, a continuación, seleccione **Agregar acrónimos**.
 
 Microsoft Search consulta dos orígenes de datos para proporcionar a los acrónimo respuestas a las búsquedas de los usuarios:
 
-1.  **Acrónimos editoriales**. LO proporcionan los administradores de TI en el [centro de administración](https://admin.microsoft.com).
-2.  **Acrónimos extraídos**. Extraída por Microsoft Search desde el correo electrónico y los documentos personales del usuario y los datos disponibles públicamente dentro de la organización.
+1. **Acrónimos editoriales**. LO proporcionan los administradores de TI en el [centro de administración](https://admin.microsoft.com).
+2. **Acrónimos extraídos**. Extraída por Microsoft Search desde el correo electrónico y los documentos personales del usuario y los datos disponibles públicamente dentro de la organización.
 
 ### <a name="set-up-editorial-acronyms"></a>Configurar acrónimos editoriales
+
 Los administradores de búsqueda pueden configurar acrónimos editoriales en la [ficha acrónimos](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch) del [centro de administración de Microsoft 365]( https://admin.microsoft.com). Puede Agregar acrónimos desde cualquier sitio o repositorio interno al centro de administración. Los acrónimos editoriales se pueden agregar al estado **publicado** o **borrador** :
 
 **Estado publicado**. Los acrónimos están disponibles para los empleados de la organización a través de Microsoft Search.
@@ -66,6 +69,7 @@ Los administradores pueden agregar acrónimos de forma individual o en bloque pa
 | *XXX* | *Abreviatura de ortografía* |  | *URL* | *Publicado o borrador* |
 
 ### <a name="csv-fields"></a>Campos CSV
+
 **Acrónimo**. Contiene la forma corta o el acrónimo real. Un ejemplo es *DNN*.
 
 **Expansión**. Contiene la expansión del acrónimo. Un ejemplo es una *red neuronal profunda*.
@@ -80,6 +84,7 @@ Los administradores pueden agregar acrónimos de forma individual o en bloque pa
 - **Publicado**. Agrega el acrónimo al estado publicado y lo hace disponible en Microsoft Search.
 
 ### <a name="mined-acronyms"></a>Acrónimos extraídos
+
 Puede que sea un reto para los administradores agregar todos los acrónimos que se usan en una organización a las respuestas. Esta característica puede encontrar acrónimos que los administradores de búsqueda aún no conocen. Para ello, Microsoft Search también retiene acrónimos de estos recursos:
 
 - Mensajes de correo electrónico de los usuarios.
@@ -92,13 +97,14 @@ Microsoft Search se asegura de que solo los usuarios con acceso y permisos a un 
 > No es necesario realizar ninguna configuración para los acrónimos que se han extraído.
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
+
 **P: ¿cómo se clasifican los datos editoriales y extraídos?**
 
 **A:** La característica clasifica actualmente los acrónimos editoriales superiores a los acrónimos extraídos.
 
 **P: ¿Cuánto tiempo tardan los acrónimos de editorial en estar visibles en Microsoft Search después de publicarlos?**
 
-**A:**  Los acrónimos agregados al estado publicado tardan hasta tres días en estar disponibles en Microsoft Search. 
+**A:**  Los acrónimos agregados al estado publicado tardan hasta tres días en estar disponibles en Microsoft Search.
 
 **P: ¿Cómo responden los usuarios que desencadenan acrónimos?**
 
@@ -118,8 +124,8 @@ Microsoft Search se asegura de que solo los usuarios con acceso y permisos a un 
 
 **P: ¿Qué sucede si mi organización no quiere mostrar acrónimos que se han extraído? ¿Puedo dejar de mostrar acrónimos que se han extraído en los resultados de búsqueda?**
 
-**A: para**desactivar la presentación de acrónimos extraídos en los resultados de la búsqueda, cree un vale de soporte al cliente siguiendo las instrucciones en [contacto soporte técnico for Business Products](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?redirectSourcePath=%252fen-us%252farticle%252fContact-Office-365-for-business-support-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b&view=o365-worldwide&tabs=online#BKMK_call_support).
-Después de crear un vale de soporte técnico, tarda hasta 48 horas en acrónimos extraídos para dejar de aparecer en los resultados de la búsqueda. 
+**A: para**desactivar la presentación de acrónimos extraídos en los resultados de la búsqueda, cree un vale de soporte al cliente siguiendo las instrucciones en [contacto soporte técnico for Business Products](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?redirectSourcePath=%252f%252farticle%252fContact-Office-365-for-business-support-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b&view=o365-worldwide&tabs=online#BKMK_call_support).
+Después de crear un vale de soporte técnico, tarda hasta 48 horas en acrónimos extraídos para dejar de aparecer en los resultados de la búsqueda.
 
 **P: ¿Cuándo veo las respuestas de acrónimos en [Office 365](https://Office.com) y [SharePoint Online](https://products.office.com/sharepoint/collaboration)?**
 
