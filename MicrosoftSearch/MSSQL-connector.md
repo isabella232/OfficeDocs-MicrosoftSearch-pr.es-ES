@@ -1,5 +1,5 @@
 ---
-title: Conector de Microsoft SQL para Microsoft Search
+title: Microsoft SQL Server y Azure SQL Connector para Microsoft Search
 ms.author: mounika.narayanan
 author: monaray
 manager: mnirkhe
@@ -11,30 +11,32 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Configurar el conector de Microsoft SQL para Microsoft Search.
-ms.openlocfilehash: b48fece5fccaf2a82ac343cd13130073ee6b3c21
-ms.sourcegitcommit: f4cb37fdf85b895337caee827fb72b5b7fcaa8ad
+description: Configure Microsoft SQL Server o el conector de Azure SQL para Microsoft Search.
+ms.openlocfilehash: adb923527576a72663efe3a069918f38a5e89526
+ms.sourcegitcommit: 64eea81f8c1db9ee955013462a7b51612fb7d0b7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39995054"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44604405"
 ---
-# <a name="microsoft-sql-server-connector"></a>Conector de Microsoft SQL Server
+# <a name="microsoft-sql-server-and-azure-sql-connector"></a>Microsoft SQL Server y Azure SQL Connector
 
-Con un conector de Microsoft SQL Server, su organización puede detectar e indizar datos de una base de datos de SQL Server local. El conector indiza el contenido especificado en Microsoft Search. Para mantener el índice actualizado con datos de origen, admite los rastreos completos e incrementales periódicos. Con el conector de SQL Server, también puede restringir el acceso a los resultados de búsqueda para determinados usuarios.
+Con Microsoft SQL Server o Azure SQL Connector, su organización puede detectar e indizar datos de una base de datos de SQL Server local o de una base de datos hospedada en su instancia de SQL de Azure en la nube. El conector indiza el contenido especificado en Microsoft Search. Para mantener el índice actualizado con datos de origen, admite los rastreos completos e incrementales periódicos. Con estos conectores de SQL, también puede restringir el acceso a los resultados de búsqueda para determinados usuarios.
 
 Este artículo está destinado a los administradores de Microsoft 365 o a cualquiera que configure, ejecute y supervise un conector de Microsoft SQL Server. Se explica cómo configurar las capacidades del conector y el conector, las limitaciones y las técnicas de solución de problemas.
 
-## <a name="install-a-data-gateway"></a>Instalar una puerta de enlace de datos
+## <a name="install-a-data-gateway-required-for-on-premises-microsoft-sql-server-connector-only"></a>Instalar una puerta de enlace de datos (necesario solo para el conector de Microsoft SQL Server local)
 Para obtener acceso a los datos de terceros, debe instalar y configurar una puerta de enlace de Microsoft Power BI. Consulte [instalar una puerta de enlace local](https://docs.microsoft.com/data-integration/gateway/service-gateway-install) para obtener más información.  
 
 ## <a name="connect-to-a-data-source"></a>Conectarse a un origen de datos
 Para conectar el conector de Microsoft SQL Server a un origen de datos, debe configurar el servidor de base de datos que desea rastrear y la puerta de enlace local. A continuación, puede conectarse a la base de datos con el método de autenticación necesario.
 
-> [!NOTE]
-> La base de datos debe ejecutar SQL Server versión 2008 o posterior.
+Para Azure SQL Connector, solo necesita especificar el nombre del servidor o la dirección IP a la que desea conectarse. Azure SQL Connector solo admite la autenticación de Azure Active Directory Open ID Connect (OIDC) para conectarse a la base de datos.
 
-Para realizar búsquedas en el contenido de la base de datos, debe especificar consultas SQL cuando configure el conector. Estas consultas SQL deben nombrar todas las columnas de base de datos que desea indizar (es decir, las propiedades de origen), incluidas las combinaciones de SQL que deben realizarse para obtener todas las columnas. Para restringir el acceso a los resultados de la búsqueda, debe especificar listas de control de acceso (ACL) con consultas SQL cuando configure el conector de Microsoft SQL Server.
+> [!NOTE]
+> La base de datos debe ejecutar SQL Server versión 2008 o posterior para que Microsoft SQL Server Connector pueda conectarse a ella.
+
+Para realizar búsquedas en el contenido de la base de datos, debe especificar consultas SQL cuando configure el conector. Estas consultas SQL deben nombrar todas las columnas de base de datos que desea indizar (es decir, las propiedades de origen), incluidas las combinaciones de SQL que deben realizarse para obtener todas las columnas. Para restringir el acceso a los resultados de la búsqueda, debe especificar listas de control de acceso (ACL) en las consultas SQL cuando configure el conector.
 
 ## <a name="full-crawl-required"></a>Rastreo completo (obligatorio)
 En este paso, configurará la consulta SQL que ejecuta un rastreo completo de la base de datos. El rastreo completo selecciona todas las columnas o propiedades que desea que se puedan **consultar**, **Buscar**o **recuperar**. También puede especificar columnas ACL para restringir el acceso de los resultados de la búsqueda a usuarios o grupos específicos.
@@ -63,14 +65,14 @@ A continuación se describe el uso de cada una de las columnas de LCA en la cons
 Para evitar la sobrecarga de la base de datos, el conector procesa por lotes y reanuda las consultas de rastreo completo con una columna de marca de agua de rastreo completo. Mediante el valor de la columna marca de agua, se recopilan todos los lotes subsiguientes y la consulta se reanuda desde el último punto de control. Básicamente, se trata de un mecanismo para controlar la actualización de datos de rastreos completos.
 
 Cree fragmentos de código de consulta para las marcas de agua como se muestra en estos ejemplos:
-* `WHERE (CreatedDateTime > @watermark)`. Cite el nombre de la columna de marca de `@watermark`agua con la palabra clave Reserved. Si el criterio de ordenación de la columna marca de agua es `>`ascendente, use; de lo contrario `<`, use.
+* `WHERE (CreatedDateTime > @watermark)`. Cite el nombre de la columna de marca de agua con la palabra clave Reserved `@watermark` . Si el criterio de ordenación de la columna marca de agua es Ascending, use `>` ; de lo contrario, use `<` .
 * `ORDER BY CreatedDateTime ASC`. Ordene la columna marca de agua en orden ascendente o descendente.
 
-En la configuración que se muestra en la imagen `CreatedDateTime` siguiente, es la columna marca de agua seleccionada. Para recuperar el primer lote de filas, especifique el tipo de datos de la columna marca de agua. En este caso, el tipo de datos `DateTime`es.
+En la configuración que se muestra en la imagen siguiente, `CreatedDateTime` es la columna marca de agua seleccionada. Para recuperar el primer lote de filas, especifique el tipo de datos de la columna marca de agua. En este caso, el tipo de datos es `DateTime` .
 
 ![](media/MSSQL-watermark.png)
 
-La primera consulta obtiene la **primera cantidad de** filas usando: "CreatedDateTime > 1 de enero de 1753 00:00:00" (valor mínimo del tipo de datos DateTime). Una vez que se obtiene el primer lote, el valor más `CreatedDateTime` alto de devuelto en el lote se guarda como punto de control si las filas se clasifican en orden ascendente. Un ejemplo es 1 de marzo de 2019 03:00:00. A continuación, se obtiene el siguiente lote de **N** filas con "CreatedDateTime > 1 de marzo de 2019 03:00:00" en la consulta.
+La primera consulta obtiene la **primera cantidad de** filas usando: "CreatedDateTime > 1 de enero de 1753 00:00:00" (valor mínimo del tipo de datos DateTime). Una vez que se obtiene el primer lote, el valor más alto de `CreatedDateTime` devuelto en el lote se guarda como punto de control si las filas se clasifican en orden ascendente. Un ejemplo es 1 de marzo de 2019 03:00:00. A continuación, se obtiene el siguiente lote de **N** filas con "CreatedDateTime > 1 de marzo de 2019 03:00:00" en la consulta.
 
 ### <a name="skipping-soft-deleted-rows-optional"></a>Omitir filas eliminadas temporalmente (opcional)
 Para excluir filas eliminadas temporalmente de la base de datos que se va a indizar, especifique el nombre y el valor de la columna de eliminación temporal que indica la fila que se va a eliminar.
@@ -90,7 +92,7 @@ Se admiten los siguientes tipos de identificador para usar como ACL:
 ![](media/MSSQL-ACL2.png)
 
 ## <a name="incremental-crawl-optional"></a>Rastreo incremental (opcional)
-En este paso opcional, proporcione una consulta SQL para ejecutar un rastreo incremental de la base de datos. Con esta consulta, el conector de Microsoft SQL Server realiza todos los cambios en los datos desde el último rastreo incremental. Como en el rastreo completo, seleccione todas las columnas que desea que sean **consultables**, que se puedan **Buscar**o que se puedan **recuperar**. Especifique el mismo conjunto de columnas de ACL que especificó en la consulta de rastreo completo.
+En este paso opcional, proporcione una consulta SQL para ejecutar un rastreo incremental de la base de datos. Con esta consulta, SQL Connector determina los cambios realizados en los datos desde el último rastreo incremental. Como en el rastreo completo, seleccione todas las columnas que desea que sean **consultables**, que se puedan **Buscar**o que se puedan **recuperar**. Especifique el mismo conjunto de columnas de ACL que especificó en la consulta de rastreo completo.
 
 Los componentes de la imagen siguiente se parecen a los componentes de rastreo completos con una excepción. En este caso, "ModifiedDateTime" es la columna de marca de agua seleccionada. Revise los [pasos de rastreo completo](#full-crawl-required) para obtener información sobre cómo escribir la consulta de rastreo incremental y ver la siguiente imagen como ejemplo.
 
@@ -100,7 +102,7 @@ Los componentes de la imagen siguiente se parecen a los componentes de rastreo c
 Puede optar por usar las [ACL especificadas en la pantalla de rastreo completo](#full-crawl-manage-search-permissions) o reemplazarlas para que el contenido sea visible para todos los usuarios.
 
 ## <a name="limitations"></a>Limitaciones
-El conector de Microsoft SQL Server tiene estas limitaciones en la versión preliminar:
-* La base de datos local debe ejecutar SQL Server versión 2008 o posterior.
+Los conectores de SQL tienen estas limitaciones en la versión preliminar:
+* Conector de Microsoft SQL Server: la base de datos local debe ejecutar SQL Server versión 2008 o posterior.
 * Las ACL solo se admiten con un nombre principal de usuario (UPN), Azure Active Directory (Azure AD) o seguridad de Active Directory. 
 * No se admite la indización de contenido enriquecido dentro de las columnas de base de datos. Ejemplos de este tipo de contenido son HTML, JSON, XML, blobs y los analizadores de documentos que existen como vínculos dentro de las columnas de la base de datos.
