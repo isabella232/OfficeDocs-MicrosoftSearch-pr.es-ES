@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector creado por Microsoft para Microsoft Search
-ms.openlocfilehash: 3c54f04c1ac6cc42eef2e27a2b40b6ce92357630
-ms.sourcegitcommit: 46303c60e905c89c133278fa41e87055f81a8637
+ms.openlocfilehash: eb81f9cdc9caf2020bae64984f11ae7e1b87dae9
+ms.sourcegitcommit: a8a6c949f249d106f37103e127d2ea7df730f7a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44535313"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44702762"
 ---
 <!-- markdownlint-disable no-trailing-punctuation -->
 
@@ -34,10 +34,10 @@ Este artículo le guiará por los pasos necesarios para configurar un conector c
 
 ## <a name="set-up"></a>Configurar
 
-Para configurar cualquiera de los conectores creados por Microsoft, vaya al [centro de administración](https://admin.microsoft.com):
+Complete los pasos siguientes para configurar cualquiera de los conectores creados por Microsoft.
 
-1. Inicie sesión en su cuenta con las credenciales de su inquilino de prueba de [Microsoft 365](https://www.microsoft.com/microsoft-365) .
-2. Vaya a **configuración**  >  conectores de**Microsoft Search**  >  **Connectors**.
+1. Vaya a la [pestaña conectores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/Connectors) en el [centro de administración de Microsoft 365](https://admin.microsoft.com).
+2. Inicie sesión en su cuenta con las credenciales de su inquilino de [Microsoft 365](https://www.microsoft.com/microsoft-365) .
 3. Seleccione **Agregar un conector**.
 4. En la lista de conectores disponibles, seleccione el conector de su elección.
 
@@ -67,7 +67,7 @@ Los administradores pueden establecer los atributos del esquema de búsqueda par
 
 Los atributos de esquema de búsqueda incluyen **búsquedas**, **consultas**y **recuperables**. En la siguiente tabla se enumeran todos los atributos compatibles con los conectores de Microsoft Graph y se explican sus funciones.
 
-**Atributo de esquema de búsqueda** | **Función** | **Ejemplo**
+Atributo de esquema de búsqueda | Función | Ejemplo
 --- | --- | ---
 QUE permiten búsquedas | Hace que el contenido de texto de una propiedad permita la búsqueda. El contenido de la propiedad se incluye en el índice de texto completo. | Si la propiedad es **title**, una consulta de **Enterprise** devuelve respuestas que contienen la palabra **Enterprise** en cualquier texto o título.
 CONSULTABLE | Busca una coincidencia para una propiedad determinada en la consulta. A continuación, se puede especificar el nombre de la propiedad en la consulta, ya sea mediante programación o literalmente. |  Si la propiedad **title** es consultable, el título de la consulta **: Enterprise** es compatible.
