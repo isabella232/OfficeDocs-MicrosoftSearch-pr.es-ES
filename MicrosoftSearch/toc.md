@@ -31,6 +31,7 @@
 ## [Búsqueda de Microsoft en SharePoint](get-started-search-in-sharepoint-online.md)
 ## Búsqueda de Microsoft en Bing
 ### [Seguridad y privacidad](security-for-search.md)
+### [Agregar un cuadro de búsqueda a su sitio de intranet](add-a-search-box-to-your-intranet-site.md)
 ### [Hacer de Microsoft Edge el explorador predeterminado](set-default-browser.md)
 ### [Establezca Bing como el motor de búsqueda predeterminado](set-default-search-engine.md)
 ### [Convertir Bing.com en la Página principal predeterminada](set-default-homepage.md)
