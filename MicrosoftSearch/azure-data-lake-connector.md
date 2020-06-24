@@ -12,14 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de Azure Data Lake Storage-limpieza para Microsoft Search
-ms.openlocfilehash: 392960a5f7e6c93442ac7e1f60245217e194b42b
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: f8cb94e806e619d6dae7258b6c2d708d93afb9a8
+ms.sourcegitcommit: 7eda9b621def0659d7e7bc8b989f8adc929cce93
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626476"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44861080"
 ---
-# <a name="azure-data-lake-storage-gen2-connector-for-microsoft-search"></a>Conector de Azure Data Lake Storage para Microsoft Search
+# <a name="azure-data-lake-storage-gen2-connector"></a>Conector de Azure Data Lake Storage-reconexión
 
 Con el conector de [Azure Data Lake Storage](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction) -out, los usuarios de la organización pueden buscar archivos y su contenido. Este conector obtiene acceso a los datos almacenados en contenedores de BLOB de Azure y carpetas habilitadas para jerarquía dentro de una cuenta de Azure Data Lake Storage Gen 2.
 

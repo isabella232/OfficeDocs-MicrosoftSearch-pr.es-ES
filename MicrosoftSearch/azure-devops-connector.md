@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de Azure DevOps para Microsoft Search
-ms.openlocfilehash: f424cf2be2e701bbdfc21a67bfcc3c3d5cf5e866
-ms.sourcegitcommit: 582c24fa3c5b960a4026d6af212044ba7da25e59
+ms.openlocfilehash: e2698d7d4a50c15bf765aa4eeada20fbc7328772
+ms.sourcegitcommit: 7eda9b621def0659d7e7bc8b989f8adc929cce93
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44742212"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44861107"
 ---
 # <a name="azure-devops-connector"></a>Conector de Azure DevOps
 

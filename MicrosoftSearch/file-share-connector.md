@@ -12,14 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de recursos compartidos de archivos para Microsoft Search.
-ms.openlocfilehash: ece8997138182c1cd4ac7230aa2a3501af912933
-ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
+ms.openlocfilehash: 2349ad753508d5f19a70648d9cbf1df495b27108
+ms.sourcegitcommit: 7eda9b621def0659d7e7bc8b989f8adc929cce93
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699787"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44861098"
 ---
-# <a name="the-file-share-connector-for-microsoft-search"></a>El conector de recurso compartido de archivos para Microsoft Search
+# <a name="file-share-connector"></a>Conector de uso compartido de archivos
 
 Con el conector de recursos compartidos de archivos, los usuarios de la organización pueden buscar recursos compartidos de archivos locales. Los resultados de la búsqueda de estos recursos compartidos se combinan con los resultados de [SharePoint](http://sharepoint.com/) y [Microsoft OneDrive para la empresa](https://onedrive.live.com/about/business/).
 
@@ -50,7 +50,7 @@ Para configurar la página de resultados de la búsqueda, siga estos pasos:
 
 2. Instale un [Shell de administración de SharePoint Online](https://www.microsoft.com/download/details.aspx?id=35588).
 
-3. Abra el shell de administración de SharePoint Online como administrador e importe el módulo **Microsoft. SharePoint. Client. dll** que se encuentra en `C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.SharePoint.Client\v4.0_16.0.0.0__71e9bce111e9429c\Microsoft.SharePoint.Client.dll`.
+3. Abra el shell de administración de SharePoint Online como administrador e importe el módulo **Microsoft.SharePoint.Client.dll** presente en `C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.SharePoint.Client\v4.0_16.0.0.0__71e9bce111e9429c\Microsoft.SharePoint.Client.dll` .
 
 > [!NOTE]
 > Esta ruta de acceso puede no ser la misma para todos los usuarios.
@@ -89,7 +89,7 @@ Write-Host "Success" -ForegroundColor Cyan
 Read-Host -Prompt 'Press enter to exit'
 ```
 
-5. Escriba los valores necesarios en [Microsoft PowerShell](https://microsoft.com/powershell), como el nombre de la organización, el nombre de usuario, la contraseña y la dirección URL del sitio. Por **ejemplo**, si las credenciales de administrador `admin@a830edad9050849823J19081300.onmicrosoft.com`son, el nombre de la organización es **a830edad9050849823J19081300**y la dirección URL `https:// a830edad9050849823J19081300.sharepoint.com`del sitio es.
+5. Escriba los valores necesarios en [Microsoft PowerShell](https://microsoft.com/powershell), como el nombre de la organización, el nombre de usuario, la contraseña y la dirección URL del sitio. Por **ejemplo**, si las credenciales de administrador son `admin@a830edad9050849823J19081300.onmicrosoft.com` , el nombre de la organización es **a830edad9050849823J19081300**y la dirección URL del sitio es `https:// a830edad9050849823J19081300.sharepoint.com` .
 
 > [!NOTE]
 > La configuración **AllProperties** solo puede realizarse en un nivel de colección de sitios (Teams/commes).
