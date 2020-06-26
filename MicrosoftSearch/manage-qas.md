@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7e3432e6-5317-4d63-90b0-52da6fddd343
 description: Busque y actualice respuestas de forma individual o use las herramientas de búsqueda de Microsoft disponibles para editar las preguntas más&de una vez.
-ms.openlocfilehash: af966cfaae6680a063feb25d2736303106c19978
-ms.sourcegitcommit: 0050e113517a36e3ca26028a04ac5c236caaf524
+ms.openlocfilehash: 2ec06fb0940172621255946283290450c1f2e036
+ms.sourcegitcommit: 7ad6f4b0ab6cd7b912862273a8b4d48a6507bc29
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470276"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44878237"
 ---
 # <a name="manage-qas"></a>Administrar preguntas y respuestas
 
@@ -62,8 +62,8 @@ Los administradores de búsqueda pueden crear fácilmente búsquedas de contenid
 
 Actualmente, las extensiones del explorador están disponibles para Microsoft Edge y Chrome.
 
-- Para descargar las extensiones de servidor perimetral, ve a [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab).
-- Para descargar extensiones de Chrome, vaya al [almacén Web de Chrome](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm).
+- Para descargar extensiones para Edge (heredado), ve a [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab).
+- Para descargar las Extensiones Chrome o Edge (cromo), vaya al [almacén Web de Chrome](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm).
 
 ## <a name="bulk-add-or-edit-qas"></a>Agregar o editar preguntas y respuestas en bloque
 
