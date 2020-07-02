@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Respuestas de crear y actualizar acrónimos en Microsoft Search
-ms.openlocfilehash: cd9e1a48288e6df8f5746d937684a3f2eedd65df
-ms.sourcegitcommit: 46303c60e905c89c133278fa41e87055f81a8637
+ms.openlocfilehash: 9d58306751f735cef77eba4404597c73c0528c11
+ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44535360"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44996080"
 ---
 # <a name="manage-acronyms-answers-in-microsoft-search"></a>La administración de acrónimos responde en Microsoft Search
 
@@ -44,16 +44,16 @@ El resultado incluye todos los significados de DNN que están presentes en la or
 
 ## <a name="set-up-acronyms-answers"></a>Configurar las respuestas de los acrónimos
 
-En el centro de [Administración](https://admin.microsoft.com)de Microsoft 365, vaya a **configuración**  >  **Microsoft Search**  > **acrónimos**de Microsoft Search y, a continuación, seleccione **Agregar acrónimos**.
+En el centro de [Administración](https://admin.microsoft.com)de Microsoft 365, vaya a **configuración**de  >  acrónimos de respuestas de**Microsoft Search**  >  **Answers**  >  [**Acronyms**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/acronyms)y, a continuación, seleccione **Agregar acrónimos**.
 
 Microsoft Search consulta dos orígenes de datos para proporcionar a los acrónimo respuestas a las búsquedas de los usuarios:
 
-1. **Acrónimos editoriales**. LO proporcionan los administradores de TI en el [centro de administración](https://admin.microsoft.com).
+1. **Acrónimos editoriales**. LO proporcionan los administradores de TI en el [centro de administración](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/acronyms).
 2. **Acrónimos extraídos**. Extraída por Microsoft Search desde el correo electrónico y los documentos personales del usuario y los datos disponibles públicamente dentro de la organización.
 
 ### <a name="set-up-editorial-acronyms"></a>Configurar acrónimos editoriales
 
-Los administradores de búsqueda pueden configurar acrónimos editoriales en la [ficha acrónimos](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch) del [centro de administración de Microsoft 365]( https://admin.microsoft.com). Puede Agregar acrónimos desde cualquier sitio o repositorio interno al centro de administración. Los acrónimos editoriales se pueden agregar al estado **publicado** o **borrador** :
+Los administradores de búsqueda pueden configurar acrónimos editoriales en la [pestaña acrónimos](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/acronyms) del [centro de administración de Microsoft Search](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch). Puede Agregar acrónimos desde cualquier sitio o repositorio interno al centro de administración. Los acrónimos editoriales se pueden agregar al estado **publicado** o **borrador** :
 
 **Estado publicado**. Los acrónimos están disponibles para los empleados de la organización a través de Microsoft Search.
 

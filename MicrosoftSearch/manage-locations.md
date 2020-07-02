@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8ab9aa00-cd74-405f-8410-9a1c3cfacdb9
 description: Con el tiempo, es posible que deba actualizar el estado y el contenido de una ubicación para que siga siendo relevante.
-ms.openlocfilehash: bb229086f7dd8c1b8d17a0b8335bb618850106be
-ms.sourcegitcommit: 063fec4a336b6b3118d4769a4bd0cc2d568ea7e2
+ms.openlocfilehash: a5d3209e2b6e9269ff2e5986cf81de705ae1cc4d
+ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42276992"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44996071"
 ---
 # <a name="manage-locations"></a>Administrar ubicaciones
 
@@ -29,8 +29,7 @@ La ubicación permite a los usuarios buscar direcciones y localizar edificios de
 ### <a name="add-or-edit-a-single-location"></a>Agregar o modificar una ubicación única
 
 1. Vaya al **Centro de administración de Microsoft 365**.
-1. En el panel de navegación, vaya a **Configuración** y seleccione **Búsqueda de Microsoft**.
-1. Seleccione la ficha **Ubicaciones**. De forma predeterminada, está seleccionada la ficha **Marcadores** en la página de **Búsqueda de Microsoft**.
+1. En el panel de navegación, vaya a **configuración**de las  >  **Microsoft Search**  >  **Answers**  >  [**ubicaciones**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/locations) de respuestas de Microsoft Search
 1. Para agregar una nueva ubicación, seleccione **Agregar nueva**.
 1. Para editar una ubicación, selecciónela en la lista de ubicaciones correspondiente.
 1. Al agregar o editar la información, la vista previa se actualizará automáticamente.
@@ -65,6 +64,7 @@ Estos son algunos puntos importantes en relación con el archivo de plantilla:
 - Según el campo de *Estado* , las ubicaciones se guardarán como borrador, sugerida, programada o se publicarán automáticamente.
 - Para los asociados que administran varias organizaciones, puede exportar sus ubicaciones de una organización e importarlas a otra. Sin embargo, debe eliminar los datos de la columna *Id* antes de la importación.
 
-**Nota:** no puede importar ubicaciones si hay cualquier error en el archivo de plantilla. Para evitar errores, asegúrese de que el archivo de importación está correctamente formateado y contiene toda la información necesaria.
+> [!NOTE]
+> No puede importar ubicaciones si hay errores en el archivo de plantilla. Para evitar errores, asegúrese de que el archivo de importación está correctamente formateado y contiene toda la información necesaria.
 
 Para obtener más información sobre cómo evitar errores, consulte [Evitar errores de importación](manage-bookmarks.md#prevent-import-errors).

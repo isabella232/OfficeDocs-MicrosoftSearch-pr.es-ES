@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Agregar presentaciones verticales de búsqueda y personalizar los resultados de la búsqueda
-ms.openlocfilehash: 44b1b9ff211a65313f5c5cf532334335994c486d
-ms.sourcegitcommit: 0050e113517a36e3ca26028a04ac5c236caaf524
+ms.openlocfilehash: 60ab3423db0a86982df9c4332f0f22267c49dc04
+ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470285"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44996062"
 ---
 # <a name="customize-the-search-results-page"></a>Personalización de la página de resultados de búsqueda
 
@@ -59,7 +59,7 @@ Puede usar un conjunto limitado de [lenguaje de consulta de palabras clave (KQL)
 
 Para crear la vertical en Microsoft Search en [SharePoint](https://sharepoint.com/) Home, [Office](https://office.com)o [Bing](https://bing.com), siga estos pasos:
 
-1. En el centro de [Administración](https://admin.microsoft.com)de Microsoft 365, vaya a **configuración**de las   >  **Microsoft Search**   >  **presentaciones verticales**de búsqueda de Microsoft.
+1. En el centro de [Administración](https://admin.microsoft.com)de Microsoft 365, vaya a **configuración**de las   >  **Microsoft Search**   >  **Customization**  >  [**presentaciones verticales**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/verticals)de personalización de Microsoft Search.
 1. Seleccione **Agregar** para empezar.  
 
 ### <a name="create-a-vertical-at-the-site-level"></a>Crear un vertical en el nivel de sitio
@@ -77,7 +77,7 @@ Recuerde que los verticales se crean en un Estado deshabilitado. Deben habilitar
 
 Puede definir la forma en que se muestran los resultados en vertical diseñando el diseño con los tipos de resultados. El diseño de los resultados le permite mostrar información importante directamente en los resultados de la búsqueda, de modo que los usuarios no tengan que seleccionar cada resultado para ver si encontraron lo que están buscando.
 
-Un tipo de resultado de búsqueda es una regla que hace que diferentes tipos de resultados de búsqueda se muestren de manera distinta. Consta de lo siguiente:
+A search result type is a rule that causes distinct kinds of search results to be displayed in different ways. It consists of the following:
 
 - **Una o más condiciones** con las que comparar cada resultado de búsqueda, como el origen de contenido de los resultados de la búsqueda.  
 - **Diseño de resultados** que se va a usar para los resultados de la búsqueda que cumplan las condiciones. El diseño de los resultados controla la forma en que todos los resultados que cumplen las condiciones aparecen y se comportan en una página de resultados de búsqueda.
@@ -88,7 +88,7 @@ Después de iniciar el asistente, se le guiará por los pasos para definir el no
   
 ### <a name="create-a-result-type-at-the-organization-level"></a>Crear un tipo de resultado en el nivel de organización
 
-1. En el [centro de administración](https://admin.microsoft.com), vaya a **configuración**de  >  **Microsoft Search**y, a continuación, seleccione **tipo de resultado**.
+1. En el [centro de administración](https://admin.microsoft.com), vaya a **configuración**de los tipos de  >  **Microsoft Search**  >  **resultado personalizaciones**de Microsoft Search  >  [**Result types**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes).
 1. Para agregar un **tipo de resultado**, seleccione **Agregar**. Para editar un tipo de resultado, seleccione el tipo de resultado en la lista correspondiente.
 
 ### <a name="create-a-results-type-at-the-site-level"></a>Crear un tipo de resultados en el nivel de sitio
@@ -113,6 +113,6 @@ Esta es una lista de problemas comunes que puede encontrarse y acciones para cor
 | No veo el diseño de los resultados, aunque creé uno. | Tarda unos minutos porque esta configuración suele almacenarse en caché. Espere unos minutos y vuelva a intentarlo.        |
 | No veo ningún origen de contenido en la página tipo de resultado o vertical. | Asegúrese de que ha configurado los conectores y los datos indizados.   |
 
-## <a name="next-steps"></a>Siguientes pasos
+## <a name="next-steps"></a>Pasos siguientes
 
 [Paso 3: personalizar el diseño de los resultados](customize-results-layout.md)

@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: La característica de planos de planta de Microsoft Search ayuda a los usuarios a encontrar personas, oficinas y otras amenities en un edificio.
-ms.openlocfilehash: e005767c255cb899793b6b4849882c7ec0561256
-ms.sourcegitcommit: 7ad6f4b0ab6cd7b912862273a8b4d48a6507bc29
+ms.openlocfilehash: 95941e57946f49de3a0558dc2d2c59b999151b37
+ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878246"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44996116"
 ---
 # <a name="manage-floor-plans"></a>Administrar planos de planta
 
@@ -67,7 +67,7 @@ Use **Microsoft Search** para buscar un usuario y comprobar que la ubicación de
 
 ### <a name="step-5-add-building-locations"></a>Paso 5: agregar ubicaciones de edificio
 
-Planos de planta usa [ubicaciones](manage-locations.md) para definir los edificios. En el centro de [Administración](https://admin.microsoft.com)de Microsoft 365, vaya a **configuración**de ubicaciones de  >  **Microsoft Search**  >  **Locations**y, a continuación, seleccione **Agregar**. Escriba el nombre, la dirección y las palabras clave del edificio. Agregue tantos edificios como necesite.
+Planos de planta usa [ubicaciones](manage-locations.md) para definir los edificios. En el centro de [Administración](https://admin.microsoft.com)de Microsoft 365, vaya a **configuración**de las  >  ubicaciones de respuestas de**Microsoft Search**  >  **Answers**  >  [**Locations**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/locations)y, a continuación, seleccione **Agregar**. Escriba el nombre, la dirección y las palabras clave del edificio. Agregue tantos edificios como necesite.
 
 ![floorplans-locations.png](media/floorplans-locations.png)
 
@@ -77,13 +77,13 @@ Para obtener más información acerca de las ubicaciones, consulte [Manage locat
 
 Antes de poder usar planos de planta, las ubicaciones de oficina deben estar indizadas. Se trata de una operación de una sola vez que puede tardar hasta 48 horas en completarse. El tiempo total dependerá del tamaño de la organización.
 
-En el [centro de administración](https://admin.microsoft.com), vaya a **configuración**de los planes de  >  planta de**Microsoft Search**  >  **Floor plans**y, a continuación, seleccione **Introducción**. Si no ve este aviso, este paso ya se ha completado para su organización
+En el [centro de administración](https://admin.microsoft.com), vaya a **configuración**de los  >  planes de planta de respuestas de**Microsoft Search**  >  **Answers**  >  [**Floor plans**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/floorplans)y, a continuación, seleccione **Introducción**. Si no ve este aviso, este paso ya se ha completado para su organización
 
 ![floorplans_hydrationstep.png](media/floorplans_hydrationstep.png)
 
 ### <a name="step-7-upload-floor-plans"></a>Paso 7: cargar planes de planta
 
-1. En el [centro de administración](https://admin.microsoft.com), vaya a **configuración**de los  >  planes de planta de**Microsoft Search**  >  **Floor plans**y, a continuación, seleccione **Agregar**.
+1. En el [centro de administración](https://admin.microsoft.com), vaya a **configuración**de los  >  planes de planta de respuestas de**Microsoft Search**  >  **Answers**  >  [**Floor plans**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/floorplans).
 2. Seleccione un edificio en la lista desplegable y seleccione **siguiente**. Si el edificio no aparece en la lista, vuelva y [agregue ubicaciones de creación](#step-5-add-building-locations).
 3. Seleccione **cargar archivos**y, a continuación, elija el plano de planta que quiera cargar.
 4. Una vez completada la carga, debe especificar el número de planta que se representa en el archivo del plano de planta. Después, seleccione **Siguiente**.
@@ -142,7 +142,7 @@ Para actualizar un plano de planta existente, seleccione el plano de planta que 
 
 **A:** Cree un archivo DWG en Microsoft Visio, Autodesk AutoCAD o cualquier otro editor de DWG. Asegúrese de que 10 o más salas estén etiquetadas en el archivo.
 
-**P:** * * ¿cuál es el mejor formato para las etiquetas de texto en los archivos DWG?
+**P:** ¿Cuál es el mejor formato para las etiquetas de texto en los archivos DWG?
 
 **A:** Para obtener los mejores resultados, las etiquetas de texto deben contener números de planta y números de sala. Los ejemplos siguientes usan 2 o SC para el código de compilación.
 <!-- markdownlint-disable no-inline-html -->

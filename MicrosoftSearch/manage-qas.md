@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7e3432e6-5317-4d63-90b0-52da6fddd343
 description: Busque y actualice respuestas de forma individual o use las herramientas de búsqueda de Microsoft disponibles para editar las preguntas más&de una vez.
-ms.openlocfilehash: 2ec06fb0940172621255946283290450c1f2e036
-ms.sourcegitcommit: 7ad6f4b0ab6cd7b912862273a8b4d48a6507bc29
+ms.openlocfilehash: 78a6ee0ff14f3347b0b2e2a65cc1ee0f68500981
+ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878237"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44996089"
 ---
 # <a name="manage-qas"></a>Administrar preguntas y respuestas
 
@@ -27,8 +27,7 @@ Crear un preguntas y respuestas es similar a crear marcadores. Q&como le permite
 ## <a name="add-or-edit-a-single-qa"></a>Agregar o modificar una pregunta y respuesta única
 
 1. Vaya al **Centro de administración de Microsoft 365**.
-1. En el panel de navegación, vaya a **Configuración** y seleccione **Búsqueda de Microsoft**.
-1. Seleccione la tecla **Q&una** pestaña.
+1. En el panel de navegación, vaya a **configuración**  >  **Microsoft Search**  >  **respuestas**  >  [**Q&a**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/qnas)
 1. Para agregar una pregunta y respuesta, seleccione **Agregar nueva**.
 Para editar una pregunta y respuesta, selecciónela en la lista de preguntas y respuestas correspondiente. Al agregar o editar la información, la vista previa se actualizará automáticamente.
 1. Guarde los cambios.

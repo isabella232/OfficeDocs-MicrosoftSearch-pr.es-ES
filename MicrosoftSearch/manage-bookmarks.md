@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Crear y actualizar marcadores y formas de editar en masa los resultados de marcadores para Microsoft Search
-ms.openlocfilehash: 292a04714f4baa115473df86bfbeb2f3c8860114
-ms.sourcegitcommit: c22e8c3dcc53857da677db98a1a2b7d5ca2c6170
+ms.openlocfilehash: 64e430309ef1969ab804e8d757b987332f0a6006
+ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41721754"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44996107"
 ---
 # <a name="manage-bookmarks"></a>Administrar marcadores
 
@@ -29,8 +29,7 @@ Si su organización ha promovido resultados configurados en SharePoint, puede im
 ## <a name="add-or-edit-a-single-bookmark"></a>Agregar o modificar un marcador único
 
 1. Vaya al **Centro de administración de Microsoft 365**.
-1. En el panel de navegación, vaya a **Configuración** y, a continuación, seleccione **Búsqueda de Microsoft**.
-De forma predeterminada, la ficha **Marcadores** aparece seleccionada.
+1. En el panel de navegación, vaya a **configuración**de los  >  marcadores de respuestas de**Microsoft Search**  >  **Answers**  >  [**Bookmarks**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/bookmarks).
 1. Para agregar un marcador, seleccione **Agregar nuevo**.
 Para modificar un marcador, seleccione el marcador en la lista de marcadores relevantes.
 1. Al agregar o editar la información, la vista previa se actualizará automáticamente.
@@ -106,8 +105,8 @@ Power apps es un servicio que le permite crear aplicaciones empresariales que se
 ### <a name="add-a-power-app-to-a-bookmark"></a>Agregar una aplicación de energía a un marcador
 
 1. Busque el [identificador de aplicación de la aplicación de energía](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) que quiera agregar.
-1. Inicie sesión en el **Centro de administración de Microsoft 365**.
-1. En el panel de navegación, vaya a **Configuración** y, a continuación, seleccione **Búsqueda de Microsoft**.
+1. Inicie sesión en el [**centro de administración de Microsoft 365**](https://admin.microsoft.com).
+1. En el panel de navegación, vaya a **configuración**de los  >  marcadores de respuestas de**Microsoft Search**  >  **Answers**  >  [**Bookmarks**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/bookmarks).
 1. Agregue un marcador o busque un marcador al que desee agregar una **PowerApp**.
 1. En **Configuración del marcador**, seleccione **Power App** y, a continuación, **Agregar una Power App**.
 1. Escriba o pegue el **App ID**.
