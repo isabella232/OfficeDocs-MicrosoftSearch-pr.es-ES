@@ -12,22 +12,22 @@ search.appverid:
 - MET150
 - MOE150
 description: Respuestas de crear y actualizar acrónimos en Microsoft Search
-ms.openlocfilehash: 9d58306751f735cef77eba4404597c73c0528c11
-ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
+ms.openlocfilehash: bbdd27b00be323db8d80994fe9ff6ab7fac17416
+ms.sourcegitcommit: b5142052ed17cd430b4c193b67d8f3d90d94ba6e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44996080"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45143869"
 ---
 # <a name="manage-acronyms-answers-in-microsoft-search"></a>La administración de acrónimos responde en Microsoft Search
 
-Los usuarios a menudo se encontraban con acrónimos y abreviaturas desconocidos que usa su organización o equipo. Los términos específicos de organizaciones o equipos pueden ser nuevos para los usuarios que se mueven de un equipo a otro, los que trabajan con equipos de asociados internos o que son nuevos en la organización.
+Los usuarios a menudo se encontraban con acrónimos y abreviaturas desconocidos que usa su organización o equipo. Los términos específicos de organizaciones o equipos pueden ser nuevos para los usuarios que se mueven de un equipo a otro, trabajan con equipos de asociados internos o son nuevos en la organización.
 
 Las organizaciones no siempre tienen una referencia única para su terminología estándar. La ausencia de una sola referencia hace que sea difícil encontrar definiciones o expansiones para estos acrónimos. Microsoft Search resuelve ese problema con acrónimos.
 
 ## <a name="what-users-experience"></a>Qué experiencia tienen los usuarios
 
-Microsoft Search los usuarios pueden obtener definiciones con acrónimos en [Bing](https://Bing.com). En el cuadro de **búsqueda** , los usuarios escriben consultas como estos ejemplos:
+Microsoft Search los usuarios pueden obtener definiciones con acrónimos en [Bing](https://Bing.com) y [SharePoint](https://products.office.com/sharepoint/collaboration). En el cuadro de **búsqueda** , los usuarios escriben consultas como estos ejemplos:
 
 - *Qué es* DNN
 - *Definir* DNN
@@ -74,7 +74,7 @@ Los administradores pueden agregar acrónimos de forma individual o en bloque pa
 
 **Expansión**. Contiene la expansión del acrónimo. Un ejemplo es una *red neuronal profunda*.
 
-**Descripción**. Breve descripción del acrónimo que proporciona a los usuarios una visión rápida de cuál es el acrónimo y su media de expansión. Por ejemplo, *una red neuronal profunda es una red neuronal con cierto nivel de complejidad, una red neuronal con más de dos capas*.
+**Descripción**. Breve descripción del acrónimo que proporciona a los usuarios más información sobre el acrónimo y su expansión. Por ejemplo, *una red neuronal profunda es una red neuronal con cierto nivel de complejidad, una red neuronal con más de dos capas*.
 
 **Origen**. La dirección URL de la página o sitio web al que desea que vayan los usuarios para obtener más información sobre el acrónimo.
 
@@ -88,7 +88,7 @@ Los administradores pueden agregar acrónimos de forma individual o en bloque pa
 Puede que sea un reto para los administradores agregar todos los acrónimos que se usan en una organización a las respuestas. Esta característica puede encontrar acrónimos que los administradores de búsqueda aún no conocen. Para ello, Microsoft Search también retiene acrónimos de estos recursos:
 
 - Mensajes de correo electrónico de los usuarios.
-- Documentos en [SharePoint](https://products.office.com/sharepoint/collaboration), [Microsoft OneDrive]( https://onedrive.live.com/about/) y [Microsoft OneNote](http://www.onenote.com/).
+- Documentos en [SharePoint](https://products.office.com/sharepoint/collaboration), [Microsoft OneDrive]( https://onedrive.live.com/about/)y [Microsoft OneNote](https://www.onenote.com/).
 - Documentos públicos de la organización a los que los usuarios tienen acceso en SharePoint, OneDrive o OneNote.
 
 Microsoft Search se asegura de que solo los usuarios con acceso y permisos a un documento puedan ver los acrónimos que se han extraído. Cuando se ha extraído un acrónimo desde el buzón de un usuario, el usuario sólo puede ver ese acrónimo.
@@ -108,7 +108,7 @@ Microsoft Search se asegura de que solo los usuarios con acceso y permisos a un 
 
 **P: ¿Cómo responden los usuarios que desencadenan acrónimos?**
 
-**A: para**obtener las respuestas de acrónimo, los usuarios deben escribir patrones de consulta específicos en un cuadro de **búsqueda** de [Bing](https://bing.com) . Actualmente, las respuestas de acrónimo no están disponibles en [Office 365](https://Office.com) o [SharePoint](https://products.office.com/sharepoint/collaboration).
+**A: para**obtener respuestas de acrónimo, los usuarios deben escribir patrones de consulta específicos en un cuadro de **búsqueda** de [Bing](https://bing.com) o de [SharePoint](https://products.office.com/sharepoint/collaboration) . Actualmente, las respuestas de acrónimo no están disponibles en [Office 365](https://Office.com).
 
 **P: ¿Cuánto tiempo tardan los acrónimos extraídos en aparecer después de recibir o enviar un nuevo correo electrónico o documento?**
 
@@ -127,6 +127,6 @@ Microsoft Search se asegura de que solo los usuarios con acceso y permisos a un 
 **A: para**desactivar la presentación de acrónimos extraídos en los resultados de la búsqueda, cree un vale de soporte al cliente siguiendo las instrucciones en [contacto soporte técnico for Business Products](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?redirectSourcePath=%252f%252farticle%252fContact-Office-365-for-business-support-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b&view=o365-worldwide&tabs=online#BKMK_call_support).
 Después de crear un vale de soporte técnico, tarda hasta 48 horas en acrónimos extraídos para dejar de aparecer en los resultados de la búsqueda.
 
-**P: ¿Cuándo veo las respuestas de acrónimos en [Office 365](https://Office.com) y [SharePoint Online](https://products.office.com/sharepoint/collaboration)?**
+**P: ¿Cuándo veo las respuestas de acrónimos en [Office 365](https://Office.com)?**
 
-**A**: acrónimo respuestas en Office 365 y SharePoint Online forman parte de nuestro mapa de ruta del producto, pero actualmente no podemos proporcionar una fecha o un período de tiempo.
+**A**: los acrónimos respuestas en Office 365 forman parte de nuestro mapa de ruta del producto, pero actualmente no podemos proporcionar una fecha o un período de tiempo.
