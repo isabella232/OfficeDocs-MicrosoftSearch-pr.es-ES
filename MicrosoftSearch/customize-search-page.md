@@ -77,7 +77,7 @@ Recuerde que los verticales se crean en un Estado deshabilitado. Deben habilitar
 
 Puede definir la forma en que se muestran los resultados en vertical diseñando el diseño con los tipos de resultados. El diseño de los resultados le permite mostrar información importante directamente en los resultados de la búsqueda, de modo que los usuarios no tengan que seleccionar cada resultado para ver si encontraron lo que están buscando.
 
-A search result type is a rule that causes distinct kinds of search results to be displayed in different ways. It consists of the following:
+Un tipo de resultado de búsqueda es una regla que hace que diferentes tipos de resultados de búsqueda se muestren de manera distinta. Consta de lo siguiente:
 
 - **Una o más condiciones** con las que comparar cada resultado de búsqueda, como el origen de contenido de los resultados de la búsqueda.  
 - **Diseño de resultados** que se va a usar para los resultados de la búsqueda que cumplan las condiciones. El diseño de los resultados controla la forma en que todos los resultados que cumplen las condiciones aparecen y se comportan en una página de resultados de búsqueda.
