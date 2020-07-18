@@ -13,16 +13,16 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Crear y actualizar marcadores y formas de editar en masa los resultados de marcadores para Microsoft Search
-ms.openlocfilehash: 64e430309ef1969ab804e8d757b987332f0a6006
-ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
+ms.openlocfilehash: 926fae2a4bd6bb6a436a3b5ea46f21077a23dcab
+ms.sourcegitcommit: 996b2c0538e28b71441461a371a62339cb6d476f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44996107"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45167461"
 ---
 # <a name="manage-bookmarks"></a>Administrar marcadores
 
-Puede crear un marcador en unos pocos pasos. Cada marcador incluye un título, una dirección URL y un conjunto de palabras clave que lo desencadenan. Un marcador puede contener varias palabras clave y distintos marcadores pueden compartir la misma palabra clave, pero no se pueden compartir las palabras clave reservadas. Al crear o modificar un marcador, el índice de búsqueda se actualiza inmediatamente y el marcador está inmediatamente disponible para los usuarios.
+Puede crear un marcador en unos pocos pasos. Cada marcador incluye un título, una dirección URL y un conjunto de palabras clave que lo desencadenan. También puede Agregar categorías a un marcador que se puede usar para ordenar y filtrar en el portal de administración. Un marcador puede contener varias palabras clave y distintos marcadores pueden compartir la misma palabra clave, pero no se pueden compartir las palabras clave reservadas. Al crear o modificar un marcador, el índice de búsqueda se actualiza inmediatamente y el marcador está inmediatamente disponible para los usuarios.
 
 Si su organización ha promovido resultados configurados en SharePoint, puede importar los resultados promocionados a **Microsoft Search** y hacer que el contenido importado esté disponible para los usuarios. Esta es una forma sencilla de rellenar rápidamente los resultados de búsqueda tan pronto como **Búsqueda de Microsoft** esté configurado y hacerlo más eficaz para los usuarios. Le recomendamos que use los resultados promocionados de SharePoint como referencia para comprender cómo nombrar y crear resultados de búsqueda relevantes.
 
