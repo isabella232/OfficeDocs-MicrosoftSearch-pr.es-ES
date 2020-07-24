@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector creado por Microsoft para Microsoft Search
-ms.openlocfilehash: e5b40326bdd83f461e7ce9a45889ad82245e20aa
-ms.sourcegitcommit: 68cd28a84df120473270f27e4eb62de9eae455f9
+ms.openlocfilehash: 30c60e94e8e633bce90bbc1984eee35d3ceda771
+ms.sourcegitcommit: f2323c43fc732890213223efac32006df5b92c28
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44850893"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45387977"
 ---
 <!-- markdownlint-disable no-trailing-punctuation -->
 
@@ -29,7 +29,6 @@ Este artículo le guiará por los pasos necesarios para configurar un conector c
 * [Azure DevOps](azure-devops-connector.md)
 * [SQL de Azure](MSSQL-connector.md)
 * [Sitios web de la empresa](enterprise-web-connector.md)
-* [Compartir archivos](file-share-connector.md)
 * [MediaWiki](mediawiki-connector.md)
 * [Microsoft SQL Server](MSSQL-connector.md)
 * [ServiceNow](servicenow-connector.md)
@@ -43,7 +42,7 @@ Complete los pasos siguientes para configurar cualquiera de los conectores cread
 3. Seleccione **Agregar un conector**.
 4. En la lista de conectores disponibles, seleccione el conector de su elección.
 
-![Entre los orígenes de datos disponibles se incluyen: conector de ADLS de la MediaWiki, sitios Web empresariales, ServiceNow, recurso compartido de archivos, Microsoft SQL Server y.](media/addconnector_final.png)
+![Los orígenes de datos disponibles son: Azure DevOps Connector, ServiceNow, ADLS de, sitios web de la empresa, MediaWiki, Microsoft SQL Server y Azure SQL.](media/add_connector.png)
 
 ### <a name="name-the-connector"></a>Nombre del conector
 
@@ -75,7 +74,7 @@ QUE permiten búsquedas | Hace que el contenido de texto de una propiedad permit
 CONSULTABLE | Busca una coincidencia para una propiedad determinada en la consulta. A continuación, se puede especificar el nombre de la propiedad en la consulta, ya sea mediante programación o literalmente. |  Si la propiedad **title** es consultable, el título de la consulta **: Enterprise** es compatible.
 RECUPERABLE | Solo se pueden usar propiedades recuperables en el tipo de resultado y se muestran en los resultados de la búsqueda. |
 
-Para todos los conectores excepto el conector de recursos compartidos de archivos, los tipos personalizados deben establecerse manualmente. Para activar las capacidades de búsqueda para cada campo, necesita un esquema de búsqueda asignado a una lista de propiedades. El Asistente para la conexión selecciona automáticamente un esquema de búsqueda en función del conjunto de propiedades de origen que elija. Puede modificar este esquema activando las casillas de verificación de cada propiedad y atributo en la página esquema de búsqueda.
+Para todos los conectores, los tipos personalizados deben establecerse manualmente. Para activar las capacidades de búsqueda para cada campo, necesita un esquema de búsqueda asignado a una lista de propiedades. El Asistente para la conexión selecciona automáticamente un esquema de búsqueda en función del conjunto de propiedades de origen que elija. Puede modificar este esquema activando las casillas de verificación de cada propiedad y atributo en la página esquema de búsqueda.
 
 ![El esquema de un conector se puede personalizar agregando o quitando funciones de consulta, búsqueda y recuperación.](media/manageschema.png)
 
@@ -90,7 +89,7 @@ Estas restricciones y recomendaciones se aplican a la configuración del esquema
 
 ### <a name="manage-search-permissions"></a>Administrar permisos de búsqueda
 
-Las listas de control de acceso (ACL) determinan qué usuarios de la organización pueden tener acceso a cada elemento de datos. El conector de recursos compartidos de archivos solo admite ACL que se puede asignar a [Azure Active Directory (Azure ad)](https://docs.microsoft.com/azure/active-directory/). El resto de conectores admiten permisos de búsqueda que son visibles para todos los usuarios.
+Las listas de control de acceso (ACL) determinan qué usuarios de la organización pueden tener acceso a cada elemento de datos. Todos los conectores admiten permisos de búsqueda que son visibles para todos los usuarios.
 
 ### <a name="set-the-refresh-schedule"></a>Establecer la programación de actualización
 
@@ -98,11 +97,11 @@ La programación de la actualización determina la frecuencia con la que los dat
 
 Con un **rastreo completo**, el motor de búsqueda procesa e indiza todos los elementos del origen de contenido, independientemente de los rastreos anteriores. El rastreo completo funciona mejor en estas situaciones:
 
-* Debe detectar eliminaciones de datos.
+* Detección de eliminaciones de datos.
 * El rastreo incremental no pudo rastrear el contenido de los errores.
-* Se necesita una actualización de software de Microsoft Search. Las actualizaciones modifican el esquema de búsqueda.
 * Las ACL se modificaron.
 * Se modificaron las reglas de rastreo.
+* Se necesita una actualización de software de Microsoft Search. Las actualizaciones modifican el esquema de búsqueda.
 
 Con un **rastreo incremental**, el motor de búsqueda puede procesar e indizar sólo los elementos que se crearon o modificaron desde el último rastreo correcto. Por lo tanto, no todos los datos en el origen de contenido se vuelven a indizar. Los rastreos incrementales funcionan mejor para detectar contenido, metadatos, permisos y otras actualizaciones.
 
@@ -120,10 +119,10 @@ Después de configurar el conector, el [centro de administración](https://admin
 
 Con la interfaz de usuario (UI) de Microsoft Search, los usuarios finales pueden buscar contenido de las aplicaciones de productividad de [microsoft 365](https://www.microsoft.com/microsoft-365) y el ecosistema de Microsoft más amplio. Una presentación vertical de búsqueda hace referencia a las pestañas que se muestran cuando un usuario ve los resultados de la búsqueda en [SharePoint](https://sharepoint.com/), [Microsoft Office](https://Office.com)y Microsoft Search en [Bing](https://Bing.com). Puede personalizar las presentaciones verticales de búsqueda para restringir los resultados, de modo que solo se muestre un tipo determinado de resultados de búsqueda. Estos verticales aparecen como una pestaña en la parte superior de la página de resultados de búsqueda. Un tipo de resultado moderno (MRT) es la interfaz de usuario que designa cómo se presentan los resultados.
 
-Debe crear sus propios tipos de resultados y verticales, de modo que los usuarios finales puedan ver los resultados de la búsqueda de conexiones nuevas. Sin este paso, los datos de la conexión no se mostrarán en la página de resultados de búsqueda.
+Cree sus propios tipos de resultados y verticales, para que los usuarios finales puedan ver los resultados de la búsqueda de conexiones nuevas. Sin este paso, los datos de la conexión no se mostrarán en la página de resultados de búsqueda.
 
 Para obtener más información sobre cómo crear sus verticales y MRTs, vea [Personalización](customize-search-page.md)de la página de resultados de búsqueda.
 
-## <a name="how-do-i-know-this-worked"></a>¿Cómo saber si el proceso se ha completado correctamente?
+## <a name="how-do-i-know-the-connection-setup-worked"></a>¿Cómo sé si funcionó la configuración de la conexión?
 
 Vaya a la lista de las conexiones publicadas en la ficha **conectores** del [centro de administración](https://admin.microsoft.com). Para obtener información sobre cómo realizar actualizaciones y eliminaciones, consulte [administrar el conector](manage-connector.md).

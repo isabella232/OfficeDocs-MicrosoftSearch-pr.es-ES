@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Administrar conectores de Microsoft Graph para Microsoft Search.
-ms.openlocfilehash: 3e652b9afad78f784ff4c726ecab34bef883d4c3
-ms.sourcegitcommit: a8a6c949f249d106f37103e127d2ea7df730f7a3
+ms.openlocfilehash: dfbc58d7e51fca0491dc7e4452ba4312ff3dfd69
+ms.sourcegitcommit: f2323c43fc732890213223efac32006df5b92c28
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702771"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45388007"
 ---
 # <a name="manage-your-connector-for-microsoft-search"></a>Administrar el conector para Microsoft Search
 
@@ -76,7 +76,6 @@ Código de error | Mensaje de error | Solución
 2001 | La indización se limita debido a un gran número de actualizaciones en la cola. Dependiendo de la cola, la actualización puede tardar algún tiempo en completarse. | Espere hasta que se borre la cola.
 2002 | Error de indización debido a un formato de elemento no admitido. | Consulte la documentación específica del conector para obtener más información.
 2003 | Error de indización debido a contenido de elemento no admitido. | Consulte la documentación específica del conector para obtener más información.
-2004 | El [tamaño del archivo](https://docs.microsoft.com/microsoftsearch/file-share-connector#content-requirements) es demasiado grande para indizar. Debe tener 100 MB o menos antes del procesamiento y no más de 4 MB después del procesamiento. El archivo se indiza parcialmente en este caso. Es posible que algunas frases presentes en el archivo no devuelvan un resultado de búsqueda. | Vea la [documentación específica del recurso compartido de archivos](https://docs.microsoft.com/MicrosoftSearch/file-share-connector#content-requirements) para obtener más información.
 5000 | Se ha producido un error. Si el proceso sigue, póngase en contacto con el soporte técnico. |
 
 ## <a name="preview-limitations"></a>Limitaciones de la vista previa

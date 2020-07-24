@@ -12,16 +12,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Introducción a los conectores de Microsoft Graph para Microsoft Search
-ms.openlocfilehash: 08ddb8e61606007c706134242e865459f0399b86
-ms.sourcegitcommit: 68cd28a84df120473270f27e4eb62de9eae455f9
+ms.openlocfilehash: ecedd135336f37da26cee71be06dd421cdb95f61
+ms.sourcegitcommit: f2323c43fc732890213223efac32006df5b92c28
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44850875"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45387998"
 ---
 # <a name="overview-of-microsoft-graph-connectors"></a>Información general sobre los conectores de Microsoft Graph
 
-Microsoft Search indiza todos los datos de [microsoft 365](https://www.microsoft.com/microsoft-365) para permitir que los usuarios puedan buscar en ellos. Con los conectores de Microsoft Graph, su organización puede indizar datos de terceros para que aparezcan en los resultados de Microsoft Search. Los datos de terceros pueden hospedarse localmente o en nubes públicas o privadas. Los conectores amplían los tipos de orígenes de contenido que se pueden buscar en las aplicaciones de productividad de Microsoft 365 y el más amplio ecosistema de Microsoft.
+Microsoft Search indiza todos los datos de [microsoft 365](https://www.microsoft.com/microsoft-365) para permitir que los usuarios puedan buscar en ellos. Con los conectores de Microsoft Graph, la organización puede indexar datos de terceros para que aparezcan en los resultados de Búsqueda de Microsoft. Los datos de terceros pueden hospedarse localmente o en nubes públicas o privadas. Los conectores amplían los tipos de orígenes de contenido que se pueden buscar en las aplicaciones de productividad de Microsoft 365 y el más amplio ecosistema de Microsoft.
 
 > [!IMPORTANT]
 > **Renuncia de responsabilidad**: los conectores de Microsoft Graph y las API de Microsoft Search (consulta e índice) están actualmente en estado de vista previa disponible para los inquilinos de la versión de destino. Para usar conectores con Microsoft Search o crear conectores, opte por la [versión dirigida](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide). Para obtener más información acerca de la vista previa, consulte [Connector Preview Program](connectors-preview.md).
@@ -46,7 +46,7 @@ Para obtener una vista previa de los conectores de uno de nuestros socios del ec
 
 También puede [crear su propio conector](https://docs.microsoft.com/graph/search-concept-overview).
 
-### <a name="connectors-by-microsoft"></a>Conectores por Microsoft
+### <a name="connectors-by-microsoft"></a>Conectores de Microsoft
 
 La versión preliminar de conectores de Microsoft Graph incluye 6 conectores creados por Microsoft. Puede configurarlos en el [centro de administración](https://admin.microsoft.com) y obtener información sobre cómo [configurar el conector creado por Microsoft](configure-connector.md).
 
@@ -63,9 +63,6 @@ Obtenga más información sobre [Azure SQL Connector](MSSQL-connector.md).
 
 - **Sitios web de empresa**. Con este conector de Microsoft Graph, los usuarios de la organización pueden buscar en las páginas de cualquier sitio web que no sea de SharePoint Enterprise.
 Obtenga más información sobre el [conector de sitios web de empresa](enterprise-web-connector.md).
-
-- **Recurso compartido de archivos**. Con este conector de Microsoft Graph, los usuarios de la organización pueden buscar archivos almacenados en recursos compartidos de archivos de Windows locales.
-Obtenga más información sobre el [conector de recursos compartidos de archivos](file-share-connector.md).
 
 - **[MediaWiki](https://www.mediawiki.org/wiki/MediaWiki)**. Con este conector de Microsoft Graph, los usuarios pueden buscar artículos de Knowledge base en sitios wiki que su organización crea con MediaWiki.
 Obtenga más información sobre el [conector de MediaWiki](mediawiki-connector.md).

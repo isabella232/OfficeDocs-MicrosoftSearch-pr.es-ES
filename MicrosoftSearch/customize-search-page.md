@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Agregar presentaciones verticales de búsqueda y personalizar los resultados de la búsqueda
-ms.openlocfilehash: 60ab3423db0a86982df9c4332f0f22267c49dc04
-ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
+ms.openlocfilehash: 9bc0448c1105c26b0e083316db04887327d8db41
+ms.sourcegitcommit: f2323c43fc732890213223efac32006df5b92c28
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44996062"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45387989"
 ---
 # <a name="customize-the-search-results-page"></a>Personalización de la página de resultados de búsqueda
 
@@ -41,7 +41,7 @@ Puede Agregar presentaciones verticales de búsqueda que sean relevantes para su
 
 Antes de empezar, asegúrese de que el conector se haya indizado. Esto puede tardar hasta 48 horas, según el tamaño del archivo.
 
-No se puede crear un vertical para contenido que reside en [SharePoint](https://sharepoint.com/) o de contenido indizado por el conector de [uso compartido de archivos](file-share-connector.md). Obtenga información sobre cómo [indizar contenido](configure-connector.md).
+No puede crear un vertical para contenido que reside en [SharePoint](https://sharepoint.com/).
 
 Hay tres pasos básicos para agregar un vertical:
 
@@ -107,7 +107,7 @@ Después de habilitar el vertical, puede tardar un rato antes de poder verlo. Si
 
 Esta es una lista de problemas comunes que puede encontrarse y acciones para corregirlos.
 
-|Error  |Action  |
+|Error  |Acción  |
 |---------|---------|
 | Aparece el mensaje de error "se ha producido un problema" en la vertical. | Tanto los tipos de resultados como los verticales son necesarios para completar la configuración. Asegúrese de que ha creado ambos para el mismo origen de contenido. |
 | No veo el diseño de los resultados, aunque creé uno. | Tarda unos minutos porque esta configuración suele almacenarse en caché. Espere unos minutos y vuelva a intentarlo.        |
