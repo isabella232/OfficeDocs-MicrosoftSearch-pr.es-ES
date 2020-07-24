@@ -13,21 +13,21 @@ search.appverid:
 - MET150
 - MOE150
 description: Enumera todos los conectores de Microsoft Graph para Microsoft Search
-ms.openlocfilehash: 47782a9a429bf3ad75cffaadf6f67402638fd3a6
-ms.sourcegitcommit: 68cd28a84df120473270f27e4eb62de9eae455f9
+ms.openlocfilehash: 82718cdadc57bf9133b61183cdbd912e269fdc70
+ms.sourcegitcommit: f2323c43fc732890213223efac32006df5b92c28
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44850937"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45388016"
 ---
 # <a name="microsoft-graph-connectors-gallery"></a>Galería de conectores de Microsoft Graph
 
 
 #### <a name="in-this-article"></a>En este artículo
-* <a href="#Microsoft">Conectores por Microsoft</a>
-* <a href="#Partners">Conectores por nuestros partners</a>
+* <a href="#Microsoft">Conectores de Microsoft</a>
+* <a href="#Partners">Conectores de nuestros partners</a>
 
-<h2 id="Microsoft">Conectores por Microsoft</h2>
+<h2 id="Microsoft">Conectores de Microsoft</h2>
 <ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
@@ -120,27 +120,6 @@ ms.locfileid: "44850937"
             <div class="cardPadding">
                 <div class="card" style="overflow: hidden; height: 235px;">
                     <div class="cardText">
-                        <h3>Compartir archivos</h3>
-                        <p>por <a href="https://www.microsoft.com">Microsoft</a></p>
-                        <p>Con este conector de Microsoft Graph, los usuarios de la organización pueden buscar archivos almacenados en recursos compartidos de archivos de Windows locales.</p>
-                        <div style="margin-top:20px;bottom:15px;position:absolute;display:block">
-                            <div style="font-weight:500;width:150px;display:inline">
-                                <a href="file-share-connector.md" target="_blank" data-linktype="relative-path" style="font-weight:500;width:150px;display:inline">
-                                    <font color="0065BA">Más detalles</font>
-                                </a>
-                             <img src="media/FileConnectorLogo_Small.png" alt="File share" width="35" height="35" align="right" style="display:inline; margin-left:210px" data-linktype="relative-path"  />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card" style="overflow: hidden; height: 235px;">
-                    <div class="cardText">
                         <h3>MediaWiki</h3>
                         <p>por <a href="https://www.microsoft.com">Microsoft</a></p>
                         <p>Con este conector de Microsoft Graph, los usuarios pueden buscar artículos basados en conocimientos en los sitios wiki que cree su organización con MediaWiki.</p>
@@ -157,8 +136,6 @@ ms.locfileid: "44850937"
             </div>
         </div>
     </li>
-</ul>
-<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -180,6 +157,8 @@ ms.locfileid: "44850937"
             </div>
         </div>
     </li>
+</ul>
+<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -205,7 +184,7 @@ ms.locfileid: "44850937"
 
 ---
 
-<h2 id="Partners">Conectores por nuestros partners</h2>
+<h2 id="Partners">Conectores de nuestros partners</h2>
 <!--- 1 ROW --->
 <h3 id="A"></h3>
 <ul class="panelContent cardsZ">
@@ -476,7 +455,7 @@ ms.locfileid: "44850937"
                     <div class="cardText">
                         <h3>Azure Data Lake</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>El conector de Azure Data Lake rastreará el contenido de la nube de Azure Data Lake Store en las rutas de la raíz o especificadas. Cada archivo se envía con sus metadatos (tamaño, ubicación, último acceso, etc.). Las actualizaciones se detectan automáticamente.</p>
+                        <p>El conector de Azure Data Lake rastreará el contenido de la nube de ADLS en las rutas de raíz o especificadas. Cada archivo se envía con sus metadatos (tamaño, ubicación, último acceso, etc.). Las actualizaciones se detectan automáticamente.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Azure+Data+Lake+Connector"><font color="0065BA">Más detalles</font></a>
                         </p>
@@ -645,7 +624,7 @@ ms.locfileid: "44850937"
                     <div class="cardText">
                         <h3>Elasticsearch</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>El conector Elasticsearch rastreará el contenido de un índice elástico con una consulta definida por el usuario. Puede identificar las actualizaciones automáticamente o usar una marca de hora en el índice.</p>
+                        <p>El conector Elasticsearch rastreará el contenido de un índice elástico mediante una consulta definida por el usuario. Puede identificar las actualizaciones automáticamente o usar una marca de hora en el índice.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Elasticsearch+Connector"><font color="0065BA">Más detalles</font></a>
                         </p>
@@ -1104,7 +1083,7 @@ ms.locfileid: "44850937"
                     <div class="cardText">
                         <h3>Trabajo de iManage</h3>
                         <p>por <a href="https://www.bainsight.com">visión de BA</a></p>
-                        <p>El conector de trabajo de iManage proporciona seguridad completa y funciona con alto rendimiento para minimizar el tiempo de rastreo y mantener un impacto bajo el rendimiento en el trabajo. Solo requiere acceso de lectura y no es necesario instalar el software cliente en ningún servidor de iManage. Esto da como resultado un acceso transparente y simultáneo a todo el contenido almacenado en el trabajo de iManage.</p>
+                        <p>El conector de trabajo de iManage proporciona seguridad completa y funciona con alto rendimiento para minimizar el tiempo de rastreo y mantener un impacto de bajo rendimiento en el trabajo. Solo requiere acceso de lectura y no es necesario instalar el software cliente en ningún servidor de iManage. Esto da como resultado un acceso transparente y simultáneo a todo el contenido almacenado en el trabajo de iManage.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/imanage-work-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a>
                         </p>
@@ -1511,7 +1490,7 @@ ms.locfileid: "44850937"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
-                        <h3>Nos</h3>
+                        <h3>Objetivo</h3>
                         <p>por <a href="https://www.bainsight.com">visión de BA</a></p>
                         <p>El conector de objetivos se desarrolló específicamente para objetivos, estableciendo una conexión segura con objetivos y asignando el contenido, incluidos los metadatos del esquema objetivo al esquema del motor de búsqueda. A continuación, extrae el contenido y lo suministra al motor de búsqueda en un proceso denominado rastreo.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
@@ -1986,7 +1965,7 @@ ms.locfileid: "44850937"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
-                        <h3>SharePoint en linea</h3>
+                        <h3>SharePoint Online</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
                         <p>El conector de SharePoint Online rastreará el contenido de cualquier dirección URL de colección de sitios de SharePoint Online.El conector recuperará sitios, listas, carpetas, elementos de lista y datos adjuntos, así como otras páginas (en formato. aspx). Este conector admite SharePoint que se ejecuta en la oferta de Microsoft O365. El conector de SharePoint 2010/2007 y el conector de SharePoint 2013 admiten el rastreo de las ofertas locales de SharePoint.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
