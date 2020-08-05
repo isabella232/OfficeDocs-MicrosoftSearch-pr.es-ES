@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Administrar conectores de Microsoft Graph para Microsoft Search.
-ms.openlocfilehash: dfbc58d7e51fca0491dc7e4452ba4312ff3dfd69
-ms.sourcegitcommit: f2323c43fc732890213223efac32006df5b92c28
+ms.openlocfilehash: adf98bccab703e2ae5ecd99b059e1426a50609c5
+ms.sourcegitcommit: 89484fec9af755240d5d1bc399501d51ee40571d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45388007"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46563893"
 ---
 # <a name="manage-your-connector-for-microsoft-search"></a>Administrar el conector para Microsoft Search
 
@@ -58,7 +58,7 @@ En cada **conector activo** de la ficha **conectores** , los errores de rastreo 
 
 Para ver los detalles específicos de un error, seleccione su código de error. Aparecerá una pantalla con los detalles del error y un vínculo. Los errores más recientes aparecen en la parte superior. Vea el ejemplo de la tabla siguiente.
 
-![Lista de conectores con un conector seleccionado y un panel de detalles que muestra la lista de errores del conector. ](media/errormonitoring2.png)
+![Lista de conectores con un conector seleccionado y un panel de detalles que muestra la lista de errores del conector.](media/errormonitoring2.png)
 
 A continuación se muestra una lista de los distintos errores que pueden aparecer en cualquier conexión. Si estas soluciones no funcionan, póngase en contacto con el soporte técnico o envíenos [sus comentarios](connectors-feedback.md).
 
@@ -78,6 +78,35 @@ Código de error | Mensaje de error | Solución
 2003 | Error de indización debido a contenido de elemento no admitido. | Consulte la documentación específica del conector para obtener más información.
 5000 | Se ha producido un error. Si el proceso sigue, póngase en contacto con el soporte técnico. |
 
+## <a name="monitor-your-index-quota-utilization"></a>Supervisar el uso de la cuota de índice 
+Durante el período de versión preliminar, cada organización tiene una cuota fija de hasta 2 millones elementos para indizar el contenido de sistemas externos en todas las conexiones.
+
+> [!NOTE]
+> La cuota de los conectores de Graph está disponible de forma gratuita durante el tiempo de la vista previa. Esto cambiará en la disponibilidad general. 
+
+La cuota de índice disponible y el consumo se mostrarán en la página de aterrizaje de los conectores.
+
+![Barra de uso de cuota de índice.](media/quota_utilization.png)
+
+La barra de utilización de la cuota indicará varios Estados en función del consumo de cuota por parte de la organización:
+
+State | Consumo de cuotas
+--- | ---
+Normal | 1-69%
+Alto | 70-89%
+Crítico | 90%-99%
+Full | 100 %
+
+El número de elementos indizados también se mostrará con cada conexión. El número de elementos indizados por cada conexión contribuye a la cuota total disponible para la organización.
+
+Cuando se supere la cuota del índice en su organización, todas las conexiones activas se verán afectadas y esas conexiones dejarán de recopilar contenido. Para solucionarlo, puede hacer lo siguiente:
+
+* Identificar las conexiones que tienen demasiado contenido en recopilación y actualizarlas para indizar menos elementos para dejar espacio para la cuota. Para actualizar la conexión, debe eliminar y crear una nueva conexión con un nuevo filtro de recopilación que ofrezca menos elementos.
+
+* Eliminar de forma permanente una o más conexiones
+
+* Póngase en contacto con Microsoft si necesita aumentar el límite de cuota de índice de la organización.
+
 ## <a name="preview-limitations"></a>Limitaciones de la vista previa
 
 * Al **publicar** un conector creado por Microsoft, la conexión puede tardar unos minutos en crearse. Durante este tiempo, la conexión muestra su estado como pendiente. Además, no se actualiza automáticamente, por lo que debe actualizarse manualmente.
@@ -85,3 +114,5 @@ Código de error | Mensaje de error | Solución
 * El [centro de administración de Microsoft 365](https://admin.microsoft.com) no permite ver y editar el **esquema de búsqueda** una vez que se ha publicado una conexión. Para editar el esquema de búsqueda, elimine la conexión y, a continuación, cree una nueva.
 
 * Al administrar la **programación de actualización**de la conexión, se muestra el número de elementos que se sincronizan durante cada sesión. Sin embargo, el historial de sincronización no está disponible.
+
+* Cuando la utilización de la cuota de su organización alcanza límites críticos o superiores, **no** recibirá notificaciones mediante el centro de mensajes.  Compruebe periódicamente la página de administración de conectores para asegurarse de que las conexiones configuradas no han superado los límites de cuota totales de la organización.
