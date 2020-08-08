@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9e8c9323-4ff9-42dd-8052-2bc9e0d6d0e7
 description: Obtenga información acerca de los métodos y procesos que le ayudarán a implementar correctamente Microsoft Search en su organización
-ms.openlocfilehash: 4c40013297b8b7a91e589137e70716bd8e4fd326
-ms.sourcegitcommit: f4cb37fdf85b895337caee827fb72b5b7fcaa8ad
+ms.openlocfilehash: 76079dd2db378185a999acf9cc49cd04a7f97bbe
+ms.sourcegitcommit: b3738f5ab02bfba9dedf099e035f3850607be480
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39995009"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46591521"
 ---
 # <a name="user-adoption-guide"></a>Guía de adopción del usuario
 
@@ -36,10 +36,10 @@ La tabla muestra la jerarquía del equipo y lo que contribuye cada persona.
   
 |**Rol**|**Cargo**|**Departamento**|
 |:-----|:-----|:-----|
-|Patrocinador Ejecutivo  <br/> |Comprenda la visión y el valor de alto nivel de Microsoft Search para su organización.  <br/> Proporcionar soporte de liderazgo al equipo de TI/empresa.  <br/> Asignar recursos.  <br/> Comunicarse directamente con los empleados.  <br/> |Liderazgo ejecutivo  <br/> |
-|Propietario de la empresa  <br/> |Identificar los escenarios de producto y de usuario.  <br/> Determinar las métricas correctas para los departamentos y la organización.  <br/> |Cualquiera  <br/> |
+|Patrocinador ejecutivo  <br/> |Comprenda la visión y el valor de alto nivel de Microsoft Search para su organización.  <br/> Proporcionar soporte de liderazgo al equipo de TI/empresa.  <br/> Asignar recursos.  <br/> Comunicarse directamente con los empleados.  <br/> |Liderazgo ejecutivo  <br/> |
+|Propietario de empresa  <br/> |Identificar los escenarios de producto y de usuario.  <br/> Determinar las métricas correctas para los departamentos y la organización.  <br/> |Cualquiera  <br/> |
 |Equipo de administración de cambios  <br/> |Asegúrese de que el valor del producto es fácil de entender.  <br/> Cree un plan para la implementación.  <br/> |TI  <br/> |
-|Campeones  <br/> |Distribuya el producto a los colegas y a los equipos.  <br/> |Any (personal)  <br/> |
+|Expertos:  <br/> |Distribuya el producto a los colegas y a los equipos.  <br/> |Any (personal)  <br/> |
 |Administrador de búsqueda  <br/> |Identificar a los miembros principales del equipo de adopción del usuario.  <br/> Administrar Microsoft Search, incluida la apariencia de la experiencia y la administración continuada.  <br/> Impulsar las discusiones para mostrar el valor de Microsoft Search.  <br/> |TI  <br/> |
 |Editors  <br/> |Cree contenido en el centro de [Administración](https://admin.microsoft.com)de Microsoft 365.  <br/> |TI/any  <br/> |
    
@@ -77,7 +77,7 @@ Para ayudarle a cumplir los objetivos de distribución y mostrar un impacto posi
     
 ## <a name="stage-3-readiness"></a>Fase 3: preparación
 
-Dedicar tiempo a prepararse para el lanzamiento de Microsoft Search tendrá como resultado un impacto positivo para su organización. Microsoft proporciona un <a href="https://resources.techcommunity.microsoft.com/microsoft-search-in-bing-adoption-kit/">Kit de adopción</a> que contiene instrucciones de planeación, anuncios de correo electrónico personalizables, plantillas de encuestas, presentaciones ejecutivas y mucho más. También hay un <a href="https://resources.techcommunity.microsoft.com/microsoft-search/#adoption">centro de recursos de Microsoft Search</a> donde los implementadores de TI pueden encontrar otros recursos de aprendizaje y adopción diseñados para ayudar a que el lanzamiento de Microsoft Search sea correcto.
+Dedicar tiempo a prepararse para el lanzamiento de Microsoft Search tendrá como resultado un impacto positivo para su organización. Microsoft proporciona un <a href="https://go.microsoft.com/fwlink/?linkid=2114710">Kit de adopción</a> que contiene una plantilla de correo electrónico de anuncio, contenido ligero y visual creado para compartir en los sitios de comunicación internos y una presentación de aprendizaje. También hay un <a href="https://resources.techcommunity.microsoft.com/microsoft-search/#adoption">centro de recursos de Microsoft Search</a> donde puede encontrar otros recursos de aprendizaje y adopción diseñados para ayudar a que el lanzamiento de Microsoft Search sea correcto.
   
 ### <a name="product-and-content-readiness"></a>Preparación de productos y contenido
   

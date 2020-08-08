@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Respuestas de crear y actualizar acrónimos en Microsoft Search
-ms.openlocfilehash: bbdd27b00be323db8d80994fe9ff6ab7fac17416
-ms.sourcegitcommit: b5142052ed17cd430b4c193b67d8f3d90d94ba6e
+ms.openlocfilehash: 68e62884898e3aa081fc32438ad9a80068092738
+ms.sourcegitcommit: b3738f5ab02bfba9dedf099e035f3850607be480
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45143869"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46591512"
 ---
 # <a name="manage-acronyms-answers-in-microsoft-search"></a>La administración de acrónimos responde en Microsoft Search
 
@@ -27,7 +27,7 @@ Las organizaciones no siempre tienen una referencia única para su terminología
 
 ## <a name="what-users-experience"></a>Qué experiencia tienen los usuarios
 
-Microsoft Search los usuarios pueden obtener definiciones con acrónimos en [Bing](https://Bing.com) y [SharePoint](https://products.office.com/sharepoint/collaboration). En el cuadro de **búsqueda** , los usuarios escriben consultas como estos ejemplos:
+Microsoft Search los usuarios pueden obtener definiciones con acrónimos en [Bing](https://Bing.com), [SharePoint](https://products.office.com/sharepoint/collaboration)y [Office 365](https://Office.com). En el cuadro de **búsqueda** , los usuarios escriben consultas como estos ejemplos:
 
 - *Qué es* DNN
 - *Definir* DNN
@@ -108,7 +108,7 @@ Microsoft Search se asegura de que solo los usuarios con acceso y permisos a un 
 
 **P: ¿Cómo responden los usuarios que desencadenan acrónimos?**
 
-**A: para**obtener respuestas de acrónimo, los usuarios deben escribir patrones de consulta específicos en un cuadro de **búsqueda** de [Bing](https://bing.com) o de [SharePoint](https://products.office.com/sharepoint/collaboration) . Actualmente, las respuestas de acrónimo no están disponibles en [Office 365](https://Office.com).
+**A: para**obtener respuestas de acrónimos, los usuarios deben escribir patrones de consulta específicos en un cuadro de **búsqueda** de [Bing](https://bing.com), [SharePoint](https://products.office.com/sharepoint/collaboration)o [Office 365](https://Office.com) .
 
 **P: ¿Cuánto tiempo tardan los acrónimos extraídos en aparecer después de recibir o enviar un nuevo correo electrónico o documento?**
 
@@ -126,7 +126,3 @@ Microsoft Search se asegura de que solo los usuarios con acceso y permisos a un 
 
 **A: para**desactivar la presentación de acrónimos extraídos en los resultados de la búsqueda, cree un vale de soporte al cliente siguiendo las instrucciones en [contacto soporte técnico for Business Products](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?redirectSourcePath=%252f%252farticle%252fContact-Office-365-for-business-support-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b&view=o365-worldwide&tabs=online#BKMK_call_support).
 Después de crear un vale de soporte técnico, tarda hasta 48 horas en acrónimos extraídos para dejar de aparecer en los resultados de la búsqueda.
-
-**P: ¿Cuándo veo las respuestas de acrónimos en [Office 365](https://Office.com)?**
-
-**A**: los acrónimos respuestas en Office 365 forman parte de nuestro mapa de ruta del producto, pero actualmente no podemos proporcionar una fecha o un período de tiempo.
