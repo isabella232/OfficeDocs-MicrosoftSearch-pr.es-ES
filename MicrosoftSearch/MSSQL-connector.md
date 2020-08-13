@@ -12,21 +12,35 @@ search.appverid:
 - MET150
 - MOE150
 description: Configure Microsoft SQL Server o el conector de Azure SQL para Microsoft Search.
-ms.openlocfilehash: e664a9a6e389531f8b5735673150839a1b106ce1
-ms.sourcegitcommit: 68cd28a84df120473270f27e4eb62de9eae455f9
+ms.openlocfilehash: 55c2e86697d2159bf93bc950c47a37630739dba9
+ms.sourcegitcommit: dd082bf862414604e32d1a768e7c155c2d757f51
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44850902"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46657017"
 ---
 # <a name="azure-sql-and-microsoft-sql-server-connectors"></a>Conectores de Azure SQL y Microsoft SQL Server
 
 Con Microsoft SQL Server o Azure SQL Connector, su organización puede detectar e indizar datos de una base de datos de SQL Server local o de una base de datos hospedada en su instancia de SQL de Azure en la nube. El conector indiza el contenido especificado en Microsoft Search. Para mantener el índice actualizado con datos de origen, admite los rastreos completos e incrementales periódicos. Con estos conectores de SQL, también puede restringir el acceso a los resultados de búsqueda para determinados usuarios.
 
-Este artículo está destinado a los administradores de Microsoft 365 o a cualquiera que configure, ejecute y supervise un conector de Microsoft SQL Server. Se explica cómo configurar las capacidades del conector y el conector, las limitaciones y las técnicas de solución de problemas.
+Este artículo está destinado a los administradores de Microsoft 365 o a cualquier usuario que configure, ejecute y supervise Microsoft SQL Server o Azure SQL Connector. Se explica cómo configurar las capacidades del conector y el conector, las limitaciones y las técnicas de solución de problemas. 
 
 ## <a name="install-a-data-gateway-required-for-on-premises-microsoft-sql-server-connector-only"></a>Instalar una puerta de enlace de datos (necesario solo para el conector de Microsoft SQL Server local)
 Para obtener acceso a los datos de terceros, debe instalar y configurar una puerta de enlace de Microsoft Power BI. Consulte [instalar una puerta de enlace local](https://docs.microsoft.com/data-integration/gateway/service-gateway-install) para obtener más información.  
+
+## <a name="register-an-app"></a>Registrar una aplicación
+Para Azure SQL Connector, debe registrar una aplicación en Azure Active Directory para permitir que la aplicación de Microsoft Search obtenga acceso a los datos de indización. Para obtener más información sobre cómo registrar una aplicación, consulte la documentación de Microsoft Graph sobre cómo [registrar una aplicación](https://docs.microsoft.com/graph/auth-register-app-v2). 
+
+Una vez finalizado el registro de la aplicación y teniendo en cuenta el nombre de la aplicación, el identificador de la aplicación (cliente) y el identificador de inquilino, debe [generar un nuevo secreto de cliente](https://docs.microsoft.com/azure/healthcare-apis/register-confidential-azure-ad-client-app#application-secret). El secreto de cliente solo se mostrará una vez. No olvide tener en cuenta & almacenar el secreto de cliente de forma segura. Use el identificador de cliente y el secreto de cliente al configurar una nueva conexión en Microsoft Search. 
+
+Para agregar la aplicación registrada a la base de datos SQL de Azure, debe:
+ - Inicie sesión en su Azure SQL DB
+ - Abrir una nueva ventana de consulta
+ - Cree un nuevo usuario mediante la ejecución del comando ' crear usuario [nombre de la aplicación] desde el proveedor externo '
+ - Agregue un usuario a la función ejecutando el comando "ejec sp_addrolemember" db_datareader ", [nombre de la aplicación]" o "modificar rol db_datareader agregar miembro [nombre de la aplicación]"
+
+>[!NOTE]
+>Para revocar el acceso a cualquier aplicación registrada en Azure Active Directory, consulte la documentación de Azure sobre [Cómo quitar una aplicación registrada](https://docs.microsoft.com/azure/active-directory/develop/quickstart-remove-app).
 
 ## <a name="connect-to-a-data-source"></a>Conectarse a un origen de datos
 Para conectar el conector de Microsoft SQL Server a un origen de datos, debe configurar el servidor de base de datos que desea rastrear y la puerta de enlace local. A continuación, puede conectarse a la base de datos con el método de autenticación necesario.
@@ -59,7 +73,22 @@ A continuación se describe el uso de cada una de las columnas de LCA en la cons
 * **DeniedUsers**: especifica la lista de usuarios que **no** tienen acceso a los resultados de la búsqueda. En el siguiente ejemplo, los usuarios john@contoso.com y keith@contoso.com no tienen acceso a record with OrderId = 13, mientras que todos los demás tienen acceso a este registro. 
 * **DeniedGroups**: especifica el grupo de usuarios que **no** tienen acceso a los resultados de la búsqueda. En el ejemplo siguiente, los grupos engg-team@contoso.com y pm-team@contoso.com no tienen acceso al registro con OrderId = 15, mientras que todos los demás tienen acceso a este registro.  
 
-![](media/MSSQL-ACL1.png)
+![Datos de ejemplo que muestran los OrderTable y AclTable con propiedades de ejemplo](media/MSSQL-ACL1.png)
+
+### <a name="supported-data-types"></a>Tipos de datos admitidos
+En la tabla siguiente se resumen los tipos de datos de SQL que son compatibles con los conectores de SQL de MS SQL y Azure. La tabla también resume el tipo de datos de indización para el tipo de datos de SQL compatible. Para obtener más información sobre los conectores de Microsoft Graph compatibles con los tipos de datos para la indización, consulte la documentación sobre los [tipos de recursos Property](https://docs.microsoft.com/graph/api/resources/property?view=graph-rest-beta#properties). 
+
+| Categoría | Tipo de datos de origen | Tipo de datos de indización |
+| ------------ | ------------ | ------------ |
+| Fecha y hora | date <br> datetime <br> datetime2 <br> smalldatetime | datetime |
+| Numérica exacta | BIGINT <br> int <br> smallint <br> tinyint | Int64 |
+| Numérica exacta | bit | boolean |
+| Numérico aproximado | float <br> realista | double |
+| Cadena de caracteres | Char <br> VARCHAR <br> text | cadena |
+| Cadenas de caracteres Unicode | nchar <br> nvarchar <br> n | string |
+| Otros tipos de datos | identificador | string |
+
+Para cualquier otro tipo de datos que actualmente no se admite directamente, la columna debe convertirse explícitamente en un tipo de datos admitido.
 
 ### <a name="watermark-required"></a>Marca de agua (obligatorio)
 Para evitar la sobrecarga de la base de datos, el conector procesa por lotes y reanuda las consultas de rastreo completo con una columna de marca de agua de rastreo completo. Mediante el valor de la columna marca de agua, se recopilan todos los lotes subsiguientes y la consulta se reanuda desde el último punto de control. Básicamente, se trata de un mecanismo para controlar la actualización de datos de rastreos completos.
@@ -70,9 +99,9 @@ Cree fragmentos de código de consulta para las marcas de agua como se muestra e
 
 En la configuración que se muestra en la imagen siguiente, `CreatedDateTime` es la columna marca de agua seleccionada. Para recuperar el primer lote de filas, especifique el tipo de datos de la columna marca de agua. En este caso, el tipo de datos es `DateTime` .
 
-![](media/MSSQL-watermark.png)
+![Configuración de columna de marca de agua](media/MSSQL-watermark.png)
 
-La primera consulta obtiene la **primera cantidad de** filas usando: "CreatedDateTime > 1 de enero de 1753 00:00:00" (valor mínimo del tipo de datos DateTime). Una vez que se obtiene el primer lote, el valor más alto de `CreatedDateTime` devuelto en el lote se guarda como punto de control si las filas se clasifican en orden ascendente. Un ejemplo es 1 de marzo de 2019 03:00:00. A continuación, se obtiene el siguiente lote de **N** filas con "CreatedDateTime > 1 de marzo de 2019 03:00:00" en la consulta.
+La primera consulta recupera el primer **N** número de filas usando: "CreatedDateTime > 1 de enero de 1753 00:00:00" (valor mín. de tipo de datos DateTime). Una vez que se obtiene el primer lote, el valor más alto de `CreatedDateTime` devuelto en el lote se guarda como punto de control si las filas se clasifican en orden ascendente. Un ejemplo es 1 de marzo de 2019 03:00:00. A continuación, se obtiene el siguiente lote de **N** filas con "CreatedDateTime > 1 de marzo de 2019 03:00:00" en la consulta.
 
 ### <a name="skipping-soft-deleted-rows-optional"></a>Omitir filas eliminadas temporalmente (opcional)
 Para excluir filas eliminadas temporalmente de la base de datos que se va a indizar, especifique el nombre y el valor de la columna de eliminación temporal que indica la fila que se va a eliminar.
@@ -86,10 +115,10 @@ Se espera que cada una de las columnas de ACL sea una columna de varios valores.
  
 Se admiten los siguientes tipos de identificador para usar como ACL: 
 * **Nombre principal de usuario (UPN)**: un nombre principal de usuario (UPN) es el nombre de un usuario del sistema en un formato de dirección de correo electrónico. Un UPN (por ejemplo: john.doe@domain.com) consta del nombre de usuario (nombre de inicio de sesión), el separador (el símbolo @) y el nombre de dominio (sufijo UPN). 
-* **Identificador de Azure Active Directory (AAD)**: en AAD, cada usuario o grupo tiene un identificador de objeto que tiene un aspecto similar a ' e0d3ad3d-0000-1111-2222-3c5f5c52ab9b ' 
-* **Identificador de seguridad de Active Directory (ad)**: en una configuración de ad local, todos los usuarios y grupos tienen un identificador de seguridad único e inmutable con un aspecto similar a-1-5-21-3878594291-2115959936-132693609-65242 ".
+* **Identificador de Azure Active Directory (AAD)**: en Azure ad, cada usuario o grupo tiene un identificador de objeto que tiene un aspecto similar a ' e0d3ad3d-0000-1111-2222-3c5f5c52ab9b ' 
+* **Identificador de seguridad de Active Directory (ad)**: en una configuración de ad local, todos los usuarios y grupos tienen un identificador de seguridad único e inmutable que tiene un aspecto parecido a-1-5-21-3878594291-2115959936-132693609-65242.
 
-![](media/MSSQL-ACL2.png)
+![Configuración de permisos de búsqueda para configurar listas de control de acceso](media/MSSQL-ACL2.png)
 
 ## <a name="incremental-crawl-optional"></a>Rastreo incremental (opcional)
 En este paso opcional, proporcione una consulta SQL para ejecutar un rastreo incremental de la base de datos. Con esta consulta, SQL Connector determina los cambios realizados en los datos desde el último rastreo incremental. Como en el rastreo completo, seleccione todas las columnas que desea que sean **consultables**, que se puedan **Buscar**o que se puedan **recuperar**. Especifique el mismo conjunto de columnas de ACL que especificó en la consulta de rastreo completo.
