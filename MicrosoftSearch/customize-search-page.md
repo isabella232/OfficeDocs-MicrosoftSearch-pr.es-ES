@@ -1,7 +1,7 @@
 ---
 title: Personalización de la página de búsqueda de Microsoft
-ms.author: jypal6
-author: jypal
+ms.author: jypal
+author: jypal6
 manager: jeffkizn
 ms.audience: Admin
 ms.topic: article
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Agregar presentaciones verticales de búsqueda y personalizar los resultados de la búsqueda
-ms.openlocfilehash: 9bc0448c1105c26b0e083316db04887327d8db41
-ms.sourcegitcommit: f2323c43fc732890213223efac32006df5b92c28
+ms.openlocfilehash: f9ecaa0c7aaaf75b40ed87db45f6ec4921488212
+ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45387989"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422986"
 ---
 # <a name="customize-the-search-results-page"></a>Personalización de la página de resultados de búsqueda
 
@@ -59,7 +59,7 @@ Puede usar un conjunto limitado de [lenguaje de consulta de palabras clave (KQL)
 
 Para crear la vertical en Microsoft Search en [SharePoint](https://sharepoint.com/) Home, [Office](https://office.com)o [Bing](https://bing.com), siga estos pasos:
 
-1. En el centro de [Administración](https://admin.microsoft.com)de Microsoft 365, vaya a **configuración**de las   >  **Microsoft Search**   >  **Customization**  >  [**presentaciones verticales**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/verticals)de personalización de Microsoft Search.
+1. En el [centro de administración de Microsoft 365](https://admin.microsoft.com), vaya a [**verticales**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/verticals).
 1. Seleccione **Agregar** para empezar.  
 
 ### <a name="create-a-vertical-at-the-site-level"></a>Crear un vertical en el nivel de sitio
@@ -88,7 +88,7 @@ Después de iniciar el asistente, se le guiará por los pasos para definir el no
   
 ### <a name="create-a-result-type-at-the-organization-level"></a>Crear un tipo de resultado en el nivel de organización
 
-1. En el [centro de administración](https://admin.microsoft.com), vaya a **configuración**de los tipos de  >  **Microsoft Search**  >  **resultado personalizaciones**de Microsoft Search  >  [**Result types**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes).
+1. En el [centro de administración de Microsoft 365](https://admin.microsoft.com), vaya a [**tipos de resultados**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes).
 1. Para agregar un **tipo de resultado**, seleccione **Agregar**. Para editar un tipo de resultado, seleccione el tipo de resultado en la lista correspondiente.
 
 ### <a name="create-a-results-type-at-the-site-level"></a>Crear un tipo de resultados en el nivel de sitio
@@ -97,7 +97,7 @@ Después de iniciar el asistente, se le guiará por los pasos para definir el no
 1. Seleccione **información del sitio** y, a continuación, **ver toda la configuración del sitio**.
 1. Busque la sección de Microsoft Search y, a continuación, seleccione **configurar Microsoft Search para esta colección de sitios**.
 1. En el panel de navegación, vaya a **experiencia personalizada**y seleccione la pestaña **tipo de resultado** .
-2. Para agregar un tipo de resultado, seleccione **Agregar**.  O bien, para editar un tipo de resultado, seleccione el tipo de resultado en la lista.
+1. Para agregar un tipo de resultado, seleccione **Agregar**.  O bien, para editar un tipo de resultado, seleccione el tipo de resultado en la lista.
 
 ### <a name="view-the-vertical-after-its-enabled"></a>Ver la vertical después de que esté habilitada
 
@@ -107,7 +107,7 @@ Después de habilitar el vertical, puede tardar un rato antes de poder verlo. Si
 
 Esta es una lista de problemas comunes que puede encontrarse y acciones para corregirlos.
 
-|Error  |Acción  |
+|Error  |Action  |
 |---------|---------|
 | Aparece el mensaje de error "se ha producido un problema" en la vertical. | Tanto los tipos de resultados como los verticales son necesarios para completar la configuración. Asegúrese de que ha creado ambos para el mismo origen de contenido. |
 | No veo el diseño de los resultados, aunque creé uno. | Tarda unos minutos porque esta configuración suele almacenarse en caché. Espere unos minutos y vuelva a intentarlo.        |

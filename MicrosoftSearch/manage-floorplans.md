@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: La característica de planos de planta de Microsoft Search ayuda a los usuarios a encontrar personas, oficinas y otras amenities en un edificio.
-ms.openlocfilehash: 95941e57946f49de3a0558dc2d2c59b999151b37
-ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
+ms.openlocfilehash: c1a3c30f98408a6d98f34c41f4132bcca0bd316e
+ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44996116"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422923"
 ---
 # <a name="manage-floor-plans"></a>Administrar planos de planta
 
@@ -51,7 +51,7 @@ Consulte la sección [p + f](#frequently-asked-questions) para obtener informaci
 
 La ubicación de la oficina de un usuario es una combinación de un código de edificio y una etiqueta de sala. Por ejemplo, si el código de edificio es *2* y la etiqueta de sala es *1173*, la ubicación de la Oficina sería *2/1173*.
 
-Agregar o actualizar ubicaciones de oficina para cada usuario de la organización. Puede cambiar la ubicación de la oficina en el perfil de usuario en el [centro de administración](https://admin.microsoft.com) de Microsoft 365 o puede cambiar en su Active Directory local para sincronizar con Azure Active Directory. *PhysicalDeliveryOfficeName* es el campo que se usa para la ubicación de la oficina. Si las etiquetas de salón no incluyen números de planta, consulte las preguntas más frecuentes para obtener sugerencias.
+Agregar o actualizar ubicaciones de oficina para cada usuario de la organización. Puede cambiar la ubicación de la oficina en el perfil de usuario en el [centro de administración de Microsoft 365](https://admin.microsoft.com) o puede cambiar en su Active Directory local para sincronizar con Azure Active Directory. *PhysicalDeliveryOfficeName* es el campo que se usa para la ubicación de la oficina. Si las etiquetas de salón no incluyen números de planta, consulte las preguntas más frecuentes para obtener sugerencias.
 
 En este ejemplo, la oficina de Allan está en el salón 1173 en el piso 1 del edificio 2.
 ![floorplans-userlestview.png](media/floorplans-userlistview.png)
@@ -67,7 +67,7 @@ Use **Microsoft Search** para buscar un usuario y comprobar que la ubicación de
 
 ### <a name="step-5-add-building-locations"></a>Paso 5: agregar ubicaciones de edificio
 
-Planos de planta usa [ubicaciones](manage-locations.md) para definir los edificios. En el centro de [Administración](https://admin.microsoft.com)de Microsoft 365, vaya a **configuración**de las  >  ubicaciones de respuestas de**Microsoft Search**  >  **Answers**  >  [**Locations**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/locations)y, a continuación, seleccione **Agregar**. Escriba el nombre, la dirección y las palabras clave del edificio. Agregue tantos edificios como necesite.
+Planos de planta usa [ubicaciones](manage-locations.md) para definir los edificios. En el [centro de administración de Microsoft 365](https://admin.microsoft.com), vaya a [**ubicaciones**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/locations)y, después, seleccione **Agregar**. Escriba el nombre, la dirección y las palabras clave del edificio. Agregue tantos edificios como necesite.
 
 ![floorplans-locations.png](media/floorplans-locations.png)
 
@@ -77,13 +77,13 @@ Para obtener más información acerca de las ubicaciones, consulte [Manage locat
 
 Antes de poder usar planos de planta, las ubicaciones de oficina deben estar indizadas. Se trata de una operación de una sola vez que puede tardar hasta 48 horas en completarse. El tiempo total dependerá del tamaño de la organización.
 
-En el [centro de administración](https://admin.microsoft.com), vaya a **configuración**de los  >  planes de planta de respuestas de**Microsoft Search**  >  **Answers**  >  [**Floor plans**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/floorplans)y, a continuación, seleccione **Introducción**. Si no ve este aviso, este paso ya se ha completado para su organización
+En el [centro de administración](https://admin.microsoft.com), vaya a planes de [**planta**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/floorplans)y, a continuación **, seleccione introducción**. Si no ve este aviso, este paso ya se ha completado para su organización
 
 ![floorplans_hydrationstep.png](media/floorplans_hydrationstep.png)
 
 ### <a name="step-7-upload-floor-plans"></a>Paso 7: cargar planes de planta
 
-1. En el [centro de administración](https://admin.microsoft.com), vaya a **configuración**de los  >  planes de planta de respuestas de**Microsoft Search**  >  **Answers**  >  [**Floor plans**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/floorplans).
+1. En el [centro de administración](https://admin.microsoft.com), vaya a [**planes de planta**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/floorplans).
 2. Seleccione un edificio en la lista desplegable y seleccione **siguiente**. Si el edificio no aparece en la lista, vuelva y [agregue ubicaciones de creación](#step-5-add-building-locations).
 3. Seleccione **cargar archivos**y, a continuación, elija el plano de planta que quiera cargar.
 4. Una vez completada la carga, debe especificar el número de planta que se representa en el archivo del plano de planta. Después, seleccione **Siguiente**.
@@ -115,7 +115,7 @@ Para actualizar un plano de planta existente, seleccione el plano de planta que 
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
-|**Paso**|**Mensaje de error**|**Tipo**|**Action**|
+|**Paso**|**Mensaje de error**|**Tipo**|**Acción**|
 |:-----|:-----|:-----|:-----|
 |Cargar planos de planta|No se puede leer CC_1. dwg. Vuelva a cargar o eliminar el plano de planta.|Error|Intente cargar el archivo de nuevo. Si eso no funciona, elimine el archivo y vuelva a intentarlo.|
 |Cargar planos de planta|Hay dos archivos denominados CC_1. dwg. Elimine uno de ellos o vuelva a cargarlo con otro nombre.|Error|Si el nombre de archivo no es correcto, agregue el nombre de archivo único agregando información de suelos o alas y, a continuación, vuelva a cargar el archivo. Si agregó por accidente el mismo archivo dos veces, simplemente elimínelo.|
@@ -124,7 +124,7 @@ Para actualizar un plano de planta existente, seleccione el plano de planta que 
 |Cargar planos de planta|No se pudieron leer los números o las etiquetas del salón en el archivo DWG. Elimine este archivo.|Advertencia|Compruebe el archivo DWG para asegurarse de que se incluyen los datos y, a continuación, elimine el archivo y vuelva a intentarlo.|
 |Vincular ubicaciones de oficina|No se encontraron ubicaciones de Office en Azure Active Directory. Agregue datos de ubicación a Azure Active Directory antes de configurar los planes de planta.|Error|[Actualizar ubicaciones de Office en perfiles de usuario](#step-3-update-office-locations-on-user-profiles) |
 
-## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
+## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 
 **P:** ¿Cómo puedo ver y editar los archivos DWG?
 
@@ -148,17 +148,17 @@ Para actualizar un plano de planta existente, seleccione el plano de planta que 
 <!-- markdownlint-disable no-inline-html -->
 |Tipos de etiquetas de salón|Floor|Room|Etiqueta de texto de ejemplo|Ubicación de la oficina (edificio código/etiqueta de texto)|
 |:-----|:-----|:-----|:-----|:-----|
-|Tiene piso y número de sala|1 |173|1173|2/1173|
+|Tiene piso y número de sala|1|173|1173|2/1173|
 || 21|45|21045|2/21045|
 ||veintitrés|100.000|de 23 a 100 k|2/23-100 k|
-||1 |G06-07|1G06-07|2/1G06-07|
-||2 |1.024A|02.1024 un|2/02.1024 una|
-||2 |1.024A|02.1024 un|2/02.1024 una|
-||2 |105,01|2105,01|2/2105.01|
+||1|G06-07|1G06-07|2/1G06-07|
+||segundo|1.024A|02.1024 un|2/02.1024 una|
+||segundo|1.024A|02.1024 un|2/02.1024 una|
+||segundo|105,01|2105,01|2/2105.01|
 |Tiene el código de construcción, el piso y el número de sala|comprendi|X-11-M-12|2-0-X-11-M-12|2/2 -0-X-11-M-12<br/>2-0-X-11-M-12|
-||2 |128A|22128A|2/22128A<br/>22128A|
-||1 |B2-11|21-B2-11|2/21-B2-11<br/>21-B2-11|
-||2 |45|SC2045|SC/SC2045<br/>SC2045|
+||segundo|128A|22128A|2/22128A<br/>22128A|
+||1|B2-11|21-B2-11|2/21-B2-11<br/>21-B2-11|
+||segundo|45|SC2045|SC/SC2045<br/>SC2045|
 
 **P:** ¿Puedo usar un archivo DWG que no incluya números de planta?
 

@@ -1,8 +1,8 @@
 ---
 title: Conector de recurso compartido de archivos para Microsoft Search
-ms.author: v-pamcn
-author: TrishaMc1
-manager: mnirkhe
+ms.author: monaray
+author: monaray97
+manager: jameslau
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de recursos compartidos de archivos para Microsoft Search.
-ms.openlocfilehash: 2349ad753508d5f19a70648d9cbf1df495b27108
-ms.sourcegitcommit: 7eda9b621def0659d7e7bc8b989f8adc929cce93
+ms.openlocfilehash: d497e60d7d13749b0ee3cc80a134061ac70407d8
+ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44861098"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422977"
 ---
 # <a name="file-share-connector"></a>Conector de uso compartido de archivos
 

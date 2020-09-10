@@ -1,7 +1,7 @@
 ---
 title: Vista previa de conectores
-ms.author: mounika.narayanan
-author: monaray
+ms.author: monaray
+author: monaray97
 manager: shohara
 ms.audience: Admin
 ms.topic: article
@@ -12,16 +12,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenga información sobre la vista previa de conectores de Microsoft Graph para Microsoft Search.
-ms.openlocfilehash: 4bcd8360957be69bc701e8b356cd222de32bfc5f
-ms.sourcegitcommit: 64eea81f8c1db9ee955013462a7b51612fb7d0b7
+ms.openlocfilehash: 81d169074a316b6ab07f47156e0f057e50c12e3e
+ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44604387"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422896"
 ---
 # <a name="microsoft-graph-connectors-preview"></a>Vista previa de conectores de Microsoft Graph
 
-Los conectores de Microsoft Graph y las API de Microsoft Search (consulta e índice) están actualmente en estado de versión preliminar. Para obtener acceso a la funcionalidad de los conectores, debe activar la opción de lanzamiento de destino en su espacio empresarial. Se trata de una vista previa temprana y no hay garantía de nivel de servicio. Animamos a los clientes a probar la funcionalidad de los conectores y a proporcionar comentarios. No se recomienda usar conectores para fines de producción durante el período de versión preliminar.
+Los conectores de las API de Búsqueda de Microsoft (consulta e índice) y Microsoft Graph están actualmente en estado de vista previa. Para obtener acceso a la funcionalidad de los conectores, debe activar la opción de lanzamiento de destino en su espacio empresarial. Se trata de una vista previa temprana y no hay garantía de nivel de servicio. Animamos a los clientes a probar la funcionalidad de los conectores y a proporcionar comentarios. No se recomienda usar conectores para fines de producción durante el período de versión preliminar.
 
 ## <a name="set-up-targeted-release"></a>Configurar versión de destino
 

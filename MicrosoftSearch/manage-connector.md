@@ -1,7 +1,7 @@
 ---
 title: Administrar conectores de Microsoft Graph para Microsoft Search
-ms.author: mounika.narayanan
-author: monaray
+ms.author: monaray
+author: monaray97
 manager: mnirkhe
 ms.audience: Admin
 ms.topic: article
@@ -12,13 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Administrar conectores de Microsoft Graph para Microsoft Search.
-ms.openlocfilehash: adf98bccab703e2ae5ecd99b059e1426a50609c5
-ms.sourcegitcommit: 89484fec9af755240d5d1bc399501d51ee40571d
+ms.openlocfilehash: f836d3efc6e52028f2b38c5131fa369f1c9e630f
+ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46563893"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422941"
 ---
+<!-- markdownlint-disable no-inline-html -->
 # <a name="manage-your-connector-for-microsoft-search"></a>Administrar el conector para Microsoft Search
 
 Para obtener acceso a los conectores y administrarlos, debe estar designado como administrador de búsqueda de su espacio empresarial. Póngase en contacto con el administrador de inquilinos para que le proporcione el rol de administrador de búsqueda.
@@ -78,11 +79,12 @@ Código de error | Mensaje de error | Solución
 2003 | Error de indización debido a contenido de elemento no admitido. | Consulte la documentación específica del conector para obtener más información.
 5000 | Se ha producido un error. Si el proceso sigue, póngase en contacto con el soporte técnico. |
 
-## <a name="monitor-your-index-quota-utilization"></a>Supervisar el uso de la cuota de índice 
+## <a name="monitor-your-index-quota-utilization"></a>Supervisar el uso de la cuota de índice
+
 Durante el período de versión preliminar, cada organización tiene una cuota fija de hasta 2 millones elementos para indizar el contenido de sistemas externos en todas las conexiones.
 
 > [!NOTE]
-> La cuota de los conectores de Graph está disponible de forma gratuita durante el tiempo de la vista previa. Esto cambiará en la disponibilidad general. 
+> La cuota de los conectores de Graph está disponible de forma gratuita durante el tiempo de la vista previa. Esto cambiará en la disponibilidad general.
 
 La cuota de índice disponible y el consumo se mostrarán en la página de aterrizaje de los conectores.
 
@@ -90,7 +92,7 @@ La cuota de índice disponible y el consumo se mostrarán en la página de aterr
 
 La barra de utilización de la cuota indicará varios Estados en función del consumo de cuota por parte de la organización:
 
-State | Consumo de cuotas
+Estado | Consumo de cuotas
 --- | ---
 Normal | 1-69%
 Alto | 70-89%

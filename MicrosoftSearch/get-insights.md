@@ -13,20 +13,20 @@ search.appverid:
 - MOE150
 ms.assetid: ebce7fdc-e89b-473c-8131-67e659bb3f73
 description: Analizar métricas y administrar contenido desde el panel de información de Microsoft Search
-ms.openlocfilehash: 230c1cdec9c1f6e94adf7123bc9a3ad048dee892
-ms.sourcegitcommit: 6b1c6a4e502d95b42a030a963f9452c387d8a5cd
+ms.openlocfilehash: a107be18900f1b68270e5afbeb0966eea04d656f
+ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2020
-ms.locfileid: "43571009"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422995"
 ---
 # <a name="microsoft-search-insights-dashboard-reports"></a>Informes del panel de información de Microsoft Search
 
 Puede usar el panel de información de Microsoft Search para administrar los datos de [Bing](https://Bing.com) para sus respuestas publicadas. Esto es tan solo uno de los pasos necesarios para que el [contenido sea fácil de encontrar](make-content-easy-to-find.md) para los usuarios.
 
-La primera vez que se dirige a Microsoft Search en el [centro de administración](https://admin.microsoft.com)de 365 de Microsoft, se escribe en el panel de información.
+La primera vez que se dirige a Microsoft Search en el [centro de administración de 365](https://admin.microsoft.com)de Microsoft, se escribe en el panel de información.
 
-![Insights-Dashboard. png](media/Insights-dashboard.png)
+![Insights-dashboard.png](media/Insights-dashboard.png)
 
 Los siguientes informes están disponibles en el panel de información.
 

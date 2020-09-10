@@ -1,7 +1,7 @@
 ---
 title: Configurar el conector creado por Microsoft para Microsoft Search
-ms.author: mounika.narayanan
-author: monaray
+ms.author: monaray
+author: monaray97
 manager: jameslau
 ms.audience: Admin
 ms.topic: article
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector creado por Microsoft para Microsoft Search
-ms.openlocfilehash: 30c60e94e8e633bce90bbc1984eee35d3ceda771
-ms.sourcegitcommit: f2323c43fc732890213223efac32006df5b92c28
+ms.openlocfilehash: 19a0c21911a9c5410e13a36f0bcc694af4a5c41a
+ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45387977"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422860"
 ---
 <!-- markdownlint-disable no-trailing-punctuation -->
 

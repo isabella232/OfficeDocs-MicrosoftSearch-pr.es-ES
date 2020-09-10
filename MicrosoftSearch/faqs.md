@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenga respuestas a las preguntas más frecuentes acerca de la búsqueda empresarial y Microsoft Search
-ms.openlocfilehash: 1acf4b5c4b3e771072ea67f4d807454723352c3f
-ms.sourcegitcommit: c22e8c3dcc53857da677db98a1a2b7d5ca2c6170
+ms.openlocfilehash: c4b0d888e7765cf965832c252a79bdcf8aa5f6cf
+ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41721763"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422968"
 ---
 <!-- markdownlint-disable no-trailing-punctuation -->
 # <a name="frequently-asked-questions"></a>Preguntas más frecuentes
@@ -31,7 +31,7 @@ Aquí tiene una lista de las preguntas más frecuentes.
 
 Sí, Microsoft Search analiza el intento de consulta de frases más grandes. Esta característica utiliza AI para aprender frases superfluas comunes que los usuarios agregan a sus consultas que no afectan su intento de búsqueda. Por ejemplo, cuando un usuario busca información *más información sobre cómo cambiar mi contraseña*, extraemos las palabras menos importantes de la consulta y del desencadenador en función de los aspectos relevantes como *Cambiar contraseña*.
   
-Esta característica no reemplaza las palabras clave definidas en el [centro de administración](https://admin.microsoft.com)de Microsoft 365.
+Esta característica no reemplaza las palabras clave definidas en el [centro de administración de Microsoft 365](https://admin.microsoft.com).
   
 ## <a name="can-you-search-for-files-on-premises"></a>¿Puedo buscar archivos locales?
 
