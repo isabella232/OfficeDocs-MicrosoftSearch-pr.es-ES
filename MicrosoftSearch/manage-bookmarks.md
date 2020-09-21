@@ -13,18 +13,18 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Crear y actualizar marcadores y formas de editar en masa los resultados de marcadores para Microsoft Search
-ms.openlocfilehash: 2c0b42e4be1307aa45e4cab3f5c923a7808375e4
-ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
+ms.openlocfilehash: eb65121b53ab110b91880a65a5146d868f3a7405
+ms.sourcegitcommit: d88226f9c3a99540a591dc0a26408bb9960cf39a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422878"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48134171"
 ---
 # <a name="manage-bookmarks"></a>Administrar marcadores
 
-Puede crear un marcador en unos pocos pasos. Cada marcador incluye un título, una dirección URL y un conjunto de palabras clave que lo desencadenan. También puede Agregar categorías a un marcador que se puede usar para ordenar y filtrar en el portal de administración. Un marcador puede contener varias palabras clave y distintos marcadores pueden compartir la misma palabra clave, pero no se pueden compartir las palabras clave reservadas. Al crear o modificar un marcador, el índice de búsqueda se actualiza inmediatamente y el marcador está inmediatamente disponible para los usuarios.
+Puede crear un marcador en unos pocos pasos. Cada marcador incluye un título, una dirección URL y un conjunto de palabras clave que lo desencadenan. También puede Agregar categorías a un marcador que se puede usar para ordenar y filtrar en el portal de administración. Un marcador puede tener varias palabras clave y los marcadores pueden compartir la misma palabra clave, pero la palabra clave Reserved no se puede compartir. Cuando se crea o modifica un marcador, el índice de búsqueda se actualiza inmediatamente y el marcador está disponible para los usuarios inmediatamente.
 
-Si su organización ha promovido resultados configurados en SharePoint, puede importar los resultados promocionados a **Microsoft Search** y hacer que el contenido importado esté disponible para los usuarios. Esta es una forma sencilla de rellenar rápidamente los resultados de búsqueda tan pronto como **Búsqueda de Microsoft** esté configurado y hacerlo más eficaz para los usuarios. Le recomendamos que use los resultados promocionados de SharePoint como referencia para comprender cómo nombrar y crear resultados de búsqueda relevantes.
+Si su organización configura los resultados promocionados en SharePoint, puede importar los resultados promocionados en **Microsoft Search** y hacer que el contenido importado esté disponible para los usuarios. Esta es una forma sencilla de rellenar rápidamente los resultados de búsqueda tan pronto como **Búsqueda de Microsoft** esté configurado y hacerlo más eficaz para los usuarios. Se recomienda usar los resultados promocionados de SharePoint como referencia para comprender cómo nombrar y crear resultados de búsqueda relevantes.
 
 ## <a name="add-or-edit-a-single-bookmark"></a>Agregar o modificar un marcador único
 
@@ -36,7 +36,7 @@ Para modificar un marcador, seleccione el marcador en la lista de marcadores rel
 
 ## <a name="add-or-edit-bookmark-using-browser-extensions"></a>Agregar o editar el marcador mediante las extensiones del navegador
 
-Los administradores de búsqueda pueden crear fácilmente búsquedas de contenido mediante las extensiones del navegador. Instale la extensión del explorador y, a continuación, vaya al sitio que desee agregar como marcador y agréguelo como marcador.
+Los administradores de búsqueda pueden crear fácilmente búsquedas de contenido mediante las extensiones del navegador. Instale la extensión del explorador, vaya al sitio que desea agregar como marcador y agregue el marcador.
 
 Actualmente, las extensiones del navegador están disponibles para Edge y Chrome.
 
@@ -45,9 +45,7 @@ Actualmente, las extensiones del navegador están disponibles para Edge y Chrome
 
 ## <a name="bulk-add-or-edit-bookmarks"></a>Agregar o editar marcadores en bloque
 
-El administrador de búsqueda puede usar las características de Importar o Exportar para crear o editar marcadores en bloque. Esta es una característica muy útil cuando un administrador desea agregar o editar un gran número de marcadores.
-
-Use la característica importar o exportar para:
+Use la característica de importación o exportación para crear o editar en masa marcadores. Permite agregar o editar un gran número de marcadores de forma rápida y fácil. Úselo para:
 
 - Agregar marcadores en bloque: introduzca la información en el archivo de plantilla del marcador y, a continuación, impórtelo.
 - Editar marcadores en bloque: exporte los marcadores a un archivo CSV; a continuación, edite la información de los marcadores en el archivo CSV exportado e importe el archivo CSV actualizado.
@@ -64,14 +62,14 @@ Descargue el archivo de plantilla para obtener una lista de la información y lo
 1. En el panel **Importar marcadores**, haga clic en **Examinar** y, a continuación, en el archivo CSV que desea importar.
 1. Seleccione **Importar**.
 
-Estos son algunos puntos importantes a tener en cuenta en relación con el archivo de plantilla:
+Estos son algunos puntos importantes sobre el archivo de plantilla:
 
-- Nunca modifique los datos de los campos: *Id*, *última modificación* y *modificado por*
-- Si incluye el *Id* de un marcador, este se reemplazará con la información del archivo de importación.
-- Si ya existe un marcador con el mismo título o dirección URL, el marcador se actualizará con la información del archivo de importación.
+- No modificar nunca los datos de estos campos: *ID*, *última modificación*y *última modificación por*
+- Si incluye el *identificador* de un marcador existente, se reemplazará con la información del archivo de importación.
+- En el caso de los marcadores existentes con el mismo título o dirección URL, el marcador se actualizará con información en el archivo de importación.
 - No todos los campos del archivo de plantilla son necesarios y hay campos obligatorios que varían según el estado del marcador.
-- En función del campo *Estado*, los marcadores se guardarán como borradores, sugeridos o programados, o se publicarán automáticamente.
-- Para los socios que administran varias organizaciones, puede exportar sus marcadores de una organización e importarlos en otro. Sin embargo, debe eliminar los datos de la columna *Id* antes de la importación.
+- Según el campo de *Estado* , los marcadores se guardarán como borrador, sugerido, programado, o se publicarán automáticamente.
+- Para los socios que administran varias organizaciones, puede exportar sus marcadores de una organización e importarlos en otro. Sin embargo, debe quitar los datos de la columna *ID* antes de importar.
 
 ### <a name="prevent-import-errors"></a>Evitar errores de importación
 
@@ -81,23 +79,23 @@ Para evitar errores, asegúrese de que el archivo de importación tiene el forma
 
 - Incluye todas la fila de encabezado y todas las columnas que había en la plantilla de importación
 - El orden de las columnas es el mismo que en la plantilla de importación
-- Todas las columnas tienen valores, excepto las tres que pueden estar vacías: *Id*, *Última modificación* y *Modificado por*
-- La columna *Estado* no está vacía, puesto que esta información es necesaria
+- Todas las columnas tienen valores, excepto los tres que pueden estar vacíos: *ID*, *Last Modified*y *Last Modified by*
+- La columna *Estado* no está vacía; se trata de información necesaria.
 
-Para evitar errores de duplicación de marcador a marcador, siga estos procedimientos recomendados:
+Para evitar errores de duplicación de marcadores a marcadores:
 
-- No use direcciones URL duplicadas para marcadores diferentes. Si una dirección URL ya está asignada a otro marcador y se está agregando de nuevo desde un archivo de importación, se producirá un error. Esto también se aplica a las direcciones URL duplicadas para otros tipos de respuestas.
-- Use la columna *identificador de marcador* al actualizar los marcadores existentes. Puede actualizar cualquier otra propiedad de un marcador existente, como palabra clave o descripción, pero debe asegurarse de que el *identificador del marcador* se encuentra en la columna correspondiente del archivo de importación. Si el *identificador de marcador* está presente, el servicio no lo considerará una adición nueva y no se procesará como un error.
+- No use direcciones URL duplicadas para marcadores diferentes. Si una dirección URL está asignada a otro marcador e intenta agregarla de nuevo desde un archivo de importación, recibirá un error. Esto también se aplica a las direcciones URL duplicadas para otros tipos de respuestas.
+- Al actualizar los marcadores existentes, use la columna *identificador de marcador* . Puede actualizar cualquier otra propiedad de un marcador existente, como palabra clave o descripción, pero debe asegurarse de que el *identificador del marcador* se encuentra en la columna correspondiente del archivo de importación. Si el *identificador de marcador* está presente, no se tratará como nueva adición y no se procesará como un error.
 
 ## <a name="power-apps"></a>PowerApps
 
-Ayude a los usuarios a realizar tareas, como marcar las fechas de las vacaciones o registrar informes de gastos, añadiendo PowerApps existentes a los marcadores.
+Ayude a los usuarios a completar tareas, como especificar el tiempo de vacaciones o los gastos de informes, agregando las aplicaciones Power App existentes a sus marcadores.
 
 ### <a name="power-apps-explained"></a>Explicación de Power apps
 
-Power apps es un servicio que le permite crear aplicaciones empresariales que se ejecutan en un explorador o en un teléfono o tableta sin una experiencia de codificación necesaria. Las PowerApps funcionan en cualquier explorador y en cualquier dispositivo y se agregan en menos de un minuto. Para obtener más información sobre PowerApps, consulte:
+Power apps es un servicio que le permite crear aplicaciones empresariales que se ejecutan en un explorador o en un teléfono o tableta sin una experiencia de codificación necesaria. Las aplicaciones de energía funcionan en cualquier explorador y en cualquier dispositivo y tardan menos de un minuto en agregarse. Para obtener más información sobre las aplicaciones de energía, consulte:
 
-- [Aprendizaje guiado](https://docs.microsoft.com/learn/browse/?products=powerapps)
+- [Aprendizaje guiado](https://docs.microsoft.com/learn/browse/?terms=power%20apps)
 - [Documentación](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid)
 - [Página principal de Power apps](https://make.preview.powerapps.com/environments/839eace6-59ab-4243-97ec-a5b8fcc104e4/home)
 
@@ -105,8 +103,7 @@ Power apps es un servicio que le permite crear aplicaciones empresariales que se
 
 1. Busque el [identificador de aplicación de la aplicación de energía](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) que quiera agregar.
 1. En el [centro de administración de Microsoft 365](https://admin.microsoft.com), vaya a [**marcadores**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/bookmarks).
-1. Agregue un marcador o busque un marcador al que desee agregar una **PowerApp**.
-1. En **Configuración del marcador**, seleccione **Power App** y, a continuación, **Agregar una Power App**.
-1. Escriba o pegue el **App ID**.
-    El ancho y el alto se ajustan automáticamente. Los marcadores admite la orientación vertical y horizontal, pero, de momento, no se puede cambiar el tamaño. La vista previa del marcador muestra una PowerApp totalmente funcional para facilitar la prueba.
+1. Agregue un marcador o busque un marcador existente al que quiera agregar una **aplicación Power** .
+1. En **configuración de marcadores**, seleccione **Power App**y escriba o pegue el **identificador de aplicación**.
+    El alto y el ancho se ajustan automáticamente en función de la orientación que se seleccionó cuando se creó la aplicación de energía. Los marcadores admiten orientaciones verticales y horizontales. La vista previa del marcador muestra una PowerApp totalmente funcional para facilitar la prueba.
 1. Seleccione **Publicar** o **Guardar como borrador**.
