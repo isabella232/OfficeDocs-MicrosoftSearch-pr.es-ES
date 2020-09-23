@@ -2,7 +2,7 @@
 title: Conector de MediaWiki para Microsoft Search
 ms.author: monaray
 author: monaray97
-manager: jameslau
+manager: mnirkhe
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de MediaWiki para Microsoft Search
-ms.openlocfilehash: b9c8d80ae5cb8e86b0f6341bfe9231b709569e7a
-ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
+ms.openlocfilehash: d8aa4a99c353a80f7d3dcf768d8287200b17fdc6
+ms.sourcegitcommit: be0c64845477127d73ee24dc727e4583ced3d0e6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47423022"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48206954"
 ---
 # <a name="mediawiki-connector"></a>Conector MediaWiki
 

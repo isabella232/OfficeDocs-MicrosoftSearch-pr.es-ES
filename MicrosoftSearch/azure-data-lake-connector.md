@@ -2,7 +2,7 @@
 title: Azure Data Lake Connector para Microsoft Search
 ms.author: monaray
 author: monaray97
-manager: jameslau
+manager: shohara
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de Azure Data Lake Storage-limpieza para Microsoft Search
-ms.openlocfilehash: 788b7106c15cd9773c86f46f91ba0e91e38028f3
-ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
+ms.openlocfilehash: 01fea60e91af5ba321ceb00578ea2b0745c9c394
+ms.sourcegitcommit: be0c64845477127d73ee24dc727e4583ced3d0e6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422932"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48206936"
 ---
 # <a name="azure-data-lake-storage-gen2-connector"></a>Conector de Azure Data Lake Storage-reconexión
 
@@ -29,7 +29,12 @@ Este artículo está destinado a los administradores de [Microsoft 365](https://
 ### <a name="primary-storage-connection-string"></a>Cadena de conexión de almacenamiento principal 
 En la pantalla **autenticación y configuración** , especifique la cadena de conexión de almacenamiento principal. Esa cadena es necesaria para permitir el acceso a su cuenta de almacenamiento. Para encontrar la cadena de conexión, vaya a [Azure portal](https://ms.portal.azure.com/#home) y vaya a la sección **claves** de la cuenta de almacenamiento de Azure correspondiente. Copie y pegue la cadena de conexión en el campo correspondiente de la pantalla.
 
-Si no prefiere proporcionar el **AccountKey** (un parámetro en la cadena de conexión de almacenamiento principal), tendrá que conceder acceso de lectura a nuestro servicio de conectores de Graph. Navegue a la pestaña **control de acceso** de la cuenta de Azure Storage y siga las instrucciones para conceder acceso a la siguiente aplicación:
+Si no prefiere proporcionar el **AccountKey** (un parámetro en la cadena de conexión de almacenamiento principal), tendrá que conceder acceso a nuestro servicio de conectores de Graph para los roles siguientes. 
+* Lector de datos BLOB de almacenamiento
+* Colaborador de datos de cola de almacenamiento
+* Delegado de BLOB de almacenamiento (solo para almacenamiento jerárquico)
+
+Navegue a la pestaña **control de acceso** de la cuenta de Azure Storage y siga las instrucciones para conceder acceso a la siguiente aplicación:
 * **Identificador de la aplicación de primer fabricante:** 56c1da01-2129-48f7-9355-af6d59d42766
 * **Nombre de la aplicación de primer fabricante:** Servicio conector de Graph
 

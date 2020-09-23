@@ -1,8 +1,8 @@
 ---
 title: Conector de ServiceNow para Microsoft Search
-ms.author: monaray
-author: monaray97
-manager: jameslau
+ms.author: mnirkhe
+author: TrishaMc1
+manager: mnirkhe
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de ServiceNow para Microsoft Search
-ms.openlocfilehash: 29e8e490f114ce8537ddb973ed16ccb34f24f82f
-ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
+ms.openlocfilehash: 357722f83e7f276615d231c8d3e56016bc17ba6e
+ms.sourcegitcommit: be0c64845477127d73ee24dc727e4583ced3d0e6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422869"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48206963"
 ---
 # <a name="servicenow-connector"></a>Conector de ServiceNow
 
@@ -33,19 +33,19 @@ Normalmente, la **dirección URL** de la instancia de ServiceNow de la organizac
 
 Para autenticar y sincronizar el contenido desde ServiceNow, elija uno de los dos métodos admitidos:
 
-1. Autenticación básica
-2. OAuth (recomendado)
+ - Autenticación básica
+ - OAuth (recomendado)
 
 > [!Note]
 > Para usar OAuth para la autenticación, un administrador de ServiceNow debe aprovisionar un punto de conexión en su instancia de ServiceNow para que la aplicación de Microsoft Search pueda acceder a la instancia. Para obtener más información, consulte [crear un extremo para que los clientes accedan a la instancia](https://docs.servicenow.com/bundle/newyork-platform-administration/page/administer/security/task/t_CreateEndpointforExternalClients.html) en la documentación de ServiceNow.
 
 En la siguiente tabla se proporcionan instrucciones sobre cómo rellenar el formulario de creación de extremos:
 
-**Field** | **Descripción** | **Valor recomendado**
+Field | Descripción | Valor recomendado
 --- | --- | ---
 Nombre | Este valor único identifica la aplicación para la que requiere acceso de OAuth. | Búsqueda de Microsoft
 Identificador de cliente | IDENTIFICADOR único de solo lectura y generado automáticamente para la aplicación. La instancia usa el identificador de cliente cuando solicita un token de acceso. | N/D
-Secreto de cliente | Con esta cadena secreta compartida, la instancia de ServiceNow y autorizar las comunicaciones de Microsoft Search entre sí. | Siga los procedimientos recomendados de seguridad tratando esto como una contraseña.
+Secreto de cliente | Con esta cadena secreta compartida, la instancia de ServiceNow y las autorizaciones de Microsoft Search permiten comunicarse entre sí. | Siga los procedimientos recomendados de seguridad tratando esto como una contraseña.
 Dirección URL de redireccionamiento | Una dirección URL de devolución de llamada obligatoria a la que redirige el servidor de autorización. | https://gcs.office.com/v1.0/admin/oauth/callback
 Dirección URL del logotipo | Una dirección URL que contiene la imagen del logotipo de la aplicación. | N/D
 Activo | Active la casilla para activar el registro de aplicaciones. | Establecer en activo
