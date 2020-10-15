@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector creado por Microsoft para Microsoft Search
-ms.openlocfilehash: 19a0c21911a9c5410e13a36f0bcc694af4a5c41a
-ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
+ms.openlocfilehash: ce2515b3eaa859a8fbb00d83c4727865ab55e174
+ms.sourcegitcommit: 6aea7102c94855e9f80711c0f3d7bf5833ce8fb5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422860"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464480"
 ---
 <!-- markdownlint-disable no-trailing-punctuation -->
 
@@ -64,7 +64,17 @@ Los campos de datos establecidos por el origen de datos de terceros como propied
 
 ### <a name="manage-the-search-schema"></a>Administrar el esquema de búsqueda
 
-Los administradores pueden establecer los atributos del esquema de búsqueda para controlar la funcionalidad de búsqueda de cada propiedad de origen. Un esquema de búsqueda ayuda a determinar los resultados que se muestran en la página de resultados de búsqueda y la información que los usuarios finales pueden ver y a los que se accede.
+#### <a name="content-property"></a>Propiedad Content
+
+Puede seleccionar la propiedad de origen que es la propiedad de **contenido** (índice de texto completo del elemento) seleccionando cualquier propiedad de cadena en el menú desplegable de propiedades de **contenido** . Como alternativa, puede mantener la propiedad seleccionada predeterminada si hay una presente.
+
+Es especialmente importante que se seleccione la propiedad correcto, dado que esta propiedad se usa para la indización de texto completo del contenido, la generación de fragmentos de código de página de resultados de búsqueda, la detección de idiomas, la compatibilidad con texto y HTML, la clasificación y relevancia, y la formulación de consultas.
+
+Si selecciona una propiedad para el **contenido**, tendrá la opción de usar la propiedad generada por el sistema **ResultSnippet** al [crear el tipo de resultado](customize-results-layout.md). Esta propiedad actúa como un marcador de posición para los fragmentos de código dinámico que se generan a partir de la propiedad de **contenido** en el momento de la consulta. Si usa esta propiedad en el tipo de resultado, los fragmentos de código se generarán en los resultados de la búsqueda.
+
+#### <a name="search-schema-attributes"></a>Atributos de esquema de búsqueda
+
+Puede establecer los atributos del esquema de búsqueda para controlar la funcionalidad de búsqueda de cada propiedad de origen. Un esquema de búsqueda ayuda a determinar los resultados que se muestran en la página de resultados de búsqueda y la información que los usuarios finales pueden ver y a los que se accede.
 
 Los atributos de esquema de búsqueda incluyen **búsquedas**, **consultas**y **recuperables**. En la siguiente tabla se enumeran todos los atributos compatibles con los conectores de Microsoft Graph y se explican sus funciones.
 
@@ -78,11 +88,14 @@ Para todos los conectores, los tipos personalizados deben establecerse manualmen
 
 ![El esquema de un conector se puede personalizar agregando o quitando funciones de consulta, búsqueda y recuperación.](media/manageschema.png)
 
-Estas restricciones y recomendaciones se aplican a la configuración del esquema de búsqueda:
+#### <a name="restrictions-and-recommendations-for-search-schema-settings"></a>Restricciones y recomendaciones para la configuración del esquema de búsqueda
 
-* Para los conectores que indizan tipos personalizados, se recomienda **no** marcar el campo que contiene el contenido principal **recuperable**. Se producen problemas de rendimiento significativos cuando los resultados de búsqueda se representan con ese atributo de búsqueda. Un ejemplo es el campo de contenido de **texto** de un artículo de base de conocimiento de [ServiceNow](https://www.servicenow.com) .
+* La propiedad **Content** sólo se pueden buscar. Una vez seleccionada en la lista desplegable, esta propiedad no se puede marcar como **recuperable** o **consultable**. Se producen problemas de rendimiento significativos cuando los resultados de la búsqueda se representan con la propiedad **Content** . Un ejemplo es el campo de contenido de **texto** de un artículo de base de conocimiento de [ServiceNow](https://www.servicenow.com) .
+
 * Solo las propiedades marcadas como representables recuperables en los resultados de búsqueda y se pueden usar para crear tipos de resultado modernos (MRTs).
+
 * Solo las propiedades de cadena se pueden marcar como buscables.
+
 
 > [!Note]
 > Después de crear una conexión, **no** puede modificar el esquema. Para ello, debe eliminar la conexión y crear una nueva.
