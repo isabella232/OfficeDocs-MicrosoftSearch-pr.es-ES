@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Mediante tarjetas adaptables, cree un diseño para ver los resultados de la búsqueda personalizados
-ms.openlocfilehash: e31be1f9c1602fcd696c99d584388facee22df74
-ms.sourcegitcommit: c22e8c3dcc53857da677db98a1a2b7d5ca2c6170
+ms.openlocfilehash: 0856adfd85a921cf026cd59a8ca2c5beea2ffcf2
+ms.sourcegitcommit: 7ceefb7a96ae6886145b929791c7448c139366b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41721781"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48595277"
 ---
 <!-- markdownlint-disable no-hard-tabs -->
 # <a name="create-a-layout-to-customize-search-results"></a>Crear un diseño para personalizar los resultados de la búsqueda
@@ -176,6 +176,10 @@ Debe asignar cada campo del diseño a una propiedad de resultado o a una propied
 
 Seleccione un campo en el diseño para resaltar las variables que se deben asignar. Puede usar varias variables para un solo campo y todos los campos deben asignarse a las propiedades del resultado.
 
+### <a name="show-snippet-on-search-result"></a>Mostrar fragmento de código en los resultados de búsqueda  
+
+Los fragmentos dinámicos generados en la propiedad de **contenido** del resultado del conector se pueden mostrar en los resultados de la búsqueda. **ResultSnippet** es la propiedad del sistema que actúa como propiedad del marcador de posición para los fragmentos de código generados para cada resultado del conector. Para mostrar los fragmentos de código en el diseño de los resultados, la propiedad del sistema **ResultSnippet** debe asignarse a un campo apropiado, por ejemplo Descripción, en el diseño de resultado de la búsqueda. Los fragmentos de código generados en cada resultado también resaltan las coincidencias en el fragmento de código con el término de consulta escrito por el usuario. 
+
 ## <a name="things-to-consider"></a>Consideraciones que se deben tener en cuenta
 
 Antes de empezar, hay algunas cosas que debe hacer y algunas cosas que debe evitar para asegurarse de que los diseños se realicen correctamente.
@@ -184,16 +188,17 @@ Antes de empezar, hay algunas cosas que debe hacer y algunas cosas que debe evit
 
 - Edite una plantilla para proporcionar el vínculo del logotipo en el diseño si está usando vínculos estáticos para los logotipos y no las propiedades de los resultados.
 - Validar el diseño de los resultados de los escenarios en los que no se devuelven datos para una propiedad de resultado usada en el JSON del resultado. Use la `$when` condición para ocultar un elemento si la propiedad no contiene datos.  
-- Asegúrese de que los tipos de datos `$when` de la condición y la propiedad result coinciden. Por ejemplo, no compare `Number` con `Text` en la `$when` condición.  
+- Asegúrese de que los tipos de datos de la `$when` condición y la propiedad result coinciden. Por ejemplo, no compare `Number` con `Text` en la `$when` condición.  
 - Piense en los requisitos de tema al diseñar un diseño de resultados.  
-- Asegúrese de que el `Textblock`  elemento puede controlar el contenido dinámico. Puede usar las propiedades `wrap` del `maxLines` elemento y para este propósito.
-- Dar formato adecuado a la fecha `{DATE()}` al usar en Markdown.  
+- Asegúrese de que el `Textblock`   elemento puede controlar el contenido dinámico. Puede usar las `wrap` propiedades del `maxLines` elemento y para este propósito.
+- Dar formato adecuado a la fecha al usar `{DATE()}` en Markdown.  
 
 ### <a name="dont"></a>Incorrecto
 
 - No defina tipos de datos no válidos al enlazar valores. Para obtener más información acerca de los tipos de datos, consulte [administrar el esquema de búsqueda](https://docs.microsoft.com/sharepoint/search/manage-the-search-schema).
 - Evite recortar el resultado en la página de resultados mediante el alto máximo de la JSON del diseño de resultados. Si supera el alto máximo del diseño de los resultados, el resultado se recortará en la página de resultados.
 - No use `px` valores en las propiedades del elemento.
+- No use Markdown cuando con la propiedad **ResultSnippet** en el diseño de resultados para resaltar la coincidencia de consulta en los resultados de búsqueda. 
 
 ## <a name="resources"></a>Recursos
 
