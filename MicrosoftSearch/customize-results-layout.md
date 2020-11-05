@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Mediante tarjetas adaptables, cree un diseño para ver los resultados de la búsqueda personalizados
-ms.openlocfilehash: 0856adfd85a921cf026cd59a8ca2c5beea2ffcf2
-ms.sourcegitcommit: 7ceefb7a96ae6886145b929791c7448c139366b4
+ms.openlocfilehash: 5bd42eded291781f5122cfede3759327b5222108
+ms.sourcegitcommit: 995ce23d4e47a3456a02dba0ba7c9cd0de64528a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "48595277"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919514"
 ---
 <!-- markdownlint-disable no-hard-tabs -->
 # <a name="create-a-layout-to-customize-search-results"></a>Crear un diseño para personalizar los resultados de la búsqueda
@@ -178,7 +178,7 @@ Seleccione un campo en el diseño para resaltar las variables que se deben asign
 
 ### <a name="show-snippet-on-search-result"></a>Mostrar fragmento de código en los resultados de búsqueda  
 
-Los fragmentos dinámicos generados en la propiedad de **contenido** del resultado del conector se pueden mostrar en los resultados de la búsqueda. **ResultSnippet** es la propiedad del sistema que actúa como propiedad del marcador de posición para los fragmentos de código generados para cada resultado del conector. Para mostrar los fragmentos de código en el diseño de los resultados, la propiedad del sistema **ResultSnippet** debe asignarse a un campo apropiado, por ejemplo Descripción, en el diseño de resultado de la búsqueda. Los fragmentos de código generados en cada resultado también resaltan las coincidencias en el fragmento de código con el término de consulta escrito por el usuario. 
+Los fragmentos dinámicos generados en la propiedad de **contenido** del resultado del conector se pueden mostrar en los resultados de la búsqueda. **ResultSnippet** es la propiedad del sistema que actúa como propiedad del marcador de posición para los fragmentos de código generados para cada resultado del conector. Para mostrar los fragmentos de código en el diseño de los resultados, la propiedad del sistema **ResultSnippet** debe asignarse a un campo apropiado, por ejemplo Descripción, en el diseño de resultado de la búsqueda. Los fragmentos de código generados en cada resultado también resaltan las coincidencias en el fragmento de código con el término de consulta escrito por el usuario.
 
 ## <a name="things-to-consider"></a>Consideraciones que se deben tener en cuenta
 
@@ -198,7 +198,7 @@ Antes de empezar, hay algunas cosas que debe hacer y algunas cosas que debe evit
 - No defina tipos de datos no válidos al enlazar valores. Para obtener más información acerca de los tipos de datos, consulte [administrar el esquema de búsqueda](https://docs.microsoft.com/sharepoint/search/manage-the-search-schema).
 - Evite recortar el resultado en la página de resultados mediante el alto máximo de la JSON del diseño de resultados. Si supera el alto máximo del diseño de los resultados, el resultado se recortará en la página de resultados.
 - No use `px` valores en las propiedades del elemento.
-- No use Markdown cuando con la propiedad **ResultSnippet** en el diseño de resultados para resaltar la coincidencia de consulta en los resultados de búsqueda. 
+- No use Markdown cuando con la propiedad **ResultSnippet** en el diseño de resultados para resaltar la coincidencia de consulta en los resultados de búsqueda.
 
 ## <a name="resources"></a>Recursos
 

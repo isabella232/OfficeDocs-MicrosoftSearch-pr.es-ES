@@ -12,19 +12,19 @@ search.appverid:
 - MET150
 - MOE150
 description: Introducción a los conectores de Microsoft Graph para Microsoft Search
-ms.openlocfilehash: 2e3ca14b408ca6471c3163871c80fb24d62cff26
-ms.sourcegitcommit: be0c64845477127d73ee24dc727e4583ced3d0e6
+ms.openlocfilehash: d20c576c92c0ec2d794fc6f8fd21c829e468c086
+ms.sourcegitcommit: 995ce23d4e47a3456a02dba0ba7c9cd0de64528a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48206990"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919487"
 ---
 # <a name="overview-of-microsoft-graph-connectors"></a>Información general sobre los conectores de Microsoft Graph
 
 Microsoft Search indiza todos los datos de [microsoft 365](https://www.microsoft.com/microsoft-365) para permitir que los usuarios puedan buscar en ellos. Con los conectores de Microsoft Graph, la organización puede indexar datos de terceros para que aparezcan en los resultados de Búsqueda de Microsoft. Los datos de terceros pueden hospedarse localmente o en nubes públicas o privadas. Los conectores amplían los tipos de orígenes de contenido que se pueden buscar en las aplicaciones de productividad de Microsoft 365 y el más amplio ecosistema de Microsoft.
 
 > [!IMPORTANT]
-> **Renuncia de responsabilidad**: los conectores de Microsoft Graph y las API de Microsoft Search (consulta e índice) están actualmente en estado de vista previa disponible para los inquilinos de la versión de destino. Para usar conectores con Microsoft Search o crear conectores, opte por la [versión dirigida](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide). Para obtener más información acerca de la vista previa, consulte [Connector Preview Program](connectors-preview.md).
+> **Renuncia de responsabilidad** : los conectores de Microsoft Graph y las API de Microsoft Search (consulta e índice) están actualmente en estado de vista previa disponible para los inquilinos de la versión de destino. Para usar conectores con Microsoft Search o crear conectores, opte por la [versión dirigida](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide). Para obtener más información acerca de la vista previa, consulte [Connector Preview Program](connectors-preview.md).
 
 ## <a name="architecture"></a>Arquitectura
 
@@ -88,8 +88,6 @@ Una vez indizados los datos personalizados, los desarrolladores pueden [consulta
 
 ## <a name="license-requirements"></a>Requisitos de licencia
 
-Para ver los datos de los conectores de los resultados de búsqueda, los usuarios deben disponer de una de las siguientes suscripciones de Microsoft 365 o de Office 365:
+Necesita una licencia válida de Microsoft 365 o de Office 365 y suficientes conectores de gráficos para que los usuarios de la organización puedan ver los datos de los conectores en los resultados de la búsqueda.
 
-- [Microsoft 365 u Office 365 Enterprise E3 o E5](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)
-
-- [Microsoft 365 o Office 365 Education a3 o A5](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab:primaryr1)
+Para obtener más información, consulte [requisitos de licencia y precios](licensing.md).
