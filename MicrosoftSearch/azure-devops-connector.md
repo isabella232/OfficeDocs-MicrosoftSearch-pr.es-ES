@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de Azure DevOps para Microsoft Search
-ms.openlocfilehash: 1030dd2b508e5364f53f92e7c8ce8c12c040ce70
-ms.sourcegitcommit: 85d40512e8616c851da1a38c137ca0e4e8625813
+ms.openlocfilehash: a0028c3b336c2b5e3d01bb14006ee0debb4524f2
+ms.sourcegitcommit: 59435698bece013ae64ca2a68c43455ca10e3fdf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359725"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48927193"
 ---
 # <a name="azure-devops-connector"></a>Conector de Azure DevOps
 
@@ -69,15 +69,16 @@ A continuación, seleccione los campos que desea que la conexión indexe y obten
 
 ![Elegir propiedades](media/ADO_choose_properties.png)
 
-## <a name="manage-the-search-schema"></a>Administrar el esquema de búsqueda
-
-Configure la asignación del esquema de búsqueda. Puede elegir qué propiedades se pueden **consultar**, **Buscar** y **recuperar**.
-
 ## <a name="manage-search-permissions"></a>Administrar permisos de búsqueda
 
 Actualmente, el conector de Azure DevOps solo admite permisos **de búsqueda visibles para todos los usuarios**. Los datos indizados aparecerán en los resultados de la búsqueda para todos los usuarios.
 
-## <a name="set-the-refresh-schedule"></a>Establecer la programación de actualización
+## <a name="manage-search-schema"></a>Administrar el esquema de búsqueda
+
+Configure la asignación del esquema de búsqueda. Puede elegir qué propiedades se pueden **consultar** , **Buscar** y **recuperar**.
+
+
+## <a name="set-refresh-schedule"></a>Establecer programación de actualización
 
 El conector de DevOps de Azure admite programaciones de actualización para rastreos completos e incrementales. Un rastreo completo busca elementos de trabajo eliminados que se sincronizaron previamente con el índice de Microsoft Search. Se ejecuta un rastreo completo para sincronizar todos los elementos de trabajo. Para sincronizar los nuevos elementos de trabajo y las actualizaciones de los elementos de trabajo existentes, debe programar rastreos incrementales.
 

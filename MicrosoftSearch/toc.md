@@ -23,6 +23,7 @@
 ### [Sitios web de la empresa](enterprise-web-connector.md)
 ### [MediaWiki](mediawiki-connector.md)
 ### [ServiceNow](servicenow-connector.md)
+## [Licencias](licensing.md)
 ## [Comentarios](connectors-feedback.md)
 ## [Condiciones de uso](terms-of-use.md)
 # Personalizar y configurar

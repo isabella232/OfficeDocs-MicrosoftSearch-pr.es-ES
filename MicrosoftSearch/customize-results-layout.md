@@ -1,5 +1,5 @@
 ---
-title: Personalizar el diseño de los resultados de búsqueda
+title: Administre los diseños de resultados de búsqueda
 ms.author: jypal
 author: jypal6
 manager: jeffkizn
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Mediante tarjetas adaptables, cree un diseño para ver los resultados de la búsqueda personalizados
-ms.openlocfilehash: 5bd42eded291781f5122cfede3759327b5222108
-ms.sourcegitcommit: 995ce23d4e47a3456a02dba0ba7c9cd0de64528a
+ms.openlocfilehash: 425e5404c14d500f6ecd84ad449dafb05bbfd31b
+ms.sourcegitcommit: 59435698bece013ae64ca2a68c43455ca10e3fdf
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919514"
+ms.locfileid: "48927184"
 ---
 <!-- markdownlint-disable no-hard-tabs -->
 # <a name="create-a-layout-to-customize-search-results"></a>Crear un diseño para personalizar los resultados de la búsqueda
@@ -198,7 +198,7 @@ Antes de empezar, hay algunas cosas que debe hacer y algunas cosas que debe evit
 - No defina tipos de datos no válidos al enlazar valores. Para obtener más información acerca de los tipos de datos, consulte [administrar el esquema de búsqueda](https://docs.microsoft.com/sharepoint/search/manage-the-search-schema).
 - Evite recortar el resultado en la página de resultados mediante el alto máximo de la JSON del diseño de resultados. Si supera el alto máximo del diseño de los resultados, el resultado se recortará en la página de resultados.
 - No use `px` valores en las propiedades del elemento.
-- No use Markdown cuando con la propiedad **ResultSnippet** en el diseño de resultados para resaltar la coincidencia de consulta en los resultados de búsqueda.
+- No use Markdown con la propiedad **ResultSnippet** en el diseño de resultados para resaltar la coincidencia de consulta en los resultados de búsqueda.
 
 ## <a name="resources"></a>Recursos
 
