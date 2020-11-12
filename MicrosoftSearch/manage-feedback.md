@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Revisar y actuar sobre los comentarios de los usuarios en Microsoft Search
-ms.openlocfilehash: fd47403fd86be2e2fb1ba7baee7473958a8e5572
-ms.sourcegitcommit: 4b2cc0a4cd3d7cdcd8eb23a8baa9703173889a73
+ms.openlocfilehash: 332410cd29a7256cccd651c3a668fdf3eb473ba4
+ms.sourcegitcommit: 102371815e739da33d1711197cdc743ae8124baa
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48986964"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48996796"
 ---
 # <a name="managing-user-feedback"></a>Administración de comentarios de los usuarios
 
@@ -32,7 +32,7 @@ Como los usuarios de la organización usan Microsoft Search, es posible que teng
 
 ![Formulario de comentarios global](media/feedback/feedback-global-dialog.png)
 
-Los usuarios también tienen la opción de enviar su consulta y otra información de diagnóstico, junto con la categoría y los comentarios, a Microsoft. La información de diagnóstico incluirá algunos datos personales, como un identificador de usuario. [Obtenga más información](https://privacy.microsoft.com/en-US/privacystatement) sobre privacidad y cómo se protegen estos datos. Los datos de diagnóstico contienen la información más importante que Microsoft necesita para usar el elemento de comentarios para mejorar el producto.
+Los usuarios también tienen la opción de enviar su consulta y otra información de diagnóstico, junto con la categoría y los comentarios, a Microsoft. [Obtenga más información](https://privacy.microsoft.com/en-US/privacystatement) sobre privacidad y cómo se protegen estos datos. Los datos de diagnóstico contienen la información más importante que Microsoft necesita para usar el elemento de comentarios para mejorar el producto.
 
 La mayoría de los envíos de comentarios aparecen en la sección de [comentarios](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/feedback) del centro de administración de búsqueda de Microsoft. Los comentarios enviados con la categoría deseo **sugerir un vínculo interno** aparecen como un marcador sugerido en la sección [marcadores](https://admin-ignite.microsoft.com/Adminportal/Home#/MicrosoftSearch/bookmarks) y se pueden ver filtrando según el estado **sugerido** .
 
