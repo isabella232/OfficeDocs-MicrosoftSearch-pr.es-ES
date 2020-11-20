@@ -12,82 +12,96 @@ search.appverid:
 - MET150
 - MOE150
 description: Introducción a los conectores de Microsoft Graph para Microsoft Search
-ms.openlocfilehash: d20c576c92c0ec2d794fc6f8fd21c829e468c086
-ms.sourcegitcommit: 995ce23d4e47a3456a02dba0ba7c9cd0de64528a
+ms.openlocfilehash: 7388653927ca6a7af0ba64c3c592f2689780c181
+ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919487"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367527"
 ---
 # <a name="overview-of-microsoft-graph-connectors"></a>Información general sobre los conectores de Microsoft Graph
 
-Microsoft Search indiza todos los datos de [microsoft 365](https://www.microsoft.com/microsoft-365) para permitir que los usuarios puedan buscar en ellos. Con los conectores de Microsoft Graph, la organización puede indexar datos de terceros para que aparezcan en los resultados de Búsqueda de Microsoft. Los datos de terceros pueden hospedarse localmente o en nubes públicas o privadas. Los conectores amplían los tipos de orígenes de contenido que se pueden buscar en las aplicaciones de productividad de Microsoft 365 y el más amplio ecosistema de Microsoft.
+[Microsoft Search](https://docs.microsoft.com/microsoftsearch/overview-microsoft-search) indiza todos los datos de [Microsoft 365](https://www.microsoft.com/microsoft-365) para permitir que los usuarios puedan buscar en ellos. Con los conectores de Microsoft Graph, su organización puede indizar datos de terceros para que aparezcan en los resultados de la búsqueda de Microsoft. Esto amplía los tipos de orígenes de contenido que se pueden buscar en las aplicaciones de productividad de Microsoft 365 y el más amplio ecosistema de Microsoft. Los datos de terceros pueden hospedarse localmente o en nubes públicas o privadas.
 
+<!---link Microsoft Graph reference in line 19 when we have access to relevant documentation--->
+
+El resto de este artículo está pensado para ayudar a los administradores de Microsoft 365 a encontrar los recursos que están disponible para responder las siguientes preguntas:
+
+* [¿Qué orígenes de datos se pueden conectar a Microsoft Search?](#what-data-sources-can-be-connected-to-microsoft-search)
+* [¿Cómo se administran las conexiones?](#how-do-i-manage-my-connections)
+* [¿Cuáles son los requisitos de licencia y los términos de uso de los conectores de Graph?](#what-are-the-license-requirements-and-terms-of-use-for-graph-connectors)
+* [¿Cómo se personalizan y configuran los resultados de la búsqueda?](#how-do-i-customize-and-configure-search-results)
+* [¿Cómo se busca en los datos de los conectores de una aplicación personalizada?](#how-do-i-search-my-connector-data-from-a-custom-application)
+
+<!---Modify to another note that is more accurate--->
 > [!IMPORTANT]
-> **Renuncia de responsabilidad** : los conectores de Microsoft Graph y las API de Microsoft Search (consulta e índice) están actualmente en estado de vista previa disponible para los inquilinos de la versión de destino. Para usar conectores con Microsoft Search o crear conectores, opte por la [versión dirigida](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide). Para obtener más información acerca de la vista previa, consulte [Connector Preview Program](connectors-preview.md).
+> Los conectores de Microsoft Graph y las API de Microsoft Search ahora están disponibles para el público en general. Las primeras implementaciones serán a los clientes configurados para la versión dirigida. Si desea usar un conector de Graph en su espacio empresarial, los usuarios y administradores deben optar por la [versión dirigida](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide).
 
-## <a name="architecture"></a>Arquitectura
+<!---Add Value, scenario, example, and/or graphic in December updates--->
+<!---Probably remove architecture section below
+## Architecture
 
-El siguiente diagrama arquitectónico de la plataforma de Microsoft Graph muestra cómo el contenido del conector fluye a través de la indización de contenido a los resultados del usuario en los clientes de [Microsoft Search](https://docs.microsoft.com/microsoftsearch/overview-microsoft-search) . En este artículo se explica cada uno de los bloques de creación clave en el proceso de flujo de datos de los conectores de Microsoft Graph.
+The following architectural diagram of the Microsoft Graph platform shows how Graph connector content flows through content indexing to user results in [Microsoft Search](https://docs.microsoft.com/microsoftsearch/overview-microsoft-search) clients. The rest of this section explains each of the key building blocks in the diagram.
 
-![Diagrama: los conectores extraen los datos locales y basados en la nube y los indiza la API de búsqueda de Microsoft y, a continuación, el servicio de Microsoft Search entrega los resultados a los usuarios.](media/highlevel-connectors_FINAL.png)
+![Diagram: on-premises and cloud-based data is pulled by connectors and indexed by the Microsoft Search API, and then the Microsoft Search service delivers the results to users.](media/connectors-overview/highlevel-connectors.png)
+Graph connectors can pull data from cloud-based (SaaS) data sources and on-premises data stores. The above diagram shows connections to only two data sources, but you can add connections to up ten sources per tenant.
 
-La API crea una instancia de una conexión por cada origen de datos. A continuación, la API indiza y almacena los datos. Las conexiones establecidas interactúan con Microsoft Search para que los usuarios puedan obtener resultados de búsqueda.
+The Microsoft Graph Connectors API instantiates one connection per data source. Then, the API indexes and stores the data. Established connections interact with Microsoft Search, so users can get search results.
 
-Puede configurar todos los conectores creados por Microsoft en el [centro de administración](https://admin.microsoft.com)de Microsoft 365. El centro de administración simplifica la configuración del conector con una interfaz de usuario sencilla.
+You can use the Microsoft 365 [admin center](https://admin.microsoft.com) to setup and manage any of the Graph connectors by Microsoft. The admin center has a simple user interface that makes it easy to establish the connection to your data source, and monitor connection status and utilization.
 
-Para crear una **conexión** a un origen de datos, los administradores necesitan acceso autenticado a los datos y a todo el repositorio de contenido. Los datos se suministran al servicio de conector de Graph para la indización.
+***Edit paragraph below**_
+To create a _*connection** to a data source, admins need authenticated access to the data and the entire content repository. The data is fed to the graph connector service for indexing.--->
 
-## <a name="available-connectors"></a>Conectores disponibles
+## <a name="what-data-sources-can-be-connected-to-microsoft-search"></a>¿Qué orígenes de datos se pueden conectar a Microsoft Search?
 
-Actualmente hay 6 conectores creados por Microsoft y más de 100 conectores están disponibles en nuestros socios de ecosistema.
+Microsoft proporciona diez conectores de Graph y nuestros socios de ecosistemas han creado más de 100 conectores de gráficos adicionales. También puede crear su propio conector para gráficos. 
 
-Para obtener una vista previa de los conectores de uno de nuestros socios del ecosistema, póngase en contacto con ellos directamente. Para obtener más información, vea la [Galería de conectores de Microsoft Graph](connectors-gallery.md).
+### <a name="graph-connectors-by-microsoft"></a>Conectores de Graph de Microsoft
 
-También puede [crear su propio conector](https://docs.microsoft.com/graph/search-concept-overview).
+Puede conectarse a los siguientes orígenes de datos mediante conectores de Graph creados por Microsoft:
 
-### <a name="connectors-by-microsoft"></a>Conectores de Microsoft
+<!---Need to add a few links below when docs exist--->
+* [Azure Data Lake Storage Gen2](azure-data-lake-connector.md)
+* [Azure DevOps](azure-devops-connector.md)
+* SQL de Azure
+* [Sitios web de la empresa](enterprise-web-connector.md)
+* [MediaWiki](mediawiki-connector.md)
+* [Microsoft SQL Server](MSSQL-connector.md)
+* [Compartir archivos](fileshare-connector.md)
+* Oracle (versión preliminar)
+* [Salesforce (versión preliminar)](salesforce-connector.md)
+* [ServiceNow](servicenow-connector.md)
 
-La versión preliminar de conectores de Microsoft Graph incluye 6 conectores creados por Microsoft. Puede configurarlos en el [centro de administración](https://admin.microsoft.com) y obtener información sobre cómo [configurar el conector creado por Microsoft](configure-connector.md).
+La [Galería de conectores de Graph](connectors-gallery.md) contiene una breve descripción de cada uno de estos conectores de Graph. Si está listo para conectar uno de estos orígenes de datos al espacio empresarial, asegúrese de leer la [información general del programa de instalación](configure-connector.md) y los artículos de la sección Setup Connectors by Microsoft que se aplican a su origen de datos.
 
-En las secciones siguientes se proporcionan breves descripciones de estos conectores creados por Microsoft. Puede obtener más información en los artículos vinculados de cada conector.
+### <a name="graph-connectors-by-our-partners"></a>Conectores de gráficos por nuestros partners
 
-- **[Azure Data Lake Storage](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction)**. Con este conector de Microsoft Graph, los usuarios de la organización pueden buscar archivos y contenido almacenados en contenedores de blobs de Azure. El conector de Azure Data Lake Storage) también indexa las carpetas habilitadas para jerarquías en las cuentas de Azure Data Lake Storage-lectura que especifique.
-Obtenga más información sobre el [conector de Azure Data Lake Storage](azure-data-lake-connector.md).
+La [Galería de conectores de Microsoft Graph](connectors-gallery.md) incluye una breve descripción de cada uno de los conectores de gráficos creados por nuestros socios y un vínculo al sitio web de cada socio. Póngase en contacto con cada socio directamente para obtener más información.
 
-- **[Azure DevOps](https://azure.microsoft.com/services/devops)**. Con este conector de Microsoft Graph, los usuarios de la organización pueden buscar elementos de trabajo de la instancia de Azure DevOps.
-Obtenga más información sobre el [conector de Azure DevOps](azure-devops-connector.md).
+### <a name="build-your-own-graph-connector"></a>Crear su propio conector para gráficos
 
-- **[SQL de Azure](https://azure.microsoft.com/services/sql-database)**. Con este conector de Microsoft Graph, los usuarios de la organización pueden buscar datos de la base de datos SQL de Azure.
-Obtenga más información sobre [Azure SQL Connector](MSSQL-connector.md).
+Si tiene previsto crear su propio conector para gráficos, vea la información [General de la API de búsqueda de Microsoft en Microsoft Graph](https://docs.microsoft.com/graph/search-concept-overview) para obtener más información.
 
-- **Sitios web de empresa**. Con este conector de Microsoft Graph, los usuarios de la organización pueden buscar en las páginas de cualquier sitio web que no sea de SharePoint Enterprise.
-Obtenga más información sobre el [conector de sitios web de empresa](enterprise-web-connector.md).
+## <a name="how-do-i-manage-my-connections"></a>¿Cómo se administran las conexiones?
 
-- **[MediaWiki](https://www.mediawiki.org/wiki/MediaWiki)**. Con este conector de Microsoft Graph, los usuarios pueden buscar artículos de Knowledge base en sitios wiki que su organización crea con MediaWiki.
-Obtenga más información sobre el [conector de MediaWiki](mediawiki-connector.md).
+Puede administrar las conexiones desde la [pestaña conectores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/Connectors) del centro de [administración de Microsoft 365](https://admin.microsoft.com/). Para obtener más información, vea [administrar las conexiones](manage-connector.md) .
 
-- **[Microsoft SQL Server](https://www.microsoft.com/sql-server/sql-server-2017)**. Con este conector de Microsoft Graph, los usuarios de la organización pueden buscar datos en bases de datos de SQL Server locales.
-Obtenga más información sobre el [conector de Microsoft SQL Server](MSSQL-connector.md).
-
-- **[ServiceNow](https://www.servicenow.com)**. Con este conector de Microsoft Graph, los usuarios de la organización pueden buscar artículos de Knowledge base desde su instancia de ServiceNow.
-Obtenga más información sobre el [conector de ServiceNow](servicenow-connector.md).
-
-### <a name="connectors-from-our-partners"></a>Conectores de nuestros socios
-
-Hay más de 100 conectores disponibles para vista previa de nuestros socios del ecosistema. Para obtener una vista previa de los conectores de uno de nuestros socios del ecosistema, póngase en contacto con ellos directamente.
-Obtenga más información sobre conectores de nuestros socios en la [Galería de conectores de Microsoft Graph](connectors-gallery.md).
-
-### <a name="build-your-own-connector"></a>Crear su propio conector
-
-Para indizar archivos o tipos de datos personalizados, los programadores pueden crear conectores en [Microsoft Graph](https://developer.microsoft.com/graph/). Un conector es una aplicación que [crea una conexión](https://docs.microsoft.com/graph/search-index-manage-connections) e inserta elementos en el índice de búsqueda de Microsoft. Para obtener más información, vea la [información general sobre cómo ampliar la experiencia de Microsoft Search para aplicaciones en Microsoft Graph](https://docs.microsoft.com/graph/search-concept-overview).
-
-### <a name="search-results-with-your-custom-built-connector"></a>Resultados de la búsqueda con el conector personalizado
-
-Una vez indizados los datos personalizados, los desarrolladores pueden [consultar estos datos](https://docs.microsoft.com/graph/search-concept-custom-types). Puede ver los datos en cualquier aplicación. Para obtener más información, vea la [información general sobre cómo ampliar la experiencia de Microsoft Search para aplicaciones en Microsoft Graph](https://docs.microsoft.com/graph/search-concept-overview).
-
-## <a name="license-requirements"></a>Requisitos de licencia
+## <a name="what-are-the-license-requirements-and-terms-of-use-for-graph-connectors"></a>¿Cuáles son los requisitos de licencia y los términos de uso de los conectores de Graph?
 
 Necesita una licencia válida de Microsoft 365 o de Office 365 y suficientes conectores de gráficos para que los usuarios de la organización puedan ver los datos de los conectores en los resultados de la búsqueda.
 
-Para obtener más información, consulte [requisitos de licencia y precios](licensing.md).
+Para obtener más información, consulte [requisitos de licencia y precios](licensing.md) y [condiciones de uso](terms-of-use.md).
+
+## <a name="how-do-i-customize-and-configure-search-results"></a>¿Cómo se personalizan y configuran los resultados de la búsqueda?
+
+Hay varias formas de personalizar y configurar los resultados de la búsqueda. Consulte los siguientes artículos para obtener más información:
+
+* [Administrar los sectores verticales y los tipos de resultados](customize-search-page.md)
+* [Administre los diseños de resultados de búsqueda](customize-results-layout.md)
+* [Administrar clúster de resultados](result-cluster.md)
+* [Administrar filtros personalizados](custom-filters.md)
+
+## <a name="how-do-i-search-my-connector-data-from-a-custom-application"></a>¿Cómo se busca en los datos de los conectores de una aplicación personalizada?
+
+Una vez indizados los datos personalizados, los desarrolladores pueden [consultar estos datos](https://docs.microsoft.com/graph/search-concept-custom-types). Puede ver los datos en cualquier aplicación. Para obtener más información, vea la [información general de la API de búsqueda de Microsoft en Microsoft Graph](https://docs.microsoft.com/graph/search-concept-overview).

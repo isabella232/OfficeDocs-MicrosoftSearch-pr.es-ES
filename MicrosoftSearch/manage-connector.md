@@ -12,15 +12,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Administrar conectores de Microsoft Graph para Microsoft Search.
-ms.openlocfilehash: f836d3efc6e52028f2b38c5131fa369f1c9e630f
-ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
+ms.openlocfilehash: a9b3feff3a5c289fef3f5091518d074970209b9d
+ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422941"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367680"
 ---
 <!-- markdownlint-disable no-inline-html -->
-# <a name="manage-your-connector-for-microsoft-search"></a>Administrar el conector para Microsoft Search
+
+# <a name="manage-your-connections-for-microsoft-search"></a>Administrar las conexiones de Microsoft Search
 
 Para obtener acceso a los conectores y administrarlos, debe estar designado como administrador de búsqueda de su espacio empresarial. Póngase en contacto con el administrador de inquilinos para que le proporcione el rol de administrador de búsqueda.
 
@@ -33,9 +34,9 @@ Para cada tipo de conector, el [centro de administración de Microsoft 365](http
 Operación | Conector creado por Microsoft | Asociado o conector personalizado
 --- | --- | ---
 Agregar una conexión | : heavy_check_mark: (vea [configurar el conector creado por Microsoft](configure-connector.md)) | : x: (consulte a su partner o a la experiencia del administrador del conector integrado personalizado)
-Eliminar una conexión | : heavy_check_mark: | : heavy_check_mark:
+Eliminar una conexión | :heavy_check_mark: | :heavy_check_mark:
 Editar una conexión Publicada | : heavy_check_mark: nombre<br></br> : heavy_check_mark: Descripción<br></br> : heavy_check_mark: credenciales de autenticación para el origen de datos externo<br></br> : heavy_check_mark: credenciales de puerta de enlace para el origen de datos local<br></br> : heavy_check_mark: actualizar programación<br></br> | : heavy_check_mark: nombre<br></br> : heavy_check_mark: Descripción
-Edición de una conexión de borrador | : heavy_check_mark: | días
+Edición de una conexión de borrador | :heavy_check_mark: | :x:
 
 ## <a name="monitor-your-connection-status"></a>Supervisar el estado de conexión
 
@@ -50,6 +51,20 @@ Se muestran cuatro Estados en la columna **Estado** para cada conexión:
 * **Pausado**. Los administradores pausan los rastreos a través de la opción PAUSE. El siguiente rastreo se ejecuta solo cuando se reanuda de forma manual. Sin embargo, los datos de esta conexión continúan siendo aptos para la búsqueda.
 
 * **Produjo un error**. La conexión tuvo un error crítico. Este error requiere intervención manual. El administrador debe realizar las acciones adecuadas según el mensaje de error que se muestra. Los datos que se indizaron hasta que se produjo el error se pueden buscar.
+
+### <a name="view-your-last-crawl-info"></a>Ver la última información de rastreo
+
+Después de que se complete correctamente el primer rastreo incremental inicial o completo, los últimos valores de datos de rastreo se muestran en el último encabezado de rastreo en el panel de detalles. Si no había ningún último rastreo que se haya ejecutado, no verá ninguna información en el último encabezado de rastreo. Esta información sobre el último rastreo le ayudará a comprender cómo se llevó a cabo el rastreo y a llevar a cabo los pasos necesarios siempre que sea necesario.
+
+Los siguientes valores de último rastreo estarán disponibles para cada conexión:
+
+Valor | Description
+--- | ---
+Completado en | Fecha y hora en que se completó el último rastreo
+Tipo | Rastreo incremental o completo
+Duración | ¿Cuánto tiempo tardó en completarse el último rastreo?
+Operaciones correctas. | Número de elementos que se han recopilado correctamente en el último rastreo
+Errores | Número de elementos con error en el último rastreo
 
 ### <a name="monitor-errors"></a>Supervisar errores
 
@@ -81,14 +96,13 @@ Código de error | Mensaje de error | Solución
 
 ## <a name="monitor-your-index-quota-utilization"></a>Supervisar el uso de la cuota de índice
 
-Durante el período de versión preliminar, cada organización tiene una cuota fija de hasta 2 millones elementos para indizar el contenido de sistemas externos en todas las conexiones.
+La cuota de índice disponible y el consumo se muestran en la página de aterrizaje de los conectores.
 
-> [!NOTE]
-> La cuota de los conectores de Graph está disponible de forma gratuita durante el tiempo de la vista previa. Esto cambiará en la disponibilidad general.
+![Barra de uso de cuota de índice](media/quota_utilization.png)
 
-La cuota de índice disponible y el consumo se mostrarán en la página de aterrizaje de los conectores.
-
-![Barra de uso de cuota de índice.](media/quota_utilization.png)
+>[!NOTE]
+>Durante el período de versión preliminar, cada organización que pruebe los conectores de Graph recibió una cuota fija gratuita de hasta 2 millones elementos en todas las conexiones. Con los conectores de Graph a disposición general, la cuota libre expirará el 1 de febrero de 2021 para las organizaciones que han estado usando conectores de gráficos en la versión preliminar.
+>Los conectores de gráficos creados por Microsoft etiquetados como ["vista previa"](connectors-preview.md) no se incluirán en la cuota total del índice cargado para la organización. Sin embargo, se contará para el número máximo de 10 conexiones que puede configurar para su organización y el número máximo de 7 millones elementos que su organización puede indizar en todas las conexiones.
 
 La barra de utilización de la cuota indicará varios Estados en función del consumo de cuota por parte de la organización:
 
@@ -101,20 +115,30 @@ Full | 100 %
 
 El número de elementos indizados también se mostrará con cada conexión. El número de elementos indizados por cada conexión contribuye a la cuota total disponible para la organización.
 
-Cuando se supere la cuota del índice en su organización, todas las conexiones activas se verán afectadas y esas conexiones dejarán de recopilar contenido. Para solucionarlo, puede hacer lo siguiente:
+Cuando se supere la cuota del índice en su organización, todas las conexiones activas se verán afectadas y las conexiones funcionarán en estado **límite superado** . En este estado, las conexiones activas  
+
+* No podrá agregar nuevos elementos.
+
+* Podrá actualizar o eliminar los elementos existentes.
+
+Para solucionarlo, puede hacer lo siguiente:
+
+* Obtenga información sobre cómo comprar una cuota de índice para su organización en [requisitos de licencia y precios](licensing.md).
 
 * Identificar las conexiones que tienen demasiado contenido en recopilación y actualizarlas para indizar menos elementos para dejar espacio para la cuota. Para actualizar la conexión, debe eliminar y crear una nueva conexión con un nuevo filtro de recopilación que ofrezca menos elementos.
 
 * Eliminar de forma permanente una o más conexiones
 
-* Póngase en contacto con Microsoft si necesita aumentar el límite de cuota de índice de la organización.
+## <a name="limitations"></a>Limitaciones
 
-## <a name="preview-limitations"></a>Limitaciones de la vista previa
+* Al **publicar** un conector creado por Microsoft, la conexión puede tardar unos minutos en crearse. Durante este tiempo, la conexión mostrará su estado como pendiente.
 
-* Al **publicar** un conector creado por Microsoft, la conexión puede tardar unos minutos en crearse. Durante este tiempo, la conexión muestra su estado como pendiente. Además, no se actualiza automáticamente, por lo que debe actualizarse manualmente.
+* El [centro de administración de Microsoft 365](https://admin.microsoft.com) no permite editar el **esquema de búsqueda** después de que se publique una conexión. Para editar el esquema de búsqueda, elimine la conexión y, a continuación, cree una nueva.
 
-* El [centro de administración de Microsoft 365](https://admin.microsoft.com) no permite ver y editar el **esquema de búsqueda** una vez que se ha publicado una conexión. Para editar el esquema de búsqueda, elimine la conexión y, a continuación, cree una nueva.
+* El rendimiento de la recopilación se limita a unos cuatro elementos por segundo.
 
-* Al administrar la **programación de actualización**de la conexión, se muestra el número de elementos que se sincronizan durante cada sesión. Sin embargo, el historial de sincronización no está disponible.
+* No se admiten actualizaciones de esquema. Después de crear una configuración de conexión, no hay forma de actualizar el esquema. Solo puede eliminar y volver a crear la conexión.
 
-* Cuando la utilización de la cuota de su organización alcanza límites críticos o superiores, **no** recibirá notificaciones mediante el centro de mensajes.  Compruebe periódicamente la página de administración de conectores para asegurarse de que las conexiones configuradas no han superado los límites de cuota totales de la organización.
+* Hay un límite de conexiones. Cada inquilino puede crear hasta 10 conexiones.
+
+* La compatibilidad de edición para la conexión no está disponible. Una vez creada la conexión, no podrá modificarla ni cambiarla. Si necesita cambiar algún detalle, debe eliminar y volver a crear la conexión.

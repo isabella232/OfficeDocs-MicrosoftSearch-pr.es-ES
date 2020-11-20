@@ -12,21 +12,21 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de Azure DevOps para Microsoft Search
-ms.openlocfilehash: a0028c3b336c2b5e3d01bb14006ee0debb4524f2
-ms.sourcegitcommit: 59435698bece013ae64ca2a68c43455ca10e3fdf
+ms.openlocfilehash: b9c566e3e07bfca6d4d25b14915f0160f3928b15
+ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48927193"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367554"
 ---
-# <a name="azure-devops-connector"></a>Conector de Azure DevOps
+# <a name="azure-devops-connector-preview"></a>Conector de DevOps de Azure (versión preliminar)
 
 Con el conector de Azure DevOps, su organización puede indizar los elementos de trabajo en su instancia del servicio de Azure DevOps. Después de configurar el conector y el contenido de índice desde Azure DevOps, los usuarios finales pueden buscar esos elementos en Microsoft Search.
 
 Este artículo está destinado a los administradores de Microsoft 365 o a cualquiera que configure, ejecute y supervise un conector de Azure DevOps. Se explica cómo configurar las capacidades del conector y el conector, las limitaciones y las técnicas de solución de problemas.
 
 >[!IMPORTANT]
->El conector de Azure DevOps solo admite el servicio en la nube de Azure DevOps. El conector no admite Azure DevOps Server 2019, TFS 2018, TFS 2017, TFS 2015 y TFS 2013.
+>El conector de Azure DevOps solo admite el servicio en la nube de Azure DevOps. El conector no admite Azure DevOps Server 2019, TFS 2018, TFS 2017, TFS 2015 y TFS 2013. 
 
 ## <a name="connect-to-a-data-source"></a>Conectarse a un origen de datos
 
@@ -34,17 +34,17 @@ Para conectarse a la instancia de DevOps de Azure, necesita el nombre de la [org
 
 ### <a name="register-an-app"></a>Registrar una aplicación
 
-Debe registrar una aplicación en Azure DevOps para que la aplicación Microsoft Search pueda tener acceso a la instancia. Para obtener más información, consulte la documentación de Azure DevOps sobre cómo [registrar una aplicación](https://docs.microsoft.com/azure/devops/integrate/get-started/authentication/oauth?view=azure-devops#register-your-app).
+Debe registrar una aplicación en Azure DevOps para que la aplicación Microsoft Search pueda tener acceso a la instancia. Para obtener más información, consulte la documentación de Azure DevOps sobre cómo [registrar una aplicación](https://docs.microsoft.com/azure/devops/integrate/get-started/authentication/oauth?view=azure-devops#register-your-app). 
 
 La siguiente tabla proporciona instrucciones sobre cómo rellenar el formulario de registro de la aplicación:
 
- **Campos obligatorios** | **Descripción**      | **Valor recomendado**
---- | --- | ---
-| Nombre de la compañía         | Este es el nombre de su compañía. | Use un valor apropiado   |
-| Nombre de la aplicación     | Este valor único identifica la aplicación que está autorizando.    | Búsqueda de Microsoft     |
-| Sitio web de la aplicación  | Este campo obligatorio es la dirección URL de la aplicación que solicitará acceso a la instancia de Azure DevOps durante la instalación del conector.  | <https://gcs.office.com/>                |
-| Dirección URL de devolución de llamada de autorización        | Una dirección URL de devolución de llamada obligatoria a la que redirige el servidor de autorización. | <https://gcs.office.com/v1.0/admin/oauth/callback>|
-| Ámbitos autorizados | Este es el ámbito de acceso para la aplicación | Seleccione los siguientes ámbitos: identidad (lectura), elementos de trabajo (lectura), grupos de variables (lectura), proyecto y equipo (lectura), gráfico (lectura)|
+ **Campos obligatorios** | **Descripción**      | **Valor recomendado** 
+--- | --- | --- 
+| Nombre de la compañía         | Este es el nombre de su compañía. | Use un valor apropiado   | 
+| Nombre de la aplicación     | Este valor único identifica la aplicación que está autorizando.    | Búsqueda de Microsoft     | 
+| Sitio web de la aplicación  | Este campo obligatorio es la dirección URL de la aplicación que solicitará acceso a la instancia de Azure DevOps durante la instalación del conector.  | <https://gcs.office.com/>                | 
+| Dirección URL de devolución de llamada de autorización        | Una dirección URL de devolución de llamada obligatoria a la que redirige el servidor de autorización. | <https://gcs.office.com/v1.0/admin/oauth/callback>| 
+| Ámbitos autorizados | Este es el ámbito de acceso para la aplicación | Seleccione los siguientes ámbitos: identidad (lectura), elementos de trabajo (lectura), grupos de variables (lectura), proyecto y equipo (lectura), gráfico (lectura)| 
 
 Al registrar la aplicación con los detalles anteriores, obtendrá el identificador de la **aplicación** y el **secreto de cliente** que se usará para configurar el conector.
 
@@ -71,15 +71,18 @@ A continuación, seleccione los campos que desea que la conexión indexe y obten
 
 ## <a name="manage-search-permissions"></a>Administrar permisos de búsqueda
 
-Actualmente, el conector de Azure DevOps solo admite permisos **de búsqueda visibles para todos los usuarios**. Los datos indizados aparecerán en los resultados de la búsqueda para todos los usuarios.
+El conector de Azure DevOps admite permisos de búsqueda visibles  **solo para personas con acceso a este origen de datos** o **todos**. Si elige **solo personas con acceso a este origen de datos**, los datos indizados aparecerán en los resultados de la búsqueda para los usuarios que tengan acceso a ellos en función de los permisos de los usuarios o grupos en el nivel de la ruta de acceso a la organización, proyecto o área en Azure DevOps. Si elige **todos**, los datos indizados aparecerán en los resultados de la búsqueda para todos los usuarios.
 
-## <a name="manage-search-schema"></a>Administrar el esquema de búsqueda
+## <a name="assign-property-labels"></a>Asignar etiquetas de propiedad
 
-Configure la asignación del esquema de búsqueda. Puede elegir qué propiedades se pueden **consultar** , **Buscar** y **recuperar**.
+Puede asignar una propiedad de origen a cada etiqueta eligiendo en un menú de opciones. Aunque este paso no es obligatorio, tener algunas etiquetas de propiedades mejorará la relevancia de la búsqueda y garantizará resultados de búsqueda más precisos para los usuarios finales.
 
+## <a name="manage-schema"></a>Administrar esquema
 
-## <a name="set-refresh-schedule"></a>Establecer programación de actualización
+En la pantalla **administrar esquema** , tiene la opción de cambiar los atributos de esquema (**consultable**, **búsquedas**, **recuperables** y **refinables**) asociados con las propiedades, agregar alias opcionales y elegir la propiedad de **contenido** .
+
+## <a name="set-the-refresh-schedule"></a>Establecer la programación de actualización
 
 El conector de DevOps de Azure admite programaciones de actualización para rastreos completos e incrementales. Un rastreo completo busca elementos de trabajo eliminados que se sincronizaron previamente con el índice de Microsoft Search. Se ejecuta un rastreo completo para sincronizar todos los elementos de trabajo. Para sincronizar los nuevos elementos de trabajo y las actualizaciones de los elementos de trabajo existentes, debe programar rastreos incrementales.
 
-La programación recomendada es una hora para un rastreo incremental y un día para un rastreo completo.
+La programación recomendada es una hora para un rastreo incremental y un día para un rastreo completo. 

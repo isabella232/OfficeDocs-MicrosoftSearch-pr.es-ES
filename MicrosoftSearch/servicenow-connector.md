@@ -12,16 +12,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de ServiceNow para Microsoft Search
-ms.openlocfilehash: b60583e61687b13c7fd631cd1c4a9f6d663724e8
-ms.sourcegitcommit: 59435698bece013ae64ca2a68c43455ca10e3fdf
+ms.openlocfilehash: 5bcc0870df7c2ad418bb2ae29e9d4d999dcbdf3f
+ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48927202"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367599"
 ---
 # <a name="servicenow-connector"></a>Conector de ServiceNow
 
-Con el conector de ServiceNow, su organización puede indizar artículos de Knowledge base que son visibles para todos los usuarios de la organización. Después de configurar el conector y el contenido del índice desde ServiceNow, los usuarios finales pueden buscar dichos artículos desde cualquier cliente de Microsoft Search.  
+Con el conector de ServiceNow, su organización puede indizar artículos de Knowledge base que son visibles para todos los usuarios o restringidos con permisos de criterios de usuario dentro de la organización. Después de configurar el conector y el contenido del índice desde ServiceNow, los usuarios finales pueden buscar dichos artículos desde cualquier cliente de Microsoft Search.  
 
 Este artículo está destinado a los administradores de Microsoft 365 o a cualquiera que configure, ejecute y supervise un conector de ServiceNow. Se explica cómo configurar las capacidades del conector y el conector, las limitaciones y las técnicas de solución de problemas.
 
@@ -30,15 +30,30 @@ Obtenga información acerca de cómo tener acceso a los conectores creados por M
 ## <a name="connection-settings"></a>Configuración de conexión
 Para conectarse a los datos de ServiceNow, necesita la URL de **instancia de servicenow** de su organización, las credenciales de esta cuenta y el identificador de cliente y el secreto de cliente para la autenticación OAuth.  
 
-Normalmente, la **dirección URL** de la instancia de ServiceNow de la organización es similar a **https:// &lt; -Organization-Domain>. Service-Now.com**. Junto con esta dirección URL, necesitará una cuenta para configurar la conexión a ServiceNow, así como para permitir que Microsoft Search actualice los artículos periódicamente desde ServiceNow en función de la programación de actualización. La cuenta debe tener el rol <em>conocimiento</em> . [Obtenga información sobre cómo asignar roles para cuentas de ServiceNow](https://docs.servicenow.com/bundle/paris-platform-administration/page/administer/users-and-groups/task/t_AssignARoleToAUser.html).
+Normalmente, la **dirección URL** de la instancia de ServiceNow de la organización es similar a **https:// &lt; -Organization-Domain>. Service-Now.com**. Junto con esta dirección URL, necesitará una cuenta para configurar la conexión a ServiceNow, así como para permitir que Microsoft Search actualice los artículos periódicamente desde ServiceNow en función de la programación de actualización. La cuenta debe tener como mínimo el rol de <em>conocimiento</em> . [Obtenga información sobre cómo asignar roles para cuentas de ServiceNow](https://docs.servicenow.com/bundle/paris-platform-administration/page/administer/users-and-groups/task/t_AssignARoleToAUser.html).
 
-Para autenticar y sincronizar el contenido desde ServiceNow, elija **uno de los tres** métodos admitidos:
+>[!NOTE]
+>Si desea rastrear las identidades de usuario y de grupo para respetar los permisos de acceso de los artículos de conocimientos en los resultados de búsqueda de Microsoft, la cuenta debe tener acceso para leer los siguientes registros de tabla en ServiceNow:
+>* kb_uc_can_contribute_mtom
+>* kb_uc_can_read_mtom
+>* kb_uc_cannot_read_mtom
+>* kb_uc_cannot_contribute_mtom
+>* sys_user
+>* sys_user_has_role
+>* sys_user_grmember
+>* user_criteria
+>* kb_knowledge_base  
+> Puede crear y asignar un rol para la cuenta que use para conectarse con Microsoft Search. El acceso de lectura a las tablas se puede asignar a esa función. Para obtener información sobre cómo establecer el acceso de lectura a los registros de la tabla, vea [proteger registros de tabla](https://developer.servicenow.com/dev.do#!/learn/learning-plans/orlando/new_to_servicenow/app_store_learnv2_securingapps_orlando_creating_and_editing_access_controls).
+
+Para autenticar y sincronizar el contenido desde ServiceNow, elija **uno de los tres** métodos admitidos: 
 1. Autenticación básica 
 2. ServiceNow OAuth (recomendado)
 3. OpenID Connect de Azure AD
 
 #### <a name="basic-authentication"></a>Autenticación básica
-Escriba el nombre de usuario y la contraseña de la cuenta de ServiceNow con el rol de <em>conocimiento</em> para autenticarse en la instancia.
+
+Escriba el nombre de usuario y la contraseña de la cuenta de ServiceNow con el rol de **conocimiento** para autenticarse en la instancia.
+
 #### <a name="servicenow-oauth"></a>OAuth de ServiceNow
 
 Para usar ServiceNow OAuth para la autenticación, un administrador de ServiceNow debe aprovisionar un extremo en su instancia de ServiceNow, de modo que la aplicación de Microsoft Search pueda acceder a la instancia. Para obtener más información, consulte [crear un extremo para que los clientes accedan a la instancia](https://docs.servicenow.com/bundle/newyork-platform-administration/page/administer/security/task/t_CreateEndpointforExternalClients.html) en la documentación de ServiceNow.
@@ -56,7 +71,7 @@ Activo | Active la casilla para activar el registro de aplicaciones. | Establece
 Duración del token de actualización | Número de segundos que un token de actualización es válido. De forma predeterminada, los tokens de actualización expiran en 100 días (8640000 segundos). | 31.536.000 (1 año)
 Duración del token de acceso | Número de segundos que un token de acceso es válido. | 43.200 (12 horas)
 
-Escriba el identificador de cliente y el secreto de cliente para conectarse a su instancia. Después de conectar, use una credencial de cuenta de ServiceNow para autenticar el permiso para el rastreo. La cuenta debe tener el rol <em>conocimiento</em> . 
+Escriba el identificador de cliente y el secreto de cliente para conectarse a su instancia. Después de conectar, use una credencial de cuenta de ServiceNow para autenticar el permiso para el rastreo. La cuenta debe tener como mínimo el rol de **conocimiento** .
 
 #### <a name="azure-ad-openid-connect"></a>OpenID Connect de Azure AD
 
@@ -121,7 +136,7 @@ Todos los demás valores pueden ser predeterminados.
 Proveedor OIDC |  Azure AD
 Dirección URL de metadatos de OIDC | Debe tener el formato HTTPS \: //login.microsoftonline.com/"tenandId"/.Well-Known/OpenID-Configuration <br/>Reemplace "tenantID" por el identificador de directorio (inquilino) del paso 1 (sin comillas).
 Intervalo de vida de la memoria caché de configuración de OIDC |  120
-Application | Global
+Aplicación | Global
 Notificación de usuario | sub
 Campo de usuario | Id. de usuario
 Habilitar la comprobación de notificaciones de JTI | Deshabilitado
@@ -147,24 +162,43 @@ Acceda a la cuenta de ServiceNow que ha creado con el identificador principal de
 
 Use el identificador de aplicación como identificador de cliente (del paso 1) y secreto de cliente (del paso 2) en el Asistente para la configuración del centro de administración para autenticarse en su instancia de ServiceNow mediante el OpenID Connect de Azure AD.
 
-## <a name="filter-data"></a>Filtrar datos 
+## <a name="filter-data"></a>Filtrar datos
+
 Con una cadena de consulta de ServiceNow, puede especificar condiciones para la sincronización de artículos. Es similar a una cláusula **Where** en una instrucción **SELECT de SQL** . Por ejemplo, puede optar por indizar solo los artículos publicados y activos. Para obtener información sobre cómo crear su propia cadena de consulta, consulte [generar una cadena de consulta codificada mediante un filtro](https://docs.servicenow.com/bundle/paris-platform-user-interface/page/use/using-lists/task/t_GenEncodQueryStringFilter.html).
 
 ## <a name="manage-search-permissions"></a>Administrar permisos de búsqueda
-El conector de ServiceNow solo admite permisos de búsqueda visibles para **todos los usuarios**. Los datos indizados aparecen en los resultados de la búsqueda y son visibles para todos los usuarios de la organización.
 
-## <a name="manage-the-search-schema"></a>Administrar el esquema de búsqueda
-Una vez que se haya conectado correctamente, configure la asignación del esquema de búsqueda. Puede elegir las propiedades que se pueden **consultar** , realizar **búsquedas** y **recuperar**. Para obtener más información acerca de la administración del esquema de búsqueda, consulte [Manage The Search Schema](https://docs.microsoft.com/microsoftsearch/configure-connector#manage-the-search-schema).
+El conector de ServiceNow admite los permisos de búsqueda visibles para **todos** los usuarios o **solo personas con acceso a este origen de datos**. Los datos indizados aparecen en los resultados de la búsqueda y son visibles para todos los usuarios de la organización o para los usuarios que tienen acceso a ellos respectivamente. El conector de ServiceNow admite permisos de criterios de usuario predeterminados sin scripts avanzados. Cuando el conector encuentra un criterio de usuario con una secuencia de comandos avanzada, no se mostrarán en los resultados de la búsqueda todos los datos que usen los criterios del usuario.
+
+Si elige **solo personas con acceso a este origen de datos**, debe elegir aún más si su instancia de ServiceNow tiene usuarios aprovisionados de Azure Active Directory (AAD) o usuarios que no son AAD.
+
+>[!NOTE]
+>Si elige AAD como tipo de origen de identidad, asegúrese de que está asignando la propiedad de origen UPN a propiedad de destino email en ServiceNow. Para comprobar o cambiar las asignaciones, vea [Personalización de aprovisionamiento de usuarios: asignaciones de atributos para aplicaciones SaaS en Azure Active Directory](https://docs.microsoft.com/azure/active-directory/app-provisioning/customize-application-attributes).
+
+Si opta por integrar una LCA de su instancia de ServiceNow y ha seleccionado "no-AAD" para el tipo de identidad, consulte [asignar las identidades que no son de Azure ad](map-non-aad.md) para obtener instrucciones sobre cómo asignar las identidades.
+
+## <a name="assign-property-labels"></a>Asignar etiquetas de propiedad
+
+Puede asignar una propiedad de origen a cada etiqueta eligiendo en un menú de opciones. Aunque este paso no es obligatorio, tener algunas etiquetas de propiedades mejorará la relevancia de la búsqueda y garantizará resultados de búsqueda más precisos para los usuarios finales.
+
+## <a name="manage-schema"></a>Administrar esquema
+
+En la pantalla **administrar esquema** , tiene la opción de cambiar los atributos de esquema (**consultable**, **búsquedas**, **recuperables** y **refinables**) asociados con las propiedades, agregar alias opcionales y elegir la propiedad de **contenido** .
 
 ## <a name="set-the-refresh-schedule"></a>Establecer la programación de actualización
+
 El conector de ServiceNow admite programaciones de actualización para rastreos completos e incrementales. Le recomendamos que configure ambos.
 
 Una programación de rastreo completo encuentra artículos eliminados que se han sincronizado anteriormente con el índice de Microsoft Search y los artículos que se han sacado del filtro de sincronización. La primera vez que se conecte a ServiceNow, se ejecuta un rastreo completo para sincronizar todos los artículos de Knowledge base. Para sincronizar nuevos elementos y realizar actualizaciones, debe programar rastreos incrementales.
 
 El valor predeterminado recomendado es un día para un rastreo completo y cuatro horas para un rastreo incremental.
+>[!NOTE]
+>Para las identidades, solo se aplicará el rastreo completo programado.
 
 ## <a name="review-and-publish"></a>Revisión y publicación
+
 Después de configurar el conector, puede revisar y publicar la conexión.
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
+
 Después de publicar la conexión, debe personalizar la página de resultados de búsqueda. Para obtener información sobre cómo personalizar los resultados de la búsqueda, vea [personalizar la página de resultados de búsqueda](https://docs.microsoft.com/microsoftsearch/configure-connector#next-steps-customize-the-search-results-page).

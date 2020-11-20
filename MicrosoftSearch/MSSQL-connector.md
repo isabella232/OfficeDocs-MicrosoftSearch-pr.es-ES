@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configure Microsoft SQL Server o el conector de Azure SQL para Microsoft Search.
-ms.openlocfilehash: 71fd8b6cdf090c9dda9ac94973661d865536a984
-ms.sourcegitcommit: 6baf6f4b8a6466ee1a6ad142be8541f659fcf5d9
+ms.openlocfilehash: dc90693e7629c004ecc48b020262ec5cfd0808c0
+ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48214492"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367581"
 ---
 # <a name="azure-sql-and-microsoft-sql-server-connectors"></a>Conectores de Azure SQL y Microsoft SQL Server
 
@@ -56,7 +56,7 @@ Para realizar búsquedas en el contenido de la base de datos, debe especificar c
 
 ## <a name="full-crawl-required"></a>Rastreo completo (obligatorio)
 
-En este paso, configurará la consulta SQL que ejecuta un rastreo completo de la base de datos. El rastreo completo selecciona todas las columnas o propiedades que desea que se puedan **consultar**, **Buscar**o **recuperar**. También puede especificar columnas ACL para restringir el acceso de los resultados de la búsqueda a usuarios o grupos específicos.
+En este paso, configurará la consulta SQL que ejecuta un rastreo completo de la base de datos. El rastreo completo selecciona todas las columnas o propiedades que desea que se puedan **consultar**, **Buscar** o **recuperar**. También puede especificar columnas ACL para restringir el acceso de los resultados de la búsqueda a usuarios o grupos específicos.
 
 > [!Tip]
 > Para obtener todas las columnas que necesita, puede combinar varias tablas.
@@ -65,7 +65,7 @@ En este paso, configurará la consulta SQL que ejecuta un rastreo completo de la
 
 ### <a name="select-data-columns-required-and-acl-columns-optional"></a>Seleccionar columnas de datos (obligatorios) y columnas de ACL (opcional)
 
-En el ejemplo se muestra la selección de cinco columnas de datos que contienen los datos de la búsqueda: IdPedido, OrderTitle, OrderDesc, CreatedDateTime y IsDeleted. Para establecer los permisos de vista para cada fila de datos, puede seleccionar opcionalmente estas columnas de ACL: AllowedUsers, AllowedGroups, DeniedUsers y DeniedGroups. Todas estas columnas de datos pueden **consultarse**, realizar **búsquedas**o **recuperarse**.
+En el ejemplo se muestra la selección de cinco columnas de datos que contienen los datos de la búsqueda: IdPedido, OrderTitle, OrderDesc, CreatedDateTime y IsDeleted. Para establecer los permisos de vista para cada fila de datos, puede seleccionar opcionalmente estas columnas de ACL: AllowedUsers, AllowedGroups, DeniedUsers y DeniedGroups. Todas estas columnas de datos pueden **consultarse**, realizar **búsquedas** o **recuperarse**.
 
 Seleccione columnas de datos como se muestra en esta consulta de ejemplo: `SELECT OrderId, OrderTitle, OrderDesc, AllowedUsers, AllowedGroups, DeniedUsers, DeniedGroups, CreatedDateTime, IsDeleted`
 
@@ -117,7 +117,7 @@ Se admiten los siguientes tipos de identificador para usar como ACL:
 
 ## <a name="incremental-crawl-optional"></a>Rastreo incremental (opcional)
 
-En este paso opcional, proporcione una consulta SQL para ejecutar un rastreo incremental de la base de datos. Con esta consulta, SQL Connector determina los cambios realizados en los datos desde el último rastreo incremental. Como en el rastreo completo, seleccione todas las columnas que desea que sean **consultables**, que se puedan **Buscar**o que se puedan **recuperar**. Especifique el mismo conjunto de columnas de ACL que especificó en la consulta de rastreo completo.
+En este paso opcional, proporcione una consulta SQL para ejecutar un rastreo incremental de la base de datos. Con esta consulta, SQL Connector determina los cambios realizados en los datos desde el último rastreo incremental. Como en el rastreo completo, seleccione todas las columnas que desea que sean **consultables**, que se puedan **Buscar** o que se puedan **recuperar**. Especifique el mismo conjunto de columnas de ACL que especificó en la consulta de rastreo completo.
 
 Los componentes de la imagen siguiente se parecen a los componentes de rastreo completos con una excepción. En este caso, "ModifiedDateTime" es la columna de marca de agua seleccionada. Revise los [pasos de rastreo completo](#full-crawl-required) para obtener información sobre cómo escribir la consulta de rastreo incremental y ver la siguiente imagen como ejemplo.
 
@@ -126,6 +126,14 @@ Los componentes de la imagen siguiente se parecen a los componentes de rastreo c
 ## <a name="manage-search-permissions"></a>Administrar permisos de búsqueda
 
 Puede optar por usar las [ACL especificadas en la pantalla de rastreo completo](#full-crawl-manage-search-permissions) o reemplazarlas para que el contenido sea visible para todos los usuarios.
+
+## <a name="assign-property-labels"></a>Asignar etiquetas de propiedad
+
+Puede asignar una propiedad de origen a cada etiqueta eligiendo en un menú de opciones. Aunque este paso no es obligatorio, tener algunas etiquetas de propiedades mejorará la relevancia de la búsqueda y garantizará resultados de búsqueda más precisos para los usuarios finales.
+
+## <a name="manage-schema"></a>Administrar esquema
+
+En la pantalla **administrar esquema** , tiene la opción de cambiar los atributos de esquema (**consultable**, **búsquedas**, **recuperables** y **refinables**) asociados con las propiedades, agregar alias opcionales y elegir la propiedad de **contenido** .
 
 ## <a name="limitations"></a>Limitaciones
 

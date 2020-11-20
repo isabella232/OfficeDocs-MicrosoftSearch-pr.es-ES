@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Enumera todos los conectores de Microsoft Graph para Microsoft Search
-ms.openlocfilehash: 82718cdadc57bf9133b61183cdbd912e269fdc70
-ms.sourcegitcommit: f2323c43fc732890213223efac32006df5b92c28
+ms.openlocfilehash: 6ab0518dffacb25190a0eafc20e50408fd51004b
+ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45388016"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367630"
 ---
 # <a name="microsoft-graph-connectors-gallery"></a>Galería de conectores de Microsoft Graph
 
@@ -159,6 +159,27 @@ ms.locfileid: "45388016"
     </li>
 </ul>
 <ul class="panelContent cardsZ">
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card" style="overflow: hidden; height: 235px;">
+                    <div class="cardText">
+                        <h3>Salesforce</h3>
+                        <p>por <a href="https://www.microsoft.com">Microsoft</a></p>
+                        <p>Con este conector de Microsoft Graph, los usuarios de la organización pueden buscar contactos, oportunidades, clientes potenciales y cuentas de los objetos de la instancia de Salesforce.</p>
+                        <div style="margin-top:20px;bottom:15px;position:absolute;display:block">
+                            <div style="font-weight:500;width:150px;display:inline">
+                                <a href="salesforce-connector.md" target="_blank" data-linktype="relative-path" style="font-weight:500;width:150px;display:inline">
+                                    <font color="0065BA">Más detalles</font>
+                                </a>
+                             <img src="media/Salesforce_Small.png" alt="Enterprise Website" width="35" height="35" align="right" style="display:inline; margin-left:210px" data-linktype="relative-path"  />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -318,7 +339,7 @@ ms.locfileid: "45388016"
                     <div class="cardText">
                         <h3>Amazon S3</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>El conector S3 de Amazon rastreará el contenido de cualquier servicio de almacenamiento simple de Amazon.Cada archivo se envía con sus metadatos (tamaño, ubicación, último acceso, etc.). Las actualizaciones se detectan automáticamente.</p>
+                        <p>El conector S3 de Amazon rastreará el contenido de cualquier servicio de almacenamiento simple de Amazon. Cada archivo se envía con sus metadatos (tamaño, ubicación, último acceso, etc.). Las actualizaciones se detectan automáticamente.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Amazon+S3+Connector"><font color="0065BA">Más detalles</font></a>
                         </p>
@@ -334,7 +355,7 @@ ms.locfileid: "45388016"
                     <div class="cardText">
                         <h3>Amazon S3</h3>
                         <p>por <a href="https://www.bainsight.com">visión de BA</a></p>
-                        <p>El conector S3 de Amazon funciona con todo el contenido almacenado en S3.Su organización puede usar el conector para conectarse de forma segura a contenido S3 e indizar desde los cubos S3. Las potentes capacidades de filtrado dan a su organización control sobre el contenido que se encuentra en S3 que debe indizarse.</p>
+                        <p>El conector S3 de Amazon funciona con todo el contenido almacenado en S3. Su organización puede usar el conector para conectarse de forma segura a contenido S3 e indizar desde los cubos S3. Las potentes capacidades de filtrado dan a su organización control sobre el contenido que se encuentra en S3 que debe indizarse.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/amazon-s3-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a>
                         </p>
@@ -608,7 +629,7 @@ ms.locfileid: "45388016"
                     <div class="cardText">
                         <h3>Documentum/Documentum DQL</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>El conector de Documentum rastreará el contenido de cualquier repositorio de contenido de Documentum. DQL es un lenguaje de consulta que permite realizar consultas muy complejas que implican capacidades de búsqueda especializadas para la administración de documentos y contenido.El conector DQL de aspira Documentum rastreará el contenido de Documentum.</p>
+                        <p>El conector de Documentum rastreará el contenido de cualquier repositorio de contenido de Documentum. DQL es un lenguaje de consulta que permite realizar consultas muy complejas que implican capacidades de búsqueda especializadas para la administración de documentos y contenido. El conector DQL de aspira Documentum rastreará el contenido de Documentum.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Documentum+Connector"><font color="0065BA">Más detalles</font></a>
                         </p>
@@ -659,7 +680,7 @@ ms.locfileid: "45388016"
                     <div class="cardText">
                         <h3>ERoom de EMC</h3>
                         <p>por <a href="https://www.bainsight.com">visión de BA</a></p>
-                        <p>El conector de eRoom establece una conexión segura a la aplicación de eRoom y asigna el contenido, incluidos metadatos y datos adjuntos, del esquema de eRoom al esquema del motor de búsqueda. A continuación, extrae el contenido y lo suministra al motor de búsqueda en un proceso denominado rastreo.</p>
+                        <p>El conector de eRoom establece una conexión segura a la aplicación de eRoom y asigna el contenido, incluidos metadatos y datos adjuntos, del esquema de eRoom al esquema del motor de búsqueda.  A continuación, extrae el contenido y lo suministra al motor de búsqueda en un proceso denominado rastreo.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/eroom-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a>
                         </p>
@@ -793,7 +814,7 @@ ms.locfileid: "45388016"
                     <div class="cardText">
                         <h3>Protocolo</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>El conector del Protocolo de transferencia de archivos (FTP) de aspira proporciona acceso a los archivos y carpetas de un servidor FTP.Cada archivo se envía con sus metadatos (tamaño, ubicación, último acceso, etc.). Las actualizaciones se detectan automáticamente.</p>
+                        <p>El conector del Protocolo de transferencia de archivos (FTP) de aspira proporciona acceso a los archivos y carpetas de un servidor FTP. Cada archivo se envía con sus metadatos (tamaño, ubicación, último acceso, etc.). Las actualizaciones se detectan automáticamente.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/FTP+Connector"><font color="0065BA">Más detalles</font></a>
                         </p>
@@ -1032,7 +1053,7 @@ ms.locfileid: "45388016"
                     <div class="cardText">
                         <h3>IBM Lotus Notes</h3>
                         <p>por <a href="https://www.bainsight.com">visión de BA</a></p>
-                        <p>Con el conector de correo para Notes IBM de BA, los usuarios pueden buscar correos electrónicos de Notes directamente desde SharePoint o desde otro portal.La seguridad definida en IBM Notes se refleja automáticamente en la experiencia de búsqueda, por lo que los usuarios verán los resultados de la búsqueda de su propio buzón de correo, los buzones públicos y otros buzones de correo para los que se les ha concedido acceso.</p>
+                        <p>Con el conector de correo para Notes IBM de BA, los usuarios pueden buscar correos electrónicos de Notes directamente desde SharePoint o desde otro portal.  La seguridad definida en IBM Notes se refleja automáticamente en la experiencia de búsqueda, por lo que los usuarios verán los resultados de la búsqueda de su propio buzón de correo, los buzones públicos y otros buzones de correo para los que se les ha concedido acceso.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/lotus-notes-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a>
                         </p>
@@ -1935,7 +1956,7 @@ ms.locfileid: "45388016"
                     <div class="cardText">
                         <h3>SharePoint 2013</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>El conector de SharePoint 2013 rastreará el contenido de cualquier dirección URL de colección de sitios de SharePoint 2013.El conector admite listas, páginas y sitios, y las actualizaciones se identifican de forma automática o a través del registro de cambios de SharePoint.</p>
+                        <p>El conector de SharePoint 2013 rastreará el contenido de cualquier dirección URL de colección de sitios de SharePoint 2013. El conector admite listas, páginas y sitios, y las actualizaciones se identifican de forma automática o a través del registro de cambios de SharePoint.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/SharePoint+2013+Connector"><font color="0065BA">Más detalles</font></a>
                         </p>
@@ -1951,7 +1972,7 @@ ms.locfileid: "45388016"
                     <div class="cardText">
                         <h3>SharePoint 2016</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>El conector de SharePoint 2016 rastreará el contenido de cualquier dirección URL de colección de sitios de SharePoint 2016.El conector admite listas, páginas y sitios, y las actualizaciones se identifican de forma automática o a través del registro de cambios de SharePoint.</p>
+                        <p>El conector de SharePoint 2016 rastreará el contenido de cualquier dirección URL de colección de sitios de SharePoint 2016. El conector admite listas, páginas y sitios, y las actualizaciones se identifican de forma automática o a través del registro de cambios de SharePoint.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/SharePoint+2016+Connector"><font color="0065BA">Más detalles</font></a>
                         </p>
@@ -1967,7 +1988,7 @@ ms.locfileid: "45388016"
                     <div class="cardText">
                         <h3>SharePoint Online</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>El conector de SharePoint Online rastreará el contenido de cualquier dirección URL de colección de sitios de SharePoint Online.El conector recuperará sitios, listas, carpetas, elementos de lista y datos adjuntos, así como otras páginas (en formato. aspx). Este conector admite SharePoint que se ejecuta en la oferta de Microsoft O365. El conector de SharePoint 2010/2007 y el conector de SharePoint 2013 admiten el rastreo de las ofertas locales de SharePoint.</p>
+                        <p>El conector de SharePoint Online rastreará el contenido de cualquier dirección URL de colección de sitios de SharePoint Online. El conector recuperará sitios, listas, carpetas, elementos de lista y datos adjuntos, así como otras páginas (en formato. aspx). Este conector admite SharePoint que se ejecuta en la oferta de Microsoft O365. El conector de SharePoint 2010/2007 y el conector de SharePoint 2013 admiten el rastreo de las ofertas locales de SharePoint.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/SharePoint+Online+Connector"><font color="0065BA">Más detalles</font></a>
                         </p>
@@ -2016,7 +2037,7 @@ ms.locfileid: "45388016"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
-                       <h3>Permisible</h3>
+                       <h3>Margen de demora</h3>
                         <p>por <a href="https://www.raytion.com">Raytion</a></p>
                         <p>El conector para el margen de demora sincroniza de manera eficaz y sólida el contenido del margen de demora con Microsoft Search. Indiza con solidez los mensajes, los subprocesos y los archivos compartidos de todos los canales públicos casi en tiempo real. El conector garantiza que todos los documentos se incluyan en un conjunto completo de metadatos, lo que permite el desarrollo de la mejor experiencia de búsqueda. Incluso en entornos vivos, el conector de margen de demora realiza un seguimiento de todos los cambios y garantiza un índice de búsqueda actualizado.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
@@ -2255,7 +2276,7 @@ ms.locfileid: "45388016"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
-                       <h3>windream ECM-System</h3>
+                       <h3>ECM-System windream</h3>
                         <p>por <a href="https://www.raytion.com">Raytion</a></p>
                         <p>Conector para windream ECM-System. Indiza archivos y carpetas de windream ECM-System casi en tiempo real. conector de búsqueda de Raytion de sexta generación.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">

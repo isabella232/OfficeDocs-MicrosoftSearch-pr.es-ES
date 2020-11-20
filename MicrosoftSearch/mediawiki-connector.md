@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de MediaWiki para Microsoft Search
-ms.openlocfilehash: d8aa4a99c353a80f7d3dcf768d8287200b17fdc6
-ms.sourcegitcommit: be0c64845477127d73ee24dc727e4583ced3d0e6
+ms.openlocfilehash: 7f6b34dcafc4b82ab3778ec1d7a4921383e44a44
+ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48206954"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367644"
 ---
 # <a name="mediawiki-connector"></a>Conector MediaWiki
 
@@ -27,15 +27,19 @@ Este artículo está destinado a los administradores de Microsoft 365 o a cualqu
 
 ## <a name="connect-to-a-data-source"></a>Conectarse a un origen de datos
 
-Escriba la dirección URL de MediaWiki y las credenciales para autenticar la conexión. Necesitará la siguiente información: **identificador de inquilino**, **identificador de recurso**, identificador de **cliente**y **secreto de cliente**.
-
-## <a name="manage-the-search-schema"></a>Administrar el esquema de búsqueda
-
-Una vez que se haya conectado correctamente, configure la asignación del esquema de búsqueda. Puede elegir las propiedades que se pueden **consultar**, realizar **búsquedas**y **recuperar**.
+Escriba la dirección URL de MediaWiki y las credenciales para autenticar la conexión. Necesitará la siguiente información: **identificador de inquilino**, **identificador de recurso**, identificador de **cliente** y **secreto de cliente**.
 
 ## <a name="manage-search-permissions"></a>Administrar permisos de búsqueda
 
 El conector de MediaWiki solo admite permisos de búsqueda visibles para **todos los usuarios**. Los datos indizados aparecen en los resultados de la búsqueda y son visibles para todos los usuarios de la organización.
+
+## <a name="assign-property-labels"></a>Asignar etiquetas de propiedad
+
+Puede asignar una propiedad de origen a cada etiqueta eligiendo en un menú de opciones. Aunque este paso no es obligatorio, tener algunas etiquetas de propiedades mejorará la relevancia de la búsqueda y garantizará resultados de búsqueda más precisos para los usuarios finales.
+
+## <a name="manage-schema"></a>Administrar esquema
+
+En la pantalla **administrar esquema** , tiene la opción de cambiar los atributos de esquema (**consultable**, **búsquedas**, **recuperables** y **refinables**) asociados con las propiedades, agregar alias opcionales y elegir la propiedad de **contenido** .
 
 ## <a name="set-the-refresh-schedule"></a>Establecer la programación de actualización
 
@@ -47,5 +51,5 @@ El conector de MediaWiki tiene estas limitaciones en la versión preliminar:
 
 * Solo admite wikis basados en la nube.
 * Solo admite Basic o OAuth 2,0 con Azure Active Directory o Azure Authentication.
-* No admite la selección de espacio de nombres para la indización. Solo indiza los espacios de nombres **principal**, de **categoría**y de **archivo** .
+* No admite la selección de espacio de nombres para la indización. Solo indiza los espacios de nombres **principal**, de **categoría** y de **archivo** .
 * No es compatible con las listas de control de acceso (ACL). Por lo tanto, las páginas indizadas son visibles para todos los usuarios de la organización.

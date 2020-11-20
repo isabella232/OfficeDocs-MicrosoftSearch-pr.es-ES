@@ -2,7 +2,7 @@
 title: Conector de Salesforce para Microsoft Search
 ms.author: rusamai
 author: rsamai
-manager: jameslao
+manager: jameslau
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -11,23 +11,22 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
 description: Configurar el conector de Salesforce para Microsoft Search
-ms.openlocfilehash: 8de7784cae7d430bc385889bd836360c69492591
-ms.sourcegitcommit: 77ec27736f3c8434b2ac47e10897ac2606ee8a03
+ms.openlocfilehash: 149d1d9a297e09e9b895aeb0947c7ff4a3cbdf84
+ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48992956"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367653"
 ---
-# <a name="salesforce-connector"></a>Conector de Salesforce
+# <a name="salesforce-connector-preview"></a>Conector de Salesforce (versión preliminar)
 
-Con el conector gráfico de Salesforce, su organización puede indizar los objetos Contacts, oportunidades, clientes potenciales y cuentas en su instancia de Salesforce. Después de configurar el conector y el contenido del índice desde Salesforce, los usuarios finales pueden buscar dichos elementos desde cualquier cliente de Microsoft Search
+Con el conector gráfico de Salesforce, su organización puede indizar los objetos Contacts, oportunidades, clientes potenciales y cuentas en su instancia de Salesforce. Después de configurar el conector y el contenido del índice desde Salesforce, los usuarios finales pueden buscar dichos elementos desde cualquier cliente de Microsoft Search.
 
 Este artículo está destinado a los administradores de [Microsoft 365](https://www.microsoft.com/microsoft-365) o a cualquiera que configure, ejecute y supervise un conector de Salesforce. Se explica cómo configurar las capacidades del conector y el conector, las limitaciones y las técnicas de solución de problemas.
 
 >[!IMPORTANT]
->El conector gráfico de Salesforce actualmente es compatible con las versiones de verano "20, primavera" 20, invierno "20 y verano de" 19 ".
+>El conector gráfico de Salesforce admite actualmente el verano de 19 o posterior.
 
 ## <a name="connection-settings"></a>Configuración de conexión
 
@@ -60,7 +59,7 @@ Para conectarse a su instancia de Salesforce, necesita la dirección URL de la i
 - Copie la clave de consumidor y el secreto de consumidor. Se usarán como el identificador de cliente y el secreto de cliente al configurar las opciones de conexión para el conector de Graph en el portal de administración de Microsoft 365.
 
   ![Resultados devueltos por la sección API en la instancia de Salesforce después de que el administrador haya enviado todas las configuraciones necesarias. La clave de consumidor está en la parte superior de la columna izquierda y el secreto de consumidor está en la parte superior de la columna derecha.](media/salesforce-connector/clientsecret.png)
-- Antes de cerrar la instancia de Salesforce, siga estos pasos para asegurarse de que los tokens de actualización no expiren: 
+- Antes de cerrar la instancia de Salesforce, siga estos pasos para asegurarse de que los tokens de actualización no expiren:
     - Vaya a apps-> App Manager
     - Busque la aplicación que acaba de crear y seleccione la lista desplegable de la derecha. Seleccione **administrar**
     - Seleccionar **editar directivas**
@@ -89,21 +88,21 @@ Configure las opciones de conexión para su conector para gráficos de la siguie
   ![Captura de pantalla de inicio de sesión correcto. El banner verde que dice "conexión correcta" se encuentra debajo del campo de la dirección URL de la instancia de Salesforce.](media/salesforce-connector/sf5.png)
 
 ## <a name="manage-search-permissions"></a>Administrar permisos de búsqueda
-Tendrá que elegir qué usuarios verán los resultados de la búsqueda de este origen de datos. Si solo permite que determinados usuarios de Azure Active Directory (AAD) o no AAD vean los resultados de la búsqueda, tendrá que asignar las identidades.
+Tendrá que elegir qué usuarios verán los resultados de la búsqueda de este origen de datos. Si permite que solo algunos usuarios de Azure Active Directory (Azure AD) o distintos de Azure vean los resultados de la búsqueda, tendrá que asignar las identidades.
 
 ### <a name="select-permissions"></a>Seleccionar permisos
-Puede optar por recopilar listas de control de acceso (ACL) de su instancia de Salesforce o permitir que todos los usuarios de la organización vean los resultados de la búsqueda de este origen de datos. Las ACL pueden incluir identidades de Azure Active Directory (AAD), identidades que no son de AAD o ambas.
+Puede optar por recopilar listas de control de acceso (ACL) de su instancia de Salesforce o permitir que todos los usuarios de la organización vean los resultados de la búsqueda de este origen de datos. Las ACL pueden incluir identidades de Azure Active Directory (AAD) (usuarios federados de Azure AD a Salesforce), identidades que no son de Azure AD (usuarios nativos de Salesforce que tienen identidades correspondientes en Azure AD) o ambos.
 
 ![Seleccione la pantalla de permisos que ha completado un administrador. El administrador ha seleccionado la opción "solo personas con acceso a este origen de datos" y también ha seleccionado "AAD" en un menú desplegable de tipos de identidad.](media/salesforce-connector/sf6.png)
 
 ### <a name="map-non-aad-identities"></a>Asignar identidades que no son AAD 
-Si opta por ingesta de una ACL de su instancia de Salesforce y ha seleccionado "no-AAD" para el tipo de identidad, consulte [asignar las identidades que no son de Azure ad ](map-non-aad.md) para obtener instrucciones sobre cómo asignar las identidades.
+Si opta por ingesta de una ACL de su instancia de Salesforce y ha seleccionado "no-AAD" para el tipo de identidad, consulte [asignar las identidades que no son de Azure ad](map-non-aad.md) para obtener instrucciones sobre cómo asignar las identidades.
 
 ### <a name="map-aad-identities"></a>Asignar identidades de AAD
-Si optó por la incorporación de una ACL desde su instancia de Salesforce y seleccionó "AAD" para el tipo de identidad, consulte [asignar las identidades de Azure ad](map-aad.md) para obtener instrucciones sobre cómo asignar las identidades.
+Si optó por la incorporación de una ACL desde su instancia de Salesforce y seleccionó "AAD" para el tipo de identidad, consulte [asignar las identidades de Azure ad](map-aad.md) para obtener instrucciones sobre cómo asignar las identidades. Para obtener información sobre cómo configurar el SSO de Azure AD para Salesforce, vea este [tutorial](https://docs.microsoft.com/en-us/azure/active-directory/saas-apps/salesforce-tutorial).
 
 ## <a name="assign-property-labels"></a>Asignar etiquetas de propiedad 
-Puede asignar una propiedad de origen a cada etiqueta eligiendo en un menú de opciones. Aunque este paso no es obligatorio, tener algunas etiquetas de propiedades mejorará la relevancia de la búsqueda y garantizará resultados de búsqueda más precisos para los usuarios finales. De forma predeterminada, algunas de las etiquetas como "title", "URL" y "LastModifiedBy" ya tienen asignadas propiedades de origen.
+Puede asignar una propiedad de origen a cada etiqueta eligiendo en un menú de opciones. Aunque este paso no es obligatorio, tener algunas etiquetas de propiedades mejorará la relevancia de la búsqueda y garantizará resultados de búsqueda más precisos para los usuarios finales. De forma predeterminada, algunas de las etiquetas como "title", "URL", "CreatedBy" y "LastModifiedBy" ya tienen asignadas propiedades de origen.
 
 ![Pantalla de asignación de etiquetas de propiedades que muestra las propiedades de origen predeterminadas.](media/salesforce-connector/sf8.png)
 
@@ -126,11 +125,10 @@ La programación recomendada es una semana para un rastreo completo.
 - En este momento, el conector de Graph no admite el uso compartido y uso compartido basado en territorio de Apex con grupos personales de Salesforce.
 - Hay un error conocido en la API de Salesforce que usa el conector de Graph en el que actualmente no se respetan los valores predeterminados de la organización privada para los clientes potenciales.  
 - Si un campo tiene un nivel de seguridad de nivel de campo (FLS) establecido para un perfil, el conector de Graph no inscribirá ese campo para los perfiles de esa organización de Salesforce. Por lo tanto, los usuarios no podrán buscar en los valores de esos campos, ni se mostrarán en los resultados.  
-- Cualquier configuración de FLS se respetará durante las sincronizaciones completas del conector.
 - En la pantalla Administrar esquema, estos nombres de propiedades estándar comunes se muestran una vez y se realiza la selección para que se puedan consultar, realizar búsquedas y recuperarse en todos o en ninguno.
     - Nombre
     - Url 
-    - Descripción
+    - Description
     - Fax
     - Phone
     - MobilePhone
