@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar Búsqueda de Microsoft por primera vez.
-ms.openlocfilehash: 37b5f33fe7b49a11c4558debac5b9acae4cc40cd
-ms.sourcegitcommit: aa48b6510883e1617aa13a50b1056fb149c47586
+ms.openlocfilehash: 7d0b8e1b4bbb405e254b2fe2d29b11f081f5b460
+ms.sourcegitcommit: ac4e261c01262be747341f810d2d1faf220d3961
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256641"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49382591"
 ---
 # <a name="set-up-microsoft-search"></a>Configurar Búsqueda de Microsoft
 
@@ -31,9 +31,7 @@ La Búsqueda de Microsoft está activada de forma predeterminada para todas las 
 
 Puede administrar la Búsqueda de Microsoft desde el Centro de administración de Microsoft 365.
 
-1. En el Centro de administración de Microsoft 365, vaya a **Configuración** > **Búsqueda de Microsoft**.
-
-**Nota:** si no ve la Búsqueda de Microsoft en **Configuración**, active el interruptor para**Probar la versión preliminar** en la esquina superior derecha de cualquier página del centro de administración.
+1. En el centro de administración de Microsoft 365, vaya a **configuración**  >  [**Buscar & inteligencia**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch).
 
 Como administrador debe considerar algunos aspectos que pueden hacer que la experiencia de Búsqueda de Microsoft en su organización sea eficiente e intuitiva.
 

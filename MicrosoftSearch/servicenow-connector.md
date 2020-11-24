@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de ServiceNow para Microsoft Search
-ms.openlocfilehash: 5bcc0870df7c2ad418bb2ae29e9d4d999dcbdf3f
-ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
+ms.openlocfilehash: 520232f8055d5432ccb96a840a9466ae6a4e3b1a
+ms.sourcegitcommit: ac4e261c01262be747341f810d2d1faf220d3961
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367599"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49382564"
 ---
 # <a name="servicenow-connector"></a>Conector de ServiceNow
 
@@ -173,6 +173,9 @@ El conector de ServiceNow admite los permisos de búsqueda visibles para **todos
 Si elige **solo personas con acceso a este origen de datos**, debe elegir aún más si su instancia de ServiceNow tiene usuarios aprovisionados de Azure Active Directory (AAD) o usuarios que no son AAD.
 
 >[!NOTE]
+>El conector de ServiceNow se encuentra en **versión preliminar** si elige **solo a personas con acceso a este origen de datos**.
+
+>[!NOTE]
 >Si elige AAD como tipo de origen de identidad, asegúrese de que está asignando la propiedad de origen UPN a propiedad de destino email en ServiceNow. Para comprobar o cambiar las asignaciones, vea [Personalización de aprovisionamiento de usuarios: asignaciones de atributos para aplicaciones SaaS en Azure Active Directory](https://docs.microsoft.com/azure/active-directory/app-provisioning/customize-application-attributes).
 
 Si opta por integrar una LCA de su instancia de ServiceNow y ha seleccionado "no-AAD" para el tipo de identidad, consulte [asignar las identidades que no son de Azure ad](map-non-aad.md) para obtener instrucciones sobre cómo asignar las identidades.
@@ -199,6 +202,6 @@ El valor predeterminado recomendado es un día para un rastreo completo y cuatro
 
 Después de configurar el conector, puede revisar y publicar la conexión.
 
-## <a name="next-steps"></a>Siguientes pasos
+## <a name="next-steps"></a>Pasos siguientes
 
 Después de publicar la conexión, debe personalizar la página de resultados de búsqueda. Para obtener información sobre cómo personalizar los resultados de la búsqueda, vea [personalizar la página de resultados de búsqueda](https://docs.microsoft.com/microsoftsearch/configure-connector#next-steps-customize-the-search-results-page).
