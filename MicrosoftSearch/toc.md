@@ -17,7 +17,7 @@
 ## Conectores de Graph por Microsoft
 ### [Información general sobre la configuración](configure-connector.md)
 ### [Configurar el agente local (versión preliminar)](on-prem-agent.md)
-### [Asignar las identidades que no son de Azure AD (versión preliminar)](map-non-add)
+### [Asignar las identidades que no son de Azure AD (versión preliminar)](map-non-aad.md)
 ### [Asignar las identidades de Azure AD ](map-aad.md)
 ### Información específica del conector
 #### [Azure Data Lake Storage Gen2](azure-data-lake-connector.md)
@@ -26,6 +26,7 @@
 #### [Sitios web de la empresa](enterprise-web-connector.md)
 #### [Recurso compartido de archivos (versión preliminar)](fileshare-connector.md)
 #### [MediaWiki](mediawiki-connector.md)
+#### [Oracle SQL (versión preliminar)](OracleSQL-connector.md)
 #### [Salesforce (versión preliminar)](salesforce-connector.md)
 #### [ServiceNow](servicenow-connector.md)
 ## [Administrar las conexiones](manage-connector.md)
