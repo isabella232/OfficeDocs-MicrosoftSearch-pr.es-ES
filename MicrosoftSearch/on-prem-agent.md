@@ -11,13 +11,14 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
+ROBOTS: NoIndex
 description: Agente local
-ms.openlocfilehash: 30ddf0ac8c6df76d1c598606754066b3d2e93615
-ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
+ms.openlocfilehash: 487c5b179e09fd99fa26ae7a237e89ca38b7be4d
+ms.sourcegitcommit: 69a1c544cc8db364991cb58d7818d7158ff108b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367780"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49408946"
 ---
 # <a name="on-prem-agent"></a>Agente local
 
@@ -59,7 +60,7 @@ Una vez que haya creado la aplicación para el agente, debe configurar el agente
 
 Los detalles de autenticación se pueden proporcionar en una de las siguientes formas.
 
-### <a name="configuring-the-client-secret-for-authentation"></a>Configuración del secreto de cliente para authentation
+### <a name="configuring-the-client-secret-for-authentication"></a>Configuración del secreto de cliente para la autenticación
 
 1. Vaya a [Azure portal](https://portal.azure.com) e inicie sesión con credenciales de administrador para el inquilino.
 2. Abra el **registro de aplicaciones** en el panel de navegación y vaya a la aplicación correspondiente. En **administrar**, seleccione **certificados y secretos**.
@@ -68,7 +69,7 @@ Los detalles de autenticación se pueden proporcionar en una de las siguientes f
 
 ## <a name="using-thumbprint-certificate-for-authentication"></a>Uso del certificado de huella digital para la autenticación
 
-Si ya ha configurado los detalles de autenticación mediante [la configuración del secreto de cliente para authentation](#Configuring-the-client-secret-for-authentication) , puede ir directamente a la introducción a la [instalación](configure-connector.md).
+Si ya ha configurado los detalles de autenticación mediante [la configuración del secreto de cliente para la autenticación](#configuring-the-client-secret-for-authentication) , puede ir directamente a la introducción a la [instalación](configure-connector.md).
 
 1. Abra el **registro de aplicaciones** y seleccione **certificados y secretos** en el panel de navegación. Copie la huella digital del certificado.
 ![Lista de certificados de thumbrint cuando se selecciona certificados y secretos en el panel izquierdo](media/onprem-agent/certificates.png)
