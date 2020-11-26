@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Administrar conectores de Microsoft Graph para Microsoft Search.
-ms.openlocfilehash: a9b3feff3a5c289fef3f5091518d074970209b9d
-ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
+ms.openlocfilehash: 04ae757e95c6d3713ad03da701f99c669fb2a59c
+ms.sourcegitcommit: 0ed8ec8b3c4e0f5f669005081fd8b2219f07b4f0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367680"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49420846"
 ---
 <!-- markdownlint-disable no-inline-html -->
 
@@ -58,7 +58,7 @@ Después de que se complete correctamente el primer rastreo incremental inicial 
 
 Los siguientes valores de último rastreo estarán disponibles para cada conexión:
 
-Valor | Description
+Valor | Descripción
 --- | ---
 Completado en | Fecha y hora en que se completó el último rastreo
 Tipo | Rastreo incremental o completo
@@ -92,6 +92,7 @@ Código de error | Mensaje de error | Solución
 2001 | La indización se limita debido a un gran número de actualizaciones en la cola. Dependiendo de la cola, la actualización puede tardar algún tiempo en completarse. | Espere hasta que se borre la cola.
 2002 | Error de indización debido a un formato de elemento no admitido. | Consulte la documentación específica del conector para obtener más información.
 2003 | Error de indización debido a contenido de elemento no admitido. | Consulte la documentación específica del conector para obtener más información.
+2010 | Esta conexión ya no es válida debido a una actualización realizada por Microsoft. Elimine la conexión y cree una nueva. | Elimine la conexión y cree una nueva.
 5000 | Se ha producido un error. Si el proceso sigue, póngase en contacto con el soporte técnico. |
 
 ## <a name="monitor-your-index-quota-utilization"></a>Supervisar el uso de la cuota de índice
