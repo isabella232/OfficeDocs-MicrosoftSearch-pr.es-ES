@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Agente local
-ms.openlocfilehash: 763904f8dd96c5db8b0633e36795443502afe7d0
-ms.sourcegitcommit: 0ed8ec8b3c4e0f5f669005081fd8b2219f07b4f0
+ms.openlocfilehash: 5dbca392fefdcc11de253fd244cc98a6adcee68a
+ms.sourcegitcommit: e8d770fa72ac83e074a5de57098cb55d06d8db07
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49420837"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49588371"
 ---
 # <a name="graph-connector-agent"></a>Agente de conector de Graph
 
@@ -31,6 +31,7 @@ Descargue la última versión [del agente de](https://aka.ms/gcadownload) conect
 Configuración recomendada:
 
 * Windows 10, Windows Server 2016 R2 y versiones posteriores
+* [.NET Core Desktop Runtime de 3,1 (x64)](https://dotnet.microsoft.com/download/dotnet-core/3.1)
 * 8 núcleos, 3 GHz
 * 16 GB de RAM, 2 GB de espacio en disco
 * Acceso de red a origen de datos e Internet mediante 443

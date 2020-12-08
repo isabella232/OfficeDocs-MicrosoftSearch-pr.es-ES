@@ -11,14 +11,13 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-ROBOTS: NoIndex
 description: Revisión de los informes de uso de Microsoft Search
-ms.openlocfilehash: 5bb2ff5a7821e5772e9fb54f60e5e70508194929
-ms.sourcegitcommit: ac4e261c01262be747341f810d2d1faf220d3961
+ms.openlocfilehash: 96599ad18cb45feb53b3a786730a3ce506f49600
+ms.sourcegitcommit: 13e52d6c66c811cc7612197ba5d8cc3598309314
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49382693"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "49586373"
 ---
 # <a name="microsoft-search-usage-reports"></a>Informes de uso de Microsoft Search
 
@@ -50,7 +49,7 @@ La descarga de un informe le permitirá ver los informes a partir de un interval
 
 Para ver los informes de distribución de impresiones y consultas principales de Bing haga clic en el vínculo de la página.
 
-## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
+## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 
 **Cuando selecciono los últimos 31 días o últimos 12 meses, ¿por qué debo elegir un día específico o un mes específico respectivamente.**
 
