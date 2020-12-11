@@ -13,62 +13,77 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Crear y actualizar marcadores y formas de editar en masa los resultados de marcadores para Microsoft Search
-ms.openlocfilehash: eb65121b53ab110b91880a65a5146d868f3a7405
-ms.sourcegitcommit: d88226f9c3a99540a591dc0a26408bb9960cf39a
+ms.openlocfilehash: 6a678464ec23c2d4c90190b6a02c0a73839b50ee
+ms.sourcegitcommit: 41d28060238091455c7b8b011c67ae60c8a41f1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48134171"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49619584"
 ---
 # <a name="manage-bookmarks"></a>Administrar marcadores
 
-Puede crear un marcador en unos pocos pasos. Cada marcador incluye un título, una dirección URL y un conjunto de palabras clave que lo desencadenan. También puede Agregar categorías a un marcador que se puede usar para ordenar y filtrar en el portal de administración. Un marcador puede tener varias palabras clave y los marcadores pueden compartir la misma palabra clave, pero la palabra clave Reserved no se puede compartir. Cuando se crea o modifica un marcador, el índice de búsqueda se actualiza inmediatamente y el marcador está disponible para los usuarios inmediatamente.
+Los marcadores ayudan a los usuarios a encontrar rápidamente sitios y herramientas importantes con solo una búsqueda. Cada marcador incluye un título, una dirección URL, un conjunto de palabras clave descriptivas para desencadenar el marcador y una categoría.
 
-Si su organización configura los resultados promocionados en SharePoint, puede importar los resultados promocionados en **Microsoft Search** y hacer que el contenido importado esté disponible para los usuarios. Esta es una forma sencilla de rellenar rápidamente los resultados de búsqueda tan pronto como **Búsqueda de Microsoft** esté configurado y hacerlo más eficaz para los usuarios. Se recomienda usar los resultados promocionados de SharePoint como referencia para comprender cómo nombrar y crear resultados de búsqueda relevantes.
+## <a name="what-makes-a-great-bookmark"></a>Qué hace un gran marcador
 
-## <a name="add-or-edit-a-single-bookmark"></a>Agregar o modificar un marcador único
+Un marcador estupendo tiene cuatro elementos clave:
 
-1. En el [centro de administración de Microsoft 365](https://admin.microsoft.com), vaya a [**marcadores**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/bookmarks).
-1. Para agregar un marcador, seleccione **Agregar**.
-Para modificar un marcador, seleccione el marcador en la lista de marcadores relevantes.
-1. Al agregar o editar la información, la vista previa se actualizará automáticamente.
-1. Guarde los cambios.
+1. Un **título** seguro e informativo. El objetivo no es más de 8 palabras o unos 60 caracteres como máximo. Desea que los usuarios haga clic en el título y vean el contenido, pero evitar clickbait obvios:
+    - Bueno: Pruebe los favoritos de la Tasty de la semana en el menú de cafetería. El título es claro, conciso e interesante, pero podría ser más prometedor.
+    - Mejor: el menú cafetería de esta semana. No se ve afectada ni tiene un sonido similar al de un anuncio.
+    - Evite: no le va a creer lo que llega al menú de la cafetería esta semana. Usa clickbait clichés que suena como un anuncio.
+2. Una **Descripción** sucinta, alrededor de 300 caracteres, que resume el propósito o la funcionalidad del recurso vinculado.
+3. Una colección de **palabras clave** que ayudarán a los usuarios a encontrar el marcador cuando lo busquen. Se recomienda un mínimo de cinco palabras clave como mínimo. Además, incluya variaciones que puedan usar las personas de su organización, por ejemplo, el menú de la cena, los menús de la comida y el menú de café podrían ser variantes del menú de cafetería.
+4. Un conjunto útil de **categorías** que facilitan la ordenación y el filtrado de marcadores en el centro de administración. Los usuarios nunca ven las categorías asignadas.
 
-## <a name="add-or-edit-bookmark-using-browser-extensions"></a>Agregar o editar el marcador mediante las extensiones del navegador
+## <a name="create-bookmark-answers"></a>Crear respuestas a marcadores
 
-Los administradores de búsqueda pueden crear fácilmente búsquedas de contenido mediante las extensiones del navegador. Instale la extensión del explorador, vaya al sitio que desea agregar como marcador y agregue el marcador.
+En el [centro de administración de Microsoft 365](https://admin.microsoft.com/), vaya a [marcadores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/bookmarks) y elija cómo desea crear nuevos marcadores:
 
-Actualmente, las extensiones del navegador están disponibles para Edge y Chrome.
+- Agregar marcadores
+- Importar resultados de SharePoint
+- Agregar marcadores predeterminados y marcadores sugeridos
+- Importar marcadores
+- Publicar o revisar los marcadores recomendados
 
-- Para descargar las extensiones de servidor perimetral, vaya a [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) y descargue la aplicación.
-- Para descargar extensiones de Chrome, vaya a [almacén Web de Chrome](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) y descargue la aplicación.
+### <a name="add-bookmarks"></a>Agregar marcadores
 
-## <a name="bulk-add-or-edit-bookmarks"></a>Agregar o editar marcadores en bloque
+Los administradores y editores de búsqueda pueden agregar marcadores en el centro de administración de Microsoft 365. Los marcadores se pueden publicar o guardar en borrador. Al publicar un marcador, se actualiza inmediatamente el índice de búsqueda para que los usuarios puedan empezar a detectarlo y usarlo directamente. También puede programar un marcador especificando la fecha y la hora en que se publicará.
 
-Use la característica de importación o exportación para crear o editar en masa marcadores. Permite agregar o editar un gran número de marcadores de forma rápida y fácil. Úselo para:
+- **Publicado**: los marcadores están disponibles para los usuarios de la organización a través de Microsoft Search.
+- **Borrador**: los marcadores guardados como borradores no están disponibles para los usuarios. Use este estado si usted u otras partes interesadas quieren revisar o actualizar los marcadores antes de publicarlos.
+- **Programado**: marcadores que se publicarán en la fecha y hora especificadas.
 
-- Agregar marcadores en bloque: introduzca la información en el archivo de plantilla del marcador y, a continuación, impórtelo.
-- Editar marcadores en bloque: exporte los marcadores a un archivo CSV; a continuación, edite la información de los marcadores en el archivo CSV exportado e importe el archivo CSV actualizado.
-- Importar sitios promocionados desde SharePoint.
-- Realizar copia de seguridad de marcadores: exporte los marcadores a un archivo CSV.
+Puede usar la extensión del explorador del creador de contenido de Microsoft Search para agregar fácilmente marcadores. Para instalar la extensión del explorador, vaya al sitio que desea agregar como marcador y haga clic en agregar en la extensión.
+Instale la extensión para Edge y Chrome:
 
-Para importar o exportar marcadores:
+- Para el cromo de cromo o cromo: vaya al [almacén Web de Chrome](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) y agregue la extensión.
+- Para perimetral heredado: vaya a [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) y agregue la extensión.
 
-1. En la esquina superior derecha de la página **Marcadores**, seleccione **Importar**.
-Seleccione **Exportar** para descargar todos los marcadores existentes en un archivo CSV.
-1. En el panel derecho, elija la opción Importar mediante archivo CSV o desde SharePoint.
-Descargue el archivo de plantilla para obtener una lista de la información y los campos requeridos.
-1. Agregue o edite la información de los marcadores en el archivo de plantilla y, a continuación, guárdelo en su equipo.
-1. En el panel **Importar marcadores**, haga clic en **Examinar** y, a continuación, en el archivo CSV que desea importar.
-1. Seleccione **Importar**.
+### <a name="import-sharepoint-results"></a>Importar resultados de SharePoint
 
-Estos son algunos puntos importantes sobre el archivo de plantilla:
+Si su organización ha configurado los resultados promocionados en SharePoint, puede importar los títulos, las direcciones URL y las descripciones de los resultados promovidos de su inquilino a Microsoft Search y hacer que el contenido importado esté disponible para los usuarios. En la mayoría de los casos, la importación de los resultados de SharePoint dura solo unos minutos. Si va a importar un gran número de resultados, puede tardar hasta 48 horas. Esta es una forma sencilla de rellenar rápidamente los resultados de búsqueda y hacer que sea más eficaz para los usuarios. Se recomienda usar los resultados promocionados de SharePoint como referencia para comprender cómo nombrar y crear resultados de búsqueda relevantes.
 
-- No modificar nunca los datos de estos campos: *ID*, *última modificación*y *última modificación por*
+### <a name="add-default-and-suggested-bookmarks"></a>Agregar marcadores predeterminados y sugeridos
+
+Hemos incluido algunos marcadores predeterminados sugeridos que los usuarios pueden encontrar útiles, incluidos marcadores para recursos humanos, ventajas, soporte técnico de ti, administración de contraseñas y mucho más. Revise, actualice y publique estos marcadores sugeridos para proporcionar resultados de alta calidad a los usuarios inmediatamente.
+
+Los usuarios también pueden sugerir marcadores que quieran que se agreguen mediante vínculos de comentarios en Microsoft Search. Las recomendaciones aparecerán como marcadores sugeridos.
+
+### <a name="import-bookmarks"></a>Importar marcadores
+
+Use la característica importar para agregar o editar un gran número de marcadores de forma rápida y sencilla. Úselo para:
+
+- Agregar marcadores en masa: agregue detalles en el archivo de plantilla de marcador y, a continuación, impórtelo.
+- Edición en masa de marcadores: exporte marcadores a un archivo. csv, edite los detalles del marcador en el archivo exportado y, a continuación, importe el archivo editado.
+
+Algunos puntos importantes sobre el archivo de plantilla:
+
+- No modificar nunca los datos de estos campos: *ID*, *última modificación* y *última modificación por*
 - Si incluye el *identificador* de un marcador existente, se reemplazará con la información del archivo de importación.
 - En el caso de los marcadores existentes con el mismo título o dirección URL, el marcador se actualizará con información en el archivo de importación.
 - No todos los campos del archivo de plantilla son necesarios y hay campos obligatorios que varían según el estado del marcador.
-- Según el campo de *Estado* , los marcadores se guardarán como borrador, sugerido, programado, o se publicarán automáticamente.
+- Según el campo de *Estado* , los marcadores se guardarán como borrador, sugerido, programado, excluido o se publicarán automáticamente.
 - Para los socios que administran varias organizaciones, puede exportar sus marcadores de una organización e importarlos en otro. Sin embargo, debe quitar los datos de la columna *ID* antes de importar.
 
 ### <a name="prevent-import-errors"></a>Evitar errores de importación
@@ -79,31 +94,66 @@ Para evitar errores, asegúrese de que el archivo de importación tiene el forma
 
 - Incluye todas la fila de encabezado y todas las columnas que había en la plantilla de importación
 - El orden de las columnas es el mismo que en la plantilla de importación
-- Todas las columnas tienen valores, excepto los tres que pueden estar vacíos: *ID*, *Last Modified*y *Last Modified by*
+- Todas las columnas tienen valores, excepto los tres que pueden estar vacíos: *ID*, *Last Modified* y *Last Modified by*
 - La columna *Estado* no está vacía; se trata de información necesaria.
+- Al importar marcadores publicados, sugeridos, programados o borradores, se necesitan las columnas *título*, *dirección URL* y *palabras clave* .
+- Al importar marcadores excluidos, la columna *URL* es obligatoria.
 
 Para evitar errores de duplicación de marcadores a marcadores:
 
 - No use direcciones URL duplicadas para marcadores diferentes. Si una dirección URL está asignada a otro marcador e intenta agregarla de nuevo desde un archivo de importación, recibirá un error. Esto también se aplica a las direcciones URL duplicadas para otros tipos de respuestas.
 - Al actualizar los marcadores existentes, use la columna *identificador de marcador* . Puede actualizar cualquier otra propiedad de un marcador existente, como palabra clave o descripción, pero debe asegurarse de que el *identificador del marcador* se encuentra en la columna correspondiente del archivo de importación. Si el *identificador de marcador* está presente, no se tratará como nueva adición y no se procesará como un error.
 
-## <a name="power-apps"></a>PowerApps
+### <a name="publish-or-review-recommended-bookmarks"></a>Publicar o revisar los marcadores recomendados
 
-Ayude a los usuarios a completar tareas, como especificar el tiempo de vacaciones o los gastos de informes, agregando las aplicaciones Power App existentes a sus marcadores.
+Para reducir el esfuerzo manual necesario para agregar marcadores, Microsoft Search puede evaluar los vínculos de SharePoint en su organización y recomendar los marcadores, y puede revisarlos antes de publicarlos o configurarlos para que los publique automáticamente. No se necesita ninguna configuración para los marcadores recomendados, están habilitados y configurados para la publicación automática de forma predeterminada. Para cambiar esta configuración en cualquier momento, seleccione **administrar marcadores** para abrir el panel Configuración de marcadores.
 
-### <a name="power-apps-explained"></a>Explicación de Power apps
+![Captura de pantalla de la configuración de marcadores recomendada en el portal de administración de Microsoft 365](media/bookmarks-recommendedsettings.png)
 
-Power apps es un servicio que le permite crear aplicaciones empresariales que se ejecutan en un explorador o en un teléfono o tableta sin una experiencia de codificación necesaria. Las aplicaciones de energía funcionan en cualquier explorador y en cualquier dispositivo y tardan menos de un minuto en agregarse. Para obtener más información sobre las aplicaciones de energía, consulte:
+Si los marcadores recomendados están habilitados, el motor de recomendación evaluará los sitios de SharePoint de la organización para identificar los vínculos de tráfico alto. Después de un período de evaluación inicial, los marcadores recomendados se publicarán o agregarán automáticamente a la lista de marcadores sugeridos. A continuación, se iniciará el ciclo siguiente: un período de evaluación de 30 días seguido de la publicación automática o la adición de marcadores sugeridos.
 
-- [Aprendizaje guiado](https://docs.microsoft.com/learn/browse/?terms=power%20apps)
-- [Documentación](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid)
-- [Página principal de Power apps](https://make.preview.powerapps.com/environments/839eace6-59ab-4243-97ec-a5b8fcc104e4/home)
+Le recomendamos a los administradores o editores de búsqueda que revisen estos marcadores, que se publican automáticamente o sugeridos de manera regular. Además, los marcadores recomendados nunca incluirán direcciones URL que se encuentren en marcadores publicados, sugeridos, programados o excluidos existentes.
 
-### <a name="add-a-power-app-to-a-bookmark"></a>Agregar una aplicación de energía a un marcador
+Para asegurarse de que solo los usuarios con acceso verán un marcador recomendado en sus resultados de trabajo, se incluye una característica de comprobación de acceso para todos los marcadores recomendados. Los usuarios que no tienen permisos para obtener acceso a un sitio de SharePoint nunca verán el marcador recomendado para ese sitio. Esta comprobación de acceso está controlada por el valor de la opción **solo los usuarios con acceso a este vínculo** en la configuración de grupos de cada marcador recomendado.
 
-1. Busque el [identificador de aplicación de la aplicación de energía](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) que quiera agregar.
-1. En el [centro de administración de Microsoft 365](https://admin.microsoft.com), vaya a [**marcadores**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/bookmarks).
-1. Agregue un marcador o busque un marcador existente al que quiera agregar una **aplicación Power** .
-1. En **configuración de marcadores**, seleccione **Power App**y escriba o pegue el **identificador de aplicación**.
-    El alto y el ancho se ajustan automáticamente en función de la orientación que se seleccionó cuando se creó la aplicación de energía. Los marcadores admiten orientaciones verticales y horizontales. La vista previa del marcador muestra una PowerApp totalmente funcional para facilitar la prueba.
-1. Seleccione **Publicar** o **Guardar como borrador**.
+Se detendrá la comprobación de acceso si se cambia la dirección URL en el marcador recomendado o en la configuración de grupos.
+
+Para evitar que el motor de recomendación publique o sugiera un marcador a un sitio en particular, puede Agregar la dirección URL a una lista de excluidos. El motor de recomendaciones nunca publicará ni sugerirá un marcador para un sitio excluido o una página dentro de un sitio excluido.
+
+## <a name="about-keywords-and-reserved-keywords"></a>Palabras clave y palabras clave reservadas
+
+Un marcador puede tener varias palabras clave y los marcadores pueden compartir la misma palabra clave, pero la palabra clave Reserved no se puede compartir. Una palabra clave reservada es un término o frase exclusiva que desencadena un marcador específico. Una palabra clave reservada se puede asociar solo con una respuesta. Use las palabras clave reservadas con moderación.
+
+## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
+
+**P: ¿Cuánto tiempo tarda un marcador en estar visible en Microsoft Search después de publicarlo?**
+
+**A:**  Hay un marcador disponible en Microsoft Search inmediatamente después de la publicación.
+
+**P: ¿Cuánto tiempo tarda un marcador recomendado en aparecer?**
+
+**A:**  Los marcadores recomendados sólo aparecerán en Microsoft Search si están habilitados tanto los marcadores recomendados como la publicación automática. Durante el período de evaluación inicial, el motor de recomendación evaluará el tráfico de SharePoint para identificar los marcadores adecuados y, a continuación, los publicará automáticamente. Una vez publicadas, estarán disponibles inmediatamente en Microsoft Search.
+
+**P: ¿recomienda Microsoft Search los marcadores de sitios en todos los idiomas?**
+
+**A**: sí, Microsoft Search puede recomendar marcadores de cualquier sitio interno de SharePoint, independientemente del idioma.
+
+**P: ¿puedo dejar de mostrar los marcadores recomendados en los resultados de búsqueda?**
+
+**A:** Para dejar de mostrar los marcadores recomendados, desactive la configuración de autopublicación en el centro de administración. Los marcadores recomendados se agregarán a la lista de marcadores sugeridos.
+
+**P: ¿Cómo puedo identificar un marcador recomendado en los resultados de búsqueda o en el centro de administración?**
+
+**A:** En los resultados de la búsqueda, los marcadores recomendados incluyen la frase "sugerida para usted" antes de la dirección URL. En el centro de administración, los marcadores extraídos tendrán un valor de propietario de "SYSTEM".
+
+**P: ¿cómo se administra el acceso a un marcador recomendado?**
+
+**Un**: un motor de acceso con ingeniería de Microsoft determina si la dirección URL del marcador es accesible para un usuario determinado y solo mostrará el marcador recomendado a la audiencia correcta. Sin embargo, si se modifica la dirección URL o se cambia la configuración de los grupos, se deshabilitará el motor de acceso con ingeniería.
+
+**P: ¿Qué ocurre si no se realiza ninguna acción en los marcadores recomendados agregados a la lista de sugerencias?**
+
+**A: para** evitar un gran volumen de marcadores en la lista sugerida, se depurará un marcador recomendado (propietario = sistema) después de 180 días.
+
+**P: ¿Dónde encuentro el identificador de aplicación de una aplicación de energía?**
+
+**A**: vaya al sitio de Power apps y vea el panel de detalles de la aplicación. Obtenga más información sobre cómo [obtener un identificador de aplicación](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id).
