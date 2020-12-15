@@ -12,19 +12,19 @@ search.appverid:
 - MET150
 - MOE150
 description: Revisión de los informes de uso de Microsoft Search
-ms.openlocfilehash: 96599ad18cb45feb53b3a786730a3ce506f49600
-ms.sourcegitcommit: 13e52d6c66c811cc7612197ba5d8cc3598309314
+ms.openlocfilehash: f34a82892818f00737d313285e6af7bce7c8a90a
+ms.sourcegitcommit: 3aa3623022270872a2c1ed8b86201c42bc313c1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "49586373"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49675272"
 ---
 # <a name="microsoft-search-usage-reports"></a>Informes de uso de Microsoft Search
 
 Los informes de uso de búsquedas le permiten comprender mejor cómo funciona la búsqueda en su organización. La información que se genera a partir de estos informes le ayudará a que el [contenido sea fácil de encontrar](https://docs.microsoft.com/microsoftsearch/make-content-easy-to-find) y emprender acciones que harán que la búsqueda sea una experiencia más útil y agradables para los usuarios.
 
 > [!IMPORTANT]
-> Los informes de uso de Microsoft Search están actualmente en versión preliminar.
+> Los informes de uso de Microsoft Search están actualmente en versión preliminar y están implementados en los administradores de la versión de destino. Asegúrese de que su cuenta de administrador esté en el anillo de lanzamiento de destino para ver estos informes.
 
 Los [informes de uso de Microsoft Search](https://admin.microsoft.com/Adminportal/Home?#/MicrosoftSearch/insights) incluyen gráficos y tablas generadas a partir de búsquedas que se ejecutan desde la Página principal de SharePoint y los cuadros de búsqueda de Office.com. Puede ver los datos de los últimos 31 días, por día o mensualmente para el año anterior. Estos informes solo se implementan, por lo que se tardará más tiempo en acumular los datos históricos.
 
@@ -41,6 +41,9 @@ Una versión anterior de esta página incluía datos de búsquedas ejecutadas pa
 |Consultas abandonadas|Este informe muestra las consultas de búsqueda más populares que reciben clics bajo. Utilice este informe para identificar las consultas de búsqueda que pueden crear la insatisfacción en los usuarios y para mejorar la capacidad de detección de contenido. A continuación, puede determinar si la creación de una respuesta, como un marcador, o la incorporación de contenido nuevo a través de un conector de Graph es la acción adecuada.|
 |Ninguna consulta de resultados|Este informe muestra las consultas de búsqueda populares que no han devuelto ningún resultado. Utilice este informe para identificar las consultas de búsqueda que pueden crear la insatisfacción en los usuarios y para mejorar la capacidad de detección de contenido. A continuación, puede determinar si la creación de una respuesta, como un marcador, o la incorporación de contenido nuevo a través de un conector de Graph es la acción adecuada.|
 
+> [!NOTE]
+> Actualmente hay un problema con la CTR (clic) que se muestra para las principales consultas. El valor que se muestra en el panel es 100 veces mayor que el valor real. Para obtener el centro real, puede dividir el número del panel por 100 o usar el botón Descargar para obtener el informe en Excel en el que se muestra el valor correctamente.
+
 ## <a name="viewing-reports"></a>Ver informes
 
 Cuando navegue a la página informes de uso, todos los informes estarán disponibles para su visualización. Puede usar el filtro de fecha para seleccionar un día o un mes específico para su visualización.
@@ -49,7 +52,7 @@ La descarga de un informe le permitirá ver los informes a partir de un interval
 
 Para ver los informes de distribución de impresiones y consultas principales de Bing haga clic en el vínculo de la página.
 
-## <a name="frequently-asked-questions"></a>Preguntas frecuentes
+## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
 **Cuando selecciono los últimos 31 días o últimos 12 meses, ¿por qué debo elegir un día específico o un mes específico respectivamente.**
 
@@ -57,7 +60,7 @@ La vista Calendario hoy en los informes de uso de Microsoft Search es un proceso
 
 Las tablas de consulta Top, Abandoned y Failed muestran resultados del día o del mes que elija.
 
-**¿Cuándo veo los datos agregados durante los últimos 7 días, los últimos 30 días, etc. como los informes de consultas principales de Bing?**
+**¿Cuándo se ven los datos agregados durante los últimos 7 días, últimos 30 días, etc. como los principales informes de consultas de Bing?**
 
 Estamos considerando este tipo de agregación y la simplificación del filtrado de intervalo de datos para versiones futuras de estos informes.
 
@@ -69,6 +72,6 @@ Actualmente, el filtrado por origen no está disponible. Los informes combinan b
 
 Estamos trabajando en filtros adicionales que le ayudarán a mejorar el uso de la búsqueda en un nivel de la organización más granular. Por ejemplo, podrá ver el volumen de consultas de un departamento o zona geográfica específico.
 
-**¿Por qué Microsoft Search en Bing Reports es una página separada?**
+**¿Por qué Microsoft Search en Bing informa en una página separada?**
 
 La modernización de la búsqueda en las aplicaciones de Office 365 a Microsoft Search ha exigido que se unan sistemas distintos, incluida la generación de informes. Esto lleva tiempo y pensamos que era más importante obtener estos informes ahora frente a la espera hasta que podríamos completar la integración de los datos de Bing. Una vez completada la integración, los datos de todos los extremos de búsqueda se incluirán en los mismos informes.
