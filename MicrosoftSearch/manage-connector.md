@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Administrar conectores de Microsoft Graph para Microsoft Search.
-ms.openlocfilehash: 04ae757e95c6d3713ad03da701f99c669fb2a59c
-ms.sourcegitcommit: 0ed8ec8b3c4e0f5f669005081fd8b2219f07b4f0
+ms.openlocfilehash: bf5a382ae0bd8308922599f0dfa9e087aad50c24
+ms.sourcegitcommit: b1ca58219fb16d5aff277f357dfa11ce6b0d42ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49420846"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49695689"
 ---
 <!-- markdownlint-disable no-inline-html -->
 
@@ -103,7 +103,7 @@ La cuota de índice disponible y el consumo se muestran en la página de aterriz
 
 >[!NOTE]
 >Durante el período de versión preliminar, cada organización que pruebe los conectores de Graph recibió una cuota fija gratuita de hasta 2 millones elementos en todas las conexiones. Con los conectores de Graph a disposición general, la cuota libre expirará el 1 de febrero de 2021 para las organizaciones que han estado usando conectores de gráficos en la versión preliminar.
->Los conectores de gráficos creados por Microsoft etiquetados como ["vista previa"](connectors-preview.md) no se incluirán en la cuota total del índice cargado para la organización. Sin embargo, se contará para el número máximo de 10 conexiones que puede configurar para su organización y el número máximo de 7 millones elementos que su organización puede indizar en todas las conexiones.
+>Los conectores de gráficos creados por Microsoft etiquetados como ["vista previa"](connectors-preview.md) no se incluirán en la cuota total del índice cargado para la organización. Sin embargo, se contará para el número máximo de 10 conexiones que puede configurar para su organización y el número máximo de 7 millones elementos que su organización puede indizar entre conexiones; cada conexión está limitada a 700.000 elementos. 
 
 La barra de utilización de la cuota indicará varios Estados en función del consumo de cuota por parte de la organización:
 
