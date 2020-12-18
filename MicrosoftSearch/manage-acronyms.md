@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Respuestas de crear y actualizar acrónimos en Microsoft Search
-ms.openlocfilehash: e328ecb7604a144b51f3a1483eef1b1c3a7e0bcb
-ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
+ms.openlocfilehash: 9de9de8287e3ddf206f93f53573922f3cf526580
+ms.sourcegitcommit: ad225af81060a2e3d7e4c953eeb6977d54698b60
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422950"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709686"
 ---
 # <a name="manage-acronyms-answers-in-microsoft-search"></a>La administración de acrónimos responde en Microsoft Search
 
@@ -100,7 +100,7 @@ Microsoft Search se asegura de que solo los usuarios con acceso y permisos a un 
 
 **P: ¿cómo se clasifican los datos editoriales y extraídos?**
 
-**A:** La característica clasifica actualmente los acrónimos editoriales superiores a los acrónimos extraídos.
+**A:** La clasificación de los resultados puede variar de una persona a otra, ya que los resultados se personalizan para cada usuario.
 
 **P: ¿Cuánto tiempo tardan los acrónimos de editorial en estar visibles en Microsoft Search después de publicarlos?**
 
@@ -108,7 +108,7 @@ Microsoft Search se asegura de que solo los usuarios con acceso y permisos a un 
 
 **P: ¿Cómo responden los usuarios que desencadenan acrónimos?**
 
-**A: para**obtener respuestas de acrónimos, los usuarios deben escribir patrones de consulta específicos en un cuadro de **búsqueda** de [Bing](https://bing.com), [SharePoint](https://products.office.com/sharepoint/collaboration)o [Office 365](https://Office.com) .
+**A: para** obtener respuestas de acrónimos, los usuarios deben escribir patrones de consulta específicos en un cuadro de **búsqueda** de [Bing](https://bing.com), [SharePoint](https://products.office.com/sharepoint/collaboration)o [Office 365](https://Office.com) .
 
 **P: ¿Cuánto tiempo tardan los acrónimos extraídos en aparecer después de recibir o enviar un nuevo correo electrónico o documento?**
 
@@ -124,5 +124,5 @@ Microsoft Search se asegura de que solo los usuarios con acceso y permisos a un 
 
 **P: ¿Qué sucede si mi organización no quiere mostrar acrónimos que se han extraído? ¿Puedo dejar de mostrar acrónimos que se han extraído en los resultados de búsqueda?**
 
-**A: para**desactivar la presentación de acrónimos extraídos en los resultados de la búsqueda, cree un vale de soporte al cliente siguiendo las instrucciones en [contacto soporte técnico for Business Products](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?redirectSourcePath=%252f%252farticle%252fContact-Office-365-for-business-support-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b&view=o365-worldwide&tabs=online#BKMK_call_support).
+**A: para** desactivar la presentación de acrónimos extraídos en los resultados de la búsqueda, cree un vale de soporte al cliente siguiendo las instrucciones en [contacto soporte técnico for Business Products](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?redirectSourcePath=%252f%252farticle%252fContact-Office-365-for-business-support-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b&view=o365-worldwide&tabs=online#BKMK_call_support).
 Después de crear un vale de soporte técnico, tarda hasta 48 horas en acrónimos extraídos para dejar de aparecer en los resultados de la búsqueda.

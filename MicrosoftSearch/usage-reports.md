@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Revisión de los informes de uso de Microsoft Search
-ms.openlocfilehash: f34a82892818f00737d313285e6af7bce7c8a90a
-ms.sourcegitcommit: 3aa3623022270872a2c1ed8b86201c42bc313c1f
+ms.openlocfilehash: 04de0de08423eff1368bc2b77e48d3fc8add038d
+ms.sourcegitcommit: 1d6fcf180f427abf3d8bfa4b8b6129e39f60ceb4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49675272"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712615"
 ---
 # <a name="microsoft-search-usage-reports"></a>Informes de uso de Microsoft Search
 
@@ -30,19 +30,18 @@ Los [informes de uso de Microsoft Search](https://admin.microsoft.com/Adminporta
 
 Una versión anterior de esta página incluía datos de búsquedas ejecutadas para Microsoft Search en Bing en Bing.com. Los datos se integrarán en estos informes muy pronto, pero por ahora puede ver esos informes haciendo clic en el vínculo en la parte inferior de la página para **ver las consultas principales de Bing y la distribución de impresión**.
 
-![Panel de informes de uso de búsqueda](media/usage-reports/usage_reports_v2.png)
+> [!div class="mx-imgBorder"]
+> ![Panel de informes de uso de búsqueda](media/usage-reports/usage_reports_v2.png)
+
 
 ## <a name="overview-of-search-reports"></a>Información general sobre los informes de búsqueda
 
-|**Informe**|**Descripción**|
+| Informe | Descripción |
 |:-----|:-----|
 |Volumen de consultas|Este informe muestra el número de consultas de búsqueda realizadas. Use este informe para identificar tendencias de volumen de consultas de búsqueda y para determinar períodos de actividad de búsqueda alta y baja.|
 |Principales consultas|Este informe muestra las consultas de búsqueda más populares. Use este informe para comprender los tipos de información que los usuarios buscan.|
 |Consultas abandonadas|Este informe muestra las consultas de búsqueda más populares que reciben clics bajo. Utilice este informe para identificar las consultas de búsqueda que pueden crear la insatisfacción en los usuarios y para mejorar la capacidad de detección de contenido. A continuación, puede determinar si la creación de una respuesta, como un marcador, o la incorporación de contenido nuevo a través de un conector de Graph es la acción adecuada.|
 |Ninguna consulta de resultados|Este informe muestra las consultas de búsqueda populares que no han devuelto ningún resultado. Utilice este informe para identificar las consultas de búsqueda que pueden crear la insatisfacción en los usuarios y para mejorar la capacidad de detección de contenido. A continuación, puede determinar si la creación de una respuesta, como un marcador, o la incorporación de contenido nuevo a través de un conector de Graph es la acción adecuada.|
-
-> [!NOTE]
-> Actualmente hay un problema con la CTR (clic) que se muestra para las principales consultas. El valor que se muestra en el panel es 100 veces mayor que el valor real. Para obtener el centro real, puede dividir el número del panel por 100 o usar el botón Descargar para obtener el informe en Excel en el que se muestra el valor correctamente.
 
 ## <a name="viewing-reports"></a>Ver informes
 
@@ -52,11 +51,11 @@ La descarga de un informe le permitirá ver los informes a partir de un interval
 
 Para ver los informes de distribución de impresiones y consultas principales de Bing haga clic en el vínculo de la página.
 
-## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
+## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 
-**Cuando selecciono los últimos 31 días o últimos 12 meses, ¿por qué debo elegir un día específico o un mes específico respectivamente.**
+**Cuando selecciono los últimos 31 días o últimos 12 meses, ¿por qué debo elegir un día específico o un mes específico?**
 
-La vista Calendario hoy en los informes de uso de Microsoft Search es un proceso de dos pasos. en primer lugar, seleccione el intervalo de fechas en la lista desplegable (últimos 31 días o últimos 12 meses) y, a continuación, seleccione el día o el mes de inicio.
+La vista Calendario, en la actualidad, en los informes de uso de Microsoft Search es un proceso de dos pasos. En primer lugar, seleccione el intervalo de fechas en la lista desplegable (últimos 31 días o últimos 12 meses) y, a continuación, seleccione el día o el mes de inicio.
 
 Las tablas de consulta Top, Abandoned y Failed muestran resultados del día o del mes que elija.
 
