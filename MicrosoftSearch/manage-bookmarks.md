@@ -1,8 +1,8 @@
 ---
 title: Administrar marcadores
-ms.author: jeffkizn
-author: jeffkizn
-manager: parulm
+ms.author: dawholl
+author: dawholl
+manager: jeffkizn
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Crear y actualizar marcadores y formas de editar en masa los resultados de marcadores para Microsoft Search
-ms.openlocfilehash: 6a678464ec23c2d4c90190b6a02c0a73839b50ee
-ms.sourcegitcommit: 41d28060238091455c7b8b011c67ae60c8a41f1f
+ms.openlocfilehash: fee855e3d3fe780021530488dbaa5a864dcba2d8
+ms.sourcegitcommit: 9daa3c8f6eeab502b28975a308d4d1014a00eb25
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49619584"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718652"
 ---
 # <a name="manage-bookmarks"></a>Administrar marcadores
 
@@ -124,7 +124,7 @@ Para evitar que el motor de recomendación publique o sugiera un marcador a un s
 
 Un marcador puede tener varias palabras clave y los marcadores pueden compartir la misma palabra clave, pero la palabra clave Reserved no se puede compartir. Una palabra clave reservada es un término o frase exclusiva que desencadena un marcador específico. Una palabra clave reservada se puede asociar solo con una respuesta. Use las palabras clave reservadas con moderación.
 
-## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
+## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 
 **P: ¿Cuánto tiempo tarda un marcador en estar visible en Microsoft Search después de publicarlo?**
 
@@ -144,7 +144,7 @@ Un marcador puede tener varias palabras clave y los marcadores pueden compartir 
 
 **P: ¿Cómo puedo identificar un marcador recomendado en los resultados de búsqueda o en el centro de administración?**
 
-**A:** En los resultados de la búsqueda, los marcadores recomendados incluyen la frase "sugerida para usted" antes de la dirección URL. En el centro de administración, los marcadores extraídos tendrán un valor de propietario de "SYSTEM".
+**A:** En los resultados de la búsqueda, los marcadores recomendados incluyen la frase "sugerida para usted" antes de la dirección URL. En el centro de administración, los marcadores recomendados tendrán el valor "sistema" como propietario.
 
 **P: ¿cómo se administra el acceso a un marcador recomendado?**
 

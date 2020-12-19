@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Agregar presentaciones verticales de búsqueda y personalizar los resultados de la búsqueda
-ms.openlocfilehash: 8522a6daf05b718ee6a066272da181be6e95905e
-ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
+ms.openlocfilehash: edc541e902965472295a835906ef36fcd7fba730
+ms.sourcegitcommit: e1215758fd1325526e4b7b1612c3349137c6fbc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367491"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49716989"
 ---
 # <a name="customize-the-search-results-page"></a>Personalización de la página de resultados de búsqueda
 
@@ -116,13 +116,13 @@ Después de iniciar el asistente, se le guiará por los pasos para definir el no
 
 ## <a name="step-3-view-the-vertical-after-its-enabled"></a>Paso 3: ver la vertical una vez habilitada
 
-Después de habilitar el vertical, puede tardar un rato antes de poder verlo. Si no quiere esperar después de habilitarla, puede anexar **cacheClear = true** a la dirección URL de [SharePoint](https://sharepoint.com/) y [Office](https://office.com) para ver la vertical inmediatamente.
+Después de habilitar el vertical, puede tardar un rato antes de poder verlo. Si no quiere esperar después de habilitarla, puede anexar **cacheClear = true** a la dirección URL de [SharePoint](https://sharepoint.com/) y [Office](https://office.com) para ver la vertical inmediatamente. Para [Bing](https://bing.com), anexe **&características = uncachedVerticals** a la dirección URL vertical de trabajo para ver las verticales inmediatamente. 
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
 Esta es una lista de problemas comunes que puede encontrarse y acciones para corregirlos.
 
-|Error  |Action  |
+|Error  |Acción  |
 |---------|---------|
 | Aparece el mensaje de error "se ha producido un problema" en la vertical. | Tanto los tipos de resultados como los verticales son necesarios para completar la configuración. Asegúrese de que ha creado ambos para el mismo origen de contenido. |
 | No veo el diseño de los resultados, aunque creé uno. | Tarda unos minutos porque esta configuración suele almacenarse en caché. Espere unos minutos y vuelva a intentarlo.        |
