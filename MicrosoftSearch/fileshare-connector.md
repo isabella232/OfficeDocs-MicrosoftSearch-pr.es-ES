@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Configurar el conector de recurso compartido de archivos para Microsoft Search
-ms.openlocfilehash: a95cfe90ca35a385bb9ce3a4c565c18c5a42ec80
-ms.sourcegitcommit: 69a1c544cc8db364991cb58d7818d7158ff108b8
+ms.openlocfilehash: bf9fb730abd4ca6e42b681893525bbe3dd8a1419
+ms.sourcegitcommit: 249f41723dd6fda1e93ee1a8f3f7571ef066454b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49408937"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49750901"
 ---
 # <a name="file-share-connector"></a>Conector de uso compartido de archivos
 
@@ -63,3 +63,7 @@ En la pantalla **administrar esquema** , tiene la opción de cambiar los atribut
 ## <a name="set-the-refresh-schedule"></a>Establecer la programación de actualización
 
 El intervalo de programación de actualización predeterminada recomendado es de 15 minutos, pero puede cambiarlo según sus preferencias.
+
+## <a name="result-layout"></a>Diseño de los resultados
+
+Le recomendamos que use el diseño de resultados predeterminado para mostrar los resultados del conector de FileShare porque tiene iconos y controles apropiados que le ayudarán a desplazarse a la ruta de acceso al archivo. Si crea un nuevo diseño de resultados, se reemplazará el valor predeterminado.

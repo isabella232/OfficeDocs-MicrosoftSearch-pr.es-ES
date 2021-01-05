@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenga información general sobre lo que es Microsoft Search, sus ventajas y las aplicaciones compatibles con Microsoft Search.
-ms.openlocfilehash: fc21328f9a72ac77e37ae366bd138770509d6080
-ms.sourcegitcommit: d40d44d01b27dfed92577446fe7a30008b28deb4
+ms.openlocfilehash: f06aff0ea0407983a40f60e03337d4ed281a53ad
+ms.sourcegitcommit: d6f8628be8108e6e9d6fb9efb7bd06bc2fcd561d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43914493"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "49749390"
 ---
 # <a name="overview-of-microsoft-search"></a>Introducción a Búsqueda de Microsoft
 
@@ -40,7 +40,7 @@ Cuando los usuarios hacen clic en el cuadro de **búsqueda** , la búsqueda sugi
 
 ![Capturas de pantalla del cuadro de Búsqueda de Microsoft con una consulta y los resultados sugeridos](media/SERP_text_520.png)
 
-Si las sugerencias que aparecen en el cuadro de búsqueda no son lo que los usuarios buscan, **Escriba** abre la lista completa de resultados. Pueden usar metadatos, como quién modificó por última vez el elemento y cuándo, o dónde encuentran los elementos, así como obtener una vista previa para determinar si es lo buscan.
+Si las sugerencias que aparecen en el cuadro de búsqueda no son lo que los usuarios buscan, **Escriba** abre la lista completa de resultados. Pueden usar metadatos como quién modificó por última vez el elemento y cuándo, dónde se encuentra el elemento, así como obtener una vista previa para determinar si es lo que están buscando.
 
 ![Capturas de pantalla de página de resultados de Búsqueda de Microsoft](media/search_box.png)
 
