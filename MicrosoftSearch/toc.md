@@ -9,6 +9,7 @@
 ## [Marcadores](manage-bookmarks.md)
 ## [Planos de planta](manage-floorplans.md)
 ## [Ubicaciones](manage-locations.md)
+## [Power BI](manage-powerbi.md)
 ## [Preguntas y respuestas](manage-qas.md)
 # Conectores (vista previa)
 ## [Información general](connectors-overview.md)
