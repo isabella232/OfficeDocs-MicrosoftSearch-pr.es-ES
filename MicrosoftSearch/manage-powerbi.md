@@ -11,15 +11,14 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-robots: NOINDEX:NOFOLLOW
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Administrar la forma en que los datos y los informes de Power BI aparecen en los resultados de búsqueda
-ms.openlocfilehash: d775647b7cb2fca08ca7f693d4e1c8dd246d3599
-ms.sourcegitcommit: f17d81385b304f379bdc75d44580f59c3242e672
+ms.openlocfilehash: e78b8b5d22f7a91d80832fb4f5b536afc277fb6c
+ms.sourcegitcommit: 7294c953e7939e48f128656cc2f8f22705ae3f3d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/06/2021
-ms.locfileid: "49760891"
+ms.locfileid: "49773049"
 ---
 # <a name="manage-power-bi-answers"></a>Administración de respuestas de Power BI
 
