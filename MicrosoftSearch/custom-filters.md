@@ -12,50 +12,51 @@ search.appverid:
 - MET150
 - MOE150
 description: Administrar filtros personalizados
-ms.openlocfilehash: 75273035a7825683f626464df7bbc8e294b41b6f
-ms.sourcegitcommit: 59435698bece013ae64ca2a68c43455ca10e3fdf
+ms.openlocfilehash: a050921058eac50d7588f1e71f5b0f56cc8e5752
+ms.sourcegitcommit: a86265684871da86562a76c4961d0a6c1869f517
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48927390"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "49790338"
 ---
-# <a name="create-custom-filters"></a>Crear filtros personalizados
+# <a name="manage-custom-filters"></a>Administrar filtros personalizados
 
-Puede crear filtros para personalizar la experiencia de búsqueda que los usuarios ven cuando buscan en Microsoft [SharePoint](https://sharepoint.com/), Microsoft [Office](https://office.com)y Microsoft Search en [Bing](https://bing.com). Filtros permite a los usuarios refinar rápidamente el conjunto de resultados de la consulta de búsqueda.
+Puede usar filtros para personalizar la experiencia de Búsqueda de Microsoft. Los filtros permiten a los usuarios refinar rápidamente el conjunto de resultados de su consulta de búsqueda.
 
-Se puede crear un filtro personalizado dentro de un vertical basado en una propiedad de conexión. Por ejemplo, puede crear un filtro **publicado en** para la conexión de ServiceNow dentro de una vertical personalizada.
+Se puede crear un filtro personalizado dentro de una vertical en función de una propiedad de conexión. Por ejemplo, puede crear un filtro **Publicado en** para la conexión ServiceNow dentro de una vertical.
+
+## <a name="create-a-filter-in-an-organizational-level-vertical"></a>Crear un filtro en una vertical de nivel organizativo
+
+Para crear un filtro en la búsqueda de Microsoft, siga estos pasos:
+
+1. En el Centro de administración de Microsoft 365, vaya [a Verticales.](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/verticals)
+1. Crear o editar la vertical en la que desea crear el filtro
+1. Vaya al paso "Filtros" en el asistente
+1. Haz clic en "Agregar filtro" y empieza a trabajar
+1. Después de agregar filtros, puede revisar y guardar la vertical.
 
 ## <a name="things-to-consider"></a>Consideraciones que se deben tener en cuenta
 
-1. Para crear un filtro personalizado en el origen de contenido de conexión, se proporcionan algunas funciones adicionales:
-- También puede crear un filtro en un alias para las propiedades de origen del conector
-- En caso de que la vertical tenga varias conexiones, puede crear un filtro común a través de estas conexiones. Para ello, cree el filtro en un alias común que contenga los alias de las propiedades de origen en distintas conexiones. Por ejemplo, puede crear un filtro de **autor** en un ServiceNow & una conexión JIRA mediante la creación de alias de la siguiente manera:
+1. Existen capacidades de filtro adicionales en el contenido de la conexión.
 
-| Connection | Propiedad | Alias |
-| --- | --- | --- |
-| Servicio ahora | Owner | Autor |
-| Jira | Publisher | Autor |
+    - También puede crear un filtro en un alias para las propiedades de origen del conector
+    - Si una vertical tiene varias conexiones, puede crear un filtro común en estas conexiones. Esto se puede hacer creando el filtro en un alias común que aliase las propiedades de origen en las distintas conexiones. Por ejemplo, puede crear un filtro **De** autor a través de una conexión ServiceNow y Jira mediante la creación de alias de la siguiente manera:
 
-2. Existen filtros en el ámbito de la vertical. Ello  
-- Si un filtro se crea en un vertical que se encuentra en el nivel de organización, el filtro solo estaría visible en el nivel de organización.
-- Si un filtro se crea en un nivel vertical que se encuentra en el nivel del sitio, el filtro solo estaría visible en el nivel de sitio.
+    | Connection | Propiedad | Alias |
+    | --- | --- | --- |
+    | Servicio ahora | Owner | Autor |
+    | Jira | Publisher | Autor |
 
-## <a name="steps-to-create-custom-filter"></a>Pasos para crear un filtro personalizado
+1. Los filtros existen en el ámbito de una vertical.
 
-### <a name="create-filter-in-organizational-level-vertical"></a>Crear filtro a nivel de organización vertical:
-
-Para crear un filtro en Microsoft Search, siga estos pasos:
-
-1. En el centro de administración de Microsoft 365, vaya a la página [vertical](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/verticals) .
-2. Crear o editar el vertical en el que desea crear el filtro
-3. Vaya al paso "filtros" del asistente.
-4. Haga clic en "agregar filtro" y empiece después de agregar filtros, puede revisar y guardar el vertical.
+    - Si se crea un filtro en una vertical que se encuentra en el nivel organizativo, el filtro solo será visible en el nivel de la organización.
+    - Si se crea un filtro en una vertical que se encuentra en el nivel de sitio, el filtro solo será visible en el nivel de sitio.
 
 ## <a name="known-limitations"></a>Limitaciones conocidas
 
-1. Actualmente, solo se pueden crear filtros en las propiedades administradas de tipo de fecha & cadena.
-2. No puede crear filtros jerárquicos
+1. Actualmente, solo puede crear filtros en cadenas & propiedades administradas de tipo de fecha.
+1. No puede crear filtros jerárquicos.
 
 ## <a name="resources"></a>Recursos
 
-[Página personalizar resultados de búsqueda](customize-search-page.md)
+[Administrar los sectores verticales y los tipos de resultados](customize-search-page.md)
