@@ -12,28 +12,38 @@ search.appverid:
 - MET150
 - MOE150
 description: Requisitos de licencia para la versión preliminar pública de conectores de Microsoft Graph para Microsoft Search
-ms.openlocfilehash: 04683a0fe15d4f76286d6637d97345eda57a0330
-ms.sourcegitcommit: 995ce23d4e47a3456a02dba0ba7c9cd0de64528a
+ms.openlocfilehash: 4d8c279b948063c713fb0afaf713ab42c9714b54
+ms.sourcegitcommit: 469be70ad295a5837978d75babf5243115257f77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920678"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49847532"
 ---
 # <a name="license-requirements-and-pricing"></a>Requisitos de licencia y precios
 
-Este artículo está destinado a los administradores globales o de facturación que quieren obtener información sobre cómo comprar la cuota de conectores de Graph adicionales para su organización.
+Este artículo está dirigido a administradores globales o de facturación que desean obtener información sobre cómo comprar una cuota adicional de conectores de Graph para su organización.
 
-Necesita una licencia válida de Microsoft 365 o de Office 365 y suficientes conectores de Graph para que su organización pueda ver los datos de los conectores de los resultados de búsqueda. Todos los [conectores de Graph de Microsoft](configure-connector.md) son gratuitos. Sin embargo, debe tener una cuota de índice suficiente para recopilar el contenido de esos conectores.
+Cualquier licencia válida de Microsoft 365 u Office 365 le permite ver datos de conectores en los resultados de la búsqueda.
 
-Cada licencia de Microsoft 365 o Office 365 E5 incluye 500 elementos de cuota de índice, que se incluyen en la cuota de la organización para recopilar contenido de los conectores de Graph. Por ejemplo, si su organización tiene 100 licencias de Microsoft 365 E5, su organización tiene 100 x 500 = 50.000 elementos de la cuota del índice de conectores de Graph.
-
-Para adquirir una cuota adicional de conectores de Graph, póngase en contacto con el administrador de cuentas de Microsoft o realice los siguientes pasos:
-
-1. En el menú de navegación del [centro de administración de Microsoft 365](https://admin.microsoft.com) , vaya a **facturación >** de los servicios de compra.
-2. En la parte inferior de la página servicios de compra, seleccione **Complementos**.
-3. Seleccione **capacidad del conector de gráficos extra**.
-4. Seleccione **comprar** y complete sus preferencias de pedido.
-5. Seleccione **Desproteger ahora**.
+Para indizar contenido mediante conectores de Graph, debe tener una cuota de índice suficiente. La cuota de índice de conectores de Graph está disponible a través de:
+- Derecho integrado en licencias de Microsoft 365 u Office 365 E5
+- Compra de cuota de índice de complemento (consulta a continuación las instrucciones de compra)
 
 >[!NOTE]
->Actualmente, los conectores de Graph solo admiten hasta 7 millones elementos de una cuota de índice total, que incluye cualquier cuota integrada en licencias de Microsoft 365 o Office 365 E5. La plataforma será compatible con límites superiores en el futuro. Si tiene alguna pregunta, póngase en contacto con el soporte técnico de Microsoft o con su administrador de cuentas de Microsoft.
+>Todos los conectores de Graph de Microsoft son gratuitos. Sin embargo, debe tener una cuota de índice suficiente para ingerir contenido de esos conectores.
+
+El siguiente tipo de licencia incluye el derecho a 500 elementos de cuota de índice, que cuenta para la cuota de su organización para la ingesta de contenido de conectores de Graph.
+- Microsoft 365 E5 u Office 365 E5
+
+Por ejemplo, si su organización tiene 100 licencias de Microsoft 365 E5, su organización tiene 100 x 500 = 50 000 elementos por valor de cuota de índice de conectores de Graph.
+
+Para comprar una cuota adicional de conectores de Graph, entre en contacto con el Administrador de cuentas de Microsoft o siga estos pasos:
+
+1. En el menú de navegación del Centro de administración de [Microsoft 365,](https://admin.microsoft.com) vaya a Facturación **> servicios de compra.**
+2. En la parte inferior de la página Servicios de compra, **seleccione Complementos.**
+3. Seleccione **Capacidad del conector de Gráfico adicional.**
+4. Selecciona **Comprar y** completa las preferencias de pedido.
+5. Seleccione **Des check out now**.
+
+>[!NOTE]
+>Actualmente, los conectores de Graph solo admiten hasta 7 millones de elementos de cuota de índice total, lo que incluye cualquier cuota integrada agrupada en licencias de Microsoft 365 u Office 365 E5. La plataforma admitirá límites más altos en el futuro. Ponte en contacto con el soporte técnico de Microsoft o con el administrador de cuentas de Microsoft si tienes alguna pregunta.
