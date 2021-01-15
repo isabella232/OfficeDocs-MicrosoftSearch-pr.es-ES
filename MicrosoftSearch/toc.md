@@ -18,7 +18,7 @@
 ## Conectores de Graph por Microsoft
 ### [Información general sobre la configuración](configure-connector.md)
 ### [Asignar las identidades que no son de Azure AD (versión preliminar)](map-non-aad.md)
-### [Asignar las identidades de Azure AD ](map-aad.md)
+### [Asignar las identidades de Azure AD (versión preliminar)](map-aad.md)
 ### Información específica del conector
 #### [Azure Data Lake Storage Gen2](azure-data-lake-connector.md)
 #### [Azure DevOps (versión preliminar)](azure-devops-connector.md)
@@ -28,6 +28,7 @@
 #### [Salesforce (versión preliminar)](salesforce-connector.md)
 #### [ServiceNow](servicenow-connector.md)
 ## [Administrar las conexiones](manage-connector.md)
+## [Detalles de conexión y errores.](connector-details-errors.md)
 ## [Licencias](licensing.md)
 ## [Comentarios](connectors-feedback.md)
 ## [Condiciones de uso](terms-of-use.md)
@@ -44,7 +45,7 @@
 ## Búsqueda de Microsoft en Bing
 ### [Seguridad y privacidad](security-for-search.md)
 ### [Agregar un cuadro de búsqueda a su sitio de intranet](add-a-search-box-to-your-intranet-site.md)
-### [Hacer de Microsoft Edge el explorador predeterminado](set-default-browser.md)
+### [Hacer de Microsoft Edge el explorador predeterminado](/deployedge/edge-default-browser)
 ### [Establezca Bing como el motor de búsqueda predeterminado](set-default-search-engine.md)
 ### [Convertir Bing.com en la Página principal predeterminada](set-default-homepage.md)
 ### [Guía de adopción del usuario](user-adoption-guide.md)
