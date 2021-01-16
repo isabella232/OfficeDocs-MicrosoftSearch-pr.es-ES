@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Detalles y errores de conectores
-ms.openlocfilehash: bd091b35a1f62da9fe45ec7a955de051a1bc0a9a
-ms.sourcegitcommit: 469be70ad295a5837978d75babf5243115257f77
+ms.openlocfilehash: 23b2f0745a09bffbc5ac6ad9c2163c7a5b63cb51
+ms.sourcegitcommit: d22fe2a34d7efe2dd5bbb456f0d00eb5f6c7608c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49848799"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "49880604"
 ---
 <!-- markdownlint-disable no-inline-html -->
 
@@ -53,7 +53,7 @@ Para ver los detalles específicos de un error, seleccione su código de error. 
 
 ![Lista de conectores con un conector seleccionado y el panel de detalles que muestra la lista de errores del conector.](media/errormonitoring2.png)
 
-A continuación se muestra la lista de diferentes errores que pueden aparecer en cualquier conexión. Si estas soluciones no funcionan, póngase en contacto con el soporte técnico o envíenos [sus comentarios.](connectors-feedback.md)
+A continuación se muestra la lista de diferentes errores que pueden aparecer en cualquier conexión.
 
 Código de error | Mensaje de error | Solución
 --- | --- | ---
