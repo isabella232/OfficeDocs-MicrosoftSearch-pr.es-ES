@@ -12,16 +12,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Detalles y errores de conectores
-ms.openlocfilehash: 23b2f0745a09bffbc5ac6ad9c2163c7a5b63cb51
-ms.sourcegitcommit: d22fe2a34d7efe2dd5bbb456f0d00eb5f6c7608c
+ms.openlocfilehash: 79f6404670e6c5a655559efac7235b1e7813f8e4
+ms.sourcegitcommit: 39bf9f0db7f9bff2ab82c99a059b0ddcf1c98f5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "49880604"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "49905979"
 ---
 <!-- markdownlint-disable no-inline-html -->
 
-# <a name="view-connection-details-and-errors-for-microsoft-search"></a>Ver detalles y errores de conexión para Microsoft Search
+# <a name="view-connection-details-and-errors"></a>Ver detalles y errores de conexión
 
 Para obtener acceso a los conectores y administrarlos, debe designarse como administrador de búsqueda para su espacio empresarial. Póngase en contacto con el administrador de inquilinos para que le aprovisione el rol de administrador de búsqueda.
 
@@ -31,7 +31,7 @@ Puede ver detalles y errores de conexión al hacer clic en la conexión en la [p
 
 ## <a name="view-your-last-crawl-info"></a>Ver la información del último rastreo
 
-Una vez completado correctamente el primer rastreo incremental o completo inicial, los últimos valores de datos de rastreo se muestran en el encabezado del último rastreo en el panel de detalles. Si no se ejecutó el último rastreo, no verá información en el encabezado del último rastreo. Esta información sobre el último rastreo le ayudará a obtener información sobre cómo se realizó el rastreo y a realizar los pasos necesarios siempre que sea necesario.
+Una vez completado correctamente el primer rastreo incremental o completo inicial, los últimos valores de datos de rastreo se muestran debajo del último encabezado de rastreo en el panel de detalles. Si no se ejecutó el último rastreo, no verá información en el encabezado del último rastreo. Esta información sobre el último rastreo le ayudará a obtener información sobre cómo se realizó el rastreo y a realizar los pasos necesarios siempre que sea necesario.
 
 Los siguientes valores de último rastreo estarán disponibles para cada conexión:
 
@@ -47,7 +47,7 @@ Valor | Description
 
 Para cada **conector activo de** la ficha Conectores, los errores de rastreo **existentes** se muestran en la **pestaña Error.** La pestaña enumera los códigos de error, el recuento de cada una y las opciones de descarga del registro de errores. Vea el ejemplo en la imagen siguiente. Seleccione un **código de error** para ver los detalles del error.
 
-![Lista de conectores con un conector seleccionado y panel de detalles que muestra 3 errores para este conector.](media/errormonitoring1.png)
+![Lista de conectores con un conector seleccionado y el panel de detalles que muestra 3 errores para este conector.](media/errormonitoring1.png)
 
 Para ver los detalles específicos de un error, seleccione su código de error. Aparece una pantalla con detalles de error y un vínculo. Los errores más recientes aparecen en la parte superior. Vea el ejemplo en la tabla siguiente.
 
@@ -61,13 +61,13 @@ Código de error | Mensaje de error | Solución
 1001 | No se pueden actualizar los datos porque el origen de datos limita el conector. | Para desarroque el origen de datos, compruebe si sus límites de escala pueden aumentarse o esperar hasta una hora del día menos intensa para el tráfico.
 1002 | No se puede autenticar con el origen de datos. Compruebe que las credenciales asociadas a este origen de datos son correctas. | Haga **clic en Editar** para actualizar las credenciales de autenticación.
 1003 | La cuenta asociada al conector no tiene permiso para obtener acceso al elemento. |  Asegúrese de que la cuenta adecuada tiene acceso al elemento que desea indizar.
-1004 | No se puede acceder a la puerta de enlace de datos local. Asegúrese de que el servicio de puerta de enlace se está ejecutando y de que los detalles de la puerta de enlace se actualizan en la configuración de conexión. | Compruebe el equipo con la puerta de enlace, abra la aplicación de puerta de enlace de Power BI y asegúrese de que la puerta de enlace se está ejecutando. Compruebe que la puerta de enlace usa la misma cuenta de administrador que Microsoft Search y, a continuación, asegúrese de que todos los detalles de la puerta de enlace se actualizan en la configuración de conexión.
+1004 | No se puede acceder a la puerta de enlace de datos local. Asegúrese de que el servicio de puerta de enlace se está ejecutando y de que los detalles de la puerta de enlace se actualizan en la configuración de conexión. | Compruebe el equipo con la puerta de enlace, abra la aplicación de puerta de enlace de Power BI y asegúrese de que la puerta de enlace se está ejecutando. Compruebe que la puerta de enlace usa la misma cuenta de administrador que Microsoft Search y, a continuación, asegúrese de que todos los detalles de la puerta de enlace estén actualizados en la configuración de conexión.
 1005 | Las credenciales asociadas a este origen de datos han expirado. Renueve las credenciales y actualice la conexión. | Haga **clic en Editar** para actualizar las credenciales de autenticación.
 1006 | La versión de la puerta de enlace no está actualizada y ya no admite este conector. Deberá actualizar la puerta de enlace. | Visite [Instalar una puerta de](https://docs.microsoft.com/data-integration/gateway/service-gateway-install) enlace de datos local para descargar e instalar la versión más reciente de la puerta de enlace de Power BI en el equipo que contiene la puerta de enlace.
 1007 | No se detectó ninguna licencia válida de Power BI. Necesita una licencia válida de Power BI para realizar este rastreo. | Necesita una licencia válida de Power BI para realizar este rastreo. Compruebe que su organización tiene una licencia válida. Si es así, inténtelo de nuevo. Si no es así, obtenga una licencia y vuelva a intentarlo.
 1008 | El uso total de la cuota del espacio empresarial ha alcanzado su límite. | Intenta eliminar una conexión para liberar parte de la cuota o ajustar los filtros de ingesta para traer menos datos. Si estos no resuelven el problema, póngase en contacto con el soporte técnico de Microsoft.
 1009 | El uso total de la cuota de la conexión ha alcanzado su límite. | Intenta ajustar los filtros de ingesta para traer menos datos. Si esto no soluciona el problema, póngase en contacto con el soporte técnico de Microsoft.
-1010 | El uso total de la cuota para indizar grupos que no son de Azure AD ha alcanzado su límite de 100.000. | Intenta eliminar una conexión para liberar parte de la cuota o ajustar los filtros de ingesta para traer menos datos. Si estos no resuelven el problema, póngase en contacto con el soporte técnico de Microsoft.
+1010 | El uso total de la cuota para indizar grupos que no son de Azure AD ha alcanzado su límite de 100.000. | Intenta eliminar una conexión para liberar parte de la cuota o ajustar los filtros de ingesta para traer menos datos. Si no solucionan el problema, póngase en contacto con el soporte técnico de Microsoft.
 1011 | El agente de conector [de](on-prem-agent.md) Graph no es accesible ni está sin conexión. | 
 1012 | Error en la autenticación de la conexión debido a un modo de autenticación no compatible. | Edite la conexión para actualizar la configuración de autenticación de la conexión.
 2001 | La indización se limita debido a un gran número de actualizaciones en la cola. Según la cola, las actualizaciones pueden tardar algún tiempo en completarse. | Espere hasta que se borra la cola.
@@ -77,7 +77,7 @@ Código de error | Mensaje de error | Solución
 2005 | Error en la indización porque el URI es demasiado largo. | Vea la documentación específica del conector para obtener más información.
 2006 | Error en la asignación de usuarios debido a una fórmula de asignación no válida o a que ningún usuario de Azure AD con esta propiedad. | Intente eliminar y volver a crear la conexión con una fórmula de asignación diferente. 
 2007 | Este elemento no se mostrará en Microsoft Search porque algunos usuarios o grupos sin permiso para ver este elemento no se pudieron indizar. | 
-2008 | Las conexiones no pueden tener grupos que no son de Azure AD con más de 50 000 miembros. | Intente quitar usuarios de un grupo o quite los elementos ACLed con ese grupo de la ingesta y vuelva a crear la conexión.
+2008 | Las conexiones no pueden tener grupos que no son de Azure AD con más de 50 000 miembros. | Intenta quitar usuarios de un grupo o intenta quitar elementos ACLed con ese grupo de la ingesta y vuelve a crear la conexión.
 2009 | La indización de grupos que no es de Azure AD se pausa temporalmente debido a un gran número de solicitudes. La indización se reanudará cuando el sistema termine de procesar estas solicitudes. Vuelva a consultar más tarde. | 
 2010 | Esta conexión ya no es válida debido a una actualización realizada por Microsoft. Elimine la conexión y cree una nueva. | Elimine la conexión y cree una nueva.
 5000 | Algo salió mal. Si esto continúa, póngase en contacto con el soporte técnico. |
