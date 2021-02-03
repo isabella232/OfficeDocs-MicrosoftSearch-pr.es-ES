@@ -1,8 +1,8 @@
 ---
-title: Conector de uso compartido de archivos
-ms.author: rusamai
-author: rsamai
-manager: jameslau
+title: Conector de Gráfico de recurso compartido de archivos para Microsoft Search
+ms.author: mecampos
+author: mecampos
+manager: umas
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,58 +12,86 @@ search.appverid:
 - MET150
 - MOE150
 ROBOTS: NoIndex
-description: Configurar el conector de recurso compartido de archivos para Microsoft Search
-ms.openlocfilehash: bf9fb730abd4ca6e42b681893525bbe3dd8a1419
-ms.sourcegitcommit: 249f41723dd6fda1e93ee1a8f3f7571ef066454b
+description: Configurar el conector de Gráfico de recurso compartido de archivos para Microsoft Search
+ms.openlocfilehash: ae496d0a1f41dc75326b0f7ab96e54bda4ee879e
+ms.sourcegitcommit: d39113376db26333872d3a2c7baddc3a3a7aea61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49750901"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50084852"
 ---
-# <a name="file-share-connector"></a>Conector de uso compartido de archivos
+<!---Previous ms.author: rusamai --->
 
-Con el conector de archivo del gráfico de archivos compartidos, los usuarios de la organización pueden buscar recursos compartidos de archivos de Windows locales.
+# <a name="file-share-graph-connector"></a>Conector de Gráfico de recurso compartido de archivos
 
-Este artículo está destinado a los administradores de Microsoft 365 o a cualquiera que configure, ejecute y supervise un conector de recursos compartidos de archivos. Se explica cómo configurar las capacidades del conector y el conector, las limitaciones y las técnicas de solución de problemas.
+El conector de Gráfico de recursos compartidos de archivos permite a los usuarios de su organización buscar recursos compartidos de archivos locales de Windows.
 
-## <a name="install-graph-connector-agent"></a>Instalar el agente de conector de Graph
+> [!NOTE]
+> Lea el [**artículo sobre el programa de instalación del conector de Graph**](configure-connector.md) para comprender el proceso de configuración general de los conectores de Graph.
 
-Para indizar los recursos compartidos de archivos de Windows, debe instalar y registrar el software del [agente de conector de Graph](on-prem-agent.md) .
+Este artículo está dirigido a cualquier persona que configure, ejecute y monitore un conector de ServiceNow Graph. Complementa el proceso de configuración general y muestra instrucciones que solo se aplican al conector de MediaWiki Graph.
 
-## <a name="content-requirements"></a>Requisitos de contenido
+## <a name="before-you-get-started"></a>Antes de empezar
+
+### <a name="install-the-graph-connector-agent"></a>Instalar el agente de conector de Graph
+
+Para indizar los recursos compartidos de archivos de Windows, debe instalar y registrar el agente del conector de Graph. Consulte [Instalar el agente del conector de Graph](on-prem-agent.md) para obtener más información.  
+
+### <a name="content-requirements"></a>Requisitos de contenido
 
 ### <a name="file-types"></a>Tipos de archivo
 
-Se puede indizar y buscar el contenido de los siguientes formatos: DOC, DOCM, DOCX, DOT, DOTX, EML, GIF, HTML, JPEG, MHT, MHTML, MSG, NWS, DAB, OBT, ODP, ODS, ODT, ONE, PDF, POT, PPS, PPT, PPTM, PPTX, TXT, XLB, XLC, XLSB, XLS, XLSX, XLT, XLXM, XML, XPS y ZIP. Solo se indiza el contenido textual de estos formatos. Se omite todo el contenido multimedia. En el caso de los archivos que no pertenecen a este formato, los metadatos se indizan por sí solos.
+Se puede indizar y buscar contenido de los siguientes formatos: DOC, DOCM, DOCX, DOT, DOTX, EML, GIF, HTML, JPEG, MHT, MHTML, MSG, NWS, OBD, OBT, ODP, ODS, ODT, ONE, PDF, POT, PPS, PPT, PPTM, PPTX, TXT, XLB, XLC, XLSB, XLS, XLSX, XLT, XLXM, XML, XPS y ZIP. Solo se indiza el contenido textual de estos formatos. Se omite todo el contenido multimedia. Para cualquier archivo que no pertenezca a este formato, solo se indizan los metadatos.
 
 ### <a name="file-size-limits"></a>Límites de tamaño de archivo
 
-El tamaño máximo de archivo admitido es 100 MB. Los archivos que superan los 100 MB no se indizan. El límite de tamaño posterior al proceso es de 4 MB. El procesamiento se detiene cuando el tamaño de un archivo alcanza 4 MB. Por lo tanto, es posible que algunas frases presentes en el archivo no funcionen para la búsqueda.
+El tamaño máximo de archivo admitido es de 100 MB. Los archivos que superan los 100 MB no se indizan. El límite de tamaño máximo posterior al proceso es de 4 MB. El procesamiento se detiene cuando el tamaño de un archivo alcanza los 4 MB. Por lo tanto, es posible que algunas frases presentes en el archivo no funcionen para la búsqueda.
 
-## <a name="connect-to-a-data-source"></a>Conectarse a un origen de datos
+## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Paso 1: Agregar un conector de Graph en el Centro de administración de Microsoft 365
 
-En la página **conectar con origen de datos** , seleccione **recurso compartido de archivos** y proporcione el nombre, el identificador de conexión y la descripción. En la página siguiente, especifique la ruta de acceso al recurso compartido de archivos y seleccione el agente de conectores de Graph instalado previamente. Escriba las credenciales de una cuenta de usuario de [Microsoft Windows](https://microsoft.com/windows) con acceso de lectura a todos los archivos en el recurso compartido de archivos.
+Siga las instrucciones [generales de configuración.](https://docs.microsoft.com/microsoftsearch/configure-connector)
+<!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
-## <a name="preserve-last-access-time"></a>Conservar la hora del último acceso
+## <a name="step-2-name-the-connection"></a>Paso 2: Nombrar la conexión
 
-Cuando el conector intenta rastrear un archivo, se actualiza el campo "hora del último acceso" en sus metadatos. Si depende de ese campo para cualquier solución de archivado y copia de seguridad y no desea actualizarlo cuando el conector tenga acceso a él, puede configurar esta opción en la página **Configuración avanzada** .
+Siga las instrucciones [generales de configuración.](https://docs.microsoft.com/microsoftsearch/configure-connector)
+<!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
-## <a name="manage-search-permissions"></a>Administrar permisos de búsqueda
+## <a name="step-3-configure-the-connection-settings"></a>Paso 3: Configurar las opciones de conexión
 
-Puede restringir el permiso para buscar cualquier archivo basado en compartir listas de control de acceso o en listas de control de acceso del sistema de archivos de tecnología (NTFS). Si desea usar compartir listas de control de acceso, seleccione la opción adecuada en la página **Configuración avanzada** . Si desea usar las listas de control de acceso de NTFS, seleccione la opción correspondiente en la página **administrar permisos de búsqueda** .
+En la **página Conectar con origen de** datos, seleccione Recurso **compartido** de archivos y proporcione el nombre, el identificador de conexión y la descripción. En la página siguiente, proporcione la ruta de acceso al recurso compartido de archivos y seleccione el agente de conector de Graph instalado anteriormente. Escribe las credenciales de una cuenta [de usuario de Microsoft Windows](https://microsoft.com/windows) con acceso de lectura a todos los archivos del recurso compartido de archivos.
 
-## <a name="assign-property-labels"></a>Asignar etiquetas de propiedad
+### <a name="preserve-last-access-time"></a>Conservar el último tiempo de acceso
 
-Puede asignar una propiedad de origen a cada etiqueta eligiendo en un menú de opciones. Aunque este paso no es obligatorio, tener algunas etiquetas de propiedades mejorará la relevancia de la búsqueda y garantizará resultados de búsqueda más precisos para los usuarios finales.
+Cuando el conector intenta rastrear un archivo, se actualiza el campo "hora de último acceso" en sus metadatos. Si depende de ese campo para las soluciones de archivado y copia de seguridad y no desea actualizarlo cuando el conector tiene acceso a él, puede configurar esta opción en la página Configuración **avanzada.**
 
-## <a name="manage-schema"></a>Administrar esquema
+## <a name="step-4-manage-search-permissions"></a>Paso 4: Administrar permisos de búsqueda
 
-En la pantalla **administrar esquema** , tiene la opción de cambiar los atributos de esquema (**consultable**, **búsquedas**, **recuperables** y **refinables**) asociados con las propiedades, agregar alias opcionales y elegir la propiedad de **contenido** .
+Puede restringir el permiso para buscar cualquier archivo basado en listas de control de acceso compartido o listas de control de acceso del Sistema de archivos de nueva tecnología (NTFS). Si desea usar Compartir listas de control de acceso, seleccione la opción adecuada en la **página Configuración** avanzada. Si desea usar listas de control de acceso NTFS, seleccione la opción adecuada en la página Administrar permisos **de** búsqueda.
 
-## <a name="set-the-refresh-schedule"></a>Establecer la programación de actualización
+## <a name="step-5-assign-property-labels"></a>Paso 5: Asignar etiquetas de propiedad
 
-El intervalo de programación de actualización predeterminada recomendado es de 15 minutos, pero puede cambiarlo según sus preferencias.
+Siga las instrucciones [generales de configuración.](https://docs.microsoft.com/microsoftsearch/configure-connector)
+<!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
-## <a name="result-layout"></a>Diseño de los resultados
+## <a name="step-6-manage-schema"></a>Paso 6: Administrar esquema
 
-Le recomendamos que use el diseño de resultados predeterminado para mostrar los resultados del conector de FileShare porque tiene iconos y controles apropiados que le ayudarán a desplazarse a la ruta de acceso al archivo. Si crea un nuevo diseño de resultados, se reemplazará el valor predeterminado.
+Siga las instrucciones [generales de configuración.](https://docs.microsoft.com/microsoftsearch/configure-connector)
+<!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
+
+## <a name="step-7-choose-refresh-settings"></a>Paso 7: Elegir la configuración de actualización
+
+Siga las instrucciones [generales de configuración.](https://docs.microsoft.com/microsoftsearch/configure-connector)
+<!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
+
+## <a name="step-8-review-connection"></a>Paso 8: Revisar la conexión
+
+Siga las instrucciones [generales de configuración.](https://docs.microsoft.com/microsoftsearch/configure-connector)
+<!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 
+instructions.-->
+
+<!---## Troubleshooting-->
+<!---Insert troubleshooting recommendations for this data source-->
+
+<!---## Limitations-->
+<!---Insert limitations for this data source-->
