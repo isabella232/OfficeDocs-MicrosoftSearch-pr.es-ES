@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de Salesforce Graph para Microsoft Search
-ms.openlocfilehash: 0b80bf7d3296236887d1cc1bf8e75da976b6a1f1
-ms.sourcegitcommit: d39113376db26333872d3a2c7baddc3a3a7aea61
+ms.openlocfilehash: 6771bc0b234bc2570a8b1fa7174b9b9244cf3958
+ms.sourcegitcommit: d53b91f8f52a4a96281b66831c2449bbffe2177c
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/03/2021
-ms.locfileid: "50085024"
+ms.locfileid: "50097452"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -28,7 +28,7 @@ El conector de Salesforce Graph permite a su organización indizar los objetos C
 > [!NOTE]
 > Lea el [**artículo sobre el programa de instalación del conector de Graph**](configure-connector.md) para comprender el proceso de configuración general de los conectores de Graph.
 
-Este artículo está dirigido a cualquier persona que configure, ejecute y monitore un conector de ServiceNow Graph. Complementa el proceso de configuración general y muestra instrucciones que solo se aplican al conector de Salesforce Graph. En este artículo también se incluye información sobre [limitaciones.](#limitations)
+Este artículo está dirigido a cualquier persona que configure, ejecute y monitore un conector de Salesforce Graph. Complementa el proceso de configuración general y muestra instrucciones que solo se aplican al conector de Salesforce Graph. En este artículo también se incluye información sobre [limitaciones.](#limitations)
 
 >[!IMPORTANT]
 >Actualmente, el conector de Salesforce Graph es compatible con el verano 19 o posterior.
@@ -51,18 +51,18 @@ Para conectarse a la instancia de Salesforce, necesita la dirección URL de la i
 
     - Seleccione estos ámbitos de OAuth necesarios.
 
-        - Acceder y administrar los datos (api)
+        - Obtener acceso y administrar los datos (api)
 
         - Realizar solicitudes en su nombre en cualquier momento (refresh_token, offline_access)
 
-    - Active la casilla de verificación **Requerir secreto para el flujo del servidor web.**
+    - Active la casilla requerir **secreto para el flujo del servidor web.**
 
     - Guarda la aplicación.
     
       > [!div class="mx-imgBorder"]
       > ![Sección api en la instancia de Salesforce después de que el administrador haya especificado todas las configuraciones necesarias enumeradas anteriormente.](media/salesforce-connector/sf1.png)
 
-- Copie la clave de consumidor y el secreto de consumidor. Esta información se usará como identificador de cliente y secreto de cliente cuando configure las opciones de conexión para el conector de Graph en el portal de administración de Microsoft 365.
+- Copie la clave de consumidor y el secreto de consumidor. Esta información se usará como identificador de cliente y secreto de cliente cuando configure la configuración de conexión para el conector de Graph en el portal de administración de Microsoft 365.
 
   > [!div class="mx-imgBorder"]
   > ![Resultados devueltos por la sección api en la instancia de Salesforce después de que el administrador haya enviado todas las configuraciones necesarias. La clave de consumidor está en la parte superior de la columna izquierda y el secreto de consumidor está en la parte superior de la columna derecha.](media/salesforce-connector/clientsecret.png)
@@ -101,14 +101,14 @@ La primera vez que haya intentado iniciar sesión con esta configuración, verá
   >[!NOTE]
   >Si no aparece la ventana emergente, es posible que se bloquee en el explorador, por lo que debe permitir las ventanas emergentes y los redireccionamientos.
 
-Compruebe que la conexión se ha realizado correctamente. Para ello, busque un banner verde que diga "Conexión correcta", como se muestra en la siguiente captura de pantalla.
+Compruebe que la conexión se ha realizado correctamente buscando un banner verde que diga "Conexión correcta", como se muestra en la siguiente captura de pantalla.
 
   > [!div class="mx-imgBorder"]
   > ![Captura de pantalla del inicio de sesión correcto. El banner verde que dice "Conexión correcta" se encuentra en el campo de la dirección URL de la instancia de Salesforce](media/salesforce-connector/sf5.png)
 
 ## <a name="step-4-manage-search-permissions"></a>Paso 4: Administrar permisos de búsqueda
 
-Deberá elegir qué usuarios verán los resultados de la búsqueda de este origen de datos. Si permites que solo determinados usuarios de Azure Active Directory (Azure AD) o usuarios que no son de Azure AD vean los resultados de la búsqueda, asegúrate de asignar las identidades.
+Deberá elegir qué usuarios verán los resultados de búsqueda de este origen de datos. Si permites que solo determinados usuarios de Azure Active Directory (Azure AD) o usuarios que no son de Azure AD vean los resultados de la búsqueda, asegúrate de asignar las identidades.
 
 ## <a name="step-4a-select-permissions"></a>Paso 4a: Seleccionar permisos
 
@@ -136,14 +136,14 @@ Puede seleccionar qué propiedades de origen deben indizarse para que se muestre
 Refinar le permite definir las propiedades que se pueden usar más adelante como refinadores o filtros personalizados en la experiencia de búsqueda.  
 
 > [!div class="mx-imgBorder"]
-> ![Seleccione el esquema de cada propiedad de origen. Las opciones son Consulta, Búsqueda, Recuperar y Refinar](media/salesforce-connector/sf9.png)
+> ![Seleccione el esquema para cada propiedad de origen. Las opciones son Consulta, Búsqueda, Recuperar y Refinar](media/salesforce-connector/sf9.png)
 
 ## <a name="step-7-set-the-refresh-schedule"></a>Paso 7: Establecer la programación de actualización
 
 Actualmente, el conector de Salesforce solo admite programaciones de actualización para rastreos completos.
 
 >[!IMPORTANT]
->Un rastreo completo encuentra objetos eliminados y usuarios que se sincronizaron previamente con el índice de Búsqueda de Microsoft.
+>Un rastreo completo busca objetos eliminados y usuarios que se sincronizaron previamente con el índice de Búsqueda de Microsoft.
 
 La programación recomendada es de una semana para un rastreo completo.
 

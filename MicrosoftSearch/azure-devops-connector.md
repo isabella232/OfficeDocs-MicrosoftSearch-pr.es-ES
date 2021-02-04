@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de Azure DevOps Graph para Microsoft Search
-ms.openlocfilehash: 3d922a5384de8bf0ef3c6dfd80bd67ad9170eb66
-ms.sourcegitcommit: d39113376db26333872d3a2c7baddc3a3a7aea61
+ms.openlocfilehash: 8fe783c847c672223e051f4433af3e41678fe367
+ms.sourcegitcommit: d53b91f8f52a4a96281b66831c2449bbffe2177c
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084942"
+ms.locfileid: "50097407"
 ---
 <!---Previous ms.author: shgrover --->
 
@@ -28,7 +28,7 @@ El conector de Azure DevOps Graph permite a su organización indizar elementos d
 > [!NOTE]
 > Lea el [**artículo sobre el programa de instalación del conector de Graph**](configure-connector.md) para comprender el proceso de configuración general de los conectores de Graph.
 
-Este artículo está dirigido a cualquier persona que configure, ejecute y monitore un conector de ServiceNow Graph. Complementa el proceso de configuración general y muestra instrucciones que solo se aplican al conector de ServiceNow Graph.
+Este artículo está dirigido a cualquier persona que configure, ejecute y monitore un conector de Azure DevOps Graph. Complementa el proceso de configuración general y muestra instrucciones que solo se aplican al conector de Azure DevOps Graph.
 
 >[!IMPORTANT]
 >El conector de Azure DevOps solo admite el servicio en la nube de Azure DevOps. Este conector no admite Azure DevOps Server 2019, TFS 2018, TFS 2017, TFS 2015 y TFS 2013.
@@ -51,7 +51,7 @@ instructions.-->
 
 ## <a name="step-3-configure-the-connection-settings"></a>Paso 3: Configurar las opciones de conexión
 
-Para conectarse a la instancia de Azure DevOps, necesita el nombre de la organización de Azure [DevOps,](https://docs.microsoft.com/azure/devops/organizations/accounts/create-organization) su id. de aplicación y el secreto de cliente para la autenticación de OAuth.
+Para conectarse a la instancia de Azure [DevOps,](https://docs.microsoft.com/azure/devops/organizations/accounts/create-organization) necesita el nombre de la organización de Azure DevOps, su id. de aplicación y el secreto de cliente para la autenticación de OAuth.
 
 ### <a name="register-an-app"></a>Registrar una aplicación
 

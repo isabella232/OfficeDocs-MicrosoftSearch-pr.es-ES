@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Configurar el conector de Gráfico de recurso compartido de archivos para Microsoft Search
-ms.openlocfilehash: ae496d0a1f41dc75326b0f7ab96e54bda4ee879e
-ms.sourcegitcommit: d39113376db26333872d3a2c7baddc3a3a7aea61
+ms.openlocfilehash: e8a68a1c6b9c2c8a8592fb915fe9bf846a758e77
+ms.sourcegitcommit: d53b91f8f52a4a96281b66831c2449bbffe2177c
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084852"
+ms.locfileid: "50097425"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -28,8 +28,6 @@ El conector de Gráfico de recursos compartidos de archivos permite a los usuari
 
 > [!NOTE]
 > Lea el [**artículo sobre el programa de instalación del conector de Graph**](configure-connector.md) para comprender el proceso de configuración general de los conectores de Graph.
-
-Este artículo está dirigido a cualquier persona que configure, ejecute y monitore un conector de ServiceNow Graph. Complementa el proceso de configuración general y muestra instrucciones que solo se aplican al conector de MediaWiki Graph.
 
 ## <a name="before-you-get-started"></a>Antes de empezar
 

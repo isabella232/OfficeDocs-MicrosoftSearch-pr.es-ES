@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Configure el conector de Oracle SQL Graph para Microsoft Search.
-ms.openlocfilehash: a13c9ea71b115e84d313489214d424f77337a062
-ms.sourcegitcommit: d39113376db26333872d3a2c7baddc3a3a7aea61
+ms.openlocfilehash: 01e4cd6b04d2997ea11ef006e94ea09b03280f41
+ms.sourcegitcommit: 6a7f36769e92b714588b47efb0c185eddabe6953
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084978"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50099339"
 ---
 <!---Previous ms.author:vivg --->
 
@@ -29,7 +29,7 @@ El conector SQL Graph de Oracle permite a su organización detectar e indizar da
 > [!NOTE]
 > Lea el [**artículo sobre el programa de instalación del conector de Graph**](configure-connector.md) para comprender el proceso de configuración general de los conectores de Graph.
 
-Este artículo está dirigido a cualquier persona que configure, ejecute y monitore un conector de ServiceNow Graph. Complementa el proceso de configuración general y muestra instrucciones que solo se aplican al conector de ServiceNow Graph. En este artículo también se incluye información sobre [la solución de problemas](#troubleshooting) y las [limitaciones.](#limitations)
+Este artículo está dirigido a cualquier persona que configure, ejecute y monitore un conector de Oracle SQL Graph. Complementa el proceso de configuración general y muestra instrucciones que se aplican solo al conector de Oracle SQL Graph. En este artículo también se incluye información sobre [la solución de problemas](#troubleshooting) y las [limitaciones.](#limitations)
 
 ## <a name="before-you-get-started"></a>Antes de empezar
 
@@ -56,7 +56,7 @@ Para el conector SQL Oracle, debe especificar el nombre de host, el puerto y el 
 > [!NOTE]
 > La base de datos debe ejecutar la versión 11g o posterior de la base de datos de Oracle para que el conector pueda conectarse. El conector admite la base de datos de Oracle hospedada en plataformas windows, Linux y Azure VM.
 
-Para buscar en el contenido de la base de datos, debe especificar SQL al configurar el conector. Estas SQL necesitan nombrar todas las columnas de base de datos que desea indizar (es decir, las propiedades de origen), incluidas las combinaciones de SQL que deben realizarse para obtener todas las columnas. Para restringir el acceso a los resultados de búsqueda, debe especificar listas de control de acceso (ACL) en SQL consultas cuando configure el conector.
+Para buscar en el contenido de la base de datos, debe especificar SQL al configurar el conector. Estas SQL necesitan nombrar todas las columnas de base de datos que desea indizar (es decir, las propiedades de origen), incluidas las combinaciones de SQL que deben realizarse para obtener todas las columnas. Para restringir el acceso a los resultados de la búsqueda, debe especificar listas de control de acceso (ACL) en las SQL al configurar el conector.
 
 ## <a name="step-3a-full-crawl-required"></a>Paso 3a: Rastreo completo (obligatorio)
 
@@ -122,7 +122,7 @@ Para excluir las filas eliminadas temporalmente de la base de datos para que no 
 
 ### <a name="full-crawl-manage-search-permissions"></a>Rastreo completo: administrar permisos de búsqueda
 
-Seleccione Administrar permisos para elegir las **distintas** columnas de control de acceso (ACL) que especifican el mecanismo de control de acceso. Seleccione el nombre de columna especificado en la consulta de rastreo SQL completa.
+Seleccione Administrar permisos para elegir las **distintas** columnas de control de acceso (ACL) que especifican el mecanismo de control de acceso. Seleccione el nombre de columna que especificó en la consulta de rastreo SQL completa.
 
 Se espera que cada una de las columnas acl sea una columna de varios valores. Estos valores de id. múltiples se pueden separar mediante separadores como punto y coma (;), coma (,), y así sucesivamente. Debe especificar este separador en el campo **separador de** valores.
 
@@ -136,7 +136,7 @@ Se admiten los siguientes tipos de id. para usarlos como ACL:
 
 ## <a name="step-3b-incremental-crawl-optional"></a>Paso 3b: Rastreo incremental (opcional)
 
-En este paso opcional, proporcione una consulta SQL para ejecutar un rastreo incremental de la base de datos. Con esta consulta, el conector SQL determina los cambios realizados en los datos desde el último rastreo incremental. Como en el rastreo completo, seleccione entre las opciones **Consulta,** **Búsqueda** o **Recuperar**. Especifique el mismo conjunto de columnas acl que especificó en la consulta de rastreo completo.
+En este paso opcional, proporcione una consulta SQL para ejecutar un rastreo incremental de la base de datos. Con esta consulta, el conector SQL determina los cambios realizados en los datos desde el último rastreo incremental. Al igual que en el rastreo completo, seleccione entre las opciones **Consulta,** **Búsqueda** o **Recuperar**. Especifique el mismo conjunto de columnas acl que especificó en la consulta de rastreo completo.
 
 Los componentes de la siguiente imagen son similares a los componentes de rastreo completo con una excepción. En este caso, "ModifiedDateTime" es la columna de marca de agua seleccionada. Revise los [pasos de rastreo completos](#step-3a-full-crawl-required) para obtener información sobre cómo escribir la consulta de rastreo incremental y vea la siguiente imagen como ejemplo.
 
@@ -181,7 +181,7 @@ Debajo hay una lista de errores comunes observados al configurar el conector y s
 | ------------ | ------------ | ------------ |
 | Configuración de la base de datos | Error del servidor de bases de datos: Se ha producido un tiempo de espera de la solicitud de conexión | Nombre de host no válido <br> Host inaccesible |
 | Configuración de la base de datos | Error del servidor de bases de datos: ORA-12541: TNS: sin escucha | Puerto no válido |
-| Configuración de la base de datos | Error del servidor de base de datos: ORA-12514: TNS: el agente de escucha no conoce actualmente el servicio solicitado en el descriptor del conector | Nombre de servicio (base de datos) no válido |
+| Configuración de la base de datos | Error del servidor de base de datos: ORA-12514: TNS: la escucha no conoce actualmente el servicio solicitado en el descriptor del conector | Nombre de servicio (base de datos) no válido |
 | Configuración de la base de datos | Error del servidor de bases de datos: Error de inicio de sesión para el usuario ' `user` '. | Nombre de usuario o contraseña no válidos |
 
 ## <a name="limitations"></a>Limitaciones
