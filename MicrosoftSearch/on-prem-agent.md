@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Agente on-prem
-ms.openlocfilehash: 31220196849fe90ab2611e9c2b83a1cec0a02b34
-ms.sourcegitcommit: a04f1df14a3221776ccd141f6060328612d80e06
+ms.openlocfilehash: 7aef2ea57c92929d4d4f45e1a738c84e6a3f4bba
+ms.sourcegitcommit: ab4f81ded967168689e6e81c90e115b94719335c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49876502"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50173066"
 ---
 # <a name="graph-connector-agent"></a>Agente de conector de Graph
 
@@ -26,7 +26,7 @@ El uso de conectores de Graph locales requiere instalar el software *del agente 
 
 ## <a name="installation"></a>Instalación
 
-Descargue aquí la versión más reciente del agente del conector de Graph [e](https://aka.ms/gcadownload) instale el software con el asistente para la instalación. Con la configuración recomendada del equipo que se describe a continuación, el software puede controlar hasta tres conexiones. Las conexiones posteriores pueden degradar el rendimiento de todas las conexiones en el agente.
+Descargue aquí la versión más reciente del agente del conector de Graph [e](https://aka.ms/gcadownload) instale el software con el asistente para la instalación. Con la configuración recomendada de la máquina que se describe a continuación, el software puede controlar hasta tres conexiones. Las conexiones posteriores pueden degradar el rendimiento de todas las conexiones en el agente.
 
 Configuración recomendada:
 
@@ -36,17 +36,26 @@ Configuración recomendada:
 * 16 GB de RAM, 2 GB de espacio en disco
 * Acceso de red al origen de datos e Internet a través del 443
 
+Después de instalar el agente, si los servidores proxy o firewalls de su organización bloquean la comunicación con dominios desconocidos, agregue los siguientes a la lista de permitidos.
+
+1. *.servicebus.windows.net
+2. *.events.data.microsoft.com
+3. https://login.microsoftonline.com
+4. https://gcs.office.com
+5. https://graph.microsoft.com/
+
+
 ## <a name="create-and-configure-an-app-for-the-agent"></a>Crear y configurar una aplicación para el agente  
 
-En primer lugar, inicie sesión y tenga en cuenta que el privilegio mínimo requerido en la cuenta es el administrador de búsqueda. A continuación, el agente le pedirá que proporcione los detalles de autenticación. Siga los pasos siguientes para crear una aplicación y generar los detalles de autenticación necesarios.
+En primer lugar, inicie sesión y tenga en cuenta que el privilegio mínimo requerido en la cuenta es el administrador de búsqueda. A continuación, el agente le pedirá que proporcione detalles de autenticación. Siga los pasos siguientes para crear una aplicación y generar los detalles de autenticación necesarios.
 
 ### <a name="create-an-app"></a>Crear una aplicación
 
-1. Vaya a [Azure Portal](https://portal.azure.com) e inicie sesión con credenciales de administrador para el inquilino.
+1. Vaya a [Azure Portal](https://portal.azure.com) e inicie sesión con las credenciales de administrador del espacio empresarial.
 2. Vaya a **Registros de aplicaciones de Azure Active Directory** desde el panel de navegación y seleccione Nuevo  ->   **registro.**
 3. Proporcione un nombre para la aplicación y seleccione **Registrar.**
 4. Anote el id. de aplicación (cliente).
-5. Abra **los permisos de api** en el panel de navegación y seleccione Agregar un **permiso.**
+5. Abra **los permisos de** api en el panel de navegación y seleccione Agregar un **permiso.**
 6. Seleccione **Microsoft Graph y,** a continuación, **permisos de aplicación.**
 7. Busque "ExternalItem.ReadWrite.All" y "Directory.Read.All" en los permisos y seleccione **Agregar permisos.**
 8. Seleccione **Conceder consentimiento de administrador para [TenantName]** y confirme **seleccionando Sí**.
@@ -59,9 +68,9 @@ Los detalles de autenticación se pueden proporcionar mediante un secreto de cli
 
 #### <a name="configuring-the-client-secret-for-authentication"></a>Configuración del secreto de cliente para la autenticación
 
-1. Vaya a [Azure Portal](https://portal.azure.com) e inicie sesión con credenciales de administrador para el inquilino.
+1. Vaya a [Azure Portal](https://portal.azure.com) e inicie sesión con las credenciales de administrador del espacio empresarial.
 2. Abra **Registro de aplicaciones** desde el panel de navegación y vaya a la aplicación adecuada. En **Administrar,** seleccione **Certificados y secretos.**
-3. Seleccione **nuevo secreto de cliente** y seleccione un período de expiración para el secreto. Copie el secreto generado y guárdelo porque no se volverá a mostrar.
+3. Seleccione **nuevo secreto de** cliente y seleccione un período de expiración para el secreto. Copie el secreto generado y guárdelo porque no se volverá a mostrar.
 4. Use este secreto de cliente junto con el id. de aplicación para configurar el agente. No puede usar espacios en blanco en el **campo Nombre** del agente. Se aceptan caracteres numéricos alfa.
 
 #### <a name="using-a-certificate-for-authentication"></a>Uso de un certificado para la autenticación
