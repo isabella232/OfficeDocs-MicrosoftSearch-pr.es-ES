@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Agente on-prem
-ms.openlocfilehash: 7aef2ea57c92929d4d4f45e1a738c84e6a3f4bba
-ms.sourcegitcommit: ab4f81ded967168689e6e81c90e115b94719335c
+ms.openlocfilehash: bd5212d42fe21583aa6a4e0dc8060d5e191a7292
+ms.sourcegitcommit: 35b4246cb3e38c6fe21540686e28fe54154b33f3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50173066"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50259433"
 ---
 # <a name="graph-connector-agent"></a>Agente de conector de Graph
 
@@ -40,9 +40,9 @@ Después de instalar el agente, si los servidores proxy o firewalls de su organi
 
 1. *.servicebus.windows.net
 2. *.events.data.microsoft.com
-3. https://login.microsoftonline.com
-4. https://gcs.office.com
-5. https://graph.microsoft.com/
+3. https://<span>login.microsoftonline.</span>com
+4. https://<span>gcs.office.</span> com/
+5. https://<span>graph.microsoft.</span> com/
 
 
 ## <a name="create-and-configure-an-app-for-the-agent"></a>Crear y configurar una aplicación para el agente  
@@ -68,9 +68,9 @@ Los detalles de autenticación se pueden proporcionar mediante un secreto de cli
 
 #### <a name="configuring-the-client-secret-for-authentication"></a>Configuración del secreto de cliente para la autenticación
 
-1. Vaya a [Azure Portal](https://portal.azure.com) e inicie sesión con las credenciales de administrador del espacio empresarial.
+1. Vaya a [Azure Portal](https://portal.azure.com) e inicie sesión con credenciales de administrador para el inquilino.
 2. Abra **Registro de aplicaciones** desde el panel de navegación y vaya a la aplicación adecuada. En **Administrar,** seleccione **Certificados y secretos.**
-3. Seleccione **nuevo secreto de** cliente y seleccione un período de expiración para el secreto. Copie el secreto generado y guárdelo porque no se volverá a mostrar.
+3. Seleccione **nuevo secreto de cliente** y seleccione un período de expiración para el secreto. Copie el secreto generado y guárdelo porque no se volverá a mostrar.
 4. Use este secreto de cliente junto con el id. de aplicación para configurar el agente. No puede usar espacios en blanco en el **campo Nombre** del agente. Se aceptan caracteres numéricos alfa.
 
 #### <a name="using-a-certificate-for-authentication"></a>Uso de un certificado para la autenticación
@@ -121,3 +121,6 @@ Si usó el script de ejemplo para generar un certificado, el archivo PFX se pued
 1. Haga clic con el botón secundario en el certificado y seleccione "Todas las tareas" -> "Administrar claves privadas..." Opción
 1. En el cuadro de diálogo de permisos, seleccione la opción Agregar. En el cuadro de diálogo de selección de usuario, escriba: "Servicio NT\GcaHostService" y haga clic en "Aceptar". No haga clic en el botón "Comprobar nombres".
 1. Haga clic bien en el cuadro de diálogo de permisos. La máquina de agente ahora está configurada para que el agente genere tokens mediante el certificado.
+
+## <a name="troubleshooting"></a>Solución de problemas
+1. Si se produce un error en una conexión con el error "1011: el agente del conector de Graph no es accesible ni está sin conexión", inicie sesión en el equipo donde está instalado el agente e inicie la aplicación de agente si aún no se está ejecutando. Si la conexión continúa fallando, compruebe que el certificado o secreto de cliente proporcionado al agente durante el registro no ha expirado y tiene los permisos necesarios.
