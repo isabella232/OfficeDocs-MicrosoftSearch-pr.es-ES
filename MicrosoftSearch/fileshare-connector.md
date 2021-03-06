@@ -3,6 +3,7 @@ title: Conector de Gráfico de uso compartido de archivos para Microsoft Search
 ms.author: mecampos
 author: mecampos
 manager: umas
+audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,12 +14,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Configurar el conector de Gráfico de recurso compartido de archivos para Microsoft Search
-ms.openlocfilehash: ed1c148a018ba9492a8a93685327bf43153d65d3
-ms.sourcegitcommit: 6a7522d9aeaedeedaac096c485d3f343ce98d3d2
+ms.openlocfilehash: cd3f28356e41d24182e2da712d476ce2223b39b2
+ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421081"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50508791"
 ---
 <!---Previous ms.author: rusamai --->
 

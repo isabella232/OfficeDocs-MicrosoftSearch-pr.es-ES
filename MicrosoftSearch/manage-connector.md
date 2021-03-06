@@ -3,6 +3,7 @@ title: Administrar Conectores de Microsoft Graph para Microsoft Search
 ms.author: monaray
 author: monaray97
 manager: mnirkhe
+audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Administrar Conectores de Microsoft Graph para Microsoft Search.
-ms.openlocfilehash: 488b6e9452e381f8fc64ad06c6f063aa170ca7f5
-ms.sourcegitcommit: 3ed4d21510020045d25e8c5b7e168013d96c1b7e
+ms.openlocfilehash: aa2e3db8c8dc9155c06f81fc0169dd4bda8f8343
+ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/05/2021
-ms.locfileid: "50464044"
+ms.locfileid: "50508836"
 ---
 <!-- markdownlint-disable no-inline-html -->
 
@@ -31,11 +32,11 @@ Vaya a la [pestaña Conectores](https://admin.microsoft.com/Adminportal/Home#/Mi
 
 Para cada tipo de conector, el Centro de [administración de Microsoft 365](https://admin.microsoft.com) admite las operaciones que se muestran en la tabla siguiente:
 
-Operación | Conector creado por Microsoft | Conector asociado o personalizado
+Operación | Conectores de Graph por Microsoft | Conectores de Partner o Graph
 --- | --- | ---
-Agregar una conexión | :heavy_check_mark: (Consulte [Configure your Microsoft-built connector](configure-connector.md)) | :x: (Consulte a su socio o experiencia de usuario de administrador de conectores personalizados)
+Agregar una conexión | :heavy_check_mark: (Vea Información [general sobre el programa de instalación](configure-connector.md)) | :x: (Consulte a su socio o experiencia de usuario de administrador de conectores personalizados)
 Eliminar una conexión | :heavy_check_mark: | :heavy_check_mark:
-Editar una conexión publicada | :heavy_check_mark: Name<br></br> :heavy_check_mark: Descripción<br></br> :heavy_check_mark: credenciales de autenticación para el origen de datos externo<br></br> :heavy_check_mark: credenciales de puerta de enlace para el origen de datos local<br></br> :heavy_check_mark: Programación de actualización<br></br> | :heavy_check_mark: Name<br></br> :heavy_check_mark: Descripción
+Editar una conexión publicada | :heavy_check_mark: Nombre y descripción<br></br> :heavy_check_mark: Configuración de conexión<br></br> :heavy_check_mark: Etiquetas de propiedades<br></br> :heavy_check_mark: Esquema<br></br> :heavy_check_mark: Programación de actualización<br></br> | :heavy_check_mark: Name<br></br> :heavy_check_mark: Descripción
 Editar un borrador de conexión | :heavy_check_mark: | :x:
 
 ## <a name="monitor-your-connection-status"></a>Supervisar el estado de la conexión

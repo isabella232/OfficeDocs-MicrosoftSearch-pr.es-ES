@@ -3,6 +3,7 @@ title: Conector graph de sitios web empresariales para Microsoft Search
 ms.author: mecampos
 author: mecampos
 manager: umas
+audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector graph de sitios web de empresa para Microsoft Search
-ms.openlocfilehash: 7d71e6e3d775c97d8916e20ab032c312c269c5f1
-ms.sourcegitcommit: 6a7522d9aeaedeedaac096c485d3f343ce98d3d2
+ms.openlocfilehash: b0ed7cc4148dba6c7555fcf7c9c930184cdbc24c
+ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421103"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50508800"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -28,7 +29,7 @@ ms.locfileid: "50421103"
 El conector graph de sitios web de empresa permite a su organización indizar artículos y **contenido de sus sitios web internos.** Después de configurar el conector y sincronizar el contenido del sitio web, los usuarios finales pueden buscar ese contenido desde cualquier cliente de Microsoft Search.
 
 > [!NOTE]
-> Lea el [**artículo Configurar el conector de Graph**](configure-connector.md) para comprender el proceso de configuración general de los conectores de Graph.
+> Lea el [**artículo Configurar el conector de Graph**](configure-connector.md) para comprender las instrucciones generales de configuración de conectores de Graph.
 
 Este artículo está para cualquier persona que configure, ejecute y monitore un conector de sitios web de empresa. Complementa el proceso de configuración general y muestra instrucciones que solo se aplican al conector de sitios web de empresa. En este artículo también se incluye información sobre [solución de problemas](#troubleshooting) y [limitaciones.](#limitations)
 
@@ -50,12 +51,12 @@ Siga las instrucciones [generales de configuración](https://docs.microsoft.com/
 
 Para conectarse al origen de datos, debe rellenar la dirección URL raíz del sitio web, seleccionar un origen de rastreo y el tipo de autenticación que desea usar: None, Basic Authentication o OAuth 2.0 con [Azure Active Directory (Azure AD).](https://docs.microsoft.com/azure/active-directory/) Después de completar esta información, seleccione Probar conexión para comprobar la configuración.
 
-> [!NOTE]
-> Si el sitio que quieres rastrear tiene un mapa del sitio definido, el conector solo rastreará las direcciones URL enumeradas en el mapa del sitio. Si no se define ningún mapa del sitio, el conector realizará un rastreo profundo de todos los vínculos encontrados en la dirección URL raíz del sitio.
-
 ### <a name="url"></a>URL
 
 Use el campo DIRECCIÓN URL para especificar la raíz del sitio web que desea rastrear. El conector de sitios web de empresa usará esta dirección URL como punto de partida y seguirá todos los vínculos de esta dirección URL para su rastreo.
+
+> [!NOTE]
+> Si el sitio que quieres rastrear tiene un mapa del sitio definido, el conector solo rastreará las direcciones URL enumeradas en el mapa del sitio. Si no se define ningún mapa del sitio, el conector realizará un rastreo profundo de todos los vínculos encontrados en la dirección URL raíz del sitio.
 
 ### <a name="crawl-mode-cloud-or-on-premises-preview"></a>Modo de rastreo: nube o local (versión preliminar)
 
