@@ -12,148 +12,152 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
-description: Crear y actualizar marcadores y formas de editar en masa los resultados de marcadores para Microsoft Search
-ms.openlocfilehash: fee855e3d3fe780021530488dbaa5a864dcba2d8
-ms.sourcegitcommit: 9daa3c8f6eeab502b28975a308d4d1014a00eb25
+description: Crear y actualizar marcadores y formas de editar de forma masiva los resultados de los marcadores para Microsoft Search
+ms.openlocfilehash: b801e75f772a585c2ddfedd09aff3b74c1d909b5
+ms.sourcegitcommit: 2f770de12b27546b18b2e86517d2c25522eb9022
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49718652"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929611"
 ---
 # <a name="manage-bookmarks"></a>Administrar marcadores
 
-Los marcadores ayudan a los usuarios a encontrar rápidamente sitios y herramientas importantes con solo una búsqueda. Cada marcador incluye un título, una dirección URL, un conjunto de palabras clave descriptivas para desencadenar el marcador y una categoría.
+Los marcadores ayudan a los usuarios a encontrar rápidamente sitios y herramientas importantes con solo una búsqueda. Cada marcador incluye un título, una dirección URL, un conjunto de palabras clave fáciles de usar para desencadenar el marcador y una categoría.
 
-## <a name="what-makes-a-great-bookmark"></a>Qué hace un gran marcador
+## <a name="what-makes-a-great-bookmark"></a>Lo que hace que un gran marcador
 
-Un marcador estupendo tiene cuatro elementos clave:
+Un gran marcador tiene cuatro elementos clave:
 
-1. Un **título** seguro e informativo. El objetivo no es más de 8 palabras o unos 60 caracteres como máximo. Desea que los usuarios haga clic en el título y vean el contenido, pero evitar clickbait obvios:
-    - Bueno: Pruebe los favoritos de la Tasty de la semana en el menú de cafetería. El título es claro, conciso e interesante, pero podría ser más prometedor.
-    - Mejor: el menú cafetería de esta semana. No se ve afectada ni tiene un sonido similar al de un anuncio.
-    - Evite: no le va a creer lo que llega al menú de la cafetería esta semana. Usa clickbait clichés que suena como un anuncio.
-2. Una **Descripción** sucinta, alrededor de 300 caracteres, que resume el propósito o la funcionalidad del recurso vinculado.
-3. Una colección de **palabras clave** que ayudarán a los usuarios a encontrar el marcador cuando lo busquen. Se recomienda un mínimo de cinco palabras clave como mínimo. Además, incluya variaciones que puedan usar las personas de su organización, por ejemplo, el menú de la cena, los menús de la comida y el menú de café podrían ser variantes del menú de cafetería.
-4. Un conjunto útil de **categorías** que facilitan la ordenación y el filtrado de marcadores en el centro de administración. Los usuarios nunca ven las categorías asignadas.
+1. Un título fuerte e **informativo**. Apunta a no más de ocho palabras o unos 60 caracteres como máximo. Desea que los usuarios haga clic en el título y vea el contenido, pero evite el clickbait obvio:
+    - Bueno: pruebe los favoritos de esta semana en el menú de la cafetería. El título es claro, conciso e interesante, pero podría ser sobrepromisor.
+    - Mejor: menú de la cafetería de esta semana. No se sobrepromite ni suena como un anuncio.
+    - Evite: no creerá lo que viene al menú de la cafetería esta semana. Usa los clichés de clickbait que suenan como un anuncio.
+2. Una descripción **sucinta**, de unos 300 caracteres, que resume el propósito o la funcionalidad del recurso vinculado.
+3. Una colección de **palabras clave que** ayudará a los usuarios a encontrar el marcador cuando busquen. Se recomienda un mínimo de cinco palabras clave. Además, incluya variaciones que las personas de su organización puedan usar, por ejemplo, menú de comida, menús de almuerzo y menú de café podrían ser variaciones para el menú de la cafetería.
+4. Un conjunto útil de **categorías que** facilitan la ordenación y el filtro de marcadores en el Centro de administración. Los usuarios nunca ven las categorías asignadas.
 
-## <a name="create-bookmark-answers"></a>Crear respuestas a marcadores
+## <a name="create-bookmark-answers"></a>Crear respuestas de marcador
 
-En el [centro de administración de Microsoft 365](https://admin.microsoft.com/), vaya a [marcadores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/bookmarks) y elija cómo desea crear nuevos marcadores:
+En el [Centro de administración de Microsoft 365,](https://admin.microsoft.com/)vaya a [Marcadores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/bookmarks) y elija cómo desea crear nuevos marcadores:
 
 - Agregar marcadores
 - Importar resultados de SharePoint
 - Agregar marcadores predeterminados y marcadores sugeridos
 - Importar marcadores
-- Publicar o revisar los marcadores recomendados
+- Publicar o revisar marcadores recomendados
 
 ### <a name="add-bookmarks"></a>Agregar marcadores
 
-Los administradores y editores de búsqueda pueden agregar marcadores en el centro de administración de Microsoft 365. Los marcadores se pueden publicar o guardar en borrador. Al publicar un marcador, se actualiza inmediatamente el índice de búsqueda para que los usuarios puedan empezar a detectarlo y usarlo directamente. También puede programar un marcador especificando la fecha y la hora en que se publicará.
+Los administradores y editores de búsqueda pueden agregar marcadores en el Centro de administración de Microsoft 365 y publicarlos o guardarlos en borrador. La publicación de un marcador actualiza inmediatamente el índice de búsqueda, lo que hace que sea detectable para los usuarios de inmediato. También puede programar un marcador especificando la fecha y hora en que se publicará.
 
-- **Publicado**: los marcadores están disponibles para los usuarios de la organización a través de Microsoft Search.
-- **Borrador**: los marcadores guardados como borradores no están disponibles para los usuarios. Use este estado si usted u otras partes interesadas quieren revisar o actualizar los marcadores antes de publicarlos.
-- **Programado**: marcadores que se publicarán en la fecha y hora especificadas.
+- **Publicado:** los marcadores están disponibles para los usuarios de la organización a través de Microsoft Search.
+- **Borrador:** Los marcadores guardados como borradores no están disponibles para los usuarios. Use este estado si usted u otras partes interesadas desean revisar o actualizar los marcadores antes de publicarlos.
+- **Programado:** marcadores que se publicarán en la fecha y hora especificadas.
 
-Puede usar la extensión del explorador del creador de contenido de Microsoft Search para agregar fácilmente marcadores. Para instalar la extensión del explorador, vaya al sitio que desea agregar como marcador y haga clic en agregar en la extensión.
+Puede usar la extensión del explorador creador de contenido de Microsoft Search para agregar fácilmente marcadores. Para instalar la extensión del explorador, vaya al sitio que desea agregar como marcador y haga clic en Agregar en la extensión.
 Instale la extensión para Edge y Chrome:
 
-- Para el cromo de cromo o cromo: vaya al [almacén Web de Chrome](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) y agregue la extensión.
-- Para perimetral heredado: vaya a [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) y agregue la extensión.
+- Para Chromium Edge o Chrome: vaya al [almacén web de Chrome](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) y agregue la extensión.
+- For legacy Edge: go to the [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) and add the extension.
 
 ### <a name="import-sharepoint-results"></a>Importar resultados de SharePoint
 
-Si su organización ha configurado los resultados promocionados en SharePoint, puede importar los títulos, las direcciones URL y las descripciones de los resultados promovidos de su inquilino a Microsoft Search y hacer que el contenido importado esté disponible para los usuarios. En la mayoría de los casos, la importación de los resultados de SharePoint dura solo unos minutos. Si va a importar un gran número de resultados, puede tardar hasta 48 horas. Esta es una forma sencilla de rellenar rápidamente los resultados de búsqueda y hacer que sea más eficaz para los usuarios. Se recomienda usar los resultados promocionados de SharePoint como referencia para comprender cómo nombrar y crear resultados de búsqueda relevantes.
+Si su organización ha configurado resultados promocionados en SharePoint, puede importar los títulos, las direcciones URL y las descripciones de los resultados promocionados del inquilino en Microsoft Search y poner el contenido importado a disposición de los usuarios. En la mayoría de los casos, la importación de resultados de SharePoint tarda solo unos minutos. Si va a importar un gran número de resultados, puede tardar hasta 48 horas. Esta es una forma fácil de rellenar rápidamente los resultados de búsqueda y hacerlos más eficaces para los usuarios. Se recomienda usar los resultados promocionados de SharePoint como referencia para comprender cómo nombrar y crear resultados de búsqueda relevantes.
 
 ### <a name="add-default-and-suggested-bookmarks"></a>Agregar marcadores predeterminados y sugeridos
 
-Hemos incluido algunos marcadores predeterminados sugeridos que los usuarios pueden encontrar útiles, incluidos marcadores para recursos humanos, ventajas, soporte técnico de ti, administración de contraseñas y mucho más. Revise, actualice y publique estos marcadores sugeridos para proporcionar resultados de alta calidad a los usuarios inmediatamente.
+Hemos incluido algunos marcadores sugeridos predeterminados que los usuarios pueden resultar útiles, incluidos los marcadores para recursos humanos, ventajas, soporte de TI, administración de contraseñas y mucho más. Revise, actualice y publique estos marcadores sugeridos para proporcionar resultados de alta calidad a los usuarios de inmediato.
 
-Los usuarios también pueden sugerir marcadores que quieran que se agreguen mediante vínculos de comentarios en Microsoft Search. Las recomendaciones aparecerán como marcadores sugeridos.
+Los usuarios también pueden sugerir marcadores que les gustaría ver agregados mediante vínculos de comentarios en Microsoft Search. Sus recomendaciones aparecerán como marcadores sugeridos.
 
 ### <a name="import-bookmarks"></a>Importar marcadores
 
-Use la característica importar para agregar o editar un gran número de marcadores de forma rápida y sencilla. Úselo para:
+Use la característica Importar para que agregar o editar un gran número de marcadores sea más rápido y fácil. Úselo para:
 
-- Agregar marcadores en masa: agregue detalles en el archivo de plantilla de marcador y, a continuación, impórtelo.
-- Edición en masa de marcadores: exporte marcadores a un archivo. csv, edite los detalles del marcador en el archivo exportado y, a continuación, importe el archivo editado.
+- Agregar marcadores en masa: agregue detalles en el archivo de plantilla de marcador y, a continuación, impórlo.
+- Marcadores de edición masiva: exporte marcadores a un archivo .csv, edite los detalles del marcador en el archivo exportado y, a continuación, importe el archivo editado.
 
 Algunos puntos importantes sobre el archivo de plantilla:
 
-- No modificar nunca los datos de estos campos: *ID*, *última modificación* y *última modificación por*
-- Si incluye el *identificador* de un marcador existente, se reemplazará con la información del archivo de importación.
-- En el caso de los marcadores existentes con el mismo título o dirección URL, el marcador se actualizará con información en el archivo de importación.
+- Nunca edite los datos en estos campos: *ID,* *Last Modified* y Last *Modified By*
+- Si incluye el *identificador de* un marcador existente, se reemplazará por la información del archivo de importación.
+- Para los marcadores existentes con el mismo título o dirección URL, el marcador se actualizará con información en el archivo de importación.
 - No todos los campos del archivo de plantilla son necesarios y hay campos obligatorios que varían según el estado del marcador.
-- Según el campo de *Estado* , los marcadores se guardarán como borrador, sugerido, programado, excluido o se publicarán automáticamente.
-- Para los socios que administran varias organizaciones, puede exportar sus marcadores de una organización e importarlos en otro. Sin embargo, debe quitar los datos de la columna *ID* antes de importar.
+- Según el *campo Estado,* los marcadores se guardarán como borradores, sugeridos, programados, excluidos o se publicarán automáticamente.
+- Para los partners que administran varias organizaciones, puede exportar los marcadores de una organización e importarlos a otra. Pero debe quitar los datos de la columna *id. antes* de importar.
 
 ### <a name="prevent-import-errors"></a>Evitar errores de importación
 
-Si hay datos obligatorios que faltan o no son válidos, recibirá un mensaje de error y se generará un archivo de registro con información adicional acerca de las filas y columnas que se deben corregir. Realice cualquier cambio necesario y pruebe a importar de nuevo el archivo. No puede importar o guardar los marcadores hasta que se hayan solucionado todos los errores.
+Si hay datos obligatorios que faltan o no son válidos, recibirá un mensaje de error y se generará un archivo de registro con información adicional acerca de las filas y columnas que se deben corregir. Realice cualquier cambio necesario y pruebe a importar de nuevo el archivo. No puede importar ni guardar ningún marcador hasta que se resuelvan todos los errores.
 
 Para evitar errores, asegúrese de que el archivo de importación tiene el formato adecuado y de que:
 
 - Incluye todas la fila de encabezado y todas las columnas que había en la plantilla de importación
 - El orden de las columnas es el mismo que en la plantilla de importación
-- Todas las columnas tienen valores, excepto los tres que pueden estar vacíos: *ID*, *Last Modified* y *Last Modified by*
-- La columna *Estado* no está vacía; se trata de información necesaria.
-- Al importar marcadores publicados, sugeridos, programados o borradores, se necesitan las columnas *título*, *dirección URL* y *palabras clave* .
-- Al importar marcadores excluidos, la columna *URL* es obligatoria.
+- Todas las columnas tienen valores, excepto las tres que pueden estar vacías: *ID,* *Last Modified* y Last *Modified By*
+- La *columna* Estado no está vacía, es información necesaria
+- Al importar marcadores publicados, sugeridos, programados o borradores, se necesitan las columnas *Título,* *DIRECCIÓN URL* y *Palabras* clave
+- Al importar marcadores excluidos, se requiere la columna *url*
 
-Para evitar errores de duplicación de marcadores a marcadores:
+Para evitar errores de duplicación de marcador a marcador:
 
-- No use direcciones URL duplicadas para marcadores diferentes. Si una dirección URL está asignada a otro marcador e intenta agregarla de nuevo desde un archivo de importación, recibirá un error. Esto también se aplica a las direcciones URL duplicadas para otros tipos de respuestas.
-- Al actualizar los marcadores existentes, use la columna *identificador de marcador* . Puede actualizar cualquier otra propiedad de un marcador existente, como palabra clave o descripción, pero debe asegurarse de que el *identificador del marcador* se encuentra en la columna correspondiente del archivo de importación. Si el *identificador de marcador* está presente, no se tratará como nueva adición y no se procesará como un error.
+- No use direcciones URL duplicadas para diferentes marcadores. Si se asigna una dirección URL a otro marcador e intenta volver a agregarla desde un archivo de importación, se producirá un error. Esto también se aplica a direcciones URL duplicadas para otros tipos de respuestas.
+- Al actualizar los marcadores existentes, use la *columna id. de* marcador. Puede actualizar cualquier otra propiedad de un marcador existente, como palabra  clave o descripción, pero debe asegurarse de que el identificador de marcador se encuentra en la columna adecuada del archivo de importación. Si el *identificador de* marcador está presente, no se tratará como nueva adición y no se procesará como un error.
 
-### <a name="publish-or-review-recommended-bookmarks"></a>Publicar o revisar los marcadores recomendados
+### <a name="publish-or-review-recommended-bookmarks"></a>Publicar o revisar marcadores recomendados
 
-Para reducir el esfuerzo manual necesario para agregar marcadores, Microsoft Search puede evaluar los vínculos de SharePoint en su organización y recomendar los marcadores, y puede revisarlos antes de publicarlos o configurarlos para que los publique automáticamente. No se necesita ninguna configuración para los marcadores recomendados, están habilitados y configurados para la publicación automática de forma predeterminada. Para cambiar esta configuración en cualquier momento, seleccione **administrar marcadores** para abrir el panel Configuración de marcadores.
+Para reducir el esfuerzo manual necesario para agregar marcadores, Microsoft Search puede evaluar los vínculos de SharePoint de su organización y recomendar marcadores. Puede revisarlas antes de publicarlas o establecerlas para que se publiquen automáticamente. No se necesita ninguna configuración para los marcadores recomendados, están habilitados y establecidos en autopublicar de forma predeterminada. Para cambiar esta configuración en cualquier momento, seleccione **Administrar marcadores** para abrir el panel Configuración de marcadores.
 
-![Captura de pantalla de la configuración de marcadores recomendada en el portal de administración de Microsoft 365](media/bookmarks-recommendedsettings.png)
+![Captura de pantalla de la configuración de marcador recomendada en el portal de administración de Microsoft 365](media/bookmarks-recommendedsettings.png)
 
-Si los marcadores recomendados están habilitados, el motor de recomendación evaluará los sitios de SharePoint de la organización para identificar los vínculos de tráfico alto. Después de un período de evaluación inicial, los marcadores recomendados se publicarán o agregarán automáticamente a la lista de marcadores sugeridos. A continuación, se iniciará el ciclo siguiente: un período de evaluación de 30 días seguido de la publicación automática o la adición de marcadores sugeridos.
+Si se habilitan los marcadores recomendados, el motor de recomendaciones evaluará los sitios de SharePoint de la organización para identificar vínculos de alto tráfico. Después de un período de evaluación inicial, los marcadores recomendados se publicarán automáticamente o se agregarán a la lista de marcadores sugeridos. A continuación, se iniciará el siguiente ciclo, un período de evaluación de 30 días seguido de la publicación automática o la adición de marcadores sugeridos.
 
-Le recomendamos a los administradores o editores de búsqueda que revisen estos marcadores, que se publican automáticamente o sugeridos de manera regular. Además, los marcadores recomendados nunca incluirán direcciones URL que se encuentren en marcadores publicados, sugeridos, programados o excluidos existentes.
+Se recomienda que los administradores o editores de búsqueda revisen estos marcadores autoeditados o sugeridos con regularidad. Además, los marcadores recomendados nunca incluirán direcciones URL encontradas en los marcadores publicados, sugeridos, programados o excluidos existentes.
 
-Para asegurarse de que solo los usuarios con acceso verán un marcador recomendado en sus resultados de trabajo, se incluye una característica de comprobación de acceso para todos los marcadores recomendados. Los usuarios que no tienen permisos para obtener acceso a un sitio de SharePoint nunca verán el marcador recomendado para ese sitio. Esta comprobación de acceso está controlada por el valor de la opción **solo los usuarios con acceso a este vínculo** en la configuración de grupos de cada marcador recomendado.
+Para asegurarse de que solo los usuarios con acceso verán un marcador recomendado en los resultados del trabajo, se incluye una característica de comprobación de acceso para todos los marcadores recomendados. Los usuarios nunca verán un marcador recomendado para un sitio de SharePoint al que no puedan acceder. Esta comprobación de acceso se controla mediante la opción Solo personas con acceso a **este vínculo** en la configuración Grupos para cada marcador recomendado.
 
-Se detendrá la comprobación de acceso si se cambia la dirección URL en el marcador recomendado o en la configuración de grupos.
+La comprobación de acceso se detendrá si se cambia la dirección URL del marcador recomendado o la configuración Grupos.
 
-Para evitar que el motor de recomendación publique o sugiera un marcador a un sitio en particular, puede Agregar la dirección URL a una lista de excluidos. El motor de recomendaciones nunca publicará ni sugerirá un marcador para un sitio excluido o una página dentro de un sitio excluido.
+Para evitar que el motor de recomendación publique o sugiera un marcador en un sitio determinado, puede agregar la dirección URL a una lista excluida. El motor de recomendación nunca publicará ni sugerirá un marcador para un sitio excluido o una página dentro de un sitio excluido.
 
-## <a name="about-keywords-and-reserved-keywords"></a>Palabras clave y palabras clave reservadas
+## <a name="about-keywords-and-reserved-keywords"></a>Acerca de las palabras clave y las palabras clave reservadas
 
-Un marcador puede tener varias palabras clave y los marcadores pueden compartir la misma palabra clave, pero la palabra clave Reserved no se puede compartir. Una palabra clave reservada es un término o frase exclusiva que desencadena un marcador específico. Una palabra clave reservada se puede asociar solo con una respuesta. Use las palabras clave reservadas con moderación.
+Un marcador puede tener varias palabras clave y compartir la misma palabra clave, pero la palabra clave reservada no se puede compartir. Una palabra clave reservada es un término o frase único que desencadena un marcador específico. Una palabra clave reservada solo se puede asociar con una respuesta. Use palabras clave reservadas con moderación.
 
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 
-**P: ¿Cuánto tiempo tarda un marcador en estar visible en Microsoft Search después de publicarlo?**
+**P: ¿Cuánto tiempo se necesita para que un marcador esté visible en Microsoft Search después de su publicación?**
 
-**A:**  Hay un marcador disponible en Microsoft Search inmediatamente después de la publicación.
+**A:**  Un marcador está disponible en Microsoft Search inmediatamente después de su publicación.
 
-**P: ¿Cuánto tiempo tarda un marcador recomendado en aparecer?**
+**P: ¿Cuánto tiempo se necesita para que aparezca un marcador recomendado?**
 
-**A:**  Los marcadores recomendados sólo aparecerán en Microsoft Search si están habilitados tanto los marcadores recomendados como la publicación automática. Durante el período de evaluación inicial, el motor de recomendación evaluará el tráfico de SharePoint para identificar los marcadores adecuados y, a continuación, los publicará automáticamente. Una vez publicadas, estarán disponibles inmediatamente en Microsoft Search.
+**A:**  Los marcadores recomendados solo aparecerán en Microsoft Search si están habilitados los marcadores recomendados y la publicación automática. Durante el período de evaluación inicial, el motor de recomendación evaluará el tráfico de SharePoint para identificar los marcadores adecuados y, a continuación, publicarlos automáticamente. Una vez publicados, estarán disponibles inmediatamente en Microsoft Search.
 
-**P: ¿recomienda Microsoft Search los marcadores de sitios en todos los idiomas?**
+**P: ¿Cuánto tiempo se necesita para quitar un marcador eliminado de los resultados de Microsoft Search?**
 
-**A**: sí, Microsoft Search puede recomendar marcadores de cualquier sitio interno de SharePoint, independientemente del idioma.
+**A**: Los marcadores eliminados se quitan inmediatamente de los resultados del trabajo.
 
-**P: ¿puedo dejar de mostrar los marcadores recomendados en los resultados de búsqueda?**
+**P: ¿Microsoft Search recomendará marcadores de sitios en todos los idiomas?**
 
-**A:** Para dejar de mostrar los marcadores recomendados, desactive la configuración de autopublicación en el centro de administración. Los marcadores recomendados se agregarán a la lista de marcadores sugeridos.
+**A**: Sí, Microsoft Search puede recomendar marcadores desde cualquier sitio interno de SharePoint, independientemente del idioma.
 
-**P: ¿Cómo puedo identificar un marcador recomendado en los resultados de búsqueda o en el centro de administración?**
+**P: ¿Puedo dejar de mostrar marcadores recomendados en los resultados de búsqueda?**
 
-**A:** En los resultados de la búsqueda, los marcadores recomendados incluyen la frase "sugerida para usted" antes de la dirección URL. En el centro de administración, los marcadores recomendados tendrán el valor "sistema" como propietario.
+**A:** Para dejar de mostrar los marcadores recomendados, desactiva la configuración de publicación automática en el Centro de administración. Los marcadores recomendados se agregarán a la lista de marcadores sugeridos.
 
-**P: ¿cómo se administra el acceso a un marcador recomendado?**
+**P: ¿Cómo puedo identificar un marcador recomendado en los resultados de búsqueda o en el Centro de administración?**
 
-**Un**: un motor de acceso con ingeniería de Microsoft determina si la dirección URL del marcador es accesible para un usuario determinado y solo mostrará el marcador recomendado a la audiencia correcta. Sin embargo, si se modifica la dirección URL o se cambia la configuración de los grupos, se deshabilitará el motor de acceso con ingeniería.
+**A:** En los resultados de búsqueda, los marcadores recomendados incluyen la frase "Suggested for you" antes de la dirección URL. En el Centro de administración, los marcadores recomendados tendrán un valor owner de "SYSTEM".
 
-**P: ¿Qué ocurre si no se realiza ninguna acción en los marcadores recomendados agregados a la lista de sugerencias?**
+**P: ¿Cómo se administra el acceso a un marcador recomendado?**
 
-**A: para** evitar un gran volumen de marcadores en la lista sugerida, se depurará un marcador recomendado (propietario = sistema) después de 180 días.
+**A:** Un motor de acceso diseñado por Microsoft determina si la dirección URL del marcador es accesible para un usuario determinado y solo mostrará el marcador recomendado a la audiencia correcta. Sin embargo, si se edita la dirección URL o se cambia la configuración Grupos, se deshabilitará el motor de acceso diseñado.
 
-**P: ¿Dónde encuentro el identificador de aplicación de una aplicación de energía?**
+**P: ¿Qué sucede si no se hace ninguna acción en los marcadores recomendados agregados a la lista De sugerencias?**
 
-**A**: vaya al sitio de Power apps y vea el panel de detalles de la aplicación. Obtenga más información sobre cómo [obtener un identificador de aplicación](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id).
+**A**: Para evitar un gran volumen de marcadores en la lista sugerida, se purgará un marcador recomendado (propietario = SISTEMA) después de 180 días.
+
+**P: ¿Dónde puedo encontrar el identificador de la aplicación para una Power App?**
+
+**A:** Vaya al sitio de Power Apps y vea el panel Detalles de la aplicación. Obtenga más información [sobre cómo obtener un identificador de aplicación](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id).
