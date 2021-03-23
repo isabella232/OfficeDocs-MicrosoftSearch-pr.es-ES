@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Introducción a la instalación para conectores de Graph de Microsoft
-ms.openlocfilehash: e97b930f627a6336cc93b3a1f33e390cae4ff0aa
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 5c674f6b9253af1145be983e5713f65be1c2b022
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508880"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031381"
 ---
 <!-- Previous ms.author: monaray -->
 
@@ -81,13 +81,13 @@ El identificador de conexión crea propiedades implícitas para el conector. Sol
 
 El proceso para configurar las opciones de conexión varía en función del tipo de origen de datos. Consulte la información específica del conector para el tipo de origen de datos que desea agregar al espacio empresarial para completar este paso en el proceso de instalación.  
 
-Para obtener más información sobre cómo conectarse a un origen de datos local, vea [Install an on-premises data gateway](https://aka.ms/configuregateway).
+Para obtener más información sobre cómo conectarse a un origen de datos local, vea [Install an on-premises data gateway](/data-integration/gateway/service-gateway-install).
 
 ## <a name="step-4-manage-search-permissions"></a>Paso 4: Administrar permisos de búsqueda
 
 Las listas de control de acceso (ACL) determinan qué usuarios de la organización pueden tener acceso a cada elemento de datos.  
 
-Algunos conectores como [Microsoft SQL](MSSQL-connector.md) y Azure Data Lake [Storage Gen2](azure-data-lake-connector.md) admiten las ACL de [Azure Active Directory (Azure AD).](https://docs.microsoft.com/azure/active-directory/)
+Algunos conectores como [Microsoft SQL](MSSQL-connector.md) y Azure Data Lake [Storage Gen2](azure-data-lake-connector.md) admiten las ACL de [Azure Active Directory (Azure AD).](/azure/active-directory/)
 
 Otros conectores como [ServiceNow,](servicenow-connector.md) [Azure DevOps](azure-devops-connector.md)y [Salesforce](salesforce-connector.md) admiten la sincronización de usuarios y grupos que no son de Azure AD.  
 
@@ -204,4 +204,4 @@ Consulta la información específica del conector para el origen de datos para a
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Después de publicar la conexión, debe personalizar la página de resultados de búsqueda. Para obtener información sobre cómo personalizar los resultados de búsqueda, [vea Personalizar la página de resultados de búsqueda](https://docs.microsoft.com/microsoftsearch/configure-connector#next-steps-customize-the-search-results-page).
+Después de publicar la conexión, debe personalizar la página de resultados de búsqueda. Para obtener información sobre cómo personalizar los resultados de búsqueda, [vea Personalizar la página de resultados de búsqueda](#next-steps-customize-the-search-results-page).

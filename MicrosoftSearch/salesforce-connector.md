@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de Salesforce Graph para Microsoft Search
-ms.openlocfilehash: 86140a4650593e08188f171be54f1753b73ecf7a
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 59cc321a40655a1c1e5edf615dd43a2a56c8ddbc
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508827"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031687"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -81,12 +81,12 @@ Ahora puedes usar el Centro de administración [de M365](https://admin.microsoft
 
 ## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Paso 1: Agregar un conector de Graph en el Centro de administración de Microsoft 365
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-2-name-the-connection"></a>Paso 2: Nombrar la conexión
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-3-configure-the-connection-settings"></a>Paso 3: Configurar las opciones de conexión
@@ -125,7 +125,7 @@ Si optó por ingerir una ACL de la instancia de Salesforce y seleccionó "non-AA
 
 ## <a name="step-4b-map-aad-identities"></a>Paso 4b: Asignar identidades de AAD
 
-Si optó por ingerir una ACL de la instancia de Salesforce y seleccionó "AAD" para el tipo de identidad, consulte [Map your Azure AD Identities](map-aad.md) para obtener instrucciones sobre cómo asignar las identidades. Para obtener información sobre cómo configurar SSO de Azure AD para Salesforce, consulte este [tutorial](https://docs.microsoft.com/azure/active-directory/saas-apps/salesforce-tutorial).
+Si optó por ingerir una ACL de la instancia de Salesforce y seleccionó "AAD" para el tipo de identidad, consulte [Map your Azure AD Identities](map-aad.md) para obtener instrucciones sobre cómo asignar las identidades. Para obtener información sobre cómo configurar SSO de Azure AD para Salesforce, consulte este [tutorial](/azure/active-directory/saas-apps/salesforce-tutorial).
 
 ## <a name="step-5-assign-property-labels"></a>Paso 5: Asignar etiquetas de propiedades
 
@@ -150,7 +150,7 @@ La programación recomendada es de una semana para un rastreo completo.
 
 ## <a name="step-8-review-connection"></a>Paso 8: Revisar la conexión
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 <!---## Troubleshooting-->
@@ -170,13 +170,13 @@ Siga las instrucciones [generales de configuración](https://docs.microsoft.com/
     - MobilePhone
     - Correo electrónico
     - Tipo
-    - El título
+    - Título
     - AccountId
     - AccountName
     - AccountUrl
     - AccountOwner
     - AccountOwnerUrl
-    - Propietario
+    - Owner
     - OwnerUrl
     - CreatedBy
     - CreatedByUrl

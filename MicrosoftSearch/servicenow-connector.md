@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de ServiceNow Graph para Microsoft Search
-ms.openlocfilehash: eaf8014876b03c0b64c012cf7e83c4e4b84838b9
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 692170ef6f8332418efc7d56a56c6fa1b1cce76c
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508683"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031768"
 ---
 <!---Previous ms.author: kam1 --->
 
@@ -33,12 +33,12 @@ Este artículo está dirigido a cualquier persona que configure, ejecute y monit
   
 ## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Paso 1: Agregar un conector de Graph en el Centro de administración de Microsoft 365
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-2-name-the-connection"></a>Paso 2: Nombrar la conexión
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-3-connection-settings"></a>Paso 3: Configuración de conexión
@@ -95,11 +95,11 @@ Para usar Azure AD OpenID Connect para la autenticación, siga los pasos siguien
 
 ## <a name="step-3a-register-a-new-application-in-azure-active-directory"></a>Paso 3.a: Registrar una nueva aplicación en Azure Active Directory
 
-Para obtener información sobre cómo registrar una nueva aplicación en Azure Active Directory, consulte [Registrar una aplicación](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#register-an-application). Seleccione directorio de organización de inquilino único. Uri de redireccionamiento no es necesario. Después del registro, anote el identificador de aplicación (cliente) y el identificador de directorio (inquilino).
+Para obtener información sobre cómo registrar una nueva aplicación en Azure Active Directory, consulte [Registrar una aplicación](/azure/active-directory/develop/quickstart-register-app#register-an-application). Seleccione directorio de organización de inquilino único. Uri de redireccionamiento no es necesario. Después del registro, anote el identificador de aplicación (cliente) y el identificador de directorio (inquilino).
 
 ## <a name="step-3b-create-a-client-secret"></a>Paso 3.b: Crear un secreto de cliente
 
-Para obtener información sobre cómo crear un secreto de cliente, vea [Creating a client secret](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-client-secret). Tome nota del secreto de cliente.
+Para obtener información sobre cómo crear un secreto de cliente, vea [Creating a client secret](/azure/active-directory/develop/quickstart-register-app#add-a-client-secret). Tome nota del secreto de cliente.
 
 ## <a name="step-3c-retrieve-service-principal-object-identifier"></a>Paso 3.c: Recuperar el identificador de objeto de entidad de seguridad de servicio
 
@@ -204,23 +204,23 @@ Si selecciona **Solo** personas con acceso a este origen de datos, deberá elegi
 >El conector ServiceNow está en **versión preliminar** si elige Solo personas con acceso a este origen **de datos**.
 
 >[!NOTE]
->Si elige AAD como el tipo de origen de identidad, asegúrese de asignar la propiedad de origen UPN a la propiedad de destino de correo electrónico en ServiceNow. Para comprobar o cambiar las asignaciones, consulte [Customizing user provisioning attribute-mappings for SaaS applications in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/app-provisioning/customize-application-attributes).
+>Si elige AAD como el tipo de origen de identidad, asegúrese de asignar la propiedad de origen UPN a la propiedad de destino de correo electrónico en ServiceNow. Para comprobar o cambiar las asignaciones, consulte [Customizing user provisioning attribute-mappings for SaaS applications in Azure Active Directory](/azure/active-directory/app-provisioning/customize-application-attributes).
 
 Si optó por ingerir una ACL de la instancia de ServiceNow y seleccionó "non-AAD" para el tipo de identidad, consulte [Map your non-Azure AD Identities](map-non-aad.md) para obtener instrucciones sobre cómo asignar las identidades.
 
 ## <a name="step-6-assign-property-labels"></a>Paso 6: Asignar etiquetas de propiedades
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-7-manage-schema"></a>Paso 7: Administrar esquema
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-8-choose-refresh-settings"></a>Paso 8: Elegir la configuración de actualización
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 >[!NOTE]
@@ -228,7 +228,7 @@ Siga las instrucciones [generales de configuración](https://docs.microsoft.com/
 
 ## <a name="step-9-review-connection"></a>Paso 9: Revisar conexión
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="troubleshooting"></a>Solución de problemas

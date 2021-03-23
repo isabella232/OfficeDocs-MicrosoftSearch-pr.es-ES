@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de MediaWiki Graph para Microsoft Search
-ms.openlocfilehash: 1c2908de859056ccb26b862820e8b3be7a158569
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 5922cf76aa112430f9f6e857066acd054182058c
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508773"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031696"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -37,12 +37,12 @@ Este artículo está dirigido a cualquier persona que configure, ejecute y monit
 
 ## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Paso 1: Agregar un conector de Graph en el Centro de administración de Microsoft 365
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-2-name-the-connection"></a>Paso 2: Nombrar la conexión
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-3-configure-the-connection-settings"></a>Paso 3: Configurar las opciones de conexión
@@ -59,22 +59,22 @@ El conector de MediaWiki solo admite permisos de búsqueda visibles para **Todos
 
 ## <a name="step-5-assign-property-labels"></a>Paso 5: Asignar etiquetas de propiedades
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-6-manage-schema"></a>Paso 6: Administrar esquema
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-7-choose-refresh-settings"></a>Paso 7: Elegir la configuración de actualización
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-8-review-connection"></a>Paso 8: Revisar la conexión
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 <!---## Troubleshooting-->

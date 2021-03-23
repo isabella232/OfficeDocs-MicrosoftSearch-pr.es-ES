@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de Azure DevOps Graph para Microsoft Search
-ms.openlocfilehash: 9307aabbf5ea1565e083abfefb90c590d356ae58
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 9352f619e0a48bc2dac8441107f87f725211ab13
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508864"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031318"
 ---
 <!---Previous ms.author: shgrover --->
 
@@ -40,23 +40,23 @@ Este artículo está dirigido a cualquier persona que configure, ejecute y monit
 
 ## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Paso 1: Agregar un conector de Graph en el Centro de administración de Microsoft 365
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 
 instructions.-->
 
 ## <a name="step-2-name-the-connection"></a>Paso 2: Nombrar la conexión
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 
 instructions.-->
 
 ## <a name="step-3-configure-the-connection-settings"></a>Paso 3: Configurar las opciones de conexión
 
-Para conectarse a la instancia de Azure DevOps, necesita el nombre de la organización de Azure [DevOps,](https://docs.microsoft.com/azure/devops/organizations/accounts/create-organization) su identificador de aplicación y el secreto de cliente para la autenticación de OAuth.
+Para conectarse a la instancia de Azure DevOps, necesita el nombre de la organización de Azure [DevOps,](/azure/devops/organizations/accounts/create-organization) su identificador de aplicación y el secreto de cliente para la autenticación de OAuth.
 
 ### <a name="register-an-app"></a>Registrar una aplicación
 
-Registra una aplicación en Azure DevOps para que la aplicación de Microsoft Search pueda tener acceso a la instancia. Para obtener más información, vea la documentación de Azure DevOps sobre cómo [registrar una aplicación.](https://docs.microsoft.com/azure/devops/integrate/get-started/authentication/oauth?view=azure-devops#register-your-app&preserve-view=true)
+Registra una aplicación en Azure DevOps para que la aplicación de Microsoft Search pueda tener acceso a la instancia. Para obtener más información, vea la documentación de Azure DevOps sobre cómo [registrar una aplicación.](/azure/devops/integrate/get-started/authentication/oauth?preserve-view=true&view=azure-devops#register-your-app)
 
 En la siguiente tabla se proporcionan instrucciones sobre cómo rellenar el formulario de registro de la aplicación:
 
@@ -99,11 +99,11 @@ El conector de DevOps de Azure admite permisos de búsqueda visibles solo para l
 
 ## <a name="step-5-assign-property-labels"></a>Paso 5: Asignar etiquetas de propiedades
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 
 ## <a name="step-6-manage-schema"></a>Paso 6: Administrar esquema
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 
 ## <a name="step-7-choose-refresh-settings"></a>Paso 7: Elegir la configuración de actualización
 
@@ -112,7 +112,7 @@ La programación recomendada es de una hora para un rastreo incremental y un dí
 
 ## <a name="step-8-review-connection"></a>Paso 8: Revisar la conexión
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 
 instructions.-->
 

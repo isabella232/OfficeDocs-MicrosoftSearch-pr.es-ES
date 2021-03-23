@@ -1,5 +1,5 @@
 ---
-title: Administrar el cuadro de búsqueda en los sitios de SharePoint
+title: Administración del cuadro de búsqueda en sitios de SharePoint
 ms.author: keremy
 author: jeffkizn
 manager: parulm
@@ -11,43 +11,43 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Cómo personalizar la experiencia del cuadro de búsqueda en los sitios de SharePoint
-ms.openlocfilehash: 6ebd084aadb38acb5475b7e43d7c4092ffc09eb8
-ms.sourcegitcommit: c5fe4e01403379b3ee7ea4dbded8b31696311d79
+description: Cómo personalizar la experiencia del cuadro de búsqueda en sitios de SharePoint
+ms.openlocfilehash: c58e7cf0a47d22fa9c6fd3abd93cc97087625690
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49700968"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031363"
 ---
 # <a name="search-box-settings-on-sharepoint-sites"></a>Configuración del cuadro de búsqueda en sitios de SharePoint
 
-Una de las distintas formas en que Microsoft Search puede personalizarse en los sitios de SharePoint es personalizar el modo en que el cuadro de búsqueda de la barra de navegación de la Suite funciona en los sitios de SharePoint para ajustarse mejor a sus necesidades.
+Una de las varias formas en que Microsoft Search se puede personalizar en sitios de SharePoint es adaptar el modo en que funciona el cuadro de búsqueda en la barra de navegación del conjunto de aplicaciones en los sitios de SharePoint para que se ajuste mejor a sus necesidades.
 
-Para otras opciones de personalización, vea [cambiar la página de resultados de búsqueda de Microsoft para agregar verticales personalizados, tipos de resultados y diseños](customize-search-page.md)y [crear una página de resultados de búsqueda personalizada](create-search-results-pages.md).
+Para otras opciones de personalización, vea Cambiar la página de resultados de Microsoft Search para agregar verticales, tipos de resultados y [diseños personalizados](customize-search-page.md)y Crear una página de resultados [de búsqueda personalizada.](create-search-results-pages.md)
 
 > [!NOTE]
-> El cuadro de búsqueda de la barra de navegación de Suite no está disponible para todos los clientes en este momento, pero estas opciones todavía pueden establecerse y tendrán efecto cuando esté disponible.
+> El cuadro de búsqueda de la barra de navegación del conjunto de opciones no está disponible para todos los clientes en este momento, pero estas opciones aún se pueden establecer ahora y tendrán efecto cuando esté disponible.
 
-Para las tareas que se enumeran a continuación, usará PowerShell con extensiones de PowerShell de PnP de SharePoint. Puede instalar y obtener más información sobre cómo empezar [aquí](https://docs.microsoft.com/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps). Deberá iniciar sesión en el sitio o en la colección de sitios con este comando:
+Para las tareas que se enumeran a continuación, usará PowerShell con extensiones de PowerShell pnP de SharePoint. Puede instalar y obtener más información sobre cómo empezar [aquí](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps). Iniciará sesión en su sitio o colección de sitios con este comando:
 
 ```powershell
 Connect-PnPOnline -Url <yoursiteurl> -UseWebLogin
 # this will prompt you to sign into your site. Use the site owner credentials 
 ```
 
-## <a name="changing-the-scope-of-search"></a>Cambiar el ámbito de la búsqueda
+## <a name="changing-the-scope-of-search"></a>Cambiar el ámbito de búsqueda
 
-Cuando se crea un nuevo sitio en SharePoint Online y se escribe en el cuadro de búsqueda, se le lleva a la página de resultados de búsqueda de Microsoft. Esta página muestra los resultados de su sitio actual de forma predeterminada y le permite ampliar el ámbito de la búsqueda al concentrador al que está asociado el sitio actual (si hay alguno) o a toda la organización.
+Al crear un nuevo sitio en SharePoint Online hoy y escribir en el cuadro de búsqueda, se le va a la página de resultados de Microsoft Search. Esta página muestra los resultados del sitio actual de forma predeterminada y le permite expandir el ámbito de la búsqueda al concentrador al que está asociado el sitio actual (si lo hay) o a toda la organización.
 
-De forma predeterminada, el ámbito que usa el cuadro de búsqueda depende del tipo de sitio.
+El ámbito que usa el cuadro de búsqueda, de forma predeterminada, depende del tipo de sitio.
 
-* Búsqueda de sitios regulares en el sitio actual.
-* Sitios de concentradores busque en todos los sitios del concentrador.
-* Sitios principales busca en todo el contenido.
+* Los sitios normales buscan en el sitio actual.
+* Los sitios de concentradores buscan en todos los sitios del concentrador.
+* Los sitios de inicio buscan en todo el contenido.
 
-En algunos casos, es posible que desee cambiar estos valores predeterminados para que siempre se busque en toda la organización o en el concentrador al que está asociado un sitio, sin necesidad de hacer clic adicional.
+En algunos casos, es posible que desee cambiar estos valores predeterminados para buscar siempre en toda la organización o en todo el centro al que está asociado un sitio, sin necesidad de hacer clic adicional.
 
-Como propietario de un sitio, puede cambiar estos valores predeterminados mediante el siguiente comando:
+Como propietario del sitio, puede cambiar estos valores predeterminados mediante el siguiente comando:
 
 ```powershell
 Set-PnPSearchSettings -SearchScope Tenant
@@ -56,57 +56,57 @@ Set-PnPSearchSettings -SearchScope Tenant
 
 Después de ejecutar este comando, el sitio que anteriormente mostraba los resultados del sitio actual de forma predeterminada empezará a mostrar resultados de toda la organización.
 
-Para volver a la configuración predeterminada, ejecute el comando de nuevo con el valor "DefaultScope". Para buscar en el concentrador, use "Hub" como el valor de SearchScope.
+Para volver a la configuración predeterminada, vuelva a ejecutar el comando con el valor "DefaultScope". Para buscar en el concentrador, use "Concentrador" como valor de SearchScope.
 
-Esta configuración se aplica en el nivel de sitio individual. No hay una configuración equivalente para las colecciones de sitios.
+Esta configuración se aplica en el nivel de sitio individual. No hay ninguna configuración equivalente para las colecciones de sitios.
 
 ## <a name="show-or-hide-the-search-box"></a>Mostrar u ocultar el cuadro de búsqueda
 
-Puede elegir ocultar el cuadro de búsqueda de la barra de navegación de Suite si desea evitar que los usuarios busquen o usen una implementación de cuadro de búsqueda personalizada.
+Puedes elegir ocultar el cuadro de búsqueda de la barra de navegación del conjunto de aplicaciones si quieres impedir que los usuarios busquen o usar una implementación de cuadro de búsqueda personalizada.
 
-Para cambiar esta configuración en un sitio determinado, use este comando:
+Para cambiar esta configuración para un sitio determinado, use este comando:
 
 ```powershell
 Set-PnPSearchSettings -Scope Web -SearchBoxInNavBar Hidden
 # Hidden | Inherit
 ```
 
-Como alternativa, si desea establecerla para todos los sitios de una colección de sitios, puede usar este comando:
+Como alternativa, si desea establecerlo para todos los sitios de una colección de sitios, puede usar este comando:
 
 ```powershell
 Set-PnPSearchSettings -Scope Site -SearchBoxInNavBar Hidden
 # Hidden | Inherit
 ```
 
-Después de ejecutar estos comandos, el cuadro de búsqueda ya no aparecerá en la barra de navegación de la parte superior de la página. Para volver a mostrar el cuadro de búsqueda, ejecute los comandos de nuevo con el valor proporcionado al parámetro "SearchBoxInNavBar" en "inherit".
+Después de ejecutar estos comandos, el cuadro de búsqueda ya no aparecerá en la barra de navegación de la parte superior de la página. Para volver a mostrar el cuadro de búsqueda, vuelva a ejecutar los comandos con el valor proporcionado al parámetro "SearchBoxInNavBar" en "Inherit".
 
 Hay varios puntos a tener en cuenta:
 
-* Esta configuración solo se aplica al cuadro de búsqueda de la barra de navegación del conjunto de aplicaciones. No se aplica a los cuadros de búsqueda que se encuentran en la página ni a los cuadros de búsqueda de las páginas clásicas.
+* Esta configuración solo se aplica al cuadro de búsqueda de la barra de navegación del conjunto de opciones. No se aplica a los cuadros de búsqueda que están en la página ni a los cuadros de búsqueda de las páginas clásicas.
 
-* Una vez que haya deshabilitado el cuadro de búsqueda en la barra de navegación, si desea una funcionalidad de búsqueda en el sitio, tendrá que proporcionarlo con un elemento web personalizado o con una extensión de SharePoint Framework.
+* Una vez deshabilitado el cuadro de búsqueda en la barra de navegación, si desea la funcionalidad de búsqueda en el sitio, tendrá que proporcionarlo usted mismo mediante un elemento web personalizado o una extensión de SharePoint Framework.
 
-* Esta solución también quitará el cuadro de búsqueda de las listas y bibliotecas del sitio. La solución de búsqueda personalizada debe tener en cuenta las búsquedas contextuales de las listas y bibliotecas de SharePoint, además de la búsqueda en todo el sitio.
+* Esta solución también quitará el cuadro de búsqueda de las listas y bibliotecas del sitio. La solución de búsqueda personalizada tendrá que tener en cuenta las búsquedas contextuales para listas y bibliotecas de SharePoint, además de la búsqueda en todo el sitio.
 
 * Si aplica la configuración al sitio raíz de su dominio, la página de inicio de SharePoint también dejará de mostrar el cuadro de búsqueda.
 
-## <a name="changing-the-hint-displayed-in-the-search-box"></a>Cambio de la sugerencia mostrada en el cuadro de búsqueda
+## <a name="changing-the-hint-displayed-in-the-search-box"></a>Cambiar la sugerencia que se muestra en el cuadro de búsqueda
 
-Puede cambiar la sugerencia que muestra el cuadro de búsqueda para un sitio o una colección de sitios determinados. Este es el texto que aparece en el cuadro de búsqueda antes de empezar a escribir en él. Esto puede ayudar a los usuarios a saber lo que cabe esperar de la búsqueda si ha configurado una página de resultados personalizada o cambiado el comportamiento de la búsqueda de otras formas.
+Puede cambiar la sugerencia que muestra el cuadro de búsqueda para un sitio o colección de sitios determinados. Este es el texto que aparece en el cuadro de búsqueda antes de empezar a escribirlo. Esto puede ayudar a guiar a los usuarios sobre qué esperar de la búsqueda si ha configurado una página de resultados personalizada o ha cambiado el comportamiento de la búsqueda de otras maneras.
 
 > [!NOTE]
-> Para poder realizar este cambio, debe permitir la ejecución de scripts personalizados en el sitio en cuestión como administrador de inquilinos, que no se permite de forma predeterminada. https://docs.microsoft.com/sharepoint/allow-or-prevent-custom-scriptPara obtener más información, consulte. Puede permitir la ejecución de scripts personalizados, realizar el cambio y, a continuación, revertir a no permitir scripts para el sitio si es necesario.
+> Para poder realizar este cambio, debe permitir la ejecución de scripts personalizados en el sitio en cuestión como administrador de inquilinos, lo que no está permitido de forma predeterminada. Consulte para https://docs.microsoft.com/sharepoint/allow-or-prevent-custom-script obtener más información. Puede permitir la ejecución de scripts personalizados, realizar el cambio y, a continuación, revertir a la falta de permitir scripts para el sitio si es necesario.
 
-Para cambiar esta configuración en un sitio determinado, ejecute el siguiente comando:
+Para cambiar esta configuración para un sitio determinado, ejecute el siguiente comando:
 
 ```powershell
 Set-PnPSearchSettings -Scope Web -SearchBoxPlaceholderText "my placeholder" 
 ```
 
-Como alternativa, si desea establecerla para todos los sitios de una colección de sitios, puede usar este comando:
+Como alternativa, si desea establecerlo para todos los sitios de una colección de sitios, puede usar este comando:
 
 ```powershell
 Set-PnPSearchSettings -Scope Site -SearchBoxPlaceholderText "my placeholder" 
 ```
 
-Para volver al texto del marcador de posición predeterminado, establezca el valor en blanco ("").
+Para volver al texto de marcador de posición predeterminado, establezca el valor en blanco ("").

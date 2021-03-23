@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: c020bd72-9906-4dfd-bc77-57287f5927ce
 description: Obtenga información sobre cómo establecer Bing como página principal predeterminada para su empresa con Microsoft Search.
-ms.openlocfilehash: 2b88d92d02261ec1756b811e5078206301229cbd
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: 0d8fac0302e672c603853185ff0810bf6d42371c
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626931"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031678"
 ---
 # <a name="make-bingcom-the-default-home-page"></a>Convertir Bing.com en la Página principal predeterminada
 
@@ -42,7 +42,7 @@ El artículo de soporte técnico de Windows sobre la administración de archivos
 
 También necesitará el archivo de directiva de Google más reciente, que puede encontrar en [ayuda de Google Chrome Enterprise](https://support.google.com/chrome/a/answer/187202).
   
-Si la configuración descrita en esta sección no se encuentra dentro de la GPMC, descargue los ADMX adecuados y cópielos en el [almacén central](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). El almacén central en el controlador es una carpeta con la convención de nomenclatura siguiente:
+Si la configuración descrita en esta sección no se encuentra dentro de la GPMC, descargue los ADMX adecuados y cópielos en el [almacén central](/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). El almacén central en el controlador es una carpeta con la convención de nomenclatura siguiente:
   
  **%systemroot%\sysvol\\<domain\>\policies\PolicyDefinitions**
   

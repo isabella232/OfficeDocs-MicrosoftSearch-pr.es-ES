@@ -13,34 +13,34 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de Azure Data Lake Storage Gen2 Graph para Microsoft Search
-ms.openlocfilehash: 2bb9570bc3b0a5adef7ac72ea1620c4f22a8aefb
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 37a035b3de9dc217f885f193992d1e74a675fb35
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508890"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031327"
 ---
 <!---Previous ms.author: monaray --->
 
 # <a name="azure-data-lake-storage-gen2-graph-connector"></a>Conector de Azure Data Lake Storage Gen2 Graph
 
-El conector de Azure Data Lake Storage Gen2 Graph permite a los usuarios de su organización buscar archivos almacenados en cuentas de Almacenamiento de [blobs](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction) de Azure [y Azure Data Lake Gen 2 Storage.](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction)
+El conector de Azure Data Lake Storage Gen2 Graph permite a los usuarios de su organización buscar archivos almacenados en cuentas de Almacenamiento de [blobs](/azure/storage/blobs/storage-blobs-introduction) de Azure [y Azure Data Lake Gen 2 Storage.](/azure/storage/blobs/data-lake-storage-introduction)
 
 > [!NOTE]
 > Lea el [**artículo Configurar el conector de Graph**](configure-connector.md) para comprender las instrucciones generales de configuración de conectores de Graph.
 
 Este artículo está para cualquier persona que configure, ejecute y monitore un conector de Azure Data Lake Storage Gen2. Complementa el proceso de configuración general y muestra instrucciones que solo se aplican al conector de Azure Data Lake Storage Gen2. En este artículo también se incluye información sobre [limitaciones](#limitations).
 
-En el artículo, usamos *Azure Storage* como término genérico para Azure [Blob Storage](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction) y Azure Data Lake [Gen 2 Storage](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction).
+En el artículo, usamos *Azure Storage* como término genérico para Azure [Blob Storage](/azure/storage/blobs/storage-blobs-introduction) y Azure Data Lake [Gen 2 Storage](/azure/storage/blobs/data-lake-storage-introduction).
 
 ## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Paso 1: Agregar un conector de Graph en el Centro de administración de Microsoft 365
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-2-name-the-connection"></a>Paso 2: Nombrar la conexión
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-3-configure-the-connection-settings"></a>Paso 3: Configurar las opciones de conexión
@@ -76,13 +76,13 @@ En la **pantalla Administrar esquema,** puede cambiar los atributos de esquema a
 
 ### <a name="azure-data-lake-gen-2"></a>Azure Data Lake Gen 2
 
-Puede elegir ingerir las listas de control de acceso (ACL) de su cuenta de almacenamiento de [Azure Data Lake Gen 2.](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction) Cuando se establecen estos permisos de búsqueda, el contenido de búsqueda se recorta en función de los permisos del usuario que ha firmado en [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/). Como alternativa, puede elegir hacer que todo el contenido indizado desde su cuenta de almacenamiento sea visible para todos los usuarios de la organización. En este caso, todos los usuarios de la organización tendrán acceso a todos los datos de la cuenta de almacenamiento.
+Puede elegir ingerir las listas de control de acceso (ACL) de su cuenta de almacenamiento de [Azure Data Lake Gen 2.](/azure/storage/blobs/data-lake-storage-introduction) Cuando se establecen estos permisos de búsqueda, el contenido de búsqueda se recorta en función de los permisos del usuario que ha firmado en [Azure Active Directory](/azure/active-directory/). Como alternativa, puede elegir hacer que todo el contenido indizado desde su cuenta de almacenamiento sea visible para todos los usuarios de la organización. En este caso, todos los usuarios de la organización tendrán acceso a todos los datos de la cuenta de almacenamiento.
 
 El conector de Azure Data Lake Storage Gen2 Graph admite permisos de búsqueda visibles para todos **o** solo personas con **acceso a este origen de datos.** Los datos indizados que aparecen en los resultados de la búsqueda podrían ser visibles para los usuarios de la organización que tienen acceso a cada elemento.
 
 ### <a name="azure-blob-storage"></a>Azure Blob Storage
 
-Para una conexión a [Azure Blob Storage,](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction)todo el contenido indizado desde el origen configurado es visible para todos los usuarios de la organización. Las listas de control de acceso no se admiten en el nivel de blob en Azure Blob Storage.
+Para una conexión a [Azure Blob Storage,](/azure/storage/blobs/storage-blobs-introduction)todo el contenido indizado desde el origen configurado es visible para todos los usuarios de la organización. Las listas de control de acceso no se admiten en el nivel de blob en Azure Blob Storage.
 
 ## <a name="step-7-set-the-refresh-schedule"></a>Paso 7: Establecer la programación de actualización
 
@@ -90,7 +90,7 @@ En la **pantalla Actualizar configuración,** puede establecer el intervalo de r
 
 ## <a name="step-8-review-connection"></a>Paso 8: Revisar la conexión
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 <!---## Troubleshooting-->

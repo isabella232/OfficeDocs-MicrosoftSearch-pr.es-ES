@@ -1,5 +1,5 @@
 ---
-title: Administre los diseños de resultados de búsqueda
+title: Administrar los diseños de resultados de búsqueda
 ms.author: jypal
 author: jypal6
 manager: jeffkizn
@@ -11,29 +11,29 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Mediante tarjetas adaptables, cree un diseño para ver los resultados de la búsqueda personalizados
-ms.openlocfilehash: 425e5404c14d500f6ecd84ad449dafb05bbfd31b
-ms.sourcegitcommit: 59435698bece013ae64ca2a68c43455ca10e3fdf
+description: Con tarjetas adaptables, crea un diseño para ver los resultados de búsqueda personalizados
+ms.openlocfilehash: d29b1a45f11079f4b71f71a387cf43cbf2f48e7d
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48927184"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031741"
 ---
 <!-- markdownlint-disable no-hard-tabs -->
-# <a name="create-a-layout-to-customize-search-results"></a>Crear un diseño para personalizar los resultados de la búsqueda
+# <a name="create-a-layout-to-customize-search-results"></a>Crear un diseño para personalizar los resultados de búsqueda
 
-Puede diseñar el diseño de los resultados de una vertical personalizada mediante el diseñador de diseño de búsqueda. Puede empezar a diseñar el diseño si elige plantillas que se ofrecen en el diseñador de diseño y las usa si se ajustan a sus necesidades. También puede optar por editar estas plantillas de varias formas para ajustarse a sus necesidades. Por ejemplo, agregar o quitar imágenes, agregar o quitar texto y modificar texto. Si ninguna de las plantillas cumple los requisitos, puede optar por empezar a diseñar el diseño con una plantilla en blanco.  
+Puede diseñar el diseño de resultados para una vertical personalizada mediante el diseñador de diseños de búsqueda. Puedes empezar a diseñar el diseño eligiendo las plantillas que se ofrecen en el diseñador de diseños y usándolos si se ajustan a tus requisitos. O puede elegir editar estas plantillas de varias maneras para ajustarse a sus requisitos. Por ejemplo, agregar o quitar imágenes, agregar o quitar texto y modificar texto. Si ninguna de las plantillas cumple sus requisitos, puede empezar a diseñar el diseño con una plantilla en blanco.  
 
-Una vez que el diseño esté listo, use el [lenguaje de plantilla tarjetas adaptables](https://docs.microsoft.com/adaptive-cards/templating/language) para crear una JSON de diseño de resultados que se usa para definir un tipo de resultado. Las propiedades de resultado se asignan al diseño mediante el paso de asignación del diseñador de diseño.  
+Después de que el diseño esté listo, use el lenguaje de plantilla [de](/adaptive-cards/templating/language) tarjetas adaptables para crear un JSON de diseño de resultados que se usa para definir un tipo de resultado. Las propiedades de resultado se asignan al diseño mediante el paso Asignación en el diseñador de diseños.  
 
 ## <a name="create-a-layout-on-your-own"></a>Crear un diseño por su cuenta
 
-La creación de un diseño propio requiere conocimientos de [tarjetas adaptables](https://docs.microsoft.com/adaptive-cards/authoring-cards/getting-started) y su [esquema](https://adaptivecards.io/explorer/). El diseño de resultados de búsqueda usa un subconjunto de los elementos ofrecidos por tarjetas adaptables y puede usar el diseñador de diseño para obtener información sobre el conjunto de elementos admitidos.  
+Crear un diseño por su cuenta requiere conocimientos de [tarjetas adaptables](/adaptive-cards/authoring-cards/getting-started) y su [esquema.](https://adaptivecards.io/explorer/) El diseño de resultados de búsqueda usa un subconjunto de los elementos ofrecidos por tarjetas adaptables y puede usar el diseñador de diseños para obtener información sobre el conjunto de elementos admitido.  
 
-Al crear su propio diseño, cree el diseño de la tarjeta adaptable con los datos del conector y, a continuación, finalice el diseño.
-Existen dos pasos principales para crear su propio diseño:
+Al crear su propio diseño, cree el diseño de tarjeta adaptable con datos del conector y, a continuación, finalizar el diseño.
+Hay dos pasos principales para crear su propio diseño:
 
-- Diseñar el diseño.
+- Diseñe el diseño.
 - Separe los datos de la plantilla.
 
 ### <a name="design-the-layout"></a>Edite el diseño.
@@ -42,7 +42,7 @@ En este ejemplo, se muestra un diseño con un encabezado, un vínculo y un texto
 
 ![Ejemplo de un diseño con un encabezado, un vínculo y una descripción.](media/Verts-ExampleLayout.png)
 
-Y este es el archivo JSON asociado al diseño:
+Y este es el archivo JSON asociado del diseño:
 
 ```json
 {
@@ -102,7 +102,7 @@ Y este es el archivo JSON asociado al diseño:
 
 Puede separar los datos del diseño y enlazar los datos.
 
-Este es el JSON de diseño después de enlazar los datos:
+Este es layout JSON después de enlazar los datos:
 
 ```json
 {
@@ -155,7 +155,7 @@ Este es el JSON de diseño después de enlazar los datos:
 }
 ```
 
-Datos de ejemplo: especifique datos de ejemplo en el **Editor de datos de ejemplo** para ver la tarjeta enlazada a datos en modo de **vista previa**.
+Datos de ejemplo: especifique datos de ejemplo en el **Editor** de datos de ejemplo para ver la tarjeta enlazada a datos cuando se encuentra en **modo de vista previa**.
 
 ```json
 {
@@ -168,17 +168,17 @@ Datos de ejemplo: especifique datos de ejemplo en el **Editor de datos de ejempl
 }
 ```
 
-## <a name="map-the-layout-to-the-result-properties"></a>Asignar el diseño a las propiedades del resultado
+## <a name="map-the-layout-to-the-result-properties"></a>Asignar el diseño a las propiedades de resultados
 
-Debe asignar cada campo del diseño a una propiedad de resultado o a una propiedad de conector para generar el JSON del diseño de resultados.
+Debe asignar cada campo del diseño a una propiedad result o a una propiedad connector para generar el JSON de diseño de resultados.
 
-![Captura de pantalla de un diseño de ejemplo en la página del diseñador de diseño de búsqueda con un campo seleccionado y el panel de propiedades abierto.](media/Verts-SearchLayoutDesigner.png)
+![Captura de pantalla de un diseño de ejemplo en la página Diseñador de diseños de búsqueda con un campo seleccionado y el panel de propiedades abierto.](media/Verts-SearchLayoutDesigner.png)
 
-Seleccione un campo en el diseño para resaltar las variables que se deben asignar. Puede usar varias variables para un solo campo y todos los campos deben asignarse a las propiedades del resultado.
+Seleccione un campo en el diseño para resaltar las variables que deben asignarse. Puede usar varias variables para un solo campo y todos los campos deben asignarse a las propiedades de resultado.
 
-### <a name="show-snippet-on-search-result"></a>Mostrar fragmento de código en los resultados de búsqueda  
+### <a name="show-snippet-on-search-result"></a>Mostrar fragmento de código en el resultado de la búsqueda  
 
-Los fragmentos dinámicos generados en la propiedad de **contenido** del resultado del conector se pueden mostrar en los resultados de la búsqueda. **ResultSnippet** es la propiedad del sistema que actúa como propiedad del marcador de posición para los fragmentos de código generados para cada resultado del conector. Para mostrar los fragmentos de código en el diseño de los resultados, la propiedad del sistema **ResultSnippet** debe asignarse a un campo apropiado, por ejemplo Descripción, en el diseño de resultado de la búsqueda. Los fragmentos de código generados en cada resultado también resaltan las coincidencias en el fragmento de código con el término de consulta escrito por el usuario.
+Los fragmentos de código dinámicos generados en la propiedad **de** contenido del resultado del conector se pueden mostrar en el resultado de la búsqueda. **ResultSnippet es** la propiedad del sistema que actúa como una propiedad de marcador de posición para los fragmentos de código generados para cada resultado de Connector. Para mostrar los fragmentos de código en el diseño de resultados, la propiedad del sistema **ResultSnippet** debe asignarse a un campo adecuado, por ejemplo Description, en el diseño de resultados de búsqueda. Los fragmentos de código generados en cada resultado también resaltan las coincidencias del fragmento de código con el término de consulta especificado por el usuario.
 
 ## <a name="things-to-consider"></a>Consideraciones que se deben tener en cuenta
 
@@ -186,26 +186,26 @@ Antes de empezar, hay algunas cosas que debe hacer y algunas cosas que debe evit
 
 ### <a name="do"></a>Correcto
 
-- Edite una plantilla para proporcionar el vínculo del logotipo en el diseño si está usando vínculos estáticos para los logotipos y no las propiedades de los resultados.
-- Validar el diseño de los resultados de los escenarios en los que no se devuelven datos para una propiedad de resultado usada en el JSON del resultado. Use la `$when` condición para ocultar un elemento si la propiedad no contiene datos.  
-- Asegúrese de que los tipos de datos de la `$when` condición y la propiedad result coinciden. Por ejemplo, no compare `Number` con `Text` en la `$when` condición.  
-- Piense en los requisitos de tema al diseñar un diseño de resultados.  
-- Asegúrese de que el `Textblock`   elemento puede controlar el contenido dinámico. Puede usar las `wrap` propiedades del `maxLines` elemento y para este propósito.
-- Dar formato adecuado a la fecha al usar `{DATE()}` en Markdown.  
+- Edite una plantilla para proporcionar el vínculo de logotipo en el diseño si usa vínculos estáticos para logotipos y no propiedades de resultados.
+- Valide el diseño de resultados para escenarios en los que no se devuelven datos para una propiedad de resultado usada en el JSON de resultados. Use la `$when` condición para ocultar un elemento si la propiedad no contiene datos.  
+- Asegúrese de que los tipos de datos de la `$when` condición y la propiedad result coinciden. Por ejemplo, no se compare `Number` con `Text` la `$when` condición.  
+- Piense en los requisitos del tema al diseñar un diseño de resultados.  
+- Asegúrese de que el `Textblock`   elemento puede controlar el contenido dinámico. Puede usar las propiedades `wrap` del elemento and para este `maxLines` propósito.
+- Formatee correctamente la fecha al usar `{DATE()}` en Markdown.  
 
 ### <a name="dont"></a>Incorrecto
 
-- No defina tipos de datos no válidos al enlazar valores. Para obtener más información acerca de los tipos de datos, consulte [administrar el esquema de búsqueda](https://docs.microsoft.com/sharepoint/search/manage-the-search-schema).
-- Evite recortar el resultado en la página de resultados mediante el alto máximo de la JSON del diseño de resultados. Si supera el alto máximo del diseño de los resultados, el resultado se recortará en la página de resultados.
-- No use `px` valores en las propiedades del elemento.
-- No use Markdown con la propiedad **ResultSnippet** en el diseño de resultados para resaltar la coincidencia de consulta en los resultados de búsqueda.
+- No defina tipos de datos no válidos al enlazar valores. Para obtener más información acerca de los tipos de datos, [vea Manage the Search schema](/sharepoint/search/manage-the-search-schema).
+- Evite recortar el resultado en la página de resultados siguiendo el alto máximo del JSON de diseño de resultados. Si supera el alto máximo del diseño de resultados, el resultado se recortará en la página de resultados.
+- No use valores `px` en propiedades de elemento.
+- No use markdown con la **propiedad ResultSnippet** en el diseño de resultados para resaltar la coincidencia de consulta en el resultado de la búsqueda.
 
 ## <a name="resources"></a>Recursos
 
-[Página personalizar resultados de búsqueda](customize-search-page.md)
+[Personalizar página de resultados de búsqueda](customize-search-page.md)
 
-[Tarjetas adaptables](https://docs.microsoft.com/adaptive-cards/authoring-cards/getting-started)
+[Tarjetas adaptables](/adaptive-cards/authoring-cards/getting-started)
 
-[Idioma de plantilla de tarjetas adaptables](https://docs.microsoft.com/adaptive-cards/templating/language)
+[Idioma de plantilla de tarjetas adaptables](/adaptive-cards/templating/language)
 
 [Esquema de tarjeta adaptable](https://adaptivecards.io/explorer/)

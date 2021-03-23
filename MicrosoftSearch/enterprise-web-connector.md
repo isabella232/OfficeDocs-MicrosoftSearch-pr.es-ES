@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector graph de sitios web de empresa para Microsoft Search
-ms.openlocfilehash: b0ed7cc4148dba6c7555fcf7c9c930184cdbc24c
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 42c3f0a80b21e23bb625db06c4f9e89f2c10de4a
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508800"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031633"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -39,17 +39,17 @@ Este artículo está para cualquier persona que configure, ejecute y monitore un
 
 ## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Paso 1: Agregar un conector de Graph en el Centro de administración de Microsoft 365
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-2-name-the-connection"></a>Paso 2: Nombrar la conexión
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-3-configure-the-connection-settings"></a>Paso 3: Configurar las opciones de conexión
 
-Para conectarse al origen de datos, debe rellenar la dirección URL raíz del sitio web, seleccionar un origen de rastreo y el tipo de autenticación que desea usar: None, Basic Authentication o OAuth 2.0 con [Azure Active Directory (Azure AD).](https://docs.microsoft.com/azure/active-directory/) Después de completar esta información, seleccione Probar conexión para comprobar la configuración.
+Para conectarse al origen de datos, debe rellenar la dirección URL raíz del sitio web, seleccionar un origen de rastreo y el tipo de autenticación que desea usar: None, Basic Authentication o OAuth 2.0 con [Azure Active Directory (Azure AD).](/azure/active-directory/) Después de completar esta información, seleccione Probar conexión para comprobar la configuración.
 
 ### <a name="url"></a>URL
 
@@ -62,7 +62,7 @@ Use el campo DIRECCIÓN URL para especificar la raíz del sitio web que desea ra
 
 El modo de rastreo determina el tipo de sitios web que desea indizar, ya sea en la nube o local. Para los sitios web en la nube, **seleccione Nube** como modo de rastreo.
 
-Además, el conector ahora admite el rastreo de sitios web locales. Este modo está en versión preliminar. Para obtener acceso a los datos locales, primero debe instalar y configurar el agente de conector de Graph. Para obtener más información, vea [Graph connector agent](https://docs.microsoft.com/microsoftsearch/on-prem-agent).
+Además, el conector ahora admite el rastreo de sitios web locales. Este modo está en versión preliminar. Para obtener acceso a los datos locales, primero debe instalar y configurar el agente de conector de Graph. Para obtener más información, vea [Graph connector agent](./on-prem-agent.md).
 
 Para los sitios web  locales, seleccione Agente como  modo de rastreo y, en el campo Agente local, elija el agente de conector de Graph que instaló y configuró anteriormente.  
 
@@ -73,16 +73,16 @@ Para los sitios web  locales, seleccione Agente como  modo de rastreo y, en el c
 
 La autenticación básica requiere un nombre de usuario y una contraseña. Cree esta cuenta de bot mediante el Centro de administración de [Microsoft 365](https://admin.microsoft.com).
 
-OAuth 2.0 con [Azure AD](https://docs.microsoft.com/azure/active-directory/) requiere un identificador de recurso, id. de cliente y secreto de cliente. OAuth 2.0 solo funciona con el modo nube.
+OAuth 2.0 con [Azure AD](/azure/active-directory/) requiere un identificador de recurso, id. de cliente y secreto de cliente. OAuth 2.0 solo funciona con el modo nube.
 
-Para obtener más información, vea [Authorize access to Azure Active Directory web applications using OAuth 2.0 code grant flow](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code). Regístrese con los siguientes valores:
+Para obtener más información, vea [Authorize access to Azure Active Directory web applications using OAuth 2.0 code grant flow](/azure/active-directory/develop/v1-protocols-oauth-code). Regístrese con los siguientes valores:
 
 **Nombre:** Microsoft Search <br/>
 **Redirect_URI:**`https://gcs.office.com/v1.0/admin/oauth/callback`
 
 Para obtener los valores del recurso, client_id y client_secret, vaya a Usar el código de autorización para solicitar un **token** de acceso en la página web url de redireccionamiento.
 
-Para obtener más información, vea [Inicio rápido: Registrar una aplicación con la plataforma de identidad de Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+Para obtener más información, vea [Inicio rápido: Registrar una aplicación con la plataforma de identidad de Microsoft](/azure/active-directory/develop/quickstart-register-app).
 
 ## <a name="step-3a-add-urls-to-exclude-optional-crawl-restrictions"></a>Paso 3a: Agregar direcciones URL para excluir (restricciones de rastreo opcionales)
 
@@ -114,12 +114,12 @@ El conector de sitios web de empresa solo admite una actualización completa. Es
 
 ## <a name="step-8-review-connection"></a>Paso 8: Revisar la conexión
 
-Siga las instrucciones [generales de configuración](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
-Al leer el contenido del sitio web, el rastreo puede encontrar algunos errores de origen, que se representan mediante los códigos de error detallados a continuación. Para obtener más información sobre los tipos de errores, vaya a la página de detalles del **error** después de seleccionar la conexión. Seleccione el **código de error** para ver errores más detallados. Consulte también [Administrar el conector para](https://docs.microsoft.com/microsoftsearch/manage-connector) obtener más información.
+Al leer el contenido del sitio web, el rastreo puede encontrar algunos errores de origen, que se representan mediante los códigos de error detallados a continuación. Para obtener más información sobre los tipos de errores, vaya a la página de detalles del **error** después de seleccionar la conexión. Seleccione el **código de error** para ver errores más detallados. Consulte también [Administrar el conector para](./manage-connector.md) obtener más información.
 
  Código de error detallado | Mensaje de error
  --- | ---

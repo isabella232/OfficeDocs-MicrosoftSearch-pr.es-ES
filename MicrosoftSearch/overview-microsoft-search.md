@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenga información general sobre lo que es Microsoft Search, sus ventajas y qué aplicaciones admiten Microsoft Search.
-ms.openlocfilehash: a7250bccd3f77eb3ad2f3c91bdfd176a2141fd98
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 23bc07766bd5fb00bed21c7e739b22e7d1333630
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508818"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031786"
 ---
 # <a name="overview-of-microsoft-search"></a>Introducción a Búsqueda de Microsoft
 
@@ -68,7 +68,7 @@ Como administrador, puede crear una experiencia de Microsoft Search increíble p
 
 ## <a name="what-content-is-searched"></a>Qué contenido se busca
 
-Microsoft Search muestra el contenido que su organización ha almacenado en Microsoft 365 o indexado a través de conectores. Microsoft Search no busca entre inquilinos ni muestra resultados del contenido compartido por otras organizaciones. Si su organización ha configurado un entorno híbrido de SharePoint mediante la búsqueda híbrida en la nube, Microsoft Search devuelve los resultados de búsqueda de contenido de SharePoint local y en línea, incluido cualquier contenido externo que haya conectado al entorno de SharePoint Server. [Más información sobre los entornos híbridos de búsqueda](https://docs.microsoft.com/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint).
+Microsoft Search muestra el contenido que su organización ha almacenado en Microsoft 365 o indexado a través de conectores. Microsoft Search no busca entre inquilinos ni muestra resultados del contenido compartido por otras organizaciones. Si su organización ha configurado un entorno híbrido de SharePoint mediante la búsqueda híbrida en la nube, Microsoft Search devuelve los resultados de búsqueda de contenido de SharePoint local y en línea, incluido cualquier contenido externo que haya conectado al entorno de SharePoint Server. [Más información sobre los entornos híbridos de búsqueda](/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint).
 
 Los usuarios obtienen los mismos resultados de búsqueda que obtienen de otras ubicaciones y también obtienen resultados de Internet.
 
