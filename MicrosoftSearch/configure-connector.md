@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Introducción a la instalación para conectores de Graph de Microsoft
-ms.openlocfilehash: 5c674f6b9253af1145be983e5713f65be1c2b022
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+ms.openlocfilehash: 169e78fd4a0148d8bb4e52968b2efd785045806e
+ms.sourcegitcommit: 08a7086185d28df14b06d1f7fdfbb1637288f7a5
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031381"
+ms.locfileid: "51042587"
 ---
 <!-- Previous ms.author: monaray -->
 
@@ -202,6 +202,6 @@ Para obtener información sobre las limitaciones que se aplican a todos los orí
 
 Consulta la información específica del conector para el origen de datos para averiguar si se aplican otras limitaciones a ese conector de Graph en particular.
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 
-Después de publicar la conexión, debe personalizar la página de resultados de búsqueda. Para obtener información sobre cómo personalizar los resultados de búsqueda, [vea Personalizar la página de resultados de búsqueda](#next-steps-customize-the-search-results-page).
+Después de publicar la conexión, debe personalizar la página de resultados de búsqueda. Para obtener información sobre cómo personalizar los resultados de búsqueda, [vea Personalizar la página de resultados de búsqueda](customize-search-page.md).
