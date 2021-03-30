@@ -12,18 +12,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Crear y actualizar respuestas de acrónimos en Microsoft Search
-ms.openlocfilehash: 5677ff6915c9e43e2559964c40086cb360a05db7
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+ms.openlocfilehash: 013510da28599f41c9dc4bf74da99efa2f6c3e97
+ms.sourcegitcommit: 62cb7b8c6a311760cc728f2c70a9a22ca76e977e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031372"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408718"
 ---
 # <a name="manage-acronyms-answers-in-microsoft-search"></a>Administrar respuestas de acrónimos en Microsoft Search
 
 A menudo, los usuarios se topar con acrónimos y abreviaturas desconocidos usados por su organización o equipo. Los términos que son específicos de organizaciones o equipos pueden ser nuevos para las personas que se mueven de un equipo a otro, trabajan con equipos asociados internos o son nuevos en la organización.
 
-Las organizaciones no siempre tienen una sola referencia para su terminología estándar. La falta de una sola referencia hace que sea difícil encontrar definiciones o expansiones para estos acrónimos. Microsoft Search resuelve ese problema con acrónimos.
+Las organizaciones no siempre tienen una sola referencia para su terminología estándar. La falta de una sola referencia hace que sea difícil encontrar definiciones para estos acrónimos. Microsoft Search resuelve ese problema con acrónimos.
 
 ## <a name="what-users-experience"></a>Qué experiencia tienen los usuarios
 
@@ -36,6 +36,7 @@ Los usuarios de Microsoft Search pueden obtener definiciones con acrónimos en [
 - Expansión *de* DNN
 - *Significado de* DNN
 - DNN *significa*
+- DNN *representa*
 
 El resultado incluye todos los significados de DNN que están presentes en la organización del usuario.
 
@@ -49,7 +50,7 @@ En el [Centro de administración de Microsoft 365,](https://admin.microsoft.com)
 Microsoft Search consulta dos orígenes de datos para proporcionar acrónimos respuestas a las búsquedas de los usuarios:
 
 1. **Curada por el administrador.** Proporcionado por los administradores de TI en el [Centro de administración.](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/acronyms)
-2. **System-curated**. Detectado por Microsoft Search a partir del correo electrónico y los documentos de los usuarios y los datos disponibles públicamente en la organización.
+2. **System-curated**. Detectado por Microsoft Search a partir del correo electrónico y los documentos de los usuarios, así como de los datos disponibles públicamente en la organización.
 
 ### <a name="set-up-admin-curated-acronyms"></a>Configurar acrónimos seleccionados por el administrador
 
@@ -62,19 +63,21 @@ Los administradores de búsqueda pueden agregar acrónimos en la pestaña [Acró
 
 **Estado de borrador**. Si desea revisar un acrónimo antes de que esté disponible en Microsoft Search, puede agregar el acrónimo en estado Borrador. Las siglas en estado Borrador no aparecerán en los resultados de la búsqueda. Deberá mover el acrónimo al estado Publicado para que aparezca en los resultados de la búsqueda.
 
+**Estado excluido**. Si quieres evitar que aparezca un acrónimo en Microsoft Search, usa Excluir un **acrónimo** para agregarlo. Para evitar que se excluya un acrónimo, deberá eliminar el acrónimo excluido y agregarlo o comprobar que está en la lista publicada.
+
 Puede agregar acrónimos individualmente o importarlos masivamente en un archivo CSV. Cargue un archivo CSV con los campos que se muestran en la tabla siguiente:
 
-| Acrónimo (obligatorio) | Expansión (obligatoria) | Url | Descripción  | Estado (obligatorio) | Last Modified | Last Modified By | Id |
+| Acrónimo (obligatorio) | Significa (obligatorio) | Url | Descripción  | Estado (obligatorio) | Last Modified | Last Modified By | Id |
 | --------- | --------- | --------- | ---------- | --------- |--------- |--------- |--------- |
-| *XXX* | *Abreviatura desletreada* | *Source* |  | *Publicado o Borrador* |  |  |  |
+| *XXX* | *Abreviatura desletreada* | *Source* |  | *Publicado, Borrador o Excluido* |  |  |  |
 
 ### <a name="csv-fields"></a>Campos CSV
 
 **Acrónimo**. Contiene el formulario corto o acrónimo real. Un ejemplo es *DNN*.
 
-**Expansión**. Contiene la expansión del acrónimo. Un ejemplo es *Deep Neural Network*.
+**Significa**. Contiene la definición del acrónimo. Un ejemplo es *Deep Neural Network*.
 
-**Descripción**. Una breve descripción del acrónimo que proporciona a los usuarios más información sobre el acrónimo y su expansión. Por ejemplo, una red neuronal profunda es una red neuronal con un cierto nivel de complejidad, una red *neuronal con más de dos capas.*
+**Descripción**. Breve descripción del acrónimo que proporciona a los usuarios más información sobre el acrónimo y su definición. Por ejemplo, una red neuronal profunda es una red neuronal con un cierto nivel de complejidad, una red *neuronal con más de dos capas.*
 
 **Origen**. Dirección URL de la página o sitio web donde desea que los usuarios vayan para obtener más información sobre el acrónimo.
 
@@ -82,6 +85,7 @@ Puede agregar acrónimos individualmente o importarlos masivamente en un archivo
 
 - **Borrador**. Agrega el acrónimo al estado Borrador.
 - **Publicado**. Agrega el acrónimo al estado Publicado y lo hace disponible en Microsoft Search.
+- **Excluido**. Agrega el acrónimo al estado Excluido e impide que aparezca en Microsoft Search.
 
 ### <a name="system-curated-acronyms"></a>Acrónimos seleccionados por el sistema
 
@@ -94,7 +98,7 @@ Puede ser un desafío para los administradores agregar todas las siglas usadas d
 Microsoft Search se asegura de que solo los usuarios con acceso y permisos a un documento puedan ver las siglas que se detectan en él. Cuando se encuentra un acrónimo en el buzón de un usuario, solo ese usuario puede ver ese acrónimo.
 
 > [!NOTE]
-> No se necesita ninguna configuración para acrónimos seleccionados por el administrador.
+> No se necesita ninguna configuración para acrónimos seleccionados por el sistema.
 
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 
@@ -104,7 +108,7 @@ Microsoft Search se asegura de que solo los usuarios con acceso y permisos a un 
 
 **P: ¿Cuánto tiempo se necesita para que los acrónimos seleccionados por el administrador sean visibles en Microsoft Search después de su publicación?**
 
-**A:**  Los acrónimos agregados al estado publicado tardan hasta tres días en estar disponibles en Microsoft Search.
+**A:**  Los acrónimos agregados al estado publicado tardan hasta un día en estar disponibles en Microsoft Search.
 
 **P: ¿Cómo desencadenan los usuarios las respuestas a las siglas?**
 
@@ -114,13 +118,21 @@ Microsoft Search se asegura de que solo los usuarios con acceso y permisos a un 
 
 **A:** Las siglas encontradas en un nuevo correo electrónico o documento pueden tardar hasta siete días en aparecer en los resultados de microsoft Search.
 
-**P: ¿Los documentos deben tener un formato específico para que la minería los resalte?**
+**P: ¿Qué sucede cuando se excluye y publica un acrónimo?**
 
-**A:** No. Se admiten todos los tipos de archivo excepto los archivos de imagen, carpetas y zip.
+**A:** El acrónimo excluido tiene prioridad e impide que el acrónimo publicado aparezca en los resultados de la búsqueda. No elimina ni quita el acrónimo publicado.
+
+**P: ¿Cuánto tiempo se necesita para excluir un acrónimo de los resultados de Microsoft Search?**
+
+**A**: Un acrónimo excluido tarda hasta un día en dejar de aparecer en los resultados de la búsqueda.
+
+**P: Para los acrónimos seleccionados por el sistema, ¿los documentos deben estar en un formato específico?**
+
+**A:** No. Se admiten todos los tipos de archivo excepto los archivos de imagen, carpeta y zip.
 
 **P: ¿Detectará Microsoft acrónimos de documentos en todos los idiomas?**
 
-**A**: Microsoft solo admite la minería de documentos en inglés. La compatibilidad con otros idiomas se agregará en fases.
+**A**: Microsoft solo admite acrónimos del sistema de documentos en inglés, español, francés, italiano, alemán y portugués. La compatibilidad con otros idiomas se agregará en fases.
 
 **P: ¿Qué ocurre si mi organización no quiere mostrar acrónimos seleccionados por el sistema? ¿Puedo dejar de mostrar este tipo de acrónimo en mis resultados de búsqueda?**
 
