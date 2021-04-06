@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Agregar verticales de búsqueda y personalizar resultados de búsqueda
-ms.openlocfilehash: 75dd6193308f52e7bfbb787d8f8dc27def834751
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+ms.openlocfilehash: c6104383698203fde48d217506da57941efa680f
+ms.sourcegitcommit: 0aca0a5c9152b1b5e8345c91edadfae0b30f57c8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031651"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587743"
 ---
 # <a name="customize-the-search-results-page"></a>Personalizar la página de resultados de búsqueda
 
@@ -116,7 +116,10 @@ Después de iniciar el asistente, se le guiará a través de los pasos para defi
 
 ## <a name="step-3-view-the-vertical-after-its-enabled"></a>PASO 3: Ver la vertical después de habilitarla
 
-Después de habilitar la vertical, puede tardar un tiempo antes de poder verlo. Si no desea esperar después de habilitarla, puede anexar **cacheClear=true** a la dirección URL en [SharePoint](https://sharepoint.com/) y [Office](https://office.com) para ver la vertical inmediatamente. Para [Bing,](https://bing.com)anexa&**features=uncachedVerticals** a la dirección URL vertical de trabajo para ver las verticales inmediatamente.
+Después de habilitar la vertical, llevará unas horas antes de poder verlo. Si no desea esperar después de habilitarla, puede anexar **cacheClear=true** a la dirección URL en [SharePoint](https://sharepoint.com/) y [Office](https://office.com) para ver la vertical inmediatamente. Para [Bing,](https://bing.com)anexa&**features=uncachedVerticals** a la dirección URL vertical de trabajo para ver las verticales inmediatamente. 
+
+> [!NOTE]
+> Las verticales agregadas no serán visibles en [SharePoint](https://sharepoint.com/) y [Office](https://office.com) cuando se ven desde exploradores web móviles.
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
