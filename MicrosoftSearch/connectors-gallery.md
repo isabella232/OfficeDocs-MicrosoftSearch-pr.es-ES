@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Enumera todos los conectores de Microsoft Graph para Microsoft Search
-ms.openlocfilehash: f20a52beb3894503e0c5b8911bfc026b8249f9a5
-ms.sourcegitcommit: 2f770de12b27546b18b2e86517d2c25522eb9022
+ms.openlocfilehash: b899e3facd38502dc653364b29e70a10ac6ca3a4
+ms.sourcegitcommit: a07c957dfa1d31542f0362379251bc9679dfae41
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929620"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51639884"
 ---
 # <a name="microsoft-graph-connectors-gallery"></a>Galería de conectores de Microsoft Graph
 
@@ -425,6 +425,22 @@ ms.locfileid: "50929620"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
+                        <h3>Confluencia atlassiana (nube)</h3>
+                        <p>por <a href="https://www.bainsight.com">BA Insight</a></p>
+                        <p>Nuestro Conector de confluencia (versión en la nube) es un conector de indización de nivel empresarial que permite rastrear e indizar el contenido almacenado en Confluencia.</p>
+                        <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
+                            <a href="https://www.bainsight.com/connectors/connector-for-confluence-cloud-version/"><font color="0065BA">Más detalles</font></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card" style="min-height:240px;">
+                    <div class="cardText">
                        <h3>Nube de confluencia atlassiana</h3>
                         <p>por <a href="https://www.raytion.com">Raytion</a></p>
                         <p>Conector para la nube de confluencia atlassiana. Indiza páginas, entradas de blog, datos adjuntos, comentarios, espacios, perfiles y sitios centrales para etiquetas de instancias locales de Confluencia en tiempo casi real. El conector es totalmente compatible con la administración integrada de usuarios y grupos de Confluence Cloud. Conector de búsqueda de raytion de sexta generación.</p>
@@ -471,6 +487,7 @@ ms.locfileid: "50929620"
             </div>
         </div>
     </li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Azure AD </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar de forma confiable contenido de Microsoft Azure Active Directory (Azure AD) y buscarlo de forma inteligente con Microsoft Graph. Indiza objetos de Azure AD a través de la API de Microsoft Graph. El conector se puede usar para ingerir entidades de seguridad en Microsoft Graph casi en tiempo real para implementar casos de uso como la búsqueda de expertos, la búsqueda de equipos y la búsqueda de ubicación, o para proporcionar un recorte de seguridad de enlace anticipado junto con orígenes de datos personalizados. El conector admite la autenticación federada con Microsoft 365.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-azure-ad-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -546,7 +563,23 @@ ms.locfileid: "50929620"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
-                        <h3>Box</h3>
+                        <h3>Bentley</h3>
+                        <p>por <a href="https://www.bainsight.com">BA Insight</a></p>
+                        <p>El conector AssetWise de Bentley de BAI permite la superficie de contenido de AssetWise en un único índice de búsqueda consolidado, junto con el contenido de otros repositorios.</p>
+                        <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
+                            <a href="https://www.bainsight.com/connectors/bentley-connector-for-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card" style="min-height:240px;">
+                    <div class="cardText">
+                        <h3>Cuadro</h3>
                         <p>por <a href="https://www.bainsight.com">BA Insight</a></p>
                         <p>El conector box permite la presentación de contenido de Box en SharePoint y otros portales, lo que permite a los usuarios obtener resultados de búsqueda integrados de SharePoint y Box.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
@@ -562,7 +595,7 @@ ms.locfileid: "50929620"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
-                       <h3>Box</h3>
+                       <h3>Cuadro</h3>
                         <p>por <a href="https://www.raytion.com">Raytion</a></p>
                         <p>Conector para Box. Indiza archivos, carpetas, comentarios, usuarios, grupos y tareas de Box casi en tiempo real. El conector es totalmente compatible con la administración integrada de usuarios y grupos de Box. Conector de búsqueda de raytion de sexta generación.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
@@ -578,7 +611,7 @@ ms.locfileid: "50929620"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
-                        <h3>Box</h3>
+                        <h3>Cuadro</h3>
                         <p>by <a href="https://www.accenture.com">Accenture</a></p>
                         <p>Box connector rastreará el contenido de un repositorio de Box. El conector recuperará los elementos admitidos mediante la API RESTful (versión de Content API Basics 2.0); para la autenticación, usa la API de Box (que usa OAuth 2). Cada archivo se envía con sus metadatos (tamaño, ubicación, último acceso, etc.). Las actualizaciones se detectan automáticamente.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
@@ -608,6 +641,8 @@ ms.locfileid: "50929620"
             </div>
         </div>
     </li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Confluencia </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar contenido de forma confiable desde La confluencia atlassiana y buscarlo de forma inteligente con Microsoft Graph. Indiza de forma sólida páginas, entradas de blog, datos adjuntos, comentarios, espacios, perfiles y sitios centrales para etiquetas de instancias locales de Confluencia en tiempo casi real. El conector es totalmente compatible con la administración integrada de usuarios y grupos de Atlassian Confluence, así como con instalaciones de Confluencia basadas en Active Directory y otros servicios de directorio.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-confluence-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Nube de confluencia </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar contenido de forma confiable desde Atlassian Confluence Cloud y buscarlo de forma inteligente con Microsoft Graph. Indiza de forma sólida páginas, entradas de blog, datos adjuntos, comentarios, espacios, perfiles y sitios centrales para etiquetas de instancias de Confluence Cloud en tiempo casi real. El conector es totalmente compatible con la administración integrada de usuarios y grupos de Atlassian Confluence Cloud.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-confluence-cloud-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -643,6 +678,7 @@ ms.locfileid: "50929620"
 </ul>
 <!--- 9 ROW --->
 <ul class="panelContent cardsZ">
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Documentum </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar contenido de forma confiable desde Documentum de OpenText y buscarlo de forma inteligente con Microsoft Graph. Indiza sólidamente repositorios, carpetas y archivos junto con sus metadatos y propiedades de Documentum en tiempo casi real. El conector es totalmente compatible con la administración integrada de usuarios y grupos de Documentum de OpenText.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-documentum-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -653,6 +689,22 @@ ms.locfileid: "50929620"
                         <p>Documentum Connector rastreará el contenido de cualquier repositorio de contenido de Documentum. DQL es un lenguaje de consulta que permite realizar consultas complejas que implican capacidades de búsqueda especializadas para la administración de documentos y contenido. El conector DQL de Documentum de Aspire rastreará el contenido de Documentum.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Documentum+Connector"><font color="0065BA">Más detalles</font></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card" style="min-height:240px;">
+                    <div class="cardText">
+                        <h3>Egnyte</h3>
+                        <p>por <a href="https://www.bainsight.com">BA Insight</a></p>
+                        <p>"Egnyte Connector admite rastreos e índices completos e incrementales con un rendimiento muy alto".</p>
+                        <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
+                            <a href="https://www.bainsight.com/connectors/egnyte-connector-for-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a>
                         </p>
                     </div>
                 </div>
@@ -710,6 +762,8 @@ ms.locfileid: "50929620"
             </div>
         </div>
     </li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Enterprise Vault </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar de forma confiable contenido de Symantec Enterprise Vault y buscarlo de forma inteligente con Microsoft Graph. Indiza de forma sólida los datos archivados, como correos electrónicos, datos adjuntos, archivos, elementos de calendario y contactos de Enterprise Vault casi en tiempo real. El conector es totalmente compatible con los modelos de autenticación basic, NTLM y Kerberos de Symantec Enterprise Vault.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-enterprise-vault-connector-2/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Enterprise Vault </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar de forma confiable contenido de Veritas Enterprise Vault y buscarlo de forma inteligente con Microsoft Graph. Indiza de forma sólida los datos archivados, como correos electrónicos, datos adjuntos, archivos, elementos de calendario y contactos de Enterprise Vault casi en tiempo real. El conector es totalmente compatible con los modelos de autenticación basic, NTLM y Kerberos de Veritas Enterprise Vault.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-enterprise-vault-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -828,6 +882,7 @@ ms.locfileid: "50929620"
             </div>
         </div>
     </li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>FirstSpirit </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar contenido de forma confiable desde e-Spirit FirstSpirit y buscarlo de forma inteligente con Microsoft Graph. Indiza de forma sólida páginas, datos adjuntos y otros tipos de documentos generados de FirstSpirit casi en tiempo real. El conector admite completamente la administración integrada de usuarios, grupos y permisos de e-Spirit FirstSpirit, así como las instalaciones de FirstSpirit basadas en Active Directory y otros servicios de directorio.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-firstspirit-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -873,6 +928,22 @@ ms.locfileid: "50929620"
                         <p>Google Cloud SQL Connector indiza el contenido de Google Cloud SQL en el índice de Búsqueda de Microsoft que lo incluye a través de SmartHub de BA Insight para proporcionar a los usuarios resultados de búsqueda integrados.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/google-cloud-sql-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card" style="min-height:240px;">
+                    <div class="cardText">
+                        <h3>Google Drive</h3>
+                        <p>por <a href="https://www.bainsight.com">BA Insight</a></p>
+                        <p>El conector de Google Drive de BAI permite obtener contenido de Google Drive en un único índice de búsqueda consolidado que haga referencia al contenido de Google Drive, junto con el contenido de otros repositorios.</p>
+                        <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
+                            <a href="https://www.bainsight.com/connectors/google-drive-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a>
                         </p>
                     </div>
                 </div>
@@ -1123,6 +1194,22 @@ ms.locfileid: "50929620"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
+                        <h3>iManage Cloud</h3>
+                        <p>por <a href="https://www.bainsight.com">BA Insight</a></p>
+                        <p>IManage Cloud Connector de BA Insight indiza de forma segura el texto completo y los metadatos de los documentos de las áreas de trabajo en el motor de búsqueda.</p>
+                        <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
+                            <a href="https://www.bainsight.com/connectors/connector-for-imanage-work-cloud/"><font color="0065BA">Más detalles</font></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card" style="min-height:240px;">
+                    <div class="cardText">
                         <h3>Trabajo de iManage</h3>
                         <p>por <a href="https://www.bainsight.com">BA Insight</a></p>
                         <p>El conector de trabajo de iManage proporciona seguridad completa y funciona a un alto rendimiento para minimizar los tiempos de rastreo y mantener un impacto de bajo rendimiento en el trabajo. Solo requiere acceso de lectura y no es necesario instalar software cliente en ningún servidor de iManage. Esto da como resultado un acceso continuo y simultáneo a todo el contenido almacenado en iManage Work.</p>
@@ -1134,6 +1221,25 @@ ms.locfileid: "50929620"
             </div>
         </div>
     </li>
+    <li>
+     <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card" style="min-height:240px;">
+                    <div class="cardText">
+                        <h3>Jira</h3>
+                        <p>por <a href="https://www.bainsight.com">BA Insight</a></p>
+                        <p>Jira Connector permite a los usuarios realizar búsquedas en todos los objetos Jira, lo que elimina la necesidad de ir a Jira directamente.</p>
+                        <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
+                            <a href="https://www.bainsight.com/connectors/jira-connector-for-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Jira </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar de forma confiable contenido de Atlassian Jira y buscarlo de forma inteligente con Microsoft Graph. Indexa proyectos, problemas, datos adjuntos, comentarios, registros de trabajo, historiales de problemas, vínculos y perfiles de instancias locales de Jira casi en tiempo real. El conector admite completamente la administración integrada de usuarios y grupos de Atlassian Jira, así como las instalaciones de Jira basadas en Active Directory y otros servicios de directorio.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-jira-connector /"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Jira (nube)</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>El conector Jira (versión en la nube) realiza búsquedas en todos los objetos Jira, lo que elimina la necesidad de navegar a Jira directamente.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/jira-cloud-connector-for-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Jira Cloud </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar contenido de forma confiable desde atlassian Jira Cloud y buscarlo de forma inteligente con Microsoft Graph. Indexa proyectos, problemas, datos adjuntos, comentarios, registros de trabajo, historiales de problemas, vínculos y perfiles de Jira Cloud en tiempo casi real. El conector es totalmente compatible con la administración integrada de usuarios y grupos de Atlassian Jira Cloud.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-jira-cloud-connector /"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -1204,6 +1310,7 @@ ms.locfileid: "50929620"
 </ul>
 <!--- 20 ROW --->
 <ul class="panelContent cardsZ">
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Kaltura</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Kaltura Connector permite la indización no solo de vídeo, sino también de otros tipos de información, como Categorías, Datos, Documentos y mucho más.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/kaltura-connector-for-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -1389,7 +1496,7 @@ ms.locfileid: "50929620"
             </div>
         </div>
     </li>
-    <li>
+   <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
@@ -1405,6 +1512,11 @@ ms.locfileid: "50929620"
             </div>
         </div>
     </li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Microsoft Dynamics 365</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Nuestro conector crm de Microsoft Dynamics 365 admite instalaciones de CRM locales y Dynamics CRM Online. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/microsoft-dynamics-crm-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Microsoft Dynamics 365 (nube)</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Nuestro Conector crm de Microsoft Dynamics 365 (versión en la nube) establece una conexión segura a la aplicación CRM y asigna el contenido del esquema CRM al esquema del motor de búsqueda.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/connector-for-microsoft-dynamics-cloud/"><font color="0065BA"">Más detalles</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Microsoft Exchange Online</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Con ba Insight Microsoft Exchange Online Connector, los usuarios pueden recuperar contenido de Exchange Online a través de varias plataformas de búsqueda.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/microsoft-exchange-online-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Carpetas públicas de Microsoft Exchange</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Con el Conector de carpetas públicas de Microsoft Exchange de BAI, los usuarios pueden recuperar contenido de Exchange a través de varias plataformas de búsqueda.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/microsoft-exchange-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Microsoft Exchange Server</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Con el Conector de Microsoft Exchange de BA Insight, los usuarios pueden recuperar contenido de Exchange a través de varios motores de búsqueda. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/microsoft-exchange-server-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
 </ul>
 <!--- 24 ROW --->
 <ul class="panelContent cardsZ">
@@ -1440,6 +1552,7 @@ ms.locfileid: "50929620"
             </div>
         </div>
     </li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Microsoft Teams</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Ba Insight Microsoft Teams Connector indiza el contenido de Microsoft Teams junto con el contenido de otros sistemas empresariales para proporcionar resultados unificados.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/microsoft-teams-connector-for-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -1511,7 +1624,9 @@ ms.locfileid: "50929620"
 </ul>
 <!--- 26 ROW --->
 <ul class="panelContent cardsZ">
-    <li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Neudesic The Firm Directory</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Firm Directory Connector respeta la seguridad del sistema de origen y proporciona rastreos completos e incrementales para que los usuarios tengan la información más reciente disponible todo el tiempo.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/the-firm-directory-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Notas </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar de forma confiable el contenido de IBM Notes (anteriormente Lotus Note) y buscarlo de forma inteligente con Microsoft Graph. Indexa de forma sólida los registros de un conjunto configurable de bases de datos de Notes casi en tiempo real. El conector es totalmente compatible con la administración integrada de usuarios y grupos de IBM Notes.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-notes-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
+<li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
@@ -1559,6 +1674,7 @@ ms.locfileid: "50929620"
             </div>
         </div>
     </li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>OneDrive para la Empresa</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>El conector de OneDrive de BA Insight permite indizar el contenido de OneDrive en varias plataformas de búsqueda, lo que proporciona a los usuarios resultados de búsqueda integrados de varios orígenes.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/onedrive-business-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
 </ul>
 <!--- 27 ROW --->
 <ul class="panelContent cardsZ">
@@ -1613,6 +1729,7 @@ ms.locfileid: "50929620"
 </ul>
 <!--- 28 ROW --->
 <ul class="panelContent cardsZ">
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Documentum de OpenText (nube)</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>OpenText Documentum Cloud Connector de BA Insight indiza de forma segura tanto el texto completo como los metadatos de los objetos de Documentum en el motor de búsqueda, lo que permite un único conjunto de resultados que se puede buscar en el contenido de varios repositorios. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/connector-for-documentum-cloud/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -1747,6 +1864,8 @@ ms.locfileid: "50929620"
             </div>
         </div>
     </li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Ley práctica</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Ba Insight Practical Law Connector permite a los usuarios realizar búsquedas en la base de datos de leyes prácticas, lo que elimina la necesidad de navegar directamente a Practical Law.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/practical-law-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>ProLaw</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Ba Insight Connector para Pro Law conecta cualquier portal a ProLaw, lo que permite que la información de ProLaw se desfile respetando los privilegios de usuario dentro de ProLaw.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/prolaw-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -1865,6 +1984,7 @@ ms.locfileid: "50929620"
             </div>
         </div>
     </li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>SAP ERP (nube)</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>El conector SAP ERP (versión en la nube) de BA Insight está diseñado para traer elementos de SAP a un índice de búsqueda.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/connector-for-sap-erp-cloud/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
 </ul>
 <!--- 33 ROW --->
 <ul class="panelContent cardsZ">
@@ -1884,6 +2004,7 @@ ms.locfileid: "50929620"
             </div>
         </div>
     </li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>SAP HANA (nube)</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Sap Hana (versión en la nube) Connector respeta la seguridad de la base de datos de origen y proporciona rastreos completos e incrementales para que los usuarios tengan la información más reciente disponible todo el tiempo. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/connector-sap-hana-cloud-version/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -1967,6 +2088,8 @@ ms.locfileid: "50929620"
             </div>
         </div>
     </li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>ServiceNow (nube)</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>El conector de BA Insight ServiceNow (versión en la nube) respeta la seguridad del sistema de origen y proporciona rastreos completos e incrementales para que los usuarios tengan la información más reciente disponible todo el tiempo.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/servicenow-cloud-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>SharePoint 2010</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>El conector de SharePoint 2010 de BA Insight permite conectarse a SharePoint 2010, capturar datos de cualquier sitio, biblioteca de documentos o lista; e indexar este contenido de forma segura. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/sharepoint-2010-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
 </ul>
 <!--- 35 ROW --->
 <ul class="panelContent cardsZ">
@@ -1986,6 +2109,7 @@ ms.locfileid: "50929620"
             </div>
         </div>
     </li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>SharePoint 2013</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>El conector de SharePoint 2013 de BA Insight le permite conectarse a SharePoint 2013, capturar datos de cualquier sitio, biblioteca de documentos o lista; e indexar este contenido de forma segura. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/sharepoint-2013-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2002,12 +2126,14 @@ ms.locfileid: "50929620"
             </div>
         </div>
     </li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>SharePoint 2016</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>SharePoint Connector de BA Insight le permite conectarse a SharePoint 2016, capturar datos de cualquier sitio, biblioteca de documentos o lista; e indexar este contenido de forma segura.  </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/sharepoint-2016-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>SharePoint 2019</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>SharePoint Connector de BA Insight le permite conectarse a SharePoint 2019, capturar datos de cualquier sitio, biblioteca de documentos o lista; e indexar este contenido de forma segura. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/connector-for-sharepoint-2019/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
     <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
-                        <h3>SharePoint en linea</h3>
+                        <h3>SharePoint Online</h3>
                         <p>by <a href="https://www.accenture.com">Accenture</a></p>
                         <p>El conector de SharePoint Online rastreará el contenido desde cualquier dirección URL de la colección de sitios de SharePoint Online. El conector recuperará sitios, listas, carpetas, elementos de lista y datos adjuntos y otras páginas (en formato .aspx). Este conector es compatible con SharePoint que se ejecuta en la oferta de Microsoft O365. SharePoint 2010/2007 Connector y SharePoint 2013 Connector admiten el rastreo de las ofertas locales de SharePoint.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
@@ -2018,6 +2144,7 @@ ms.locfileid: "50929620"
             </div>
         </div>
     </li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>SharePoint Online</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>SharePoint Online Connector de BA Insight le permite conectarse a SharePoint Online, capturar datos de cualquier sitio, biblioteca de documentos o lista; e indexar este contenido de forma segura.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/sharepoint-online-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
 </ul>
 <!--- 36 ROW --->
 <ul class="panelContent cardsZ">
@@ -2069,6 +2196,7 @@ ms.locfileid: "50929620"
             </div>
         </div>
     </li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Margen de demora </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar de forma confiable el contenido de Slack y buscarlo de forma inteligente con Microsoft Graph. Indexa mensajes, subprocesos y archivos compartidos de todos los canales públicos de Slack en tiempo casi real.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-slack-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
 </ul>
 <!--- 37 ROW --->
 <ul class="panelContent cardsZ">
@@ -2292,6 +2420,8 @@ ms.locfileid: "50929620"
             </div>
         </div>
     </li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Rastreador de sitios web</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Ba Insight Website Crawler Connector permite la superficie de contenido de cualquier sitio web en un único índice de búsqueda consolidado, junto con el contenido de otros repositorios. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/website-connector-for-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Km oeste</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Ba Insight West km Connector admite la búsqueda en documentos de transacción y litigio, incluida la creación de páginas de resultados de búsqueda personalizadas.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/westkm-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2375,102 +2505,7 @@ ms.locfileid: "50929620"
             </div>
         </div>
     </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card" style="min-height:240px;">
-                    <div class="cardText">
-                        <h3>Confluencia atlassiana (nube)</h3>
-                        <p>por <a href="https://www.bainsight.com">BA Insight</a></p>
-                        <p>Nuestro Conector de confluencia (versión en la nube) es un conector de indización de nivel empresarial que permite rastrear e indizar el contenido almacenado en Confluencia.</p>
-                        <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
-                            <a href="https://www.bainsight.com/connectors/connector-for-confluence-cloud-version/"><font color="0065BA">Más detalles</font></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card" style="min-height:240px;">
-                    <div class="cardText">
-                        <h3>Bentley</h3>
-                        <p>por <a href="https://www.bainsight.com">BA Insight</a></p>
-                        <p>El conector AssetWise de Bentley de BAI permite la superficie de contenido de AssetWise en un único índice de búsqueda consolidado, junto con el contenido de otros repositorios.</p>
-                        <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
-                            <a href="https://www.bainsight.com/connectors/bentley-connector-for-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card" style="min-height:240px;">
-                    <div class="cardText">
-                        <h3>Egnyte</h3>
-                        <p>por <a href="https://www.bainsight.com">BA Insight</a></p>
-                        <p>"Egnyte Connector admite rastreos e índices completos e incrementales con un rendimiento muy alto".</p>
-                        <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
-                            <a href="https://www.bainsight.com/connectors/egnyte-connector-for-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card" style="min-height:240px;">
-                    <div class="cardText">
-                        <h3>Google Drive</h3>
-                        <p>por <a href="https://www.bainsight.com">BA Insight</a></p>
-                        <p>El conector de Google Drive de BAI permite obtener contenido de Google Drive en un único índice de búsqueda consolidado que haga referencia al contenido de Google Drive, junto con el contenido de otros repositorios.</p>
-                        <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
-                            <a href="https://www.bainsight.com/connectors/google-drive-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card" style="min-height:240px;">
-                    <div class="cardText">
-                        <h3>iManage Cloud</h3>
-                        <p>por <a href="https://www.bainsight.com">BA Insight</a></p>
-                        <p>IManage Cloud Connector de BA Insight indiza de forma segura el texto completo y los metadatos de los documentos de las áreas de trabajo en el motor de búsqueda.</p>
-                        <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
-                            <a href="https://www.bainsight.com/connectors/connector-for-imanage-work-cloud/"><font color="0065BA">Más detalles</font></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card" style="min-height:240px;">
-                    <div class="cardText">
-                        <h3>Jira</h3>
-                        <p>por <a href="https://www.bainsight.com">BA Insight</a></p>
-                        <p>Jira Connector permite a los usuarios realizar búsquedas en todos los objetos Jira, lo que elimina la necesidad de ir a Jira directamente.</p>
-                        <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
-                            <a href="https://www.bainsight.com/connectors/jira-connector-for-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Yammer </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar de forma confiable el contenido de Microsoft Yammer y buscarlo de forma inteligente con Microsoft Graph. Indiza de forma sólida canales, publicaciones, respuestas, datos adjuntos, sondeos y anuncios de Yammer en tiempo casi real. El conector es totalmente compatible con la administración integrada de usuarios y grupos de Microsoft Yammer y, en particular, la autenticación federada con Microsoft 365.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-yammer-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
 <!-- This is the "template" for each box > Copy and edit to add new boxes
     <li>
         <div class="cardSize">
@@ -2494,38 +2529,3 @@ ms.locfileid: "50929620"
 <!-- --->
 <!-- --->
 <!-- --->
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Jira (nube)</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>El conector Jira (versión en la nube) realiza búsquedas en todos los objetos Jira, lo que elimina la necesidad de navegar a Jira directamente.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/jira-cloud-connector-for-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Kaltura</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Kaltura Connector permite la indización no solo de vídeo, sino también de otros tipos de información, como Categorías, Datos, Documentos y mucho más.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/kaltura-connector-for-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Microsoft Dynamics 365</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Nuestro conector crm de Microsoft Dynamics 365 admite instalaciones de CRM locales y Dynamics CRM Online. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/microsoft-dynamics-crm-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Microsoft Dynamics 365 (nube)</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Nuestro Conector crm de Microsoft Dynamics 365 (versión en la nube) establece una conexión segura a la aplicación CRM y asigna el contenido del esquema CRM al esquema del motor de búsqueda.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/connector-for-microsoft-dynamics-cloud/"><font color="0065BA"">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Microsoft Exchange Online</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Con ba Insight Microsoft Exchange Online Connector, los usuarios pueden recuperar contenido de Exchange Online a través de varias plataformas de búsqueda.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/microsoft-exchange-online-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Carpetas públicas de Microsoft Exchange</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Con el Conector de carpetas públicas de Microsoft Exchange de BAI, los usuarios pueden recuperar contenido de Exchange a través de varias plataformas de búsqueda.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/microsoft-exchange-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Microsoft Exchange Server</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Con el Conector de Microsoft Exchange de BA Insight, los usuarios pueden recuperar contenido de Exchange a través de varios motores de búsqueda. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/microsoft-exchange-server-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Microsoft Teams</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Ba Insight Microsoft Teams Connector indiza el contenido de Microsoft Teams junto con el contenido de otros sistemas empresariales para proporcionar resultados unificados.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/microsoft-teams-connector-for-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Neudesic The Firm Directory</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Firm Directory Connector respeta la seguridad del sistema de origen y proporciona rastreos completos e incrementales para que los usuarios tengan la información más reciente disponible todo el tiempo.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/the-firm-directory-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>OneDrive para la Empresa</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>El conector de OneDrive de BA Insight permite indizar el contenido de OneDrive en varias plataformas de búsqueda, lo que proporciona a los usuarios resultados de búsqueda integrados de varios orígenes.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/onedrive-business-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Documentum de OpenText (nube)</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>OpenText Documentum Cloud Connector de BA Insight indiza de forma segura tanto el texto completo como los metadatos de los objetos de Documentum en el motor de búsqueda, lo que permite un único conjunto de resultados que se puede buscar en el contenido de varios repositorios. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/connector-for-documentum-cloud/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Ley práctica</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Ba Insight Practical Law Connector permite a los usuarios realizar búsquedas en la base de datos de leyes prácticas, lo que elimina la necesidad de navegar directamente a Practical Law.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/practical-law-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>ProLaw</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Ba Insight Connector para Pro Law conecta cualquier portal a ProLaw, lo que permite que la información de ProLaw se desfile respetando los privilegios de usuario dentro de ProLaw.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/prolaw-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>SAP ERP (nube)</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>El conector SAP ERP (versión en la nube) de BA Insight está diseñado para traer elementos de SAP a un índice de búsqueda.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/connector-for-sap-erp-cloud/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>SAP HANA (nube)</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Sap Hana (versión en la nube) Connector respeta la seguridad de la base de datos de origen y proporciona rastreos completos e incrementales para que los usuarios tengan la información más reciente disponible todo el tiempo. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/connector-sap-hana-cloud-version/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>ServiceNow (nube)</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>El conector de BA Insight ServiceNow (versión en la nube) respeta la seguridad del sistema de origen y proporciona rastreos completos e incrementales para que los usuarios tengan la información más reciente disponible todo el tiempo.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/servicenow-cloud-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>SharePoint 2010</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>El conector de SharePoint 2010 de BA Insight permite conectarse a SharePoint 2010, capturar datos de cualquier sitio, biblioteca de documentos o lista; e indexar este contenido de forma segura. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/sharepoint-2010-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>SharePoint 2013</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>El conector de SharePoint 2013 de BA Insight le permite conectarse a SharePoint 2013, capturar datos de cualquier sitio, biblioteca de documentos o lista; e indexar este contenido de forma segura. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/sharepoint-2013-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>SharePoint 2016</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>SharePoint Connector de BA Insight le permite conectarse a SharePoint 2016, capturar datos de cualquier sitio, biblioteca de documentos o lista; e indexar este contenido de forma segura.  </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/sharepoint-2016-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>SharePoint 2019</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>SharePoint Connector de BA Insight le permite conectarse a SharePoint 2019, capturar datos de cualquier sitio, biblioteca de documentos o lista; e indexar este contenido de forma segura. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/connector-for-sharepoint-2019/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>SharePoint en linea</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>SharePoint Online Connector de BA Insight le permite conectarse a SharePoint Online, capturar datos de cualquier sitio, biblioteca de documentos o lista; e indexar este contenido de forma segura.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/sharepoint-online-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Rastreador de sitios web</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Ba Insight Website Crawler Connector permite la superficie de contenido de cualquier sitio web en un único índice de búsqueda consolidado, junto con el contenido de otros repositorios. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/website-connector-for-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Km oeste</h3><p>por <a href="https://www.bainsight.com">BA Insight</a></p><p>Ba Insight West km Connector admite la búsqueda en documentos de transacción y litigio, incluida la creación de páginas de resultados de búsqueda personalizadas.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/westkm-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Azure AD </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar de forma confiable contenido de Microsoft Azure Active Directory (Azure AD) y buscarlo de forma inteligente con Microsoft Graph. Indiza objetos de Azure AD a través de la API de Microsoft Graph. El conector se puede usar para ingerir entidades de seguridad en Microsoft Graph casi en tiempo real para implementar casos de uso como la búsqueda de expertos, la búsqueda de equipos y la búsqueda de ubicación, o para proporcionar un recorte de seguridad de enlace anticipado junto con orígenes de datos personalizados. El conector admite la autenticación federada con Microsoft 365.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-azure-ad-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Confluencia </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar contenido de forma confiable desde La confluencia atlassiana y buscarlo de forma inteligente con Microsoft Graph. Indiza de forma sólida páginas, entradas de blog, datos adjuntos, comentarios, espacios, perfiles y sitios centrales para etiquetas de instancias locales de Confluencia en tiempo casi real. El conector es totalmente compatible con la administración integrada de usuarios y grupos de Atlassian Confluence, así como con instalaciones de Confluencia basadas en Active Directory y otros servicios de directorio.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-confluence-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Nube de confluencia </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar contenido de forma confiable desde Atlassian Confluence Cloud y buscarlo de forma inteligente con Microsoft Graph. Indiza de forma sólida páginas, entradas de blog, datos adjuntos, comentarios, espacios, perfiles y sitios centrales para etiquetas de instancias de Confluence Cloud en tiempo casi real. El conector es totalmente compatible con la administración integrada de usuarios y grupos de Atlassian Confluence Cloud.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-confluence-cloud-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Documentum </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar contenido de forma confiable desde Documentum de OpenText y buscarlo de forma inteligente con Microsoft Graph. Indiza sólidamente repositorios, carpetas y archivos junto con sus metadatos y propiedades de Documentum en tiempo casi real. El conector es totalmente compatible con la administración integrada de usuarios y grupos de Documentum de OpenText.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-documentum-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Enterprise Vault </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar de forma confiable contenido de Symantec Enterprise Vault y buscarlo de forma inteligente con Microsoft Graph. Indiza de forma sólida los datos archivados, como correos electrónicos, datos adjuntos, archivos, elementos de calendario y contactos de Enterprise Vault casi en tiempo real. El conector es totalmente compatible con los modelos de autenticación basic, NTLM y Kerberos de Symantec Enterprise Vault.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-enterprise-vault-connector-2/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Enterprise Vault </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar de forma confiable contenido de Veritas Enterprise Vault y buscarlo de forma inteligente con Microsoft Graph. Indiza de forma sólida los datos archivados, como correos electrónicos, datos adjuntos, archivos, elementos de calendario y contactos de Enterprise Vault casi en tiempo real. El conector es totalmente compatible con los modelos de autenticación basic, NTLM y Kerberos de Veritas Enterprise Vault.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-enterprise-vault-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>FirstSpirit </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar contenido de forma confiable desde e-Spirit FirstSpirit y buscarlo de forma inteligente con Microsoft Graph. Indiza de forma sólida páginas, datos adjuntos y otros tipos de documentos generados de FirstSpirit casi en tiempo real. El conector admite completamente la administración integrada de usuarios, grupos y permisos de e-Spirit FirstSpirit, así como las instalaciones de FirstSpirit basadas en Active Directory y otros servicios de directorio.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-firstspirit-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Jira </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar de forma confiable contenido de Atlassian Jira y buscarlo de forma inteligente con Microsoft Graph. Indexa proyectos, problemas, datos adjuntos, comentarios, registros de trabajo, historiales de problemas, vínculos y perfiles de instancias locales de Jira casi en tiempo real. El conector admite completamente la administración integrada de usuarios y grupos de Atlassian Jira, así como las instalaciones de Jira basadas en Active Directory y otros servicios de directorio.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-jira-connector /"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Jira Cloud </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar contenido de forma confiable desde atlassian Jira Cloud y buscarlo de forma inteligente con Microsoft Graph. Indexa proyectos, problemas, datos adjuntos, comentarios, registros de trabajo, historiales de problemas, vínculos y perfiles de Jira Cloud en tiempo casi real. El conector es totalmente compatible con la administración integrada de usuarios y grupos de Atlassian Jira Cloud.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-jira-cloud-connector /"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Notas </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar de forma confiable el contenido de IBM Notes (anteriormente Lotus Note) y buscarlo de forma inteligente con Microsoft Graph. Indexa de forma sólida los registros de un conjunto configurable de bases de datos de Notes casi en tiempo real. El conector es totalmente compatible con la administración integrada de usuarios y grupos de IBM Notes.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-notes-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Margen de demora </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar de forma confiable el contenido de Slack y buscarlo de forma inteligente con Microsoft Graph. Indexa mensajes, subprocesos y archivos compartidos de todos los canales públicos de Slack en tiempo casi real.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-slack-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>
-<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Yammer </h3><p>por <a href="https://www.raytion.com">Raytion</a></p><p>Conector de búsqueda empresarial seguro para indizar de forma confiable el contenido de Microsoft Yammer y buscarlo de forma inteligente con Microsoft Graph. Indiza de forma sólida canales, publicaciones, respuestas, datos adjuntos, sondeos y anuncios de Yammer en tiempo casi real. El conector es totalmente compatible con la administración integrada de usuarios y grupos de Microsoft Yammer y, en particular, la autenticación federada con Microsoft 365.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-yammer-connector/"><font color="0065BA">Más detalles</font></a></p></div></div></div></div></li>

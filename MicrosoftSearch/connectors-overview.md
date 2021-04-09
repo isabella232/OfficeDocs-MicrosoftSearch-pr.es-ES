@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Información general sobre los conectores de Microsoft Graph para Microsoft Search
-ms.openlocfilehash: 77f145f58cf06e49f88af25bcb4d28cfa7d2bd56
-ms.sourcegitcommit: 08a7086185d28df14b06d1f7fdfbb1637288f7a5
+ms.openlocfilehash: ccf1e746c2a8bf97429bf5b13c8340db015e3eb1
+ms.sourcegitcommit: a07c957dfa1d31542f0362379251bc9679dfae41
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51042578"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51639866"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -108,6 +108,7 @@ El conjunto de conectores y características en versión preliminar incluyen:
 * [Conector de Salesforce](salesforce-connector.md)
 * [Conector de ServiceNow](servicenow-connector.md) con permisos de búsqueda que usan ACL de origen
 * [Administrar el clúster de resultados](result-cluster.md)
+* [Varias conexiones en una vertical](customize-search-page.md#multiple-connections-in-a-vertical)
 
 ## <a name="how-do-i-customize-and-configure-search-results"></a>¿Cómo puedo personalizar y configurar los resultados de búsqueda?
 
@@ -130,12 +131,10 @@ El siguiente paso es personalizar los resultados de búsqueda según se recomien
 
 * Al publicar **un** conector creado por Microsoft, la conexión puede tardar unos minutos en crearse. Durante ese tiempo, la conexión mostrará su estado como pendiente.
 
-* El [Centro de administración de Microsoft 365](https://admin.microsoft.com) no admite la edición del esquema de búsqueda **después** de publicar una conexión. Para editar el esquema de búsqueda, elimine la conexión y, a continuación, cree una nueva.
-
-* El rendimiento de la ingesta se limita a unos cuatro elementos por segundo.
+* El rendimiento de la ingesta se limita a cuatro elementos por segundo.
 
 * No hay compatibilidad con las actualizaciones de esquema. Después de crear una configuración de conexión, no hay forma de actualizar el esquema. Solo puede eliminar y volver a crear la conexión.
 
 * Hay un límite de conexión. Cada espacio empresarial puede crear hasta 10 conexiones.
 
-* La compatibilidad de edición para la conexión no está disponible. Una vez creada la conexión, no puede editarla ni cambiarla. Si necesita cambiar algún detalle, debe eliminar y volver a crear la conexión.
+* No puede editar ni cambiar una conexión después de crearla. Si necesita cambiar algún detalle, debe eliminar y volver a crear la conexión.
