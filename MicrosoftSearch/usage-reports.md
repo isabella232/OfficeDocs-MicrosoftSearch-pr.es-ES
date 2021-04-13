@@ -3,21 +3,23 @@ title: Informes de uso de búsqueda
 ms.author: ankmis
 author: jeffkizn
 manager: parulm
-ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
+audience: Admin
+ms.audience: Admin
+ms.date: 04/09/2021
 localization_priority: Normal
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Revisar informes de uso de Microsoft Search
-ms.openlocfilehash: 2237fc978ad7b0d7b94b342a9f2646c9da6b73a4
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+ms.openlocfilehash: 8e46b1bdc2143dd3f7c53643e3ee89446a18cbbf
+ms.sourcegitcommit: 74356701eac9d5deccd01b142e7e6fb083cd3871
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031750"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656784"
 ---
 # <a name="microsoft-search-usage-reports"></a>Informes de uso de Microsoft Search
 
@@ -35,9 +37,12 @@ Una versión anterior de esta página incluía datos de búsquedas ejecutadas pa
 | Informe | Descripción |
 |:-----|:-----|
 |Volumen de consulta|Este informe muestra el número de consultas de búsqueda realizadas. Use este informe para identificar tendencias de volumen de consulta de búsqueda y para determinar períodos de actividad de búsqueda alta y baja.|
-|Principales consultas|Este informe muestra las consultas de búsqueda más populares. Use este informe para comprender qué tipos de información buscan los usuarios.|
+|Principales consultas|Este informe muestra las consultas de búsqueda más populares. Una consulta se agrega a este informe cuando se busca al menos tres veces con un clic en un resultado. Use este informe para comprender qué tipos de información buscan los usuarios.|
 |Consultas abandonadas|Este informe muestra consultas de búsqueda populares que reciben un clic bajo. Utilice este informe para identificar las consultas de búsqueda que pueden crear la insatisfacción en los usuarios y para mejorar la capacidad de detección de contenido. A continuación, puede determinar si la acción correcta es crear una respuesta, como un marcador, o si ingerir contenido nuevo a través de un conector de Graph.|
 |Sin consultas de resultados|Este informe muestra las consultas de búsqueda populares que no han devuelto ningún resultado. Utilice este informe para identificar las consultas de búsqueda que pueden crear la insatisfacción en los usuarios y para mejorar la capacidad de detección de contenido. A continuación, puede determinar si la acción correcta es crear una respuesta, como un marcador, o si ingerir contenido nuevo a través de un conector de Graph.|
+
+>[!NOTE]
+>Actualmente hay un problema conocido en el que las consultas que se satisfacen con una respuesta como un marcador se cuentan como una consulta abandonada.
 
 ## <a name="viewing-reports"></a>Visualización de informes
 
