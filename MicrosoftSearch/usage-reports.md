@@ -14,16 +14,19 @@ search.appverid:
 - MET150
 - MOE150
 description: Revisar informes de uso de Microsoft Search
-ms.openlocfilehash: 8e46b1bdc2143dd3f7c53643e3ee89446a18cbbf
-ms.sourcegitcommit: 74356701eac9d5deccd01b142e7e6fb083cd3871
+ms.openlocfilehash: 17645d86e315538305a28bad51ea1a41dcc37dcb
+ms.sourcegitcommit: d62849b00f2b65b493ab54be50c3e7c94430f057
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656784"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51754668"
 ---
 # <a name="microsoft-search-usage-reports"></a>Informes de uso de Microsoft Search
 
 Los informes de uso de búsqueda le permiten comprender mejor cómo funciona la búsqueda en su organización. Los conocimientos generados a [](./make-content-easy-to-find.md) partir de estos informes le ayudarán a facilitar la búsqueda y la realización de acciones que hagan de la búsqueda una experiencia más útil y agradable para los usuarios.
+
+> [!IMPORTANT]
+> Los informes de uso de Microsoft Search están actualmente en versión preliminar
 
 Los [informes de uso de Microsoft Search](https://admin.microsoft.com/Adminportal/Home?#/MicrosoftSearch/insights) incluyen gráficos y tablas generados a partir de búsquedas que se ejecutan desde inicio de SharePoint y cuadros Office.com búsqueda. Puede ver datos de los últimos 31 días, por día o mensualmente del año anterior. Estos informes se están implementando, por lo que llevará tiempo acumular los datos históricos.
 
