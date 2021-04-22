@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Enumera todos los conectores de Microsoft Graph para Microsoft Search
-ms.openlocfilehash: e3d28aa9db3053fc47b03304e211956e366b6aa9
-ms.sourcegitcommit: 2a178850c521189a221879151faa7b3b0aff95d2
+ms.openlocfilehash: c5eaa19f599598066929b8c45da47a5ac3426928
+ms.sourcegitcommit: 2a24caf029caa97feeabaf7345aebaf28de4b2d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51905613"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51928582"
 ---
 # <a name="microsoft-graph-connectors-gallery"></a>Galería de conectores de Microsoft Graph
 
@@ -2198,9 +2198,9 @@ Conector de búsqueda empresarial seguro para indizar de forma confiable el cont
 
 by [Accenture](https://www.accenture.com/)
 
+El conector service now rastreará el contenido de ServiceNow.
 
-
-[Más detalles]()
+[Más detalles](https://contentanalytics.digital.accenture.com/display/aspire40/ServiceNow+Connector)
 
    :::column-end:::
 
@@ -2220,9 +2220,9 @@ by [Accenture](https://www.accenture.com/)
 
 por [BA Insight](https://www.bainsight.com/)
 
+ ServiceNow Connector respeta la seguridad del sistema de origen y proporciona rastreos completos e incrementales, por lo que los usuarios siempre tienen la información más reciente disponible para ellos.
 
-
-[Más detalles]()
+[Más detalles](https://www.bainsight.com/connectors/servicenow-connector-sharepoint-azure-elasticsearch)
 
 :::column-end:::
 :::column span="":::
