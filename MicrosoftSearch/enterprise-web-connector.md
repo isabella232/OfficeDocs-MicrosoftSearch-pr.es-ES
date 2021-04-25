@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector graph de sitios web de empresa para Microsoft Search
-ms.openlocfilehash: 42c3f0a80b21e23bb625db06c4f9e89f2c10de4a
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+ms.openlocfilehash: 4b8a14b216d7df68d0898bb72d926abe671047a4
+ms.sourcegitcommit: 56b7b5aa55413141c805f766bdf7bc63d721ef53
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031633"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51951025"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -58,11 +58,11 @@ Use el campo DIRECCIÓN URL para especificar la raíz del sitio web que desea ra
 > [!NOTE]
 > Si el sitio que quieres rastrear tiene un mapa del sitio definido, el conector solo rastreará las direcciones URL enumeradas en el mapa del sitio. Si no se define ningún mapa del sitio, el conector realizará un rastreo profundo de todos los vínculos encontrados en la dirección URL raíz del sitio.
 
-### <a name="crawl-mode-cloud-or-on-premises-preview"></a>Modo de rastreo: nube o local (versión preliminar)
+### <a name="crawl-mode-cloud-or-on-premises"></a>Modo de rastreo: nube o local
 
 El modo de rastreo determina el tipo de sitios web que desea indizar, ya sea en la nube o local. Para los sitios web en la nube, **seleccione Nube** como modo de rastreo.
 
-Además, el conector ahora admite el rastreo de sitios web locales. Este modo está en versión preliminar. Para obtener acceso a los datos locales, primero debe instalar y configurar el agente de conector de Graph. Para obtener más información, vea [Graph connector agent](./on-prem-agent.md).
+Además, el conector ahora admite el rastreo de sitios web locales. Para obtener acceso a los datos locales, primero debe instalar y configurar el agente de conector de Graph. Para obtener más información, vea [Graph connector agent](./on-prem-agent.md).
 
 Para los sitios web  locales, seleccione Agente como  modo de rastreo y, en el campo Agente local, elija el agente de conector de Graph que instaló y configuró anteriormente.  
 
