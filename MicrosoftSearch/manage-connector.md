@@ -1,6 +1,6 @@
 ---
-title: Administrar Conectores de Microsoft Graph para Microsoft Search
-ms.author: monaray
+title: Administrar Microsoft Graph Connectors para Microsoft Search
+ms.author: mecampos
 author: monaray97
 manager: mnirkhe
 audience: Admin
@@ -12,13 +12,13 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Administrar Conectores de Microsoft Graph para Microsoft Search.
-ms.openlocfilehash: cba50d8eb558b4d74ed46554dc155d4f275b1332
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+description: Administrar Microsoft Graph Connectors para Microsoft Search.
+ms.openlocfilehash: 685b501f3afe25d75c13a1fe6cc2c1b5db8a3511
+ms.sourcegitcommit: e5d695c40b68c2f1fa082fa9de20b9aa6d5b8050
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031723"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52325172"
 ---
 <!-- markdownlint-disable no-inline-html -->
 
@@ -28,11 +28,11 @@ Para obtener acceso y administrar los conectores, debe estar designado como admi
 
 ## <a name="connection-operations"></a>Operaciones de conexión
 
-Vaya a la [pestaña Conectores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/Connectors) en el Centro de administración de [Microsoft 365](https://admin.microsoft.com).
+Vaya a la [pestaña Conectores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/Connectors) en el [centro Microsoft 365 administración.](https://admin.microsoft.com)
 
-Para cada tipo de conector, el Centro de [administración de Microsoft 365](https://admin.microsoft.com) admite las operaciones que se muestran en la tabla siguiente:
+Para cada tipo de conector, Microsoft 365 centro de administración [admite](https://admin.microsoft.com) las operaciones que se muestran en la tabla siguiente:
 
-Operación | Conectores de Graph por Microsoft | Conectores de Partner o Graph
+Operación | Conectores de Graph por Microsoft | Conectores Graph asociados o de Graph de conexión
 --- | --- | ---
 Agregar una conexión | :heavy_check_mark: (Vea Información [general sobre el programa de instalación](configure-connector.md)) | :x: (Consulte a su socio o experiencia de usuario de administrador de conectores personalizados)
 Eliminar una conexión | :heavy_check_mark: | :heavy_check_mark:
@@ -43,7 +43,7 @@ Editar un borrador de conexión | :heavy_check_mark: | :x:
 
 Después de crear una conexión, el número de elementos **procesados** se muestra en la pestaña Conectores de la **página Búsqueda de Microsoft.** Una vez completado correctamente el rastreo completo inicial, se muestra el progreso de los rastreos incrementales periódicos. Esta página proporciona información sobre las operaciones diarias del conector y una introducción a los registros y el historial de errores.
 
-Cuatro estados se muestran en la **columna Estado** en cada conexión:
+Cinco estados se muestran en la **columna Estado** en cada conexión:
 
 * **Sincronización**. El conector rastrea los datos del origen para indizar los elementos existentes y realizar cualquier actualización.
 
@@ -53,6 +53,8 @@ Cuatro estados se muestran en la **columna Estado** en cada conexión:
 
 * **Error**. La conexión tuvo un error crítico. Este error requiere una intervención manual. El administrador debe realizar las acciones adecuadas en función del mensaje de error que se muestra. Los datos que se indizaron hasta que se produjo el error son de búsqueda.
 
+* **Error al eliminar**. Error al eliminar la conexión. Según el motivo del error, es posible que los datos aún se indexan, que aún se pueda consumir la cuota de elementos y que los rastreos aún se ejecuten para la conexión. Se recomienda intentar eliminar la conexión de nuevo en este estado.
+
 ## <a name="monitor-your-index-quota-utilization"></a>Supervisar el uso de la cuota de índice
 
 La cuota de índice y el consumo disponibles se muestran en la página de aterrizaje de conectores.
@@ -60,8 +62,8 @@ La cuota de índice y el consumo disponibles se muestran en la página de aterri
 ![Barra de uso de cuota de índice](media/quota_utilization.png)
  
 >[!NOTE]
->Durante el período de vista previa, a todas las organizaciones que probaron los conectores de Graph se les proporcionó una cuota fija gratuita de hasta 2 millones de elementos en todas las conexiones. Con los conectores de Graph disponibles en general, la cuota gratuita expirará el 1 de abril de 2021 para las organizaciones que han estado usando conectores de Graph en versión preliminar.
->Los conectores graph creados por Microsoft etiquetados como ["Versión preliminar"](./connectors-overview.md) no se incluirán en la cuota total de índice cargado para su organización. Sin embargo, contará para el número máximo de 10 conexiones que puede configurar para su organización y el número máximo de 7 millones de elementos que su organización puede indizar entre conexiones; cada conexión tiene un límite de 700 000 elementos. 
+>Durante el período de vista previa, todas las organizaciones que probaron Graph conectores se les proporcionó una cuota fija gratuita de hasta 2 millones de elementos en todas las conexiones. Con Graph conectores de Graph disponibles, la cuota gratuita expirará el 1 de abril de 2021 para las organizaciones que han estado usando conectores Graph en versión preliminar.
+>Los conectores de Graph creados por Microsoft etiquetados como ["Versión preliminar"](./connectors-overview.md) no se incluirán en la cuota total de índice cargado para su organización. Sin embargo, contará para el número máximo de 10 conexiones que puede configurar para su organización y el número máximo de 7 millones de elementos que su organización puede indizar entre conexiones; cada conexión tiene un límite de 700 000 elementos. 
 
 La barra de uso de cuota indicará varios estados en función del consumo de cuota por parte de la organización:
 
@@ -69,7 +71,7 @@ Estado | Niveles de uso de cuota
 --- | --- 
 Normal | 0-79%
 Alto | 80-89%
-Crítico | 90%-99%
+Critico | 90%-99%
 Full | 100 %
 
 <!-- 
