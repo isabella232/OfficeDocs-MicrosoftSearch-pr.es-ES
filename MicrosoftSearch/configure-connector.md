@@ -1,5 +1,5 @@
 ---
-title: Configurar el conector de Graph creado por Microsoft para Microsoft Search
+title: Configurar el conector de Graph microsoft para Microsoft Search
 ms.author: mecampos
 author: mecampos
 manager: umas
@@ -12,24 +12,24 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Introducción a la instalación para conectores de Graph de Microsoft
-ms.openlocfilehash: 169e78fd4a0148d8bb4e52968b2efd785045806e
-ms.sourcegitcommit: 08a7086185d28df14b06d1f7fdfbb1637288f7a5
+description: Introducción al programa de instalación Graph conectores de microsoft
+ms.openlocfilehash: ef94d530af63d8b8b33dfae3c4b411164ef31feb
+ms.sourcegitcommit: 1b154441f3a3abba0f2719e66a767432bc9506ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51042587"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52720947"
 ---
 <!-- Previous ms.author: monaray -->
 
 <!-- markdownlint-disable no-trailing-punctuation -->
 
-# <a name="setup-overview-for-graph-connectors-by-microsoft"></a>Introducción a la instalación para conectores de Graph de Microsoft 
+# <a name="setup-overview-for-graph-connectors-by-microsoft"></a>Introducción al programa de instalación Graph conectores de microsoft 
 
-En este artículo se muestra el proceso básico necesario para configurar los conectores de Graph de **Microsoft** en el Centro de administración [de Microsoft 365](https://admin.microsoft.com). El proceso básico incluye los siguientes pasos:  
+En este artículo se muestra el proceso básico necesario para configurar los conectores de Graph de **microsoft** en el [centro Microsoft 365 administración.](https://admin.microsoft.com) El proceso básico incluye los pasos siguientes:  
 <!---Add links to each section in the doc--->
 
-1. [Agregar un conector de Graph en el Centro de administración de Microsoft 365](#step-1-add-a-graph-connector-in-the-microsoft-365-admin-center)
+1. [Agregar un Graph de administración en el centro Microsoft 365 administración](#step-1-add-a-graph-connector-in-the-microsoft-365-admin-center)
 2. [Asigne un nombre a la conexión](#step-2-name-the-connection)
 3. [Configurar las opciones de conexión](#step-3-configure-the-connection-settings)
 4. [Administrar permisos de búsqueda](#step-4-manage-search-permissions)
@@ -45,27 +45,27 @@ En este artículo también se incluye información sobre la solución de problem
 * [Pasos siguientes](#next-steps)
 
 > [!NOTE]
-> El proceso de instalación es similar para todos los conectores de Graph de Microsoft, pero no es exactamente el mismo. **Además de leer este artículo, asegúrese de leer la información específica del conector para el origen de datos.**  
+> El proceso de instalación es similar para todos los Graph de Microsoft, pero no es exactamente el mismo. **Además de leer este artículo, asegúrese de leer la información específica del conector para el origen de datos.**  
 
 <!---## Before you get started-->
 
 <!---Insert "Before you get started" recommendations for this data source-->
 
-## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Paso 1: Agregar un conector de Graph en el Centro de administración de Microsoft 365
+## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Paso 1: Agregar un conector de Graph en el centro Microsoft 365 administración
 
-Siga estos pasos para configurar cualquiera de los conectores de Graph creados por Microsoft:
+Complete los pasos siguientes para configurar cualquiera de los conectores Graph microsoft:
 
-1. Inicie sesión en su cuenta de administrador en el Centro de administración de [Microsoft 365](https://admin.microsoft.com).
+1. Inicie sesión en su cuenta de administrador en [Microsoft 365 centro de administración](https://admin.microsoft.com).
 
-2. En el panel de navegación, seleccione **Configuración** y, a continuación, seleccione **Buscar & inteligencia**. Seleccione la [pestaña Conectores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/Connectors).
+2. En el panel de navegación, **seleccione Configuración** y, a continuación, seleccione Buscar **& inteligencia**. Seleccione la [pestaña Conectores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/Connectors).
 
 3. Seleccione **+Agregar** y, a continuación, seleccione el origen de datos que desee en el menú de opciones disponibles.
 
    > [!div class="mx-imgBorder"]
-   > ![Los orígenes de datos disponibles incluyen: ADLS Gen2, sitios web de empresa, servidor de Microsoft SQL, Azure SQL, base de datos de Oracle SQL, ServiceNow, recurso compartido de archivos, Azure DevOps y MediaWiki.](media/add-connector.png)
+   > ![Los orígenes de datos disponibles incluyen: ADLS Gen2, sitios web de Enterprise, servidor de Microsoft SQL, Azure SQL, base de datos de Oracle SQL, ServiceNow, Recurso compartido de archivos, Azure DevOps y MediaWiki.](media/add-connector.png)
 
 > [!NOTE]
-> Puede agregar un máximo de diez conexiones de Graph a cada inquilino.
+> Puede agregar un máximo de diez conexiones Graph cada inquilino.
 
 ## <a name="step-2-name-the-connection"></a>Paso 2: Nombrar la conexión
 
@@ -87,13 +87,13 @@ Para obtener más información sobre cómo conectarse a un origen de datos local
 
 Las listas de control de acceso (ACL) determinan qué usuarios de la organización pueden tener acceso a cada elemento de datos.  
 
-Algunos conectores como [Microsoft SQL](MSSQL-connector.md) y Azure Data Lake [Storage Gen2](azure-data-lake-connector.md) admiten las ACL de [Azure Active Directory (Azure AD).](/azure/active-directory/)
+Algunos conectores como [Microsoft SQL](MSSQL-connector.md) y Azure Data Lake [Storage Gen2](azure-data-lake-connector.md) admiten las ACL Azure Active Directory [(Azure AD).](/azure/active-directory/)
 
 Otros conectores como [ServiceNow,](servicenow-connector.md) [Azure DevOps](azure-devops-connector.md)y [Salesforce](salesforce-connector.md) admiten la sincronización de usuarios y grupos que no son de Azure AD.  
 
 ## <a name="step-5-assign-property-labels"></a>Paso 5: Asignar etiquetas de propiedades
 
-Puede asignar etiquetas semánticas a las propiedades de origen en la página "Asignar etiquetas de propiedades". Las etiquetas son etiquetas conocidas proporcionadas por Microsoft que proporcionan un significado semántico. Permiten a Microsoft integrar los datos del conector en experiencias de Microsoft 365, como búsqueda mejorada, tarjetas de personas, detección inteligente y mucho más.  
+Puede asignar etiquetas semánticas a las propiedades de origen en la página "Asignar etiquetas de propiedades". Las etiquetas son etiquetas conocidas proporcionadas por Microsoft que proporcionan un significado semántico. Permiten a Microsoft integrar los datos del conector en Microsoft 365 experiencias como búsqueda mejorada, tarjetas de personas, detección inteligente y mucho más.  
 
 En la tabla siguiente se enumeran las etiquetas admitidas actualmente y sus descripciones.  
 
@@ -131,11 +131,11 @@ Puede agregar alias a sus propiedades en la columna "Alias" de la página "Admin
 
 Puede establecer los atributos del esquema de búsqueda para controlar la funcionalidad de búsqueda de cada propiedad de origen. Un esquema de búsqueda ayuda a determinar qué resultados se muestran en la página de resultados de búsqueda y a qué información pueden ver y acceder los usuarios finales.
 
-Los atributos de esquema de búsqueda **incluyen opciones para Query**, **Search,** **Retrieve** y **Refine**. En la tabla siguiente se enumeran cada uno de los atributos que admiten los conectores de Microsoft Graph y se explican sus funciones.
+Los atributos de esquema de búsqueda **incluyen opciones para Query**, **Search,** **Retrieve** y **Refine**. En la tabla siguiente se enumeran cada uno de los atributos que admiten los conectores Graph Microsoft y se explican sus funciones.
 
 Atributo de esquema de búsqueda | Función | Ejemplo
 --- | --- | ---
-BUSCAR | Hace que se busque el contenido de texto de una propiedad. El contenido de la propiedad se incluye en el índice de texto completo. | Si la propiedad es **title**, una consulta de **Enterprise** devuelve respuestas que contienen la palabra **Enterprise** en cualquier texto o título.
+BUSCAR | Hace que se busque el contenido de texto de una propiedad. El contenido de la propiedad se incluye en el índice de texto completo. | Si la propiedad es **title**, una consulta para **Enterprise** devuelve respuestas que contienen la palabra **Enterprise** en cualquier texto o título.
 QUERY | Busca por consulta una coincidencia de una propiedad determinada. A continuación, el nombre de la propiedad se puede especificar en la consulta mediante programación o de forma literal. |  Si se puede consultar la propiedad **Title,** se admite la consulta **Title: Enterprise.**
 RETRIEVE | Solo se pueden usar propiedades recuperables en el tipo de resultado y mostrar en el resultado de la búsqueda. |
 REFINE | La opción refinar se puede usar como en la página de resultados de Microsoft Search. | Los usuarios de la organización pueden [filtrar](custom-filters.md) por **dirección URL** en la página de resultados de búsqueda si la propiedad refine está marcada durante la configuración de la conexión
@@ -164,7 +164,7 @@ El intervalo de actualización determina la frecuencia con la que los datos se s
 
 Hay dos tipos de intervalos de actualización, que son **Actualización** completa e **Actualización incremental,** pero las actualizaciones incrementales no están disponibles para algunos orígenes de datos.
 
-Con una actualización completa, el motor de búsqueda procesa e indiza todos los elementos del origen de contenido, independientemente de los rastreos anteriores. Una actualización completa funciona mejor para estas situaciones:
+Con una actualización completa, el motor de búsqueda procesa e indiza los elementos que han cambiado en el origen de contenido, independientemente de los rastreos anteriores. Una actualización completa funciona mejor para estas situaciones:
 
 * Detección de eliminaciones de datos.
 * La actualización incremental encontró errores y falló.
@@ -198,10 +198,10 @@ Lea la información específica del conector para el origen de datos.
 
 ## <a name="limitations"></a>Limitaciones
 <!---Insert limitations for this data source-->
-Para obtener información sobre las limitaciones que se aplican a todos los orígenes de datos, consulte el artículo Información general sobre los conectores [de Microsoft Graph.](connectors-overview.md)
+Para obtener información sobre las limitaciones que se aplican a todos los orígenes de datos, consulte el artículo Información general sobre los conectores [Graph Microsoft.](connectors-overview.md)
 
-Consulta la información específica del conector para el origen de datos para averiguar si se aplican otras limitaciones a ese conector de Graph en particular.
+Consulte la información específica del conector para el origen de datos para averiguar si se aplican otras limitaciones a ese conector de Graph específico.
 
-## <a name="next-steps"></a>Siguientes pasos
+## <a name="next-steps"></a>Pasos siguientes
 
 Después de publicar la conexión, debe personalizar la página de resultados de búsqueda. Para obtener información sobre cómo personalizar los resultados de búsqueda, [vea Personalizar la página de resultados de búsqueda](customize-search-page.md).
