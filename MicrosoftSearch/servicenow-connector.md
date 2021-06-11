@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de Graph ServiceNow para Microsoft Search
-ms.openlocfilehash: 0b7e752ec67a7c14e4afc2e3bad32124694f8f39
-ms.sourcegitcommit: 668930032e77a065c23551b3e8820dcc2c63c0f8
+ms.openlocfilehash: ac5d0b23547ce7ccd0d8bb6399b092f9bc9e5303
+ms.sourcegitcommit: f12e7ff0a94d30a9de1f93266715180e7530de3f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52853818"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879312"
 ---
 <!---Previous ms.author: kam1 --->
 
@@ -64,21 +64,21 @@ Puede crear **y asignar un rol para** la cuenta de servicio que use para conecta
 
 Para autenticar y sincronizar contenido de ServiceNow, elija **uno de los tres métodos** admitidos: 
  
-1. Autenticación básica 
-1. ServiceNow OAuth (recomendado)
-1. Azure AD OpenID Conectar
+- Autenticación básica 
+- ServiceNow OAuth (recomendado)
+- Azure AD OpenID Conectar
 
-### <a name="basic-authentication"></a>Autenticación básica
+## <a name="step-31-basic-authentication"></a>Paso 3.1: Autenticación básica
 
 Escriba el nombre de usuario y la contraseña de la cuenta de ServiceNow con **el rol de** conocimiento para autenticarse en la instancia.
 
-### <a name="servicenow-oauth"></a>ServiceNow OAuth
+## <a name="step-32-servicenow-oauth"></a>Paso 3.2: ServiceNow OAuth
 
 Para usar ServiceNow OAuth para la autenticación, un administrador de ServiceNow debe aprovisionar un punto de conexión en la instancia de ServiceNow, para que la aplicación de Búsqueda de Microsoft pueda tener acceso a él. Para obtener más información, vea [Create an endpoint for clients to access the instance](https://docs.servicenow.com/bundle/newyork-platform-administration/page/administer/security/task/t_CreateEndpointforExternalClients.html) en la documentación de ServiceNow.
 
 En la tabla siguiente se proporcionan instrucciones sobre cómo rellenar el formulario de creación de extremos:
 
-Field | Descripción | Valor recomendado 
+Campo | Descripción | Valor recomendado 
 --- | --- | ---
 Nombre | Valor único que identifica la aplicación para la que necesita acceso de OAuth. | Búsqueda de Microsoft
 Id. de cliente | Un identificador único de solo lectura generado automáticamente para la aplicación. La instancia usa el identificador de cliente cuando solicita un token de acceso. | N/D
@@ -91,19 +91,19 @@ Duración del token de acceso | El número de segundos que un token de acceso es
 
 Escriba el identificador de cliente y el secreto de cliente para conectarse a la instancia. Después de conectarse, use una credencial de cuenta de ServiceNow para autenticar el permiso para rastrear. La cuenta debe tener al menos un **rol de** conocimiento. Consulte la tabla al principio del paso [3:](#step-3-connection-settings) configuración de conexión para proporcionar acceso de lectura a más registros de tabla de ServiceNow y permisos de criterios de usuario de índice.
 
-### <a name="azure-ad-openid-connect"></a>Azure AD OpenID Conectar
+## <a name="step-33-azure-ad-openid-connect"></a>Paso 3.3: Azure AD OpenID Conectar
 
 Para usar Azure AD OpenID Conectar para la autenticación, siga los pasos que se indican a continuación.
 
-## <a name="step-3a-register-a-new-application-in-azure-active-directory"></a>Paso 3.a: Registrar una nueva aplicación en Azure Active Directory
+### <a name="step-331-register-a-new-application-in-azure-active-directory"></a>Paso 3.3.1: Registrar una nueva aplicación en Azure Active Directory
 
 Para obtener información sobre cómo registrar una nueva aplicación en Azure Active Directory, vea [Register an application](/azure/active-directory/develop/quickstart-register-app#register-an-application). Seleccione directorio de organización de inquilino único. Uri de redireccionamiento no es necesario. Después del registro, anote el identificador de aplicación (cliente) y el identificador de directorio (inquilino).
 
-## <a name="step-3b-create-a-client-secret"></a>Paso 3.b: Crear un secreto de cliente
+### <a name="step-332-create-a-client-secret"></a>Paso 3.3.2: Crear un secreto de cliente
 
 Para obtener información sobre cómo crear un secreto de cliente, vea [Creating a client secret](/azure/active-directory/develop/quickstart-register-app#add-a-client-secret). Tome nota del secreto de cliente.
 
-## <a name="step-3c-retrieve-service-principal-object-identifier"></a>Paso 3.c: Recuperar el identificador de objeto de entidad de seguridad de servicio
+### <a name="step-333-retrieve-service-principal-object-identifier"></a>Paso 3.3.3: Recuperar el identificador de objeto de entidad de seguridad de servicio
 
 Siga los pasos para recuperar el identificador de objeto de entidad de seguridad de servicio
 
@@ -137,7 +137,7 @@ Id. de aplicación (id. de cliente) | Identificador único de la aplicación reg
 Secreto de cliente | La clave secreta de la aplicación (desde el paso 3.b). Tráela como una contraseña.
 Id. de entidad de servicio | Identidad de la aplicación que se ejecuta como servicio. (desde el paso 3.c)
 
-## <a name="step-3d-register-servicenow-application"></a>Paso 3.d: Registrar la aplicación ServiceNow
+### <a name="step-334-register-servicenow-application"></a>Paso 3.3.4: Registrar la aplicación ServiceNow
 
 La instancia de ServiceNow necesita la siguiente configuración:
 
@@ -145,7 +145,7 @@ La instancia de ServiceNow necesita la siguiente configuración:
 
 2. En la siguiente tabla se proporcionan instrucciones sobre cómo rellenar el formulario de registro del proveedor de OIDC
 
-   Field | Descripción | Valor recomendado
+   Campo | Descripción | Valor recomendado
    --- | --- | ---
    Nombre | Un nombre único que identifica la entidad OAuth OIDC. | Azure AD
    Id. de cliente | El identificador de cliente de la aplicación registrada en el servidor OAuth OIDC de terceros. La instancia usa el identificador de cliente al solicitar un token de acceso. | Id. de aplicación (cliente) del paso 3.a
@@ -157,7 +157,7 @@ La instancia de ServiceNow necesita la siguiente configuración:
 
 4. En la tabla siguiente se proporcionan instrucciones sobre cómo rellenar el formulario de configuración del proveedor de OIDC
 
-   Field | Valor recomendado
+   Campo | Valor recomendado
    --- | ---
    Proveedor de OIDC |  Azure AD
    URL de metadatos de OIDC | La dirección URL debe tener el formato https \: //login.microsoftonline.com/<tenandId">/.well-known/openid-configuration <br/>Reemplace "tenantID" por el id. de directorio (inquilino) del paso 3.a.
@@ -169,20 +169,20 @@ La instancia de ServiceNow necesita la siguiente configuración:
 
 5. Seleccione Enviar y actualizar el formulario Entidad OAuth OIDC.
 
-## <a name="step-3e-create-a-servicenow-account"></a>Paso 3.e: Crear una cuenta de ServiceNow
+### <a name="step-335-create-a-servicenow-account"></a>Paso 3.3.5: Crear una cuenta de ServiceNow
 
 Consulte las instrucciones para crear una cuenta de ServiceNow, [crear un usuario en ServiceNow](https://docs.servicenow.com/bundle/paris-platform-administration/page/administer/users-and-groups/task/t_CreateAUser.html).
 
 En la siguiente tabla se proporcionan instrucciones sobre cómo rellenar el registro de la cuenta de usuario de ServiceNow
 
-Field | Valor recomendado
+Campo | Valor recomendado
 --- | ---
 Id. de usuario | Id. de entidad de servicio del paso 3.c
 Solo acceso al servicio web | Checked
 
 Todos los demás valores se pueden dejar como predeterminados.
 
-##### <a name="step-36-enable-knowledge-role-for-the-servicenow-account"></a>Paso 3.6: Habilitar el rol De conocimiento para la cuenta de ServiceNow
+### <a name="step-336-enable-knowledge-role-for-the-servicenow-account"></a>Paso 3.3.6: Habilitar el rol De conocimiento para la cuenta de ServiceNow
 
 Obtenga acceso a la cuenta de ServiceNow que creó con el id. de entidad de seguridad de ServiceNow como id. de usuario y asigne el rol de conocimiento. Puede encontrar instrucciones para asignar un rol a una cuenta de ServiceNow aquí, [asigne un rol a un usuario](https://docs.servicenow.com/bundle/paris-platform-administration/page/administer/users-and-groups/task/t_AssignARoleToAUser.html). Consulte la tabla al principio del paso [3:](#step-3-connection-settings) configuración de conexión para proporcionar acceso de lectura a más registros de tabla de ServiceNow y permisos de criterios de usuario de índice.
 
@@ -267,4 +267,4 @@ PROD | Europa | 20.54.41.208/30, 51.105.159.88/30
 PROD | Asia Pacífico | 52.139.188.212/30, 20.43.146.44/30 
 
 
-Si tiene otros problemas o desea proporcionar comentarios, escríbanos aka.ms/TalkToGraphConnectors
+Si tiene otros problemas o desea proporcionar comentarios, escríbanos [aka.ms/TalkToGraphConnectors](https://aka.ms/TalkToGraphConnectors)
