@@ -1,5 +1,5 @@
 ---
-title: Azure SQL y Microsoft SQL server Graph para Microsoft Search
+title: Conector SQL y Microsoft SQL Server Graph azure para Búsqueda de Microsoft
 ms.author: mecampos
 author: mecampos
 manager: umas
@@ -12,33 +12,33 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Configure el conector de azure SQL y Microsoft SQL Graph para Microsoft Search.
-ms.openlocfilehash: 29474c731c489c9e9b75f2456d25e4ff43aae4eb
-ms.sourcegitcommit: 1b154441f3a3abba0f2719e66a767432bc9506ca
+description: Configure el conector de Azure SQL y Microsoft SQL Graph para Búsqueda de Microsoft.
+ms.openlocfilehash: 1cc28561d7572c3a554f1cf93b582b4787414f48
+ms.sourcegitcommit: a8867bbdfa8c5fd3debde8e6b2bba4f79768e3f6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52720983"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52955622"
 ---
 <!---Previous ms.author: vivg --->
 
-# <a name="azure-sql-and-microsoft-sql-server-graph-connectors"></a>Conectores de SQL azure y Microsoft SQL servidor Graph microsoft
+# <a name="azure-sql-and-microsoft-sql-server-graph-connectors"></a>Conectores SQL y Microsoft SQL Server Graph Azure
 
-El servidor de Microsoft SQL o el conector de Azure SQL Graph permite a la organización detectar e indizar datos de una base de datos SQL Server local o una base de datos hospedada en la instancia de Azure SQL en la nube.
-El Graph indexa el contenido especificado en Microsoft Search. Para mantener el índice actualizado con los datos de origen, admite rastreos incrementales e completos periódicos. Con estos SQL, también puede restringir el acceso a los resultados de búsqueda para determinados usuarios.
+El conector Microsoft SQL Server o Azure SQL Graph permite a la organización detectar e indizar datos de una base de datos de SQL Server local o una base de datos hospedada en la instancia de Azure SQL en la nube.
+El Graph indexa el contenido especificado en Búsqueda de Microsoft. Para mantener el índice actualizado con los datos de origen, admite rastreos incrementales e completos periódicos. Con estos SQL, también puede restringir el acceso a los resultados de búsqueda para determinados usuarios.
 
 > [!NOTE]
 > Lea el [**artículo Configurar el conector Graph para**](configure-connector.md) comprender las instrucciones de configuración Graph conectores generales.
 
-Este artículo está para cualquier persona que configure, ejecute y monitore un conector de SQL azure y microsoft SQL de Graph servidor. Complementa el proceso de configuración general y muestra instrucciones que solo se aplican al conector de SQL y microsoft SQL servidor Graph. En este artículo también se incluye [información](#limitations) sobre las limitaciones para el servidor de Microsoft SQL y los conectores SQL Azure.
+Este artículo está para cualquier persona que configure, ejecute y monitore un conector SQL y Microsoft SQL Server Graph Azure. Complementa el proceso de configuración general y muestra instrucciones que se aplican solo para el conector SQL y Microsoft SQL Server Graph Azure. En este artículo también se incluye [información](#limitations) sobre las limitaciones para los conectores Microsoft SQL Server y Azure SQL azure.
 
 ## <a name="before-you-get-started"></a>Antes de empezar
 
-### <a name="install-the-graph-connector-agent-required-for-on-premises-microsoft-sql-server-connector-only"></a>Instalar el Graph de conector de Graph (necesario solo para el conector de servidor de Microsoft SQL local)
+### <a name="install-the-graph-connector-agent-required-for-on-premises-microsoft-sql-server-connector-only"></a>Instale el agente Graph conector de Microsoft SQL Server local (obligatorio únicamente para el conector de Microsoft SQL Server local)
 
 Para tener acceso a los datos de terceros locales, debe instalar y configurar el agente de conector Graph local. Consulte [Install the Graph connector agent para](on-prem-agent.md) obtener más información.  
 
-## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Paso 1: Agregar un conector de Graph en el centro Microsoft 365 administración
+## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Paso 1: Agregar un conector Graph en el Centro de administración de Microsoft 365
 
 Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 
@@ -54,9 +54,9 @@ instructions.-->
 
 ### <a name="register-an-app-for-azure-sql-connector-only"></a>Registrar una aplicación (solo para el conector SQL Azure)
 
-Para el conector SQL azure, debe registrar una aplicación en Azure Active Directory para permitir que la aplicación de Búsqueda de Microsoft obtenga acceso a los datos para la indización. Para obtener más información sobre el registro de una aplicación, consulte Microsoft Graph documentación sobre cómo [registrar una aplicación](/graph/auth-register-app-v2).
+Para el conector SQL azure, debe registrar una aplicación en Azure Active Directory para permitir que Búsqueda de Microsoft la aplicación obtenga acceso a los datos para la indización. Para obtener más información sobre el registro de una aplicación, consulte Microsoft Graph documentación sobre cómo [registrar una aplicación](/graph/auth-register-app-v2).
 
-Después de completar el registro de la aplicación y tomar nota del nombre de la aplicación, el identificador de la aplicación (cliente) y el identificador de inquilino, debe generar [un nuevo secreto de cliente](/azure/healthcare-apis/register-confidential-azure-ad-client-app#application-secret). El secreto de cliente solo se mostrará una vez. Recuerde tener en cuenta & almacenar el secreto de cliente de forma segura. Use el identificador de cliente y el secreto de cliente al configurar una nueva conexión en Microsoft Search.
+Después de completar el registro de la aplicación y tomar nota del nombre de la aplicación, el identificador de la aplicación (cliente) y el identificador de inquilino, debe generar [un nuevo secreto de cliente](/azure/healthcare-apis/register-confidential-azure-ad-client-app#application-secret). El secreto de cliente solo se mostrará una vez. Recuerde tener en cuenta & almacenar el secreto de cliente de forma segura. Use el identificador de cliente y el secreto de cliente al configurar una nueva conexión en Búsqueda de Microsoft.
 
 Para agregar la aplicación registrada a tu Azure SQL Database, debes:
 
@@ -70,14 +70,14 @@ Para agregar la aplicación registrada a tu Azure SQL Database, debes:
 
 ### <a name="connection-settings"></a>Configuración de conexión
 
-Para conectar el conector de servidor de Microsoft SQL a un origen de datos, debe configurar el servidor de base de datos que desea rastrear y el agente local. A continuación, puede conectarse a la base de datos con el método de autenticación necesario.
+Para conectar el conector Microsoft SQL Server a un origen de datos, debe configurar el servidor de base de datos que desea rastrear y el agente local. A continuación, puede conectarse a la base de datos con el método de autenticación necesario.
 
 > [!NOTE] 
-> La base de datos debe ejecutar SQL versión 2008 o posterior para que el conector de servidor de Microsoft SQL pueda conectarse.
+> La base de datos debe SQL Server versión 2008 o posterior para que el Microsoft SQL Server para poder conectarse.
 
 Para el conector SQL azure, solo debe especificar el nombre del servidor o la dirección IP a la que desea conectarse. Azure SQL connector solo admite Azure Active Directory de conexión de Open ID (OIDC) para conectarse a la base de datos.
 
-Para mayor seguridad, puede configurar reglas de firewall IP para su servidor o base de datos SQL Azure. Para obtener más información sobre cómo configurar reglas de firewall IP, consulte la documentación sobre [las reglas de firewall IP](/azure/azure-sql/database/firewall-configure). Agregue los siguientes intervalos IP de cliente en la configuración del firewall.
+Para mayor seguridad, puede configurar reglas de firewall IP para la base de datos SQL Server Azure. Para obtener más información sobre cómo configurar reglas de firewall IP, consulte la documentación sobre [las reglas de firewall IP](/azure/azure-sql/database/firewall-configure). Agregue los siguientes intervalos IP de cliente en la configuración del firewall.
 
 | Región | Intervalo IP |
 | ------------ | ------------ |
@@ -120,7 +120,7 @@ En la tabla siguiente se resumen los SQL de datos compatibles con los conectores
 | Categoría | Tipo de datos de origen | Tipo de datos de indización |
 | ------------ | ------------ | ------------ |
 | Fecha y hora | date <br> datetime <br> datetime2 <br> smalldatetime | datetime |
-| Numérico exacto | bigint <br> Entero <br> smallint <br> tinyint | int64 |
+| Numérico exacto | bigint <br> int <br> smallint <br> tinyint | int64 |
 | Numérico exacto | bit | boolean |
 | Numérico aproximado | float <br> real | double |
 | Cadena de caracteres | char <br> varchar <br> text | cadena |
@@ -219,7 +219,7 @@ A continuación se muestra un error común observado al configurar el conector y
 
 Los SQL tienen estas limitaciones en la versión preliminar:
 
-- Conector de SQL microsoft: la base de datos local debe ejecutar SQL versión de servidor 2008 o posterior.
-- La suscripción a M365 y la suscripción de Azure (que hospeda la base de datos SQL Azure) deben estar dentro del mismo Azure Active Directory.
+- Microsoft SQL Server: la base de datos local debe ejecutarse SQL Server versión 2008 o posterior.
+- La Microsoft 365 suscripción y la suscripción de Azure (que hospeda la base de datos SQL azure) deben estar dentro del mismo Azure Active Directory.
 - Las ACL solo se admiten mediante un nombre principal de usuario (UPN), Azure Active Directory (Azure AD) o seguridad de Active Directory.
 - No se admite la indización de contenido enriquecido dentro de las columnas de base de datos. Ejemplos de este contenido son HTML, JSON, XML, blobs y análisis de documentos que existen como vínculos dentro de las columnas de la base de datos.
