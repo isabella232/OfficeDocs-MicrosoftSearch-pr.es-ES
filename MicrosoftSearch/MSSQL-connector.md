@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configure el conector de Azure SQL y Microsoft SQL Graph para Búsqueda de Microsoft.
-ms.openlocfilehash: 1cc28561d7572c3a554f1cf93b582b4787414f48
-ms.sourcegitcommit: a8867bbdfa8c5fd3debde8e6b2bba4f79768e3f6
+ms.openlocfilehash: 0f8501e36754235b43846b80d60d4b0156a504b9
+ms.sourcegitcommit: 93fc70f0073ab45b4dbd702441ac2fc07a7668bc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52955622"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230920"
 ---
 <!---Previous ms.author: vivg --->
 
@@ -30,7 +30,7 @@ El Graph indexa el contenido especificado en Búsqueda de Microsoft. Para manten
 > [!NOTE]
 > Lea el [**artículo Configurar el conector Graph para**](configure-connector.md) comprender las instrucciones de configuración Graph conectores generales.
 
-Este artículo está para cualquier persona que configure, ejecute y monitore un conector SQL y Microsoft SQL Server Graph Azure. Complementa el proceso de configuración general y muestra instrucciones que se aplican solo para el conector SQL y Microsoft SQL Server Graph Azure. En este artículo también se incluye [información](#limitations) sobre las limitaciones para los conectores Microsoft SQL Server y Azure SQL azure.
+Este artículo está para cualquier persona que configure, ejecute y monitore un conector SQL azure y microsoft SQL servidor Graph. Complementa el proceso de configuración general y muestra instrucciones que solo se aplican al conector de SQL y microsoft SQL servidor Graph. En este artículo también se incluye [información](#limitations) sobre las limitaciones para el servidor de Microsoft SQL y los conectores SQL Azure.
 
 ## <a name="before-you-get-started"></a>Antes de empezar
 
@@ -220,6 +220,7 @@ A continuación se muestra un error común observado al configurar el conector y
 Los SQL tienen estas limitaciones en la versión preliminar:
 
 - Microsoft SQL Server: la base de datos local debe ejecutarse SQL Server versión 2008 o posterior.
+
 - La Microsoft 365 suscripción y la suscripción de Azure (que hospeda la base de datos SQL azure) deben estar dentro del mismo Azure Active Directory.
 - Las ACL solo se admiten mediante un nombre principal de usuario (UPN), Azure Active Directory (Azure AD) o seguridad de Active Directory.
 - No se admite la indización de contenido enriquecido dentro de las columnas de base de datos. Ejemplos de este contenido son HTML, JSON, XML, blobs y análisis de documentos que existen como vínculos dentro de las columnas de la base de datos.
