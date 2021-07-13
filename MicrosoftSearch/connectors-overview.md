@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Información general sobre los conectores de Microsoft Graph para Búsqueda de Microsoft
-ms.openlocfilehash: 4bcfb871fabae07270611762d2112a6e72d4762b
-ms.sourcegitcommit: 93fc70f0073ab45b4dbd702441ac2fc07a7668bc
+ms.openlocfilehash: 87645e32e274eb166d6ba008c4ac720667105a1f
+ms.sourcegitcommit: 52129e0129a201ec056903b2461d012fda6d3636
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230893"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53383487"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -38,10 +38,6 @@ Este artículo está pensado para ayudar a Microsoft 365 administradores a encon
 * [¿Cómo puedo buscar los datos del conector desde una aplicación personalizada?](#how-do-i-search-my-connector-data-from-a-custom-application)
 * [¿Cómo puedo personalizar los resultados de búsqueda?](#how-do-i-customize-search-results)
 * [Cuáles son las limitaciones del conector](#what-are-the-connector-limitations)
-
-<!---Modify to another note that is more accurate after rollout completion--->
-> [!IMPORTANT]
-> Los conectores Graph Microsoft y Búsqueda de Microsoft API están disponibles en general. Los primeros lanzamientos serán para los clientes configurados para la versión dirigida. Si desea usar un conector de Graph en el inquilino, los usuarios y administradores deben optar por [la versión dirigida](/microsoft-365/admin/manage/release-options-in-office-365?preserve-view=true&view=o365-worldwide).
 
 <!---Add Value, scenario, example, and/or graphic in December updates--->
 <!---Probably remove architecture section below
