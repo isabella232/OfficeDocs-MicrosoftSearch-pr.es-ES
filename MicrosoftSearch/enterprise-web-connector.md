@@ -1,5 +1,5 @@
 ---
-title: Conector graph de sitios web empresariales para Microsoft Search
+title: Enterprise sitios web Graph conector para Búsqueda de Microsoft
 ms.author: mecampos
 author: mecampos
 manager: umas
@@ -12,32 +12,32 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Configurar el conector graph de sitios web de empresa para Microsoft Search
-ms.openlocfilehash: 4b8a14b216d7df68d0898bb72d926abe671047a4
-ms.sourcegitcommit: 56b7b5aa55413141c805f766bdf7bc63d721ef53
+description: Configurar los sitios Enterprise web Graph para Búsqueda de Microsoft
+ms.openlocfilehash: f986736218768b4979e6e8aa474081c6aa87cb75
+ms.sourcegitcommit: 56e6c0706067e383d826ec97feb80f0742a726e0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51951025"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419899"
 ---
 <!---Previous ms.author: monaray --->
 
 <!-- markdownlint-disable no-inline-html -->
 
-# <a name="enterprise-websites-graph-connector"></a>Conector graph de sitios web empresariales
+# <a name="enterprise-websites-graph-connector"></a>Enterprise sitios web Graph conector
 
-El conector graph de sitios web de empresa permite a su organización indizar artículos y **contenido de sus sitios web internos.** Después de configurar el conector y sincronizar el contenido del sitio web, los usuarios finales pueden buscar ese contenido desde cualquier cliente de Microsoft Search.
+El Enterprise web Graph permite a su organización indizar artículos y **contenido de sus sitios web internos.** Después de configurar el conector y sincronizar el contenido del sitio web, los usuarios finales pueden buscar ese contenido desde cualquier Búsqueda de Microsoft cliente.
 
 > [!NOTE]
-> Lea el [**artículo Configurar el conector de Graph**](configure-connector.md) para comprender las instrucciones generales de configuración de conectores de Graph.
+> Lea el [**artículo Configurar el conector Graph para**](configure-connector.md) comprender las instrucciones de configuración Graph conectores generales.
 
-Este artículo está para cualquier persona que configure, ejecute y monitore un conector de sitios web de empresa. Complementa el proceso de configuración general y muestra instrucciones que solo se aplican al conector de sitios web de empresa. En este artículo también se incluye información sobre [solución de problemas](#troubleshooting) y [limitaciones.](#limitations)
+Este artículo está para cualquier persona que configure, ejecute y monitore un conector Enterprise sitios web. Complementa el proceso de configuración general y muestra instrucciones que solo se aplican al conector Enterprise sitios web. En este artículo también se incluye información sobre [solución de problemas](#troubleshooting) y [limitaciones.](#limitations)
 
 <!---## Before you get started-->
 
 <!---Insert "Before you get started" recommendations for this data source-->
 
-## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Paso 1: Agregar un conector de Graph en el Centro de administración de Microsoft 365
+## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Paso 1: Agregar un conector Graph en el Centro de administración de Microsoft 365
 
 Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
@@ -49,40 +49,41 @@ Siga las instrucciones [generales de configuración](./configure-connector.md).
 
 ## <a name="step-3-configure-the-connection-settings"></a>Paso 3: Configurar las opciones de conexión
 
-Para conectarse al origen de datos, debe rellenar la dirección URL raíz del sitio web, seleccionar un origen de rastreo y el tipo de autenticación que desea usar: None, Basic Authentication o OAuth 2.0 con [Azure Active Directory (Azure AD).](/azure/active-directory/) Después de completar esta información, seleccione Probar conexión para comprobar la configuración.
+Para conectarse al origen de datos, rellene la dirección URL raíz del sitio web, seleccione un origen de rastreo y el tipo de autenticación que desea usar: None, Basic Authentication o OAuth 2.0 con [Azure Active Directory (Azure AD).](/azure/active-directory/) Después de completar esta información, seleccione Probar conexión para comprobar la configuración.
 
 ### <a name="url"></a>URL
 
 Use el campo DIRECCIÓN URL para especificar la raíz del sitio web que desea rastrear. El conector de sitios web de empresa usará esta dirección URL como punto de partida y seguirá todos los vínculos de esta dirección URL para su rastreo.
 
-> [!NOTE]
-> Si el sitio que quieres rastrear tiene un mapa del sitio definido, el conector solo rastreará las direcciones URL enumeradas en el mapa del sitio. Si no se define ningún mapa del sitio, el conector realizará un rastreo profundo de todos los vínculos encontrados en la dirección URL raíz del sitio.
+### <a name="crawl-websites-listed-in-the-sitemap"></a>Rastrear sitios web enumerados en el mapa del sitio
+
+Cuando se selecciona, el conector solo rastreará las direcciones URL que aparecen en el mapa del sitio. Si no está seleccionado o no se encuentra ningún mapa del sitio, el conector realizará un rastreo profundo de todos los vínculos encontrados en la dirección URL raíz del sitio.
+
+> [!div class="mx-imgBorder"]
+> ![Captura de pantalla del panel Configuración conexión para Enterprise conector web](media/enterprise-web-connector/connectors-enterpriseweb-connectionsettings-with-sitemap.png)
 
 ### <a name="crawl-mode-cloud-or-on-premises"></a>Modo de rastreo: nube o local
 
 El modo de rastreo determina el tipo de sitios web que desea indizar, ya sea en la nube o local. Para los sitios web en la nube, **seleccione Nube** como modo de rastreo.
 
-Además, el conector ahora admite el rastreo de sitios web locales. Para obtener acceso a los datos locales, primero debe instalar y configurar el agente de conector de Graph. Para obtener más información, vea [Graph connector agent](./on-prem-agent.md).
+Además, el conector ahora admite el rastreo de sitios web locales. Para obtener acceso a los datos locales, primero debe instalar y configurar el agente Graph conector. Para obtener más información, [vea Graph connector agent](./on-prem-agent.md).
 
 Para los sitios web  locales, seleccione Agente como  modo de rastreo y, en el campo Agente local, elija el agente de conector de Graph que instaló y configuró anteriormente.  
 
-> [!div class="mx-imgBorder"]
-> ![Captura de pantalla del panel Configuración de conexión para enterprise Web connector](media/enterprise-web-connector/connectors-enterpriseweb-settings.png)
-
 ### <a name="authentication"></a>Autenticación
 
-La autenticación básica requiere un nombre de usuario y una contraseña. Cree esta cuenta de bot mediante el Centro de administración de [Microsoft 365](https://admin.microsoft.com).
+La autenticación básica requiere un nombre de usuario y una contraseña. Cree esta cuenta de bot mediante el [Centro de administración de Microsoft 365](https://admin.microsoft.com).
 
 OAuth 2.0 con [Azure AD](/azure/active-directory/) requiere un identificador de recurso, id. de cliente y secreto de cliente. OAuth 2.0 solo funciona con el modo nube.
 
 Para obtener más información, vea [Authorize access to Azure Active Directory web applications using OAuth 2.0 code grant flow](/azure/active-directory/develop/v1-protocols-oauth-code). Regístrese con los siguientes valores:
 
-**Nombre:** Microsoft Search <br/>
+**Nombre:** Búsqueda de Microsoft <br/>
 **Redirect_URI:**`https://gcs.office.com/v1.0/admin/oauth/callback`
 
 Para obtener los valores del recurso, client_id y client_secret, vaya a Usar el código de autorización para solicitar un **token** de acceso en la página web url de redireccionamiento.
 
-Para obtener más información, vea [Inicio rápido: Registrar una aplicación con la plataforma de identidad de Microsoft](/azure/active-directory/develop/quickstart-register-app).
+Para obtener aún más información, vea [Inicio rápido: Registrar una aplicación con el Plataforma de identidad de Microsoft](/azure/active-directory/develop/quickstart-register-app).
 
 ## <a name="step-3a-add-urls-to-exclude-optional-crawl-restrictions"></a>Paso 3a: Agregar direcciones URL para excluir (restricciones de rastreo opcionales)
 
@@ -106,11 +107,11 @@ En **la** pantalla Administrar esquema, puede cambiar los atributos de esquema (
 
 ## <a name="step-6-manage-search-permissions"></a>Paso 6: Administrar permisos de búsqueda
 
-El conector de sitios web de empresa solo admite permisos de búsqueda visibles para **todos**. Los datos indizados aparecen en los resultados de la búsqueda y son visibles para todos los usuarios de la organización.
+El conector Enterprise sitios web solo admite permisos de búsqueda visibles para **todos**. Los datos indizados aparecen en los resultados de la búsqueda y son visibles para todos los usuarios de la organización.
 
 ## <a name="step-7-set-the-refresh-schedule"></a>Paso 7: Establecer la programación de actualización
 
-El conector de sitios web de empresa solo admite una actualización completa. Esto significa que el conector volverá a abrir todo el contenido del sitio web durante cada actualización. Para asegurarse de que el conector obtiene suficiente tiempo para rastrear el contenido, se recomienda establecer un intervalo de programación de actualización grande. Se recomienda una actualización programada entre una y dos semanas.
+El conector Enterprise sitios web solo admite una actualización completa. Esto significa que el conector volverá a abrir todo el contenido del sitio web durante cada actualización. Para asegurarse de que el conector obtiene suficiente tiempo para rastrear el contenido, se recomienda establecer un intervalo de programación de actualización grande. Se recomienda una actualización programada entre una y dos semanas.
 
 ## <a name="step-8-review-connection"></a>Paso 8: Revisar la conexión
 
@@ -138,4 +139,4 @@ Al leer el contenido del sitio web, el rastreo puede encontrar algunos errores d
 
 ## <a name="limitations"></a>Limitaciones
 
-El conector de sitios web de empresa no admite la búsqueda de datos en **páginas web dinámicas.** Ejemplos de esas páginas web se incluyen en sistemas de administración de contenido como [Confluence](https://www.atlassian.com/software/confluence) y [Unily](https://www.unily.com/) o bases de datos que almacenan contenido del sitio web.
+El Enterprise de sitios web no admite la búsqueda de datos en **páginas web dinámicas.** Ejemplos de esas páginas web se incluyen en sistemas de administración de contenido como [Confluence](https://www.atlassian.com/software/confluence) y [Unily](https://www.unily.com/) o bases de datos que almacenan contenido del sitio web.
