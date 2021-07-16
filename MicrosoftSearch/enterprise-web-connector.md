@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar los sitios Enterprise web Graph para Búsqueda de Microsoft
-ms.openlocfilehash: f986736218768b4979e6e8aa474081c6aa87cb75
-ms.sourcegitcommit: 56e6c0706067e383d826ec97feb80f0742a726e0
+ms.openlocfilehash: 32e38c9bef036556dae2734e23b1d26ba4fe2c27
+ms.sourcegitcommit: 38a0f09596c2bca0e12bf4cada7b4c64fd4c48e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53419899"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53449050"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -31,7 +31,7 @@ El Enterprise web Graph permite a su organización indizar artículos y **conten
 > [!NOTE]
 > Lea el [**artículo Configurar el conector Graph para**](configure-connector.md) comprender las instrucciones de configuración Graph conectores generales.
 
-Este artículo está para cualquier persona que configure, ejecute y monitore un conector Enterprise sitios web. Complementa el proceso de configuración general y muestra instrucciones que solo se aplican al conector Enterprise sitios web. En este artículo también se incluye información sobre [solución de problemas](#troubleshooting) y [limitaciones.](#limitations)
+Este artículo está para cualquier persona que configure, ejecute y monitore un conector Enterprise sitios web. Complementa el proceso de configuración general y muestra instrucciones que solo se aplican al conector Enterprise sitios web. En este artículo también se incluye información sobre [la solución de problemas.](#troubleshooting)
 
 <!---## Before you get started-->
 
@@ -59,8 +59,21 @@ Use el campo DIRECCIÓN URL para especificar la raíz del sitio web que desea ra
 
 Cuando se selecciona, el conector solo rastreará las direcciones URL que aparecen en el mapa del sitio. Si no está seleccionado o no se encuentra ningún mapa del sitio, el conector realizará un rastreo profundo de todos los vínculos encontrados en la dirección URL raíz del sitio.
 
+### <a name="dynamic-site-configuration"></a>Configuración dinámica del sitio
+
+Si su sitio web contiene contenido dinámico, por ejemplo, páginas web que viven en sistemas de administración de contenido como Confluence o Unily, puede habilitar un rastreador dinámico. Para activarlo, seleccione **Habilitar rastreo para sitios dinámicos.** El rastreador esperará a que se represente el contenido dinámico antes de comenzar el rastreo.
+
 > [!div class="mx-imgBorder"]
-> ![Captura de pantalla del panel Configuración conexión para Enterprise conector web](media/enterprise-web-connector/connectors-enterpriseweb-connectionsettings-with-sitemap.png)
+> ![Captura de pantalla del panel Configuración conexión para Enterprise conector web](media/enterprise-web-connector/connectors-enterpriseweb-connectionsettings-dynamicconfig-small.png)
+
+Además de la casilla, hay tres campos opcionales disponibles:
+
+1. **Dom listo:** escriba el elemento DOM que el rastreador debe usar como señal de que el contenido se representa completamente y que el rastreo debe comenzar.
+1. **Encabezados para agregar:** especifique qué encabezados HTTP debe incluir el rastreador al enviar esa dirección URL web específica. Puede establecer varios encabezados para diferentes sitios web. Se recomienda incluir valores de token de autenticación.
+1. **Encabezados para omitir:** especifique los encabezados innecesarios que deben excluirse de las solicitudes de rastreo dinámico.
+
+> [!NOTE]
+> El rastreo dinámico solo es compatible con el modo de rastreo de agente.
 
 ### <a name="crawl-mode-cloud-or-on-premises"></a>Modo de rastreo: nube o local
 
@@ -136,7 +149,3 @@ Al leer el contenido del sitio web, el rastreo puede encontrar algunos errores d
 
 * Los errores 6001-6013 se producen cuando el origen de datos no es accesible debido a un problema de red o cuando se elimina, mueve o cambia el nombre del origen de datos. Compruebe si los detalles del origen de datos proporcionados siguen siendo válidos.
 * Los errores 6021-6024 se producen cuando el origen de datos contiene contenido no textual en la página o cuando la página no es un HTML. Compruebe el origen de datos y agregue esta página en la lista de exclusión o ignore el error.
-
-## <a name="limitations"></a>Limitaciones
-
-El Enterprise de sitios web no admite la búsqueda de datos en **páginas web dinámicas.** Ejemplos de esas páginas web se incluyen en sistemas de administración de contenido como [Confluence](https://www.atlassian.com/software/confluence) y [Unily](https://www.unily.com/) o bases de datos que almacenan contenido del sitio web.

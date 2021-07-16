@@ -13,22 +13,22 @@ search.appverid:
 - MOE150
 ms.assetid: f980b90f-95e2-4b66-8b21-69f601ff4b50
 ROBOTS: NoIndex
-description: Obtenga sugerencias de búsqueda relevantes y busque resultados de trabajo más rápido agregando un cuadro de búsqueda de Microsoft Search al sitio o página de intranet.
-ms.openlocfilehash: c71f61971bf69c2eaa5fb7a48d0cb3d26af0ad07
-ms.sourcegitcommit: 5f0a8bdf274d02132a3b5211fb4738eb38d159db
+description: Obtenga sugerencias de búsqueda relevantes y busque resultados de trabajo más rápido agregando un cuadro de Búsqueda de Microsoft de búsqueda a su sitio o página de intranet.
+ms.openlocfilehash: 7d9ca4be8d3be27a7549ffb940d6dc55b3763baf
+ms.sourcegitcommit: 38a0f09596c2bca0e12bf4cada7b4c64fd4c48e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52247769"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53449065"
 ---
 # <a name="add-a-search-box-to-your-intranet-site"></a>Agregar un cuadro de búsqueda a su sitio de intranet
 
-Para proporcionar a los usuarios un acceso fácil a los resultados de su organización, agregue una búsqueda de Microsoft en Bing de búsqueda a cualquier sitio o página de intranet. Estos son algunos de los beneficios:
+Para proporcionar a los usuarios un acceso fácil a los resultados de su organización, agregue un Búsqueda de Microsoft en el Bing de búsqueda a cualquier sitio o página de intranet. Estos son algunos de los beneficios:
 
 - Un cuadro de búsqueda en el portal SharePoint intranet proporciona un punto de entrada familiar y de confianza para empezar a buscar
 - Admite todos los exploradores web principales, incluidos Google Chrome y Microsoft Edge
 - Solo aparecen sugerencias de búsqueda de su organización, las sugerencias web nunca se incluyen
-- Lleva a los usuarios a una búsqueda de Microsoft en Bing de resultados de trabajo, que excluye anuncios y resultados web
+- Lleva a los usuarios a un Búsqueda de Microsoft en Bing de resultados de trabajo, que excluye anuncios y resultados web
 - Puede controlar la apariencia y el comportamiento del cuadro de búsqueda, incluida la capacidad de desembarco de usuarios en una vertical predeterminada o una vertical personalizada que haya creado.
   
 ## <a name="add-a-search-box-to-an-intranet-page"></a>Agregar un cuadro de búsqueda a una página de intranet
@@ -108,11 +108,11 @@ Para facilitar la integración entre las aplicaciones de línea de negocio o los
 
 Use la opción vertical en bfbSearchBoxConfig para definir la vertical que desee. Por ejemplo, si desea que los usuarios siempre aterrice en la vertical Sitios, una de las verticales predeterminadas, use el valor "Site-sites".
 
-![Captura de pantalla de la página de resultados del trabajo en Microsoft Search Bing los resultados verticales de sitios y la dirección URL](media/sites-vertical-esb.png)
+:::image type="content" alt-text="Captura de pantalla de la página de resultados del trabajo Búsqueda de Microsoft en Bing muestra los resultados verticales de sitios y la dirección URL." source="media/sites-vertical-esb.png" lightbox="media/sites-vertical-esb.png":::
 
 Para verticales personalizados, use el hash al final de la dirección URL. Puede encontrar estos valores buscando en la página de trabajo de Bing, haciendo clic en una etiqueta vertical y copiando el valor después del signo de número (#).
 
-![Captura de pantalla de la página de resultados del trabajo en Microsoft Search en Bing muestra una dirección URL y resultados verticales de presentación personalizados](media/custom-vertical-esb.png)
+:::image type="content" alt-text="Captura de pantalla de la página de resultados del trabajo Búsqueda de Microsoft en Bing muestra una dirección URL y resultados verticales de presentación personalizados." source="media/custom-vertical-esb.png" lightbox="media/custom-vertical-esb.png":::
 
 ## <a name="use-an-iframe-to-embed-a-search-box"></a>Use un iFrame para insertar un cuadro de búsqueda
 
@@ -124,4 +124,4 @@ Si incrustar una secuencia de comandos no es una opción para el sitio, use un i
 
 ## <a name="inprivate-mode-and-conditional-access"></a>Modo InPrivate y acceso condicional
 
-Si la página o el sitio se abre en una ventana de InPrivate, se deshabilitará un cuadro de búsqueda incrustado. Además, con la compatibilidad con acceso condicional de Azure AD en Microsoft Edge, Bing.com no admite el inicio de sesión de AAD al usar el modo InPrivate. Para obtener más información acerca del acceso condicional en edge, [vea Microsoft Edge y Conditional Access](https://docs.microsoft.com/deployedge/ms-edge-security-conditional-access#accessing-conditional-access-protected-resources-in-microsoft-edge). 
+Si la página o el sitio se abre en una ventana de InPrivate, se deshabilitará un cuadro de búsqueda incrustado. Además, con la compatibilidad con acceso condicional de Azure AD en Microsoft Edge, Bing.com no admite el inicio de sesión de AAD al usar el modo InPrivate. Para obtener más información acerca del acceso condicional en edge, [vea Microsoft Edge y Conditional Access](/deployedge/ms-edge-security-conditional-access#accessing-conditional-access-protected-resources-in-microsoft-edge). 
