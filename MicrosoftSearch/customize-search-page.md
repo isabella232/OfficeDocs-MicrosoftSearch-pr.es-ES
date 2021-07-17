@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Agregar verticales de búsqueda y personalizar resultados de búsqueda
-ms.openlocfilehash: 6b6f0593a668e9c2c5c7fc5a62f7b5dd4a43a8bb
-ms.sourcegitcommit: ea6905626de67090141039565282e4e0c53b43ac
+ms.openlocfilehash: 4dd3f08f6d7e3df0aa983684eb0d4f649bc409a1
+ms.sourcegitcommit: 1e766e1f549c46882f47df6679f5a3cdf48d70d6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53314023"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53463230"
 ---
 # <a name="customize-the-search-results-page"></a>Personalizar la página de resultados de búsqueda
 
@@ -135,7 +135,7 @@ Por ejemplo, si desea crear una vertical "Tickets" donde un usuario que ha inici
 
 Esto limitará los resultados de la búsqueda para mostrar solo los elementos donde el usuario asignado es el usuario que realiza la búsqueda.
 
-[El recurso Profile](https://graph.microsoft.com/graph/api/resources/profile?view=graph-rest-beta) expone propiedades como colecciones. Por ejemplo, la información relacionada con las direcciones de correo electrónico se expone a través de la recopilación de correo electrónico, las posiciones de trabajo como colección de posiciones, y así sucesivamente. Todas las propiedades disponibles en el perfil de usuario, que tienen AAD como tipo de origen, se exponen como variables de consulta.
+[El recurso Profile](/graph/api/resources/profile?view=graph-rest-beta) expone propiedades como colecciones. Por ejemplo, la información relacionada con las direcciones de correo electrónico se expone a través de la recopilación de correo electrónico, las posiciones de trabajo como colección de posiciones, y así sucesivamente. Todas las propiedades disponibles en el perfil de usuario, que tienen AAD como tipo de origen, se exponen como variables de consulta.
 
 Considera un usuario que tiene 3 direcciones de correo electrónico disponibles en la colección de correo electrónico, como se muestra a continuación.
 
@@ -201,6 +201,6 @@ Esta es una lista de problemas comunes que puede encontrar y acciones para soluc
 | No veo el diseño de los resultados, aunque he creado uno. | Tarda unos minutos porque esta configuración suele almacenarse en caché. Espere unos minutos e inténtelo de nuevo.        |
 | No veo ningún orígenes de contenido en la página vertical o de tipo de resultado. | Asegúrese de que ha configurado conectores y datos indizados.   |
 
-## <a name="next-steps"></a>Siguientes pasos
+## <a name="next-steps"></a>Pasos siguientes
 
 [Personalizar el diseño de resultados](customize-results-layout.md)
