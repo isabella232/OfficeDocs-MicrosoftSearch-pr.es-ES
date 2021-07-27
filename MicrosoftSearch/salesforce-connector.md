@@ -13,18 +13,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de Graph Salesforce para Búsqueda de Microsoft
-ms.openlocfilehash: 4bef771538934722deaa5deac3959f21246e4529
-ms.sourcegitcommit: 93fc70f0073ab45b4dbd702441ac2fc07a7668bc
+ms.openlocfilehash: b0b3ba0e41c0e28cac15f4fed491ac8507aa0e59
+ms.sourcegitcommit: 8270e4271b1eeb57b988ea5265e5b6d9d6ef64a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230938"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53529382"
 ---
 <!---Previous ms.author: rusamai --->
 
-# <a name="salesforce-graph-connector-preview"></a>Conector Graph Salesforce (versión preliminar)
+# <a name="salesforce-graph-connector"></a>Conector de Graph Salesforce
 
-El conector de Graph salesforce permite a su organización indizar objetos Contacts, Opportunities, Leads y Accounts en su instancia de Salesforce. Después de configurar el conector y el contenido de índice de Salesforce, los usuarios finales pueden buscar esos elementos desde cualquier Búsqueda de Microsoft cliente.
+El conector de Graph salesforce permite a su organización indizar objetos Contacts, Opportunities, Leads, Cases y Accounts en su instancia de Salesforce. Después de configurar el conector y el contenido de índice de Salesforce, los usuarios finales pueden buscar esos elementos desde cualquier Búsqueda de Microsoft cliente.
 
 > [!NOTE]
 > Lea el [**artículo Setup for your Graph connector para**](configure-connector.md) comprender las instrucciones generales Graph de configuración de conectores.
@@ -105,13 +105,20 @@ La primera vez que haya intentado iniciar sesión con esta configuración, apare
 Compruebe que la conexión se ha realizado correctamente buscando un banner verde que diga "Conexión correcta" como se muestra en la captura de pantalla siguiente.
 
   > [!div class="mx-imgBorder"]
-  > ![Captura de pantalla del inicio de sesión correcto. El banner verde que indica "Conexión correcta" se encuentra en el campo de la dirección URL de la instancia de Salesforce](media/salesforce-connector/sf5.png)
+  > ![Captura de pantalla del inicio de sesión correcto. El banner verde que indica "Conexión correcta" se encuentra en el campo de la dirección URL de la instancia de Salesforce](media/salesforce-connector/salesforce-connector-connection-settings.png)
 
-## <a name="step-4-manage-search-permissions"></a>Paso 4: Administrar permisos de búsqueda
+## <a name="step-4-select-properties"></a>Paso 4: Seleccionar propiedades
+
+Seleccione los objetos de Salesforce que desea que el conector rastree e incluya en los resultados de búsqueda. Si Contact está seleccionado, Account también se seleccionará automáticamente.
+
+>[!NOTE]
+>Si un campo tiene establecida la seguridad de nivel de campo (FLS) para un perfil, el conector no ingeriá ese campo para los perfiles de esa organización de Salesforce. Como resultado, los usuarios no podrán buscar en los valores de esos campos ni aparecerán en los resultados.
+
+## <a name="step-5-manage-search-permissions"></a>Paso 5: Administrar permisos de búsqueda
 
 Deberá elegir qué usuarios verán los resultados de búsqueda de este origen de datos. Si solo permite que determinados Azure Active Directory (Azure AD) o usuarios que no son de Azure AD vean los resultados de la búsqueda, asegúrese de asignar las identidades.
 
-### <a name="step-4a-select-permissions"></a>Paso 4.a: Seleccionar permisos
+### <a name="step-5a-select-permissions"></a>Paso 5.a: Seleccionar permisos
 
 Puede elegir ingerir listas de control de acceso (ACL) desde la instancia de Salesforce o permitir que todos los usuarios de su organización vean los resultados de búsqueda de este origen de datos. Las ACL pueden incluir identidades Azure Active Directory (AAD) (usuarios federados de Azure AD a Salesforce), identidades que no son de Azure AD (usuarios nativos de Salesforce que tienen identidades correspondientes en Azure AD) o ambas.
 
@@ -123,7 +130,7 @@ Puede elegir ingerir listas de control de acceso (ACL) desde la instancia de Sal
 
 Si optó por ingerir una ACL de la instancia de Salesforce y seleccionó "non-AAD" para el tipo de identidad, consulte [Map your non-Azure AD Identities](map-non-aad.md) para obtener instrucciones sobre cómo asignar las identidades.
 
-### <a name="step-4b-map-aad-identities"></a>Paso 4.b: Asignar identidades de AAD
+### <a name="step-5b-map-aad-identities"></a>Paso 5.b: Asignar identidades de AAD
 
 Si optó por ingerir una ACL de la instancia de Salesforce y seleccionó "AAD" para el tipo de identidad, consulte [Map your Azure AD Identities](map-aad.md) para obtener instrucciones sobre cómo asignar las identidades. Para obtener información sobre cómo configurar SSO de Azure AD para Salesforce, consulte este [tutorial](/azure/active-directory/saas-apps/salesforce-tutorial).
 
@@ -133,11 +140,11 @@ En este vídeo puede ver el proceso para autenticarse en la instancia de Salesfo
 
 > [!VIDEO https://www.youtube-nocookie.com/embed/SZYiFxZMKcM]
 
-## <a name="step-5-assign-property-labels"></a>Paso 5: Asignar etiquetas de propiedades
+## <a name="step-6-assign-property-labels"></a>Paso 6: Asignar etiquetas de propiedades
 
 Puede asignar una propiedad de origen a cada etiqueta eligiendo en un menú de opciones. Aunque este paso no es obligatorio, tener algunas etiquetas de propiedades mejorará la relevancia de la búsqueda y garantizará mejores resultados de búsqueda para los usuarios finales. De forma predeterminada, algunas de las etiquetas como "Title", "URL", "CreatedBy" y "LastModifiedBy" ya tienen asignadas propiedades de origen.
 
-## <a name="step-6-manage-schema"></a>Paso 6: Administrar esquema
+## <a name="step-7-manage-schema"></a>Paso 7: Administrar esquema
 
 Puede seleccionar qué propiedades de origen deben indizarse para que se muestren en los resultados de la búsqueda. El asistente para la conexión selecciona de forma predeterminada un esquema de búsqueda basado en un conjunto de propiedades de origen. Puede modificarlo seleccionando las casillas de cada propiedad y atributo de la página del esquema de búsqueda. Los atributos de esquema de búsqueda incluyen Search, Query, Retrieve y Refine.
 Refinar permite definir las propiedades que se pueden usar más adelante como refinadores o filtros personalizados en la experiencia de búsqueda.  
@@ -145,7 +152,7 @@ Refinar permite definir las propiedades que se pueden usar más adelante como re
 > [!div class="mx-imgBorder"]
 > ![Seleccione el esquema para cada propiedad de origen. Las opciones son Consulta, Búsqueda, Recuperar y Refinar](media/salesforce-connector/sf9.png)
 
-## <a name="step-7-set-the-refresh-schedule"></a>Paso 7: Establecer la programación de actualización
+## <a name="step-8-set-the-refresh-schedule"></a>Paso 8: Establecer la programación de actualización
 
 El conector de Salesforce solo admite programaciones de actualización para rastreos completos actualmente.
 
@@ -154,9 +161,15 @@ El conector de Salesforce solo admite programaciones de actualización para rast
 
 La programación recomendada es de una semana para un rastreo completo.
 
-## <a name="step-8-review-connection"></a>Paso 8: Revisar la conexión
+## <a name="step-9-review-connection"></a>Paso 9: Revisar conexión
 
 Siga las instrucciones [generales de configuración](./configure-connector.md).
+
+>[!TIP]
+>**Tipo de resultado predeterminado**
+>* El conector de Salesforce registra automáticamente un [tipo de resultado](./customize-search-page.md#step-2-create-the-result-types) una vez que se publica el conector. El tipo de resultado usa un diseño de resultados generado [dinámicamente](./customize-results-layout.md) en función de los campos seleccionados en el paso 3.
+>* Para administrar el tipo de resultado, vaya a [**Tipos de resultados**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes) en el [Centro de administración de Microsoft 365](https://admin.microsoft.com). El tipo de resultado predeterminado se denominará `ConnectionId` "Predeterminado". Por ejemplo, si el identificador de conexión es , el diseño `Salesforce` de resultados se denominará: "SalesforceDefault"
+>* Además, puede elegir crear su propio tipo de resultado si es necesario.
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 <!---## Troubleshooting-->
@@ -182,7 +195,7 @@ Siga las instrucciones [generales de configuración](./configure-connector.md).
     - AccountUrl
     - AccountOwner
     - AccountOwnerUrl
-    - Propietario
+    - Owner
     - OwnerUrl
     - CreatedBy
     - CreatedByUrl

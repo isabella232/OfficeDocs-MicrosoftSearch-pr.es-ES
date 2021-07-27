@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configure el conector de Azure SQL y Microsoft SQL Graph para Búsqueda de Microsoft.
-ms.openlocfilehash: 0f8501e36754235b43846b80d60d4b0156a504b9
-ms.sourcegitcommit: 93fc70f0073ab45b4dbd702441ac2fc07a7668bc
+ms.openlocfilehash: ae17b99fa0b83b38c8681652af0fdfdb32969f28
+ms.sourcegitcommit: 9cfe9b7f6d4ddf783ee31a6d2a02a73f0c0aef79
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230920"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53590265"
 ---
 <!---Previous ms.author: vivg --->
 
@@ -36,7 +36,10 @@ Este artículo está para cualquier persona que configure, ejecute y monitore un
 
 ### <a name="install-the-graph-connector-agent-required-for-on-premises-microsoft-sql-server-connector-only"></a>Instale el agente Graph conector de Microsoft SQL Server local (obligatorio únicamente para el conector de Microsoft SQL Server local)
 
-Para tener acceso a los datos de terceros locales, debe instalar y configurar el agente de conector Graph local. Consulte [Install the Graph connector agent para](on-prem-agent.md) obtener más información.  
+Para tener acceso a los datos de terceros locales, debe instalar y configurar el agente de conector Graph local. Consulte [Install the Graph connector agent para](on-prem-agent.md) obtener más información.
+
+>[!NOTE]
+>Si usa la autenticación Windows al configurar el conector de Microsoft SQL Server Graph, el usuario con el que está intentando iniciar sesión debe tener derechos de inicio de sesión interactivos en el equipo donde está instalado Graph agente de conector. Consulte la documentación sobre la administración [de directivas de inicio de sesión](/windows/security/threat-protection/security-policy-settings/allow-log-on-locally#policy-management) para comprobar los derechos de inicio de sesión.
 
 ## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Paso 1: Agregar un conector Graph en el Centro de administración de Microsoft 365
 
@@ -120,12 +123,12 @@ En la tabla siguiente se resumen los SQL de datos compatibles con los conectores
 | Categoría | Tipo de datos de origen | Tipo de datos de indización |
 | ------------ | ------------ | ------------ |
 | Fecha y hora | date <br> datetime <br> datetime2 <br> smalldatetime | datetime |
-| Numérico exacto | bigint <br> int <br> smallint <br> tinyint | int64 |
-| Numérico exacto | bit | boolean |
+| Numérico exacto | bigint <br> Entero <br> smallint <br> tinyint | int64 |
+| Numérico exacto | bit | booleano |
 | Numérico aproximado | float <br> real | double |
 | Cadena de caracteres | char <br> varchar <br> text | cadena |
-| Cadenas de caracteres Unicode | nchar <br> nvarchar <br> ntext | string |
-| Otros tipos de datos | uniqueidentifier | string |
+| Cadenas de caracteres Unicode | nchar <br> nvarchar <br> ntext | cadena |
+| Otros tipos de datos | uniqueidentifier | cadena |
 
 Para cualquier otro tipo de datos actualmente no compatible directamente, la columna debe convertirse explícitamente en un tipo de datos admitido.
 
@@ -220,7 +223,6 @@ A continuación se muestra un error común observado al configurar el conector y
 Los SQL tienen estas limitaciones en la versión preliminar:
 
 - Microsoft SQL Server: la base de datos local debe ejecutarse SQL Server versión 2008 o posterior.
-
 - La Microsoft 365 suscripción y la suscripción de Azure (que hospeda la base de datos SQL azure) deben estar dentro del mismo Azure Active Directory.
 - Las ACL solo se admiten mediante un nombre principal de usuario (UPN), Azure Active Directory (Azure AD) o seguridad de Active Directory.
 - No se admite la indización de contenido enriquecido dentro de las columnas de base de datos. Ejemplos de este contenido son HTML, JSON, XML, blobs y análisis de documentos que existen como vínculos dentro de las columnas de la base de datos.
