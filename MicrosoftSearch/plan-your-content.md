@@ -13,16 +13,16 @@ search.appverid:
 - MOE150
 ms.assetid: bb9d90b6-6c86-4b19-9235-3bd9b19826ab
 description: Proporcione contenido de calidad sin necesidad de recursos adicionales al usar Microsoft Search
-ms.openlocfilehash: 65cc9fbec655ec849e32d7b6e14c6947ab30bbc2
-ms.sourcegitcommit: 46303c60e905c89c133278fa41e87055f81a8637
+ms.openlocfilehash: 3b22fcc8bd1f399baf5879fa1eb7461a58c5165e6b9f6f5c39ff4c154eaba98a
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44535351"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54532696"
 ---
 # <a name="plan-your-content"></a>Planear el contenido
 
-**Microsoft Search** ayuda a los usuarios a encontrar contenido relevante. **Búsqueda de Microsoft** es una forma segura de realizar búsquedas de contenido en su intranet y en la web. Este tipo de integración a través de la web y la organización está disponible únicamente con Microsoft.
+**Búsqueda de Microsoft** ayuda a los usuarios a encontrar contenido relevante. **Búsqueda de Microsoft** es una forma segura de realizar búsquedas de contenido en su intranet y en la web. Este tipo de integración a través de la web y la organización está disponible únicamente con Microsoft.
 
 Los administradores de búsqueda usan sus conocimientos sobre la organización y sus usuarios para facilitar a los usuarios encontrar contenido relevante.
 

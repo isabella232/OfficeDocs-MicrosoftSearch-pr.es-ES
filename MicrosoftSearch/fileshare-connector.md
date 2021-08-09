@@ -1,5 +1,5 @@
 ---
-title: Conector de Gráfico de uso compartido de archivos para Microsoft Search
+title: Conector de Graph de archivos para Búsqueda de Microsoft
 ms.author: mecampos
 author: mecampos
 manager: umas
@@ -13,28 +13,28 @@ search.appverid:
 - MET150
 - MOE150
 ROBOTS: NoIndex
-description: Configurar el conector de Gráfico de recurso compartido de archivos para Microsoft Search
-ms.openlocfilehash: 792e853e5d2b7a23835dc031ff4ba4c09d619f9c
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+description: Configurar el conector de Graph recurso compartido de archivos para Búsqueda de Microsoft
+ms.openlocfilehash: af4c3996fdc8ac753404f4b4519175a9054fa18bce3862b0c5841c7bd5369cdd
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031615"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533032"
 ---
 <!---Previous ms.author: rusamai --->
 
-# <a name="file-share-graph-connector"></a>Conector de Gráfico de recurso compartido de archivos
+# <a name="file-share-graph-connector"></a>Conector de Graph archivo
 
-El conector de Gráfico de recursos compartidos de archivos permite a los usuarios de la organización buscar recursos compartidos de archivos locales de Windows.
+El conector de Graph de recursos compartidos de archivos permite a los usuarios de la organización buscar recursos compartidos Windows archivos locales.
 
 > [!NOTE]
-> Lea el [**artículo Configurar para el conector de Graph**](configure-connector.md) para comprender el proceso de configuración general de los conectores de Graph.
+> Lea el [**artículo Setup for your Graph connector para**](configure-connector.md) comprender el proceso de configuración de Graph conectores generales.
 
 ## <a name="before-you-get-started"></a>Antes de empezar
 
-### <a name="install-the-graph-connector-agent"></a>Instalar el agente de conector de Graph
+### <a name="install-the-graph-connector-agent"></a>Instalar el agente Graph conector de conexión
 
-Para indizar los recursos compartidos de archivos de Windows, debes instalar y registrar el agente de conector de Graph. Consulte [Instalar el agente de conector de Graph](on-prem-agent.md) para obtener más información.  
+Para indizar los recursos Windows archivos compartidos, debe instalar y registrar el agente Graph conector. Consulte [Install the Graph connector agent para](graph-connector-agent.md) obtener más información.  
 
 ### <a name="content-requirements"></a>Requisitos de contenido
 
@@ -46,7 +46,7 @@ El contenido de los siguientes formatos se puede indizar y buscar: DOC, DOCM, DO
 
 El tamaño máximo de archivo admitido es de 100 MB. Los archivos que superen los 100 MB no se indizan. El límite máximo de tamaño posterior al procesado es de 4 MB. El procesamiento se detiene cuando el tamaño de un archivo alcanza los 4 MB. Por lo tanto, es posible que algunas frases presentes en el archivo no funcionen para la búsqueda.
 
-## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Paso 1: Agregar un conector de Graph en el Centro de administración de Microsoft 365
+## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Paso 1: Agregar un conector Graph en el Centro de administración de Microsoft 365
 
 Siga las instrucciones [generales de configuración](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
@@ -58,7 +58,7 @@ Siga las instrucciones [generales de configuración](./configure-connector.md).
 
 ## <a name="step-3-configure-the-connection-settings"></a>Paso 3: Configurar las opciones de conexión
 
-En la **página Conectarse al origen de** datos, seleccione Recurso **compartido** de archivos y proporcione el nombre, el identificador de conexión y la descripción. En la página siguiente, proporcione la ruta de acceso al recurso compartido de archivos y seleccione el agente de conector de Graph instalado anteriormente. Escriba las credenciales de una [cuenta de usuario de Microsoft Windows](https://microsoft.com/windows) con acceso de lectura a todos los archivos del recurso compartido de archivos.
+En la **Conectar de origen** de datos, seleccione Recurso **compartido** de archivos y proporcione el nombre, el identificador de conexión y la descripción. En la página siguiente, proporcione la ruta de acceso al recurso compartido de archivos y seleccione el agente de conector Graph instalado anteriormente. Escriba las credenciales de una [cuenta de usuario de Microsoft Windows](https://microsoft.com/windows) con acceso de lectura a todos los archivos del recurso compartido de archivos.
 
 ### <a name="preserve-last-access-time"></a>Conservar el último tiempo de acceso
 

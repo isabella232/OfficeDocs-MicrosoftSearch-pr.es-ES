@@ -1,5 +1,5 @@
 ---
-title: Administrar Microsoft Graph Connectors para Microsoft Search
+title: Administrar conectores de Microsoft Graph para Búsqueda de Microsoft
 ms.author: mecampos
 author: monaray97
 manager: mnirkhe
@@ -12,13 +12,13 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Administrar Microsoft Graph Connectors para Microsoft Search.
-ms.openlocfilehash: 685b501f3afe25d75c13a1fe6cc2c1b5db8a3511
-ms.sourcegitcommit: e5d695c40b68c2f1fa082fa9de20b9aa6d5b8050
+description: Administrar Microsoft Graph Connectors para Búsqueda de Microsoft.
+ms.openlocfilehash: e8cf01cb3af3dea96ba98ab65e12d54a027ab77fa92e00c354331ac887578b0f
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52325172"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54532915"
 ---
 <!-- markdownlint-disable no-inline-html -->
 
@@ -28,9 +28,9 @@ Para obtener acceso y administrar los conectores, debe estar designado como admi
 
 ## <a name="connection-operations"></a>Operaciones de conexión
 
-Vaya a la [pestaña Conectores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/Connectors) en el [centro Microsoft 365 administración.](https://admin.microsoft.com)
+Vaya a la [pestaña Conectores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/Connectors) de [la Centro de administración de Microsoft 365](https://admin.microsoft.com).
 
-Para cada tipo de conector, Microsoft 365 centro de administración [admite](https://admin.microsoft.com) las operaciones que se muestran en la tabla siguiente:
+Para cada tipo de conector, el [Centro de administración de Microsoft 365](https://admin.microsoft.com) admite las operaciones que se muestran en la tabla siguiente:
 
 Operación | Conectores de Graph por Microsoft | Conectores Graph asociados o de Graph de conexión
 --- | --- | ---
@@ -41,7 +41,7 @@ Editar un borrador de conexión | :heavy_check_mark: | :x:
 
 ## <a name="monitor-your-connection-state"></a>Supervisar el estado de conexión
 
-Después de crear una conexión, el número de elementos **procesados** se muestra en la pestaña Conectores de la **página Búsqueda de Microsoft.** Una vez completado correctamente el rastreo completo inicial, se muestra el progreso de los rastreos incrementales periódicos. Esta página proporciona información sobre las operaciones diarias del conector y una introducción a los registros y el historial de errores.
+Después de crear una conexión, el número de elementos procesados se muestra en la pestaña **Conectores** de **Búsqueda de Microsoft** página. Una vez completado correctamente el rastreo completo inicial, se muestra el progreso de los rastreos incrementales periódicos. Esta página proporciona información sobre las operaciones diarias del conector y una introducción a los registros y el historial de errores.
 
 Cinco estados se muestran en la **columna Estado** en cada conexión:
 
@@ -71,7 +71,7 @@ Estado | Niveles de uso de cuota
 --- | --- 
 Normal | 0-79%
 Alto | 80-89%
-Critico | 90%-99%
+Críticas | 90%-99%
 Full | 100 %
 
 <!-- 

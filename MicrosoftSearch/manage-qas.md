@@ -12,22 +12,22 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7e3432e6-5317-4d63-90b0-52da6fddd343
-description: Busque y actualice respuestas de forma individual o use las herramientas de búsqueda de Microsoft disponibles para editar las preguntas más&de una vez.
-ms.openlocfilehash: 2a8b0727ef3540a35d617cf6c8bae7b0d99767a8
-ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
+description: Busque y actualice las respuestas individualmente o use las herramientas Búsqueda de Microsoft disponibles para editar preguntas&Como todas a la vez.
+ms.openlocfilehash: 2e54169a6196ec78bd96b33aa1ba71fc498b6ff13d8d872ad06ca0db1d9fc2c0
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47423004"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54532870"
 ---
 # <a name="manage-qas"></a>Administrar preguntas y respuestas
 
-Crear un preguntas y respuestas es similar a crear marcadores. Q&como le permiten responder las preguntas del usuario en lugar de simplemente ofrecer un vínculo a una página web. También puede dar formato a la respuesta en texto enriquecido. Si un marcador y un&r A comparten la misma palabra clave, el resultado del marcador se muestra en primer lugar. Al igual que los marcadores, los Q&un índice se actualiza inmediatamente después de que se agregue o se modifique un Q&A.
+Crear un preguntas y respuestas es similar a crear marcadores. P&Como le permite responder a las preguntas del usuario en lugar de simplemente proporcionar un vínculo a una página web. También puede dar formato a la respuesta en texto enriquecido. Si un marcador y una pregunta&A comparten la misma palabra clave, el resultado del marcador se muestra primero. Al igual que los marcadores, el&índice A se actualiza inmediatamente después de agregar o cambiar una&A.
 
 ## <a name="add-or-edit-a-single-qa"></a>Agregar o modificar una pregunta y respuesta única
 
-1. En el [centro de administración de Microsoft 365](https://admin.microsoft.com), vaya a [**Q&a**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/qnas)
-1. Para agregar un&Q, seleccione **Agregar**.
+1. En el [Centro de administración de Microsoft 365](https://admin.microsoft.com), vaya a [**Preguntas&A**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/qnas)
+1. Para agregar una pregunta&A, seleccione **Agregar**.
 Para editar una pregunta y respuesta, selecciónela en la lista de preguntas y respuestas correspondiente. Al agregar o editar la información, la vista previa se actualizará automáticamente.
 1. Guarde los cambios.
 
@@ -54,44 +54,44 @@ Se admiten las siguientes etiquetas HTML:
 - hr
 - img
 
-## <a name="add-or-edit-qas-using-browser-extensions"></a>Agregar o editar el&de preguntas como el uso de las extensiones del explorador
+## <a name="add-or-edit-qas-using-browser-extensions"></a>Agregar o editar preguntas&Como usar extensiones del explorador
 
-Los administradores de búsqueda pueden crear fácilmente búsquedas de contenido mediante las extensiones del navegador. Instale la extensión del explorador y, a continuación, vaya al sitio desde el que desea generar un Q&a. A continuación, puede crear el&Q e incluir un vínculo al sitio de origen.
+Los administradores de búsqueda pueden crear fácilmente búsquedas de contenido mediante las extensiones del navegador. Instale la extensión del explorador y, a continuación, vaya al sitio desde el que desea generar una pregunta&A. A continuación, puede crear la&A e incluir un vínculo al sitio de origen.
 
 Actualmente, las extensiones del explorador están disponibles para Microsoft Edge y Chrome.
 
-- Para descargar extensiones para Edge (heredado), ve a [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab).
-- Para descargar las Extensiones Chrome o Edge (cromo), vaya al [almacén Web de Chrome](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm).
+- Para descargar extensiones para Edge (heredado), vaya a [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab).
+- Para descargar extensiones Chrome o Edge (Chromium), vaya a la tienda [web de Chrome](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm).
 
 ## <a name="bulk-add-or-edit-qas"></a>Agregar o editar preguntas y respuestas en bloque
 
-Los administradores pueden usar las características de importación y exportación para crear o editar de forma masiva Q&como.
+Los administradores pueden usar las características Importar y exportar para crear o editar de forma masiva preguntas&Como.
 
-Use la característica de importación y exportación para:
+Use la Import/Export para:
 
-- Agregar en masa preguntas&como-agregar detalles en el archivo de plantilla Q&y, a continuación, importarlo.
-- Edición en masa Q&como-Export Q&como a un archivo. csv, edite la p&una información en el archivo exportado y, a continuación, importe el archivo.
-- Realice una copia de seguridad de la&q&como-Export Q en un archivo. csv.
+- Agregar de forma masiva&como: agregue detalles en el archivo de plantilla&A y, a continuación, impórlo.
+- Edición masiva de preguntas&Como: exportar preguntas&En cuanto a un archivo .csv, edite el&de preguntas y respuestas en el archivo exportado y, a continuación, importe el archivo.
+- Copia de seguridad de&como: exportar preguntas&como a un .csv archivo.
 
-Para importar o exportar preguntas&como:
+Para importar o exportar preguntas&Como:
 
 1. En la esquina superior derecha de la pestaña Preguntas y respuestas, seleccione **Importar**.
-Seleccione **exportar** para descargar todos los&Q existentes como en un archivo. csv.
-1. En el panel derecho, seleccione la opción para importar mediante un archivo. csv. Descargue el archivo de plantilla para obtener una lista de los campos y detalles obligatorios.
-1. Agregar o editar Q&una información en el archivo de plantilla y guárdela en el equipo.
-1. En el panel **importar Q&un** panel, seleccione **examinar**y, a continuación, seleccione el archivo. csv que desea importar.
+Seleccione **Exportar** para descargar todas las preguntas&como en un .csv archivo.
+1. En el panel derecho, seleccione la opción para importar mediante un .csv archivo. Descargue el archivo de plantilla para obtener una lista de los campos y detalles necesarios.
+1. Agregue o edite preguntas&Detalles del archivo de plantilla y guárdelo en el equipo.
+1. En el **panel Importar&A,** seleccione Examinar y, a continuación, seleccione el .csv archivo que desea importar. 
 1. Seleccione **Importar**.
 
-Sugerencias importantes del archivo de plantilla:
+Sugerencias importantes de archivo de plantilla:
 
 - Nunca modifique los datos de los campos: **Id**, **última modificación** y **modificado por**
 - Si incluye el **Id** de un marcador, este se reemplazará con la información del archivo de importación.
-- Si hay un marcador existente con el mismo título o dirección URL, el marcador se actualizará con información en el archivo de importación.
-- No todos los campos del archivo de plantilla son obligatorios y los campos obligatorios varían en función del estado del marcador.
-- Según el campo de **Estado** , los marcadores se guardan como *borradores*, *sugeridos*o *programados*, o se publican automáticamente.
-- Para los asociados que administran varias organizaciones, puede exportar sus marcadores de una organización e importarlos en otro. Sin embargo, debe eliminar los datos de la columna **Id** antes de la importación.
+- Si hay un marcador existente que tiene el mismo título o dirección URL, el marcador se actualizará con información en el archivo de importación.
+- No todos los campos del archivo de plantilla son necesarios y los campos necesarios varían según el estado del marcador.
+- Según el campo **Estado,** los marcadores se guardan como borrador *,* *sugeridos* o *programados,* o se publican automáticamente.
+- Para socios que administran varias organizaciones: puede exportar los marcadores de una organización e importarlos a otra. Sin embargo, debe eliminar los datos de la columna **Id** antes de la importación.
 
 > [!NOTE]
-> No puede importar preguntas&como si hubiera errores en el archivo de plantilla. Para evitar errores, asegúrese de que el archivo de importación tiene el formato adecuado e incluya toda la información necesaria.
+> No puede importar preguntas&como si hubiera algún error en el archivo de plantilla. Para evitar errores, asegúrese de que el archivo de importación tiene el formato correcto e incluya toda la información necesaria.
 
-Para obtener más información acerca de cómo evitar errores, consulte [evitar errores de importación](manage-bookmarks.md#prevent-import-errors).
+Para obtener más información sobre cómo evitar errores, vea [Prevent import errors](manage-bookmarks.md#prevent-import-errors).

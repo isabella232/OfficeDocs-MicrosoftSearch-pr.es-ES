@@ -12,26 +12,26 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar Búsqueda de Microsoft por primera vez.
-ms.openlocfilehash: 98499c2df1d8d732cdc1961116cafaaffeb4c5d6
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+ms.openlocfilehash: 9a52695f3a7494b27849ff21798302777716b9bda755ff372e605ec45a6d94b5
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031669"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54534126"
 ---
 # <a name="set-up-microsoft-search"></a>Configurar Búsqueda de Microsoft
 
-Microsoft Search proporciona una interfaz fácil de usar para ayudar a los usuarios a encontrar información como archivos y documentos, sitios internos y herramientas empresariales, personas y grupos, ubicaciones e indicaciones, conversaciones y respuestas. Para ello, accede de forma segura a todos los orígenes de datos, incluidos correos electrónicos, archivos, archivos de SharePoint, contenido de OneDrive y otros recursos compartidos. Con Microsoft Search en Bing también puedes obtener resultados de búsqueda de Internet.
+Búsqueda de Microsoft proporciona una interfaz fácil de usar para ayudar a los usuarios a encontrar información como archivos y documentos, sitios internos y herramientas empresariales, personas y grupos, ubicaciones e indicaciones, conversaciones y respuestas. Para ello, accede de forma segura a todos los orígenes de datos, incluidos los correos electrónicos, los archivos SharePoint, OneDrive contenido y otros recursos compartidos. Con Búsqueda de Microsoft en Bing también puede obtener resultados de búsqueda de Internet.
 
 Para obtener más información sobre las características de la Búsqueda de Microsoft, vea [Introducción a Búsqueda de Microsoft](overview-microsoft-search.md).
 
 ## <a name="get-started"></a>Introducción
 
-La Búsqueda de Microsoft está activada de forma predeterminada para todas las aplicaciones de Microsoft compatibles, como parte de Microsoft 365. No hay ninguna configuración necesaria, pero puede mejorar la experiencia general de Microsoft Search a través de algunas tareas administrativas básicas.
+La Búsqueda de Microsoft está activada de forma predeterminada para todas las aplicaciones de Microsoft compatibles, como parte de Microsoft 365. No hay ninguna configuración necesaria, pero puede mejorar la experiencia general Búsqueda de Microsoft a través de algunas tareas administrativas básicas.
 
 Puede administrar la Búsqueda de Microsoft desde el Centro de administración de Microsoft 365.
 
-1. En el Centro de administración de Microsoft 365, vaya a **Configuración**  >  [**búsqueda & inteligencia**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch).
+1. En Centro de administración de Microsoft 365, vaya **a** Configuración  >  [**búsqueda & inteligencia**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch).
 
 Como administrador debe considerar algunos aspectos que pueden hacer que la experiencia de Búsqueda de Microsoft en su organización sea eficiente e intuitiva.
 
@@ -48,16 +48,16 @@ Los administradores de búsqueda influyen directamente en la experiencia de bús
 
 ## <a name="step-2-create-answers"></a>Paso 2: Crear respuestas
 
-La Búsqueda de Microsoft proporciona a los administradores herramientas que pueden usar para crear una óptima experiencia de búsqueda para los usuarios. En Microsoft Search, los administradores tienen tres contenidos de búsqueda diferentes que pueden crear para mejorar la experiencia de búsqueda y mejorar la "capacidad de búsqueda" del contenido:
+La Búsqueda de Microsoft proporciona a los administradores herramientas que pueden usar para crear una óptima experiencia de búsqueda para los usuarios. En Búsqueda de Microsoft, los administradores tienen tres contenidos de búsqueda diferentes que pueden crear para una mejor experiencia de búsqueda y para mejorar la "capacidad de búsqueda" del contenido:
 
 Los marcadores son el tipo de respuesta más usado. Promueven los mejores resultados posibles para las consultas de los usuarios en la parte superior de los resultados de búsqueda y hacen que sea fácil para los usuarios encontrar lo que están buscando.
-Contenido informativo que está disponible para todos los usuarios; por ejemplo, información sobre la empresa, ayuda para aplicaciones de Windows y Office, etc. Contenido que los usuarios de la organización suelen buscar en su trabajo diario. Las búsquedas comunes relacionadas con el trabajo incluyen prestaciones, informes de horas y gastos, envíos de pedidos de compra y cómo obtener ayuda del departamento de TI.
+Contenido informativo que está disponible para todos los usuarios; por ejemplo, información sobre la empresa, ayuda para Windows y Office aplicaciones, etc. Contenido que los usuarios de la organización suelen buscar en su trabajo diario. Las búsquedas comunes relacionadas con el trabajo incluyen prestaciones, informes de horas y gastos, envíos de pedidos de compra y cómo obtener ayuda del departamento de TI.
 
 Para crear y administrar respuestas, vea [Plan your content](plan-your-content.md).
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 
-Si quieres obtener más información sobre cómo usarán los usuarios Microsoft Search, consulta los artículos siguientes:
+Si desea obtener más información sobre cómo usarán los usuarios Búsqueda de Microsoft, consulte los siguientes artículos:
 
 - [Encuentre lo que necesita con Búsqueda de Microsoft en Office](https://support.office.com/article/find-what-you-need-with-microsoft-search-in-office-2457d4d8-48a8-4ad4-ab89-5a0657aa8446)
 - [Centro de aprendizaje de Office 365](https://support.office.com/office-training-center)

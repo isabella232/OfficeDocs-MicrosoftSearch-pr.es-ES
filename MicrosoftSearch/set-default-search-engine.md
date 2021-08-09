@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: ee40010e-5d7f-4ba8-a3f8-d240dab3af6d
 description: Obtenga información sobre cómo configurar Bing como motor de búsqueda predeterminado de su empresa con Microsoft Search.
-ms.openlocfilehash: 346bf3bf2da10178a8bd19390920db2d9de2629e
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+ms.openlocfilehash: 7ad9ff2a0fde5ad5d84a7a51785767fd2e5d21df6654a76b09e9796917a92a0f
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031759"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54534198"
 ---
 # <a name="make-bing-the-default-search-engine"></a>Establezca Bing como el motor de búsqueda predeterminado
   
@@ -46,7 +46,7 @@ Todos los dominios que maneja el controlador deben obtener una carpeta diferente
 
 Los usuarios no podrán cambiar el motor de búsqueda predeterminado después de establecer esta directiva.
   
-Chrome viene con su propio conjunto de configuraciones de directiva de grupo que se pueden descargar en forma de archivo ADMX de [la Ayuda de Google Chrome Enterprise](https://support.google.com/chrome/a/answer/187202).
+Chrome viene con su propio conjunto de opciones de configuración de directiva [de](https://support.google.com/chrome/a/answer/187202)grupo que se pueden descargar en forma de archivo ADMX de Google Chrome Enterprise Ayuda .
   
 Copie el archivo de plantilla en un almacén central para archivos ADMX en el controlador de dominio. Para obtener más información, [vea Editing Domain-Based GPOs Using ADMX Files](/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). El almacén central en el controlador es una carpeta con la siguiente convención de nomenclatura: **%systemroot%\sysvol \\<dominio \> \policies\PolicyDefinitions**
   

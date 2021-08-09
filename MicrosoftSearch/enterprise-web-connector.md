@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar los sitios Enterprise web Graph para Búsqueda de Microsoft
-ms.openlocfilehash: 32e38c9bef036556dae2734e23b1d26ba4fe2c27
-ms.sourcegitcommit: 38a0f09596c2bca0e12bf4cada7b4c64fd4c48e4
+ms.openlocfilehash: 7e308c8239fbc4ea0da5449731d25442490270f9d604a40944d17cd2bf367a0c
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53449050"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533087"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -79,7 +79,7 @@ Además de la casilla, hay tres campos opcionales disponibles:
 
 El modo de rastreo determina el tipo de sitios web que desea indizar, ya sea en la nube o local. Para los sitios web en la nube, **seleccione Nube** como modo de rastreo.
 
-Además, el conector ahora admite el rastreo de sitios web locales. Para obtener acceso a los datos locales, primero debe instalar y configurar el agente Graph conector. Para obtener más información, [vea Graph connector agent](./on-prem-agent.md).
+Además, el conector ahora admite el rastreo de sitios web locales. Para obtener acceso a los datos locales, primero debe instalar y configurar el agente Graph conector. Para obtener más información, [vea Graph connector agent](./graph-connector-agent.md).
 
 Para los sitios web  locales, seleccione Agente como  modo de rastreo y, en el campo Agente local, elija el agente de conector de Graph que instaló y configuró anteriormente.  
 

@@ -1,5 +1,5 @@
 ---
-title: Administración del cuadro de búsqueda en sitios de SharePoint
+title: Administración del cuadro de búsqueda en SharePoint sitios
 ms.author: keremy
 author: jeffkizn
 manager: parulm
@@ -11,24 +11,24 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Cómo personalizar la experiencia del cuadro de búsqueda en sitios de SharePoint
-ms.openlocfilehash: c58e7cf0a47d22fa9c6fd3abd93cc97087625690
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+description: Cómo personalizar la experiencia del cuadro de búsqueda en SharePoint búsqueda
+ms.openlocfilehash: 151b5b066cd0164d4f7689192c37867d75b6eb6c57c82588cee654871c5e32b0
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031363"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533585"
 ---
-# <a name="search-box-settings-on-sharepoint-sites"></a>Configuración del cuadro de búsqueda en sitios de SharePoint
+# <a name="search-box-settings-on-sharepoint-sites"></a>Configuración del cuadro de búsqueda SharePoint sitios
 
-Una de las varias formas en que Microsoft Search se puede personalizar en sitios de SharePoint es adaptar el modo en que funciona el cuadro de búsqueda en la barra de navegación del conjunto de aplicaciones en los sitios de SharePoint para que se ajuste mejor a sus necesidades.
+Una de las varias maneras en Búsqueda de Microsoft puede personalizarse en sitios de SharePoint es adaptar el modo en que funciona el cuadro de búsqueda de la barra de navegación del conjunto de aplicaciones en SharePoint para que se adapte mejor a sus necesidades.
 
-Para otras opciones de personalización, vea Cambiar la página de resultados de Microsoft Search para agregar verticales, tipos de resultados y [diseños personalizados](customize-search-page.md)y Crear una página de resultados [de búsqueda personalizada.](create-search-results-pages.md)
+Para otras opciones de personalización, vea [Changing the Búsqueda de Microsoft results page to add custom verticals, result types and layouts](customize-search-page.md), y Creating a custom search results [page](create-search-results-pages.md).
 
 > [!NOTE]
 > El cuadro de búsqueda de la barra de navegación del conjunto de opciones no está disponible para todos los clientes en este momento, pero estas opciones aún se pueden establecer ahora y tendrán efecto cuando esté disponible.
 
-Para las tareas que se enumeran a continuación, usará PowerShell con extensiones de PowerShell pnP de SharePoint. Puede instalar y obtener más información sobre cómo empezar [aquí](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps). Iniciará sesión en su sitio o colección de sitios con este comando:
+Para las tareas que se enumeran a continuación, usará PowerShell SharePoint extensiones de PowerShell pnP. Puede instalar y obtener más información sobre cómo empezar [aquí](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps). Iniciará sesión en su sitio o colección de sitios con este comando:
 
 ```powershell
 Connect-PnPOnline -Url <yoursiteurl> -UseWebLogin
@@ -37,7 +37,7 @@ Connect-PnPOnline -Url <yoursiteurl> -UseWebLogin
 
 ## <a name="changing-the-scope-of-search"></a>Cambiar el ámbito de búsqueda
 
-Al crear un nuevo sitio en SharePoint Online hoy y escribir en el cuadro de búsqueda, se le va a la página de resultados de Microsoft Search. Esta página muestra los resultados del sitio actual de forma predeterminada y le permite expandir el ámbito de la búsqueda al concentrador al que está asociado el sitio actual (si lo hay) o a toda la organización.
+Al crear un nuevo sitio en SharePoint Online hoy y escribir en el cuadro de búsqueda, se le muestra la página de Búsqueda de Microsoft resultados. Esta página muestra los resultados del sitio actual de forma predeterminada y le permite expandir el ámbito de la búsqueda al concentrador al que está asociado el sitio actual (si lo hay) o a toda la organización.
 
 El ámbito que usa el cuadro de búsqueda, de forma predeterminada, depende del tipo de sitio.
 
@@ -84,11 +84,11 @@ Hay varios puntos a tener en cuenta:
 
 * Esta configuración solo se aplica al cuadro de búsqueda de la barra de navegación del conjunto de opciones. No se aplica a los cuadros de búsqueda que están en la página ni a los cuadros de búsqueda de las páginas clásicas.
 
-* Una vez deshabilitado el cuadro de búsqueda en la barra de navegación, si desea la funcionalidad de búsqueda en el sitio, tendrá que proporcionarlo usted mismo mediante un elemento web personalizado o una extensión de SharePoint Framework.
+* Una vez deshabilitado el cuadro de búsqueda en la barra de navegación, si desea la funcionalidad de búsqueda en el sitio, tendrá que proporcionarlo usted mismo mediante un elemento web personalizado o una extensión SharePoint Framework web.
 
-* Esta solución también quitará el cuadro de búsqueda de las listas y bibliotecas del sitio. La solución de búsqueda personalizada tendrá que tener en cuenta las búsquedas contextuales para listas y bibliotecas de SharePoint, además de la búsqueda en todo el sitio.
+* Esta solución también quitará el cuadro de búsqueda de las listas y bibliotecas del sitio. La solución de búsqueda personalizada tendrá que tener en cuenta las búsquedas contextuales para SharePoint listas y bibliotecas, además de la búsqueda en todo el sitio.
 
-* Si aplica la configuración al sitio raíz de su dominio, la página de inicio de SharePoint también dejará de mostrar el cuadro de búsqueda.
+* Si aplica la configuración al sitio raíz de su dominio, la página SharePoint inicio también dejará de mostrar el cuadro de búsqueda.
 
 ## <a name="changing-the-hint-displayed-in-the-search-box"></a>Cambiar la sugerencia que se muestra en el cuadro de búsqueda
 

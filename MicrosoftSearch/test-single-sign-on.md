@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: a220c1bf-7cee-448a-90a3-310284d03e81
 description: Reduzca el número de veces que se solicita a los usuarios de Windows 10 que inicien sesión en Microsoft Search y Office 365
-ms.openlocfilehash: 9fa7e067a5d72b7044981491f8526e6de727cfae
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: d3628503c9150c1d71b4d390a9e9c34f5e6faedfac4e33c44cdd038f90d591d0
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626895"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54534117"
 ---
 # <a name="test-single-sign-on"></a>Probar el inicio de sesión único
 

@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configure el conector de Azure SQL y Microsoft SQL Graph para Búsqueda de Microsoft.
-ms.openlocfilehash: ae17b99fa0b83b38c8681652af0fdfdb32969f28
-ms.sourcegitcommit: 9cfe9b7f6d4ddf783ee31a6d2a02a73f0c0aef79
+ms.openlocfilehash: ed9284de968921f40003e011348e3e6d4321b59d86207b6c7d054765c6837a1e
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53590265"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533513"
 ---
 <!---Previous ms.author: vivg --->
 
@@ -36,7 +36,7 @@ Este artículo está para cualquier persona que configure, ejecute y monitore un
 
 ### <a name="install-the-graph-connector-agent-required-for-on-premises-microsoft-sql-server-connector-only"></a>Instale el agente Graph conector de Microsoft SQL Server local (obligatorio únicamente para el conector de Microsoft SQL Server local)
 
-Para tener acceso a los datos de terceros locales, debe instalar y configurar el agente de conector Graph local. Consulte [Install the Graph connector agent para](on-prem-agent.md) obtener más información.
+Para tener acceso a los datos de terceros locales, debe instalar y configurar el agente de conector Graph local. Consulte [Install the Graph connector agent para](graph-connector-agent.md) obtener más información.
 
 >[!NOTE]
 >Si usa la autenticación Windows al configurar el conector de Microsoft SQL Server Graph, el usuario con el que está intentando iniciar sesión debe tener derechos de inicio de sesión interactivos en el equipo donde está instalado Graph agente de conector. Consulte la documentación sobre la administración [de directivas de inicio de sesión](/windows/security/threat-protection/security-policy-settings/allow-log-on-locally#policy-management) para comprobar los derechos de inicio de sesión.
@@ -127,8 +127,8 @@ En la tabla siguiente se resumen los SQL de datos compatibles con los conectores
 | Numérico exacto | bit | booleano |
 | Numérico aproximado | float <br> real | double |
 | Cadena de caracteres | char <br> varchar <br> text | cadena |
-| Cadenas de caracteres Unicode | nchar <br> nvarchar <br> ntext | cadena |
-| Otros tipos de datos | uniqueidentifier | cadena |
+| Cadenas de caracteres Unicode | nchar <br> nvarchar <br> ntext | cadenas |
+| Otros tipos de datos | uniqueidentifier | cadenas |
 
 Para cualquier otro tipo de datos actualmente no compatible directamente, la columna debe convertirse explícitamente en un tipo de datos admitido.
 

@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Revisar Búsqueda de Microsoft de uso
-ms.openlocfilehash: 83a2d895ac251affdd5e1c9ea3b0d0fffcecc5a4
-ms.sourcegitcommit: 36a699554bfe9debdb9a33e942597cceb575666b
+ms.openlocfilehash: 9798cdaf0f88ca2f247bb8d10fce526f07adbabc1bbe5566eaddfc071346f751
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53285562"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533122"
 ---
 # <a name="microsoft-search-usage-reports"></a>Búsqueda de Microsoft Informes de uso
 

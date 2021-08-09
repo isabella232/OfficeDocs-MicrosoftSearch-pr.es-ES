@@ -1,19 +1,19 @@
 # <a name="contributing"></a>Colaboradores
 
-Este proyecto le agradece las contribuciones y las sugerencias.  Para la mayoría de las contribuciones es necesario aceptar un contrato de licencia de colaborador (CLA) en el que se declara que usted tiene el derecho a y, en realidad, concederle derechos para usar su contribución. Para obtener más información https://cla.microsoft.com, visite.
+Este proyecto recibe con satisfacción las contribuciones y sugerencias.  La mayoría de las contribuciones requieren que acepte un Contrato de licencia de colaborador (CLA) que declare que tiene derecho a concedernos los derechos de usar su contribución y, en realidad, a hacerlo. Para obtener más información, visite https://cla.microsoft.com .
 
-Cuando se envía una solicitud de incorporación de un elemento, un elemento bot-bot determinará automáticamente si es necesario proporcionar un CLA y se decorará el PR de forma adecuada (por ejemplo, Label, comment). Simplemente siga las instrucciones proporcionadas por el bot. Solo tendrá que hacerlo una vez en todos los repositorios con nuestro CLA.
+Al enviar una solicitud de extracción, un bot CLA determinará automáticamente si necesita proporcionar un CLA y decorar la pr correctamente (por ejemplo, etiqueta, comentario). Simplemente siga las instrucciones proporcionadas por el bot. Solo tendrá que hacerlo una vez en todos los repositorios mediante nuestro CLA.
 
 Este proyecto ha adoptado el [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) (Código de conducta de código abierto de Microsoft). Para obtener más información, consulte las [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) (Preguntas más frecuentes del código de conducta) o póngase en contacto con [opencode@microsoft.com](mailto:opencode@microsoft.com) con otras preguntas o comentarios.
 
 # <a name="legal-notices"></a>Avisos legales
 
-Microsoft y todos los colaboradores le conceden una licencia para la documentación de Microsoft y otro contenido de este repositorio en la [licencia pública internacional de Creative Commons atribution 4,0](https://creativecommons.org/licenses/by/4.0/legalcode), vea el archivo de [licencia](LICENSE) y conceda una licencia a cualquier código en el repositorio en la [licencia MIT](https://opensource.org/licenses/MIT), vea el archivo de [código de licencia](LICENSE-CODE) .
+Microsoft y los colaboradores le conceden una licencia a la documentación de Microsoft y a otro contenido de este repositorio bajo la Licencia pública internacional creative [commons 4.0](https://creativecommons.org/licenses/by/4.0/legalcode), consulte el archivo [LICENSE](LICENSE) y le conceda una licencia para cualquier código del repositorio bajo la licencia [MIT](https://opensource.org/licenses/MIT), consulte el archivo [LICENSE-CODE.](LICENSE-CODE)
 
-Microsoft, Windows, Microsoft Azure y otros productos y servicios de Microsoft a los que se hace referencia en la documentación pueden ser marcas comerciales o marcas comerciales registradas de Microsoft en Estados Unidos u otros países.
+Microsoft, Windows, Microsoft Azure y/u otros productos y servicios de Microsoft a los que se hace referencia en la documentación pueden ser marcas comerciales o marcas comerciales registradas de Microsoft en los Estados Unidos y/u otros países.
 Las licencias de este proyecto no le conceden derechos para usar nombres, logotipos o marcas comerciales de Microsoft.
-Puede encontrar instrucciones generales de la marca comercial de http://go.microsoft.com/fwlink/?LinkID=254653Microsoft en.
+Las directrices generales de marca comercial de Microsoft se pueden encontrar en http://go.microsoft.com/fwlink/?LinkID=254653 .
 
-La información de privacidad se puede encontrar enhttps://privacy.microsoft.com/en-us
+La información de privacidad se puede encontrar en https://privacy.microsoft.com/en-us
 
-Microsoft y todos los colaboradores reservan todos los demás derechos, ya sea bajo sus respectivos derechos de autor, patentes o marcas comerciales, ya sea por implicación, por exclusión o de otro modo.
+Microsoft y cualquier colaborador se reservan todos los demás derechos, ya sea bajo sus respectivos derechos de autor, patentes o marcas comerciales, ya sea por implicación, impedimento o de otro modo.

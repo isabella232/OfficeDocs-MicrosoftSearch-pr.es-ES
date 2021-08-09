@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Agregar verticales de búsqueda y personalizar resultados de búsqueda
-ms.openlocfilehash: 4dd3f08f6d7e3df0aa983684eb0d4f649bc409a1
-ms.sourcegitcommit: 1e766e1f549c46882f47df6679f5a3cdf48d70d6
+ms.openlocfilehash: 0bcb8d8588edf44d4291802d1d9c73b75fd6bf327b19f9a9b1ef0555baca38ad
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53463230"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533069"
 ---
 # <a name="customize-the-search-results-page"></a>Personalizar la página de resultados de búsqueda
 
@@ -201,6 +201,6 @@ Esta es una lista de problemas comunes que puede encontrar y acciones para soluc
 | No veo el diseño de los resultados, aunque he creado uno. | Tarda unos minutos porque esta configuración suele almacenarse en caché. Espere unos minutos e inténtelo de nuevo.        |
 | No veo ningún orígenes de contenido en la página vertical o de tipo de resultado. | Asegúrese de que ha configurado conectores y datos indizados.   |
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 
 [Personalizar el diseño de resultados](customize-results-layout.md)

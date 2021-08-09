@@ -12,13 +12,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
-description: Crear y actualizar marcadores y formas de editar de forma masiva los resultados de los marcadores para Microsoft Search
-ms.openlocfilehash: e8488146a041e7165596dafff8012adfa1122341
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+description: Crear y actualizar marcadores y formas de editar de forma masiva los resultados de los marcadores Búsqueda de Microsoft
+ms.openlocfilehash: 1362082bf33bd4a30ff2ae76e2fa05a3ccd8962c4ef5f5cb15f41fc183d0c4b9
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031732"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533810"
 ---
 # <a name="manage-bookmarks"></a>Administrar marcadores
 
@@ -38,10 +38,10 @@ Un gran marcador tiene cuatro elementos clave:
 
 ## <a name="create-bookmark-answers"></a>Crear respuestas de marcador
 
-En el [Centro de administración de Microsoft 365,](https://admin.microsoft.com/)vaya a [Marcadores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/bookmarks) y elija cómo desea crear nuevos marcadores:
+En el [Centro de administración de Microsoft 365](https://admin.microsoft.com/), vaya a [Marcadores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/bookmarks) y elija cómo desea crear nuevos marcadores:
 
 - Agregar marcadores
-- Importar resultados de SharePoint
+- Importar SharePoint resultados
 - Agregar marcadores predeterminados y marcadores sugeridos
 - Importar marcadores
 - Publicar o revisar marcadores recomendados
@@ -50,25 +50,25 @@ En el [Centro de administración de Microsoft 365,](https://admin.microsoft.com/
 
 Los administradores y editores de búsqueda pueden agregar marcadores en el Centro de administración de Microsoft 365 y publicarlos o guardarlos en borrador. La publicación de un marcador actualiza inmediatamente el índice de búsqueda, lo que hace que sea detectable para los usuarios de inmediato. También puede programar un marcador especificando la fecha y hora en que se publicará.
 
-- **Publicado:** los marcadores están disponibles para los usuarios de la organización a través de Microsoft Search.
+- **Publicado:** los marcadores están disponibles para los usuarios de la organización a través de Búsqueda de Microsoft.
 - **Borrador:** Los marcadores guardados como borradores no están disponibles para los usuarios. Use este estado si usted u otras partes interesadas desean revisar o actualizar los marcadores antes de publicarlos.
 - **Programado:** marcadores que se publicarán en la fecha y hora especificadas.
 
-Puede usar la extensión del explorador creador de contenido de Microsoft Search para agregar fácilmente marcadores. Para instalar la extensión del explorador, vaya al sitio que desea agregar como marcador y haga clic en Agregar en la extensión.
+Puede usar la extensión del Búsqueda de Microsoft del creador de contenido para agregar fácilmente marcadores. Para instalar la extensión del explorador, vaya al sitio que desea agregar como marcador y haga clic en Agregar en la extensión.
 Instale la extensión para Edge y Chrome:
 
-- Para Chromium Edge o Chrome: vaya al [almacén web de Chrome](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) y agregue la extensión.
-- For legacy Edge: go to the [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) and add the extension.
+- For Chromium Edge or Chrome: go to the [Chrome web store](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) and add the extension.
+- Para edge heredado: vaya a la [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) y agregue la extensión.
 
-### <a name="import-sharepoint-results"></a>Importar resultados de SharePoint
+### <a name="import-sharepoint-results"></a>Importar SharePoint resultados
 
-Si su organización ha configurado resultados promocionados en SharePoint, puede importar los títulos, las direcciones URL y las descripciones de los resultados promocionados del inquilino en Microsoft Search y poner el contenido importado a disposición de los usuarios. En la mayoría de los casos, la importación de resultados de SharePoint tarda solo unos minutos. Si va a importar un gran número de resultados, puede tardar hasta 48 horas. Esta es una forma fácil de rellenar rápidamente los resultados de búsqueda y hacerlos más eficaces para los usuarios. Se recomienda usar los resultados promocionados de SharePoint como referencia para comprender cómo nombrar y crear resultados de búsqueda relevantes.
+Si su organización configura resultados promocionados en SharePoint, puede importar los títulos, las direcciones URL y las descripciones de los resultados promocionados de su espacio empresarial a Búsqueda de Microsoft y hacer que el contenido importado esté disponible para los usuarios. En la mayoría de los casos, importar SharePoint resultados tarda solo unos minutos. Si va a importar un gran número de resultados, puede tardar hasta 48 horas. Esta es una forma fácil de rellenar rápidamente los resultados de búsqueda y hacerlos más eficaces para los usuarios. Se recomienda usar los resultados promocionados SharePoint como referencia para comprender cómo nombrar y crear resultados de búsqueda relevantes.
 
 ### <a name="add-default-and-suggested-bookmarks"></a>Agregar marcadores predeterminados y sugeridos
 
 Hemos incluido algunos marcadores sugeridos predeterminados que los usuarios pueden resultar útiles, incluidos los marcadores para recursos humanos, ventajas, soporte de TI, administración de contraseñas y mucho más. Revise, actualice y publique estos marcadores sugeridos para proporcionar resultados de alta calidad a los usuarios de inmediato.
 
-Los usuarios también pueden sugerir marcadores que les gustaría ver agregados mediante vínculos de comentarios en Microsoft Search. Sus recomendaciones aparecerán como marcadores sugeridos.
+Los usuarios también pueden sugerir marcadores que les gustaría ver agregados mediante vínculos de comentarios en Búsqueda de Microsoft. Sus recomendaciones aparecerán como marcadores sugeridos.
 
 ### <a name="import-bookmarks"></a>Importar marcadores
 
@@ -106,15 +106,15 @@ Para evitar errores de duplicación de marcador a marcador:
 
 ### <a name="publish-or-review-recommended-bookmarks"></a>Publicar o revisar marcadores recomendados
 
-Para reducir el esfuerzo manual necesario para agregar marcadores, Microsoft Search puede evaluar los vínculos de SharePoint de su organización y recomendar marcadores. Puede revisarlas antes de publicarlas o establecerlas para que se publiquen automáticamente. No se necesita ninguna configuración para los marcadores recomendados, están habilitados y establecidos en autopublicar de forma predeterminada. Para cambiar esta configuración en cualquier momento, seleccione **Administrar marcadores** para abrir el panel Configuración de marcadores.
+Para reducir el esfuerzo manual necesario para agregar marcadores, Búsqueda de Microsoft evaluar los vínculos de SharePoint de la organización y recomendar marcadores. Puede revisarlas antes de publicarlas o establecerlas para que se publiquen automáticamente. No se necesita ninguna configuración para los marcadores recomendados, están habilitados y establecidos en autopublicar de forma predeterminada. Para cambiar esta configuración en cualquier momento, seleccione **Administrar marcadores** para abrir el panel Configuración de marcadores.
 
-![Captura de pantalla de la configuración de marcador recomendada en el portal de administración de Microsoft 365](media/bookmarks-recommendedsettings.png)
+![Captura de pantalla de la configuración de marcador recomendada en el Microsoft 365 de administración](media/bookmarks-recommendedsettings.png)
 
-Si se habilitan los marcadores recomendados, el motor de recomendaciones evaluará los sitios de SharePoint de la organización para identificar vínculos de alto tráfico. Después de un período de evaluación inicial, los marcadores recomendados se publicarán automáticamente o se agregarán a la lista de marcadores sugeridos. A continuación, se iniciará el siguiente ciclo, un período de evaluación de 30 días seguido de la publicación automática o la adición de marcadores sugeridos.
+Si se habilitan los marcadores recomendados, el motor de recomendación evaluará los SharePoint de la organización para identificar vínculos de alto tráfico. Después de un período de evaluación inicial, los marcadores recomendados se publicarán automáticamente o se agregarán a la lista de marcadores sugeridos. A continuación, se iniciará el siguiente ciclo, un período de evaluación de 30 días seguido de la publicación automática o la adición de marcadores sugeridos.
 
 Se recomienda que los administradores o editores de búsqueda revisen estos marcadores autoeditados o sugeridos con regularidad. Además, los marcadores recomendados nunca incluirán direcciones URL encontradas en los marcadores publicados, sugeridos, programados o excluidos existentes.
 
-Para asegurarse de que solo los usuarios con acceso verán un marcador recomendado en los resultados del trabajo, se incluye una característica de comprobación de acceso para todos los marcadores recomendados. Los usuarios nunca verán un marcador recomendado para un sitio de SharePoint al que no puedan acceder. Esta comprobación de acceso se controla mediante la opción Solo personas con acceso a **este vínculo** en la configuración Grupos para cada marcador recomendado.
+Para asegurarse de que solo los usuarios con acceso verán un marcador recomendado en los resultados del trabajo, se incluye una característica de comprobación de acceso para todos los marcadores recomendados. Los usuarios nunca verán un marcador recomendado para un sitio SharePoint al que no puedan acceder. Esta comprobación de acceso se controla mediante la opción Solo personas con acceso a **este vínculo** en la configuración Grupos para cada marcador recomendado.
 
 La comprobación de acceso se detendrá si se cambia la dirección URL del marcador recomendado o la configuración Grupos.
 
@@ -126,21 +126,21 @@ Un marcador puede tener varias palabras clave y compartir la misma palabra clave
 
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 
-**P: ¿Cuánto tiempo se necesita para que un marcador esté visible en Microsoft Search después de su publicación?**
+**P: ¿Cuánto tiempo se necesita para que un marcador esté visible en Búsqueda de Microsoft después de su publicación?**
 
-**A:**  Un marcador está disponible en Microsoft Search inmediatamente después de su publicación.
+**A:**  Un marcador está disponible en Búsqueda de Microsoft inmediatamente después de la publicación.
 
 **P: ¿Cuánto tiempo se necesita para que aparezca un marcador recomendado?**
 
-**A:**  Los marcadores recomendados solo aparecerán en Microsoft Search si están habilitados los marcadores recomendados y la publicación automática. Durante el período de evaluación inicial, el motor de recomendación evaluará el tráfico de SharePoint para identificar los marcadores adecuados y, a continuación, publicarlos automáticamente. Una vez publicados, estarán disponibles inmediatamente en Microsoft Search.
+**A:**  Los marcadores recomendados solo aparecerán en Búsqueda de Microsoft si están habilitados los marcadores recomendados y la publicación automática. Durante el período de evaluación inicial, el motor de recomendación evaluará el tráfico SharePoint para identificar los marcadores adecuados y, a continuación, publicarlos automáticamente. Una vez publicados, estarán disponibles inmediatamente en Búsqueda de Microsoft.
 
-**P: ¿Cuánto tiempo se necesita para quitar un marcador eliminado de los resultados de Microsoft Search?**
+**P: ¿Cuánto tiempo se necesita para quitar un marcador eliminado de Búsqueda de Microsoft resultados?**
 
 **A**: Los marcadores eliminados se quitan inmediatamente de los resultados del trabajo.
 
-**P: ¿Microsoft Search recomendará marcadores de sitios en todos los idiomas?**
+**P: ¿Búsqueda de Microsoft los marcadores de los sitios en todos los idiomas?**
 
-**A**: Sí, Microsoft Search puede recomendar marcadores desde cualquier sitio interno de SharePoint, independientemente del idioma.
+**A**: Sí, Búsqueda de Microsoft puede recomendar marcadores de cualquier sitio SharePoint, independientemente del idioma.
 
 **P: ¿Puedo dejar de mostrar marcadores recomendados en los resultados de búsqueda?**
 
@@ -160,4 +160,4 @@ Un marcador puede tener varias palabras clave y compartir la misma palabra clave
 
 **P: ¿Dónde puedo encontrar el identificador de la aplicación para una Power App?**
 
-**A:** Vaya al sitio de Power Apps y vea el panel Detalles de la aplicación. Obtenga más información [sobre cómo obtener un identificador de aplicación](/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id).
+**A**: Vaya al sitio Power Apps y vea el panel Detalles de la aplicación. Obtenga más información [sobre cómo obtener un identificador de aplicación](/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id).

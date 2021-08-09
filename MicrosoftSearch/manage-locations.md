@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8ab9aa00-cd74-405f-8410-9a1c3cfacdb9
 description: Con el tiempo, es posible que deba actualizar el estado y el contenido de una ubicación para que siga siendo relevante.
-ms.openlocfilehash: ab093cca1c340268b2fd43f7594eb48eddf32208
-ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
+ms.openlocfilehash: 5e9d88fc08458e928e52988124ee94c60829c7bb71ed13f8534b71ca08e2d50c
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422887"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54532879"
 ---
 # <a name="manage-locations"></a>Administrar ubicaciones
 
@@ -28,7 +28,7 @@ La ubicación permite a los usuarios buscar direcciones y localizar edificios de
 
 ### <a name="add-or-edit-a-single-location"></a>Agregar o modificar una ubicación única
 
-1. En el [centro de administración de Microsoft 365](https://admin.microsoft.com), vaya a [**ubicaciones**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/locations)
+1. En el [Centro de administración de Microsoft 365](https://admin.microsoft.com), vaya a [**Ubicaciones**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/locations)
 1. Para agregar una nueva ubicación, seleccione **Agregar**.
 1. Para editar una ubicación, selecciónela en la lista de ubicaciones correspondiente.
 1. Al agregar o editar la información, la vista previa se actualizará automáticamente.
@@ -42,7 +42,7 @@ Use la característica importar o exportar para:
 
 1. Agregar ubicaciones en bloque: introduzca la información en el archivo de plantilla de ubicaciones y, a continuación, impórtelo.
 1. Editar ubicaciones en bloque: exporte las ubicaciones a un archivo CSV; a continuación, edite la información de las ubicaciones en el archivo CSV exportado e importe el archivo CSV actualizado.
-1. Ubicaciones de copia de seguridad: exporte las ubicaciones existentes a un archivo. csv.
+1. Ubicaciones de copia de seguridad: exporte las ubicaciones existentes a .csv archivo.
 
 Para exportar o importar ubicaciones:
 
@@ -57,13 +57,13 @@ Descargue el archivo de plantilla para obtener una lista de la información y lo
 Estos son algunos puntos importantes en relación con el archivo de plantilla:
 
 - Nunca modifique los datos de los campos: *Id*, *última modificación* y *modificado por*
-- Si incluye el *identificador* de una ubicación existente, se reemplazará con la información del archivo de importación.
+- Si incluye el *identificador de* una ubicación existente, se reemplazará por la información del archivo de importación.
 - Si hay una ubicación existente con el mismo nombre, la ubicación se actualizará con información en el archivo de importación.
 - No todos los campos del archivo de plantilla son obligatorios y los campos obligatorios varían en función del estado de la ubicación.
-- Según el campo de *Estado* , las ubicaciones se guardarán como borrador, sugerida, programada o se publicarán automáticamente.
-- Para los asociados que administran varias organizaciones, puede exportar sus ubicaciones de una organización e importarlas a otra. Sin embargo, debe eliminar los datos de la columna *Id* antes de la importación.
+- Según el campo *Estado,* las ubicaciones se guardarán como borrador, sugeridas, programadas o se publicarán automáticamente.
+- Para los partners que administran varias organizaciones, puede exportar las ubicaciones de una organización e importarlas a otra. Sin embargo, debe eliminar los datos de la columna *Id* antes de la importación.
 
 > [!NOTE]
-> No puede importar ubicaciones si hay errores en el archivo de plantilla. Para evitar errores, asegúrese de que el archivo de importación está correctamente formateado y contiene toda la información necesaria.
+> No se pueden importar ubicaciones si hay errores en el archivo de plantilla. Para evitar errores, asegúrese de que el archivo de importación está correctamente formateado y contiene toda la información necesaria.
 
 Para obtener más información sobre cómo evitar errores, consulte [Evitar errores de importación](manage-bookmarks.md#prevent-import-errors).

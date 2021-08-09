@@ -1,5 +1,5 @@
 ---
-title: Páginas clásicas en SharePoint Online y Microsoft Search
+title: Páginas clásicas en SharePoint Online y Búsqueda de Microsoft
 ms.author: keremy
 author: jeffkizn
 manager: parulm
@@ -11,23 +11,23 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Uso de Microsoft Search en páginas clásicas de SharePoint
-ms.openlocfilehash: 33215c730d34c14f8ce1d55e93730615688f1e2a
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+description: Usar Búsqueda de Microsoft en páginas SharePoint clásicas
+ms.openlocfilehash: 187a8c78b9f1b78cf1c5ad04ede91a38fe88759d34037226949a441034cb13b9
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031435"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533603"
 ---
-# <a name="classic-pages-and-microsoft-search"></a>Páginas clásicas y Microsoft Search
+# <a name="classic-pages-and-microsoft-search"></a>Páginas clásicas y Búsqueda de Microsoft
 
-Los sitios de SharePoint creados antes de los sitios modernos usan un cuadro de búsqueda clásico y una experiencia de resultados de búsqueda clásica. We will be rolling out a feature that will default classic pages to start using the modern search experience that uses Microsoft Search, which provides personalized results with higher relevance.
+SharePoint sitios creados antes de los sitios modernos usan un cuadro de búsqueda clásico y una experiencia de resultados de búsqueda clásica. Implementaremos una característica que usará las páginas clásicas predeterminadas para empezar a usar la experiencia de búsqueda moderna que usa Búsqueda de Microsoft, que proporciona resultados personalizados con mayor relevancia.
 
-Se recomienda usar Microsoft Search para todos los sitios, incluidos los clásicos, pero si los sitios clásicos usan páginas maestras personalizadas o ha personalizado la experiencia de resultados de búsqueda clásica, detectaremos automáticamente estas personalizaciones y no cambiaremos a Microsoft Search.
+Se recomienda usar Búsqueda de Microsoft para todos los sitios, incluidos los clásicos, pero si los sitios clásicos usan páginas maestras personalizadas o ha personalizado la experiencia de resultados de búsqueda clásica, detectaremos automáticamente estas personalizaciones y no cambiaremos a Búsqueda de Microsoft.
 
-## <a name="classic-sites-that-will-automatically-switch-to-microsoft-search"></a>Sitios clásicos que cambiarán automáticamente a Microsoft Search
+## <a name="classic-sites-that-will-automatically-switch-to-microsoft-search"></a>Sitios clásicos que cambiarán automáticamente a Búsqueda de Microsoft
 
-Los sitios clásicos empezarán a usar Microsoft Search si todos los siguientes son verdaderos:
+Los sitios clásicos empezarán a Búsqueda de Microsoft si todos los siguientes son verdaderos:
 
 * El sitio se basa en la plantilla de sitio de grupo (como STS#0 y STS#1).
 * El sitio no tiene activada la característica de publicación.
@@ -36,15 +36,15 @@ Los sitios clásicos empezarán a usar Microsoft Search si todos los siguientes 
 * No hay tipos de resultados personalizados para el sitio o la colección de sitios en el origen de resultados predeterminado.
 * El sitio o la colección de sitios no se descartan del modificador mediante la configuración *SearchBoxInNavBar* que se describe a continuación.
 
-Después del cambio a Microsoft Search, las páginas clásicas del sitio empezarán a mostrar el cuadro de búsqueda en la barra de navegación del conjunto de aplicaciones y quitarán el cuadro de búsqueda clásico de la página. A continuación, cuando un usuario busca un término, los resultados se mostrarán con la experiencia de búsqueda moderna de Microsoft Search.
+Después de cambiar a Búsqueda de Microsoft, las páginas clásicas del sitio empezarán a mostrar el cuadro de búsqueda en la barra de navegación del conjunto de programas y quitarán el cuadro de búsqueda clásico de la página. A continuación, cuando un usuario busca un término, los resultados se mostrarán con la experiencia de búsqueda moderna de Búsqueda de Microsoft.
 
 ## <a name="staying-with-the-classic-search-experience"></a>Mantenerse con la experiencia de búsqueda clásica
 
-Si el sitio cumple los criterios enumerados anteriormente, pero no desea que cambie a la experiencia de Microsoft Search, puede optar por no usar los siguientes comandos, como propietario del sitio o de la colección de sitios.
+Si el sitio cumple los criterios enumerados anteriormente, pero no desea que cambie a la experiencia de Búsqueda de Microsoft, puede optar por no usar los siguientes comandos, como propietario del sitio o de la colección de sitios.
 
 Puede usar este comando en cualquier momento, antes o después de que se produce el cambio, por lo que es fácil volver a la experiencia de búsqueda que tenía anteriormente.
 
-Para ejecutar los comandos siguientes, usará PowerShell con extensiones de PowerShell pnP de SharePoint. Puede instalar y obtener más información sobre cómo empezar [aquí](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps). Iniciar sesión en su sitio o colección de sitios mediante este comando:
+Para ejecutar los comandos siguientes, usará PowerShell con SharePoint de PowerShell pnP. Puede instalar y obtener más información sobre cómo empezar [aquí](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps). Iniciar sesión en su sitio o colección de sitios mediante este comando:
 
 ```powershell
 Connect-PnPOnline -Url <yoursiteurl> -UseWebLogin
@@ -65,9 +65,9 @@ Set-PnPSearchSettings -Scope Site -SearchBoxInNavBar ModernOnly
 # ModernOnly | Inherit
 ```
 
-## <a name="opting-into-microsoft-search"></a>Optar por Microsoft Search
+## <a name="opting-into-microsoft-search"></a>Optar por la Búsqueda de Microsoft
 
-Para aquellos sitios que no cumplen los criterios enumerados anteriormente o para sitios específicos de una colección de sitios que optaron por permanecer en el clásico, puede habilitar manualmente la experiencia de Búsqueda de Microsoft.
+Para los sitios que no cumplen los criterios mencionados anteriormente, o para sitios específicos de una colección de sitios que optaron por permanecer en el clásico, puede habilitar manualmente la experiencia Búsqueda de Microsoft sitio.
 
 Para cambiar esta configuración para un sitio específico, puede usar este comando:
 
@@ -84,4 +84,4 @@ Set-PnPSearchSettings -Scope Site -SearchBoxInNavBar AllPages
 ```
 
 > [!NOTE]
-> Solo puede habilitar Microsoft Search manualmente para un sitio de grupo o un sitio de publicación (identificadores de plantilla que contienen "STS", "CMSPUBLISHING", "BLANKINTERNET" y "GROUP").
+> Puede habilitar manualmente Búsqueda de Microsoft solo para un sitio de grupo o un sitio de publicación (identificadores de plantilla que contienen "STS", "CMSPUBLISHING", "BLANKINTERNET" y "GROUP").

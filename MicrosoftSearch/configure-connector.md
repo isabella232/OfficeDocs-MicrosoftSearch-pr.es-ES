@@ -1,5 +1,5 @@
 ---
-title: Configurar el conector de Graph microsoft para Microsoft Search
+title: Configurar el conector de Graph creado por Microsoft para Búsqueda de Microsoft
 ms.author: mecampos
 author: mecampos
 manager: umas
@@ -12,31 +12,31 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Introducción al programa de instalación Graph conectores de microsoft
-ms.openlocfilehash: ef94d530af63d8b8b33dfae3c4b411164ef31feb
-ms.sourcegitcommit: 1b154441f3a3abba0f2719e66a767432bc9506ca
+description: Introducción a la configuración de conectores de Graph de Microsoft
+ms.openlocfilehash: 0c67081d3efab421b563e82dba506da85e65cb91d34b31f128f3bcff945c68a1
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52720947"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533321"
 ---
 <!-- Previous ms.author: monaray -->
 
 <!-- markdownlint-disable no-trailing-punctuation -->
 
-# <a name="setup-overview-for-graph-connectors-by-microsoft"></a>Introducción al programa de instalación Graph conectores de microsoft 
+# <a name="setup-overview-for-graph-connectors-by-microsoft"></a>Introducción a la configuración de conectores de Graph de Microsoft 
 
-En este artículo se muestra el proceso básico necesario para configurar los conectores de Graph de **microsoft** en el [centro Microsoft 365 administración.](https://admin.microsoft.com) El proceso básico incluye los pasos siguientes:  
+En este artículo se muestra el proceso básico necesario para configurar los conectores Graph de **microsoft** en el [Centro de administración de Microsoft 365](https://admin.microsoft.com). El proceso básico incluye los pasos siguientes:  
 <!---Add links to each section in the doc--->
 
-1. [Agregar un Graph de administración en el centro Microsoft 365 administración](#step-1-add-a-graph-connector-in-the-microsoft-365-admin-center)
-2. [Asigne un nombre a la conexión](#step-2-name-the-connection)
-3. [Configurar las opciones de conexión](#step-3-configure-the-connection-settings)
-4. [Administrar permisos de búsqueda](#step-4-manage-search-permissions)
-5. [Asignar etiquetas de propiedades](#step-5-assign-property-labels)
+1. [Agregar un conector de Graph en el Centro de administración de Microsoft 365.](#step-1-add-a-graph-connector-in-the-microsoft-365-admin-center)
+2. [Asignar un nombre a la conexión](#step-2-name-the-connection)
+3. [Establecer la configuración de conexión](#step-3-configure-the-connection-settings)
+4. [Administrar los permisos de búsqueda](#step-4-manage-search-permissions)
+5. [Asignar etiquetas de propiedad](#step-5-assign-property-labels)
 6. [Administrar esquema](#step-6-manage-schema)
 7. [Actualizar configuración](#step-7-refresh-settings)
-8. [Revisar conexión](#step-8-review-connection)
+8. [Revisar la conexión](#step-8-review-connection)
 
 En este artículo también se incluye información sobre la solución de problemas, las limitaciones y los pasos siguientes:
 
@@ -51,11 +51,11 @@ En este artículo también se incluye información sobre la solución de problem
 
 <!---Insert "Before you get started" recommendations for this data source-->
 
-## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Paso 1: Agregar un conector de Graph en el centro Microsoft 365 administración
+## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Paso 1: Agregar un conector Graph en el Centro de administración de Microsoft 365
 
 Complete los pasos siguientes para configurar cualquiera de los conectores Graph microsoft:
 
-1. Inicie sesión en su cuenta de administrador en [Microsoft 365 centro de administración](https://admin.microsoft.com).
+1. Inicie sesión en su cuenta de administrador en [el Centro de administración de Microsoft 365](https://admin.microsoft.com).
 
 2. En el panel de navegación, **seleccione Configuración** y, a continuación, seleccione Buscar **& inteligencia**. Seleccione la [pestaña Conectores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/Connectors).
 
@@ -138,7 +138,7 @@ Atributo de esquema de búsqueda | Función | Ejemplo
 BUSCAR | Hace que se busque el contenido de texto de una propiedad. El contenido de la propiedad se incluye en el índice de texto completo. | Si la propiedad es **title**, una consulta para **Enterprise** devuelve respuestas que contienen la palabra **Enterprise** en cualquier texto o título.
 QUERY | Busca por consulta una coincidencia de una propiedad determinada. A continuación, el nombre de la propiedad se puede especificar en la consulta mediante programación o de forma literal. |  Si se puede consultar la propiedad **Title,** se admite la consulta **Title: Enterprise.**
 RETRIEVE | Solo se pueden usar propiedades recuperables en el tipo de resultado y mostrar en el resultado de la búsqueda. |
-REFINE | La opción refinar se puede usar como en la página de resultados de Microsoft Search. | Los usuarios de la organización pueden [filtrar](custom-filters.md) por **dirección URL** en la página de resultados de búsqueda si la propiedad refine está marcada durante la configuración de la conexión
+REFINE | La opción refinar se puede usar como en la página de Búsqueda de Microsoft resultados. | Los usuarios de la organización pueden [filtrar](custom-filters.md) por **dirección URL** en la página de resultados de búsqueda si la propiedad refine está marcada durante la configuración de la conexión
 
 Para todos los conectores excepto el conector de recurso compartido de archivos, los tipos personalizados deben establecerse manualmente. Para activar las funcionalidades de búsqueda para cada campo, necesita un esquema de búsqueda asignado a una lista de propiedades. El asistente para la conexión selecciona automáticamente un esquema de búsqueda en función del conjunto de propiedades de origen que elija. Puede modificar este esquema seleccionando las casillas de cada propiedad y atributo de la página del esquema de búsqueda.
 
@@ -160,7 +160,7 @@ Para todos los conectores excepto el conector de recurso compartido de archivos,
 
 ## <a name="step-7-refresh-settings"></a>Paso 7: Actualizar configuración
 
-El intervalo de actualización determina la frecuencia con la que los datos se sincronizan entre el origen de datos y Microsoft Search. Cada tipo de origen de datos tiene un conjunto diferente de programaciones de actualización óptimas en función de la frecuencia con la que se modifican los datos y el tipo de modificaciones.
+El intervalo de actualización determina la frecuencia con la que los datos se sincronizan entre el origen de datos y Búsqueda de Microsoft. Cada tipo de origen de datos tiene un conjunto diferente de programaciones de actualización óptimas en función de la frecuencia con la que se modifican los datos y el tipo de modificaciones.
 
 Hay dos tipos de intervalos de actualización, que son **Actualización** completa e **Actualización incremental,** pero las actualizaciones incrementales no están disponibles para algunos orígenes de datos.
 
@@ -202,6 +202,6 @@ Para obtener información sobre las limitaciones que se aplican a todos los orí
 
 Consulte la información específica del conector para el origen de datos para averiguar si se aplican otras limitaciones a ese conector de Graph específico.
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 
 Después de publicar la conexión, debe personalizar la página de resultados de búsqueda. Para obtener información sobre cómo personalizar los resultados de búsqueda, [vea Personalizar la página de resultados de búsqueda](customize-search-page.md).

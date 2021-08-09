@@ -12,18 +12,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Detalles de la experiencia del clúster de resultados de conectores
-ms.openlocfilehash: ae5528f2e12c9e331b66e821f2a9c03947d788df
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+ms.openlocfilehash: 912e27942e9ae3bfef874ae66227880af676b7a1a28449cc82ae8fc02f4446c0
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031777"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533981"
 ---
-# <a name="graph-connectors-result-cluster"></a>Clúster de resultados de conectores de Graph
+# <a name="graph-connectors-result-cluster"></a>Graph de resultados de conectores
 
-## <a name="overview-of-the-graph-connectors-result-cluster-preview"></a>Información general sobre el clúster de resultados de conectores de Graph (versión preliminar)  
+## <a name="overview-of-the-graph-connectors-result-cluster-preview"></a>Información general sobre el Graph de resultados de conectores de Graph (versión preliminar)  
 
-Con los clústeres de resultados de los conectores de Graph,  las empresas pueden buscar contenido de orígenes de datos de terceros en su vista predeterminada, la pestaña Todo, en SharePoint, Office.com y Microsoft Search en Bing.
+Con los clústeres de resultados de los conectores de Graph, las empresas  pueden buscar contenido de orígenes de datos de terceros en su vista predeterminada, la pestaña Todos, en SharePoint, Office.com y Búsqueda de Microsoft en Bing.
 
 Los clústeres de resultados ayudan a los usuarios a descubrir todo el contenido de terceros en un solo lugar. Los resultados que se muestran en un clúster de resultados se agrupan en función de la configuración vertical de búsqueda.
 
@@ -45,15 +45,15 @@ La experiencia del clúster de resultados está desactivada de forma predetermin
 
 Siga estos pasos para activar la experiencia en el nivel de la organización:
 
-1. En el [Centro de administración de Microsoft 365,](https://admin.microsoft.com)vaya a [**Verticales**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/verticals).
+1. En el [Centro de administración de Microsoft 365](https://admin.microsoft.com), vaya a [**Verticales**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/verticals).
 2. Seleccione la **vertical Todo** y, a continuación, habilite **Mostrar resultados del conector**. 
 
 
-Siga estos pasos para activar la experiencia en el nivel de sitio de SharePoint:
+Siga estos pasos para activar la experiencia en el nivel SharePoint sitio:
 
-1. En el sitio de SharePoint donde desea la experiencia del clúster de resultados, vaya a **Configuración**.
+1. En el SharePoint donde desea la experiencia del clúster de resultados, vaya **a Configuración**.
 2. Vaya a **Información del sitio** Ver toda la configuración del > **sitio**.
-3. Vaya a la sección Búsqueda de Microsoft y, a continuación, **seleccione Configurar Microsoft Search para esta colección de sitios.**
+3. Vaya a la sección Búsqueda de Microsoft y, a continuación, seleccione **Configurar Búsqueda de Microsoft para esta colección de sitios**.
 4. En el panel de navegación, vaya **a Experiencia personalizada** y, a continuación, seleccione **Verticales**.
 5. Seleccione la **vertical Todo** y, a continuación, habilite **Mostrar resultados del conector**.
 
