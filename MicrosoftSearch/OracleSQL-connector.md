@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Configure el conector de SQL Graph oracle para Búsqueda de Microsoft.
-ms.openlocfilehash: 5c45998796a606c61f1fa4a63693fe7a32bb8da7a5267bd1456452ed4872dc84
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 21585d1d60e5dcd73a45a3ccda151fbb144e85eb
+ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533450"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58236009"
 ---
 <!---Previous ms.author:vivg --->
 
@@ -94,9 +94,9 @@ En la tabla siguiente se resumen los tipos de datos admitidos por el conector de
 | Tipo de datos Number | NUMBER(p,0) | int64 (para p <= 18) <br> double (para p > 18) |
 | Tipo de datos de número de punto flotante | NUMBER(p,s) <br> FLOAT(p) | double |
 | Tipo de datos Date | DATE <br> TIMESTAMP <br> TIMESTAMP(n) | datetime |
-| Tipo de datos de carácter | CHAR(n) <br> VARCHAR <br> VARCHAR2 <br> LONG <br> CLOB <br> NCLOB | cadenas |
-| Tipo de datos de caracteres Unicode | NCHAR <br> NVARCHAR | cadenas |
-| Tipo de datos RowID | ROWID <br> UROWID | cadenas |
+| Tipo de datos de carácter | CHAR(n) <br> VARCHAR <br> VARCHAR2 <br> LONG <br> CLOB <br> NCLOB | string |
+| Tipo de datos de caracteres Unicode | NCHAR <br> NVARCHAR | string |
+| Tipo de datos RowID | ROWID <br> UROWID | string |
 
 Para cualquier otro tipo de datos actualmente no compatible directamente, la columna debe convertirse explícitamente en un tipo de datos admitido.
 

@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Crear y actualizar marcadores y formas de editar de forma masiva los resultados de los marcadores Búsqueda de Microsoft
-ms.openlocfilehash: 1362082bf33bd4a30ff2ae76e2fa05a3ccd8962c4ef5f5cb15f41fc183d0c4b9
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: ed46583d857d97fa28773b64401ae4f85f88650a
+ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533810"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235961"
 ---
 # <a name="manage-bookmarks"></a>Administrar marcadores
 
@@ -54,11 +54,7 @@ Los administradores y editores de búsqueda pueden agregar marcadores en el Cent
 - **Borrador:** Los marcadores guardados como borradores no están disponibles para los usuarios. Use este estado si usted u otras partes interesadas desean revisar o actualizar los marcadores antes de publicarlos.
 - **Programado:** marcadores que se publicarán en la fecha y hora especificadas.
 
-Puede usar la extensión del Búsqueda de Microsoft del creador de contenido para agregar fácilmente marcadores. Para instalar la extensión del explorador, vaya al sitio que desea agregar como marcador y haga clic en Agregar en la extensión.
-Instale la extensión para Edge y Chrome:
-
-- For Chromium Edge or Chrome: go to the [Chrome web store](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) and add the extension.
-- Para edge heredado: vaya a la [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) y agregue la extensión.
+Puede usar la extensión del Búsqueda de Microsoft del creador de contenido para agregar fácilmente marcadores. Solo tiene que ir al sitio que desea agregar como marcador y haga clic en Agregar en la extensión. Para instalar la extensión para Microsoft Edge o Google Chrome, ve a la tienda [web de Chrome](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) y agrégála al explorador.
 
 ### <a name="import-sharepoint-results"></a>Importar SharePoint resultados
 
@@ -124,7 +120,7 @@ Para evitar que el motor de recomendación publique o sugiera un marcador en un 
 
 Un marcador puede tener varias palabras clave y compartir la misma palabra clave, pero la palabra clave reservada no se puede compartir. Una palabra clave reservada es un término o frase único que desencadena un marcador específico. Una palabra clave reservada solo se puede asociar con una respuesta. Use palabras clave reservadas con moderación.
 
-## <a name="frequently-asked-questions"></a>Preguntas frecuentes
+## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
 **P: ¿Cuánto tiempo se necesita para que un marcador esté visible en Búsqueda de Microsoft después de su publicación?**
 

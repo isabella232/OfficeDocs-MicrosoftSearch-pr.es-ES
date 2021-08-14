@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configure el conector de Azure SQL y Microsoft SQL Graph para Búsqueda de Microsoft.
-ms.openlocfilehash: ed9284de968921f40003e011348e3e6d4321b59d86207b6c7d054765c6837a1e
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 9e8a9784c139873b4584f9be0a42e51f101bd7d6
+ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533513"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58236028"
 ---
 <!---Previous ms.author: vivg --->
 
@@ -124,11 +124,11 @@ En la tabla siguiente se resumen los SQL de datos compatibles con los conectores
 | ------------ | ------------ | ------------ |
 | Fecha y hora | date <br> datetime <br> datetime2 <br> smalldatetime | datetime |
 | Numérico exacto | bigint <br> Entero <br> smallint <br> tinyint | int64 |
-| Numérico exacto | bit | booleano |
+| Numérico exacto | bit | boolean |
 | Numérico aproximado | float <br> real | double |
 | Cadena de caracteres | char <br> varchar <br> text | cadena |
-| Cadenas de caracteres Unicode | nchar <br> nvarchar <br> ntext | cadenas |
-| Otros tipos de datos | uniqueidentifier | cadenas |
+| Cadenas de caracteres Unicode | nchar <br> nvarchar <br> ntext | string |
+| Otros tipos de datos | uniqueidentifier | string |
 
 Para cualquier otro tipo de datos actualmente no compatible directamente, la columna debe convertirse explícitamente en un tipo de datos admitido.
 

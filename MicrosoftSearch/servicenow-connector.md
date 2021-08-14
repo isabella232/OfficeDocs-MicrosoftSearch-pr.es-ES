@@ -1,8 +1,8 @@
 ---
 title: ServiceNow Graph conector para Búsqueda de Microsoft
-ms.author: mecampos
-author: mecampos
-manager: umas
+ms.author: kam1
+author: TheKarthikeyan
+manager: harshkum
 audience: Admin
 ms.audience: Admin
 ms.topic: article
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de Graph ServiceNow para Búsqueda de Microsoft
-ms.openlocfilehash: 11abe956e624fa23cd19e2dfc2ae9a4af31a0f81407f6e2c5672723c5fdfc8b5
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: b07776dfd6e2ae8ae87b43ac61e9f92495311ca8
+ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54534135"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235879"
 ---
 <!---Previous ms.author: kam1 --->
 
@@ -26,6 +26,10 @@ ms.locfileid: "54534135"
 # <a name="servicenow-graph-connector"></a>ServiceNow Graph Connector
 
 Con Microsoft Graph Connector para ServiceNow, su organización puede indizar artículos de knowledge base que son visibles para todos los usuarios o restringidos con permisos de criterios de usuario dentro de su organización. Después de configurar el conector y el contenido de índice de ServiceNow, los usuarios finales pueden buscar esos artículos desde cualquier Búsqueda de Microsoft cliente.  
+
+También puede consultar el [siguiente vídeo](https://www.youtube.com/watch?v=TVSkJpk1RiE) para obtener más información sobre la Graph Connector en la administración de permisos de búsqueda.
+
+[![Administración de permisos de búsqueda en Microsoft Graph Connector para ServiceNow](https://img.youtube.com/vi/TVSkJpk1RiE/hqdefault.jpg)](https://www.youtube.com/watch?v=TVSkJpk1RiE)
 
 Este artículo está para Microsoft 365 administradores o cualquier persona que configure, ejecute y monitore un conector Graph ServiceNow. Complementa las instrucciones generales que se proporcionan en el artículo [Configurar el Graph conector.](configure-connector.md) Si aún no lo ha hecho, lea todo el artículo Configurar su Graph Connector para comprender el proceso de configuración general.
 
@@ -78,14 +82,14 @@ Para usar ServiceNow OAuth para la autenticación, un administrador de ServiceNo
 
 En la tabla siguiente se proporcionan instrucciones sobre cómo rellenar el formulario de creación de extremos:
 
-Campo | Descripción | Valor recomendado 
+Field | Descripción | Valor recomendado 
 --- | --- | ---
-Nombre | Valor único que identifica la aplicación para la que necesita acceso de OAuth. | Búsqueda de Microsoft
-Id. de cliente | Un identificador único de solo lectura generado automáticamente para la aplicación. La instancia usa el identificador de cliente cuando solicita un token de acceso. | N/D
+Name | Valor único que identifica la aplicación para la que necesita acceso de OAuth. | Búsqueda de Microsoft
+Id. de cliente | Un identificador único de solo lectura generado automáticamente para la aplicación. La instancia usa el identificador de cliente cuando solicita un token de acceso. | ND
 Secreto de cliente | Con esta cadena secreta compartida, la instancia de ServiceNow Búsqueda de Microsoft autorizar las comunicaciones entre sí. | Siga los procedimientos recomendados de seguridad tratando el secreto como una contraseña.
 Dirección URL de redireccionamiento | Dirección URL de devolución de llamada necesaria a la que redirige el servidor de autorización. | https://gcs.office.com/v1.0/admin/oauth/callback
-URL del logotipo | Dirección URL que contiene la imagen del logotipo de la aplicación. | N/D
-Activo | Active la casilla para activar el Registro de aplicaciones. | Establecer en activo
+URL del logotipo | Dirección URL que contiene la imagen del logotipo de la aplicación. | ND
+Activa | Active la casilla para activar el Registro de aplicaciones. | Establecer en activo
 Actualizar duración del token | El número de segundos que un token de actualización es válido. De forma predeterminada, los tokens de actualización expiran en 100 días (8.640.000 segundos). | 31.536.000 (1 año)
 Duración del token de acceso | El número de segundos que un token de acceso es válido. | 43.200 (12 horas)
 
@@ -145,7 +149,7 @@ La instancia de ServiceNow necesita la siguiente configuración:
 
 2. En la siguiente tabla se proporcionan instrucciones sobre cómo rellenar el formulario de registro del proveedor de OIDC
 
-   Campo | Descripción | Valor recomendado
+   Field | Descripción | Valor recomendado
    --- | --- | ---
    Nombre | Un nombre único que identifica la entidad OAuth OIDC. | Azure AD
    Id. de cliente | El identificador de cliente de la aplicación registrada en el servidor OAuth OIDC de terceros. La instancia usa el identificador de cliente al solicitar un token de acceso. | Id. de aplicación (cliente) del paso 3.a
@@ -157,7 +161,7 @@ La instancia de ServiceNow necesita la siguiente configuración:
 
 4. En la tabla siguiente se proporcionan instrucciones sobre cómo rellenar el formulario de configuración del proveedor de OIDC
 
-   Campo | Valor recomendado
+   Field | Valor recomendado
    --- | ---
    Proveedor de OIDC |  Azure AD
    URL de metadatos de OIDC | La dirección URL debe tener el formato https \: //login.microsoftonline.com/<tenandId">/.well-known/openid-configuration <br/>Reemplace "tenantID" por el id. de directorio (inquilino) del paso 3.a.
@@ -165,7 +169,7 @@ La instancia de ServiceNow necesita la siguiente configuración:
    Aplicación | Global
    Notificación de usuario | sub
    Campo de usuario | Id. de usuario
-   Habilitar la comprobación de notificación JTI | Deshabilitada
+   Habilitar la comprobación de notificación JTI | Deshabilitado
 
 5. Seleccione Enviar y actualizar el formulario Entidad OAuth OIDC.
 
@@ -175,7 +179,7 @@ Consulte las instrucciones para crear una cuenta de ServiceNow, [crear un usuari
 
 En la siguiente tabla se proporcionan instrucciones sobre cómo rellenar el registro de la cuenta de usuario de ServiceNow
 
-Campo | Valor recomendado
+Field | Valor recomendado
 --- | ---
 Id. de usuario | Id. de entidad de servicio del paso 3.c
 Solo acceso al servicio web | Checked
@@ -202,9 +206,6 @@ El conector servicenow admite permisos de búsqueda visibles **para** todos o so
 
 ServiceNow Graph Connector admite permisos de criterios de usuario predeterminados sin scripts avanzados. Cuando el conector encuentra un criterio de usuario con un script avanzado, todos los datos que usan ese criterio de usuario no aparecerán en los resultados de la búsqueda.
 
->[!NOTE]
->Para elegir Solo las personas con acceso a este origen **de datos,** habilite las actualizaciones de versiones dirigidas en el espacio empresarial. Para obtener información sobre cómo configurar la versión dirigida, consulte [Setup Targeted release options.](/microsoft-365/admin/manage/release-options-in-office-365?preserve-view=true&view=o365-worldwide)
-
 Si elige **Solo** personas con acceso a este origen de datos, deberá elegir si la instancia de ServiceNow tiene usuarios aprovisionados Azure Active Directory (AAD) o usuarios que no son AAD.
 
 >[!NOTE]
@@ -212,9 +213,6 @@ Si elige **Solo** personas con acceso a este origen de datos, deberá elegir si 
 
 Si ha elegido "no AAD" para el tipo de identidad, vea Asignar las identidades que no son de [Azure AD](map-non-aad.md) para obtener instrucciones sobre cómo asignar las identidades. 
 
-También puede consultar el siguiente vídeo para obtener más información sobre cómo administrar permisos de búsqueda.
-
-[![Administración de permisos de búsqueda en Microsoft Graph Connector para ServiceNow](https://img.youtube.com/vi/TVSkJpk1RiE/hqdefault.jpg)](https://www.youtube.com/watch?v=TVSkJpk1RiE)
 
 ## <a name="step-6-assign-property-labels"></a>Paso 6: Asignar etiquetas de propiedades
 
@@ -260,11 +258,13 @@ Si ve una respuesta prohibida o no autorizada en el estado de conexión, comprue
 #### <a name="22-check-if-servicenow-instance-behind-firewall"></a>2.2. Comprobar si la instancia de ServiceNow está detrás del firewall
 Graph Es posible que connector no pueda llegar a la instancia de ServiceNow si está detrás de un firewall de red. Necesitará permitir explícitamente el acceso a Graph connector. Puede encontrar el intervalo de direcciones IP públicas de Graph Connector Service en la tabla siguiente. En función de la región del espacio empresarial, agrégála a la lista blanca de la red de instancia de ServiceNow.
 
-**Entorno** | **Región** | **Range**
+**Entorno** | **Región** | **Rango**
 --- | --- | ---
 PROD | Norteamérica | 52.250.92.252/30, 52.224.250.216/30
 PROD | Europa | 20.54.41.208/30, 51.105.159.88/30 
 PROD | Asia Pacífico | 52.139.188.212/30, 20.43.146.44/30 
 
+#### <a name="23-access-permissions-not-working-as-expected"></a>2.3. Los permisos de acceso no funcionan como se esperaba
+Si observa discrepancias en los permisos de acceso aplicados a los resultados de búsqueda, compruebe el diagrama de flujo de acceso para conocer los criterios de usuario en la administración del acceso a [las bases de conocimiento y los artículos](https://docs.servicenow.com/bundle/rome-servicenow-platform/page/product/knowledge-management/concept/user-access-knowledge.html).
 
 Si tiene otros problemas o desea proporcionar comentarios, escríbanos [aka.ms/TalkToGraphConnectors](https://aka.ms/TalkToGraphConnectors)

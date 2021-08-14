@@ -1,8 +1,8 @@
 ---
 title: Clúster de resultados de conectores
-ms.author: manusi
-author: manusi
-manager: ruppala
+ms.author: masingh
+author: maheshsinghania
+manager: jeffkizn
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,16 +12,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Detalles de la experiencia del clúster de resultados de conectores
-ms.openlocfilehash: 912e27942e9ae3bfef874ae66227880af676b7a1a28449cc82ae8fc02f4446c0
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: c90cc98415be6a42d32b646894cb04305ecb6542
+ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533981"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235886"
 ---
 # <a name="graph-connectors-result-cluster"></a>Graph de resultados de conectores
 
-## <a name="overview-of-the-graph-connectors-result-cluster-preview"></a>Información general sobre el Graph de resultados de conectores de Graph (versión preliminar)  
+## <a name="overview-of-the-graph-connectors-result-cluster"></a>Información general sobre el clúster de Graph de resultados de conectores de conexión  
 
 Con los clústeres de resultados de los conectores de Graph, las empresas  pueden buscar contenido de orígenes de datos de terceros en su vista predeterminada, la pestaña Todos, en SharePoint, Office.com y Búsqueda de Microsoft en Bing.
 
@@ -35,28 +35,27 @@ Para garantizar la detección de contenido de las verticales de búsqueda, se re
 
 La frecuencia con la que se muestra un clúster de resultados varía según factores como el número de verticales de búsqueda que configure y el tipo de contenido. Al interactuar o ignorar un clúster de resultados, los usuarios proporcionarán implícitamente sugerencias que ajustarán su desencadenamiento con el tiempo.
 
-La experiencia de resultados de búsqueda de los elementos de conector que se muestran en el clúster de [resultados](./customize-search-page.md#create-your-own-result-type) usa tipos de resultados definidos por usted. Si no se configura ningún tipo de resultado, [se usa un diseño generado por](./customize-search-page.md#default-search-result-layout) el sistema. 
+La experiencia de resultados de búsqueda de los elementos de conector que se muestran en el clúster de [resultados](./customize-search-page.md#create-your-own-result-type) usa tipos de resultados definidos por usted. Si no se configura ningún tipo de resultado, [se usa un diseño generado por](./customize-search-page.md#default-search-result-layout) el sistema.
 
-Se recomienda usar la propiedad "title" como título del resultado de la búsqueda y la propiedad "content" como descripción de la búsqueda. Esto proporcionará la mejor experiencia para los usuarios mediante la activación precisa del clúster de resultados y los resultados más relevantes en el clúster. 
+Se recomienda usar la propiedad "title" como título del resultado de la búsqueda y la propiedad "content" como descripción de la búsqueda. Esto proporcionará la mejor experiencia para los usuarios mediante la activación precisa del clúster de resultados y los resultados más relevantes en el clúster.
 
-## <a name="enable-result-clusters"></a>Habilitar clústeres de resultados
+Los clústeres de resultados se muestran en el medio de la página en la vertical Todo. Por ejemplo, a continuación se muestra un clúster de resultados de una vertical de 'MediaWiki'.
+
+![Ejemplo de un clúster de resultados de MediaWiki](media/result-cluster/result-cluster-example.png)
+
+## <a name="result-clusters-default-settings"></a>Configuración predeterminada de clústeres de resultados
   
-La experiencia del clúster de resultados está desactivada de forma predeterminada.  
+La experiencia del clúster de resultados está activada de forma predeterminada.  
 
-Siga estos pasos para activar la experiencia en el nivel de la organización:
+Si desea deshabilitarla, siga estos pasos para desactivar la experiencia en el nivel de la organización:
 
 1. En el [Centro de administración de Microsoft 365](https://admin.microsoft.com), vaya a [**Verticales**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/verticals).
-2. Seleccione la **vertical Todo** y, a continuación, habilite **Mostrar resultados del conector**. 
+1. Seleccione la **vertical Todo** y, a continuación, habilite **Ocultar resultados del conector**.
 
+Siga estos pasos para desactivar la experiencia en el nivel SharePoint sitio:
 
-Siga estos pasos para activar la experiencia en el nivel SharePoint sitio:
-
-1. En el SharePoint donde desea la experiencia del clúster de resultados, vaya **a Configuración**.
+1. Vaya a **Configuración** en el sitio SharePoint web
 2. Vaya a **Información del sitio** Ver toda la configuración del > **sitio**.
 3. Vaya a la sección Búsqueda de Microsoft y, a continuación, seleccione **Configurar Búsqueda de Microsoft para esta colección de sitios**.
 4. En el panel de navegación, vaya **a Experiencia personalizada** y, a continuación, seleccione **Verticales**.
-5. Seleccione la **vertical Todo** y, a continuación, habilite **Mostrar resultados del conector**.
-
-## <a name="view-the-result-cluster-experience-after-it-is-enabled"></a>Ver la experiencia del clúster de resultados después de habilitarla
-
-Después de activar la experiencia del clúster de resultados, puede tardar hasta 12 horas antes de poder verlo. Si desea la experiencia inmediatamente, puede anexar *cacheClear=true* a la dirección URL en SharePoint y Office.
+5. Seleccione la **vertical Todo** y, a continuación, habilite **Ocultar resultados del conector**.
