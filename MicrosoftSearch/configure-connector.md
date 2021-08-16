@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Introducción a la configuración de conectores de Graph de Microsoft
-ms.openlocfilehash: 0c67081d3efab421b563e82dba506da85e65cb91d34b31f128f3bcff945c68a1
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: b08363421ed143eb32c112ef53ac47cff44722e0
+ms.sourcegitcommit: 8ac77db22002d47bb461222b81b7cfc1c15a72fb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533321"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58340091"
 ---
 <!-- Previous ms.author: monaray -->
 
@@ -32,11 +32,12 @@ En este artículo se muestra el proceso básico necesario para configurar los co
 1. [Agregar un conector de Graph en el Centro de administración de Microsoft 365.](#step-1-add-a-graph-connector-in-the-microsoft-365-admin-center)
 2. [Asignar un nombre a la conexión](#step-2-name-the-connection)
 3. [Establecer la configuración de conexión](#step-3-configure-the-connection-settings)
-4. [Administrar los permisos de búsqueda](#step-4-manage-search-permissions)
-5. [Asignar etiquetas de propiedad](#step-5-assign-property-labels)
-6. [Administrar esquema](#step-6-manage-schema)
-7. [Actualizar configuración](#step-7-refresh-settings)
-8. [Revisar la conexión](#step-8-review-connection)
+4. [Seleccionar propiedades](#step-4-select-properties)
+5. [Administrar los permisos de búsqueda](#step-5-manage-search-permissions)
+6. [Asignar etiquetas de propiedad](#step-6-assign-property-labels)
+7. [Administrar esquema](#step-7-manage-schema)
+8. [Actualizar configuración](#step-8-refresh-settings)
+9. [Revisar la conexión](#step-9-review-connection)
 
 En este artículo también se incluye información sobre la solución de problemas, las limitaciones y los pasos siguientes:
 
@@ -57,7 +58,7 @@ Complete los pasos siguientes para configurar cualquiera de los conectores Graph
 
 1. Inicie sesión en su cuenta de administrador en [el Centro de administración de Microsoft 365](https://admin.microsoft.com).
 
-2. En el panel de navegación, **seleccione Configuración** y, a continuación, seleccione Buscar **& inteligencia**. Seleccione la [pestaña Conectores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/Connectors).
+2. En el panel de navegación, **seleccione Configuración** y, a continuación, seleccione Buscar **& inteligencia**. Seleccione la [pestaña Orígenes de datos](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/Connectors).
 
 3. Seleccione **+Agregar** y, a continuación, seleccione el origen de datos que desee en el menú de opciones disponibles.
 
@@ -74,24 +75,33 @@ Especifique estos atributos:
 * Name (obligatorio)
 * Id. de conexión (obligatorio)
 * Descripción (opcional)
+* Active la casilla (obligatorio)
 
 El identificador de conexión crea propiedades implícitas para el conector. Solo debe contener caracteres alfanuméricos y tener un máximo de 32 caracteres.
 
 ## <a name="step-3-configure-the-connection-settings"></a>Paso 3: Configurar las opciones de conexión
 
-El proceso para configurar las opciones de conexión varía en función del tipo de origen de datos. Consulte la información específica del conector para el tipo de origen de datos que desea agregar al espacio empresarial para completar este paso en el proceso de instalación.  
+El proceso para configurar las opciones de conexión varía en función del tipo de origen de datos. Consulte la [información específica del](/microsoftsearch/servicenow-connector#step-31-basic-authentication) conector para el tipo de origen de datos que desea agregar al espacio empresarial para completar este paso en el proceso de instalación.  
 
 Para obtener más información sobre cómo conectarse a un origen de datos local, vea [Install an on-premises data gateway](/data-integration/gateway/service-gateway-install).
 
-## <a name="step-4-manage-search-permissions"></a>Paso 4: Administrar permisos de búsqueda
+## <a name="step-4-select-properties"></a>Paso 4: Seleccionar propiedades
 
-Las listas de control de acceso (ACL) determinan qué usuarios de la organización pueden tener acceso a cada elemento de datos.  
+Puede elegir las propiedades que se indizarán mediante Búsqueda de Microsoft. 
+
+La consulta ServiceNow se puede usar para filtrar los datos antes de que se indexe Búsqueda de Microsoft; esto le da más control sobre los datos que se pueden buscar. Para obtener más información acerca de las consultas de ServiceNow, vea [Learn about ServiceNow queries](https://go.microsoft.com/fwlink/?linkid=2151447). 
+
+## <a name="step-5-manage-search-permissions"></a>Paso 5: Administrar permisos de búsqueda
+
+Las listas de control de acceso (ACL) determinan qué usuarios de la organización pueden tener acceso a cada elemento.  
 
 Algunos conectores como [Microsoft SQL](MSSQL-connector.md) y Azure Data Lake [Storage Gen2](azure-data-lake-connector.md) admiten las ACL Azure Active Directory [(Azure AD).](/azure/active-directory/)
 
 Otros conectores como [ServiceNow,](servicenow-connector.md) [Azure DevOps](azure-devops-connector.md)y [Salesforce](salesforce-connector.md) admiten la sincronización de usuarios y grupos que no son de Azure AD.  
 
-## <a name="step-5-assign-property-labels"></a>Paso 5: Asignar etiquetas de propiedades
+La selección de todos permite a todos los usuarios de la organización ver los resultados de la búsqueda de este origen de datos.
+
+## <a name="step-6-assign-property-labels"></a>Paso 6: Asignar etiquetas de propiedades
 
 Puede asignar etiquetas semánticas a las propiedades de origen en la página "Asignar etiquetas de propiedades". Las etiquetas son etiquetas conocidas proporcionadas por Microsoft que proporcionan un significado semántico. Permiten a Microsoft integrar los datos del conector en Microsoft 365 experiencias como búsqueda mejorada, tarjetas de personas, detección inteligente y mucho más.  
 
@@ -101,13 +111,13 @@ Etiqueta | Descripción
 --- | ---  
 **title** | El título del elemento que desea que se muestra en la búsqueda y otras experiencias
 **url** | La dirección URL de destino del elemento en el sistema de origen
-**createdBy** | Nombre de la persona que creó el elemento
-**lastModifiedBy** | Nombre de la persona que editó el elemento recientemente
-**authors** | Nombre de las personas que participaron o colaboraron en el elemento
-**createdDateTime** | Cuándo se creó el elemento
-**lastModifiedDateTime** | Cuándo fue el elemento editado más recientemente
-**fileName** | Nombre del elemento de archivo
-**fileExtension** | Tipo de elemento de archivo como .pdf o .word
+**Creado por** | Nombre de la persona que creó el elemento
+**Última modificación** | Nombre de la persona que editó el elemento recientemente
+**Authors** | Nombre de las personas que participaron o colaboraron en el elemento
+**Fecha y hora de creación** | Cuándo se creó el elemento
+**Hora de la fecha de la última modificación** | Cuándo fue el elemento editado más recientemente
+**Nombre de archivo** | Nombre del elemento de archivo
+**Extensión de archivo** | Tipo de elemento de archivo como .pdf o .word
 
 Las propiedades de esta página están seleccionadas previamente en función del origen de datos, pero puede cambiar esta selección si hay una propiedad diferente que sea más adecuada para una etiqueta determinada.  
 
@@ -115,7 +125,7 @@ El título **de la** etiqueta es la etiqueta más importante. Se recomienda **en
 
 Asignar etiquetas incorrectamente provocará una experiencia de búsqueda deteriorada. Está bien que algunas etiquetas no tengan asignada una propiedad.  
 
-## <a name="step-6-manage-schema"></a>Paso 6: Administrar esquema
+## <a name="step-7-manage-schema"></a>Paso 7: Administrar esquema
 
 ### <a name="content-property"></a>Content (propiedad)
 
@@ -158,7 +168,7 @@ Para todos los conectores excepto el conector de recurso compartido de archivos,
 > [!NOTE]
 > Después de crear una conexión, **no puede** modificar el esquema. Para ello, debe eliminar la conexión y crear una nueva.
 
-## <a name="step-7-refresh-settings"></a>Paso 7: Actualizar configuración
+## <a name="step-8-refresh-settings"></a>Paso 8: Actualizar configuración
 
 El intervalo de actualización determina la frecuencia con la que los datos se sincronizan entre el origen de datos y Búsqueda de Microsoft. Cada tipo de origen de datos tiene un conjunto diferente de programaciones de actualización óptimas en función de la frecuencia con la que se modifican los datos y el tipo de modificaciones.
 
@@ -181,7 +191,7 @@ Las actualizaciones incrementales son mucho más rápidas que las actualizacione
 
 <!---Change screenshot for one that shows both options in new UI (try ServiceNow)--->
 
-## <a name="step-8-review-connection"></a>Paso 8: Revisar la conexión
+## <a name="step-9-review-connection"></a>Paso 9: Revisar conexión
 
 Puede revisar toda la configuración y editar la configuración según sea necesario antes de completar la conexión. **Asegúrese de leer la información específica del conector para el origen de datos si aún no lo ha hecho.** Seleccione **Finalizar la actualización** cuando esté listo para completar la conexión.
 

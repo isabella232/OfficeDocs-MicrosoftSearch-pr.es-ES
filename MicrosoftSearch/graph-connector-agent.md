@@ -12,14 +12,13 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-ROBOTS: NoIndex
 description: Agente on-prem
-ms.openlocfilehash: 1fcd1b6848d950c9f7cefa87d086f6607ac5df4f
-ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
+ms.openlocfilehash: b6303b71910dc300ba5297fde155e538452ef99d
+ms.sourcegitcommit: 8ac77db22002d47bb461222b81b7cfc1c15a72fb
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235946"
+ms.locfileid: "58340100"
 ---
 # <a name="microsoft-graph-connector-agent"></a>Agente Graph conector de Microsoft
 
@@ -45,6 +44,8 @@ Después de instalar el agente, si los servidores proxy o firewalls de la organi
 4. https://<span>gcs.office.</span> com/
 5. https://<span>graph.microsoft.</span> com/
 
+>[!NOTE]
+>No se admite la autenticación de proxy. Si el entorno tiene un proxy que requiere autenticación, nuestra recomendación es permitir que el agente del conector omita el proxy.
 
 ## <a name="create-and-configure-an-app-for-the-agent"></a>Crear y configurar una aplicación para el agente  
 
@@ -147,6 +148,7 @@ Si usó el script de ejemplo para generar un certificado, el archivo PFX se pued
 ## <a name="troubleshooting"></a>Solución de problemas
 
 ### <a name="installation-failure"></a>Error de instalación
+
 Si se produce un error en la instalación, compruebe los registros de instalación ejecutando: msiexec /i " <path to msi>\GcaInstaller.msi" /L*V " <destination path> \install.log". Si los errores no se pueden resolver, alcanza la compatibilidad MicrosoftGraphConnectorsFeedback@service.microsoft.com con los registros.
 
 ### <a name="registration-failure"></a>Error de registro

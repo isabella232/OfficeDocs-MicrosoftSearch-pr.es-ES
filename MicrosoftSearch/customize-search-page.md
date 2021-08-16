@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Agregar verticales de búsqueda y personalizar resultados de búsqueda
-ms.openlocfilehash: 0bcb8d8588edf44d4291802d1d9c73b75fd6bf327b19f9a9b1ef0555baca38ad
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 440b9afbbeb4c4cd86b2b9f67443e644c36ce042
+ms.sourcegitcommit: 8ac77db22002d47bb461222b81b7cfc1c15a72fb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533069"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58340082"
 ---
 # <a name="customize-the-search-results-page"></a>Personalizar la página de resultados de búsqueda
 
@@ -39,7 +39,7 @@ Puede agregar verticales de búsqueda que sean relevantes para su organización.
 Ahora, una vertical de búsqueda puede obtener resultados de varios orígenes de conectores. Esto proporciona una mayor flexibilidad en el diseño de la página de resultados de búsqueda. La experiencia administrativa existente de la configuración vertical permite seleccionar varias conexiones en el paso "Origen de contenido".
 Si designa con precisión tantas etiquetas semánticas como sea posible, esta experiencia se mejorará. Puede agregar etiquetas semánticas tras la definición y la ingesta del esquema.
 
-[Esta](configure-connector.md#step-5-assign-property-labels) es la información adicional sobre cómo crear y administrar etiquetas semánticas.
+[Esta](configure-connector.md#step-6-assign-property-labels) es la información adicional sobre cómo crear y administrar etiquetas semánticas.
 
 > [!NOTE]
 > Varias conexiones en una vertical se encuentran actualmente en versión preliminar. Para obtener más información acerca de la vista previa, vea [Connectors preview features](connectors-overview.md#what-are-the-preview-features).
@@ -180,9 +180,9 @@ El operador "|" debe usarse para resolver variables de varios valores. Para obte
 
 | #         | Sintaxis |  Valor devuelto  |
 | --------- | ------ | --- |
-| 1    | MyProperty:{Profile.emails.address}  |   "Megan.Bowen@contoso.com"  |
-| 2 | MyProperty:{Profile.emails}   |    {Profile.emails} Esto no se resolverá porque los correos electrónicos son un objeto.|
-| 3    | {? MyProperty:{Profile.emails}}  |  Esto no se resolverá porque los correos electrónicos son un objeto. El "?" operador omite las variables de consulta que no se resuelven. Esta variable se quitará cuando se pase más abajo por la pila de consultas.   |
+| 1     | MyProperty:{Profile.emails.address}  |   "Megan.Bowen@contoso.com"  |
+| 2  | MyProperty:{Profile.emails}   |    {Profile.emails} Esto no se resolverá porque los correos electrónicos son un objeto.|
+| 3     | {? MyProperty:{Profile.emails}}  |  Esto no se resolverá porque los correos electrónicos son un objeto. El "?" operador omite las variables de consulta que no se resuelven. Esta variable se quitará cuando se pase más abajo por la pila de consultas.   |
 | 4  | {&#124;MyProperty: {Profile.emails.source.Type}}    |  ((MyProperty:"official") OR (MyProperty:"non-official") OR (MyProperty:"personal"))    |
 
 > [!NOTE]
