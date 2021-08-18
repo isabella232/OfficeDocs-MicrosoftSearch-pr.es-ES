@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: mssearch
 localization_priority: Normal
 description: Administrar cómo aparece el contenido de Dynamics 365 en los resultados de búsqueda
-ms.openlocfilehash: 65d6d27028f46751270cb3a50a154063de4fbab72d917f94aa8925693ac9ea2b
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: d2874febe39abf68653fa82d6a50121ebd1a357b
+ms.sourcegitcommit: fbe565b1a8994425b4f7ff0114a69044659e3892
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533655"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380037"
 ---
 # <a name="dynamics-365-federation-search-preview"></a>Búsqueda de federación de Dynamics 365 (versión preliminar)
 
@@ -25,7 +25,7 @@ Para ayudar a Búsqueda de Microsoft más útil, estamos presentando Búsqueda d
 * Datos que no pueden salir de los límites del sistema
 * Datos confidenciales almacenados localmente que su organización no quiere indizar en la nube
 
-Los datos a los que se accede a través de una conexión de búsqueda federada no se indizan en Búsqueda de Microsoft. Además, con conectores integrados de Microsoft, es fácil configurar conexiones de búsqueda federadas. Nuestro conector de Dynamics 365 está actualmente en versión preliminar. Si está interesado en unirse a la vista previa, háganoslo saber en [aka.ms/D365FederationSearchPreview](https://aka.ms/D365FederationSearchPreview).
+Los datos a los que se accede a través de una conexión de búsqueda federada no se indizan en Búsqueda de Microsoft. Además, con conectores integrados de Microsoft, es fácil configurar conexiones de búsqueda federadas. Nuestro conector de Dynamics 365 está actualmente en versión preliminar. Si está interesado en unirse a la vista previa, háganoslo saber en [aka.ms/D365FederationSearchPreview](https://aka.ms/D365FederationSearchPreview). Para ver el período de tiempo de lanzamiento, [consulte Búsqueda de Microsoft Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Search).
 
 ## <a name="dynamics-365-federation-connector"></a>Conector de federación de Dynamics 365
 
