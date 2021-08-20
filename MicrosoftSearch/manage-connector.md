@@ -13,15 +13,13 @@ search.appverid:
 - MET150
 - MOE150
 description: Administrar Microsoft Graph Connectors para Búsqueda de Microsoft.
-ms.openlocfilehash: e8cf01cb3af3dea96ba98ab65e12d54a027ab77fa92e00c354331ac887578b0f
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 0a4165af84cc11fbba4239f0204a3a7f3ce4fb25
+ms.sourcegitcommit: d276bfd1e03d1cdc1f51f70368df333da1d0111a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54532915"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "58408212"
 ---
-<!-- markdownlint-disable no-inline-html -->
-
 # <a name="monitor-your-connections"></a>Supervise las conexiones
 
 Para obtener acceso y administrar los conectores, debe estar designado como administrador de búsqueda para su inquilino. Póngase en contacto con el administrador de inquilinos para aprovisionar el rol de administrador de búsqueda.
@@ -59,11 +57,7 @@ Cinco estados se muestran en la **columna Estado** en cada conexión:
 
 La cuota de índice y el consumo disponibles se muestran en la página de aterrizaje de conectores.
 
-![Barra de uso de cuota de índice](media/quota_utilization.png)
- 
->[!NOTE]
->Durante el período de vista previa, todas las organizaciones que probaron Graph conectores se les proporcionó una cuota fija gratuita de hasta 2 millones de elementos en todas las conexiones. Con Graph conectores de Graph disponibles, la cuota gratuita expirará el 1 de abril de 2021 para las organizaciones que han estado usando conectores Graph en versión preliminar.
->Los conectores de Graph creados por Microsoft etiquetados como ["Versión preliminar"](./connectors-overview.md) no se incluirán en la cuota total de índice cargado para su organización. Sin embargo, contará para el número máximo de 10 conexiones que puede configurar para su organización y el número máximo de 7 millones de elementos que su organización puede indizar entre conexiones; cada conexión tiene un límite de 700 000 elementos. 
+:::image type="content" alt-text="Barra de uso de cuota de índice." source="media/quota_utilization.png" lightbox="media/quota_utilization.png":::
 
 La barra de uso de cuota indicará varios estados en función del consumo de cuota por parte de la organización:
 
@@ -71,12 +65,8 @@ Estado | Niveles de uso de cuota
 --- | --- 
 Normal | 0-79%
 Alto | 80-89%
-Críticas | 90%-99%
+Critico | 90%-99%
 Full | 100 %
-
-<!-- 
-![Quota utilization levels](media/connectors-quota-utilization-levels.png)
--->
 
 El número de elementos indizados también se mostrará con cada conexión. El número de elementos indizados por cada conexión contribuye a la cuota total disponible para su organización.
 
@@ -92,4 +82,4 @@ Para solucionar esto, puede hacer lo siguiente:
 
 * Identificar las conexiones que tienen demasiado contenido que se está ingiere y actualizarlas para indizar menos elementos para dar espacio a la cuota. Para actualizar la conexión, debe eliminar y crear una nueva conexión con un nuevo filtro de ingesta que traiga menos elementos.
 
-* Eliminar de forma permanente una o más conexiones
+* Elimine de forma permanente una o más conexiones.

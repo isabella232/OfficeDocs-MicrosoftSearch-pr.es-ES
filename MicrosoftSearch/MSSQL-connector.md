@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configure el conector de Azure SQL y Microsoft SQL Graph para Búsqueda de Microsoft.
-ms.openlocfilehash: 9e8a9784c139873b4584f9be0a42e51f101bd7d6
-ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
+ms.openlocfilehash: f80e3e1b86a120981c4dafd95715c00cd766f5e9
+ms.sourcegitcommit: 17cc660ec51bea11ab65f62655584c65c84a1d79
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58236028"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58406949"
 ---
 <!---Previous ms.author: vivg --->
 
@@ -75,8 +75,9 @@ Para agregar la aplicación registrada a tu Azure SQL Database, debes:
 
 Para conectar el conector Microsoft SQL Server a un origen de datos, debe configurar el servidor de base de datos que desea rastrear y el agente local. A continuación, puede conectarse a la base de datos con el método de autenticación necesario.
 
-> [!NOTE] 
-> La base de datos debe SQL Server versión 2008 o posterior para que el Microsoft SQL Server para poder conectarse.
+> [!NOTE]
+> - La base de datos debe SQL Server versión 2008 o posterior para que el Microsoft SQL Server para poder conectarse.
+> - El conector SQL gráfico de azure solo permite la ingesta de una instancia de Azure SQL en el [mismo](/azure/active-directory/develop/quickstart-create-new-tenant) espacio empresarial que Microsoft 365. No se admite el flujo de datos entre inquilinos.
 
 Para el conector SQL azure, solo debe especificar el nombre del servidor o la dirección IP a la que desea conectarse. Azure SQL connector solo admite Azure Active Directory de conexión de Open ID (OIDC) para conectarse a la base de datos.
 
@@ -104,6 +105,8 @@ En este paso, se configura la consulta SQL que ejecuta un rastreo completo de la
 En el ejemplo se muestra una selección de cinco columnas de datos que contienen los datos de la búsqueda: OrderId, OrderTitle, OrderDesc, CreatedDateTime e IsDeleted. Para establecer permisos de vista para cada fila de datos, puede seleccionar opcionalmente estas columnas de ACL: AllowedUsers, AllowedGroups, DeniedUsers y DeniedGroups. Todas estas columnas de datos también tienen las opciones **Query**, **Search** o **Retrieve**.
 
 Seleccione columnas de datos como se muestra en esta consulta de ejemplo: `SELECT OrderId, OrderTitle, OrderDesc, AllowedUsers, AllowedGroups, DeniedUsers, DeniedGroups, CreatedDateTime, IsDeleted`
+
+Tenga en cuenta que los SQL no permiten nombres de columna con caracteres no alfanuméricos en la cláusula SELECT. Quite los caracteres no alfanuméricos de los nombres de columna con un alias. Ejemplo: SELECT *column_name* AS *columnName*
 
 Para administrar el acceso a los resultados de búsqueda, puede especificar una o más columnas de ACL en la consulta. El SQL permite controlar el acceso por nivel de registro. Puede elegir tener el mismo control de acceso para todos los registros de una tabla. Si la información de acl se almacena en una tabla independiente, es posible que deba hacer una combinación con dichas tablas en la consulta.
 
@@ -217,6 +220,7 @@ A continuación se muestra un error común observado al configurar el conector y
 | Paso de configuración | Mensaje de error | Posibles motivos |
 | ------------ | ------------ | ------------ |
 | Rastreo completo | `Error from database server: A transport level error has occurred when receiving results from the server.` | Este error se produce debido a problemas de red. Se recomienda comprobar los registros de red con el monitor de red [de Microsoft](https://www.microsoft.com/download/details.aspx?id=4865) y comunicarse con el soporte técnico de Microsoft. |
+| Rastreo completo | `Column column_name returned from full crawl SQL query contains non-alphanumeric character` | Los caracteres no alfanuméricos (como los guiones bajos) no están permitidos en los nombres de columna en la cláusula SELECT. Use alias para cambiar el nombre de las columnas y quitar caracteres no alfanuméricos (ejemplo: SELECT column_name AS columnName). |
 
 ## <a name="limitations"></a>Limitaciones
 
