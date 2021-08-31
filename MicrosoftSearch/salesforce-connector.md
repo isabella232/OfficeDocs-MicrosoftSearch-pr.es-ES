@@ -7,18 +7,18 @@ audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Configurar el conector de Graph Salesforce para Búsqueda de Microsoft
-ms.openlocfilehash: ea8de1b33787e9c08e50e99ace0afaa83e75394d
-ms.sourcegitcommit: be5dcc7005447d6139e39d86211c7ec4cd5dd907
+ms.openlocfilehash: c2679002affe494ba31777718d265b5526b744c0
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58639583"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701871"
 ---
 <!---Previous ms.author: rusamai --->
 

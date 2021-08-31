@@ -6,18 +6,18 @@ manager: jameslau
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-ms.localizationpriority: medium
+localization_priority: Normal
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Pasos sobre cómo asignar identidades que no son AAD
-ms.openlocfilehash: e90db3bb8d20a0389ddbf2d2845bf91843513404
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.openlocfilehash: bece23677f07f10d40471fb6ec27c2d96e7018fb
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58701962"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58470309"
 ---
 # <a name="map-your-non-azure-ad-identities"></a>Asignar identidades que no son de Azure AD  
 

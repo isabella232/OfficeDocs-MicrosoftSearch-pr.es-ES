@@ -6,18 +6,18 @@ manager: jameslau
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-ms.localizationpriority: medium
+localization_priority: Normal
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Pasos sobre cómo asignar identidades de AAD
-ms.openlocfilehash: d0292d77b3a0936ed60682b8388de1bb82ac43bb
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.openlocfilehash: 69d4164e6d0acc245eee5c631db39ed7fb178325
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58701971"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58470300"
 ---
 # <a name="map-your-azure-ad-identities"></a>Asignar las identidades de Azure AD   
 

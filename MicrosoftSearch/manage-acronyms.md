@@ -6,18 +6,18 @@ manager: jeffkizn
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Crear y actualizar respuestas de acrónimos en Búsqueda de Microsoft
-ms.openlocfilehash: 3b0f87fb252c3e88160f1b3753aad09b1e3f5083
-ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
+ms.openlocfilehash: b7b3272ba98bbce7d43562811389df0a35e9f7a2
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58470252"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58702070"
 ---
 # <a name="manage-acronyms-answers-in-microsoft-search"></a>Administrar respuestas de acrónimos en Búsqueda de Microsoft
 

@@ -6,18 +6,18 @@ manager: parulm
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-ms.localizationpriority: medium
+localization_priority: Normal
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Obtenga información general sobre lo que Búsqueda de Microsoft, sus ventajas y qué aplicaciones admiten Búsqueda de Microsoft.
-ms.openlocfilehash: 29a6db642ac9cc787b8cbec45aec609f55722206
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.openlocfilehash: 271742f7f440004db039b4352b9486445508d3f0
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58701944"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58470336"
 ---
 # <a name="overview-of-microsoft-search"></a>Introducción a Búsqueda de Microsoft
 

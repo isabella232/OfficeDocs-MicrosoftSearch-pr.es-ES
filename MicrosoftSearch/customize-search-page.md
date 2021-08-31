@@ -6,18 +6,18 @@ manager: jeffkizn
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-ms.localizationpriority: medium
+localization_priority: Normal
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Agregar verticales de búsqueda y personalizar resultados de búsqueda
-ms.openlocfilehash: 1ca436a2617e32e285715e4fffd622dc7a571ca1
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.openlocfilehash: 701604798115091c7c7a286d3b6e97dea08e9453
+ms.sourcegitcommit: be5dcc7005447d6139e39d86211c7ec4cd5dd907
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58702178"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58639592"
 ---
 # <a name="customize-the-search-results-page"></a>Personalizar la página de resultados de búsqueda
 

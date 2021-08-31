@@ -7,18 +7,18 @@ audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-ms.localizationpriority: medium
+localization_priority: Normal
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Configurar el conector de Graph ServiceNow para Búsqueda de Microsoft
-ms.openlocfilehash: fccae6c2a007470eb9ef56130cb952158c01610c
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.openlocfilehash: 2ad75820fde0b9282ac14b64730b69704f199fc6
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58701916"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58470385"
 ---
 <!---Previous ms.author: kam1 --->
 
@@ -258,7 +258,7 @@ Si ve una respuesta prohibida o no autorizada en el estado de conexión, comprue
 #### <a name="22-check-if-servicenow-instance-behind-firewall"></a>2.2. Comprobar si la instancia de ServiceNow está detrás del firewall
 Graph Es posible que connector no pueda llegar a la instancia de ServiceNow si está detrás de un firewall de red. Necesitará permitir explícitamente el acceso a Graph connector. Puede encontrar el intervalo de direcciones IP públicas de Graph Connector Service en la tabla siguiente. En función de la región del espacio empresarial, agrégála a la lista blanca de la red de instancia de ServiceNow.
 
-**Entorno** | **Región** | **Range**
+**Entorno** | **Región** | **Rango**
 --- | --- | ---
 PROD | Norteamérica | 52.250.92.252/30, 52.224.250.216/30
 PROD | Europa | 20.54.41.208/30, 51.105.159.88/30 
