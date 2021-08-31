@@ -11,14 +11,13 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-ROBOTS: NoIndex
 description: Revisar y actuar sobre los comentarios de los usuarios en Búsqueda de Microsoft
-ms.openlocfilehash: ab6f25a8454c1c1e61488179107b3bbec96ef099d29afcce1f303a7f3e7c39e1
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 8b512f0bbfe5c72ff1a7a2296b0b76c5430e082f
+ms.sourcegitcommit: 2f5868e50caa9743d298188003a24545b5078c5b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54532896"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58528987"
 ---
 # <a name="managing-user-feedback"></a>Administración de comentarios de los usuarios
 
@@ -30,7 +29,7 @@ Ahora ofrecemos herramientas que le permitirán revisar y administrar los coment
 
 A medida que los usuarios de la organización usan Búsqueda de Microsoft, es posible que tengan comentarios sobre la experiencia. Cuando hacen clic en un vínculo de comentarios en la página de resultados, pueden clasificar sus comentarios e incluir comentarios adicionales.
 
-![Formulario de comentarios globales](media/feedback/feedback-global-dialog.png)
+![Formulario de comentarios globales.](media/feedback/feedback-global-dialog.png)
 
 Los usuarios también tienen la opción de enviar su consulta y otra información de diagnóstico, junto con la categoría y los comentarios, a Microsoft. [Obtenga más información](https://privacy.microsoft.com/en-US/privacystatement) sobre privacidad y cómo protegemos estos datos. Los datos de diagnóstico contienen la información más crítica que Microsoft necesita para usar el elemento de comentarios para la mejora del producto.
 
@@ -45,6 +44,9 @@ Mediante el uso de un filtro, puede ver comentarios para tipos de respuesta espe
 Puede usar el cuadro de búsqueda encima de la lista de comentarios para buscar comentarios en una consulta específica.
 
 En la lista de comentarios, la columna Verbatim indica qué comentarios del usuario también incluyen un comentario o sugerencia. Para leerlo, haga clic en la consulta para abrir **el** panel Detalles.
+
+>[!NOTE]
+>Durante el lanzamiento inicial en las experiencias de búsqueda de administrador y usuario final, los elementos de comentarios pueden tardar hasta dos semanas en aparecer en el portal de administración.
 
 ## <a name="update-feedback-state"></a>Estado de comentarios de actualización
 

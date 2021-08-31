@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar los sitios Enterprise web Graph para Búsqueda de Microsoft
-ms.openlocfilehash: 002a1504915c2c882492c894595e39598c692bcf
-ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
+ms.openlocfilehash: 2be52bc83718c2450ad91444a6176f5f63c03890
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235929"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58469982"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -64,7 +64,7 @@ Cuando se selecciona, el conector solo rastreará las direcciones URL que aparec
 Si su sitio web contiene contenido dinámico, por ejemplo, páginas web que viven en sistemas de administración de contenido como Confluence o Unily, puede habilitar un rastreador dinámico. Para activarlo, seleccione **Habilitar rastreo para sitios dinámicos.** El rastreador esperará a que se represente el contenido dinámico antes de comenzar el rastreo.
 
 > [!div class="mx-imgBorder"]
-> ![Captura de pantalla del panel Configuración conexión para Enterprise conector web](media/enterprise-web-connector/connectors-enterpriseweb-connectionsettings-dynamicconfig-small.png)
+> ![Captura de pantalla del panel Configuración conexión para Enterprise conector web.](media/enterprise-web-connector/connectors-enterpriseweb-connectionsettings-dynamicconfig-small.png)
 
 Además de la casilla, hay tres campos opcionales disponibles:
 

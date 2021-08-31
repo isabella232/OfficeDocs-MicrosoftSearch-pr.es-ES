@@ -7,18 +7,18 @@ audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Configurar el conector de azure data lake Storage Gen2 Graph para Búsqueda de Microsoft
-ms.openlocfilehash: 10bccfc0af144c22f280819d96e21be13ae1c2aad273364499296b6289d3a1e5
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: f60de4252e514f84bc92daf4ea65c535cf40a13d
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533369"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701403"
 ---
 <!---Previous ms.author: monaray --->
 

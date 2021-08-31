@@ -6,18 +6,18 @@ manager: parulm
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Proteja los datos y los usuarios finales de su empresa mientras proporciona información a los usuarios autorizados con Búsqueda de Microsoft en Bing
-ms.openlocfilehash: 181a06ecb9c009d03c71e3e7f8ecfc7d675faa659967bc6a6c1560513a45a5ac
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: bf3629b2508c705d19e3b7b772c6f3672063a6f1
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54532681"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701862"
 ---
 # <a name="security-and-privacy-for-microsoft-search-in-bing"></a>Seguridad y privacidad para Búsqueda de Microsoft en Bing
 

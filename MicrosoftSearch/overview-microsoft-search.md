@@ -6,18 +6,18 @@ manager: parulm
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Obtenga información general sobre lo que Búsqueda de Microsoft, sus ventajas y qué aplicaciones admiten Búsqueda de Microsoft.
-ms.openlocfilehash: 8992f9683bd2ad72d7084ff6fb2dcd08dc7d14ef6307161a69f7b54d6d150bd6
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 29a6db642ac9cc787b8cbec45aec609f55722206
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54534012"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701944"
 ---
 # <a name="overview-of-microsoft-search"></a>Introducción a Búsqueda de Microsoft
 
@@ -32,17 +32,17 @@ Búsqueda de Microsoft ayuda a los usuarios a encontrar las respuestas, las pers
 
 ## <a name="what-users-see"></a>Qué ven los usuarios
 
-En [Bing](https://bing.com), los usuarios usan el mismo cuadro de búsqueda que para las búsquedas web. En las Office, los usuarios encuentran el Búsqueda de Microsoft en la barra de encabezado. Tiene el siguiente aspecto:
+En [Bing](https://bing.com), los usuarios usan el mismo cuadro de búsqueda que para las búsquedas web. En las Office, los usuarios encuentran el Búsqueda de Microsoft en la barra de encabezado. Tiene este aspecto:
 
-![Capturas de pantalla de ventanas de aplicaciones con el cuadro de Búsqueda de Microsoft en la barra del encabezado](media/Headings_520.png)
+![Capturas de pantalla de las ventanas de la aplicación Búsqueda de Microsoft cuadro en la barra de encabezado.](media/Headings_520.png)
 
 Cuando los usuarios hacen clic en **el** cuadro Búsqueda, la búsqueda sugiere resultados basados en su actividad anterior en Office 365 y en función del contenido que está en tendencia en su organización. Los archivos en los que estaban trabajando recientemente, los comandos que han usado recientemente, así como las personas con las que colaboran son ejemplos de actividad que la búsqueda considera. A medida que los usuarios empiezan a escribir en el **cuadro** De búsqueda, los resultados sugeridos se actualizan. Los usuarios pueden abrir los resultados de búsqueda directamente desde **el cuadro** De búsqueda. Este es un ejemplo de una búsqueda en [SharePoint](http://sharepoint.com/).
 
-![Capturas de pantalla del cuadro de Búsqueda de Microsoft con una consulta y los resultados sugeridos](media/SERP_text_520.png)
+![Capturas de pantalla del Búsqueda de Microsoft con una consulta y resultados sugeridos.](media/SERP_text_520.png)
 
 Si las sugerencias del cuadro de búsqueda no son las que buscan los usuarios, **Entrar** abre la lista completa de resultados. Pueden usar metadatos como quién modificó por última vez el elemento y cuándo, dónde se encuentra el elemento, así como obtener una vista previa de él para determinar si es lo que buscan.
 
-![Capturas de pantalla de página de resultados de Búsqueda de Microsoft](media/search_box.png)
+![Capturas de pantalla de la Búsqueda de Microsoft de resultados.](media/search_box.png)
 
 ## <a name="benefits-of-microsoft-search"></a>Ventajas de Búsqueda de Microsoft
 

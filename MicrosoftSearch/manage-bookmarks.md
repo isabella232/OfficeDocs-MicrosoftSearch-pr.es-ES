@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Crear y actualizar marcadores y formas de editar de forma masiva los resultados de los marcadores Búsqueda de Microsoft
-ms.openlocfilehash: ed46583d857d97fa28773b64401ae4f85f88650a
-ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
+ms.openlocfilehash: 67833ba563f8f4081cc6291db968542ba32df79f
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235961"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58470243"
 ---
 # <a name="manage-bookmarks"></a>Administrar marcadores
 
@@ -104,7 +104,7 @@ Para evitar errores de duplicación de marcador a marcador:
 
 Para reducir el esfuerzo manual necesario para agregar marcadores, Búsqueda de Microsoft evaluar los vínculos de SharePoint de la organización y recomendar marcadores. Puede revisarlas antes de publicarlas o establecerlas para que se publiquen automáticamente. No se necesita ninguna configuración para los marcadores recomendados, están habilitados y establecidos en autopublicar de forma predeterminada. Para cambiar esta configuración en cualquier momento, seleccione **Administrar marcadores** para abrir el panel Configuración de marcadores.
 
-![Captura de pantalla de la configuración de marcador recomendada en el Microsoft 365 de administración](media/bookmarks-recommendedsettings.png)
+![Captura de pantalla de la configuración de marcador recomendada en el Microsoft 365 de administración.](media/bookmarks-recommendedsettings.png)
 
 Si se habilitan los marcadores recomendados, el motor de recomendación evaluará los SharePoint de la organización para identificar vínculos de alto tráfico. Después de un período de evaluación inicial, los marcadores recomendados se publicarán automáticamente o se agregarán a la lista de marcadores sugeridos. A continuación, se iniciará el siguiente ciclo, un período de evaluación de 30 días seguido de la publicación automática o la adición de marcadores sugeridos.
 
@@ -120,7 +120,7 @@ Para evitar que el motor de recomendación publique o sugiera un marcador en un 
 
 Un marcador puede tener varias palabras clave y compartir la misma palabra clave, pero la palabra clave reservada no se puede compartir. Una palabra clave reservada es un término o frase único que desencadena un marcador específico. Una palabra clave reservada solo se puede asociar con una respuesta. Use palabras clave reservadas con moderación.
 
-## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
+## <a name="frequently-asked-questions"></a>Preguntas frecuentes.
 
 **P: ¿Cuánto tiempo se necesita para que un marcador esté visible en Búsqueda de Microsoft después de su publicación?**
 

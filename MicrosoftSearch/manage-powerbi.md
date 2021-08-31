@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Administrar cómo Power BI informes y datos en los resultados de búsqueda
-ms.openlocfilehash: a9148ab621703d89ddbe0f225ac2b0697748d8a2e85ffe96cec1763e04deeda9
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 951b1849cd3c9f60e93c98bde189eef85680b372
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533626"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58470261"
 ---
 # <a name="manage-power-bi-answers"></a>Administrar Power BI respuestas
 
@@ -42,18 +42,18 @@ Búsqueda de Microsoft usuarios pueden encontrar resultados Power BI búsqueda d
 
 Reemplace en los ejemplos anteriores por la información que está buscando, como `<topic>` ventas, uso, capacidad, 2021, Q1 y más, para ver los resultados relevantes de Power BI.
 
-:::image type="content" source="media/powerbi-answers/powerbi-serp.png" alt-text="Captura de pantalla de un SERP con Power BI respuestas y vertical" border="true":::
+:::image type="content" source="media/powerbi-answers/powerbi-serp.png" alt-text="Captura de pantalla de un SERP con Power BI respuestas y vertical." border="true":::
 
 ## <a name="turn-power-bi-search-on-or-off"></a>Activar Power BI o desactivar la búsqueda
 
 Power BI los resultados están habilitados para su organización de forma predeterminada. El Power BI puede deshabilitarlos en cualquier momento. En el portal Power BI administración, vaya a Configuración de inquilino y deshabilite la opción Usar **búsqueda global para Power BI** usuario. Para obtener más información, vea [Administering Power BI in the admin portal](/power-bi/admin/service-admin-portal#use-global-search-for-power-bi-preview).
 
-:::image type="content" source="media/powerbi-answers/powerbi-admin.png" alt-text="Captura de pantalla de la configuración para activar o desactivar Power BI respuestas" border="true":::
+:::image type="content" source="media/powerbi-answers/powerbi-admin.png" alt-text="Captura de pantalla de la configuración para activar o desactivar Power BI respuestas." border="true":::
 
 > [!NOTE]
 > Al usar Búsqueda de Microsoft, la consulta de búsqueda y los resultados devueltos de Power BI pueden procesarse en una región o una geografía que sea diferente a donde se encuentran los datos del espacio empresarial Power BI usuario.
 
-## <a name="frequently-asked-questions"></a>preguntas más frecuentes
+## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
 **P: ¿Power BI búsqueda habilitada de forma predeterminada?**
 

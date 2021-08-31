@@ -7,18 +7,18 @@ audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Configurar el conector Azure DevOps Graph para Búsqueda de Microsoft
-ms.openlocfilehash: b7c5ab48288fdc421cda87b8afbadf08b8cf42ef023e8f56decd7b5c177c619a
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: fcf381a92ef397f900b300ca667fa80067a6672a
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533348"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701394"
 ---
 <!---Previous ms.author: shgrover --->
 
@@ -66,7 +66,7 @@ Campos obligatorios | Descripción | Valor recomendado
 | Nombre de la aplicación     | Valor único que identifica la aplicación que está autorizando.    | Búsqueda de Microsoft     |
 | Sitio web de la aplicación  | La dirección URL de la aplicación que solicitará acceso a la instancia Azure DevOps durante la instalación del conector. (Obligatorio).  | https://<span>gcs.office.</span> com/
 | Url de devolución de llamada de autorización        | Dirección URL de devolución de llamada necesaria a la que redirige el servidor de autorización. | https://<span>gcs.office.</span> com/v1.0/admin/oauth/callback|
-| Ámbitos autorizados | El ámbito de acceso de la aplicación | Seleccione los siguientes ámbitos: Identity (read), Work Items (read), Variable Groups (read), Project and team (read), Graph (read)|
+| Ámbitos autorizados | El ámbito de acceso de la aplicación | Seleccione los siguientes ámbitos: Identity (read), Work Items (read), Variable Groups (read), Project and team (read), Graph (read), Analytics (read)|
 
 >[!IMPORTANT]
 >Los ámbitos autorizados que selecciones para la aplicación deben coincidir exactamente con los ámbitos indicados anteriormente. Si omite uno de los ámbitos autorizados de la lista o agrega otro ámbito, se producirá un error en la autorización.
@@ -80,7 +80,7 @@ Al registrar la aplicación con los detalles anteriores, tendrás  el identifica
 
 Después de registrar la aplicación Búsqueda de Microsoft con Azure DevOps, puedes completar el paso de configuración de conexión. Escriba el nombre de la organización, el identificador de la aplicación y el secreto de cliente.
 
-![Aplicación de conexión Configuración](media/ADO_Connection_settings_2.png)
+![Aplicación de conexión Configuración.](media/ADO_Connection_settings_2.png)
 
 ### <a name="configure-data-select-projects-and-fields"></a>Configurar datos: seleccionar proyectos y campos
 
@@ -90,11 +90,11 @@ Si elige indizar toda la organización, los elementos de todos los proyectos de 
 
 Si elige proyectos individuales, solo se indizarán los elementos de trabajo de esos proyectos.
 
-![Configurar datos](media/ADO_Configure_data.png)
+![Configurar datos.](media/ADO_Configure_data.png)
 
 A continuación, seleccione los campos que desea que la conexión indexe y obtenga una vista previa de los datos de estos campos antes de continuar.
 
-![Elegir propiedades](media/ADO_choose_properties.png)
+![Elija propiedades.](media/ADO_choose_properties.png)
 
 ## <a name="step-4-manage-search-permissions"></a>Paso 4: Administrar permisos de búsqueda
 
@@ -119,15 +119,19 @@ Siga las instrucciones [generales de configuración](./configure-connector.md).
 
 >[!TIP]
 >**Tipo de resultado predeterminado**
->* El Azure DevOps registra automáticamente un tipo [de resultado](./customize-search-page.md#step-2-create-the-result-types) una vez que se publica el conector. El tipo de resultado usa un diseño de resultados generado [dinámicamente](./customize-results-layout.md) en función de los campos seleccionados en el paso 3. 
+>* El Azure DevOps registra automáticamente un tipo [de resultado](./customize-search-page.md#step-2-create-result-types) una vez que se publica el conector. El tipo de resultado usa un diseño de resultados generado [dinámicamente](./customize-results-layout.md) en función de los campos seleccionados en el paso 3. 
 >* Para administrar el tipo de resultado, vaya a [**Tipos de resultados**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes) en el [Centro de administración de Microsoft 365](https://admin.microsoft.com). El tipo de resultado predeterminado se denominará `ConnectionId` "Predeterminado". Por ejemplo, si el identificador de conexión es , el diseño `AzureDevOps` de resultados se denominará: "AzureDevOpsDefault"
 >* Además, puede elegir crear su propio tipo de resultado si es necesario.
 
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 
 instructions.-->
 
-<!---## Troubleshooting-->
-<!---Insert troubleshooting recommendations for this data source-->
+## <a name="troubleshooting"></a>Solución de problemas
+A continuación se muestra un error común observado al configurar el conector y su posible motivo.
+
+| Paso de configuración | Mensaje de error | Posibles motivos |
+| ------------ | ------------ | ------------ |
+|  | `The account associated with the connector doesn't have permission to access the item.` | La aplicación registrada no tiene ninguno de los ámbitos OAuth necesarios. (Nota: el 31/8/2021 se introdujo un nuevo requisito de ámbito de OAuth "Analytics:read")  |
 
 <!---## Limitations-->
 <!---Insert limitations for this data source-->

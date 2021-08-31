@@ -7,18 +7,18 @@ audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Introducción a la configuración de conectores de Graph de Microsoft
-ms.openlocfilehash: b08363421ed143eb32c112ef53ac47cff44722e0
-ms.sourcegitcommit: 8ac77db22002d47bb461222b81b7cfc1c15a72fb
+ms.openlocfilehash: 3b8ae9068b445e09f2df95fb5b29feb5ec3af74b
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58340091"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701880"
 ---
 <!-- Previous ms.author: monaray -->
 
@@ -212,6 +212,6 @@ Para obtener información sobre las limitaciones que se aplican a todos los orí
 
 Consulte la información específica del conector para el origen de datos para averiguar si se aplican otras limitaciones a ese conector de Graph específico.
 
-## <a name="next-steps"></a>Siguientes pasos
+## <a name="next-steps"></a>Pasos siguientes
 
 Después de publicar la conexión, debe personalizar la página de resultados de búsqueda. Para obtener información sobre cómo personalizar los resultados de búsqueda, [vea Personalizar la página de resultados de búsqueda](customize-search-page.md).

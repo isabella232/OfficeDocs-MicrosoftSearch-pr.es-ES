@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Crear y actualizar respuestas de acrónimos en Búsqueda de Microsoft
-ms.openlocfilehash: 14b46e8f689a4df1e41d1852f49157faf67f7fdece2fa09fb740b5652d719a34
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 3b0f87fb252c3e88160f1b3753aad09b1e3f5083
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54532924"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58470252"
 ---
 # <a name="manage-acronyms-answers-in-microsoft-search"></a>Administrar respuestas de acrónimos en Búsqueda de Microsoft
 
@@ -27,7 +27,7 @@ Las organizaciones no siempre tienen una sola referencia para su terminología e
 
 ## <a name="what-users-experience"></a>Qué experiencia tienen los usuarios
 
-Búsqueda de Microsoft usuarios pueden obtener definiciones con acrónimos en [Bing](https://Bing.com), [SharePoint](https://products.office.com/sharepoint/collaboration)y [Office 365](https://Office.com). En el **cuadro Buscar,** los usuarios escriben consultas como estos ejemplos:
+Búsqueda de Microsoft usuarios pueden obtener definiciones con acrónimos en [Bing](https://Bing.com), [SharePoint](https://products.office.com/sharepoint/collaboration), [Office 365](https://Office.com), Outlook en la Web, Outlook Mobile (Android) y Teams Mobile (iOS y Android). En el **cuadro Buscar,** los usuarios escriben consultas como estos ejemplos:
 
 - *Qué es* DNN
 - *Definir* DNN
@@ -59,7 +59,7 @@ Los administradores de búsqueda pueden agregar acrónimos en la pestaña [Acró
 **Estado publicado**. Los acrónimos están disponibles para los usuarios de la organización a través de Búsqueda de Microsoft.
 
 > [!NOTE]
-> Los acrónimos agregados al estado publicado pueden tardar hasta tres días en estar disponibles en Búsqueda de Microsoft.
+> Los acrónimos agregados al estado publicado tardan hasta un día en estar disponibles en Búsqueda de Microsoft.
 
 **Estado de borrador**. Si desea revisar un acrónimo antes de hacerlo disponible en Búsqueda de Microsoft, puede agregar el acrónimo en un estado Borrador. Las siglas en estado Borrador no aparecerán en los resultados de la búsqueda. Deberá mover el acrónimo al estado Publicado para que aparezca en los resultados de la búsqueda.
 
@@ -100,19 +100,23 @@ Búsqueda de Microsoft se asegura de que solo los usuarios con acceso y permisos
 > [!NOTE]
 > No se necesita ninguna configuración para acrónimos seleccionados por el sistema.
 
-## <a name="frequently-asked-questions"></a>Preguntas frecuentes
+## <a name="frequently-asked-questions"></a>Preguntas frecuentes.
 
 **P: ¿Cómo se clasifican los datos seleccionados por el administrador y los del sistema?**
 
 **A:** La clasificación de los resultados puede variar de una persona a otra, ya que los resultados son personalizados para cada usuario. Ninguna de estas categorías siempre tendrá prioridad sobre la otra.
 
-**P: ¿Cuánto tiempo se necesita para que los acrónimos seleccionados por el administrador sean visibles en Búsqueda de Microsoft después de su publicación?**
-
-**A:**  Los acrónimos agregados al estado publicado tardan hasta un día en estar disponibles en Búsqueda de Microsoft.
-
 **P: ¿Cómo desencadenan los usuarios las respuestas a las siglas?**
 
-**A**: Para obtener respuestas de acrónimos, los usuarios deben escribir patrones de consulta específicos en un cuadro de búsqueda Bing [,](https://bing.com) [SharePoint](https://products.office.com/sharepoint/collaboration)o [Office 365](https://Office.com) **búsqueda.**
+**A:** Para obtener respuestas de acrónimos, los usuarios deben escribir patrones de consulta específicos en un cuadro de búsqueda de [Bing](https://bing.com), [SharePoint](https://products.office.com/sharepoint/collaboration), [Office 365](https://Office.com), Outlook en la Web, Outlook Mobile (Android) o Teams Mobile (iOS y Android). 
+
+**P: ¿Pueden los usuarios escribir solo el acrónimo al buscar?**
+
+**A:** En Bing, los usuarios ahora pueden encontrar respuestas acrónimos solo buscando un acrónimo, ya no se necesita una palabra clave. Esta misma experiencia se habilitará para otros Búsqueda de Microsoft de entrada en fases.
+
+**P: ¿Cuánto tiempo se necesita para que los acrónimos seleccionados por el administrador sean visibles en Búsqueda de Microsoft después de su publicación?**
+
+**A:** Los acrónimos agregados al estado publicado tardan hasta un día en estar disponibles en Búsqueda de Microsoft.
 
 **P: ¿Cuánto tiempo se necesita para que aparezcan las siglas del sistema después de recibir o enviar un nuevo correo electrónico o documento?**
 
@@ -124,7 +128,7 @@ Búsqueda de Microsoft se asegura de que solo los usuarios con acceso y permisos
 
 **P: ¿Cuánto tiempo se necesita para excluir un acrónimo de los Búsqueda de Microsoft resultados?**
 
-**A**: Un acrónimo excluido tarda hasta un día en dejar de aparecer en los resultados de la búsqueda.
+**A:** Un acrónimo excluido tarda hasta un día en dejar de aparecer en los resultados de búsqueda.
 
 **P: Para los acrónimos seleccionados por el sistema, ¿los documentos deben estar en un formato específico?**
 
@@ -132,9 +136,9 @@ Búsqueda de Microsoft se asegura de que solo los usuarios con acceso y permisos
 
 **P: ¿Detectará Microsoft acrónimos de documentos en todos los idiomas?**
 
-**A**: Microsoft solo admite acrónimos del sistema de documentos en inglés, español, francés, italiano, alemán y portugués. La compatibilidad con otros idiomas se agregará en fases.
+**A:** Microsoft solo admite acrónimos seleccionados por el sistema de documentos en inglés, español, francés, italiano, alemán y portugués. La compatibilidad con otros idiomas se agregará en fases.
 
 **P: ¿Qué ocurre si mi organización no quiere mostrar acrónimos seleccionados por el sistema? ¿Puedo dejar de mostrar este tipo de acrónimo en mis resultados de búsqueda?**
 
-**A**: Para desactivar la presentación de acrónimos seleccionados por el sistema en los resultados de la búsqueda, cree un vale de soporte al cliente siguiendo las instrucciones del soporte técnico de contacto para [productos empresariales](/microsoft-365/admin/contact-support-for-business-products).
+**A:** Para desactivar la presentación de acrónimos seleccionados por el sistema en los resultados de la búsqueda, cree un vale de soporte al cliente siguiendo las instrucciones en Póngase en contacto con el soporte técnico para [productos empresariales](/microsoft-365/admin/contact-support-for-business-products).
 Después de crear un vale de soporte técnico, los acrónimos seleccionados por el sistema tardan hasta 48 horas en dejar de aparecer en los resultados de la búsqueda.

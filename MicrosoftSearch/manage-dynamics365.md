@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: mssearch
 localization_priority: Normal
 description: Administrar cómo aparece el contenido de Dynamics 365 en los resultados de búsqueda
-ms.openlocfilehash: d2874febe39abf68653fa82d6a50121ebd1a357b
-ms.sourcegitcommit: fbe565b1a8994425b4f7ff0114a69044659e3892
+ms.openlocfilehash: ff7b1d86716233910ba6c1ba3141fbe13beb5a98
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380037"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58470234"
 ---
 # <a name="dynamics-365-federation-search-preview"></a>Búsqueda de federación de Dynamics 365 (versión preliminar)
 
@@ -49,7 +49,7 @@ Desde la respuesta, es fácil ver más resultados de búsqueda de Dynamics 365 m
 
 Al hacer clic o pulsar en cualquier resultado se abre Dynamics 365 y se muestra la información detallada.
 
-:::image type="content" alt-text="Captura de pantalla de la página de detalles en Dynamics 365" source="media/dynamics365/dynamics365-detail-page.png" lightbox="media/dynamics365/dynamics365-detail-page.png":::
+:::image type="content" alt-text="Captura de pantalla de la página de detalles en Dynamics 365." source="media/dynamics365/dynamics365-detail-page.png" lightbox="media/dynamics365/dynamics365-detail-page.png":::
 
 Independientemente de dónde los usuarios inicien su búsqueda, su experiencia será coherente y les permitirá encontrar rápidamente los resultados más relevantes de Dynamics 365. Consulte nuestro vídeo de Microsoft Build 2021 para ver una demostración.
 
@@ -97,6 +97,6 @@ Con esta configuración sencilla, puede habilitar la experiencia de búsqueda de
 
 7. Seleccione **Guardar para** finalizar la configuración de conexión.
 
-:::image type="content" alt-text="Captura de pantalla del panel de configuración de Dynamics 365 en el Centro de administración de Microsoft 365" source="media/dynamics365/dynamic365-connection-setup.png" lightbox="media/dynamics365/dynamic365-connection-setup.png":::
+:::image type="content" alt-text="Captura de pantalla del panel de configuración de Dynamics 365 en el Centro de administración de Microsoft 365." source="media/dynamics365/dynamic365-connection-setup.png" lightbox="media/dynamics365/dynamic365-connection-setup.png":::
 
 Una vez completada la instalación, las respuestas y verticales de Dynamics 365 solo aparecerán para los usuarios con una licencia válida de Dynamics 365 y acceso al entorno de Dynamics 365 conectado. En cualquier momento, puede volver a esta configuración y cambiar el entorno del extremo de conexión o desactivar la conexión.

@@ -7,19 +7,19 @@ audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ROBOTS: NoIndex
 description: Configure el conector de SQL Graph oracle para Búsqueda de Microsoft.
-ms.openlocfilehash: 21585d1d60e5dcd73a45a3ccda151fbb144e85eb
-ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
+ms.openlocfilehash: 804bee89f8529630df5741f68b9f112c69307b4f
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58236009"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701430"
 ---
 <!---Previous ms.author:vivg --->
 
@@ -66,7 +66,7 @@ En este paso, se configura la consulta SQL que ejecuta un rastreo completo de la
 > [!Tip]
 > Para obtener todas las columnas que necesita, puede unir varias tablas.
 
-![Script que muestra OrderTable y AclTable con propiedades de ejemplo](media/MSSQL-fullcrawl.png)
+![Script que muestra OrderTable y AclTable con propiedades de ejemplo.](media/MSSQL-fullcrawl.png)
 
 ### <a name="select-data-columns-required-and-acl-columns-optional"></a>Seleccionar columnas de datos (obligatorio) y columnas acl (opcional)
 
@@ -83,7 +83,7 @@ A continuación se describe el uso de cada una de las columnas acl de la consult
 * **DeniedUsers:** esta opción especifica la lista de usuarios que no **tienen** acceso a los resultados de búsqueda. En el siguiente ejemplo, los usuarios john@contoso.com y keith@contoso.com no tienen acceso al registro con OrderId = 13, mientras que todos los demás tienen acceso a este registro.
 * **DeniedGroups:** esta opción especifica el grupo de usuarios que no tienen **acceso** a los resultados de búsqueda. En el siguiente ejemplo, los grupos engg-team@contoso.com y pm-team@contoso.com no tienen acceso al registro con OrderId = 15, mientras que todos los demás tienen acceso a este registro.  
 
-![Datos de ejemplo que muestran OrderTable y AclTable con propiedades de ejemplo](media/MSSQL-ACL1.png)
+![Datos de ejemplo que muestran OrderTable y AclTable con propiedades de ejemplo.](media/MSSQL-ACL1.png)
 
 ### <a name="supported-data-types"></a>Tipos de datos admitidos
 
@@ -111,7 +111,7 @@ Cree fragmentos de código de consulta para marcas de agua como se muestra en es
 
 En la configuración que se muestra en la siguiente imagen, `CreatedDateTime` se encuentra la columna de marca de agua seleccionada. Para capturar el primer lote de filas, especifique el tipo de datos de la columna de marca de agua. En este caso, el tipo de datos es `DateTime` .
 
-![Configuración de columna de marca de agua](media/MSSQL-watermark.png)
+![Configuración de columna de marca de agua.](media/MSSQL-watermark.png)
 
 La primera consulta captura el primer **número N** de filas mediante: "CreatedDateTime > 1 de enero de 1753 00:00:00" (valor mínimo del tipo de datos DateTime). Después de capturar el primer lote, el valor más alto de devuelto en el lote se guarda como punto de control si las filas se ordenan `CreatedDateTime` en orden ascendente. Un ejemplo es el 1 de marzo de 2019 03:00:00. A continuación, se captura el siguiente lote de filas **N** mediante "CreatedDateTime > March 1, 2019 03:00:00" en la consulta.
 
@@ -119,7 +119,7 @@ La primera consulta captura el primer **número N** de filas mediante: "CreatedD
 
 Para excluir las filas eliminadas temporalmente en la base de datos para que no se indexe, especifique el nombre y el valor de la columna de eliminación temporal que indica que la fila se ha eliminado.
 
-![Configuración de eliminación temporal: "Columna de eliminación temporal" y "Valor de la columna de eliminación temporal que indica una fila eliminada"](media/MSSQL-softdelete.png)
+![Configuración de eliminación temporal: "Columna de eliminación temporal" y "Valor de la columna de eliminación temporal que indica una fila eliminada".](media/MSSQL-softdelete.png)
 
 ### <a name="full-crawl-manage-search-permissions"></a>Rastreo completo: administrar permisos de búsqueda
 
@@ -133,7 +133,7 @@ Se admiten los siguientes tipos de id. para usar como ACL:
 * **Azure Active Directory (AAD):** en Azure AD, cada usuario o grupo tiene un identificador de objeto similar a 'e0d3ad3d-0000-1111-2222-3c5f5c52ab9b'
 * Id. de seguridad de **Active Directory (AD):** en una configuración de AD local, todos los usuarios y grupos tienen un identificador de seguridad único inmutable que tiene un aspecto similar a 'S-1-5-21-3878594291-2115959936-132693609-65242.'
 
-![Configuración de permisos de búsqueda para configurar listas de control de acceso](media/MSSQL-ACL2.png)
+![Configuración de permisos de búsqueda para configurar listas de control de acceso.](media/MSSQL-ACL2.png)
 
 ## <a name="step-3b-incremental-crawl-optional"></a>Paso 3b: Rastreo incremental (opcional)
 

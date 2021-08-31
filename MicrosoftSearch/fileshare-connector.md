@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Configurar el conector de Graph recurso compartido de archivos para Búsqueda de Microsoft
-ms.openlocfilehash: 71bcc86c2a1bf2f3d20693028ce006812aa170b5
-ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
+ms.openlocfilehash: b91f10704b536ecc3a62c492ef23ba8745c4dcf8
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235919"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58469955"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -82,7 +82,7 @@ Las reglas para escribir expresiones regulares se pueden [encontrar aquí](https
 
 El administrador también tendría la capacidad de dar una excepción a la regla de límite. La prioridad de la regla de excepción reemplazará a las reglas de límite. De forma similar, la excepción podría definirse al dar ruta de acceso de carpeta o archivo para los elementos que queremos incluir en la indización.
 
-![Límites y excepciones](media/file-connector/ExclusionRule.png)
+![Límites y excepciones.](media/file-connector/ExclusionRule.png)
 
 ## <a name="step-5-manage-search-permissions"></a>Paso 5: Administrar permisos de búsqueda
 
@@ -92,7 +92,7 @@ Tenga en cuenta que windows proporciona de forma predeterminada el permiso "Leer
 
 Solo puede elegir Compartir ACL si la ruta de acceso al recurso compartido que proporcionó sigue el formato de ruta UNC. Puede crear una ruta de acceso en formato UNC yendo a "Uso compartido avanzado" en la opción "Uso compartido".
 
-![Advanced_sharing](media/file-connector/file-advanced-sharing.png)
+![Advanced_sharing.](media/file-connector/file-advanced-sharing.png)
 
 ## <a name="step-6-assign-property-labels"></a>Paso 6: Asignar etiquetas de propiedades
 

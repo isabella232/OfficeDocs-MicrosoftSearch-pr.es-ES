@@ -7,18 +7,18 @@ audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Administrar Microsoft Graph Connectors para Búsqueda de Microsoft.
-ms.openlocfilehash: 0a4165af84cc11fbba4239f0204a3a7f3ce4fb25
-ms.sourcegitcommit: d276bfd1e03d1cdc1f51f70368df333da1d0111a
+ms.openlocfilehash: dd82114ff6aa651b57ce1941685840906ecf7318
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "58408212"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58702052"
 ---
 # <a name="monitor-your-connections"></a>Supervise las conexiones
 

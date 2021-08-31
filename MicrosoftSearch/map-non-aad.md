@@ -6,18 +6,18 @@ manager: jameslau
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Pasos sobre cómo asignar identidades que no son AAD
-ms.openlocfilehash: 48f462318b005f426cd2e0ee3ade0ee895b1c38b36ccf53faf5631a5c002c3d6
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: e90db3bb8d20a0389ddbf2d2845bf91843513404
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533575"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701962"
 ---
 # <a name="map-your-non-azure-ad-identities"></a>Asignar identidades que no son de Azure AD  
 
@@ -80,7 +80,7 @@ Después de proporcionar la fórmula,  opcionalmente puede hacer clic en Vista p
 
 Vea la instantánea siguiente para obtener una asignación de ejemplo que no es de Azure AD.
 
-![Instantánea de ejemplo de cómo rellenar la página de asignación que no es de Azure AD](media/non-aad-mapping.png)
+![Instantánea de ejemplo de cómo rellenar la página de asignación que no es de Azure AD.](media/non-aad-mapping.png)
 
 ## <a name="limitations"></a>Limitaciones  
 

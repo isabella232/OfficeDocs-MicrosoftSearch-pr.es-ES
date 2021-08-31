@@ -6,18 +6,18 @@ manager: jeffkizn
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Detalles de la experiencia del clúster de resultados de conectores
-ms.openlocfilehash: c90cc98415be6a42d32b646894cb04305ecb6542
-ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
+ms.openlocfilehash: f815c52681a7fc2027b587be980b5e9125e04917
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235886"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701934"
 ---
 # <a name="graph-connectors-result-cluster"></a>Graph de resultados de conectores
 
@@ -41,7 +41,7 @@ Se recomienda usar la propiedad "title" como título del resultado de la búsque
 
 Los clústeres de resultados se muestran en el medio de la página en la vertical Todo. Por ejemplo, a continuación se muestra un clúster de resultados de una vertical de 'MediaWiki'.
 
-![Ejemplo de un clúster de resultados de MediaWiki](media/result-cluster/result-cluster-example.png)
+![Ejemplo de un clúster de resultados de MediaWiki.](media/result-cluster/result-cluster-example.png)
 
 ## <a name="result-clusters-default-settings"></a>Configuración predeterminada de clústeres de resultados
   

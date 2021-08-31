@@ -6,18 +6,18 @@ manager: jameslau
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Pasos sobre cómo asignar identidades de AAD
-ms.openlocfilehash: 676e06d4019dabe0f07846dd8918b8070765a7ffd9deb02b11dd68f2014dc7e5
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: d0292d77b3a0936ed60682b8388de1bb82ac43bb
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54532815"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701971"
 ---
 # <a name="map-your-azure-ad-identities"></a>Asignar las identidades de Azure AD   
 
@@ -58,7 +58,7 @@ Después de proporcionar la fórmula,  opcionalmente puede hacer clic en Vista p
 
 Vea la instantánea siguiente para obtener una asignación de Azure AD de ejemplo.
 
-![Instantánea de ejemplo de cómo rellenar la página de asignación de Azure AD](media/aad-mapping.png)
+![Instantánea de ejemplo de cómo rellenar la página de asignación de Azure AD.](media/aad-mapping.png)
 
 ## <a name="limitations"></a>Limitaciones  
 

@@ -7,18 +7,18 @@ audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Configurar el conector de Graph ServiceNow para Búsqueda de Microsoft
-ms.openlocfilehash: b07776dfd6e2ae8ae87b43ac61e9f92495311ca8
-ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
+ms.openlocfilehash: fccae6c2a007470eb9ef56130cb952158c01610c
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235879"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701916"
 ---
 <!---Previous ms.author: kam1 --->
 
@@ -29,7 +29,7 @@ Con Microsoft Graph Connector para ServiceNow, su organización puede indizar ar
 
 También puede consultar el [siguiente vídeo](https://www.youtube.com/watch?v=TVSkJpk1RiE) para obtener más información sobre la Graph Connector en la administración de permisos de búsqueda.
 
-[![Administración de permisos de búsqueda en Microsoft Graph Connector para ServiceNow](https://img.youtube.com/vi/TVSkJpk1RiE/hqdefault.jpg)](https://www.youtube.com/watch?v=TVSkJpk1RiE)
+[![Administración de permisos de búsqueda en Microsoft Graph Connector para ServiceNow.](https://img.youtube.com/vi/TVSkJpk1RiE/hqdefault.jpg)](https://www.youtube.com/watch?v=TVSkJpk1RiE)
 
 Este artículo está para Microsoft 365 administradores o cualquier persona que configure, ejecute y monitore un conector Graph ServiceNow. Complementa las instrucciones generales que se proporcionan en el artículo [Configurar el Graph conector.](configure-connector.md) Si aún no lo ha hecho, lea todo el artículo Configurar su Graph Connector para comprender el proceso de configuración general.
 
@@ -84,12 +84,12 @@ En la tabla siguiente se proporcionan instrucciones sobre cómo rellenar el form
 
 Field | Descripción | Valor recomendado 
 --- | --- | ---
-Name | Valor único que identifica la aplicación para la que necesita acceso de OAuth. | Búsqueda de Microsoft
-Id. de cliente | Un identificador único de solo lectura generado automáticamente para la aplicación. La instancia usa el identificador de cliente cuando solicita un token de acceso. | ND
+Nombre | Valor único que identifica la aplicación para la que necesita acceso de OAuth. | Búsqueda de Microsoft
+Id. de cliente | Un identificador único de solo lectura generado automáticamente para la aplicación. La instancia usa el identificador de cliente cuando solicita un token de acceso. | N/D
 Secreto de cliente | Con esta cadena secreta compartida, la instancia de ServiceNow Búsqueda de Microsoft autorizar las comunicaciones entre sí. | Siga los procedimientos recomendados de seguridad tratando el secreto como una contraseña.
 Dirección URL de redireccionamiento | Dirección URL de devolución de llamada necesaria a la que redirige el servidor de autorización. | https://gcs.office.com/v1.0/admin/oauth/callback
-URL del logotipo | Dirección URL que contiene la imagen del logotipo de la aplicación. | ND
-Activa | Active la casilla para activar el Registro de aplicaciones. | Establecer en activo
+URL del logotipo | Dirección URL que contiene la imagen del logotipo de la aplicación. | N/D
+Activo | Active la casilla para activar el Registro de aplicaciones. | Establecer en activo
 Actualizar duración del token | El número de segundos que un token de actualización es válido. De forma predeterminada, los tokens de actualización expiran en 100 días (8.640.000 segundos). | 31.536.000 (1 año)
 Duración del token de acceso | El número de segundos que un token de acceso es válido. | 43.200 (12 horas)
 
@@ -166,7 +166,7 @@ La instancia de ServiceNow necesita la siguiente configuración:
    Proveedor de OIDC |  Azure AD
    URL de metadatos de OIDC | La dirección URL debe tener el formato https \: //login.microsoftonline.com/<tenandId">/.well-known/openid-configuration <br/>Reemplace "tenantID" por el id. de directorio (inquilino) del paso 3.a.
    Duración de la memoria caché de configuración de OIDC |  120
-   Aplicación | Global
+   Application | Global
    Notificación de usuario | sub
    Campo de usuario | Id. de usuario
    Habilitar la comprobación de notificación JTI | Deshabilitado
@@ -258,7 +258,7 @@ Si ve una respuesta prohibida o no autorizada en el estado de conexión, comprue
 #### <a name="22-check-if-servicenow-instance-behind-firewall"></a>2.2. Comprobar si la instancia de ServiceNow está detrás del firewall
 Graph Es posible que connector no pueda llegar a la instancia de ServiceNow si está detrás de un firewall de red. Necesitará permitir explícitamente el acceso a Graph connector. Puede encontrar el intervalo de direcciones IP públicas de Graph Connector Service en la tabla siguiente. En función de la región del espacio empresarial, agrégála a la lista blanca de la red de instancia de ServiceNow.
 
-**Entorno** | **Región** | **Rango**
+**Entorno** | **Región** | **Range**
 --- | --- | ---
 PROD | Norteamérica | 52.250.92.252/30, 52.224.250.216/30
 PROD | Europa | 20.54.41.208/30, 51.105.159.88/30 

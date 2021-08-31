@@ -8,18 +8,18 @@ ms.service: mssearch
 audience: Admin
 ms.audience: Admin
 ms.date: 07/02/2021
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Revisar Búsqueda de Microsoft de uso
-ms.openlocfilehash: 9798cdaf0f88ca2f247bb8d10fce526f07adbabc1bbe5566eaddfc071346f751
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 9de48331efbc956ee7d980b919d9bd2f025fc8aa
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533122"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701457"
 ---
 # <a name="microsoft-search-usage-reports"></a>Búsqueda de Microsoft Informes de uso
 
@@ -33,7 +33,7 @@ Los [Búsqueda de Microsoft](https://admin.microsoft.com/Adminportal/Home?#/Micr
 Una versión anterior de esta página incluía datos de búsquedas ejecutadas solo para Búsqueda de Microsoft en Bing en Bing.com. Esos datos ahora están integrados en estos informes; puede ver la página antigua haciendo clic en el vínculo de la parte inferior de la página para ver las consultas principales de Bing y la distribución **de impresiones**. Este vínculo y la página antigua se quitarán próximamente.
 
 > [!div class="mx-imgBorder"]
-> ![Panel de informes de uso de búsqueda](media/usage-reports/usage_reports_v2.png)
+> ![Panel de informes de uso de búsqueda.](media/usage-reports/usage_reports_v2.png)
 
 ## <a name="overview-of-search-reports"></a>Información general sobre los informes de búsqueda
 
@@ -55,7 +55,7 @@ La descarga de un informe le permitirá ver informes de un intervalo de tiempo m
 
 Para ver Bing principales consultas e informes de distribución de impresiones, haga clic en el vínculo de la página.
 
-## <a name="frequently-asked-questions"></a>Preguntas frecuentes
+## <a name="frequently-asked-questions"></a>Preguntas frecuentes.
 
 **Cuando selecciono los últimos 31 días o los últimos 12 meses, ¿por qué tengo que elegir un día específico o un mes específico?**
 

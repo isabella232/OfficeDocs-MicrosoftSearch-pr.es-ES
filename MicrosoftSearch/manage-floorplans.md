@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: La característica de planos de planta Búsqueda de Microsoft ayuda a los usuarios a encontrar personas, oficinas y otras comodidades dentro de un edificio.
-ms.openlocfilehash: 6ca32db0afafe328d872b87c2ba7ebf5bee40148ae8aea089e097a3b6ec4dedf
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 6cbba6d764fd3904d251fa53fd96c3a66a6aed6b
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533759"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58470027"
 ---
 # <a name="manage-floor-plans"></a>Administrar planos de planta
 
@@ -43,7 +43,7 @@ Los archivos de planos de planta deben estar en formato DWG; Los archivos DWG pu
 
 |**Etiquetas de texto, incluidas las etiquetas de sala**|**Etiquetas de texto pero sin etiquetas de sala**|**Sin etiquetas de texto**|
 |:-----:|:-----:|:-----:|
-|![floorplans-textandroomlabels.png](media/floorplans-textandroomlabels.png)|![floorplans-textnoroomlabels.png](media/floorplans-textnoroomlabels.png)|![floorplans-nolabels.png](media/floorplans-nolabels.png)|
+|![floorplans-textandroomlabels.png.](media/floorplans-textandroomlabels.png)|![floorplans-textnoroomlabels.png](media/floorplans-textnoroomlabels.png)|![floorplans-nolabels.png](media/floorplans-nolabels.png)|
 
 Consulta la sección [preguntas](#frequently-asked-questions) más frecuentes para obtener información sobre la visualización y actualización de archivos DWG.
 
@@ -54,7 +54,7 @@ La ubicación de la oficina de un usuario es una combinación de un código de c
 Agregar o actualizar ubicaciones de oficina para cada usuario de la organización. Puede cambiar la ubicación de la oficina en el perfil de usuario en el [Centro de administración de Microsoft 365](https://admin.microsoft.com) o puede cambiar en su Active Directory local para sincronizarse con Azure Active Directory. *PhysicalDeliveryOfficeName* es el campo que se usa para la ubicación de la oficina. Si las etiquetas de la sala no incluyen números de planta, consulta las preguntas más frecuentes para obtener sugerencias.
 
 En este ejemplo, la oficina de Allan está en la sala 1173 de la planta 1 del edificio 2.
-![floorplans-userlestview.png](media/floorplans-userlistview.png)
+![floorplans-userlestview.png.](media/floorplans-userlistview.png)
 
 > [!NOTE]
 > Para ver las ubicaciones de oficina actualizadas al buscar planes de planta, debe actualizar las ubicaciones de oficina para al menos **10 personas** en cada planta.
@@ -63,13 +63,13 @@ En este ejemplo, la oficina de Allan está en la sala 1173 de la planta 1 del ed
 
 Use **Búsqueda de Microsoft** para buscar un usuario y comprobar que su ubicación de oficina aparece correctamente. Si acaba de actualizar las ubicaciones, es posible que deba esperar hasta **72** horas para que las actualizaciones aparezcan en los resultados de la búsqueda.
 
-![floorplans-peoplecard.png](media/floorplans-peoplecard.png)
+![floorplans-peoplecard.png.](media/floorplans-peoplecard.png)
 
 ### <a name="step-5-add-building-locations"></a>Paso 5: Agregar ubicaciones de creación
 
 Los planos de planta [usan Ubicaciones](manage-locations.md) para definir los edificios. En el [Centro de administración de Microsoft 365](https://admin.microsoft.com), vaya a [**Ubicaciones**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/locations)y, a continuación, seleccione **Agregar**. Escriba el nombre, la dirección y las palabras clave del edificio. Agrega tantos edificios como necesites.
 
-![floorplans-locations.png](media/floorplans-locations.png)
+![floorplans-locations.png.](media/floorplans-locations.png)
 
 Para obtener más información acerca de las ubicaciones, consulte [Administrar ubicaciones](manage-locations.md)
 
@@ -79,7 +79,7 @@ Para poder usar los planos de planta, las ubicaciones de oficina deben indizarse
 
 En [el Centro de administración,](https://admin.microsoft.com)vaya a Planos de [**planta**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/floorplans)y, a continuación, **seleccione Introducción.** Si no ve este aviso, este paso ya se ha completado para su organización
 
-![floorplans_hydrationstep.png](media/floorplans_hydrationstep.png)
+![floorplans_hydrationstep.png.](media/floorplans_hydrationstep.png)
 
 ### <a name="step-7-upload-floor-plans"></a>Paso 7: Upload planos de planta
 
@@ -99,13 +99,13 @@ En [el Centro de administración,](https://admin.microsoft.com)vaya a Planos de 
 > [!NOTE]
 > **Los planes de planta tardan 48 horas en publicarse.** Después, los usuarios verán los resultados de un plan de planta similar al siguiente cuando busquen la oficina de un compañero de trabajo.
 
-![floorplans-officelocation.png](media/floorplans-officelocation.png)
+![floorplans-officelocation.png.](media/floorplans-officelocation.png)
 
 ### <a name="step-8-optional-specify-location-patterns"></a>Paso 8: (opcional) Especificar patrones de ubicación
 
 Después de cargar un plan de planta, las etiquetas de texto se compararán con las ubicaciones de oficina en los perfiles de los usuarios. Si hay menos de 10 coincidencias, aparecerá la pantalla Especificar patrones **de** ubicación. Los patrones de ubicación se usan para extraer información de piso, ala y sala de ubicaciones de oficina.
 
-![floorplans-locationpattern.png](media/floorplans-locationpattern.png)
+![floorplans-locationpattern.png.](media/floorplans-locationpattern.png)
 
 Solo se requiere sala, el piso y el ala son opcionales y puede omitir ubicaciones según sea necesario.
 
@@ -124,7 +124,7 @@ Para actualizar un plan de planta existente, seleccione el plan de planta que de
 |Upload planos de planta|No se pudieron leer los números de sala ni las etiquetas en el archivo DWG. Elimine este archivo.|Advertencia|Compruebe el archivo DWG para asegurarse de que los datos están incluidos y, a continuación, elimine el archivo e inténtelo de nuevo.|
 |Vincular ubicaciones de oficina|No se encuentran ubicaciones de oficina en Azure Active Directory. Agregue datos de ubicación a Azure Active Directory antes de configurar los planes de planta.|Error|[Actualizar ubicaciones de oficina en perfiles de usuario](#step-3-update-office-locations-on-user-profiles) |
 
-## <a name="frequently-asked-questions"></a>Preguntas frecuentes
+## <a name="frequently-asked-questions"></a>Preguntas frecuentes.
 
 **P:** ¿Cómo puedo ver y editar archivos DWG?
 
@@ -166,6 +166,6 @@ Para actualizar un plan de planta existente, seleccione el plan de planta que de
 
 Por ejemplo, un archivo DWG que incluye números de sala, pero no números de planta, puede tener un aspecto similar al siguiente:
 
-![floorplans-nofloors.png](media/floorplans-nofloors.png)
+![floorplans-nofloors.png.](media/floorplans-nofloors.png)
 
 La ubicación de la oficina en el perfil del usuario debe ser 2/1175 donde "2" es el código de creación, "1" es el número de planta y "175" es el número de sala.

@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar el conector de Graph Salesforce para Búsqueda de Microsoft
-ms.openlocfilehash: f63dacd4e1c7da7d8eac53bc04bcbd108182df132c2e1fa61bdc2ffd0a549d2b
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: ea8de1b33787e9c08e50e99ace0afaa83e75394d
+ms.sourcegitcommit: be5dcc7005447d6139e39d86211c7ec4cd5dd907
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54532763"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58639583"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -75,7 +75,7 @@ Para conectarse a la instancia de Salesforce, necesita la dirección URL de la i
     - Para la directiva de token de actualización, seleccione **Actualizar token es válido hasta que se revoque**
 
   > [!div class="mx-imgBorder"]
-  > ![Seleccione la directiva de token de actualización denominada "El token de actualización es válido hasta que se revoque"](media/salesforce-connector/oauthpolicies.png)
+  > ![Seleccione la directiva de token de actualización denominada "El token de actualización es válido hasta que se revoque".](media/salesforce-connector/oauthpolicies.png)
 
 Ahora puede usar el [Centro de Administración de Microsoft 365 para](https://admin.microsoft.com/) completar el resto del proceso de configuración del Graph conector.
 
@@ -150,7 +150,7 @@ Puede seleccionar qué propiedades de origen deben indizarse para que se muestre
 Refinar permite definir las propiedades que se pueden usar más adelante como refinadores o filtros personalizados en la experiencia de búsqueda.  
 
 > [!div class="mx-imgBorder"]
-> ![Seleccione el esquema para cada propiedad de origen. Las opciones son Consulta, Búsqueda, Recuperar y Refinar](media/salesforce-connector/sf9.png)
+> ![Seleccione el esquema para cada propiedad de origen. Las opciones son Consulta, Búsqueda, Recuperar y Refinar.](media/salesforce-connector/sf9.png)
 
 ## <a name="step-8-set-the-refresh-schedule"></a>Paso 8: Establecer la programación de actualización
 
@@ -167,7 +167,7 @@ Siga las instrucciones [generales de configuración](./configure-connector.md).
 
 >[!TIP]
 >**Tipo de resultado predeterminado**
->* El conector de Salesforce registra automáticamente un [tipo de resultado](./customize-search-page.md#step-2-create-the-result-types) una vez que se publica el conector. El tipo de resultado usa un diseño de resultados generado [dinámicamente](./customize-results-layout.md) en función de los campos seleccionados en el paso 3.
+>* El conector de Salesforce registra automáticamente un [tipo de resultado](./customize-search-page.md#step-2-create-result-types) una vez que se publica el conector. El tipo de resultado usa un diseño de resultados generado [dinámicamente](./customize-results-layout.md) en función de los campos seleccionados en el paso 3.
 >* Para administrar el tipo de resultado, vaya a [**Tipos de resultados**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes) en el [Centro de administración de Microsoft 365](https://admin.microsoft.com). El tipo de resultado predeterminado se denominará `ConnectionId` "Predeterminado". Por ejemplo, si el identificador de conexión es , el diseño `Salesforce` de resultados se denominará: "SalesforceDefault"
 >* Además, puede elegir crear su propio tipo de resultado si es necesario.
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
@@ -189,13 +189,13 @@ Siga las instrucciones [generales de configuración](./configure-connector.md).
     - MobilePhone
     - Correo electrónico
     - Tipo
-    - Cargo
+    - Título
     - AccountId
     - AccountName
     - AccountUrl
     - AccountOwner
     - AccountOwnerUrl
-    - Propietario
+    - Owner
     - OwnerUrl
     - CreatedBy
     - CreatedByUrl
