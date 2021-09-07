@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Requisitos de licencia y precios para microsoft Graph conectores públicos para Búsqueda de Microsoft
-ms.openlocfilehash: df91bb0ae68dd86d61855eed6d70a09ed0986800
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.openlocfilehash: b62187f0618405bdd691f923437b7b1e0edea1f9
+ms.sourcegitcommit: 134749c0f3a10f63d667f86dca55656b020b920f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58702088"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "58923156"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -70,3 +70,4 @@ Hay dos opciones para explorar los Graph con Temas Microsoft Viva:
 
 > [!NOTE]
 > Actualmente, los conectores de Microsoft Graph solo admiten hasta 7 millones de elementos de cuota de índice total, lo que incluye cualquier cuota integrada incluida en Microsoft 365 o Office 365 E5 licencias. La plataforma admitirá límites más altos en el futuro. Póngase en contacto con el soporte técnico de Microsoft o con el administrador de cuentas de Microsoft si tiene alguna pregunta.
+> Los conectores de vista previa no cuentan con la cuota, después de que un conector esté disponible en general, comienza a contar con la cuota de índice total.

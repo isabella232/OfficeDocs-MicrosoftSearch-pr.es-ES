@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Información general sobre los conectores de Microsoft Graph para Búsqueda de Microsoft
-ms.openlocfilehash: e1aea93c927d933a63c3eb0456bb18d3f99e9291
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.openlocfilehash: 0d0a1a89edfbcba0fed167c8b3f7bb2166da9439
+ms.sourcegitcommit: 134749c0f3a10f63d667f86dca55656b020b920f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58702215"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "58923147"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -71,7 +71,7 @@ Puede conectarse a los siguientes orígenes de datos mediante conectores creados
 * [MediaWiki](mediawiki-connector.md)
 * [Compartir archivos](fileshare-connector.md)
 * [Oracle SQL](OracleSQL-connector.md)
-* [Salesforce (versión preliminar)](salesforce-connector.md)
+* [Salesforce ](salesforce-connector.md)
 * [ServiceNow](servicenow-connector.md)
 
 La [galería Graph conectores de](https://www.microsoft.com/microsoft-search/connectors) microsoft contiene una breve descripción de cada uno de estos conectores. Si está listo para conectar uno de estos orígenes de datos [](configure-connector.md) al inquilino, asegúrese de leer la introducción al programa de instalación y cualquier otro artículo de la sección Setup connectors by Microsoft que se aplican al origen de datos.
@@ -101,8 +101,6 @@ Aunque microsoft Graph conectores y Búsqueda de Microsoft API están disponible
 El conjunto de conectores y características en versión preliminar incluyen:
 
 * [Azure DevOps conector](azure-devops-connector.md)
-* [Conector de Salesforce](salesforce-connector.md)
-* [Conector de ServiceNow](servicenow-connector.md) con permisos de búsqueda que usan ACL de origen
 * [Administrar filtros personalizados](custom-filters.md)
 * [Varias conexiones en una vertical](customize-search-page.md#multiple-connections-in-a-vertical)
 
