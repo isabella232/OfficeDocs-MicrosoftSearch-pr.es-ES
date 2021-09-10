@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Información general sobre los conectores de Microsoft Graph para Búsqueda de Microsoft
-ms.openlocfilehash: 0d0a1a89edfbcba0fed167c8b3f7bb2166da9439
-ms.sourcegitcommit: 134749c0f3a10f63d667f86dca55656b020b920f
+ms.openlocfilehash: 006ab3f56eb4976b44904e5191ae8fd256c8d5de
+ms.sourcegitcommit: 3e069fd920b5fcdfe97a0261930447e9e87d9013
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "58923147"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973603"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -67,12 +67,15 @@ Puede conectarse a los siguientes orígenes de datos mediante conectores creados
 * [Azure Data Lake Storage Gen2](azure-data-lake-connector.md)
 * [Azure DevOps](azure-devops-connector.md)
 * [Azure SQL y Microsoft SQL Server](MSSQL-connector.md)
+* [Nube de confluencia (versión preliminar)](confluence-cloud-connector.md)
 * [Sitios web de la empresa](enterprise-web-connector.md)
 * [MediaWiki](mediawiki-connector.md)
 * [Compartir archivos](fileshare-connector.md)
 * [Oracle SQL](OracleSQL-connector.md)
-* [Salesforce ](salesforce-connector.md)
-* [ServiceNow](servicenow-connector.md)
+* [Salesforce](salesforce-connector.md)
+* [Conocimiento de ServiceNow](servicenow-knowledge-connector.md)
+* [Catálogo de ServiceNow (versión preliminar)](servicenow-catalog-connector.md)
+
 
 La [galería Graph conectores de](https://www.microsoft.com/microsoft-search/connectors) microsoft contiene una breve descripción de cada uno de estos conectores. Si está listo para conectar uno de estos orígenes de datos [](configure-connector.md) al inquilino, asegúrese de leer la introducción al programa de instalación y cualquier otro artículo de la sección Setup connectors by Microsoft que se aplican al origen de datos.
 
@@ -101,6 +104,8 @@ Aunque microsoft Graph conectores y Búsqueda de Microsoft API están disponible
 El conjunto de conectores y características en versión preliminar incluyen:
 
 * [Azure DevOps conector](azure-devops-connector.md)
+* [Conector de confluencia en la nube](confluence-cloud-connector.md)
+* [Conector de catálogo de ServiceNow](servicenow-catalog-connector.md)
 * [Administrar filtros personalizados](custom-filters.md)
 * [Varias conexiones en una vertical](customize-search-page.md#multiple-connections-in-a-vertical)
 

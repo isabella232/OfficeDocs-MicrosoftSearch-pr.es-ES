@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Crear y actualizar marcadores y formas de editar de forma masiva los resultados de los marcadores Búsqueda de Microsoft
 ms.openlocfilehash: a08bef9ccc56d395fe6570bacc856653ff3a1563
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58702061"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973728"
 ---
 # <a name="manage-bookmarks"></a>Administrar marcadores
 
@@ -120,7 +120,7 @@ Para evitar que el motor de recomendación publique o sugiera un marcador en un 
 
 Un marcador puede tener varias palabras clave y compartir la misma palabra clave, pero la palabra clave reservada no se puede compartir. Una palabra clave reservada es un término o frase único que desencadena un marcador específico. Una palabra clave reservada solo se puede asociar con una respuesta. Use palabras clave reservadas con moderación.
 
-## <a name="frequently-asked-questions"></a>Preguntas frecuentes.
+## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 
 **P: ¿Cuánto tiempo se necesita para que un marcador esté visible en Búsqueda de Microsoft después de su publicación?**
 

@@ -13,11 +13,11 @@ search.appverid:
 - MOE150
 description: Cómo personalizar la experiencia del cuadro de búsqueda en SharePoint búsqueda
 ms.openlocfilehash: b5d58dd5a241ccf2ada556c44ec0ea5479ea2e2b
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58701980"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973826"
 ---
 # <a name="search-box-settings-on-sharepoint-sites"></a>Configuración del cuadro de búsqueda SharePoint sitios
 

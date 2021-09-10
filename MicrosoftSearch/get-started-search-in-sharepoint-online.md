@@ -13,11 +13,11 @@ search.appverid:
 - MOE150
 description: Introducción a su organización mediante el uso de Búsqueda de Microsoft en SharePoint Online
 ms.openlocfilehash: b506c2259b514b604f4285d3ec8351ce9ac860db
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58702133"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973689"
 ---
 # <a name="get-started-with-microsoft-search-in-sharepoint"></a>Introducción a Búsqueda de Microsoft en Sharepoint
 

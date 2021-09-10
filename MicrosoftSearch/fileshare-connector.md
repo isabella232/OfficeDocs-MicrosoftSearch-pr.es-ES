@@ -15,11 +15,11 @@ search.appverid:
 ROBOTS: NoIndex
 description: Configurar el conector de Graph recurso compartido de archivos para Búsqueda de Microsoft
 ms.openlocfilehash: 874b522cb54288b531cbbc63e12f232a8a68939e
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58702151"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973579"
 ---
 <!---Previous ms.author: rusamai --->
 

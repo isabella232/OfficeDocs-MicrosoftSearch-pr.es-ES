@@ -13,11 +13,11 @@ search.appverid:
 - MOE150
 description: Crear y actualizar respuestas de acrónimos en Búsqueda de Microsoft
 ms.openlocfilehash: b7b3272ba98bbce7d43562811389df0a35e9f7a2
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58702070"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973711"
 ---
 # <a name="manage-acronyms-answers-in-microsoft-search"></a>Administrar respuestas de acrónimos en Búsqueda de Microsoft
 
@@ -100,7 +100,7 @@ Búsqueda de Microsoft se asegura de que solo los usuarios con acceso y permisos
 > [!NOTE]
 > No se necesita ninguna configuración para acrónimos seleccionados por el sistema.
 
-## <a name="frequently-asked-questions"></a>Preguntas frecuentes.
+## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 
 **P: ¿Cómo se clasifican los datos seleccionados por el administrador y los del sistema?**
 

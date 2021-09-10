@@ -13,11 +13,11 @@ search.appverid:
 - MOE150
 description: Cree marcadores, ubicaciones y preguntas y respuestas para hacer fácil de encontrar el contenido de su organización.
 ms.openlocfilehash: 77b6507c7643e6cf2176f37a9a2cf0def1c640ba
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58702079"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973727"
 ---
 # <a name="make-content-easy-to-find"></a>Haga el contenido fácil de encontrar
 
@@ -90,7 +90,7 @@ Las etiquetas no admitidas se omiten o se muestran como texto. Asegúrese de que
 
 Con [Ubicaciones,](manage-locations.md)los usuarios pueden encontrar direcciones y localizar los edificios de la organización. La **característica** Ubicaciones proporciona una ubicación precisa para oficinas, campus y edificios, así como indicaciones y navegación. Para obtener mejores resultados, los administradores deben agregar todas las ubicaciones importantes de sus organizaciones a Búsqueda de Microsoft. A [diferencia de bookmarks](manage-bookmarks.md) [y preguntas&A,](manage-qas.md)el índice Locations no se actualiza inmediatamente. Las ubicaciones nuevas o modificadas pueden tardar varias horas en aparecer en los resultados de la búsqueda.
 
-## <a name="get-started"></a>Introducción
+## <a name="get-started"></a>Comenzar
 Para averiguar qué necesitan los usuarios y facilitar la detección de esa información, pruebe algunos de estos métodos:
 
 - Use los registros de búsqueda de intranet para determinar los sitios y páginas que obtienen la mayor parte del tráfico.

@@ -14,11 +14,11 @@ search.appverid:
 - MOE150
 description: Administrar Microsoft Graph Connectors para Búsqueda de Microsoft.
 ms.openlocfilehash: dd82114ff6aa651b57ce1941685840906ecf7318
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58702052"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973573"
 ---
 # <a name="monitor-your-connections"></a>Supervise las conexiones
 
@@ -65,7 +65,7 @@ Estado | Niveles de uso de cuota
 --- | --- 
 Normal | 0-79%
 Alto | 80-89%
-Critico | 90%-99%
+Crítico | 90%-99%
 Full | 100 %
 
 El número de elementos indizados también se mostrará con cada conexión. El número de elementos indizados por cada conexión contribuye a la cuota total disponible para su organización.

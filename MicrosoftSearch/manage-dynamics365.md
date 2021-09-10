@@ -9,11 +9,11 @@ ms.service: mssearch
 ms.localizationpriority: medium
 description: Administrar cómo aparece el contenido de Dynamics 365 en los resultados de búsqueda
 ms.openlocfilehash: 8a87e4026937ba01132c10815dc2f91d27da79c9
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58702034"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973688"
 ---
 # <a name="dynamics-365-federation-search-preview"></a>Búsqueda de federación de Dynamics 365 (versión preliminar)
 

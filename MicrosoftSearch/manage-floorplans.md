@@ -13,11 +13,11 @@ search.appverid:
 - MOE150
 description: La característica de planos de planta Búsqueda de Microsoft ayuda a los usuarios a encontrar personas, oficinas y otras comodidades dentro de un edificio.
 ms.openlocfilehash: beeef26cc7413da654cc3ab01d92aa6cdc74e5cb
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58702025"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973719"
 ---
 # <a name="manage-floor-plans"></a>Administrar planos de planta
 
@@ -124,7 +124,7 @@ Para actualizar un plan de planta existente, seleccione el plan de planta que de
 |Upload planos de planta|No se pudieron leer los números de sala ni las etiquetas en el archivo DWG. Elimine este archivo.|Advertencia|Compruebe el archivo DWG para asegurarse de que los datos están incluidos y, a continuación, elimine el archivo e inténtelo de nuevo.|
 |Vincular ubicaciones de oficina|No se encuentran ubicaciones de oficina en Azure Active Directory. Agregue datos de ubicación a Azure Active Directory antes de configurar los planes de planta.|Error|[Actualizar ubicaciones de oficina en perfiles de usuario](#step-3-update-office-locations-on-user-profiles) |
 
-## <a name="frequently-asked-questions"></a>Preguntas frecuentes.
+## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 
 **P:** ¿Cómo puedo ver y editar archivos DWG?
 

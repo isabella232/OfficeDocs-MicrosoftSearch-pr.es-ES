@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 7e3432e6-5317-4d63-90b0-52da6fddd343
 description: Busque y actualice las respuestas individualmente o use las herramientas Búsqueda de Microsoft disponibles para editar preguntas&Como todas a la vez.
 ms.openlocfilehash: 2ee42e3feaf5c14b2af820360f753ecc2e116f9b
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58701989"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973736"
 ---
 # <a name="manage-qas"></a>Administrar preguntas y respuestas
 

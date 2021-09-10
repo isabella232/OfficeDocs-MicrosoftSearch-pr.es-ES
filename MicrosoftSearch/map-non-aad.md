@@ -6,24 +6,24 @@ manager: jameslau
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Pasos sobre cómo asignar identidades que no son AAD
-ms.openlocfilehash: bece23677f07f10d40471fb6ec27c2d96e7018fb
-ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
+ms.openlocfilehash: f433da10347ef59acf7675ec65da8acbd7f0f347
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58470309"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973536"
 ---
 # <a name="map-your-non-azure-ad-identities"></a>Asignar identidades que no son de Azure AD  
 
 En este artículo se le guían los pasos para asignar identidades que no son de Azure AD a las identidades de Azure AD para que los usuarios de la lista de control de acceso (ACL) con identidades que no son de Azure AD puedan ver los resultados de búsqueda del conector en el ámbito de ellos.
 
-Estos pasos solo son relevantes para los administradores de búsqueda que están configurando los conectores [de ServiceNow](servicenow-connector.md) o [Salesforce](salesforce-connector.md) de Microsoft con permisos de búsqueda para "Solo las personas con acceso a este origen de datos" y el tipo de identidad "Non-AAD".
+Estos pasos solo son relevantes para los administradores de búsqueda que están configurando un conector de [Confluence Cloud](confluence-cloud-connector.md), [ServiceNow Knowledge,](servicenow-knowledge-connector.md) [ServiceNow Catalog](servicenow-catalog-connector.md) o [Salesforce](salesforce-connector.md) de Microsoft con permisos de búsqueda para "Solo personas con acceso a este origen de datos" y el tipo de identidad "Non-AAD".
 
 >[!NOTE]
 >Si va a configurar un  conector de Salesforce y selecciona Solo las personas con acceso a este origen de datos y el tipo de identidad **AAD** en la pantalla de permisos de búsqueda, consulte el artículo Asignar las identidades de [Azure AD](map-aad.md) para obtener pasos sobre cómo asignar identidades de Azure AD.  
@@ -44,9 +44,9 @@ Puede seleccionar una de las siguientes propiedades de Azure AD:
 
 ### <a name="2-select-non-azure-ad-user-properties-to-map"></a>2. Seleccione propiedades de usuario que no son de Azure AD para asignar
 
-Puede seleccionar propiedades que no son de Azure AD sacadas del origen de datos para aplicar expresiones regulares. Para obtener más información sobre dónde encontrar estas propiedades en el origen de datos, consulte las [páginas ServiceNow](servicenow-connector.md) y [Salesforce.](salesforce-connector.md)  
+Puede seleccionar propiedades que no son de Azure AD sacadas del origen de datos para aplicar expresiones regulares. Para obtener más información sobre dónde encontrar estas propiedades en el origen de datos, vea las páginas [Confluence Cloud](confluence-cloud-connector.md), [ServiceNow Knowledge,](servicenow-knowledge-connector.md) [ServiceNow Catalog](servicenow-catalog-connector.md) y [Salesforce.](salesforce-connector.md)  
 
-Puede seleccionar una propiedad de usuario que no sea de Azure AD en el desplegable y proporcionar una expresión regular que se aplicará a esos valores de propiedad de usuario. Para obtener más información acerca de las expresiones regulares, vea [referencia de expresión regular]( https://docs.microsoft.com/dotnet/standard/base-types/regular-expression-language-quick-reference).  
+Puede seleccionar una propiedad de usuario que no sea de Azure AD en el desplegable y proporcionar una expresión regular que se aplicará a esos valores de propiedad de usuario.
 
 A continuación se muestran algunos ejemplos de expresiones regulares y sus salidas aplicadas a una cadena de ejemplo: 
 

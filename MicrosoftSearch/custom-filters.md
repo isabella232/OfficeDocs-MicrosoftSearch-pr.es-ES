@@ -13,11 +13,11 @@ search.appverid:
 - MOE150
 description: Administrar filtros para su uso en el SERP
 ms.openlocfilehash: c614d4b60c746f2e18fdb3352281891ea5134373
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58702197"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973542"
 ---
 # <a name="manage-filters"></a>Administrar filtros
 
@@ -66,7 +66,7 @@ Las verticales se pueden crear con uno o varios orígenes de contenido. Cuando u
  | Connection | Propiedad | Alias |
  | --- | --- | --- |
  | Servicio ahora | Owner | Autor |
- | Jira | Editorial | Autor |
+ | Jira | Publisher | Autor |
 
 ## <a name="important-details"></a>Detalles importantes
 
