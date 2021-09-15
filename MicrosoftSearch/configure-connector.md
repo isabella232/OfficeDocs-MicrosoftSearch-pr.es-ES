@@ -14,11 +14,11 @@ search.appverid:
 - MOE150
 description: Introducción a la configuración de conectores de Graph de Microsoft
 ms.openlocfilehash: 95a2640652bd1289962c888be4ba771629806a6b
-ms.sourcegitcommit: 3e069fd920b5fcdfe97a0261930447e9e87d9013
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973608"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59376130"
 ---
 <!-- Previous ms.author: monaray -->
 

@@ -13,11 +13,11 @@ search.appverid:
 - MOE150
 description: La característica de planos de planta Búsqueda de Microsoft ayuda a los usuarios a encontrar personas, oficinas y otras comodidades dentro de un edificio.
 ms.openlocfilehash: beeef26cc7413da654cc3ab01d92aa6cdc74e5cb
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973719"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59334586"
 ---
 # <a name="manage-floor-plans"></a>Administrar planos de planta
 

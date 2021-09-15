@@ -14,11 +14,11 @@ search.appverid:
 - MOE150
 description: Configurar el conector de Graph catálogo de ServiceNow para Búsqueda de Microsoft
 ms.openlocfilehash: c46388a086f563eec36dbd7e5492d8065b1ae296
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973533"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59376297"
 ---
 <!---Previous ms.author: kam1 --->
 
@@ -77,9 +77,9 @@ Para usar ServiceNow OAuth para la autenticación, un administrador de ServiceNo
 
 En la tabla siguiente se proporcionan instrucciones sobre cómo rellenar el formulario de creación de extremos:
 
-Field | Descripción | Valor recomendado 
+Campo | Descripción | Valor recomendado 
 --- | --- | ---
-Name | Valor único que identifica la aplicación para la que necesita acceso de OAuth. | Búsqueda de Microsoft
+Nombre | Valor único que identifica la aplicación para la que necesita acceso de OAuth. | Búsqueda de Microsoft
 Id. de cliente | Un identificador único de solo lectura generado automáticamente para la aplicación. La instancia usa el identificador de cliente cuando solicita un token de acceso. | N/D
 Secreto de cliente | Con esta cadena secreta compartida, la instancia de ServiceNow Búsqueda de Microsoft autorizar las comunicaciones entre sí. | Siga los procedimientos recomendados de seguridad tratando el secreto como una contraseña.
 Dirección URL de redireccionamiento | Dirección URL de devolución de llamada necesaria a la que redirige el servidor de autorización. | https://gcs.office.com/v1.0/admin/oauth/callback
@@ -144,9 +144,9 @@ La instancia de ServiceNow necesita la siguiente configuración:
 
 2. En la siguiente tabla se proporcionan instrucciones sobre cómo rellenar el formulario de registro del proveedor de OIDC
 
-   Field | Descripción | Valor recomendado
+   Campo | Descripción | Valor recomendado
    --- | --- | ---
-   Name | Un nombre único que identifica la entidad OAuth OIDC. | Azure AD
+   Nombre | Un nombre único que identifica la entidad OAuth OIDC. | Azure AD
    Id. de cliente | El identificador de cliente de la aplicación registrada en el servidor OAuth OIDC de terceros. La instancia usa el identificador de cliente al solicitar un token de acceso. | Id. de aplicación (cliente) del paso 3.a
    Secreto de cliente | El secreto de cliente de la aplicación registrada en el servidor OAuth OIDC de terceros. | Secreto de cliente del paso 3.b
 
@@ -156,7 +156,7 @@ La instancia de ServiceNow necesita la siguiente configuración:
 
 4. En la tabla siguiente se proporcionan instrucciones sobre cómo rellenar el formulario de configuración del proveedor de OIDC
 
-   Field | Valor recomendado
+   Campo | Valor recomendado
    --- | ---
    Proveedor de OIDC |  Azure AD
    URL de metadatos de OIDC | La dirección URL debe tener el formato https \: //login.microsoftonline.com/<tenandId">/.well-known/openid-configuration <br/>Reemplace "tenantID" por el id. de directorio (inquilino) del paso 3.a.
@@ -174,7 +174,7 @@ Consulte las instrucciones para crear una cuenta de ServiceNow, [crear un usuari
 
 En la siguiente tabla se proporcionan instrucciones sobre cómo rellenar el registro de la cuenta de usuario de ServiceNow
 
-Field | Valor recomendado
+Campo | Valor recomendado
 --- | ---
 Id. de usuario | Id. de entidad de servicio del paso 3.c
 Solo acceso al servicio web | Checked

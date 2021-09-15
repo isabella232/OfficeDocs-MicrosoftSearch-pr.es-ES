@@ -15,11 +15,11 @@ search.appverid:
 ROBOTS: NoIndex
 description: Configure el conector de SQL Graph oracle para Búsqueda de Microsoft.
 ms.openlocfilehash: 804bee89f8529630df5741f68b9f112c69307b4f
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973584"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59376124"
 ---
 <!---Previous ms.author:vivg --->
 
@@ -94,9 +94,9 @@ En la tabla siguiente se resumen los tipos de datos admitidos por el conector de
 | Tipo de datos Number | NUMBER(p,0) | int64 (para p <= 18) <br> double (para p > 18) |
 | Tipo de datos de número de punto flotante | NUMBER(p,s) <br> FLOAT(p) | double |
 | Tipo de datos Date | DATE <br> TIMESTAMP <br> TIMESTAMP(n) | datetime |
-| Tipo de datos de carácter | CHAR(n) <br> VARCHAR <br> VARCHAR2 <br> LONG <br> CLOB <br> NCLOB | string |
+| Tipo de datos de carácter | CHAR(n) <br> VARCHAR <br> VARCHAR2 <br> LONG <br> CLOB <br> NCLOB | cadena |
 | Tipo de datos de caracteres Unicode | NCHAR <br> NVARCHAR | string |
-| Tipo de datos RowID | ROWID <br> UROWID | string |
+| Tipo de datos RowID | ROWID <br> UROWID | cadena |
 
 Para cualquier otro tipo de datos actualmente no compatible directamente, la columna debe convertirse explícitamente en un tipo de datos admitido.
 

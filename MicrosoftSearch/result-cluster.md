@@ -13,11 +13,11 @@ search.appverid:
 - MOE150
 description: Detalles de la experiencia del clúster de resultados de conectores
 ms.openlocfilehash: f815c52681a7fc2027b587be980b5e9125e04917
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973567"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59376310"
 ---
 # <a name="graph-connectors-result-cluster"></a>Graph de resultados de conectores
 
