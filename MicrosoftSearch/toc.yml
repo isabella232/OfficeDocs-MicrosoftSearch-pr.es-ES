@@ -6,7 +6,7 @@
       href: setup-microsoft-search.md
     - name: Administrar el acceso a archivos y sitios
       href: manage-access-files-sites.md
-    - name: Preguntas frecuentes
+    - name: Preguntas más frecuentes
       href: faqs.md
 - name: Obtener información
   items:
@@ -114,6 +114,8 @@
           href: security-for-search.md
         - name: Agregar un cuadro de búsqueda a su sitio de intranet
           href: add-a-search-box-to-your-intranet-site.md
+        - name: Seleccionar una experiencia de búsqueda profesional o educativa (versión preliminar)
+          href: select-work-school-search-experience.md
         - name: Hacer de Microsoft Edge el explorador predeterminado
           href: /deployedge/edge-default-browser
         - name: Establezca Bing como el motor de búsqueda predeterminado

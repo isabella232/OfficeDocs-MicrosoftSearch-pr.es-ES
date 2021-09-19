@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Requisitos de licencia y precios para microsoft Graph conectores públicos para Búsqueda de Microsoft
-ms.openlocfilehash: b62187f0618405bdd691f923437b7b1e0edea1f9
-ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
+ms.openlocfilehash: d4601e06d49ec860652d42517c79af2343c9b6ec
+ms.sourcegitcommit: bafd15a17ca20bac0f2c5f65e36ef81262eafc06
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59376135"
+ms.lasthandoff: 09/19/2021
+ms.locfileid: "59448632"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -29,12 +29,15 @@ Este artículo está para administradores globales o de facturación que desean 
 Cualquier licencia **Microsoft 365 o Office 365 permite** ver datos de conectores en los resultados de búsqueda.
 
 > [!TIP]
-> **Conectores** de Microsoft Graph & Prueba de temas de Viva ahora disponible: Si no tiene cuota de índice disponible y  desea probar los conectores de Microsoft Graph ahora puede solicitar un código de promoción [con Temas Microsoft Viva](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot:overviewtab), como se detalla [aquí](#microsoft-graph-connectors-now-available-with-microsoft-viva-topics-trial).
+> **Código de promoción** de conectores de Microsoft Graph: si no tienes una cuota de índice disponible y quieres probar los conectores de Microsoft Graph, ahora puedes solicitar un código de promoción a tu administrador de cuentas de Microsoft.  Con el código de promoción, recibirás una prueba de seis meses.
 
 >[!IMPORTANT]
 >Todos los conectores Graph de Microsoft son gratuitos. Sin embargo, debe tener una cuota de índice suficiente para ingerir contenido de esos conectores.
 
 Para indizar el contenido mediante Graph conectores de índice, debe tener una cuota de índice suficiente. Graph cuota de índice de conectores de Graph está disponible a través de:
+
+- Derechos integrados
+- Compra de cuota de índice de complemento
 
 ## <a name="entitlement-built-into-microsoft-365-or-office-365-e5-licenses"></a>Derechos integrados en Microsoft 365 o Office 365 E5 licencias
 
@@ -56,17 +59,6 @@ Para comprar más Graph de conectores de correo electrónico, entre en contacto 
 3. Seleccione **Capacidad Graph conector adicional**.
 4. Selecciona **Comprar y** luego completa las preferencias de pedido.
 5. Seleccione **Des check-out now**.
-
-## <a name="microsoft-graph-connectors-now-available-with-microsoft-viva-topics-trial"></a>Conectores Graph Microsoft ahora disponibles con Temas Microsoft Viva prueba
- La nueva versión de prueba de Viva Topics le permite evaluar tanto los conectores de Microsoft Graph como Los temas de Viva en entornos de desarrollo o producción. Proporciona una capacidad de conector limitada, además del acceso a Temas de Viva.
-
-Hay dos opciones para explorar los Graph con Temas Microsoft Viva:
-
-1. **Inicie una prueba gratuita** y obtenga acceso durante un mes para 25 usuarios.
-
-     Visita [Temas Microsoft Viva](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot:overviewtab) y selecciona la opción Prueba gratuita.
-
-2. Póngase en contacto con el administrador de cuentas de Microsoft para solicitar un **código de promoción para** la capacidad del índice de prueba Temas Microsoft Viva prueba. Con un **código de promoción** puedes obtener acceso durante seis meses, para 50 usuarios.
 
 > [!NOTE]
 > Actualmente, los conectores de Microsoft Graph solo admiten hasta 7 millones de elementos de cuota de índice total, lo que incluye cualquier cuota integrada incluida en Microsoft 365 o Office 365 E5 licencias. La plataforma admitirá límites más altos en el futuro. Póngase en contacto con el soporte técnico de Microsoft o con el administrador de cuentas de Microsoft si tiene alguna pregunta.
