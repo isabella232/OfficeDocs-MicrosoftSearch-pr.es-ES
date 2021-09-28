@@ -7,30 +7,28 @@ ms.topic: article
 ms.service: mssearch
 audience: Admin
 ms.audience: Admin
-ms.date: 07/02/2021
+ms.date: 09/24/2021
 ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Revisar Búsqueda de Microsoft de uso
-ms.openlocfilehash: 9de48331efbc956ee7d980b919d9bd2f025fc8aa
-ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
+ms.openlocfilehash: 3f6b35ddbd08d4c709ce8b8b9125caa1a6517bae
+ms.sourcegitcommit: df898c1616c7c89e819cf2900a08a319af12f8cc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59376256"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59940652"
 ---
 # <a name="microsoft-search-usage-reports"></a>Búsqueda de Microsoft Informes de uso
 
-Los informes de uso de búsqueda le permiten comprender mejor cómo funciona la búsqueda en su organización. Los conocimientos generados a [](./make-content-easy-to-find.md) partir de estos informes le ayudarán a facilitar la búsqueda y la realización de acciones que hagan de la búsqueda una experiencia más útil y agradable para los usuarios.
+Los informes de uso de búsqueda le permiten comprender mejor cómo funciona la búsqueda en su organización. Los conocimientos generados a partir de estos informes le ayudarán a realizar acciones que harán que la búsqueda sea una experiencia más útil y agradable para los usuarios.
 
 > [!IMPORTANT]
 > Búsqueda de Microsoft informes de uso están actualmente en versión preliminar
 
 Los [Búsqueda de Microsoft](https://admin.microsoft.com/Adminportal/Home?#/MicrosoftSearch/insights) de uso incluyen gráficos y tablas generados a partir de búsquedas que se ejecutan desde SharePoint Home, Office.com y Búsqueda de Microsoft en Bing de búsqueda. Puede ver datos de los últimos 31 días, por día o mensualmente del año anterior. Estos informes se están implementando, por lo que llevará tiempo acumular los datos históricos.
-
-Una versión anterior de esta página incluía datos de búsquedas ejecutadas solo para Búsqueda de Microsoft en Bing en Bing.com. Esos datos ahora están integrados en estos informes; puede ver la página antigua haciendo clic en el vínculo de la parte inferior de la página para ver las consultas principales de Bing y la distribución **de impresiones**. Este vínculo y la página antigua se quitarán próximamente.
 
 > [!div class="mx-imgBorder"]
 > ![Panel de informes de uso de búsqueda.](media/usage-reports/usage_reports_v2.png)
@@ -53,9 +51,7 @@ Al navegar a la página de informes de uso, todos los informes están disponible
 
 La descarga de un informe le permitirá ver informes de un intervalo de tiempo más amplio. Haga clic en la flecha de descarga y seleccione **los últimos 31 días** o **los últimos 12 meses.** El informe se descarga como una Excel hoja de cálculo. Si seleccionó los últimos 31 días, la hoja de cálculo tendrá una pestaña individual para cada día. La descarga de los últimos 12 meses tendrá una pestaña para cada mes.
 
-Para ver Bing principales consultas e informes de distribución de impresiones, haga clic en el vínculo de la página.
-
-## <a name="frequently-asked-questions"></a>Preguntas frecuentes
+## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
 **Cuando selecciono los últimos 31 días o los últimos 12 meses, ¿por qué tengo que elegir un día específico o un mes específico?**
 
@@ -63,7 +59,7 @@ La vista de calendario, hoy en día, en los informes de uso de búsqueda de Micr
 
 Las tablas de consulta superiores, abandonadas y con errores muestran los resultados del día o del mes que elija.
 
-**Cuándo voy a ver los datos agregados de los últimos 7 días, los últimos 30 días, etc. ¿Bing informes de consultas principales de Bing?**
+**¿Cuándo voy a ver los datos agregados de los últimos 7 días, los últimos 30 días, etc....?**
 
 Estamos considerando este tipo de agregación y simplificando el filtrado del intervalo de datos para versiones futuras de estos informes.
 
@@ -73,4 +69,4 @@ Actualmente, el filtrado por origen no está disponible. Los informes combinan b
 
 **¿Qué otro filtrado para informes de uso viene?**
 
-Estamos trabajando en filtros adicionales que ayudarán a dar sentido al uso de la búsqueda en un nivel más detallado de su organización. Por ejemplo, podrá ver el volumen de consulta de un departamento o una zona geográfica específica.
+Estamos trabajando en más filtros que ayudarán a dar sentido al uso de la búsqueda en un nivel más detallado de la organización. Por ejemplo, podrá ver el volumen de consulta de un departamento o una zona geográfica específica.
