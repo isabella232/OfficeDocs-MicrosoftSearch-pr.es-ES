@@ -6,7 +6,7 @@
       href: setup-microsoft-search.md
     - name: Administrar el acceso a archivos y sitios
       href: manage-access-files-sites.md
-    - name: Preguntas más frecuentes
+    - name: Preguntas frecuentes
       href: faqs.md
 - name: Obtener información
   items:
@@ -110,6 +110,8 @@
           href: manage-classic-spo-pages.md
     - name: Búsqueda de Microsoft en Bing
       items:
+        - name: Información general
+          href: overview-microsoft-search-bing.md
         - name: Seguridad y privacidad
           href: security-for-search.md
         - name: Agregar un cuadro de búsqueda a su sitio de intranet
