@@ -33,7 +33,7 @@ additionalContent:
               url: overview-microsoft-search.md
             - text: Configurar Búsqueda de Microsoft
               url: setup-microsoft-search.md
-            - text: Preguntas frecuentes.
+            - text: Preguntas más frecuentes
               url: faqs.md
         - title: Obtener información de los usuarios
           links:
@@ -78,4 +78,4 @@ additionalContent:
             - text: Comprender Búsqueda de Microsoft en SharePoint
               url: get-started-search-in-sharepoint-online.md
             - text: Comprender Búsqueda de Microsoft en Bing
-              url: security-for-search.md
+              url: overview-microsoft-search-bing.md
