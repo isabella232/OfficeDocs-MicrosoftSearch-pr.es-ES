@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Revisar Búsqueda de Microsoft de uso
-ms.openlocfilehash: 3f6b35ddbd08d4c709ce8b8b9125caa1a6517bae
-ms.sourcegitcommit: df898c1616c7c89e819cf2900a08a319af12f8cc
+ms.openlocfilehash: 1f2afa6e2c7691aa3284ae017913827761981529
+ms.sourcegitcommit: ca6f0488b842e7fc0d98c7b84b2b8bc5817d3e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59940652"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60224871"
 ---
 # <a name="microsoft-search-usage-reports"></a>Búsqueda de Microsoft Informes de uso
 
@@ -28,7 +28,7 @@ Los informes de uso de búsqueda le permiten comprender mejor cómo funciona la 
 > [!IMPORTANT]
 > Búsqueda de Microsoft informes de uso están actualmente en versión preliminar
 
-Los [Búsqueda de Microsoft](https://admin.microsoft.com/Adminportal/Home?#/MicrosoftSearch/insights) de uso incluyen gráficos y tablas generados a partir de búsquedas que se ejecutan desde SharePoint Home, Office.com y Búsqueda de Microsoft en Bing de búsqueda. Puede ver datos de los últimos 31 días, por día o mensualmente del año anterior. Estos informes se están implementando, por lo que llevará tiempo acumular los datos históricos.
+Los informes de uso de [Búsqueda de Microsoft](https://admin.microsoft.com/Adminportal/Home?#/MicrosoftSearch/insights) incluyen gráficos y tablas generados a partir de búsquedas que se ejecutan desde SharePoint Home (el sitio con dirección URL que termina en /SharePoint.aspx), Office.com y Búsqueda de Microsoft en Bing cuadros de búsqueda. Puede ver datos de los últimos 31 días, por día o mensualmente del año anterior. Estos informes se están implementando, por lo que llevará tiempo acumular los datos históricos.
 
 > [!div class="mx-imgBorder"]
 > ![Panel de informes de uso de búsqueda.](media/usage-reports/usage_reports_v2.png)
