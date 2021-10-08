@@ -13,18 +13,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Introducción a la configuración de conectores de Graph de Microsoft
-ms.openlocfilehash: 95a2640652bd1289962c888be4ba771629806a6b
-ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
+ms.openlocfilehash: f3e622abbc54103a47a06c587a1d20190639504c
+ms.sourcegitcommit: 02d4f91210d992da080fd39d5b60f8cf30d8f0b2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59376130"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60238443"
 ---
 <!-- Previous ms.author: monaray -->
 
 <!-- markdownlint-disable no-trailing-punctuation -->
 
-# <a name="setup-overview-for-graph-connectors-by-microsoft"></a>Introducción a la configuración de conectores de Graph de Microsoft 
+# <a name="setup-overview-for-graph-connectors-by-microsoft"></a>Introducción a la configuración de conectores de Graph de Microsoft
 
 En este artículo se muestra el proceso básico necesario para configurar los conectores Graph de **microsoft** en el [Centro de administración de Microsoft 365](https://admin.microsoft.com). El proceso básico incluye los pasos siguientes:  
 <!---Add links to each section in the doc--->
@@ -87,9 +87,9 @@ Para obtener más información sobre cómo conectarse a un origen de datos local
 
 ## <a name="step-4-select-properties"></a>Paso 4: Seleccionar propiedades
 
-Puede elegir las propiedades que se indizarán mediante Búsqueda de Microsoft. 
+Puede elegir las propiedades que se indizarán mediante Búsqueda de Microsoft.
 
-La consulta ServiceNow se puede usar para filtrar los datos antes de que se indexe Búsqueda de Microsoft; esto le da más control sobre los datos que se pueden buscar. Para obtener más información acerca de las consultas de ServiceNow, vea [Learn about ServiceNow queries](https://go.microsoft.com/fwlink/?linkid=2151447). 
+La consulta ServiceNow se puede usar para filtrar los datos antes de que se indexe Búsqueda de Microsoft; esto le da más control sobre los datos que se pueden buscar. Para obtener más información acerca de las consultas de ServiceNow, vea [Learn about ServiceNow queries](https://go.microsoft.com/fwlink/?linkid=2151447).
 
 ## <a name="step-5-manage-search-permissions"></a>Paso 5: Administrar permisos de búsqueda
 
@@ -152,8 +152,7 @@ REFINE | La opción refinar se puede usar como en la página de Búsqueda de Mic
 
 Para todos los conectores excepto el conector de recurso compartido de archivos, los tipos personalizados deben establecerse manualmente. Para activar las funcionalidades de búsqueda para cada campo, necesita un esquema de búsqueda asignado a una lista de propiedades. El asistente para la conexión selecciona automáticamente un esquema de búsqueda en función del conjunto de propiedades de origen que elija. Puede modificar este esquema seleccionando las casillas de cada propiedad y atributo de la página del esquema de búsqueda.
 
-> [!div class="mx-imgBorder"]
-> ![El esquema de un conector se puede personalizar agregando o quitando funciones Query, Search y Retrieve.](media/manageschema.png)
+:::image type="content" alt-text="El esquema de un conector se puede personalizar agregando o quitando funciones Query, Search y Retrieve." source="media/manageschema.png" lightbox="media/manageschema.png":::
 
 ### <a name="restrictions-and-recommendations-for-search-schema-settings"></a>Restricciones y recomendaciones para la configuración del esquema de búsqueda
 
@@ -201,7 +200,7 @@ Vaya a la lista de las conexiones **publicadas** en la pestaña Conectores del [
 
 ## <a name="troubleshooting"></a>Solución de problemas
 <!---Insert troubleshooting recommendations for this data source-->
-Lea la información específica del conector para el origen de datos. 
+Lea la información específica del conector para el origen de datos.
 
 > [!NOTE]
 > No todos los artículos específicos del conector incluyen recomendaciones de solución de problemas en este momento.
@@ -212,6 +211,6 @@ Para obtener información sobre las limitaciones que se aplican a todos los orí
 
 Consulte la información específica del conector para el origen de datos para averiguar si se aplican otras limitaciones a ese conector de Graph específico.
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 
-Después de publicar la conexión, debe personalizar la página de resultados de búsqueda. Para obtener información sobre cómo personalizar los resultados de búsqueda, [vea Personalizar la página de resultados de búsqueda](customize-search-page.md).
+Después de publicar la conexión, debe personalizar la página de resultados de búsqueda con verticales y tipos de resultados. Para obtener información sobre cómo personalizar los resultados de búsqueda, puede revisar cómo [administrar verticales](manage-verticals.md) y tipos [de resultados](manage-result-types.md).

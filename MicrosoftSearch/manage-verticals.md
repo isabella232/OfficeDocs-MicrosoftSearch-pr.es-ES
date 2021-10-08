@@ -11,14 +11,13 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-ROBOTS: NOINDEX
 description: Administrar las verticales de búsqueda en la página de resultados
-ms.openlocfilehash: 89887b6ce5391d2473692504efa3c0eb35407b48
-ms.sourcegitcommit: 967a02ee932f8a6cee70cfd78bb0c8b1b78d07c4
+ms.openlocfilehash: 0396c1f67b22a77a39f78aa1f058ee4b2019a39c
+ms.sourcegitcommit: 02d4f91210d992da080fd39d5b60f8cf30d8f0b2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127814"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60238407"
 ---
 # <a name="manage-search-verticals"></a>Administrar verticales de búsqueda
 
@@ -86,7 +85,7 @@ Se puede agregar una consulta a una vertical para limitar los resultados que se 
 
 Estas son algunas consultas de ejemplo.
 
-|Escenario         | Query   |  
+|Escenario         | Consulta   |  
 | --------- | ------ |
 |Excluir resultados de sitios de archivo           |NOT (path:http//contoso.sharepoint.com/archive OR path:http//contoso.sharepoint.com/CompanyArchive)|
 | Excluir resultados basados en la propiedad de tipo de archivo | NOT(FileType:htm)|  

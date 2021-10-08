@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Información general sobre los conectores de Microsoft Graph para Búsqueda de Microsoft
-ms.openlocfilehash: 006ab3f56eb4976b44904e5191ae8fd256c8d5de
-ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
+ms.openlocfilehash: 2dec2d17479368bc6d85c0a5bd275461a4114800
+ms.sourcegitcommit: 02d4f91210d992da080fd39d5b60f8cf30d8f0b2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59376231"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60238398"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -76,7 +76,6 @@ Puede conectarse a los siguientes orígenes de datos mediante conectores creados
 * [Conocimiento de ServiceNow](servicenow-knowledge-connector.md)
 * [Catálogo de ServiceNow (versión preliminar)](servicenow-catalog-connector.md)
 
-
 La [galería Graph conectores de](https://www.microsoft.com/microsoft-search/connectors) microsoft contiene una breve descripción de cada uno de estos conectores. Si está listo para conectar uno de estos orígenes de datos [](configure-connector.md) al inquilino, asegúrese de leer la introducción al programa de instalación y cualquier otro artículo de la sección Setup connectors by Microsoft que se aplican al origen de datos.
 
 ### <a name="microsoft-graph-connectors-by-our-partners"></a>Conectores Graph Microsoft por parte de nuestros partners
@@ -113,7 +112,7 @@ El conjunto de conectores y características en versión preliminar incluyen:
 
 Hay muchas maneras de personalizar y configurar los resultados de búsqueda. Vea los siguientes artículos para obtener más información:
 
-* [Administrar los sectores verticales y los tipos de resultados](customize-search-page.md)
+* [Administrar verticales y](manage-verticals.md) tipos [de resultados](manage-result-types.md)
 * [Administrar los diseños de resultados de búsqueda](customize-results-layout.md)
 * [Administrar el clúster de resultados](result-cluster.md)
 * [Administrar filtros personalizados](custom-filters.md)
